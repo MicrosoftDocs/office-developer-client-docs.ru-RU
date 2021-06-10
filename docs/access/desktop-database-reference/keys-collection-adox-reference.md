@@ -1,5 +1,5 @@
 ---
-title: Справочник по коллекции Keys (ADOX)
+title: Ссылка на коллекцию ключей (ADOX)
 TOCTitle: Keys collection (ADOX)
 ms:assetid: e604e8b3-bc2a-4075-a7d5-cc840a0f66c2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250168(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290178"
 ---
-# <a name="keys-collection-adox-reference"></a><span data-ttu-id="d894d-102">Справочник по коллекции Keys (ADOX)</span><span class="sxs-lookup"><span data-stu-id="d894d-102">Keys collection (ADOX) reference</span></span>
+# <a name="keys-collection-adox-reference"></a><span data-ttu-id="e0d5d-102">Ссылка на коллекцию ключей (ADOX)</span><span class="sxs-lookup"><span data-stu-id="e0d5d-102">Keys collection (ADOX) reference</span></span>
 
-<span data-ttu-id="d894d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d894d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e0d5d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0d5d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="d894d-104">Коллекция Keys (ADOX)</span><span class="sxs-lookup"><span data-stu-id="d894d-104">Keys collection (ADOX)</span></span>](keys-collection-adox.md)
-- [<span data-ttu-id="d894d-105">Свойства, методы и события коллекции Keys (ADOX)</span><span class="sxs-lookup"><span data-stu-id="d894d-105">Keys collection properties, methods, and events (ADOX)</span></span>](keys-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="e0d5d-104">Коллекция ключей (ADOX)</span><span class="sxs-lookup"><span data-stu-id="e0d5d-104">Keys collection (ADOX)</span></span>](keys-collection-adox.md)
+- [<span data-ttu-id="e0d5d-105">Свойства, методы и события коллекции ключей (ADOX)</span><span class="sxs-lookup"><span data-stu-id="e0d5d-105">Keys collection properties, methods, and events (ADOX)</span></span>](keys-collection-properties-methods-and-events-adox.md)
 

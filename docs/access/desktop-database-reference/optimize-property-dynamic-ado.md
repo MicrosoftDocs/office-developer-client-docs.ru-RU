@@ -14,26 +14,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288254"
 ---
-# <a name="optimize-dynamic-property-ado"></a><span data-ttu-id="56e02-102">Оптимизация динамического свойства (ADO)</span><span class="sxs-lookup"><span data-stu-id="56e02-102">Optimize dynamic property (ADO)</span></span>
+# <a name="optimize-dynamic-property-ado"></a><span data-ttu-id="0f24c-102">Оптимизация динамического свойства (ADO)</span><span class="sxs-lookup"><span data-stu-id="0f24c-102">Optimize dynamic property (ADO)</span></span>
 
 
-<span data-ttu-id="56e02-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="56e02-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0f24c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0f24c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="56e02-104">Указывает, следует ли создавать индекс для поля.</span><span class="sxs-lookup"><span data-stu-id="56e02-104">Specifies whether an index should be created on a field.</span></span>
+<span data-ttu-id="0f24c-104">Указывает, следует ли создавать индекс на поле.</span><span class="sxs-lookup"><span data-stu-id="0f24c-104">Specifies whether an index should be created on a field.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="56e02-105">Параметры и возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="56e02-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="0f24c-105">Параметры и значения возврата</span><span class="sxs-lookup"><span data-stu-id="0f24c-105">Settings and return values</span></span>
 
-<span data-ttu-id="56e02-106">Задает или возвращает **boolean значение,** которое указывает, следует ли создать индекс.</span><span class="sxs-lookup"><span data-stu-id="56e02-106">Sets or returns a **Boolean** value that indicates whether an index should be created.</span></span>
+<span data-ttu-id="0f24c-106">Задает или возвращает значение **Boolean,** которое указывает, следует ли создавать индекс.</span><span class="sxs-lookup"><span data-stu-id="0f24c-106">Sets or returns a **Boolean** value that indicates whether an index should be created.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="56e02-107">Заметки</span><span class="sxs-lookup"><span data-stu-id="56e02-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0f24c-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="0f24c-107">Remarks</span></span>
 
-<span data-ttu-id="56e02-108">Индекс может повысить производительность операций поиска или сортировки значений в [наборе записей.](recordset-object-ado.md)</span><span class="sxs-lookup"><span data-stu-id="56e02-108">An index can improve the performance of operations that find or sort values in a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="56e02-109">Индекс является внутренним для ADO — вы не можете получить явный доступ или использовать его в приложении.</span><span class="sxs-lookup"><span data-stu-id="56e02-109">The index is internal to ADO — you cannot explicitly access or use it in your application.</span></span>
+<span data-ttu-id="0f24c-108">Индекс может повысить производительность операций, которые находят или сортировать значения в [наборе Recordset.](recordset-object-ado.md)</span><span class="sxs-lookup"><span data-stu-id="0f24c-108">An index can improve the performance of operations that find or sort values in a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="0f24c-109">Индекс является внутренним для ADO — вы не можете получить явный доступ или использовать его в приложении.</span><span class="sxs-lookup"><span data-stu-id="0f24c-109">The index is internal to ADO — you cannot explicitly access or use it in your application.</span></span>
 
-<span data-ttu-id="56e02-110">Чтобы создать индекс для поля, установите для свойства **Optimize** свойство **True.**</span><span class="sxs-lookup"><span data-stu-id="56e02-110">To create an index on a field, set the **Optimize** property to **True**.</span></span> <span data-ttu-id="56e02-111">Чтобы удалить индекс, установите для этого свойства свойство **False.**</span><span class="sxs-lookup"><span data-stu-id="56e02-111">To delete the index, set this property to **False**.</span></span>
+<span data-ttu-id="0f24c-110">Чтобы создать индекс в поле, установите свойство Оптимизируйте true **.** </span><span class="sxs-lookup"><span data-stu-id="0f24c-110">To create an index on a field, set the **Optimize** property to **True**.</span></span> <span data-ttu-id="0f24c-111">Чтобы удалить индекс, установите это свойство **false**.</span><span class="sxs-lookup"><span data-stu-id="0f24c-111">To delete the index, set this property to **False**.</span></span>
 
-<span data-ttu-id="56e02-112">**Оптимизация** — это динамическое свойство, [](properties-collection-ado.md) которое применится к коллекции свойств объекта [Field,](field-object-ado.md) когда свойству [CursorLocation](cursorlocation-property-ado.md) задано свойство **adUseClient.**</span><span class="sxs-lookup"><span data-stu-id="56e02-112">**Optimize** is a dynamic property appended to the [Field](field-object-ado.md) object [Properties](properties-collection-ado.md) collection when the [CursorLocation](cursorlocation-property-ado.md) property is set to **adUseClient**.</span></span>
+<span data-ttu-id="0f24c-112">**Оптимизация** — это динамическое свойство, [](properties-collection-ado.md) которое примыкает к коллекции свойств объектов [Field,](field-object-ado.md) когда свойство [CursorLocation](cursorlocation-property-ado.md) задано **для adUseClient.**</span><span class="sxs-lookup"><span data-stu-id="0f24c-112">**Optimize** is a dynamic property appended to the [Field](field-object-ado.md) object [Properties](properties-collection-ado.md) collection when the [CursorLocation](cursorlocation-property-ado.md) property is set to **adUseClient**.</span></span>
 
-<span data-ttu-id="56e02-113">**Использование**</span><span class="sxs-lookup"><span data-stu-id="56e02-113">**Usage**</span></span>
+<span data-ttu-id="0f24c-113">**Использование**</span><span class="sxs-lookup"><span data-stu-id="0f24c-113">**Usage**</span></span>
 
 ```vb
     Dim rs As New Recordset

@@ -1,5 +1,5 @@
 ---
-title: Index object reference (DAO)
+title: Ссылка на объект index (DAO)
 TOCTitle: Index Object
 ms:assetid: 726de957-7f4f-4bd2-86fb-506c3e65cd44
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn160986(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291763"
 ---
-# <a name="index-object-reference-dao"></a><span data-ttu-id="d4a1c-102">Index object reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="d4a1c-102">Index object reference (DAO)</span></span>
+# <a name="index-object-reference-dao"></a><span data-ttu-id="50d19-102">Ссылка на объект index (DAO)</span><span class="sxs-lookup"><span data-stu-id="50d19-102">Index object reference (DAO)</span></span>
 
-<span data-ttu-id="d4a1c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d4a1c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="50d19-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="50d19-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="d4a1c-104">Объект Index (DAO)</span><span class="sxs-lookup"><span data-stu-id="d4a1c-104">Index object (DAO)</span></span>](index-object-dao.md)
-- [<span data-ttu-id="d4a1c-105">Index members (DAO)</span><span class="sxs-lookup"><span data-stu-id="d4a1c-105">Index members (DAO)</span></span>](index-members-dao.md)
-- [<span data-ttu-id="d4a1c-106">Свойства индекса (DAO)</span><span class="sxs-lookup"><span data-stu-id="d4a1c-106">Index properties (DAO)</span></span>](index-properties-dao.md)
-- [<span data-ttu-id="d4a1c-107">Методы Index (DAO)</span><span class="sxs-lookup"><span data-stu-id="d4a1c-107">Index methods (DAO)</span></span>](index-methods-dao.md)
+- [<span data-ttu-id="50d19-104">Объект Index (DAO)</span><span class="sxs-lookup"><span data-stu-id="50d19-104">Index object (DAO)</span></span>](index-object-dao.md)
+- [<span data-ttu-id="50d19-105">Участники индекса (DAO)</span><span class="sxs-lookup"><span data-stu-id="50d19-105">Index members (DAO)</span></span>](index-members-dao.md)
+- [<span data-ttu-id="50d19-106">Свойства индекса (DAO)</span><span class="sxs-lookup"><span data-stu-id="50d19-106">Index properties (DAO)</span></span>](index-properties-dao.md)
+- [<span data-ttu-id="50d19-107">Методы индексации (DAO)</span><span class="sxs-lookup"><span data-stu-id="50d19-107">Index methods (DAO)</span></span>](index-methods-dao.md)
 

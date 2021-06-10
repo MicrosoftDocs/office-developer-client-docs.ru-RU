@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294430"
 ---
-# <a name="datecreated-and-datemodified-properties-example-vb"></a><span data-ttu-id="6fa72-102">Пример использования свойств DateCreated и DateModified (VB)</span><span class="sxs-lookup"><span data-stu-id="6fa72-102">DateCreated and DateModified properties example (VB)</span></span>
+# <a name="datecreated-and-datemodified-properties-example-vb"></a><span data-ttu-id="4cecb-102">Пример использования свойств DateCreated и DateModified (VB)</span><span class="sxs-lookup"><span data-stu-id="4cecb-102">DateCreated and DateModified properties example (VB)</span></span>
 
 
-<span data-ttu-id="6fa72-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6fa72-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4cecb-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4cecb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6fa72-104">В этом примере демонстрируются свойства [DateCreated](datecreated-property-adox.md) и [](column-object-adox.md) [DateModified](datemodified-property-adox.md) [](table-object-adox.md) путем добавления нового столбца в существующую таблицу и создания новой **таблицы.**</span><span class="sxs-lookup"><span data-stu-id="6fa72-104">This example demonstrates the [DateCreated](datecreated-property-adox.md) and [DateModified](datemodified-property-adox.md) properties by adding a new [Column](column-object-adox.md) to an existing [Table](table-object-adox.md) and by creating a new **Table**.</span></span> <span data-ttu-id="6fa72-105">Для запуска этого примера требуется процедура DateOutput.</span><span class="sxs-lookup"><span data-stu-id="6fa72-105">The DateOutput procedure is required for this example to run.</span></span>
+<span data-ttu-id="4cecb-104">В этом примере демонстрируются свойства [DateCreated](datecreated-property-adox.md) и [](column-object-adox.md) [DateModified](datemodified-property-adox.md) [](table-object-adox.md) путем добавления нового столбца в существующую таблицу и создания новой **таблицы.**</span><span class="sxs-lookup"><span data-stu-id="4cecb-104">This example demonstrates the [DateCreated](datecreated-property-adox.md) and [DateModified](datemodified-property-adox.md) properties by adding a new [Column](column-object-adox.md) to an existing [Table](table-object-adox.md) and by creating a new **Table**.</span></span> <span data-ttu-id="4cecb-105">Процедура DateOutput необходима для запуска этого примера.</span><span class="sxs-lookup"><span data-stu-id="4cecb-105">The DateOutput procedure is required for this example to run.</span></span>
 
 ```vb 
  

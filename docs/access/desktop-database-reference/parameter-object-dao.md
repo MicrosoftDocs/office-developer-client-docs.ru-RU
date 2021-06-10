@@ -14,30 +14,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288086"
 ---
-# <a name="parameter-object-dao"></a><span data-ttu-id="132c4-102">Объект Parameter (DAO)</span><span class="sxs-lookup"><span data-stu-id="132c4-102">Parameter object (DAO)</span></span>
+# <a name="parameter-object-dao"></a><span data-ttu-id="876b2-102">Объект Parameter (DAO)</span><span class="sxs-lookup"><span data-stu-id="876b2-102">Parameter object (DAO)</span></span>
 
 
-<span data-ttu-id="132c4-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="132c4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="876b2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="876b2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="132c4-104">Объект **Parameter** представляет значение, предоставленного запросу.</span><span class="sxs-lookup"><span data-stu-id="132c4-104">A **Parameter** object represents a value supplied to a query.</span></span> <span data-ttu-id="132c4-105">Параметр связан с объектом **QueryDef,** созданным из запроса параметра.</span><span class="sxs-lookup"><span data-stu-id="132c4-105">The parameter is associated with a **QueryDef** object created from a parameter query.</span></span>
+<span data-ttu-id="876b2-104">Объект **Parameter** представляет значение, предоставленного запросу.</span><span class="sxs-lookup"><span data-stu-id="876b2-104">A **Parameter** object represents a value supplied to a query.</span></span> <span data-ttu-id="876b2-105">Параметр связан с объектом **QueryDef,** созданным из запроса параметра.</span><span class="sxs-lookup"><span data-stu-id="876b2-105">The parameter is associated with a **QueryDef** object created from a parameter query.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="132c4-106">Заметки</span><span class="sxs-lookup"><span data-stu-id="132c4-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="876b2-106">Примечания</span><span class="sxs-lookup"><span data-stu-id="876b2-106">Remarks</span></span>
 
-<span data-ttu-id="132c4-107">**Объекты** параметров позволяют изменять аргументы в часто запускаемом объекте **QueryDef** без необходимости перекомпилации запроса.</span><span class="sxs-lookup"><span data-stu-id="132c4-107">**Parameter** objects allow you to change the arguments in a frequently run **QueryDef** object without having to recompile the query.</span></span>
+<span data-ttu-id="876b2-107">**Объекты** параметра позволяют изменять аргументы в часто запускаемом объекте **QueryDef** без повторнойкомплектации запроса.</span><span class="sxs-lookup"><span data-stu-id="876b2-107">**Parameter** objects allow you to change the arguments in a frequently run **QueryDef** object without having to recompile the query.</span></span>
 
-<span data-ttu-id="132c4-108">С помощью свойств объекта **Parameter** можно настроить параметр запроса, который можно изменить перед запуском запроса.</span><span class="sxs-lookup"><span data-stu-id="132c4-108">Using the properties of a **Parameter** object, you can set a query parameter that can be changed before the query is run.</span></span> <span data-ttu-id="132c4-109">Вы можете выполнить указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="132c4-109">You can:</span></span>
+<span data-ttu-id="876b2-108">С помощью свойств объекта **Parameter** можно установить параметр запроса, который можно изменить перед запуском запроса.</span><span class="sxs-lookup"><span data-stu-id="876b2-108">Using the properties of a **Parameter** object, you can set a query parameter that can be changed before the query is run.</span></span> <span data-ttu-id="876b2-109">Вы получаете перечисленные ниже возможности.</span><span class="sxs-lookup"><span data-stu-id="876b2-109">You can:</span></span>
 
-  - <span data-ttu-id="132c4-110">Используйте свойство **Name,** чтобы вернуть имя параметра.</span><span class="sxs-lookup"><span data-stu-id="132c4-110">Use the **Name** property to return the name of a parameter.</span></span>
+  - <span data-ttu-id="876b2-110">Чтобы вернуть имя параметра, используйте свойство **Name.**</span><span class="sxs-lookup"><span data-stu-id="876b2-110">Use the **Name** property to return the name of a parameter.</span></span>
 
-  - <span data-ttu-id="132c4-111">Используйте свойство **Value,** чтобы установить или вернуть значения параметров, которые будут использоваться в запросе.</span><span class="sxs-lookup"><span data-stu-id="132c4-111">Use the **Value** property to set or return the parameter values to be used in the query.</span></span>
+  - <span data-ttu-id="876b2-111">Используйте свойство **Value** для набора или возврата значений параметров, которые будут использоваться в запросе.</span><span class="sxs-lookup"><span data-stu-id="876b2-111">Use the **Value** property to set or return the parameter values to be used in the query.</span></span>
 
-  - <span data-ttu-id="132c4-112">Используйте свойство **Type** для возврата типа данных объекта **Parameter.**</span><span class="sxs-lookup"><span data-stu-id="132c4-112">Use the **Type** property to return the data type of the **Parameter** object.</span></span>
+  - <span data-ttu-id="876b2-112">Чтобы **вернуть** тип данных объекта Parameter, используйте свойство **Type.**</span><span class="sxs-lookup"><span data-stu-id="876b2-112">Use the **Type** property to return the data type of the **Parameter** object.</span></span>
 
-  - <span data-ttu-id="132c4-113">Используйте свойство **Direction,** чтобы установить или вернуть, является ли параметр входным параметром, выходным параметром или и тем, и другим.</span><span class="sxs-lookup"><span data-stu-id="132c4-113">Use the **Direction** property to set or return whether the parameter is an input parameter, an output parameter, or both.</span></span>
+  - <span data-ttu-id="876b2-113">Используйте свойство **Direction** для набора или возврата параметра ввода, параметра вывода или обоих.</span><span class="sxs-lookup"><span data-stu-id="876b2-113">Use the **Direction** property to set or return whether the parameter is an input parameter, an output parameter, or both.</span></span>
 
-## <a name="example"></a><span data-ttu-id="132c4-114">Пример</span><span class="sxs-lookup"><span data-stu-id="132c4-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="876b2-114">Пример</span><span class="sxs-lookup"><span data-stu-id="876b2-114">Example</span></span>
 
-<span data-ttu-id="132c4-115">В этом примере демонстрируются объекты **Parameter** и коллекция **Parameters** путем создания временного объекта **QueryDef** и получения данных с учетом изменений, внесенных в **Parameters** объекта **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="132c4-115">This example demonstrates **Parameter** objects and the **Parameters** collection by creating a temporary **QueryDef** and retrieving data based on changes made to the **QueryDef** object's **Parameters**.</span></span> <span data-ttu-id="132c4-116">Процедура ParametersChange является обязательной для запуска этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="132c4-116">The ParametersChange procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="876b2-115">В этом примере демонстрируются объекты **Parameter** и коллекция **Parameters** путем создания временного объекта **QueryDef** и получения данных с учетом изменений, внесенных в **Parameters** объекта **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="876b2-115">This example demonstrates **Parameter** objects and the **Parameters** collection by creating a temporary **QueryDef** and retrieving data based on changes made to the **QueryDef** object's **Parameters**.</span></span> <span data-ttu-id="876b2-116">Процедура ParametersChange является обязательной для запуска этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="876b2-116">The ParametersChange procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub ParameterX() 

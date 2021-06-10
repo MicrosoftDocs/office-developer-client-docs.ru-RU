@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292043"
 ---
-# <a name="handling-errors-in-jscript"></a><span data-ttu-id="dd8ed-102">Обработка ошибок в JScript</span><span class="sxs-lookup"><span data-stu-id="dd8ed-102">Handling errors in JScript</span></span>
+# <a name="handling-errors-in-jscript"></a><span data-ttu-id="81a18-102">Обработка ошибок в JScript</span><span class="sxs-lookup"><span data-stu-id="81a18-102">Handling errors in JScript</span></span>
 
 
-<span data-ttu-id="dd8ed-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dd8ed-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="81a18-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="81a18-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="dd8ed-104">Код Microsoft JScript должен проверить свойство **Count** коллекции **errors** объекта **Connection.**</span><span class="sxs-lookup"><span data-stu-id="dd8ed-104">Your Microsoft JScript code must check the **Count** property of the **Connection** object's **Errors** collection.</span></span> <span data-ttu-id="dd8ed-105">Если значение больше 0, итерации по коллекции и печать значений, как на любом из других языков.</span><span class="sxs-lookup"><span data-stu-id="dd8ed-105">If the value is greater than 0, iterate through the collection and print the values as you would in any of the other languages.</span></span>
+<span data-ttu-id="81a18-104">Код microsoft JScript должен проверить свойство **Count** **из** коллекции ошибок объекта **Подключения.**</span><span class="sxs-lookup"><span data-stu-id="81a18-104">Your Microsoft JScript code must check the **Count** property of the **Connection** object's **Errors** collection.</span></span> <span data-ttu-id="81a18-105">Если значение больше 0, итерировать в коллекции и распечатать значения, как это было бы на любом из других языков.</span><span class="sxs-lookup"><span data-stu-id="81a18-105">If the value is greater than 0, iterate through the collection and print the values as you would in any of the other languages.</span></span>
 
 ```javascript 
  

@@ -14,19 +14,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291653"
 ---
-# <a name="indexesappend-method-dao"></a><span data-ttu-id="d2ba1-102">Метод Indexes.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="d2ba1-102">Indexes.Append method (DAO)</span></span>
+# <a name="indexesappend-method-dao"></a><span data-ttu-id="95426-102">Метод Indexes.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="95426-102">Indexes.Append method (DAO)</span></span>
 
-<span data-ttu-id="d2ba1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2ba1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="95426-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="95426-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d2ba1-104">Добавляет новый **индекс** в коллекцию **Indexes.**</span><span class="sxs-lookup"><span data-stu-id="d2ba1-104">Adds a new **Index** to the **Indexes** collection.</span></span>
+<span data-ttu-id="95426-104">Добавляет новый **индекс** в коллекцию **Indexes.**</span><span class="sxs-lookup"><span data-stu-id="95426-104">Adds a new **Index** to the **Indexes** collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d2ba1-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d2ba1-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="95426-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="95426-105">Syntax</span></span>
 
-<span data-ttu-id="d2ba1-106">*выражение* .Append(***Object***)</span><span class="sxs-lookup"><span data-stu-id="d2ba1-106">*expression* .Append(***Object***)</span></span>
+<span data-ttu-id="95426-106">*выражение* .Append(***Object***)</span><span class="sxs-lookup"><span data-stu-id="95426-106">*expression* .Append(***Object***)</span></span>
 
-<span data-ttu-id="d2ba1-107">*выражение* Переменная, представляюная объект **Indexes.**</span><span class="sxs-lookup"><span data-stu-id="d2ba1-107">*expression* A variable that represents an **Indexes** object.</span></span>
+<span data-ttu-id="95426-107">*выражение* Переменная, представляюная объект **Indexes.**</span><span class="sxs-lookup"><span data-stu-id="95426-107">*expression* A variable that represents an **Indexes** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="d2ba1-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="d2ba1-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="95426-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="95426-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,28 +37,28 @@ ms.locfileid: "32291653"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d2ba1-109">Имя</span><span class="sxs-lookup"><span data-stu-id="d2ba1-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="d2ba1-110">Обязательный/необязательный</span><span class="sxs-lookup"><span data-stu-id="d2ba1-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="d2ba1-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="d2ba1-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="d2ba1-112">Описание</span><span class="sxs-lookup"><span data-stu-id="d2ba1-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="95426-109">Имя</span><span class="sxs-lookup"><span data-stu-id="95426-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="95426-110">Обязательный/необязательный</span><span class="sxs-lookup"><span data-stu-id="95426-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="95426-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="95426-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="95426-112">Описание</span><span class="sxs-lookup"><span data-stu-id="95426-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d2ba1-113"><em>Object</em></span><span class="sxs-lookup"><span data-stu-id="d2ba1-113"><em>Object</em></span></span></p></td>
-<td><p><span data-ttu-id="d2ba1-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="d2ba1-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="d2ba1-115"><strong>Object</strong></span><span class="sxs-lookup"><span data-stu-id="d2ba1-115"><strong>Object</strong></span></span></p></td>
-<td><p><span data-ttu-id="d2ba1-116">Объектная переменная, представляюная элемент, который будет придан коллекции.</span><span class="sxs-lookup"><span data-stu-id="d2ba1-116">An object variable that represents the item being appended to the collection.</span></span></p></td>
+<td><p><span data-ttu-id="95426-113"><em>Object</em></span><span class="sxs-lookup"><span data-stu-id="95426-113"><em>Object</em></span></span></p></td>
+<td><p><span data-ttu-id="95426-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="95426-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="95426-115"><strong>Object</strong></span><span class="sxs-lookup"><span data-stu-id="95426-115"><strong>Object</strong></span></span></p></td>
+<td><p><span data-ttu-id="95426-116">Переменная объекта, которая представляет элемент, который примыкает к коллекции.</span><span class="sxs-lookup"><span data-stu-id="95426-116">An object variable that represents the item being appended to the collection.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="d2ba1-117">Заметки</span><span class="sxs-lookup"><span data-stu-id="d2ba1-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="95426-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="95426-117">Remarks</span></span>
 
-<span data-ttu-id="d2ba1-118">Добавляемый объект становится постоянным объектом, хранящимся на диске, пока вы не удалите его с помощью метода **Delete**.</span><span class="sxs-lookup"><span data-stu-id="d2ba1-118">The appended object becomes a persistent object, stored on disk, until you delete it by using the **Delete** method.</span></span>
+<span data-ttu-id="95426-118">Добавляемый объект становится постоянным объектом, хранящимся на диске, пока вы не удалите его с помощью метода **Delete**.</span><span class="sxs-lookup"><span data-stu-id="95426-118">The appended object becomes a persistent object, stored on disk, until you delete it by using the **Delete** method.</span></span>
 
-<span data-ttu-id="d2ba1-119">Добавление нового объекта происходит незамедлительно, но следует применить метод **Refresh** для любых других коллекций, которые могут быть затронуты изменениями в структуре базы данных.</span><span class="sxs-lookup"><span data-stu-id="d2ba1-119">The addition of a new object occurs immediately, but you should use the **Refresh** method on any other collections that may be affected by changes to the database structure.</span></span>
+<span data-ttu-id="95426-119">Добавление нового объекта происходит незамедлительно, но следует применить метод **Refresh** для любых других коллекций, которые могут быть затронуты изменениями в структуре базы данных.</span><span class="sxs-lookup"><span data-stu-id="95426-119">The addition of a new object occurs immediately, but you should use the **Refresh** method on any other collections that may be affected by changes to the database structure.</span></span>
 
-<span data-ttu-id="d2ba1-120">Если добавляемый объект неполный (например, если не добавлены объекты **Field** в коллекцию **Fields** объекта **Index** перед его добавлением в коллекцию **Indexes**) или заданы неверные свойства в одном или нескольких подчиненных объектах, применение метода **Append** вызывает ошибку.</span><span class="sxs-lookup"><span data-stu-id="d2ba1-120">If the object you're appending isn't complete (such as when you haven't appended any **Field** objects to a **Fields** collection of an **Index** object before it's appended to an **Indexes** collection) or if the properties set in one or more subordinate objects are incorrect, using the **Append** method causes an error.</span></span> <span data-ttu-id="d2ba1-121">Например, если не указан тип поля и выполняется попытка добавить объект **Field** в коллекцию **Fields** объекта **TableDef**, применение метода **Append** вызывает ошибку во время выполнения.</span><span class="sxs-lookup"><span data-stu-id="d2ba1-121">For example, if you haven’t specified a field type and then try to append the **Field** object to the **Fields** collection in a **TableDef** object, using the **Append** method triggers a run-time error.</span></span>
+<span data-ttu-id="95426-120">Если добавляемый объект неполный (например, если не добавлены объекты **Field** в коллекцию **Fields** объекта **Index** перед его добавлением в коллекцию **Indexes**) или заданы неверные свойства в одном или нескольких подчиненных объектах, применение метода **Append** вызывает ошибку.</span><span class="sxs-lookup"><span data-stu-id="95426-120">If the object you're appending isn't complete (such as when you haven't appended any **Field** objects to a **Fields** collection of an **Index** object before it's appended to an **Indexes** collection) or if the properties set in one or more subordinate objects are incorrect, using the **Append** method causes an error.</span></span> <span data-ttu-id="95426-121">Например, если не указан тип поля и выполняется попытка добавить объект **Field** в коллекцию **Fields** объекта **TableDef**, применение метода **Append** вызывает ошибку во время выполнения.</span><span class="sxs-lookup"><span data-stu-id="95426-121">For example, if you haven’t specified a field type and then try to append the **Field** object to the **Fields** collection in a **TableDef** object, using the **Append** method triggers a run-time error.</span></span>
 

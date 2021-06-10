@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292274"
 ---
-# <a name="getpermissions-and-setpermissions-methods-example-vb"></a><span data-ttu-id="55c93-102">Пример использования методов GetPermissions и SetPermissions (VB)</span><span class="sxs-lookup"><span data-stu-id="55c93-102">GetPermissions and SetPermissions methods example (VB)</span></span>
+# <a name="getpermissions-and-setpermissions-methods-example-vb"></a><span data-ttu-id="cab25-102">Пример использования методов GetPermissions и SetPermissions (VB)</span><span class="sxs-lookup"><span data-stu-id="cab25-102">GetPermissions and SetPermissions methods example (VB)</span></span>
 
 
-<span data-ttu-id="55c93-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="55c93-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cab25-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cab25-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="55c93-104">В этом примере демонстрируются методы [GetPermissions](getpermissions-method-adox.md) и [SetPermissions.](setpermissions-method-adox.md)</span><span class="sxs-lookup"><span data-stu-id="55c93-104">This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods.</span></span> <span data-ttu-id="55c93-105">Следующий код предоставляет пользователю-администратору полный доступ к таблице "Заказы".</span><span class="sxs-lookup"><span data-stu-id="55c93-105">The following code gives full access for the Orders table to the Admin user.</span></span>
+<span data-ttu-id="cab25-104">В этом примере демонстрируются методы [GetPermissions](getpermissions-method-adox.md) и [SetPermissions.](setpermissions-method-adox.md)</span><span class="sxs-lookup"><span data-stu-id="cab25-104">This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods.</span></span> <span data-ttu-id="cab25-105">Следующий код предоставляет полный доступ для таблицы "Заказы" пользователю Admin.</span><span class="sxs-lookup"><span data-stu-id="cab25-105">The following code gives full access for the Orders table to the Admin user.</span></span>
 
 ```vb 
  

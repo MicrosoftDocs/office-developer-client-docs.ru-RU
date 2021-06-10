@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290008"
 ---
-# <a name="leveldepth-property-ado-md"></a><span data-ttu-id="9a150-102">Свойство LevelDepth (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="9a150-102">LevelDepth property (ADO MD)</span></span>
+# <a name="leveldepth-property-ado-md"></a><span data-ttu-id="94e5b-102">Свойство LevelDepth (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="94e5b-102">LevelDepth property (ADO MD)</span></span>
 
 
-<span data-ttu-id="9a150-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9a150-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="94e5b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="94e5b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9a150-104">Указывает количество уровней между корнем иерархии и членом.</span><span class="sxs-lookup"><span data-stu-id="9a150-104">Indicates the number of levels between the root of the hierarchy and a member.</span></span>
+<span data-ttu-id="94e5b-104">Указывает количество уровней между корнем иерархии и членом.</span><span class="sxs-lookup"><span data-stu-id="94e5b-104">Indicates the number of levels between the root of the hierarchy and a member.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="9a150-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="9a150-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="94e5b-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="94e5b-105">Return values</span></span>
 
-<span data-ttu-id="9a150-106">Возвращает **длинное** integer и является только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9a150-106">Returns a **Long** integer, and is read-only.</span></span>
+<span data-ttu-id="94e5b-106">Возвращает длинный **ряд** и является только для чтения.</span><span class="sxs-lookup"><span data-stu-id="94e5b-106">Returns a **Long** integer, and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="9a150-107">Заметки</span><span class="sxs-lookup"><span data-stu-id="9a150-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="94e5b-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="94e5b-107">Remarks</span></span>
 
-<span data-ttu-id="9a150-108">Используйте свойство **LevelDepth,** чтобы определить расстояние объекта [Member](member-object-ado-md.md) от корневого уровня иерархии.</span><span class="sxs-lookup"><span data-stu-id="9a150-108">Use the **LevelDepth** property to determine the distance of the [Member](member-object-ado-md.md) object from the root level of the hierarchy.</span></span> <span data-ttu-id="9a150-109">**LevelDepth** члена на корневом уровне — 0.</span><span class="sxs-lookup"><span data-stu-id="9a150-109">The **LevelDepth** of a member at the root level is 0.</span></span> <span data-ttu-id="9a150-110">Это соответствует свойству [Depth](depth-property-ado-md.md) объекта [Level.](level-object-ado-md.md)</span><span class="sxs-lookup"><span data-stu-id="9a150-110">This corresponds to the [Depth](depth-property-ado-md.md) property of a [Level](level-object-ado-md.md) object.</span></span>
+<span data-ttu-id="94e5b-108">Используйте **свойство LevelDepth,** чтобы определить расстояние объекта [Member](member-object-ado-md.md) от корневого уровня иерархии.</span><span class="sxs-lookup"><span data-stu-id="94e5b-108">Use the **LevelDepth** property to determine the distance of the [Member](member-object-ado-md.md) object from the root level of the hierarchy.</span></span> <span data-ttu-id="94e5b-109">**LevelDepth** участника на корневом уровне — 0.</span><span class="sxs-lookup"><span data-stu-id="94e5b-109">The **LevelDepth** of a member at the root level is 0.</span></span> <span data-ttu-id="94e5b-110">Это соответствует свойству [Depth](depth-property-ado-md.md) объекта [Level.](level-object-ado-md.md)</span><span class="sxs-lookup"><span data-stu-id="94e5b-110">This corresponds to the [Depth](depth-property-ado-md.md) property of a [Level](level-object-ado-md.md) object.</span></span>
 

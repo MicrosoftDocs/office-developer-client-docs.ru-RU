@@ -14,31 +14,31 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294740"
 ---
-# <a name="databasequerytimeout-property-dao"></a><span data-ttu-id="67bc9-102">Свойство Database.QueryTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="67bc9-102">Database.QueryTimeout property (DAO)</span></span>
+# <a name="databasequerytimeout-property-dao"></a><span data-ttu-id="3f15f-102">Свойство Database.QueryTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="3f15f-102">Database.QueryTimeout property (DAO)</span></span>
 
 
-<span data-ttu-id="67bc9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="67bc9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3f15f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3f15f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="67bc9-104">Задает или возвращает значение, которое указывает количество секунд ожидания до возникновения ошибки времени ожидания при выполнении запроса в источнике данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="67bc9-104">Sets or returns a value that specifies the number of seconds to wait before a timeout error occurs when a query is executed on an ODBC data source.</span></span>
+<span data-ttu-id="3f15f-104">Задает или возвращает значение, которое указывает количество секунд, которые необходимо ждать до возникновения ошибки при выполнении запроса в источнике данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="3f15f-104">Sets or returns a value that specifies the number of seconds to wait before a timeout error occurs when a query is executed on an ODBC data source.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="67bc9-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="67bc9-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3f15f-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="3f15f-105">Syntax</span></span>
 
-<span data-ttu-id="67bc9-106">*выражение .* QueryTimeout</span><span class="sxs-lookup"><span data-stu-id="67bc9-106">*expression* .QueryTimeout</span></span>
+<span data-ttu-id="3f15f-106">*выражения* . QueryTimeout</span><span class="sxs-lookup"><span data-stu-id="3f15f-106">*expression* .QueryTimeout</span></span>
 
-<span data-ttu-id="67bc9-107">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="67bc9-107">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="3f15f-107">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="3f15f-107">*expression* A variable that represents a **Database** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="67bc9-108">Заметки</span><span class="sxs-lookup"><span data-stu-id="67bc9-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3f15f-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="3f15f-108">Remarks</span></span>
 
-<span data-ttu-id="67bc9-109">Значение по умолчанию  60.</span><span class="sxs-lookup"><span data-stu-id="67bc9-109">The default value is 60.</span></span>
+<span data-ttu-id="3f15f-109">Значение по умолчанию  60.</span><span class="sxs-lookup"><span data-stu-id="3f15f-109">The default value is 60.</span></span>
 
-<span data-ttu-id="67bc9-110">При использовании базы данных ODBC, например Microsoft SQL Server, могут возникнуть задержки из-за сетевого трафика или интенсивного использования сервера ODBC.</span><span class="sxs-lookup"><span data-stu-id="67bc9-110">When you're using an ODBC database, such as Microsoft SQL Server, there may be delays due to network traffic or heavy use of the ODBC server.</span></span> <span data-ttu-id="67bc9-111">Вместо того чтобы ждать неопределенное время, можно указать время ожидания.</span><span class="sxs-lookup"><span data-stu-id="67bc9-111">Rather than waiting indefinitely, you can specify how long to wait.</span></span>
+<span data-ttu-id="3f15f-110">При использовании базы данных ODBC, например Microsoft SQL Server, могут возникнуть задержки из-за сетевого трафика или интенсивного использования сервера ODBC.</span><span class="sxs-lookup"><span data-stu-id="3f15f-110">When you're using an ODBC database, such as Microsoft SQL Server, there may be delays due to network traffic or heavy use of the ODBC server.</span></span> <span data-ttu-id="3f15f-111">Вместо того, чтобы ждать бесконечно, можно указать, как долго ждать.</span><span class="sxs-lookup"><span data-stu-id="3f15f-111">Rather than waiting indefinitely, you can specify how long to wait.</span></span>
 
-<span data-ttu-id="67bc9-112">При использовании **QueryTimeout** с объектом **[Connection](connection-object-dao.md)** или **[Database](database-object-dao.md)** указывается глобальное значение для всех запросов, связанных с базой данных.</span><span class="sxs-lookup"><span data-stu-id="67bc9-112">When you use **QueryTimeout** with a **[Connection](connection-object-dao.md)** or **[Database](database-object-dao.md)** object, it specifies a global value for all queries associated with the database.</span></span> <span data-ttu-id="67bc9-113">Это значение можно переопрепредить для определенного запроса, задав свойство **ODBCTimeout** конкретного **[объекта QueryDef.](querydef-object-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="67bc9-113">You can override this value for a specific query by setting the **ODBCTimeout** property of the particular **[QueryDef](querydef-object-dao.md)** object.</span></span>
+<span data-ttu-id="3f15f-112">При использовании **QueryTimeout** с объектом **[Подключение](connection-object-dao.md)** или **[База](database-object-dao.md)** данных указывает глобальное значение для всех запросов, связанных с базой данных.</span><span class="sxs-lookup"><span data-stu-id="3f15f-112">When you use **QueryTimeout** with a **[Connection](connection-object-dao.md)** or **[Database](database-object-dao.md)** object, it specifies a global value for all queries associated with the database.</span></span> <span data-ttu-id="3f15f-113">Это значение можно переопрепредить для определенного запроса, задав свойство **ODBCTimeout** определенного объекта **[QueryDef.](querydef-object-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="3f15f-113">You can override this value for a specific query by setting the **ODBCTimeout** property of the particular **[QueryDef](querydef-object-dao.md)** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="67bc9-114">Пример</span><span class="sxs-lookup"><span data-stu-id="67bc9-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="3f15f-114">Пример</span><span class="sxs-lookup"><span data-stu-id="3f15f-114">Example</span></span>
 
-<span data-ttu-id="67bc9-115">В этом примере используются свойства **ODBCTimeout** и **QueryTimeout,** чтобы показать, как параметр **QueryTimeout** для объекта **Database** задает параметр **ODBCTimeout** по умолчанию для любых объектов **QueryDef,** созданных из объекта **Database.**</span><span class="sxs-lookup"><span data-stu-id="67bc9-115">This example uses the **ODBCTimeout** and **QueryTimeout** properties to show how the **QueryTimeout** setting on a **Database** object sets the default **ODBCTimeout** setting on any **QueryDef** objects created from the **Database** object.</span></span>
+<span data-ttu-id="3f15f-115">В этом примере используются свойства **ODBCTimeout** и **QueryTimeout,** чтобы показать, как параметр **QueryTimeout** на объекте **Базы** данных задает по умолчанию **параметр ODBCTimeout** для любых объектов **QueryDef,** созданных из объекта **Database.**</span><span class="sxs-lookup"><span data-stu-id="3f15f-115">This example uses the **ODBCTimeout** and **QueryTimeout** properties to show how the **QueryTimeout** setting on a **Database** object sets the default **ODBCTimeout** setting on any **QueryDef** objects created from the **Database** object.</span></span>
 
 ```vb 
 Sub ODBCTimeoutX() 

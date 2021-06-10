@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294696"
 ---
-# <a name="databasetabledefs-property-dao"></a><span data-ttu-id="5e8dc-102">Свойство Database.TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="5e8dc-102">Database.TableDefs property (DAO)</span></span>
+# <a name="databasetabledefs-property-dao"></a><span data-ttu-id="5e584-102">Свойство Database.TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="5e584-102">Database.TableDefs property (DAO)</span></span>
 
 
-<span data-ttu-id="5e8dc-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5e8dc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5e584-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5e584-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5e8dc-104">Возвращает **коллекцию TableDefs,** которая содержит все объекты **TableDef,** хранимые в указанной базе данных.</span><span class="sxs-lookup"><span data-stu-id="5e8dc-104">Returns a **TableDefs** collection that contains all of the **TableDef** objects stored in the specified database.</span></span> <span data-ttu-id="5e8dc-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="5e8dc-105">Read-only.</span></span>
+<span data-ttu-id="5e584-104">Возвращает коллекцию **TableDefs,** которая содержит все объекты **TableDef,** хранимые в указанной базе данных.</span><span class="sxs-lookup"><span data-stu-id="5e584-104">Returns a **TableDefs** collection that contains all of the **TableDef** objects stored in the specified database.</span></span> <span data-ttu-id="5e584-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="5e584-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="5e8dc-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="5e8dc-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5e584-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="5e584-106">Syntax</span></span>
 
-<span data-ttu-id="5e8dc-107">*выражение .* TableDefs</span><span class="sxs-lookup"><span data-stu-id="5e8dc-107">*expression* .TableDefs</span></span>
+<span data-ttu-id="5e584-107">*выражения* . TableDefs</span><span class="sxs-lookup"><span data-stu-id="5e584-107">*expression* .TableDefs</span></span>
 
-<span data-ttu-id="5e8dc-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="5e8dc-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="5e584-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="5e584-108">*expression* A variable that represents a **Database** object.</span></span>
 

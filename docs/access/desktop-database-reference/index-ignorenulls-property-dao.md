@@ -18,26 +18,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291805"
 ---
-# <a name="indexignorenulls-property-dao"></a><span data-ttu-id="86b0b-102">Свойство Index.IgnoreNulls (DAO)</span><span class="sxs-lookup"><span data-stu-id="86b0b-102">Index.IgnoreNulls property (DAO)</span></span>
+# <a name="indexignorenulls-property-dao"></a><span data-ttu-id="5d4e4-102">Свойство Index.IgnoreNulls (DAO)</span><span class="sxs-lookup"><span data-stu-id="5d4e4-102">Index.IgnoreNulls property (DAO)</span></span>
 
 
-<span data-ttu-id="86b0b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="86b0b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5d4e4-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5d4e4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="86b0b-104">Задает или возвращает значение, которое указывает, имеют ли записи с значениями NULL в полях индекса записи индекса (только для рабочей области Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="86b0b-104">Sets or returns a value that indicates whether records that have Null values in their index fields have index entries (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="5d4e4-104">Задает или возвращает значение, которое указывает, имеют ли записи с значениями Null в своих полях индексов записи индексов (только в рабочей области Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="5d4e4-104">Sets or returns a value that indicates whether records that have Null values in their index fields have index entries (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="86b0b-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="86b0b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5d4e4-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="5d4e4-105">Syntax</span></span>
 
-<span data-ttu-id="86b0b-106">*выражение .* IgnoreNulls</span><span class="sxs-lookup"><span data-stu-id="86b0b-106">*expression* .IgnoreNulls</span></span>
+<span data-ttu-id="5d4e4-106">*выражения* . IgnoreNulls</span><span class="sxs-lookup"><span data-stu-id="5d4e4-106">*expression* .IgnoreNulls</span></span>
 
-<span data-ttu-id="86b0b-107">*выражение* Переменная, представляюная объект **Index.**</span><span class="sxs-lookup"><span data-stu-id="86b0b-107">*expression* A variable that represents an **Index** object.</span></span>
+<span data-ttu-id="5d4e4-107">*выражение* Переменная, представляюная объект **Index.**</span><span class="sxs-lookup"><span data-stu-id="5d4e4-107">*expression* A variable that represents an **Index** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="86b0b-108">Заметки</span><span class="sxs-lookup"><span data-stu-id="86b0b-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5d4e4-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="5d4e4-108">Remarks</span></span>
 
-<span data-ttu-id="86b0b-109">Это свойство доступно для чтения и записи для нового объекта **[Index,](index-object-dao.md)** еще не приданного коллекции, и доступно только для чтения для существующего объекта **Index** в коллекции **[Indexes.](indexes-collection-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="86b0b-109">This property is read/write for a new **[Index](index-object-dao.md)** object not yet appended to a collection and read-only for an existing **Index** object in an **[Indexes](indexes-collection-dao.md)** collection.</span></span>
+<span data-ttu-id="5d4e4-109">Это свойство читается или записи для нового объекта **[Index,](index-object-dao.md)** который еще не был придан коллекции и только для чтения для существующего объекта **Index** в коллекции **[Indexes.](indexes-collection-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="5d4e4-109">This property is read/write for a new **[Index](index-object-dao.md)** object not yet appended to a collection and read-only for an existing **Index** object in an **[Indexes](indexes-collection-dao.md)** collection.</span></span>
 
-<span data-ttu-id="86b0b-110">Чтобы ускорить процесс поиска записей, можно определить индекс для поля.</span><span class="sxs-lookup"><span data-stu-id="86b0b-110">To speed up the process of searching for records, you can define an index for a field.</span></span> <span data-ttu-id="86b0b-111">Если вы разрешаете **null-записи** в индексном поле и ожидаете, что многие записи будут иметь **null,** вы можете установить для свойства  **IgnoreNulls** для объекта **Index** true, чтобы уменьшить объем места в хранилище, который используется индексом.</span><span class="sxs-lookup"><span data-stu-id="86b0b-111">If you allow **null** entries in an indexed field and expect many of the entries to be **null**, you can set the **IgnoreNulls** property for the **Index** object to **True** to reduce the amount of storage space that the index uses.</span></span>
+<span data-ttu-id="5d4e4-110">Чтобы ускорить процесс поиска записей, можно определить индекс поля.</span><span class="sxs-lookup"><span data-stu-id="5d4e4-110">To speed up the process of searching for records, you can define an index for a field.</span></span> <span data-ttu-id="5d4e4-111">Если вы  разрешаете недействительными записи в индексном поле и ожидаете, что многие записи будут  **null,** вы можете установить свойство **IgnoreNulls** для объекта **Index** true, чтобы уменьшить объем пространства хранения, который использует индекс.</span><span class="sxs-lookup"><span data-stu-id="5d4e4-111">If you allow **null** entries in an indexed field and expect many of the entries to be **null**, you can set the **IgnoreNulls** property for the **Index** object to **True** to reduce the amount of storage space that the index uses.</span></span>
 
-<span data-ttu-id="86b0b-112">Параметры **свойства IgnoreNulls** и **[Required](field-required-property-dao.md)** property вместе определяют, есть ли запись с значением индекса **null** записью индекса.</span><span class="sxs-lookup"><span data-stu-id="86b0b-112">The **IgnoreNulls** property setting and the **[Required](field-required-property-dao.md)** property setting together determine whether a record with a **null** index value has an index entry.</span></span>
+<span data-ttu-id="5d4e4-112">Параметр **свойства IgnoreNulls** и параметр **[Обязательное](field-required-property-dao.md)** свойство вместе определяют, имеет ли запись с значением **null** index запись индекса.</span><span class="sxs-lookup"><span data-stu-id="5d4e4-112">The **IgnoreNulls** property setting and the **[Required](field-required-property-dao.md)** property setting together determine whether a record with a **null** index value has an index entry.</span></span>
 
 <table>
 <colgroup>
@@ -47,34 +47,34 @@ ms.locfileid: "32291805"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="86b0b-113">Если ignoreNulls</span><span class="sxs-lookup"><span data-stu-id="86b0b-113">If IgnoreNulls is</span></span></p></th>
-<th><p><span data-ttu-id="86b0b-114">Обязательное —</span><span class="sxs-lookup"><span data-stu-id="86b0b-114">And Required is</span></span></p></th>
-<th><p><span data-ttu-id="86b0b-115">Then</span><span class="sxs-lookup"><span data-stu-id="86b0b-115">Then</span></span></p></th>
+<th><p><span data-ttu-id="5d4e4-113">Если IgnoreNulls</span><span class="sxs-lookup"><span data-stu-id="5d4e4-113">If IgnoreNulls is</span></span></p></th>
+<th><p><span data-ttu-id="5d4e4-114">И обязательно</span><span class="sxs-lookup"><span data-stu-id="5d4e4-114">And Required is</span></span></p></th>
+<th><p><span data-ttu-id="5d4e4-115">Then</span><span class="sxs-lookup"><span data-stu-id="5d4e4-115">Then</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="86b0b-116">Верно</span><span class="sxs-lookup"><span data-stu-id="86b0b-116">True</span></span></p></td>
-<td><p><span data-ttu-id="86b0b-117">Неверно</span><span class="sxs-lookup"><span data-stu-id="86b0b-117">False</span></span></p></td>
-<td><p><span data-ttu-id="86b0b-118">В поле индекса допускается значение null; запись индекса не добавлена.</span><span class="sxs-lookup"><span data-stu-id="86b0b-118">A null value is allowed in the index field; no index entry added.</span></span></p></td>
+<td><p><span data-ttu-id="5d4e4-116">True (Истина)</span><span class="sxs-lookup"><span data-stu-id="5d4e4-116">True</span></span></p></td>
+<td><p><span data-ttu-id="5d4e4-117">False (Ложь)</span><span class="sxs-lookup"><span data-stu-id="5d4e4-117">False</span></span></p></td>
+<td><p><span data-ttu-id="5d4e4-118">Значение null разрешено в поле индекса; нет добавленной записи индекса.</span><span class="sxs-lookup"><span data-stu-id="5d4e4-118">A null value is allowed in the index field; no index entry added.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="86b0b-119">Неверно</span><span class="sxs-lookup"><span data-stu-id="86b0b-119">False</span></span></p></td>
-<td><p><span data-ttu-id="86b0b-120">Неверно</span><span class="sxs-lookup"><span data-stu-id="86b0b-120">False</span></span></p></td>
-<td><p><span data-ttu-id="86b0b-121">В поле индекса допускается значение null; Добавлена запись индекса.</span><span class="sxs-lookup"><span data-stu-id="86b0b-121">A null value is allowed in the index field; index entry added.</span></span></p></td>
+<td><p><span data-ttu-id="5d4e4-119">False (Ложь)</span><span class="sxs-lookup"><span data-stu-id="5d4e4-119">False</span></span></p></td>
+<td><p><span data-ttu-id="5d4e4-120">False (Ложь)</span><span class="sxs-lookup"><span data-stu-id="5d4e4-120">False</span></span></p></td>
+<td><p><span data-ttu-id="5d4e4-121">Значение null разрешено в поле индекса; Добавлена запись индекса.</span><span class="sxs-lookup"><span data-stu-id="5d4e4-121">A null value is allowed in the index field; index entry added.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="86b0b-122">True или False</span><span class="sxs-lookup"><span data-stu-id="86b0b-122">True or False</span></span></p></td>
-<td><p><span data-ttu-id="86b0b-123">Верно</span><span class="sxs-lookup"><span data-stu-id="86b0b-123">True</span></span></p></td>
-<td><p><span data-ttu-id="86b0b-124">Значение null не допускается в поле индекса; запись индекса не добавлена.</span><span class="sxs-lookup"><span data-stu-id="86b0b-124">A null value isn't allowed in the index field; no index entry added.</span></span></p></td>
+<td><p><span data-ttu-id="5d4e4-122">True или False</span><span class="sxs-lookup"><span data-stu-id="5d4e4-122">True or False</span></span></p></td>
+<td><p><span data-ttu-id="5d4e4-123">True (Истина)</span><span class="sxs-lookup"><span data-stu-id="5d4e4-123">True</span></span></p></td>
+<td><p><span data-ttu-id="5d4e4-124">Значение null не допускается в поле индекса; нет добавленной записи индекса.</span><span class="sxs-lookup"><span data-stu-id="5d4e4-124">A null value isn't allowed in the index field; no index entry added.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="example"></a><span data-ttu-id="86b0b-125">Пример</span><span class="sxs-lookup"><span data-stu-id="86b0b-125">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5d4e4-125">Пример</span><span class="sxs-lookup"><span data-stu-id="5d4e4-125">Example</span></span>
 
-<span data-ttu-id="86b0b-126">В этом примере свойству **IgnoreNulls** нового индекса устанавливается значение **True** или **False**  на основе ввода пользователем, а затем демонстрируется влияние на набор записей с записью, поле ключа которой содержит значение **Null.** </span><span class="sxs-lookup"><span data-stu-id="86b0b-126">This example sets the **IgnoreNulls** property of a new **Index** to **True** or **False** based on user input, and then demonstrates the effect on a **Recordset** with a record whose key field contains a **Null** value.</span></span>
+<span data-ttu-id="5d4e4-126">В этом примере свойство **IgnoreNulls** нового index **to** **True** или **False** определяется на  основе ввода пользователя, а затем демонстрирует влияние на набор записей с записью, ключевое поле которой содержит значение **Null.**</span><span class="sxs-lookup"><span data-stu-id="5d4e4-126">This example sets the **IgnoreNulls** property of a new **Index** to **True** or **False** based on user input, and then demonstrates the effect on a **Recordset** with a record whose key field contains a **Null** value.</span></span>
 
 ```vb
     Sub IgnoreNullsX() 

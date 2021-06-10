@@ -1,5 +1,5 @@
 ---
-title: Импорт и экспорт данных (справочник по базам данных Access для настольных ПК)
+title: Импорт и экспорт данных (ссылка на базу данных для настольных компьютеров)
 TOCTitle: Data import/export
 ms:assetid: 30b43148-8915-4204-87cc-09621f4d628a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124236(v=office.15)
@@ -14,15 +14,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295088"
 ---
-# <a name="data-importexport"></a><span data-ttu-id="f2cad-102">Импорт и экспорт данных</span><span class="sxs-lookup"><span data-stu-id="f2cad-102">Data import/export</span></span>
+# <a name="data-importexport"></a><span data-ttu-id="4f2cc-102">Импорт и экспорт данных</span><span class="sxs-lookup"><span data-stu-id="4f2cc-102">Data import/export</span></span>
 
-<span data-ttu-id="f2cad-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f2cad-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4f2cc-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4f2cc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f2cad-104">Макрокоманда RunSavedImportExport</span><span class="sxs-lookup"><span data-stu-id="f2cad-104">RunSavedImportExport macro action</span></span>](runsavedimportexport-macro-action.md)
-- [<span data-ttu-id="f2cad-105">Макрокоманда EMailDatabaseObject</span><span class="sxs-lookup"><span data-stu-id="f2cad-105">EMailDatabaseObject macro action</span></span>](emaildatabaseobject-macro-action.md)
-- [<span data-ttu-id="f2cad-106">Макрокоманда ExportWithFormatting</span><span class="sxs-lookup"><span data-stu-id="f2cad-106">ExportWithFormatting macro action</span></span>](exportwithformatting-macro-action.md)
-- [<span data-ttu-id="f2cad-107">Макрокоманда ImportExportData</span><span class="sxs-lookup"><span data-stu-id="f2cad-107">ImportExportData macro action</span></span>](importexportdata-macro-action.md)
-- [<span data-ttu-id="f2cad-108">Макрокоманда ImportExportSpreadsheet</span><span class="sxs-lookup"><span data-stu-id="f2cad-108">ImportExportSpreadsheet macro action</span></span>](importexportspreadsheet-macro-action.md)
-- [<span data-ttu-id="f2cad-109">Макрокоманда ImportExportText</span><span class="sxs-lookup"><span data-stu-id="f2cad-109">ImportExportText macro action</span></span>](importexporttext-macro-action.md)
-- [<span data-ttu-id="f2cad-110">Макрокоманда ImportSharePointList</span><span class="sxs-lookup"><span data-stu-id="f2cad-110">ImportSharePointList macro action</span></span>](importsharepointlist-macro-action.md)
+- [<span data-ttu-id="4f2cc-104">Макрокоманда RunSavedImportExport</span><span class="sxs-lookup"><span data-stu-id="4f2cc-104">RunSavedImportExport macro action</span></span>](runsavedimportexport-macro-action.md)
+- [<span data-ttu-id="4f2cc-105">Макрокоманда EMailDatabaseObject</span><span class="sxs-lookup"><span data-stu-id="4f2cc-105">EMailDatabaseObject macro action</span></span>](emaildatabaseobject-macro-action.md)
+- [<span data-ttu-id="4f2cc-106">Макрокоманда ExportWithFormatting</span><span class="sxs-lookup"><span data-stu-id="4f2cc-106">ExportWithFormatting macro action</span></span>](exportwithformatting-macro-action.md)
+- [<span data-ttu-id="4f2cc-107">Макрокоманда ImportExportData</span><span class="sxs-lookup"><span data-stu-id="4f2cc-107">ImportExportData macro action</span></span>](importexportdata-macro-action.md)
+- [<span data-ttu-id="4f2cc-108">Макрокоманда ImportExportSpreadsheet</span><span class="sxs-lookup"><span data-stu-id="4f2cc-108">ImportExportSpreadsheet macro action</span></span>](importexportspreadsheet-macro-action.md)
+- [<span data-ttu-id="4f2cc-109">Макрокоманда ImportExportText</span><span class="sxs-lookup"><span data-stu-id="4f2cc-109">ImportExportText macro action</span></span>](importexporttext-macro-action.md)
+- [<span data-ttu-id="4f2cc-110">Макрокоманда ImportSharePointList</span><span class="sxs-lookup"><span data-stu-id="4f2cc-110">ImportSharePointList macro action</span></span>](importsharepointlist-macro-action.md)
 

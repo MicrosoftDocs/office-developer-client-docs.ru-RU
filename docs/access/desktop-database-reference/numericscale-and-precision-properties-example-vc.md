@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288541"
 ---
-# <a name="numericscale-and-precision-properties-example-vc"></a><span data-ttu-id="5e190-102">Пример использования свойств NumericScale и Precision (VC++)</span><span class="sxs-lookup"><span data-stu-id="5e190-102">NumericScale and Precision properties example (VC++)</span></span>
+# <a name="numericscale-and-precision-properties-example-vc"></a><span data-ttu-id="69c1e-102">Пример использования свойств NumericScale и Precision (VC++)</span><span class="sxs-lookup"><span data-stu-id="69c1e-102">NumericScale and Precision properties example (VC++)</span></span>
 
 
-<span data-ttu-id="5e190-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5e190-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="69c1e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69c1e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5e190-104">В этом примере демонстрируются свойства [NumericScale](numericscale-property-adox.md) и [Precision](precision-property-adox.md) объекта [Column.](column-object-adox.md)</span><span class="sxs-lookup"><span data-stu-id="5e190-104">This example demonstrates the [NumericScale](numericscale-property-adox.md) and [Precision](precision-property-adox.md) properties of the [Column](column-object-adox.md) object.</span></span> <span data-ttu-id="5e190-105">Этот код отображает их значение для **таблицы "Сведения** о заказе" базы *данных Northwind.*</span><span class="sxs-lookup"><span data-stu-id="5e190-105">This code displays their value for the **Order Details** table of the *Northwind* database.</span></span>
+<span data-ttu-id="69c1e-104">В этом примере демонстрируются свойства [NumericScale](numericscale-property-adox.md) и [Precision](precision-property-adox.md) объекта [Column.](column-object-adox.md)</span><span class="sxs-lookup"><span data-stu-id="69c1e-104">This example demonstrates the [NumericScale](numericscale-property-adox.md) and [Precision](precision-property-adox.md) properties of the [Column](column-object-adox.md) object.</span></span> <span data-ttu-id="69c1e-105">В этом коде отображается их значение для таблицы Сведения о **порядке** базы данных *Northwind.*</span><span class="sxs-lookup"><span data-stu-id="69c1e-105">This code displays their value for the **Order Details** table of the *Northwind* database.</span></span>
 
 ```cpp 
  

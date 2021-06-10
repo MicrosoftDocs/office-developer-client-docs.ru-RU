@@ -1,5 +1,5 @@
 ---
-title: Пример работы метода Keys Append, свойства Key Type и RelatedColumn (VC++)
+title: Пример свойств Keys Append, Key Type, RelatedColumn (VC++)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)
 ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290640"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="22160-102">Пример с свойствами Keys Append, Key Type, RelatedColumn, RelatedTable и UpdateRule (VC++)</span><span class="sxs-lookup"><span data-stu-id="22160-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="03cc3-102">Пример свойств Keys Append, Key Type, RelatedColumn, RelatedTable и UpdateRule (VC++)</span><span class="sxs-lookup"><span data-stu-id="03cc3-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
 
 
-<span data-ttu-id="22160-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="22160-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="03cc3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="03cc3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="22160-104">В следующем коде показано, как создать новый внешнего ключа.</span><span class="sxs-lookup"><span data-stu-id="22160-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="22160-105">Предполагается, что существует две таблицы (клиенты и заказы).</span><span class="sxs-lookup"><span data-stu-id="22160-105">It assumes two tables (Customers and Orders) exist.</span></span>
+<span data-ttu-id="03cc3-104">В следующем коде показано, как создать новый иностранный ключ.</span><span class="sxs-lookup"><span data-stu-id="03cc3-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="03cc3-105">Предполагается, что существуют две таблицы (Клиенты и Заказы).</span><span class="sxs-lookup"><span data-stu-id="03cc3-105">It assumes two tables (Customers and Orders) exist.</span></span>
 
 ```cpp 
  

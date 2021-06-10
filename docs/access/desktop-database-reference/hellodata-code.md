@@ -1,5 +1,5 @@
 ---
-title: Код HelloData (справочник по базе данных Access для настольных ПК)
+title: Код HelloData (ссылка на настольные базы данных)
 TOCTitle: HelloData code
 ms:assetid: b413a72a-fb85-177a-2d93-27c2bde935b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249860(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292008"
 ---
-# <a name="hellodata-code"></a><span data-ttu-id="91629-102">Код HelloData</span><span class="sxs-lookup"><span data-stu-id="91629-102">HelloData code</span></span>
+# <a name="hellodata-code"></a><span data-ttu-id="8e70e-102">Код HelloData</span><span class="sxs-lookup"><span data-stu-id="8e70e-102">HelloData code</span></span>
 
 
-<span data-ttu-id="91629-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="91629-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8e70e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8e70e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 ```vb 
  

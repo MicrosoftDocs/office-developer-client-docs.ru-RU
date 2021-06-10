@@ -18,19 +18,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294352"
 ---
-# <a name="dbenginecreateworkspace-method-dao"></a><span data-ttu-id="f568b-102">Метод DBEngine.CreateWorkspace (DAO)</span><span class="sxs-lookup"><span data-stu-id="f568b-102">DBEngine.CreateWorkspace method (DAO)</span></span>
+# <a name="dbenginecreateworkspace-method-dao"></a><span data-ttu-id="1d426-102">Метод DBEngine.CreateWorkspace (DAO)</span><span class="sxs-lookup"><span data-stu-id="1d426-102">DBEngine.CreateWorkspace method (DAO)</span></span>
 
-<span data-ttu-id="f568b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f568b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1d426-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1d426-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f568b-104">Создает новый объект **[Workspace.](workspace-object-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="f568b-104">Creates a new **[Workspace](workspace-object-dao.md)** object.</span></span>
+<span data-ttu-id="1d426-104">Создает новый **[объект Workspace.](workspace-object-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="1d426-104">Creates a new **[Workspace](workspace-object-dao.md)** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f568b-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="f568b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1d426-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="1d426-105">Syntax</span></span>
 
-<span data-ttu-id="f568b-106">*выражение .* CreateWorkspace(***Name***, ***UserName***, ***Password***, ***UseType***)</span><span class="sxs-lookup"><span data-stu-id="f568b-106">*expression* .CreateWorkspace(***Name***, ***UserName***, ***Password***, ***UseType***)</span></span>
+<span data-ttu-id="1d426-106">*выражения* . CreateWorkspace ***(Имя,*** ***Имя пользователя,*** ***Пароль***, ***UseType***)</span><span class="sxs-lookup"><span data-stu-id="1d426-106">*expression* .CreateWorkspace(***Name***, ***UserName***, ***Password***, ***UseType***)</span></span>
 
-<span data-ttu-id="f568b-107">*expression*: переменная, представляющая объект **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="f568b-107">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="1d426-107">*expression*: переменная, представляющая объект **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="1d426-107">*expression* A variable that represents a **DBEngine** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="f568b-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="f568b-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="1d426-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="1d426-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,62 +41,62 @@ ms.locfileid: "32294352"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="f568b-109">Имя</span><span class="sxs-lookup"><span data-stu-id="f568b-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="f568b-110">Обязательный/необязательный</span><span class="sxs-lookup"><span data-stu-id="f568b-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="f568b-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="f568b-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="f568b-112">Описание</span><span class="sxs-lookup"><span data-stu-id="f568b-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="1d426-109">Имя</span><span class="sxs-lookup"><span data-stu-id="1d426-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="1d426-110">Обязательный/необязательный</span><span class="sxs-lookup"><span data-stu-id="1d426-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="1d426-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="1d426-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="1d426-112">Описание</span><span class="sxs-lookup"><span data-stu-id="1d426-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f568b-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="f568b-113"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="f568b-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="f568b-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="f568b-115"><strong>Строка</strong></span><span class="sxs-lookup"><span data-stu-id="f568b-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="f568b-116"><strong>Строка,</strong> однозначно именовав новый <strong>объект Workspace.</strong></span><span class="sxs-lookup"><span data-stu-id="f568b-116">A <strong>String</strong> that uniquely names the new <strong>Workspace</strong> object.</span></span> <span data-ttu-id="f568b-117">Сведения о <strong><a href="connection-name-property-dao.md">допустимом</a></strong> имени рабочей области см. в <strong>свойстве Name.</strong></span><span class="sxs-lookup"><span data-stu-id="f568b-117">See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for details on valid <strong>Workspace</strong> names.</span></span></p></td>
+<td><p><span data-ttu-id="1d426-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="1d426-113"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="1d426-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="1d426-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="1d426-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="1d426-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="1d426-116"><strong>Строка,</strong> которая однозначно называет новый <strong>объект Workspace.</strong></span><span class="sxs-lookup"><span data-stu-id="1d426-116">A <strong>String</strong> that uniquely names the new <strong>Workspace</strong> object.</span></span> <span data-ttu-id="1d426-117">Сведения о <strong><a href="connection-name-property-dao.md">действительных</a></strong> именах рабочей области см. в свойстве <strong>Name.</strong></span><span class="sxs-lookup"><span data-stu-id="1d426-117">See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for details on valid <strong>Workspace</strong> names.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f568b-118"><em>UserName</em></span><span class="sxs-lookup"><span data-stu-id="f568b-118"><em>UserName</em></span></span></p></td>
-<td><p><span data-ttu-id="f568b-119">Обязательно</span><span class="sxs-lookup"><span data-stu-id="f568b-119">Required</span></span></p></td>
-<td><p><span data-ttu-id="f568b-120"><strong>Строка</strong></span><span class="sxs-lookup"><span data-stu-id="f568b-120"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="f568b-121"><strong>Строка,</strong> идентифицирует владельца нового объекта <strong>Workspace.</strong></span><span class="sxs-lookup"><span data-stu-id="f568b-121">A <strong>String</strong> that identifies the owner of the new <strong>Workspace</strong> object.</span></span> <span data-ttu-id="f568b-122">Дополнительные сведения см. в свойстве <strong>UserName.</strong></span><span class="sxs-lookup"><span data-stu-id="f568b-122">See the <strong>UserName</strong> property for more information.</span></span></p></td>
+<td><p><span data-ttu-id="1d426-118"><em>UserName</em></span><span class="sxs-lookup"><span data-stu-id="1d426-118"><em>UserName</em></span></span></p></td>
+<td><p><span data-ttu-id="1d426-119">Обязательный</span><span class="sxs-lookup"><span data-stu-id="1d426-119">Required</span></span></p></td>
+<td><p><span data-ttu-id="1d426-120"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="1d426-120"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="1d426-121"><strong>Строка,</strong> определяемая владельцем нового объекта <strong>Workspace.</strong></span><span class="sxs-lookup"><span data-stu-id="1d426-121">A <strong>String</strong> that identifies the owner of the new <strong>Workspace</strong> object.</span></span> <span data-ttu-id="1d426-122">Дополнительные сведения см. в свойстве <strong>UserName.</strong></span><span class="sxs-lookup"><span data-stu-id="1d426-122">See the <strong>UserName</strong> property for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f568b-123"><em>Password</em></span><span class="sxs-lookup"><span data-stu-id="f568b-123"><em>Password</em></span></span></p></td>
-<td><p><span data-ttu-id="f568b-124">Обязательно</span><span class="sxs-lookup"><span data-stu-id="f568b-124">Required</span></span></p></td>
-<td><p><span data-ttu-id="f568b-125"><strong>Строка</strong></span><span class="sxs-lookup"><span data-stu-id="f568b-125"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="f568b-126"><strong>Строка,</strong> содержащая пароль для нового <strong>объекта Workspace.</strong></span><span class="sxs-lookup"><span data-stu-id="f568b-126">A <strong>String</strong> containing the password for the new <strong>Workspace</strong> object.</span></span> <span data-ttu-id="f568b-127">Пароль может иметь длину до 20 символов и включать любые символы, кроме символа ASCII 0 (null).</span><span class="sxs-lookup"><span data-stu-id="f568b-127">The password can be up to 20 characters long and can include any characters except ASCII character 0 (null).</span></span></p>
-<p><span data-ttu-id="f568b-128"><strong>ПРИМЕЧАНИЕ.</strong>Используйте надежные пароли, сочетая в себе буквы верхнего и нижнего регистра, цифры и символы.</span><span class="sxs-lookup"><span data-stu-id="f568b-128"><strong>NOTE</strong>: Use strong passwords that combine upper- and lowercase letters, numbers, and symbols.</span></span> <span data-ttu-id="f568b-129">В ненадежных паролях не используются сочетания таких элементов.</span><span class="sxs-lookup"><span data-stu-id="f568b-129">Weak passwords don't mix these elements.</span></span> <span data-ttu-id="f568b-130">Надежный пароль: Y6dh!et5.</span><span class="sxs-lookup"><span data-stu-id="f568b-130">Strong password: Y6dh!et5.</span></span> <span data-ttu-id="f568b-131">Слабый пароль: House27.</span><span class="sxs-lookup"><span data-stu-id="f568b-131">Weak password: House27.</span></span> <span data-ttu-id="f568b-132">Используйте надежный пароль, который можно запомнить, чтобы не пришлось его записывать.</span><span class="sxs-lookup"><span data-stu-id="f568b-132">Use a strong password that you can remember so that you don't have to write it down.</span></span></p>
+<td><p><span data-ttu-id="1d426-123"><em>Password</em></span><span class="sxs-lookup"><span data-stu-id="1d426-123"><em>Password</em></span></span></p></td>
+<td><p><span data-ttu-id="1d426-124">Обязательный</span><span class="sxs-lookup"><span data-stu-id="1d426-124">Required</span></span></p></td>
+<td><p><span data-ttu-id="1d426-125"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="1d426-125"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="1d426-126"><strong>Строка,</strong> содержащая пароль для нового <strong>объекта Workspace.</strong></span><span class="sxs-lookup"><span data-stu-id="1d426-126">A <strong>String</strong> containing the password for the new <strong>Workspace</strong> object.</span></span> <span data-ttu-id="1d426-127">Пароль может быть длиной до 20 символов и может включать любые символы, кроме символа ASCII 0 (null).</span><span class="sxs-lookup"><span data-stu-id="1d426-127">The password can be up to 20 characters long and can include any characters except ASCII character 0 (null).</span></span></p>
+<p><span data-ttu-id="1d426-128"><strong>ПРИМЕЧАНИЕ.</strong>Используйте надежные пароли, сочетая в себе буквы, цифры и символы верхнего и нижнего регистров.</span><span class="sxs-lookup"><span data-stu-id="1d426-128"><strong>NOTE</strong>: Use strong passwords that combine upper- and lowercase letters, numbers, and symbols.</span></span> <span data-ttu-id="1d426-129">В ненадежных паролях не используются сочетания таких элементов.</span><span class="sxs-lookup"><span data-stu-id="1d426-129">Weak passwords don't mix these elements.</span></span> <span data-ttu-id="1d426-130">Надежный пароль: Y6dh!et5.</span><span class="sxs-lookup"><span data-stu-id="1d426-130">Strong password: Y6dh!et5.</span></span> <span data-ttu-id="1d426-131">Слабый пароль: House27.</span><span class="sxs-lookup"><span data-stu-id="1d426-131">Weak password: House27.</span></span> <span data-ttu-id="1d426-132">Используйте надежный пароль, который можно запомнить, чтобы не пришлось его записывать.</span><span class="sxs-lookup"><span data-stu-id="1d426-132">Use a strong password that you can remember so that you don't have to write it down.</span></span></p>
 </td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f568b-133"><em>UseType</em></span><span class="sxs-lookup"><span data-stu-id="f568b-133"><em>UseType</em></span></span></p></td>
-<td><p><span data-ttu-id="f568b-134">Необязательный</span><span class="sxs-lookup"><span data-stu-id="f568b-134">Optional</span></span></p></td>
-<td><p><span data-ttu-id="f568b-135"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="f568b-135"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="f568b-136">Одно из <strong><a href="workspacetypeenum-enumeration-dao.md">значений WorkspaceTypeEnum.</a></strong></span><span class="sxs-lookup"><span data-stu-id="f568b-136">One of the <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> values.</span></span></p>
-<p><span data-ttu-id="f568b-137"><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="f568b-137"><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="f568b-138">Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="f568b-138">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></p>
+<td><p><span data-ttu-id="1d426-133"><em>UseType</em></span><span class="sxs-lookup"><span data-stu-id="1d426-133"><em>UseType</em></span></span></p></td>
+<td><p><span data-ttu-id="1d426-134">Необязательный</span><span class="sxs-lookup"><span data-stu-id="1d426-134">Optional</span></span></p></td>
+<td><p><span data-ttu-id="1d426-135"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="1d426-135"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="1d426-136">Одно из <strong><a href="workspacetypeenum-enumeration-dao.md">значений WorkspaceTypeEnum.</a></strong></span><span class="sxs-lookup"><span data-stu-id="1d426-136">One of the <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> values.</span></span></p>
+<p><span data-ttu-id="1d426-137"><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="1d426-137"><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="1d426-138">Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="1d426-138">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="return-value"></a><span data-ttu-id="f568b-139">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="f568b-139">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1d426-139">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1d426-139">Return value</span></span>
 
-<span data-ttu-id="f568b-140">Рабочая группа</span><span class="sxs-lookup"><span data-stu-id="f568b-140">Workspace</span></span>
+<span data-ttu-id="1d426-140">Workspace</span><span class="sxs-lookup"><span data-stu-id="1d426-140">Workspace</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f568b-141">Заметки</span><span class="sxs-lookup"><span data-stu-id="f568b-141">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1d426-141">Примечания</span><span class="sxs-lookup"><span data-stu-id="1d426-141">Remarks</span></span>
 
-<span data-ttu-id="f568b-142">После использования метода **CreateWorkspace** для создания нового объекта **Рабочей** области начинается сеанс **Рабочей** области, и вы можете сослаться на объект **Workspace** в приложении.</span><span class="sxs-lookup"><span data-stu-id="f568b-142">Once you use the **CreateWorkspace** method to create a new **Workspace** object, a **Workspace** session is started, and you can refer to the **Workspace** object in your application.</span></span>
+<span data-ttu-id="1d426-142">После использования метода **CreateWorkspace** для создания нового объекта  **Рабочей** области начинается сеанс Рабочей области, и вы можете обратиться к объекту **Workspace** в приложении.</span><span class="sxs-lookup"><span data-stu-id="1d426-142">Once you use the **CreateWorkspace** method to create a new **Workspace** object, a **Workspace** session is started, and you can refer to the **Workspace** object in your application.</span></span>
 
-<span data-ttu-id="f568b-143">**Объекты** рабочей области не являются постоянными, и их нельзя сохранить на диск.</span><span class="sxs-lookup"><span data-stu-id="f568b-143">**Workspace** objects aren't permanent, and you can't save them to disk.</span></span> <span data-ttu-id="f568b-144">После создания объекта **Workspace** нельзя изменить какие-либо параметры его свойства, за исключением свойства **Name,** которое можно изменить перед тем, как применить объект **Workspace** к коллекции **[Workspaces.](workspaces-collection-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="f568b-144">Once you create a **Workspace** object, you can't alter any of its property settings, except for the **Name** property, which you can modify before appending the **Workspace** object to the **[Workspaces](workspaces-collection-dao.md)** collection.</span></span>
+<span data-ttu-id="1d426-143">**Объекты рабочей** области не являются постоянными, и их нельзя сохранить на диске.</span><span class="sxs-lookup"><span data-stu-id="1d426-143">**Workspace** objects aren't permanent, and you can't save them to disk.</span></span> <span data-ttu-id="1d426-144">Создав объект **Workspace,** вы не сможете изменить его параметры свойств, за исключением свойства **Name,** которое можно изменить перед тем, как примять объект Workspace к коллекции **[Workspaces.](workspaces-collection-dao.md)** </span><span class="sxs-lookup"><span data-stu-id="1d426-144">Once you create a **Workspace** object, you can't alter any of its property settings, except for the **Name** property, which you can modify before appending the **Workspace** object to the **[Workspaces](workspaces-collection-dao.md)** collection.</span></span>
 
-<span data-ttu-id="f568b-145">Для использования нового объекта **Workspace** в коллекцию не нужно.</span><span class="sxs-lookup"><span data-stu-id="f568b-145">You don't have to append the new **Workspace** object to a collection before you can use it.</span></span> <span data-ttu-id="f568b-146">Только что созданный **объект Workspace** следует при необходимости сослаться на него через коллекцию **Workspaces.**</span><span class="sxs-lookup"><span data-stu-id="f568b-146">You append a newly created **Workspace** object only if you need to refer to it through the **Workspaces** collection.</span></span>
+<span data-ttu-id="1d426-145">Вам не нужно привяжать новый **объект Workspace** к коллекции, прежде чем использовать его.</span><span class="sxs-lookup"><span data-stu-id="1d426-145">You don't have to append the new **Workspace** object to a collection before you can use it.</span></span> <span data-ttu-id="1d426-146">Только что созданный **объект Workspace** можно примедить только в том случае, если вам потребуется ссылаться на него через коллекцию **Workspaces.**</span><span class="sxs-lookup"><span data-stu-id="1d426-146">You append a newly created **Workspace** object only if you need to refer to it through the **Workspaces** collection.</span></span>
 
-<span data-ttu-id="f568b-147">Чтобы удалить **объект Workspace** из коллекции **Workspaces,** закроете все открытые базы данных и подключения, а затем используйте метод **[Close](connection-close-method-dao.md)** для объекта **Workspace.**</span><span class="sxs-lookup"><span data-stu-id="f568b-147">To remove a **Workspace** object from the **Workspaces** collection, close all open databases and connections and then use the **[Close](connection-close-method-dao.md)** method on the **Workspace** object.</span></span>
+<span data-ttu-id="1d426-147">Чтобы удалить **объект Workspace** из коллекции **Workspaces,** закрой все открытые базы данных и подключения, а затем используйте метод **[Close](connection-close-method-dao.md)** на **объекте Workspace.**</span><span class="sxs-lookup"><span data-stu-id="1d426-147">To remove a **Workspace** object from the **Workspaces** collection, close all open databases and connections and then use the **[Close](connection-close-method-dao.md)** method on the **Workspace** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f568b-148">Пример</span><span class="sxs-lookup"><span data-stu-id="f568b-148">Example</span></span>
+## <a name="example"></a><span data-ttu-id="1d426-148">Пример</span><span class="sxs-lookup"><span data-stu-id="1d426-148">Example</span></span>
 
-<span data-ttu-id="f568b-149">В этом примере используется метод **CreateWorkspace** для создания рабочей областиMicrosoft Access.</span><span class="sxs-lookup"><span data-stu-id="f568b-149">This example uses the **CreateWorkspace** method to createMicrosoft Access workspace.</span></span> <span data-ttu-id="f568b-150">Затем в нем перечислены свойства рабочей области.</span><span class="sxs-lookup"><span data-stu-id="f568b-150">It then lists the properties of the workspace.</span></span>
+<span data-ttu-id="1d426-149">В этом примере используется **метод CreateWorkspace** для создания рабочего пространстваMicrosoft Access.</span><span class="sxs-lookup"><span data-stu-id="1d426-149">This example uses the **CreateWorkspace** method to createMicrosoft Access workspace.</span></span> <span data-ttu-id="1d426-150">Затем в нем перечислены свойства рабочего пространства.</span><span class="sxs-lookup"><span data-stu-id="1d426-150">It then lists the properties of the workspace.</span></span>
 
 ```vb 
 Sub CreateWorkspaceX() 

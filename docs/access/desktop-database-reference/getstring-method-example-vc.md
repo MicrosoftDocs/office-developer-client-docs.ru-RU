@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292267"
 ---
-# <a name="getstring-method-example-vc"></a><span data-ttu-id="fd337-102">Пример использования метода GetString (VC++)</span><span class="sxs-lookup"><span data-stu-id="fd337-102">GetString method example (VC++)</span></span>
+# <a name="getstring-method-example-vc"></a><span data-ttu-id="d45bc-102">Пример использования метода GetString (VC++)</span><span class="sxs-lookup"><span data-stu-id="d45bc-102">GetString method example (VC++)</span></span>
 
 
-<span data-ttu-id="fd337-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fd337-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d45bc-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d45bc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fd337-104">В этом примере демонстрируется [метод GetString.](getstring-method-ado.md)</span><span class="sxs-lookup"><span data-stu-id="fd337-104">This example demonstrates the [GetString](getstring-method-ado.md) method.</span></span>
+<span data-ttu-id="d45bc-104">В этом примере демонстрируется [метод GetString.](getstring-method-ado.md)</span><span class="sxs-lookup"><span data-stu-id="d45bc-104">This example demonstrates the [GetString](getstring-method-ado.md) method.</span></span>
 
-<span data-ttu-id="fd337-105">Предположим, что отладка проблемы с доступом к данным и быстрый простой способ печати текущего содержимого небольшого наборов [записей.](recordset-object-ado.md)</span><span class="sxs-lookup"><span data-stu-id="fd337-105">Assume you are debugging a data access problem and want a quick, simple way of printing the current contents of a small [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="d45bc-105">Предположим, что вы отладки проблемы доступа к данным и хотите быстрый, простой способ печати текущего содержимого небольшого [Набор записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="d45bc-105">Assume you are debugging a data access problem and want a quick, simple way of printing the current contents of a small [Recordset](recordset-object-ado.md).</span></span>
 
 ```cpp 
  

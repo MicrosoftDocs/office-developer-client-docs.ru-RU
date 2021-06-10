@@ -1,5 +1,5 @@
 ---
-title: Гибридные команды (справочник по базам данных Access для настольных ПК)
+title: Гибридные команды (ссылка на настольные базы данных)
 TOCTitle: Hybrid commands
 ms:assetid: 55654274-0494-349f-820d-92108284449d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249286(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291910"
 ---
-# <a name="hybrid-commands"></a><span data-ttu-id="9a272-102">Гибридные команды</span><span class="sxs-lookup"><span data-stu-id="9a272-102">Hybrid commands</span></span>
+# <a name="hybrid-commands"></a><span data-ttu-id="9087a-102">Гибридные команды</span><span class="sxs-lookup"><span data-stu-id="9087a-102">Hybrid commands</span></span>
 
 
-<span data-ttu-id="9a272-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9a272-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9087a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9087a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9a272-104">Гибридные команды являются частично заданными командами.</span><span class="sxs-lookup"><span data-stu-id="9a272-104">Hybrid commands are partially parameterized commands.</span></span> <span data-ttu-id="9a272-105">Например:</span><span class="sxs-lookup"><span data-stu-id="9a272-105">For example:</span></span>
+<span data-ttu-id="9087a-104">Гибридные команды являются частично заданными командами.</span><span class="sxs-lookup"><span data-stu-id="9087a-104">Hybrid commands are partially parameterized commands.</span></span> <span data-ttu-id="9087a-105">Пример.</span><span class="sxs-lookup"><span data-stu-id="9087a-105">For example:</span></span>
 
 ```vb 
  
@@ -29,5 +29,5 @@ SHAPE {select * from plants}
  PlantRegion TO CustomerRegion ) 
 ```
 
-<span data-ttu-id="9a272-106">Поведение кэш-кэша для гибридной команды такое же, как у обычных параметровных команд.</span><span class="sxs-lookup"><span data-stu-id="9a272-106">The caching behavior for a hybrid command is the same as that of regular parameterized commands.</span></span>
+<span data-ttu-id="9087a-106">Поведение кэшинга гибридной команды такое же, как и у обычных параметров.</span><span class="sxs-lookup"><span data-stu-id="9087a-106">The caching behavior for a hybrid command is the same as that of regular parameterized commands.</span></span>
 

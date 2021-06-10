@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295102"
 ---
-# <a name="data-entry-operations"></a><span data-ttu-id="62f27-102">Операции ввода данных</span><span class="sxs-lookup"><span data-stu-id="62f27-102">Data Entry operations</span></span>
+# <a name="data-entry-operations"></a><span data-ttu-id="71797-102">Операции ввода данных</span><span class="sxs-lookup"><span data-stu-id="71797-102">Data Entry operations</span></span>
 
-<span data-ttu-id="62f27-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="62f27-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="71797-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="71797-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="62f27-104">Макрокоманда "УдалитьЗапись"</span><span class="sxs-lookup"><span data-stu-id="62f27-104">DeleteRecord macro action</span></span>](deleterecord-macro-action.md)
+- [<span data-ttu-id="71797-104">Макрокоманда "УдалитьЗапись"</span><span class="sxs-lookup"><span data-stu-id="71797-104">DeleteRecord macro action</span></span>](deleterecord-macro-action.md)
 

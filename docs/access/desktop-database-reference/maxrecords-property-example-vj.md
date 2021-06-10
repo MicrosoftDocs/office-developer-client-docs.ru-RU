@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289695"
 ---
-# <a name="maxrecords-property-example-vj"></a><span data-ttu-id="22460-102">Пример использования свойства MaxRecords (VJ++)</span><span class="sxs-lookup"><span data-stu-id="22460-102">MaxRecords property example (VJ++)</span></span>
+# <a name="maxrecords-property-example-vj"></a><span data-ttu-id="f9e2d-102">Пример использования свойства MaxRecords (VJ++)</span><span class="sxs-lookup"><span data-stu-id="f9e2d-102">MaxRecords property example (VJ++)</span></span>
 
 
-<span data-ttu-id="22460-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="22460-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f9e2d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f9e2d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="22460-104">В этом примере свойство [MaxRecords](maxrecords-property-ado.md) используется для открытия объекта [Recordset,](recordset-object-ado.md) содержащего 10 самых дорогих названий в таблице ***Titles.***</span><span class="sxs-lookup"><span data-stu-id="22460-104">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
+<span data-ttu-id="f9e2d-104">В этом примере [свойство MaxRecords](maxrecords-property-ado.md) используется для открытия наборов [записей,](recordset-object-ado.md) содержащих 10 самых дорогих названий в таблице ***Titles.***</span><span class="sxs-lookup"><span data-stu-id="f9e2d-104">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
 
 ```java 
  

@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292316"
 ---
-# <a name="formattedvalue-property-ado-md"></a><span data-ttu-id="4526f-102">Свойство FormattedValue (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="4526f-102">FormattedValue property (ADO MD)</span></span>
+# <a name="formattedvalue-property-ado-md"></a><span data-ttu-id="6d75c-102">Свойство FormattedValue (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="6d75c-102">FormattedValue property (ADO MD)</span></span>
 
 
-<span data-ttu-id="4526f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4526f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6d75c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d75c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4526f-104">Указывает отформатированный дисплей значения ячейки.</span><span class="sxs-lookup"><span data-stu-id="4526f-104">Indicates the formatted display of a cell value.</span></span>
+<span data-ttu-id="6d75c-104">Указывает форматированный дисплей значения ячейки.</span><span class="sxs-lookup"><span data-stu-id="6d75c-104">Indicates the formatted display of a cell value.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="4526f-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="4526f-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="6d75c-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="6d75c-105">Return values</span></span>
 
-<span data-ttu-id="4526f-106">Возвращает **строку и** является только для чтения.</span><span class="sxs-lookup"><span data-stu-id="4526f-106">Returns a **String** and is read-only.</span></span>
+<span data-ttu-id="6d75c-106">Возвращает **строку и** только для чтения.</span><span class="sxs-lookup"><span data-stu-id="6d75c-106">Returns a **String** and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="4526f-107">Заметки</span><span class="sxs-lookup"><span data-stu-id="4526f-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6d75c-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="6d75c-107">Remarks</span></span>
 
-<span data-ttu-id="4526f-108">Используйте свойство **FormattedValue** для получения отформатированных отображаемого значения свойства [Value](value-property-ado-md.md) объекта [Cell.](cell-object-ado-md.md)</span><span class="sxs-lookup"><span data-stu-id="4526f-108">Use the **FormattedValue** property to obtain the formatted display value of the [Value](value-property-ado-md.md) property of a [Cell](cell-object-ado-md.md) object.</span></span> <span data-ttu-id="4526f-109">Например, если значение ячейки было 1056,87, а это значение представляет сумму в долларах, **FormattedValue** будет 1 056,87 долл. США.</span><span class="sxs-lookup"><span data-stu-id="4526f-109">For example, if the value of a cell was 1056.87, and this value represented a dollar amount, **FormattedValue** would be $1,056.87.</span></span>
+<span data-ttu-id="6d75c-108">Используйте свойство **FormattedValue** для получения отформатированных значений отображения свойства [Value](value-property-ado-md.md) объекта [Cell.](cell-object-ado-md.md)</span><span class="sxs-lookup"><span data-stu-id="6d75c-108">Use the **FormattedValue** property to obtain the formatted display value of the [Value](value-property-ado-md.md) property of a [Cell](cell-object-ado-md.md) object.</span></span> <span data-ttu-id="6d75c-109">Например, если значение ячейки было 1056.87, а это значение представляло сумму доллара, **FormattedValue** будет $1,056.87.</span><span class="sxs-lookup"><span data-stu-id="6d75c-109">For example, if the value of a cell was 1056.87, and this value represented a dollar amount, **FormattedValue** would be $1,056.87.</span></span>
 

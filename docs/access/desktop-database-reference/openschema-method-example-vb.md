@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288324"
 ---
-# <a name="openschema-method-example-vb"></a><span data-ttu-id="573bf-102">Пример использования метода OpenSchema (VB)</span><span class="sxs-lookup"><span data-stu-id="573bf-102">OpenSchema method example (VB)</span></span>
+# <a name="openschema-method-example-vb"></a><span data-ttu-id="53a81-102">Пример использования метода OpenSchema (VB)</span><span class="sxs-lookup"><span data-stu-id="53a81-102">OpenSchema method example (VB)</span></span>
 
 
-<span data-ttu-id="573bf-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="573bf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="53a81-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="53a81-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="573bf-104">В этом примере метод [OpenSchema используется](openschema-method-ado.md) для отображения имени и типа каждой таблицы в базе ***данных Pubs.***</span><span class="sxs-lookup"><span data-stu-id="573bf-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
+<span data-ttu-id="53a81-104">В этом примере метод [OpenSchema отображает](openschema-method-ado.md) имя и тип каждой таблицы в ***базе данных Pubs.***</span><span class="sxs-lookup"><span data-stu-id="53a81-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
 
 ```vb 
  
@@ -78,7 +78,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="573bf-105">В этом примере в аргументе Criteria метода OpenSchema указывается ограничение запроса \_ **ТИПА**  ТАБЛИЦЫ.</span><span class="sxs-lookup"><span data-stu-id="573bf-105">This example specifies a TABLE\_TYPE query constraint in the **OpenSchema** method ***Criteria*** argument.</span></span> <span data-ttu-id="573bf-106">В результате возвращаются только сведения о схеме для представлений, указанных в базе ***данных Pubs.***</span><span class="sxs-lookup"><span data-stu-id="573bf-106">As a result, only schema information for the Views specified in the ***Pubs*** database are returned.</span></span> <span data-ttu-id="573bf-107">Затем в примере отображаются имена и типы каждой таблицы.</span><span class="sxs-lookup"><span data-stu-id="573bf-107">The example then displays the name(s) and type(s) of each table(s).</span></span>
+<span data-ttu-id="53a81-105">В этом примере указывается ограничение запроса ТИПА TABLE \_ в **аргументе Критерии метода OpenSchema.** </span><span class="sxs-lookup"><span data-stu-id="53a81-105">This example specifies a TABLE\_TYPE query constraint in the **OpenSchema** method ***Criteria*** argument.</span></span> <span data-ttu-id="53a81-106">В результате возвращаются только сведения о схеме представлений, указанные в базе данных ***Pubs.***</span><span class="sxs-lookup"><span data-stu-id="53a81-106">As a result, only schema information for the Views specified in the ***Pubs*** database are returned.</span></span> <span data-ttu-id="53a81-107">В этом примере отображаются имя (s) и тип (ы) каждой таблицы(ы).</span><span class="sxs-lookup"><span data-stu-id="53a81-107">The example then displays the name(s) and type(s) of each table(s).</span></span>
 
 ```vb 
  

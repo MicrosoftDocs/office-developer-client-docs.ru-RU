@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288597"
 ---
-# <a name="navigating-through-the-data"></a><span data-ttu-id="3ef9c-102">Навигация по данным</span><span class="sxs-lookup"><span data-stu-id="3ef9c-102">Navigating through the data</span></span>
+# <a name="navigating-through-the-data"></a><span data-ttu-id="0a24c-102">Навигация по данным</span><span class="sxs-lookup"><span data-stu-id="0a24c-102">Navigating through the data</span></span>
 
-<span data-ttu-id="3ef9c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3ef9c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0a24c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0a24c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3ef9c-104">Теперь, когда вы выполнили команду для источника данных и определили, что набор результатов содержит данные, можно перемещаться по результатам с помощью методов навигации и свойств, предоставляемых объектом **Recordset.**</span><span class="sxs-lookup"><span data-stu-id="3ef9c-104">Now that you have executed a command against the data source and determined that the result set contains data, you can move through the results by using the navigation methods and properties provided by the **Recordset** object.</span></span> 
+<span data-ttu-id="0a24c-104">Теперь, когда вы выполнили команду в отношении источника данных и определили, что набор результатов содержит данные, вы можете перемещаться по результатам с помощью методов навигации и свойств, предоставляемых объектом **Recordset.**</span><span class="sxs-lookup"><span data-stu-id="0a24c-104">Now that you have executed a command against the data source and determined that the result set contains data, you can move through the results by using the navigation methods and properties provided by the **Recordset** object.</span></span> 
 
-<span data-ttu-id="3ef9c-105">В следующих темах описано, как использовать эти методы и свойства в примере **объекта Recordset:**</span><span class="sxs-lookup"><span data-stu-id="3ef9c-105">The following topics describe how to use these methods and properties on the sample **Recordset**:</span></span>
+<span data-ttu-id="0a24c-105">В следующих темах описаны способы использования этих методов и свойств в примере **Recordset:**</span><span class="sxs-lookup"><span data-stu-id="0a24c-105">The following topics describe how to use these methods and properties on the sample **Recordset**:</span></span>
 
-- [<span data-ttu-id="3ef9c-106">Переход к записи</span><span class="sxs-lookup"><span data-stu-id="3ef9c-106">Jumping to a record</span></span>](jumping-to-a-record.md)
-- [<span data-ttu-id="3ef9c-107">Дополнительные способы перемещения по набору записей</span><span class="sxs-lookup"><span data-stu-id="3ef9c-107">More ways to move in a Recordset</span></span>](more-ways-to-move-in-a-recordset.md)
-- [<span data-ttu-id="3ef9c-108">Использование закладок</span><span class="sxs-lookup"><span data-stu-id="3ef9c-108">Using bookmarks</span></span>](using-bookmarks.md)
-- [<span data-ttu-id="3ef9c-109">Использование страниц</span><span class="sxs-lookup"><span data-stu-id="3ef9c-109">Using pages</span></span>](using-pages.md)
-- [<span data-ttu-id="3ef9c-110">Размещение наборов записей</span><span class="sxs-lookup"><span data-stu-id="3ef9c-110">Recordset positioning</span></span>](recordset-positioning.md)
+- [<span data-ttu-id="0a24c-106">Переход к записи</span><span class="sxs-lookup"><span data-stu-id="0a24c-106">Jumping to a record</span></span>](jumping-to-a-record.md)
+- [<span data-ttu-id="0a24c-107">Дополнительные способы перемещения по набору записей</span><span class="sxs-lookup"><span data-stu-id="0a24c-107">More ways to move in a Recordset</span></span>](more-ways-to-move-in-a-recordset.md)
+- [<span data-ttu-id="0a24c-108">Использование закладок</span><span class="sxs-lookup"><span data-stu-id="0a24c-108">Using bookmarks</span></span>](using-bookmarks.md)
+- [<span data-ttu-id="0a24c-109">Использование страниц</span><span class="sxs-lookup"><span data-stu-id="0a24c-109">Using pages</span></span>](using-pages.md)
+- [<span data-ttu-id="0a24c-110">Размещение наборов записей</span><span class="sxs-lookup"><span data-stu-id="0a24c-110">Recordset positioning</span></span>](recordset-positioning.md)
 

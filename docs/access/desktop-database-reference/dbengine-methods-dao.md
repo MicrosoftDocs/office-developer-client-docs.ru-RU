@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294269"
 ---
-# <a name="dbengine-methods-dao"></a><span data-ttu-id="d958b-102">Методы DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="d958b-102">DBEngine methods (DAO)</span></span>
+# <a name="dbengine-methods-dao"></a><span data-ttu-id="0927d-102">Методы DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="0927d-102">DBEngine methods (DAO)</span></span>
 
-<span data-ttu-id="d958b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d958b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0927d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0927d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="d958b-104">Метод DBEngine.BeginTrans (DAO)</span><span class="sxs-lookup"><span data-stu-id="d958b-104">DBEngine.BeginTrans method (DAO)</span></span>](dbengine-begintrans-method-dao.md)
-- [<span data-ttu-id="d958b-105">Метод DBEngine.CommitTrans (DAO)</span><span class="sxs-lookup"><span data-stu-id="d958b-105">DBEngine.CommitTrans method (DAO)</span></span>](dbengine-committrans-method-dao.md)
-- [<span data-ttu-id="d958b-106">Метод DBEngine.CompactDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="d958b-106">DBEngine.CompactDatabase method (DAO)</span></span>](dbengine-compactdatabase-method-dao.md)
-- [<span data-ttu-id="d958b-107">Метод DBEngine.CreateDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="d958b-107">DBEngine.CreateDatabase method (DAO)</span></span>](dbengine-createdatabase-method-dao.md)
-- [<span data-ttu-id="d958b-108">Метод DBEngine.CreateWorkspace (DAO)</span><span class="sxs-lookup"><span data-stu-id="d958b-108">DBEngine.CreateWorkspace method (DAO)</span></span>](dbengine-createworkspace-method-dao.md)
-- [<span data-ttu-id="d958b-109">Метод DBEngine.Idle (DAO)</span><span class="sxs-lookup"><span data-stu-id="d958b-109">DBEngine.Idle method (DAO)</span></span>](dbengine-idle-method-dao.md)
-- [<span data-ttu-id="d958b-110">Метод DBEngine.OpenConnection (DAO)</span><span class="sxs-lookup"><span data-stu-id="d958b-110">DBEngine.OpenConnection method (DAO)</span></span>](dbengine-openconnection-method-dao.md)
-- [<span data-ttu-id="d958b-111">Метод DBEngine.OpenDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="d958b-111">DBEngine.OpenDatabase method (DAO)</span></span>](dbengine-opendatabase-method-dao.md)
-- [<span data-ttu-id="d958b-112">Метод DBEngine.RegisterDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="d958b-112">DBEngine.RegisterDatabase method (DAO)</span></span>](dbengine-registerdatabase-method-dao.md)
-- [<span data-ttu-id="d958b-113">Метод DBEngine.Rollback (DAO)</span><span class="sxs-lookup"><span data-stu-id="d958b-113">DBEngine.Rollback method (DAO)</span></span>](dbengine-rollback-method-dao.md)
-- [<span data-ttu-id="d958b-114">Метод DBEngine.SetOption (DAO)</span><span class="sxs-lookup"><span data-stu-id="d958b-114">DBEngine.SetOption method (DAO)</span></span>](dbengine-setoption-method-dao.md)
+- [<span data-ttu-id="0927d-104">Метод DBEngine.BeginTrans (DAO)</span><span class="sxs-lookup"><span data-stu-id="0927d-104">DBEngine.BeginTrans method (DAO)</span></span>](dbengine-begintrans-method-dao.md)
+- [<span data-ttu-id="0927d-105">Метод DBEngine.CommitTrans (DAO)</span><span class="sxs-lookup"><span data-stu-id="0927d-105">DBEngine.CommitTrans method (DAO)</span></span>](dbengine-committrans-method-dao.md)
+- [<span data-ttu-id="0927d-106">Метод DBEngine.CompactDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="0927d-106">DBEngine.CompactDatabase method (DAO)</span></span>](dbengine-compactdatabase-method-dao.md)
+- [<span data-ttu-id="0927d-107">Метод DBEngine.CreateDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="0927d-107">DBEngine.CreateDatabase method (DAO)</span></span>](dbengine-createdatabase-method-dao.md)
+- [<span data-ttu-id="0927d-108">Метод DBEngine.CreateWorkspace (DAO)</span><span class="sxs-lookup"><span data-stu-id="0927d-108">DBEngine.CreateWorkspace method (DAO)</span></span>](dbengine-createworkspace-method-dao.md)
+- [<span data-ttu-id="0927d-109">Метод DBEngine.Idle (DAO)</span><span class="sxs-lookup"><span data-stu-id="0927d-109">DBEngine.Idle method (DAO)</span></span>](dbengine-idle-method-dao.md)
+- [<span data-ttu-id="0927d-110">Метод DBEngine.OpenConnection (DAO)</span><span class="sxs-lookup"><span data-stu-id="0927d-110">DBEngine.OpenConnection method (DAO)</span></span>](dbengine-openconnection-method-dao.md)
+- [<span data-ttu-id="0927d-111">Метод DBEngine.OpenDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="0927d-111">DBEngine.OpenDatabase method (DAO)</span></span>](dbengine-opendatabase-method-dao.md)
+- [<span data-ttu-id="0927d-112">Метод DBEngine.RegisterDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="0927d-112">DBEngine.RegisterDatabase method (DAO)</span></span>](dbengine-registerdatabase-method-dao.md)
+- [<span data-ttu-id="0927d-113">Метод DBEngine.Rollback (DAO)</span><span class="sxs-lookup"><span data-stu-id="0927d-113">DBEngine.Rollback method (DAO)</span></span>](dbengine-rollback-method-dao.md)
+- [<span data-ttu-id="0927d-114">Метод DBEngine.SetOption (DAO)</span><span class="sxs-lookup"><span data-stu-id="0927d-114">DBEngine.SetOption method (DAO)</span></span>](dbengine-setoption-method-dao.md)

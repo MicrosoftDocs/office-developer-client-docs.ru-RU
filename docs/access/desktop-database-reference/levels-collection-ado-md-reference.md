@@ -1,5 +1,5 @@
 ---
-title: Levels collection (ADO MD reference)
+title: Коллекция уровней (ссылка на ADO MD)
 TOCTitle: Levels collection (ADO MD)
 ms:assetid: b5ea0736-4bdc-45ad-913a-b12dbd2e412a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249872(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290059"
 ---
-# <a name="levels-collection-ado-md-reference"></a><span data-ttu-id="19975-102">Levels collection (ADO MD reference)</span><span class="sxs-lookup"><span data-stu-id="19975-102">Levels collection (ADO MD reference)</span></span>
+# <a name="levels-collection-ado-md-reference"></a><span data-ttu-id="99942-102">Коллекция уровней (ссылка на ADO MD)</span><span class="sxs-lookup"><span data-stu-id="99942-102">Levels collection (ADO MD reference)</span></span>
 
-<span data-ttu-id="19975-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="19975-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="99942-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="99942-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="19975-104">Levels collection (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="19975-104">Levels collection (ADO MD)</span></span>](levels-collection-ado-md.md)
-- [<span data-ttu-id="19975-105">Levels collection properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="19975-105">Levels collection properties, methods, and events (ADO MD)</span></span>](levels-collection-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="99942-104">Коллекция уровней (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="99942-104">Levels collection (ADO MD)</span></span>](levels-collection-ado-md.md)
+- [<span data-ttu-id="99942-105">Свойства, методы и события коллекции уровней (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="99942-105">Levels collection properties, methods, and events (ADO MD)</span></span>](levels-collection-properties-methods-and-events-ado-md.md)
 

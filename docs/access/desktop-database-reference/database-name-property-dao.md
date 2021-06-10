@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294878"
 ---
-# <a name="databasename-property-dao"></a><span data-ttu-id="dd03c-102">Database.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="dd03c-102">Database.Name property (DAO)</span></span>
+# <a name="databasename-property-dao"></a><span data-ttu-id="8b11c-102">Database.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="8b11c-102">Database.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="dd03c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dd03c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8b11c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8b11c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="dd03c-104">Возвращает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="dd03c-104">Returns the name of the specified object.</span></span> <span data-ttu-id="dd03c-105">Только для чтения, **String**.</span><span class="sxs-lookup"><span data-stu-id="dd03c-105">Read-only **String**.</span></span>
+<span data-ttu-id="8b11c-104">Возвращает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="8b11c-104">Returns the name of the specified object.</span></span> <span data-ttu-id="8b11c-105">Только для чтения, **String**.</span><span class="sxs-lookup"><span data-stu-id="8b11c-105">Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="dd03c-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="dd03c-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8b11c-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="8b11c-106">Syntax</span></span>
 
-<span data-ttu-id="dd03c-107">*выражение .* Имя</span><span class="sxs-lookup"><span data-stu-id="dd03c-107">*expression* .Name</span></span>
+<span data-ttu-id="8b11c-107">*выражения* . Имя</span><span class="sxs-lookup"><span data-stu-id="8b11c-107">*expression* .Name</span></span>
 
-<span data-ttu-id="dd03c-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="dd03c-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="8b11c-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="8b11c-108">*expression* A variable that represents a **Database** object.</span></span>
 

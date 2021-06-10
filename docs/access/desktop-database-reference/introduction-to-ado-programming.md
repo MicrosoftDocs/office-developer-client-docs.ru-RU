@@ -14,24 +14,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291226"
 ---
-# <a name="introduction-to-ado-programming"></a><span data-ttu-id="a5191-102">Введение в программирование ADO</span><span class="sxs-lookup"><span data-stu-id="a5191-102">Introduction to ADO programming</span></span>
+# <a name="introduction-to-ado-programming"></a><span data-ttu-id="85dcf-102">Введение в программирование ADO</span><span class="sxs-lookup"><span data-stu-id="85dcf-102">Introduction to ADO programming</span></span>
 
-<span data-ttu-id="a5191-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a5191-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="85dcf-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="85dcf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a5191-104">Введение в руководство программиста microsoft ActiveX Data Objects (ADO) см. в следующих темах:</span><span class="sxs-lookup"><span data-stu-id="a5191-104">For an introduction to the Microsoft ActiveX Data Objects (ADO) Programmer's Guide, see the following topics:</span></span>
+<span data-ttu-id="85dcf-104">Сведения о руководстве программиста по объектам ActiveX (ADO) Microsoft см. в следующих темах:</span><span class="sxs-lookup"><span data-stu-id="85dcf-104">For an introduction to the Microsoft ActiveX Data Objects (ADO) Programmer's Guide, see the following topics:</span></span>
 
-- [<span data-ttu-id="a5191-105">Что нового в ADO</span><span class="sxs-lookup"><span data-stu-id="a5191-105">What's new in ADO</span></span>](what-s-new-in-ado.md)
-- [<span data-ttu-id="a5191-106">Prerequisites (ADO Introduction)</span><span class="sxs-lookup"><span data-stu-id="a5191-106">Prerequisites (ADO Introduction)</span></span>](prerequisites-ado-introduction.md)
-- [<span data-ttu-id="a5191-107">Семейство библиотек ADO</span><span class="sxs-lookup"><span data-stu-id="a5191-107">The ADO family of libraries</span></span>](the-ado-family-of-libraries.md)
-- [<span data-ttu-id="a5191-108">Роль ADO в Microsoft Data Access</span><span class="sxs-lookup"><span data-stu-id="a5191-108">The role of ADO in Microsoft Data Access</span></span>](the-role-of-ado-in-microsoft-data-access.md)
-- [<span data-ttu-id="a5191-109">Таблица задач ADO</span><span class="sxs-lookup"><span data-stu-id="a5191-109">ADO task table</span></span>](ado-task-table.md)
-- [<span data-ttu-id="a5191-110">Таблица технологий ADO</span><span class="sxs-lookup"><span data-stu-id="a5191-110">ADO technology table</span></span>](ado-technology-table.md)
-- [<span data-ttu-id="a5191-111">Глоссарий ADO</span><span class="sxs-lookup"><span data-stu-id="a5191-111">ADO glossary</span></span>](ado-glossary.md)
+- [<span data-ttu-id="85dcf-105">Что нового в ADO</span><span class="sxs-lookup"><span data-stu-id="85dcf-105">What's new in ADO</span></span>](what-s-new-in-ado.md)
+- [<span data-ttu-id="85dcf-106">Prerequisites (ADO Introduction)</span><span class="sxs-lookup"><span data-stu-id="85dcf-106">Prerequisites (ADO Introduction)</span></span>](prerequisites-ado-introduction.md)
+- [<span data-ttu-id="85dcf-107">Семейство библиотек ADO</span><span class="sxs-lookup"><span data-stu-id="85dcf-107">The ADO family of libraries</span></span>](the-ado-family-of-libraries.md)
+- [<span data-ttu-id="85dcf-108">Роль ADO в Microsoft Data Access</span><span class="sxs-lookup"><span data-stu-id="85dcf-108">The role of ADO in Microsoft Data Access</span></span>](the-role-of-ado-in-microsoft-data-access.md)
+- [<span data-ttu-id="85dcf-109">Таблица задач ADO</span><span class="sxs-lookup"><span data-stu-id="85dcf-109">ADO task table</span></span>](ado-task-table.md)
+- [<span data-ttu-id="85dcf-110">Таблица технологий ADO</span><span class="sxs-lookup"><span data-stu-id="85dcf-110">ADO technology table</span></span>](ado-technology-table.md)
+- [<span data-ttu-id="85dcf-111">Глоссарий ADO</span><span class="sxs-lookup"><span data-stu-id="85dcf-111">ADO glossary</span></span>](ado-glossary.md)
 
-## <a name="next-steps"></a><span data-ttu-id="a5191-112">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="a5191-112">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="85dcf-112">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="85dcf-112">Next steps</span></span>
 
-<span data-ttu-id="a5191-113">Перейдите [к разделу I. Объекты данных Active X.](section-i-activex-data-objects.md)</span><span class="sxs-lookup"><span data-stu-id="a5191-113">Go to [Section I: Active X Data Objects](section-i-activex-data-objects.md).</span></span>
+<span data-ttu-id="85dcf-113">Перейдите [к разделу I. Объекты данных Active X](section-i-activex-data-objects.md).</span><span class="sxs-lookup"><span data-stu-id="85dcf-113">Go to [Section I: Active X Data Objects](section-i-activex-data-objects.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a5191-114">См. также</span><span class="sxs-lookup"><span data-stu-id="a5191-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="85dcf-114">См. также</span><span class="sxs-lookup"><span data-stu-id="85dcf-114">See also</span></span>
 
-- [<span data-ttu-id="a5191-115">Руководство для программистов по ADO</span><span class="sxs-lookup"><span data-stu-id="a5191-115">ADO programmer's guide</span></span>](ado-programmer-s-guide.md)
+- [<span data-ttu-id="85dcf-115">Руководство для программистов по ADO</span><span class="sxs-lookup"><span data-stu-id="85dcf-115">ADO programmer's guide</span></span>](ado-programmer-s-guide.md)

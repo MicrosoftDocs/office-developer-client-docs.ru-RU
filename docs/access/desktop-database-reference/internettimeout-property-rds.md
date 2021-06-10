@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291243"
 ---
-# <a name="internettimeout-property-rds"></a><span data-ttu-id="80094-102">Свойство InternetTimeout (RDS)</span><span class="sxs-lookup"><span data-stu-id="80094-102">InternetTimeout property (RDS)</span></span>
+# <a name="internettimeout-property-rds"></a><span data-ttu-id="ddc12-102">Свойство InternetTimeout (RDS)</span><span class="sxs-lookup"><span data-stu-id="ddc12-102">InternetTimeout property (RDS)</span></span>
 
 
-<span data-ttu-id="80094-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="80094-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ddc12-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ddc12-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="80094-104">Указывает время ожидания запроса в миллисекунах.</span><span class="sxs-lookup"><span data-stu-id="80094-104">Indicates the number of milliseconds to wait before a request times out.</span></span>
+<span data-ttu-id="ddc12-104">Указывает количество миллисекунд, которые нужно ждать до времени ожидания запроса.</span><span class="sxs-lookup"><span data-stu-id="ddc12-104">Indicates the number of milliseconds to wait before a request times out.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="80094-105">Параметры и возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="80094-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="ddc12-105">Параметры и значения возврата</span><span class="sxs-lookup"><span data-stu-id="ddc12-105">Settings and return values</span></span>
 
-<span data-ttu-id="80094-106">Задает или возвращает **длинное** значение, которое представляет количество миллисекунд, прежде чем время и времени запроса не будет потеряно.</span><span class="sxs-lookup"><span data-stu-id="80094-106">Sets or returns a **Long** value that represents the number of milliseconds before a request will time out.</span></span>
+<span data-ttu-id="ddc12-106">Задает или возвращает значение **Long,** которое представляет число миллисекунд, прежде чем запрос будет отсутвить время.</span><span class="sxs-lookup"><span data-stu-id="ddc12-106">Sets or returns a **Long** value that represents the number of milliseconds before a request will time out.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="80094-107">Заметки</span><span class="sxs-lookup"><span data-stu-id="80094-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ddc12-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="ddc12-107">Remarks</span></span>
 
-<span data-ttu-id="80094-108">Это свойство применяется только к запросам, отправленным с помощью протоколов HTTP или HTTPS.</span><span class="sxs-lookup"><span data-stu-id="80094-108">This property applies only to requests sent with the HTTP or HTTPS protocols.</span></span>
+<span data-ttu-id="ddc12-108">Это свойство применяется только к запросам, отправленным с протоколами HTTP или HTTPS.</span><span class="sxs-lookup"><span data-stu-id="ddc12-108">This property applies only to requests sent with the HTTP or HTTPS protocols.</span></span>
 
-<span data-ttu-id="80094-109">Выполнение запросов в трехуровневой среде может занять несколько минут.</span><span class="sxs-lookup"><span data-stu-id="80094-109">Requests in a three-tier environment can take several minutes to execute.</span></span> <span data-ttu-id="80094-110">Это свойство используется для указания дополнительного времени для длительных запросов.</span><span class="sxs-lookup"><span data-stu-id="80094-110">Use this property to specify additional time for long-running requests.</span></span>
+<span data-ttu-id="ddc12-109">Выполнение запросов в трехуровневой среде может занять несколько минут.</span><span class="sxs-lookup"><span data-stu-id="ddc12-109">Requests in a three-tier environment can take several minutes to execute.</span></span> <span data-ttu-id="ddc12-110">Используйте это свойство, чтобы указать дополнительное время для длительных запросов.</span><span class="sxs-lookup"><span data-stu-id="ddc12-110">Use this property to specify additional time for long-running requests.</span></span>
 

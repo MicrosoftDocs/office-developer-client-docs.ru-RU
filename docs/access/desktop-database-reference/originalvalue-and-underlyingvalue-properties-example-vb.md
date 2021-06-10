@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288198"
 ---
-# <a name="originalvalue-and-underlyingvalue-properties-example-vb"></a><span data-ttu-id="efbea-102">Пример использования свойств OriginalValue и UnderlyingValue (VB)</span><span class="sxs-lookup"><span data-stu-id="efbea-102">OriginalValue and UnderlyingValue properties example (VB)</span></span>
+# <a name="originalvalue-and-underlyingvalue-properties-example-vb"></a><span data-ttu-id="cfed5-102">Пример использования свойств OriginalValue и UnderlyingValue (VB)</span><span class="sxs-lookup"><span data-stu-id="cfed5-102">OriginalValue and UnderlyingValue properties example (VB)</span></span>
 
-<span data-ttu-id="efbea-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="efbea-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cfed5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cfed5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="efbea-104">В этом примере показано, как отобразить свойства [OriginalValue](originalvalue-property-ado.md) и [UnderlyingValue,](underlyingvalue-property-ado.md) отображая сообщение, если данные записи изменились во время пакетного обновления [Recordset.](recordset-object-ado.md)</span><span class="sxs-lookup"><span data-stu-id="efbea-104">This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.</span></span>
+<span data-ttu-id="cfed5-104">В этом примере показаны свойства [OriginalValue](originalvalue-property-ado.md) и [UnderlyingValue,](underlyingvalue-property-ado.md) отображающие сообщение, если исходные данные записи изменились во время обновления пакета [Recordset.](recordset-object-ado.md)</span><span class="sxs-lookup"><span data-stu-id="cfed5-104">This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.</span></span>
 
 ```vb 
  

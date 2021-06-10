@@ -14,44 +14,44 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291274"
 ---
-# <a name="internet-publishing-scenario"></a><span data-ttu-id="c0abf-102">Сценарий публикации в Интернете</span><span class="sxs-lookup"><span data-stu-id="c0abf-102">Internet publishing scenario</span></span>
+# <a name="internet-publishing-scenario"></a><span data-ttu-id="7dfd7-102">Сценарий публикации в Интернете</span><span class="sxs-lookup"><span data-stu-id="7dfd7-102">Internet publishing scenario</span></span>
 
-<span data-ttu-id="c0abf-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c0abf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7dfd7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7dfd7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c0abf-104">В этом примере кода показано, как использовать ADO с поставщиком Microsoft OLE DB для публикации в Интернете.</span><span class="sxs-lookup"><span data-stu-id="c0abf-104">This code example demonstrates how to use ADO with the Microsoft OLE DB Provider for Internet Publishing.</span></span> <span data-ttu-id="c0abf-105">В этом сценарии создается приложение Visual Basic, использующее объекты **Recordset,** **Record** и **Stream** для отображения содержимого ресурсов, опубликованных с помощью поставщика интернет-публикации.</span><span class="sxs-lookup"><span data-stu-id="c0abf-105">In this scenario, you will create a Visual Basic application that uses **Recordset**, **Record**, and **Stream** objects to display the contents of resources published with the Internet Publishing Provider.</span></span>
+<span data-ttu-id="7dfd7-104">В этом примере кода показано, как использовать ADO с поставщиком DB Microsoft OLE для публикации в Интернете.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-104">This code example demonstrates how to use ADO with the Microsoft OLE DB Provider for Internet Publishing.</span></span> <span data-ttu-id="7dfd7-105">В этом сценарии будет Visual Basic приложение, использующее объекты **Recordset,** **Record** и **Stream** для отображения содержимого ресурсов, опубликованных с помощью поставщика публикаций в Интернете.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-105">In this scenario, you will create a Visual Basic application that uses **Recordset**, **Record**, and **Stream** objects to display the contents of resources published with the Internet Publishing Provider.</span></span>
 
-<span data-ttu-id="c0abf-106">Для создания этого сценария необходимо следующее:</span><span class="sxs-lookup"><span data-stu-id="c0abf-106">The following steps are necessary to create this scenario:</span></span> 
+<span data-ttu-id="7dfd7-106">Для создания этого сценария необходимы следующие действия:</span><span class="sxs-lookup"><span data-stu-id="7dfd7-106">The following steps are necessary to create this scenario:</span></span> 
 
-1. <span data-ttu-id="c0abf-107">Настройка Visual Basic проекта.</span><span class="sxs-lookup"><span data-stu-id="c0abf-107">Set up the Visual Basic project.</span></span>
-2. <span data-ttu-id="c0abf-108">Инициализация основного списка.</span><span class="sxs-lookup"><span data-stu-id="c0abf-108">Initialize the Main list box.</span></span>
-3. <span data-ttu-id="c0abf-109">Заполнять поле списка "Поля".</span><span class="sxs-lookup"><span data-stu-id="c0abf-109">Populate the Fields list box.</span></span>
-4. <span data-ttu-id="c0abf-110">Заполнять текстовое поле "Сведения".</span><span class="sxs-lookup"><span data-stu-id="c0abf-110">Populate the Details text box.</span></span>
+1. <span data-ttu-id="7dfd7-107">Настройка проекта Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-107">Set up the Visual Basic project.</span></span>
+2. <span data-ttu-id="7dfd7-108">Инициализация основного списка.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-108">Initialize the Main list box.</span></span>
+3. <span data-ttu-id="7dfd7-109">Заполнять поле списка Поля.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-109">Populate the Fields list box.</span></span>
+4. <span data-ttu-id="7dfd7-110">Заполнять текстовое поле Details.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-110">Populate the Details text box.</span></span>
 
-## <a name="step-1-set-up-the-visual-basic-project"></a><span data-ttu-id="c0abf-111">Шаг 1. Настройка Visual Basic проекта</span><span class="sxs-lookup"><span data-stu-id="c0abf-111">Step 1: Set up the Visual Basic project</span></span>
+## <a name="step-1-set-up-the-visual-basic-project"></a><span data-ttu-id="7dfd7-111">Шаг 1. Настройка Visual Basic проекта</span><span class="sxs-lookup"><span data-stu-id="7dfd7-111">Step 1: Set up the Visual Basic project</span></span>
 
-<span data-ttu-id="c0abf-112">В этом сценарии предполагается, что в вашей системе установлены Microsoft Visual Basic 6.0 или более поздней, ADO 2.5 или более поздней, а также поставщик Microsoft OLE DB для публикации в Интернете.</span><span class="sxs-lookup"><span data-stu-id="c0abf-112">In this scenario, it is assumed that you have Microsoft Visual Basic 6.0 or later, ADO 2.5 or later, and the Microsoft OLE DB Provider for Internet Publishing installed on your system.</span></span>
+<span data-ttu-id="7dfd7-112">В этом сценарии предполагается, что в Visual Basic microsoft Visual Basic 6.0 или более поздней, ADO 2.5 или более поздней, а также установлен поставщик microsoft OLE DB для интернет-публикации в вашей системе.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-112">In this scenario, it is assumed that you have Microsoft Visual Basic 6.0 or later, ADO 2.5 or later, and the Microsoft OLE DB Provider for Internet Publishing installed on your system.</span></span>
 
-### <a name="create-an-ado-project"></a><span data-ttu-id="c0abf-113">Создание проекта ADO</span><span class="sxs-lookup"><span data-stu-id="c0abf-113">Create an ADO project</span></span>
+### <a name="create-an-ado-project"></a><span data-ttu-id="7dfd7-113">Создание проекта ADO</span><span class="sxs-lookup"><span data-stu-id="7dfd7-113">Create an ADO project</span></span>
 
-1.  <span data-ttu-id="c0abf-114">В Microsoft Visual Basic создайте новый стандартный EXE-проект.</span><span class="sxs-lookup"><span data-stu-id="c0abf-114">In Microsoft Visual Basic, create a new Standard EXE project.</span></span>
+1.  <span data-ttu-id="7dfd7-114">В microsoft Visual Basic создайте новый проект Standard EXE.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-114">In Microsoft Visual Basic, create a new Standard EXE project.</span></span>
 
-2.  <span data-ttu-id="c0abf-115">В меню **"Проект"** выберите **ссылки.**</span><span class="sxs-lookup"><span data-stu-id="c0abf-115">From the **Project** menu, choose **References**.</span></span>
+2.  <span data-ttu-id="7dfd7-115">Из меню **Project** выберите **Ссылки**.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-115">From the **Project** menu, choose **References**.</span></span>
 
-3.  <span data-ttu-id="c0abf-116">Выберите **библиотеку microsoft ActiveX Data Objects 2.5** и нажмите кнопку **"ОК".**</span><span class="sxs-lookup"><span data-stu-id="c0abf-116">Select **Microsoft ActiveX Data Objects 2.5 Library**, and then click **OK**.</span></span>
+3.  <span data-ttu-id="7dfd7-116">Выберите **библиотеку ActiveX объектов данных Microsoft 2.5 и** нажмите **кнопку ОК.**</span><span class="sxs-lookup"><span data-stu-id="7dfd7-116">Select **Microsoft ActiveX Data Objects 2.5 Library**, and then click **OK**.</span></span>
 
-### <a name="insert-controls-on-the-main-form"></a><span data-ttu-id="c0abf-117">Вставка элементов управления в основную форму</span><span class="sxs-lookup"><span data-stu-id="c0abf-117">Insert controls on the main form</span></span>
+### <a name="insert-controls-on-the-main-form"></a><span data-ttu-id="7dfd7-117">Вставка элементов управления в основную форму</span><span class="sxs-lookup"><span data-stu-id="7dfd7-117">Insert controls on the main form</span></span>
 
-1.  <span data-ttu-id="c0abf-118">Добавление в Form1 управления ListBox.</span><span class="sxs-lookup"><span data-stu-id="c0abf-118">Add a ListBox control to Form1.</span></span> <span data-ttu-id="c0abf-119">Установите для свойства **Name** свойство **lstMain.**</span><span class="sxs-lookup"><span data-stu-id="c0abf-119">Set its **Name** property to **lstMain**.</span></span>
+1.  <span data-ttu-id="7dfd7-118">Добавьте в Form1 управление ListBox.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-118">Add a ListBox control to Form1.</span></span> <span data-ttu-id="7dfd7-119">Установите свойство **Name** **для lstMain.**</span><span class="sxs-lookup"><span data-stu-id="7dfd7-119">Set its **Name** property to **lstMain**.</span></span>
 
-2.  <span data-ttu-id="c0abf-120">Добавьте в Form1 еще один контроль ListBox.</span><span class="sxs-lookup"><span data-stu-id="c0abf-120">Add another ListBox control to Form1.</span></span> <span data-ttu-id="c0abf-121">Установите для **свойства Name** **свойство lstDetails.**</span><span class="sxs-lookup"><span data-stu-id="c0abf-121">Set its **Name** property to **lstDetails**.</span></span>
+2.  <span data-ttu-id="7dfd7-120">Добавьте еще один контроль ListBox в Form1.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-120">Add another ListBox control to Form1.</span></span> <span data-ttu-id="7dfd7-121">Установите свойство **Name** **для lstDetails.**</span><span class="sxs-lookup"><span data-stu-id="7dfd7-121">Set its **Name** property to **lstDetails**.</span></span>
 
-3.  <span data-ttu-id="c0abf-122">Добавление в Form1 управления TextBox.</span><span class="sxs-lookup"><span data-stu-id="c0abf-122">Add a TextBox control to Form1.</span></span> <span data-ttu-id="c0abf-123">**Задайте** для свойства Name свойство **txtDetails.**</span><span class="sxs-lookup"><span data-stu-id="c0abf-123">Set its **Name** property to **txtDetails**.</span></span>
+3.  <span data-ttu-id="7dfd7-122">Добавьте управление TextBox в Form1.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-122">Add a TextBox control to Form1.</span></span> <span data-ttu-id="7dfd7-123">Установите свойство **Name** **txtDetails.**</span><span class="sxs-lookup"><span data-stu-id="7dfd7-123">Set its **Name** property to **txtDetails**.</span></span>
 
-## <a name="step-2-initialize-the-main-list-box"></a><span data-ttu-id="c0abf-124">Шаг 2. Инициализация основного списка</span><span class="sxs-lookup"><span data-stu-id="c0abf-124">Step 2: Initialize the Main list box</span></span>
+## <a name="step-2-initialize-the-main-list-box"></a><span data-ttu-id="7dfd7-124">Шаг 2. Инициализация основного окна списка</span><span class="sxs-lookup"><span data-stu-id="7dfd7-124">Step 2: Initialize the Main list box</span></span>
 
-### <a name="declare-global-record-and-recordset-objects"></a><span data-ttu-id="c0abf-125">Объявление глобальных объектов Record и Recordset</span><span class="sxs-lookup"><span data-stu-id="c0abf-125">Declare global Record and Recordset objects</span></span>
+### <a name="declare-global-record-and-recordset-objects"></a><span data-ttu-id="7dfd7-125">Объявление объектов глобальной записи и recordset</span><span class="sxs-lookup"><span data-stu-id="7dfd7-125">Declare global Record and Recordset objects</span></span>
 
-- <span data-ttu-id="c0abf-126">Вставьте следующий код в (общие) (объявления) для Form1:</span><span class="sxs-lookup"><span data-stu-id="c0abf-126">Insert the following code into the (General) (Declarations) for Form1:</span></span>
+- <span data-ttu-id="7dfd7-126">Вставьте следующий код в (Общие) (Объявления) для Form1:</span><span class="sxs-lookup"><span data-stu-id="7dfd7-126">Insert the following code into the (General) (Declarations) for Form1:</span></span>
     
    ```vb 
      
@@ -60,11 +60,11 @@ ms.locfileid: "32291274"
     Dim grs As Recordset 
    ```
     
-   <span data-ttu-id="c0abf-127">Этот код объявляет глобальные ссылки на объекты **Record** и **Recordset,** которые будут использоваться далее в этом сценарии.</span><span class="sxs-lookup"><span data-stu-id="c0abf-127">This code declares global object references for **Record** and **Recordset** objects that will be used later in this scenario.</span></span>
+   <span data-ttu-id="7dfd7-127">Этот код объявляет глобальные ссылки на **объекты Record** и **Recordset,** которые будут использоваться позже в этом сценарии.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-127">This code declares global object references for **Record** and **Recordset** objects that will be used later in this scenario.</span></span>
 
-### <a name="connect-to-a-url-and-populate-lstmain"></a><span data-ttu-id="c0abf-128">Подключение к URL-адресу и заполнение lstMain</span><span class="sxs-lookup"><span data-stu-id="c0abf-128">Connect to a URL and populate lstMain</span></span>
+### <a name="connect-to-a-url-and-populate-lstmain"></a><span data-ttu-id="7dfd7-128">Подключение URL-адрес и заполнять lstMain</span><span class="sxs-lookup"><span data-stu-id="7dfd7-128">Connect to a URL and populate lstMain</span></span>
 
-- <span data-ttu-id="c0abf-129">Вставьте следующий код в обработчик событий загрузки формы для Form1:</span><span class="sxs-lookup"><span data-stu-id="c0abf-129">Insert the following code into the Form Load event handler for Form1:</span></span>
+- <span data-ttu-id="7dfd7-129">Вставьте следующий код в обработчик событий загрузки форм для Form1:</span><span class="sxs-lookup"><span data-stu-id="7dfd7-129">Insert the following code into the Form Load event handler for Form1:</span></span>
     
    ```vb 
      
@@ -81,15 +81,15 @@ ms.locfileid: "32291274"
     End Sub 
    ```
     
-   <span data-ttu-id="c0abf-130">Этот код идирует глобальные объекты **Record** и **Recordset.**</span><span class="sxs-lookup"><span data-stu-id="c0abf-130">This code instantiates the global **Record** and **Recordset** objects.</span></span> <span data-ttu-id="c0abf-131">Запись **открывается** с URL-адресом, указанным `grec` как **ActiveConnection.**</span><span class="sxs-lookup"><span data-stu-id="c0abf-131">The **Record** `grec` is opened with a URL specified as the **ActiveConnection**.</span></span> <span data-ttu-id="c0abf-132">Если URL-адрес существует, он открывается; Если он еще не существует, он создается.</span><span class="sxs-lookup"><span data-stu-id="c0abf-132">If the URL exists, it is opened; if it does not already exist, it is created.</span></span> 
+   <span data-ttu-id="7dfd7-130">Этот код мгновенно привносят глобальные **объекты Record** и **Recordset.**</span><span class="sxs-lookup"><span data-stu-id="7dfd7-130">This code instantiates the global **Record** and **Recordset** objects.</span></span> <span data-ttu-id="7dfd7-131">Запись **открывается** `grec` URL-адресом, указанным как **ActiveConnection.**</span><span class="sxs-lookup"><span data-stu-id="7dfd7-131">The **Record** `grec` is opened with a URL specified as the **ActiveConnection**.</span></span> <span data-ttu-id="7dfd7-132">Если URL-адрес существует, он открывается; если она еще не существует, она создается.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-132">If the URL exists, it is opened; if it does not already exist, it is created.</span></span> 
    
-   <span data-ttu-id="c0abf-133">Обратите внимание, что необходимо `https://servername/foldername/` заменить допустимый URL-адрес из вашей среды.</span><span class="sxs-lookup"><span data-stu-id="c0abf-133">Note that you should replace `https://servername/foldername/` with a valid URL from your environment.</span></span> 
+   <span data-ttu-id="7dfd7-133">Обратите внимание, что необходимо `https://servername/foldername/` заменить допустимый URL-адрес из среды.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-133">Note that you should replace `https://servername/foldername/` with a valid URL from your environment.</span></span> 
    
-   <span data-ttu-id="c0abf-134">Набор **записей** `grs` открывается для его  `grec` детей.</span><span class="sxs-lookup"><span data-stu-id="c0abf-134">The **Recordset** `grs` is opened on the children of the **Record** `grec`.</span></span> <span data-ttu-id="c0abf-135">Затем lstMain заполняется именами файлов ресурсов, опубликованных по URL-адресу.</span><span class="sxs-lookup"><span data-stu-id="c0abf-135">The lstMain is then populated with the file names of the resources published to the URL.</span></span>
+   <span data-ttu-id="7dfd7-134">Набор **записей** `grs` открыт для детей **записи.** `grec`</span><span class="sxs-lookup"><span data-stu-id="7dfd7-134">The **Recordset** `grs` is opened on the children of the **Record** `grec`.</span></span> <span data-ttu-id="7dfd7-135">Затем lstMain заполняется именами файлов ресурсов, опубликованных на URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-135">The lstMain is then populated with the file names of the resources published to the URL.</span></span>
 
-## <a name="step-3-populate-the-fields-list-box"></a><span data-ttu-id="c0abf-136">Шаг 3. Заполнение списка "Поля"</span><span class="sxs-lookup"><span data-stu-id="c0abf-136">Step 3: Populate the Fields list box</span></span>
+## <a name="step-3-populate-the-fields-list-box"></a><span data-ttu-id="7dfd7-136">Шаг 3. Заполнять поле списка Поля</span><span class="sxs-lookup"><span data-stu-id="7dfd7-136">Step 3: Populate the Fields list box</span></span>
 
-- <span data-ttu-id="c0abf-137">Вставьте следующий код в обработок события Click lstMain:</span><span class="sxs-lookup"><span data-stu-id="c0abf-137">Insert the following code into the Click event handler of lstMain:</span></span>
+- <span data-ttu-id="7dfd7-137">Вставьте следующий код в обработник событий Click lstMain:</span><span class="sxs-lookup"><span data-stu-id="7dfd7-137">Insert the following code into the Click event handler of lstMain:</span></span>
 
    ```vb 
     
@@ -118,19 +118,19 @@ ms.locfileid: "32291274"
     End Sub 
    ```
 
-   <span data-ttu-id="c0abf-138">Этот код объявляет и мгновенно регистрирует локальные объекты **Record** и **Recordset** и `rec` `rs` соответственно.</span><span class="sxs-lookup"><span data-stu-id="c0abf-138">This code declares and instantiates local **Record** and **Recordset** objects `rec` and `rs`respectively.</span></span>
+   <span data-ttu-id="7dfd7-138">Этот код объявляет и мгновенно передает локальные объекты **Record** и **Recordset** и `rec` `rs` соответственно.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-138">This code declares and instantiates local **Record** and **Recordset** objects `rec` and `rs`respectively.</span></span>
 
-   <span data-ttu-id="c0abf-139">Строка, соответствующая ресурсу, выбранному в lstMain, является текущей строкой `grs` .</span><span class="sxs-lookup"><span data-stu-id="c0abf-139">The row corresponding to the resource selected in lstMain is made the current row of `grs`.</span></span> <span data-ttu-id="c0abf-140">Затем **будет** очищено поле со списком сведений, и откроется `rec` текущая строка `grs` источника.</span><span class="sxs-lookup"><span data-stu-id="c0abf-140">The **Details** list box is then cleared and `rec` is opened with the current row of `grs` as the source.</span></span>
+   <span data-ttu-id="7dfd7-139">Строка, соответствующая ресурсу, выбранному в lstMain, выполнена в текущей строке `grs` .</span><span class="sxs-lookup"><span data-stu-id="7dfd7-139">The row corresponding to the resource selected in lstMain is made the current row of `grs`.</span></span> <span data-ttu-id="7dfd7-140">Затем **поле Список** сведений очищается и открывается с текущей `rec` строкой в качестве `grs` источника.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-140">The **Details** list box is then cleared and `rec` is opened with the current row of `grs` as the source.</span></span>
 
-   <span data-ttu-id="c0abf-141">Если ресурс является записью коллекции (как указано **в RecordType),** локальный набор **записей** открывается на его `rs` `rec` основе.</span><span class="sxs-lookup"><span data-stu-id="c0abf-141">If the resource is a collection record (as specified by **RecordType**), the local **Recordset** `rs` is opened on the children of `rec`.</span></span> <span data-ttu-id="c0abf-142">LstDetails затем заполняется значениями из строк `rs` .</span><span class="sxs-lookup"><span data-stu-id="c0abf-142">lstDetails is then filled with the values from the rows of `rs`.</span></span>
+   <span data-ttu-id="7dfd7-141">Если ресурс является записью коллекции (как указано **в RecordType),** локальный набор записей открывается для  `rs` детей `rec` .</span><span class="sxs-lookup"><span data-stu-id="7dfd7-141">If the resource is a collection record (as specified by **RecordType**), the local **Recordset** `rs` is opened on the children of `rec`.</span></span> <span data-ttu-id="7dfd7-142">затем lstDetails заполняется значениями из строк `rs` .</span><span class="sxs-lookup"><span data-stu-id="7dfd7-142">lstDetails is then filled with the values from the rows of `rs`.</span></span>
 
-   <span data-ttu-id="c0abf-143">Если ресурс является простой записью, `recFields` он будет вызван.</span><span class="sxs-lookup"><span data-stu-id="c0abf-143">If the resource is a simple record, `recFields` is called.</span></span> <span data-ttu-id="c0abf-144">Дополнительные сведения `recFields` см. в следующем шаге.</span><span class="sxs-lookup"><span data-stu-id="c0abf-144">For more information about `recFields`, see the next step.</span></span>
+   <span data-ttu-id="7dfd7-143">Если ресурс является простой записью, `recFields` называется.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-143">If the resource is a simple record, `recFields` is called.</span></span> <span data-ttu-id="7dfd7-144">Дополнительные сведения `recFields` см. в следующем шаге.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-144">For more information about `recFields`, see the next step.</span></span>
 
-   <span data-ttu-id="c0abf-145">Если ресурс является структурированным документом, код не реализуется.</span><span class="sxs-lookup"><span data-stu-id="c0abf-145">No code is implemented if the resource is a structured document.</span></span>
+   <span data-ttu-id="7dfd7-145">Если ресурс является структурированным документом, код не реализуется.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-145">No code is implemented if the resource is a structured document.</span></span>
 
-## <a name="step-4-populate-the-details-text-box"></a><span data-ttu-id="c0abf-146">Шаг 4. Заполнение текстового окна "Сведения"</span><span class="sxs-lookup"><span data-stu-id="c0abf-146">Step 4: Populate the Details text box</span></span>
+## <a name="step-4-populate-the-details-text-box"></a><span data-ttu-id="7dfd7-146">Шаг 4. Заполнение текстового окна Details</span><span class="sxs-lookup"><span data-stu-id="7dfd7-146">Step 4: Populate the Details text box</span></span>
 
-- <span data-ttu-id="c0abf-147">Создайте новую подгруппу с именем `recFields` и вставьте следующий код:</span><span class="sxs-lookup"><span data-stu-id="c0abf-147">Create a new subroutine named `recFields` and insert the following code:</span></span>
+- <span data-ttu-id="7dfd7-147">Создайте новый подраутин с именем `recFields` и вставьте следующий код:</span><span class="sxs-lookup"><span data-stu-id="7dfd7-147">Create a new subroutine named `recFields` and insert the following code:</span></span>
 
    ```vb 
     
@@ -157,5 +157,5 @@ ms.locfileid: "32291274"
     End Sub 
    ```
 
-   <span data-ttu-id="c0abf-148">Этот код заполняет lstDetails полями и значениями простой записи, переданной `recFields` в .</span><span class="sxs-lookup"><span data-stu-id="c0abf-148">This code populates lstDetails with the fields and values of the simple record passed to `recFields`.</span></span> <span data-ttu-id="c0abf-149">Если ресурс является текстовым файлом, из записи ресурса открывается текстовый поток. </span><span class="sxs-lookup"><span data-stu-id="c0abf-149">If the resource is a text file, a text **Stream** is opened from the resource record.</span></span> <span data-ttu-id="c0abf-150">Код определяет, является ли набор символов ASCII, и копирует содержимое **Stream** в `txtDetails` .</span><span class="sxs-lookup"><span data-stu-id="c0abf-150">The code determines if the character set is ASCII, and copies the **Stream** contents into `txtDetails`.</span></span>
+   <span data-ttu-id="7dfd7-148">Этот код заполняет lstDetails полями и значениями простой записи, переданной `recFields` в .</span><span class="sxs-lookup"><span data-stu-id="7dfd7-148">This code populates lstDetails with the fields and values of the simple record passed to `recFields`.</span></span> <span data-ttu-id="7dfd7-149">Если ресурс — это текстовый файл, текстовый **поток** открывается из записи ресурса.</span><span class="sxs-lookup"><span data-stu-id="7dfd7-149">If the resource is a text file, a text **Stream** is opened from the resource record.</span></span> <span data-ttu-id="7dfd7-150">Код определяет, является ли набор символов ASCII, и копирует содержимое **Stream** в `txtDetails` .</span><span class="sxs-lookup"><span data-stu-id="7dfd7-150">The code determines if the character set is ASCII, and copies the **Stream** contents into `txtDetails`.</span></span>
 

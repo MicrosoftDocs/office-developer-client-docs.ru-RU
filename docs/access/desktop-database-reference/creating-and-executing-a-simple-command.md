@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295319"
 ---
-# <a name="creating-and-executing-a-simple-command"></a><span data-ttu-id="9b00f-102">Создание и выполнение простой команды</span><span class="sxs-lookup"><span data-stu-id="9b00f-102">Creating and executing a simple command</span></span>
+# <a name="creating-and-executing-a-simple-command"></a><span data-ttu-id="345aa-102">Создание и выполнение простой команды</span><span class="sxs-lookup"><span data-stu-id="345aa-102">Creating and executing a simple command</span></span>
 
 
-<span data-ttu-id="9b00f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9b00f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="345aa-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="345aa-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9b00f-104">Хотя обычное использование объекта **Command** не является типичным, в следующем коде показан базовый метод использования объекта **Command** для выполнения команды для источника данных.</span><span class="sxs-lookup"><span data-stu-id="9b00f-104">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source.</span></span> <span data-ttu-id="9b00f-105">В этом случае это команда, возвращаемая строками, поэтому она возвращает результаты выполнения команды в объект **Recordset.**</span><span class="sxs-lookup"><span data-stu-id="9b00f-105">In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span></span>
+<span data-ttu-id="345aa-104">Хотя обычное использование объекта **Command** не является типичным, в следующем коде показан базовый метод использования объекта **Command** для выполнения команды в отношении источника данных.</span><span class="sxs-lookup"><span data-stu-id="345aa-104">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source.</span></span> <span data-ttu-id="345aa-105">В этом случае это команда, возвращаемая строками, поэтому она возвращает результаты выполнения команды в объект **Recordset.**</span><span class="sxs-lookup"><span data-stu-id="345aa-105">In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span></span>
 
 ```vb 
  
@@ -79,11 +79,11 @@ ErrHandler:
 'EndBasicCmd 
 ```
 
-<span data-ttu-id="9b00f-106">Команда, которая должна выполняться, указывается с помощью свойства **CommandText.**</span><span class="sxs-lookup"><span data-stu-id="9b00f-106">The command to be executed is specified with the **CommandText** property.</span></span>
+<span data-ttu-id="345aa-106">Команда, которая будет выполнена, указывается **свойством CommandText.**</span><span class="sxs-lookup"><span data-stu-id="345aa-106">The command to be executed is specified with the **CommandText** property.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="9b00f-107">Несколько примеров в этом разделе называют с помощью функции **GetNewConnection,** чтобы установить подключение к поставщику данных.</span><span class="sxs-lookup"><span data-stu-id="9b00f-107">Several examples in this section call a utility function, **GetNewConnection**, to establish a connection with the data provider.</span></span> <span data-ttu-id="9b00f-108">Чтобы избежать избыточности, он указан только один раз:</span><span class="sxs-lookup"><span data-stu-id="9b00f-108">To avoid redundancy, it is listed only once:</span></span>
+> <span data-ttu-id="345aa-107">В нескольких примерах в этом разделе называются утилита **GetNewConnection,** чтобы установить подключение к поставщику данных.</span><span class="sxs-lookup"><span data-stu-id="345aa-107">Several examples in this section call a utility function, **GetNewConnection**, to establish a connection with the data provider.</span></span> <span data-ttu-id="345aa-108">Чтобы избежать избыточности, он перечислены только один раз:</span><span class="sxs-lookup"><span data-stu-id="345aa-108">To avoid redundancy, it is listed only once:</span></span>
 
 ```vb 
  

@@ -1,5 +1,5 @@
 ---
-title: Keys Append Method, Key Type, RelatedColumn properties example (VB)
+title: Пример свойств Keys Append, Key Type, RelatedColumn (VB)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)
 ms:assetid: d1b0508d-ab2c-eece-061c-09c67ea9ecae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290633"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a><span data-ttu-id="d0bff-102">Пример работы с свойствами Keys Append, Key Type, RelatedColumn, RelatedTable и UpdateRule (VB)</span><span class="sxs-lookup"><span data-stu-id="d0bff-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a><span data-ttu-id="b607b-102">Пример свойств Keys Append, Key Type, RelatedColumn, RelatedTable и UpdateRule (VB)</span><span class="sxs-lookup"><span data-stu-id="b607b-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)</span></span>
 
 
-<span data-ttu-id="d0bff-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d0bff-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b607b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b607b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d0bff-104">В следующем коде показано, как создать новый внешнего ключа.</span><span class="sxs-lookup"><span data-stu-id="d0bff-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="d0bff-105">Предполагается, что существует две **таблицы (Клиенты** и **Заказы).**</span><span class="sxs-lookup"><span data-stu-id="d0bff-105">It assumes two tables (**Customers** and **Orders**) exist.</span></span>
+<span data-ttu-id="b607b-104">В следующем коде показано, как создать новый иностранный ключ.</span><span class="sxs-lookup"><span data-stu-id="b607b-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="b607b-105">Предполагается, что существуют две **таблицы (клиенты** и **заказы).**</span><span class="sxs-lookup"><span data-stu-id="b607b-105">It assumes two tables (**Customers** and **Orders**) exist.</span></span>
 
 ```vb 
  

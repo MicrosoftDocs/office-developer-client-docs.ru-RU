@@ -1,5 +1,5 @@
 ---
-title: JScript (справочник по базам данных Access для настольных ПК)
+title: JScript (Ссылка на настольные базы данных)
 TOCTitle: JScript
 ms:assetid: 78da203c-1342-1a04-ae53-c1fb714d18b5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249498(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290910"
 ---
-# <a name="jscript"></a><span data-ttu-id="54a74-102">JScript</span><span class="sxs-lookup"><span data-stu-id="54a74-102">JScript</span></span>
+# <a name="jscript"></a><span data-ttu-id="fb77b-102">JScript</span><span class="sxs-lookup"><span data-stu-id="fb77b-102">JScript</span></span>
 
 
-<span data-ttu-id="54a74-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="54a74-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fb77b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fb77b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="54a74-104">Microsoft JScript не поддерживает события ADO.</span><span class="sxs-lookup"><span data-stu-id="54a74-104">Microsoft JScript does not support ADO events.</span></span>
+<span data-ttu-id="fb77b-104">Microsoft JScript не поддерживает события ADO.</span><span class="sxs-lookup"><span data-stu-id="fb77b-104">Microsoft JScript does not support ADO events.</span></span>
 

@@ -14,23 +14,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292309"
 ---
-# <a name="getchildren-method-ado"></a><span data-ttu-id="d1b02-102">Метод GetChildren (ADO)</span><span class="sxs-lookup"><span data-stu-id="d1b02-102">GetChildren method (ADO)</span></span>
+# <a name="getchildren-method-ado"></a><span data-ttu-id="fa402-102">Метод GetChildren (ADO)</span><span class="sxs-lookup"><span data-stu-id="fa402-102">GetChildren method (ADO)</span></span>
 
 
-<span data-ttu-id="d1b02-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1b02-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fa402-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fa402-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="d1b02-104">Возвращает набор [записей,](recordset-object-ado.md) строки которого представляют собой children of a collection [Record](record-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="d1b02-104">Returns a [Recordset](recordset-object-ado.md) whose rows represent the children of a collection [Record](record-object-ado.md).</span></span>
+<span data-ttu-id="fa402-104">Возвращает набор [записей,](recordset-object-ado.md) строки которого представляют детей коллекции [Record](record-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="fa402-104">Returns a [Recordset](recordset-object-ado.md) whose rows represent the children of a collection [Record](record-object-ado.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d1b02-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d1b02-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fa402-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="fa402-105">Syntax</span></span>
 
-<span data-ttu-id="d1b02-106">**Установите** *запись набора*  =  *записей.* GetChildren</span><span class="sxs-lookup"><span data-stu-id="d1b02-106">**Set** *recordset* = *record*.GetChildren</span></span>
+<span data-ttu-id="fa402-106">**Установите** *запись набора*  =  *записей.* GetChildren</span><span class="sxs-lookup"><span data-stu-id="fa402-106">**Set** *recordset* = *record*.GetChildren</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="d1b02-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="d1b02-107">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="fa402-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="fa402-107">Return value</span></span>
 
-<span data-ttu-id="d1b02-108">Объект **Recordset,** для которого каждая строка представляет собой дитя текущего объекта **Record.**</span><span class="sxs-lookup"><span data-stu-id="d1b02-108">A **Recordset** object for which each row represents a child of the current **Record** object.</span></span> <span data-ttu-id="d1b02-109">Например, потомком записи, которая представляет каталог, будут файлы и подкадиректоры, содержащиеся в родительском каталоге. </span><span class="sxs-lookup"><span data-stu-id="d1b02-109">For example, the children of a **Record** that represents a directory would be the files and subdirectories contained within the parent directory.</span></span>
+<span data-ttu-id="fa402-108">Объект **Recordset,** для которого каждая строка представляет собой дитя текущего объекта **Record.**</span><span class="sxs-lookup"><span data-stu-id="fa402-108">A **Recordset** object for which each row represents a child of the current **Record** object.</span></span> <span data-ttu-id="fa402-109">Например, дети записи, представляют каталог, — это файлы и подтеки, содержащиеся в родительском каталоге. </span><span class="sxs-lookup"><span data-stu-id="fa402-109">For example, the children of a **Record** that represents a directory would be the files and subdirectories contained within the parent directory.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d1b02-110">Заметки</span><span class="sxs-lookup"><span data-stu-id="d1b02-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fa402-110">Примечания</span><span class="sxs-lookup"><span data-stu-id="fa402-110">Remarks</span></span>
 
-<span data-ttu-id="d1b02-111">Поставщик определяет, какие столбцы существуют в возвращаемом **наборе записей.**</span><span class="sxs-lookup"><span data-stu-id="d1b02-111">The provider determines what columns exist in the returned **Recordset**.</span></span> <span data-ttu-id="d1b02-112">Например, поставщик источника документов всегда возвращает набор **записей ресурсов.**</span><span class="sxs-lookup"><span data-stu-id="d1b02-112">For example, a document source provider always returns a resource **Recordset**.</span></span>
+<span data-ttu-id="fa402-111">Поставщик определяет, какие столбцы существуют в возвращаемом **наборе записей.**</span><span class="sxs-lookup"><span data-stu-id="fa402-111">The provider determines what columns exist in the returned **Recordset**.</span></span> <span data-ttu-id="fa402-112">Например, поставщик источников документов всегда возвращает набор **записей ресурсов.**</span><span class="sxs-lookup"><span data-stu-id="fa402-112">For example, a document source provider always returns a resource **Recordset**.</span></span>
 
