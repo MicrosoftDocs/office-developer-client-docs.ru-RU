@@ -22,12 +22,12 @@ ms.locfileid: "32295123"
 
 **Область применения**: Access 2013, Office 2013
 
-Если приложение не может правильно работать с функциями якоря базы данных Microsoft Access по умолчанию, может потребоваться изменить параметры реестра Microsoft Windows в соответствии со своими потребностями. Реестр Windows также можно использовать для настройки работы устанавливаемого драйвера ISAM и ODBC.
+Если приложение не может правильно работать с функциональными возможностями базы данных Microsoft Access по умолчанию, возможно, вам придется изменить параметры в реестре Microsoft Windows в соответствии с вашими потребностями. Реестр Windows также можно использовать для настройки работы устанавливаемого драйвера ISAM и ODBC.
 
-Параметры в реестре Windows можно настроить четырьмя способами:
+Настройки параметров в реестре Windows четырьмя способами:
 
 - [Использование Regedit.exe для переоценки параметров по умолчанию](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-regedit-exe-to-overwrite-the-default-settings)
 - [Создание части в дереве реестра приложения для управления настройками](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/creating-a-portion-in-your-application-s-registry-tree-to-manage-the-settings)
 - [Использование метода SetOption из DAO](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-setoption-method-from-dao)
-- [Использование свойств подключения в поставщике Microsoft OLE DB для Access](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-connection-properties-in-the-microsoft-ole-db-provider-for-access)
+- [Использование свойств Подключения в поставщике DB Microsoft OLE для доступа](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-connection-properties-in-the-microsoft-ole-db-provider-for-access)
 

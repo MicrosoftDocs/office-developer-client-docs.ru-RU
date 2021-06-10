@@ -18,7 +18,7 @@ ms.locfileid: "32291281"
 
 **Область применения**: Access 2013, Office 2013
 
-В следующей таблице Microsoft IIS коды ошибок IIS, связанные с использованием удаленной службы данных. Показаны положительный десятичной перевод с низкими двумябайтами, отрицательный десятичной перевод всего кода ошибки и показано, как отызвить его.
+В следующей таблице Microsoft IIS коды ошибок IIS, связанные с использованием службы удаленных данных. Показан положительный десятичной перевод низких двух bytes, отрицательный десятичной перевод полного кода ошибки и гексадецимальные значения.
 
 <table>
 <colgroup>
@@ -28,9 +28,9 @@ ms.locfileid: "32291281"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ошибки службы Internet Information Services</p></th>
-<th><p>Числовой</p></th>
-<th><p>Описание</p></th>
+<th><p>службы IIS ошибки</p></th>
+<th><p>Номер</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
@@ -39,21 +39,21 @@ ms.locfileid: "32291281"
 <td><p>8208<br />
 -2146820080<br />
 0x800A2010</p></td>
-<td><p>Internet Server Error: Access Denied.</p></td>
+<td><p>Ошибка сервера Интернета. Доступ отказано.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_IIS_ObjectNotFound</strong></p></td>
 <td><p>8209<br />
 -2146820079<br />
 0x800A2011</p></td>
-<td><p>Internet Server Error: Object/module not found.</p></td>
+<td><p>Ошибка internet Server: объект/модуль не найден.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_IIS_RequestForbidden</strong></p></td>
 <td><p>8210<br />
 -2146820078<br />
 0x800A2012</p></td>
-<td><p>Ошибка internet Server: запрос запрещен.</p></td>
+<td><p>Ошибка сервера Интернета. Запрос запрещен.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_IIS_UnexpectedError</strong></p></td>

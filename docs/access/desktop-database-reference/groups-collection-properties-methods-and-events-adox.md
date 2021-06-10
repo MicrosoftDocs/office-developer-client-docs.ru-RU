@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события коллекции Groups (ADOX)
+title: Свойства, методы и события коллекции групп (ADOX)
 TOCTitle: Groups collection properties, methods, and events (ADOX)
 ms:assetid: 6893863d-a9e9-cde8-3ad9-283332c6da88
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249410(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292057"
 ---
-# <a name="groups-collection-properties-methods-and-events-adox"></a>Свойства, методы и события коллекции Groups (ADOX)
+# <a name="groups-collection-properties-methods-and-events-adox"></a>Свойства, методы и события коллекции групп (ADOX)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -24,10 +24,10 @@ ms.locfileid: "32292057"
 - [Свойство Count](count-property-ado.md)
 - [Свойство Item](item-property-ado.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
-- [Метод Append (Groups)](append-method-adox-groups.md)
-- [Метод Delete (Collections)](delete-method-adox-collections.md)
+- [Метод приложения (Группы)](append-method-adox-groups.md)
+- [Удаление метода (Коллекции)](delete-method-adox-collections.md)
 - [Метод Refresh](refresh-method-ado.md)
 
 ## <a name="events"></a>События

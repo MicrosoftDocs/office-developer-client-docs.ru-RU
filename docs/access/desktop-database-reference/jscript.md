@@ -1,5 +1,5 @@
 ---
-title: JScript (справочник по базам данных Access для настольных ПК)
+title: JScript (Ссылка на настольные базы данных)
 TOCTitle: JScript
 ms:assetid: 78da203c-1342-1a04-ae53-c1fb714d18b5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249498(v=office.15)

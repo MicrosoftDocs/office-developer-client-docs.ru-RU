@@ -1,5 +1,5 @@
 ---
-title: Метод Delete (коллекции ADOX)
+title: Метод удаления (коллекции ADOX)
 TOCTitle: Delete method (ADOX Collections)
 ms:assetid: bcf9b8dd-cc7a-c1f9-fd93-58694766c4d9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249909(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294080"
 ---
-# <a name="delete-method-adox-collections"></a>Метод Delete (коллекции ADOX)
+# <a name="delete-method-adox-collections"></a>Метод удаления (коллекции ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -28,11 +28,11 @@ ms.locfileid: "32294080"
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Name* |**Вариант,** который указывает имя или порядковую позицию (индекс) удаляемого объекта.|
+|*Name* |**Вариант,** который указывает имя или координатную позицию (индекс) объекта для удаления.|
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Если имя не существует в *коллекции,* произойдет ошибка.
+Ошибка произойдет, если *имя* не существует в коллекции.
 
-Для [коллекций](tables-collection-adox.md) ["Таблицы"](users-collection-adox.md) и "Пользователи" возникает ошибка, если поставщик не поддерживает удаление таблиц или пользователей соответственно. Для [коллекций Procedures](procedures-collection-adox.md) и [Views](views-collection-adox.md) удаление не удастся, если поставщик не поддерживает команды сохраняемой информации. 
+Для [коллекций](tables-collection-adox.md) [Таблицы](users-collection-adox.md) и Пользователи возникает ошибка, если поставщик не поддерживает удаление таблиц или пользователей соответственно. Для [коллекций "Процедуры](procedures-collection-adox.md) и [представления"](views-collection-adox.md) **удаление** не удастся, если поставщик не поддерживает сохраняющиеся команды.
 

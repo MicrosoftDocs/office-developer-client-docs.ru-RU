@@ -19,7 +19,7 @@ ms.locfileid: "32291430"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано [свойство IndexNulls](indexnulls-property-adox.md) [индекса.](index-object-adox.md) Код создает новый индекс и задает значение **IndexNulls** на основе пользовательского ввода. Затем индекс **будет** appended to the **Employees** [Table](table-object-adox.md) in the *Northwind* [Catalog](catalog-object-adox.md). Новый индекс **применяется** к набору [записей](recordset-object-ado.md) на основе таблицы **Employees,** и **набор записей** открыт. В таблицу Employees  добавляется новая запись со значением **NULL** в индексаемом поле. Отображение новой записи зависит от параметра свойства **IndexNulls.**
+В этом примере показано свойство [IndexNulls](indexnulls-property-adox.md) [индекса.](index-object-adox.md) Код создает новый индекс и задает значение **IndexNulls** на основе ввода пользователя. Затем индекс **примещается** к таблице **сотрудников** [в](table-object-adox.md) *каталоге Northwind.* [](catalog-object-adox.md) Новый индекс **применяется** к набору [записей](recordset-object-ado.md) на основе таблицы **"Сотрудники"** и открывается **набор** записей. В таблицу **Employees** добавляется новая запись со значением **Null** в проиндексации поля. Отобразить эту новую запись зависит от параметра свойства **IndexNulls.**
 
 ```cpp 
  

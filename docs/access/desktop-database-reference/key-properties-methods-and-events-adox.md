@@ -18,16 +18,16 @@ ms.locfileid: "32290313"
 
 **Область применения**: Access 2013, Office 2013 
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Коллекция Columns](columns-collection-adox.md)
 - [Свойство DeleteRule](deleterule-property-adox.md)
 - [Свойство Name](name-property-adox.md)
 - [Свойство RelatedTable](relatedtable-property-adox.md)
-- [Свойство Type (Key)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox)
+- [Свойство type (Key)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox)
 - [Свойство UpdateRule](updaterule-property-adox.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 Нет.
 

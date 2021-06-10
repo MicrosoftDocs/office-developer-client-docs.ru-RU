@@ -23,9 +23,9 @@ ms.locfileid: "32290008"
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает **длинное** integer и является только для чтения.
+Возвращает длинный **ряд** и является только для чтения.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Используйте свойство **LevelDepth,** чтобы определить расстояние объекта [Member](member-object-ado-md.md) от корневого уровня иерархии. **LevelDepth** члена на корневом уровне — 0. Это соответствует свойству [Depth](depth-property-ado-md.md) объекта [Level.](level-object-ado-md.md)
+Используйте **свойство LevelDepth,** чтобы определить расстояние объекта [Member](member-object-ado-md.md) от корневого уровня иерархии. **LevelDepth** участника на корневом уровне — 0. Это соответствует свойству [Depth](depth-property-ado-md.md) объекта [Level.](level-object-ado-md.md)
 

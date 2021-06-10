@@ -19,7 +19,7 @@ ms.locfileid: "32288759"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используются методы [MoveFirst,](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) [MoveLast,](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)и [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) для перемещения указателя записи для [recordset](recordset-object-ado.md) на основе предоставленной команды. Для запуска этого примера требуется функция MoveAny.
+В этом примере используются методы [MoveFirst,](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) [MoveLast,](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)и [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) для перемещения указателя записи [наборов](recordset-object-ado.md) записей на основе предоставленной команды. Для запуска в этом примере требуется функция MoveAny.
 
 ```cpp 
  

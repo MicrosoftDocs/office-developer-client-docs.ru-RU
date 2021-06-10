@@ -1,5 +1,5 @@
 ---
-title: Метод Databases.Refresh (DAO)
+title: Databases.Refresh method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 4e928103-34ab-4651-6969-d427c2ddc376
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193648(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294584"
 ---
-# <a name="databasesrefresh-method-dao"></a>Метод Databases.Refresh (DAO)
+# <a name="databasesrefresh-method-dao"></a>Databases.Refresh method (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,11 +23,11 @@ ms.locfileid: "32294584"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* Обновление
+*выражения* . Обновление
 
 *выражение* Переменная, представляюная объект **Databases.**
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Метод Refresh нельзя  использовать с неохраняемой коллекцией, например **Connections, Databases,** **Recordsets,** **Workspaces** или **коллекцией QueryDefs** объекта **Connection.** 
+Нельзя использовать метод  Обновления с неустранительными коллекциями, такими как **Connections,** **Databases,** **Recordsets,** **Workspaces** или **коллекция QueryDefs** объекта **Connection.**
 

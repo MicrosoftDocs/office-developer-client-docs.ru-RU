@@ -19,9 +19,9 @@ ms.locfileid: "32295347"
 
 **Область применения**: Access 2013, Office 2013
 
-Можно создать объект [Recordset](recordset-object-ado.md) и указать сведения о столбце. Затем можно вставить данные в объект **Recordset;** вставляемые строки буферов вставляется в его подмножество строк.
+Можно создать объект [Recordset](recordset-object-ado.md) и указать сведения столбца. Затем можно вставить данные в объект **Recordset;** в основном наборе строк буферы вставки.
 
-В следующем примере кода показано, как определить **набор записей** с помощью объекта [RDSServer.DataFactory.](datafactory-object-rdsserver.md) Это также можно сделать с [помощью RDS. Объект DataControl.](datacontrol-object-rds.md)
+В следующем примере кода показано, как определить **набор записей** с помощью объекта [RDSServer.DataFactory.](datafactory-object-rdsserver.md) Вы также можете сделать это с [помощью RDS. Объект DataControl.](datacontrol-object-rds.md)
 
 ```vb 
  

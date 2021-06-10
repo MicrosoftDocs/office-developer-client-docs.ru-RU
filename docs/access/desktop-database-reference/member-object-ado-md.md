@@ -19,51 +19,51 @@ ms.locfileid: "32289424"
 
 **Область применения**: Access 2013, Office 2013
 
-Представляет элемент уровня в кубе, его детей или позицию вдоль оси ячеек.
+Представляет члена уровня в кубе, детей члена уровня или члена положения вдоль оси ячейки.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Свойства члена отличаются **в** зависимости от контекста, в котором он используется. У **члена** [уровня](level-object-ado-md.md) в [CubeDef](cubedef-object-ado-md.md) есть свойство [Children,](children-property-ado-md.md) которое возвращает члены на следующем нижнем уровне иерархии от текущего **члена.**  Для  члена позиции [коллекция](position-object-ado-md.md) **Children** всегда пуста. Кроме того, свойство [Type](type-property-ado-md.md) применяется только к **членам** **уровня.**
+Свойства участника **различаются** в зависимости от контекста, в котором он используется. У **члена** [уровня](level-object-ado-md.md) [в CubeDef](cubedef-object-ado-md.md) [](children-property-ado-md.md) есть свойство Children,  которое возвращает участников на следующем нижнем уровне иерархии из текущего **участника.** Для **участника** позиции [коллекция](position-object-ado-md.md) **Children** всегда пуста. Кроме того, [свойство Type](type-property-ado-md.md) применяется только **к участникам** **уровня**.
 
-Элемент **Позиции** **имеет** два свойства ( [DrilledDown](drilleddown-property-ado-md.md) и [ParentSameAsPrev),](parentsameasprev-property-ado-md.md) которые полезны при отобралении [cellset](cellset-object-ado-md.md). При доступе к этим свойствам на  члене уровня произойдет **ошибка.**
+Элемент  Position **имеет** два свойства : [DrilledDown](drilleddown-property-ado-md.md) и [ParentSameAsPrev,](parentsameasprev-property-ado-md.md) которые полезны при отобрачении [ячейки.](cellset-object-ado-md.md) Ошибка будет возникать, если эти свойства доступны на **члене** **уровня**.
 
-С помощью коллекций и свойств объекта  **Member** уровня можно сделать следующее:
+С помощью коллекций и свойств **объекта-члена** уровня **можно** сделать следующее:
 
-  - Определите **участника** со [свойствами Name](name-property-ado-md.md) и [UniqueName.](uniquename-property-ado-md.md)
+  - Определите **участника** с [свойствами Name](name-property-ado-md.md) и [UniqueName.](uniquename-property-ado-md.md)
 
-  - Возвращает строку, которая будет применяться при отобраке **объекта Member** со [свойством Caption.](caption-property-ado-md.md)
+  - Возвращаем строку, используемую при отобратии **участника** с [свойством Caption.](caption-property-ado-md.md)
 
-  - Возвращает осмысленные строки, описывая меру или **формулу Member со** [свойством Description.](description-property-ado-md.md)
+  - Возвращаем значимую строку, описываемую мерой или участником **формулы** с [свойством Description.](description-property-ado-md.md)
 
-  - Определите природу члена **с** помощью свойства [Type.](type-property-ado-md.md)
+  - Определите природу участника **с** свойством [Type.](type-property-ado-md.md)
 
-  - Получите сведения об **уровне участника** **со** свойствами [LevelDepth](leveldepth-property-ado-md.md) и [LevelName.](levelname-property-ado-md.md)
+  - Получение сведений об **уровне** **участника** с свойствами [LevelDepth](leveldepth-property-ado-md.md) и [LevelName.](levelname-property-ado-md.md)
 
-  - Получение **связанных членов** в [иерархии со](hierarchy-object-ado-md.md) свойствами [Parent](parent-property-ado-md.md) и [Children.](children-property-ado-md.md)
+  - Получение **связанных членов** в [иерархии](hierarchy-object-ado-md.md) с [свойствами Parent](parent-property-ado-md.md) и [Children.](children-property-ado-md.md)
 
-  - Посчитайте количество детей **члена с** помощью свойства [ChildCount.](childcount-property-ado-md.md)
+  - Подсчитайте детей участника **с** [свойством ChildCount.](childcount-property-ado-md.md)
 
-  - Используйте стандартную коллекцию [свойств](properties-collection-ado.md) ADO для получения дополнительных сведений об **объекте Level.**
+  - Используйте стандартную коллекцию свойств ADO [для](properties-collection-ado.md) получения дополнительных сведений об **объекте Level.**
 
-С помощью коллекций и  свойств члена  позиции вдоль оси [можно](axis-object-ado-md.md)сделать следующее:
+С помощью коллекций и свойств участника  **позиции** вдоль оси [вы](axis-object-ado-md.md)можете сделать следующее:
 
-  - Определите **участника** со [свойствами Name](name-property-ado-md.md) и [UniqueName.](uniquename-property-ado-md.md)
+  - Определите **участника** с [свойствами Name](name-property-ado-md.md) и [UniqueName.](uniquename-property-ado-md.md)
 
-  - Возвращает строку, которая будет применяться при отобраке **объекта Member** со [свойством Caption.](caption-property-ado-md.md)
+  - Возвращаем строку, используемую при отобратии **участника** с [свойством Caption.](caption-property-ado-md.md)
 
-  - Возвращает осмысленные строки, описывая меру или **формулу Member со** [свойством Description.](description-property-ado-md.md)
+  - Возвращаем значимую строку, описываемую мерой или участником **формулы** с [свойством Description.](description-property-ado-md.md)
 
-  - Получите сведения об **уровне участника** **со** свойствами [LevelDepth](leveldepth-property-ado-md.md) и [LevelName.](levelname-property-ado-md.md)
+  - Получение сведений об **уровне** **участника** с свойствами [LevelDepth](leveldepth-property-ado-md.md) и [LevelName.](levelname-property-ado-md.md)
 
-  - Посчитайте количество детей **члена с** помощью свойства [ChildCount.](childcount-property-ado-md.md)
+  - Подсчитайте детей участника **с** [свойством ChildCount.](childcount-property-ado-md.md)
 
-  - Используйте свойство [DrilledDown,](drilleddown-property-ado-md.md) чтобы определить, есть ли по крайней мере один child на оси **сразу** после этого **члена**.
+  - Используйте свойство [DrilledDown,](drilleddown-property-ado-md.md) чтобы определить, есть ли хотя бы один ребенок на **оси** сразу после этого **члена.**
 
-  - Используйте свойство [ParentSameAsPrev,](parentsameasprev-property-ado-md.md) чтобы определить,  является ли родительский объект этого члена тем же, что и родительский объект предшествующего **члена.**
+  - Используйте [свойство ParentSameAsPrev,](parentsameasprev-property-ado-md.md) чтобы определить,  является ли родитель этого члена таким же, как и родитель непосредственно предшествующего **участника.**
 
-  - Используйте стандартную коллекцию [свойств](properties-collection-ado.md) ADO для получения дополнительных сведений об **объекте Level.**
+  - Используйте стандартную коллекцию свойств ADO [для](properties-collection-ado.md) получения дополнительных сведений об **объекте Level.**
 
-Коллекция **Properties** содержит свойства, предоставленные поставщиком. В следующей таблице перечислены свойства, которые могут быть доступны. Фактический список свойств может отличаться в зависимости от реализации поставщика. Более полный список доступных свойств см. в документации к поставщику.
+Коллекция **свойств** содержит свойства, предоставленные поставщиком. В следующей таблице перечислены свойства, которые могут быть доступны. Фактический список свойств может отличаться в зависимости от реализации поставщика. Дополнительный список доступных свойств см. в документации для поставщика.
 
 <table>
 <colgroup>
@@ -90,12 +90,12 @@ ms.locfileid: "32289424"
 <td><p>Имя куба.</p></td>
 </tr>
 <tr class="even">
-<td><p>Описание</p></td>
-<td><p>Осмысленное описание участника.</p></td>
+<td><p>Description</p></td>
+<td><p>Содержательное описание участника.</p></td>
 </tr>
 <tr class="odd">
 <td><p>DimensionUniqueName</p></td>
-<td><p>Однозначное имя <a href="dimension-object-ado-md.md">измерения.</a></p></td>
+<td><p>Однозначное имя <a href="dimension-object-ado-md.md">измерения</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>HierarchyUniqueName</p></td>
@@ -111,7 +111,7 @@ ms.locfileid: "32289424"
 </tr>
 <tr class="odd">
 <td><p>MemberCaption</p></td>
-<td><p>Метка или подпись, связанная с участником.</p></td>
+<td><p>Метка или подпись, связанные с участником.</p></td>
 </tr>
 <tr class="even">
 <td><p>MemberGUID</p></td>
@@ -123,19 +123,19 @@ ms.locfileid: "32289424"
 </tr>
 <tr class="even">
 <td><p>MemberOrdinal</p></td>
-<td><p>Порядковая номер участника.</p></td>
+<td><p>Ordinal number of the member.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MemberType</p></td>
-<td><p>Тип члена.</p></td>
+<td><p>Тип участника.</p></td>
 </tr>
 <tr class="even">
 <td><p>MemberUniqueName</p></td>
-<td><p>Однозначное имя члена.</p></td>
+<td><p>Однозначное имя участника.</p></td>
 </tr>
 <tr class="odd">
 <td><p>ParentCount</p></td>
-<td><p>Количество родителей, которые есть у этого участника.</p></td>
+<td><p>Количество родителей, которое имеет этот член.</p></td>
 </tr>
 <tr class="even">
 <td><p>ParentLevel</p></td>
@@ -143,7 +143,7 @@ ms.locfileid: "32289424"
 </tr>
 <tr class="odd">
 <td><p>ParentUniqueName</p></td>
-<td><p>Однозначное имя родительского члена.</p></td>
+<td><p>Однозначное имя родителя участника.</p></td>
 </tr>
 <tr class="even">
 <td><p>SchemaName</p></td>

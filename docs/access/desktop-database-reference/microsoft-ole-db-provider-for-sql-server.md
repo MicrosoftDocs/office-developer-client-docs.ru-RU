@@ -19,11 +19,11 @@ ms.locfileid: "32288892"
 
 **Область применения**: Access 2013, Office 2013
 
-Поставщик Microsoft OLE DB для SQL Server, SQLOLEDB, позволяет ADO получать доступ к Microsoft SQL Server.
+Поставщик DB Microsoft OLE для SQL Server SQLOLEDB позволяет ADO получать доступ к Microsoft SQL Server.
 
 ## <a name="connection-string-parameters"></a>Параметры строки подключения
 
-Чтобы подключиться к этому поставщику, установите для аргумента *Provider* свойство [ConnectionString:](connectionstring-property-ado.md)
+Чтобы подключиться к этому поставщику, установите аргумент *Поставщика* [свойству ConnectionString:](connectionstring-property-ado.md)
 
 ```sql 
  
@@ -43,7 +43,7 @@ Initial Catalog=databaseName;
 User ID=userName;Password=userPassword;" 
 ```
 
-Строка состоит из таких ключевых слов:
+Строка состоит из этих ключевых слов:
 
 <table>
 <colgroup>
@@ -53,7 +53,7 @@ User ID=userName;Password=userPassword;"
 <thead>
 <tr class="header">
 <th><p>Ключевое слово</p></th>
-<th><p>Описание</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
@@ -66,24 +66,24 @@ User ID=userName;Password=userPassword;"
 <td><p>Указывает имя сервера.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Начальный каталог</strong> или база <strong>данных</strong></p></td>
+<td><p><strong>Начальный каталог</strong> или <strong>база данных</strong></p></td>
 <td><p>Указывает имя базы данных на сервере.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ИД пользователя</strong> или <strong>UID</strong></p></td>
+<td><p><strong>Пользовательский ID</strong> или <strong>uid</strong></p></td>
 <td><p>Указывает имя пользователя (для SQL Server проверки подлинности).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Пароль или</strong> <strong>pwd</strong></p></td>
+<td><p><strong>Пароль</strong> или <strong>pwd</strong></p></td>
 <td><p>Указывает пароль пользователя (для SQL Server проверки подлинности).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="provider-specific-connection-parameters"></a>Provider-Specific подключения
+## <a name="provider-specific-connection-parameters"></a>Provider-Specific параметры подключения
 
-Поставщик поддерживает несколько параметров подключения для конкретного поставщика в дополнение к параметрам, определенным aDO. Как и в свойствах подключения ADO, эти свойства для конкретного поставщика [](connection-object-ado.md) можно установить с помощью коллекции [свойств](properties-collection-ado.md) подключения или как часть **ConnectionString.**
+Поставщик поддерживает несколько параметров подключения, определенных для поставщика, в дополнение к параметрам, определенным ADO. Как и в свойствах подключения ADO, эти свойства, определенные для поставщика, можно установить через коллекцию [свойств](properties-collection-ado.md) подключения или установить в составе **ConnectionString.** [](connection-object-ado.md)
 
 <table>
 <colgroup>
@@ -99,10 +99,10 @@ User ID=userName;Password=userPassword;"
 <tbody>
 <tr class="odd">
 <td><p>Trusted_Connection</p></td>
-<td><p>Указывает режим проверки подлинности пользователя. Для этого можно установить <strong>"Да" или</strong> <strong>"Нет"</strong>. По умолчанию выбрано <strong>Нет</strong>. Если этому свойству задано значение <strong>"Да",</strong>то SQLOLEDB использует режим проверки подлинности Microsoft Windows NT для авторизации доступа пользователей к базе данных SQL Server, указанной значениями свойств <strong>Location</strong> и <a href="datasource-property-ado.md">Datasource.</a> Если для этого свойства установлено свойство <strong>No,</strong>SQLOLEDB использует смешанный режим для авторизации доступа пользователей к SQL Server базе данных. Имя SQL Server и пароль указаны в свойствах <strong>"ИД</strong> пользователя" <strong>и "Пароль".</strong></p></td>
+<td><p>Указывает режим проверки подлинности пользователей. Это может быть заданной <strong>для Да</strong> или <strong>Нет</strong>. По умолчанию выбрано <strong>Нет</strong>. Если это свойство задано <strong>да,</strong>то SQLOLEDB использует режим проверки подлинности microsoft Windows NT для авторизации доступа пользователей к базе данных SQL Server, указанной значениями свойств Location <strong>и</strong> <a href="datasource-property-ado.md">Datasource.</a> Если это свойство настроено на <strong>нет,</strong>SQLOLEDB использует смешанный режим для авторизации доступа пользователей к SQL Server базе данных. Код SQL Server и пароль указаны в <strong>свойствах User Id</strong> и <strong>Password.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>Текущий язык</p></td>
+<td><p>Current Language</p></td>
 <td><p>Указывает имя SQL Server языка. Определяет язык, используемый для выбора и форматирования системных сообщений. Язык должен быть установлен на SQL Server, в противном случае открытие подключения не удастся.</p></td>
 </tr>
 <tr class="odd">
@@ -111,53 +111,53 @@ User ID=userName;Password=userPassword;"
 </tr>
 <tr class="even">
 <td><p>Библиотека сети</p></td>
-<td><p>Указывает имя сетевой библиотеки (библиотек динамической связи), используемой для связи с SQL Server. Имя не должно включать путь или расширение DLL-файла. Значение по умолчанию предоставляется конфигурацией SQL Server клиента.</p></td>
+<td><p>Указывает имя сетевой библиотеки (библиотеки динамических ссылок), используемой для связи с SQL Server. Имя не должно включать путь или расширение .dll файла. По умолчанию предоставляется конфигурация SQL Server клиента.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Процедура использования для подготовки</p></td>
-<td><p>Определяет, создает ли SQL Server временные хранимые процедуры при подготовке команд (свойство <strong>Prepared).</strong></p></td>
+<td><p>Использование процедуры подготовки</p></td>
+<td><p>Определяет, создает ли SQL Server временные сохраненные процедуры при подготовке команд (по свойству <strong>Prepared).</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>Автоматический перевод</p></td>
-<td><p>Указывает, преобразуются ли символы OEM/ANSI. Для этого свойства можно установить true <strong>или</strong> <strong>False.</strong> Значение по умолчанию — <strong>True</strong>. Если для этого свойства установлено <strong>true,</strong>то SQLOLEDB выполняет преобразование символов OEM/ANSI, когда многобайтовая строка символов извлекается или отправляется в SQL Server. Если для этого свойства установлено <strong>false,</strong>то SQLOLEDB не выполняет преобразование символов OEM/ANSI для многобайтных данных строки символов.</p></td>
+<td><p>Auto Translate</p></td>
+<td><p>Указывает, преобразованы ли символы OEM/ANSI. Это свойство может быть заданной <strong>для True</strong> или <strong>False</strong>. Значение по умолчанию — <strong>True</strong>. Если это свойство настроено на <strong>True,</strong>то SQLOLEDB выполняет преобразование символов OEM/ANSI при извлечении или отправлении в SQL Server. Если это свойство настроено на <strong>False,</strong>SQLOLEDB не выполняет преобразование символов OEM/ANSI в данные строки многобайтных символов.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Размер пакета</p></td>
-<td><p>Указывает размер сетевого пакета в ветвях. Значение свойства размера пакета должно быть от 512 до 32767. По умолчанию сетевой пакет SQLOLEDB имеет размер 4096.</p></td>
+<td><p>Указывает размер сетевого пакета в bytes. Значение свойства размера пакета должно быть между 512 и 32767. Размер сетевого пакета SQLOLEDB по умолчанию — 4096.</p></td>
 </tr>
 <tr class="even">
 <td><p>Имя приложения</p></td>
-<td><p>Указывает имя клиентского приложения.</p></td>
+<td><p>Указывает имя приложения клиента.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ИД рабочей станции</p></td>
-<td><p>Строка, идентифицирующие рабочие станции.</p></td>
+<td><p>ID рабочей станции</p></td>
+<td><p>Строка, определяемая рабочей станции.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="command-object-usage"></a>Использование объекта Command
+## <a name="command-object-usage"></a>Использование командных объектов
 
-SQLOLEDB принимает объединение ODBC, ANSI и SQL Server Transact-SQL в качестве допустимого синтаксиса. Например, следующая SQL использует escape-последовательность ODBC SQL для указания функции строки LCASE:
+SQLOLEDB принимает объединение ODBC, ANSI и SQL Server transact-SQL как допустимый синтаксис. Например, в следующем SQL для указания функции строки LCASE используется последовательность SQL ODBC:
 
 ```sql 
  
 SELECT customerid={fn LCASE(CustomerID)} FROM Customers 
 ```
 
-LCASE возвращает строку символов, преобразуя все символы верхнего регистра в их эквиваленты в нижнем регистре. Строковая функция SQL ANSI LOWER выполняет ту же операцию, поэтому следующий SQL является anSI-эквивалентом представленного выше заявления ODBC:
+LCASE возвращает строку символов, преобразуя все символы верхнего шкафа в их эквиваленты нижнего регистра. Функция строки SQL ANSI LOWER выполняет ту же операцию, поэтому следующее SQL является эквивалентом утверждения ANSI, представленного выше:
 
 ```sql
  
 SELECT customerid=LOWER(CustomerID) FROM Customers 
 ```
 
-SQLOLEDB успешно обрабатывает любой из форм заявления, если он указан в качестве текста для команды.
+SQLOLEDB успешно обрабатывает форму заявления, если указана в виде текста для команды.
 
-## <a name="stored-procedures"></a>Хранимые процедуры
+## <a name="stored-procedures"></a>Сохраненные процедуры
 
-При выполнении SQL Server хранимой процедуры с помощью команды SQLOLEDB используйте последовательность escape-вызовов процедуры ODBC в тексте команды. Затем SQLOLEDB использует механизм удаленного вызова процедуры SQL Server для оптимизации обработки команд. Например, следующий SQL ODBC является предпочтительным текстом команды в форме Transact-SQL:
+При выполнении SQL Server с помощью команды SQLOLEDB используйте последовательность побега процедуры ODBC в тексте команды. Затем SQLOLEDB использует механизм удаленного вызова процедуры SQL Server для оптимизации обработки команд. Например, следующим утверждением SQL ODBC является предпочтительный командный текст по форме Transact-SQL:
 
 ## <a name="odbc-sql"></a>ODBC SQL
 
@@ -175,19 +175,19 @@ EXECUTE SalesByCategory 'Produce', '1995'
 
 ## <a name="recordset-behavior"></a>Поведение наборов записей
 
-SQLOLEDB не может использовать SQL Server для поддержки нескольких результатов, созданных множеством команд. Если потребитель запрашивает набор записей, требующий поддержки SQL Server курсора, возникает ошибка, если в результате использованного текста команды создается несколько наборов записей.
+SQLOLEDB не может использовать SQL Server курсоры для поддержки нескольких результатов, созданных многими командами. Если потребитель запрашивает набор записей, требующий SQL Server поддержки курсора, возникает ошибка, если используемый текст команды создает более одного наборов записей в результате.
 
-Прокручиваемые записи SQLOLEDB поддерживаются SQL Server курсоров. SQL Server накладывает ограничения на курсоры, которые чувствительны к изменениям, внесенным другими пользователями базы данных. В частности, невозможно указать строки в некоторых курсорах, и попытка создать набор записей с помощью команды, содержащей SQL ORDER BY, может привести к сбойу.
+Прокручиваемые записи SQLOLEDB поддерживаются SQL Server курсорами. SQL Server накладывает ограничения на курсоры, чувствительные к изменениям, внесенным другими пользователями базы данных. В частности, строки в некоторых курсорах невозможно заказать, и попытка создать набор записей с помощью команды, содержащей SQL ORDER BY, может привести к сбой.
 
-## <a name="dynamic-properties"></a>Динамические свойства
+## <a name="dynamic-properties"></a>Dynamic Properties
 
-Поставщик Microsoft OLE DB для SQL Server вставляет несколько динамических свойств в коллекцию **свойств** неподтвершенных объектов [Connection,](connection-object-ado.md) [Recordset](recordset-object-ado.md)и [Command.](command-object-ado.md)
+Поставщик microsoft OLE DB для SQL Server вставляет несколько динамических свойств в коллекцию **свойств** незапертых объектов [Connection,](connection-object-ado.md) [Recordset](recordset-object-ado.md)и [Command.](command-object-ado.md)
 
-Следующие таблицы являются перекрестным индексом имен ADO и OLE DB для каждого динамического свойства. В справочнике программиста OLE DB имя свойства ADO обозначается термином "Description". Дополнительные сведения об этих свойствах можно найти в справочнике программиста OLE DB. Найди имя свойства OLE DB в индексе или см. приложение C. Свойства OLE DB.
+Следующие таблицы — это перекрестный индекс имен ADO и OLE DB для каждого динамического свойства. Ссылка программиста OLE DB относится к имени свойства ADO под термином "Описание". Дополнительные сведения об этих свойствах можно найти в справке программиста OLE DB. Поиск имени свойства OLE DB в Индексе или см. в приложении C: OLE DB Properties.
 
 ## <a name="connection-dynamic-properties"></a>Динамические свойства подключения
 
-Следующие свойства добавляются в коллекцию  свойств объекта **Connection.**
+Следующие свойства добавляются в коллекцию  Свойств объекта **Connection.**
 
 <table>
 <colgroup>
@@ -196,7 +196,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ADO Property Name</p></th>
+<th><p>Имя свойства ADO</p></th>
 <th><p>Имя свойства OLE DB</p></th>
 </tr>
 </thead>
@@ -214,7 +214,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_ASYNCTNXCOMMIT</p></td>
 </tr>
 <tr class="even">
-<td><p>Уровни изоляции автозафикса</p></td>
+<td><p>Уровни изоляции автокоммита</p></td>
 <td><p>DBPROP_SESS_AUTOCOMMITISOLEVELS</p></td>
 </tr>
 <tr class="odd">
@@ -222,15 +222,15 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_CATALOGLOCATION</p></td>
 </tr>
 <tr class="even">
-<td><p>Термин каталога</p></td>
+<td><p>Термин Каталог</p></td>
 <td><p>DBPROP_CATALOGTERM</p></td>
 </tr>
 <tr class="odd">
-<td><p>Определение столбца</p></td>
+<td><p>Определение столбцов</p></td>
 <td><p>DBPROP_COLUMNDEFINITION</p></td>
 </tr>
 <tr class="even">
-<td><p>Время подключения</p></td>
+<td><p>Подключение Время от времени</p></td>
 <td><p>DBPROP_INIT_TIMEOUT</p></td>
 </tr>
 <tr class="odd">
@@ -246,11 +246,11 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_DATASOURCENAME</p></td>
 </tr>
 <tr class="even">
-<td><p>Потоковая модель объектов источника данных</p></td>
+<td><p>Модель потоковой обработки объектов источника данных</p></td>
 <td><p>DBPROP_DSOTHREADMODEL</p></td>
 </tr>
 <tr class="odd">
-<td><p>DBMS Name</p></td>
+<td><p>Имя DBMS</p></td>
 <td><p>DBPROP_DBMSNAME</p></td>
 </tr>
 <tr class="even">
@@ -262,11 +262,11 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_INIT_PROVIDERSTRING</p></td>
 </tr>
 <tr class="even">
-<td><p>GROUP BY Support</p></td>
+<td><p>Поддержка GROUP BY</p></td>
 <td><p>DBPROP_GROUPBY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Поддержка разнородных таблиц</p></td>
+<td><p>Гетерогенная поддержка таблиц</p></td>
 <td><p>DBPROP_HETEROGENEOUSTABLES</p></td>
 </tr>
 <tr class="even">
@@ -286,7 +286,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_SUPPORTEDTXNISORETAIN</p></td>
 </tr>
 <tr class="even">
-<td><p>Код локализовки</p></td>
+<td><p>Идентификатор locale</p></td>
 <td><p>DBPROP_INIT_LCID</p></td>
 </tr>
 <tr class="odd">
@@ -302,7 +302,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_MAXROWSIZEINCLUDESBLOB</p></td>
 </tr>
 <tr class="even">
-<td><p>Максимальное число таблиц в SELECT</p></td>
+<td><p>Максимальные таблицы в SELECT</p></td>
 <td><p>DBPROP_MAXTABLESINSELECT</p></td>
 </tr>
 <tr class="odd">
@@ -314,7 +314,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_MULTIPLERESULTS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Несколько объектов хранилища</p></td>
+<td><p>Несколько служба хранилища объектов</p></td>
 <td><p>DBPROP_MULTIPLESTORAGEOBJECTS</p></td>
 </tr>
 <tr class="even">
@@ -322,11 +322,11 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_MULTITABLEUPDATE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Порядок оценки NULL</p></td>
+<td><p>Порядок коллансирования NULL</p></td>
 <td><p>DBPROP_NULLCOLLATION</p></td>
 </tr>
 <tr class="even">
-<td><p>Поведение при конкатенации NULL</p></td>
+<td><p>NULL Concatenation Behaviour</p></td>
 <td><p>DBPROP_CONCATNULLBEHAVIOR</p></td>
 </tr>
 <tr class="odd">
@@ -338,7 +338,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_OLEOBJECTS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Поддержка открытого наборов строк</p></td>
+<td><p>Поддержка open Rowset</p></td>
 <td><p>DBPROP_OPENROWSETSUPPORT</p></td>
 </tr>
 <tr class="even">
@@ -346,7 +346,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_ORDERBYCOLUMNSINSELECT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Доступность выходных параметров</p></td>
+<td><p>Доступность параметров вывода</p></td>
 <td><p>DBPROP_OUTPUTPARAMETERAVAILABILITY</p></td>
 </tr>
 <tr class="even">
@@ -358,15 +358,15 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_AUTH_PASSWORD</p></td>
 </tr>
 <tr class="even">
-<td><p>Сохранить сведения о безопасности</p></td>
+<td><p>Сохраняются сведения о безопасности</p></td>
 <td><p>DBPROP_AUTH_PERSIST_SENSITIVE_AUTHINFO</p></td>
 </tr>
 <tr class="odd">
-<td><p>Тип сохраняемого ИД</p></td>
+<td><p>Тип сохраняемого ID</p></td>
 <td><p>DBPROP_PERSISTENTIDTYPE</p></td>
 </tr>
 <tr class="even">
-<td><p>Подготовка поведения для отменить</p></td>
+<td><p>Подготовка поведения прервать</p></td>
 <td><p>DBPROP_PREPAREABORTBEHAVIOR</p></td>
 </tr>
 <tr class="odd">
@@ -382,7 +382,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_INIT_PROMPT</p></td>
 </tr>
 <tr class="even">
-<td><p>Имя поставщика</p></td>
+<td><p>Удобное имя поставщика</p></td>
 <td><p>DBPROP_PROVIDERFRIENDLYNAME</p></td>
 </tr>
 <tr class="odd">
@@ -394,15 +394,15 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_PROVIDERVER</p></td>
 </tr>
 <tr class="odd">
-<td><p>Read-Only данных</p></td>
+<td><p>Read-Only источник данных</p></td>
 <td><p>DBPROP_DATASOURCEREADONLY</p></td>
 </tr>
 <tr class="even">
-<td><p>Преобразование наборов строк в команде</p></td>
+<td><p>Преобразования rowset в командной строке</p></td>
 <td><p>DBPROP_ROWSETCONVERSIONSONCOMMAND</p></td>
 </tr>
 <tr class="odd">
-<td><p>Термин схемы</p></td>
+<td><p>Термин Схемы</p></td>
 <td><p>DBPROP_SCHEMATERM</p></td>
 </tr>
 <tr class="even">
@@ -410,23 +410,23 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_SCHEMAUSAGE</p></td>
 </tr>
 <tr class="odd">
-<td><p>SQL поддержки</p></td>
+<td><p>SQL Поддержка</p></td>
 <td><p>DBPROP_SQLSUPPORT</p></td>
 </tr>
 <tr class="even">
-<td><p>Структурированное хранилище</p></td>
+<td><p>Структурированные служба хранилища</p></td>
 <td><p>DBPROP_STRUCTUREDSTORAGE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Поддержка ветвей</p></td>
+<td><p>Поддержка subquery</p></td>
 <td><p>DBPROP_SUBQUERIES</p></td>
 </tr>
 <tr class="even">
-<td><p>Table Term</p></td>
+<td><p>Термин Таблица</p></td>
 <td><p>DBPROP_TABLETERM</p></td>
 </tr>
 <tr class="odd">
-<td><p>DDL транзакции</p></td>
+<td><p>DDL транзакций</p></td>
 <td><p>DBPROP_SUPPORTEDTXNDDL</p></td>
 </tr>
 <tr class="even">
@@ -438,16 +438,16 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_USERNAME</p></td>
 </tr>
 <tr class="even">
-<td><p>Окне Окне</p></td>
+<td><p>Ручка окна</p></td>
 <td><p>DBPROP_INIT_HWND</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="recordset-dynamic-properties"></a>Динамические свойства recordset
+## <a name="recordset-dynamic-properties"></a>Динамические свойства Recordset
 
-Следующие свойства добавляются в коллекцию **свойств** объекта **Recordset.**
+Следующие свойства добавляются в коллекцию Свойств  объекта **Recordset.**
 
 <table>
 <colgroup>
@@ -456,7 +456,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ADO Property Name</p></th>
+<th><p>Имя свойства ADO</p></th>
 <th><p>Имя свойства OLE DB</p></th>
 </tr>
 </thead>
@@ -466,11 +466,11 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_ACCESSORDER</p></td>
 </tr>
 <tr class="even">
-<td><p>Блокировка объектов хранилища</p></td>
+<td><p>Блокировка служба хранилища объектов</p></td>
 <td><p>DBPROP_BLOCKINGSTORAGEOBJECTS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Тип закладки</p></td>
+<td><p>Тип закладок</p></td>
 <td><p>DBPROP_BOOKMARKTYPE</p></td>
 </tr>
 <tr class="even">
@@ -490,15 +490,15 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_NOTIFYCOLUMNSET</p></td>
 </tr>
 <tr class="even">
-<td><p>Время простоя команды</p></td>
+<td><p>Командный выход</p></td>
 <td><p>DBPROP_COMMANDTIMEOUT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Отложить столбец</p></td>
+<td><p>Столбец Отсрочка</p></td>
 <td><p>DBPROP_DEFERRED</p></td>
 </tr>
 <tr class="even">
-<td><p>Задержка обновлений объектов хранилища</p></td>
+<td><p>Задержка служба хранилища обновлений объектов</p></td>
 <td><p>DBPROP_DELAYSTORAGEOBJECTS</p></td>
 </tr>
 <tr class="odd">
@@ -530,7 +530,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_IConvertType</p></td>
 </tr>
 <tr class="even">
-<td><p>Строки Immobile</p></td>
+<td><p>Immobile Rows</p></td>
 <td><p>DBPROP_IMMOBILEROWS</p></td>
 </tr>
 <tr class="odd">
@@ -574,23 +574,23 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_ISupportErrorInfo</p></td>
 </tr>
 <tr class="odd">
-<td><p>Литеральные закладки</p></td>
+<td><p>Буквальные закладки</p></td>
 <td><p>DBPROP_LITERALBOOKMARKS</p></td>
 </tr>
 <tr class="even">
-<td><p>Идентификатор строки литералов</p></td>
+<td><p>Удостоверение буквальных строк</p></td>
 <td><p>DBPROP_LITERALIDENTITY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Максимальное число открытых строк</p></td>
+<td><p>Максимальные открытые строки</p></td>
 <td><p>DBPROP_MAXOPENROWS</p></td>
 </tr>
 <tr class="even">
-<td><p>Максимальное число ожидающих строк</p></td>
+<td><p>Максимальное количество ожидающих строк</p></td>
 <td><p>DBPROP_MAXPENDINGROWS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Максимальное число строк</p></td>
+<td><p>Максимальные строки</p></td>
 <td><p>DBPROP_MAXROWS</p></td>
 </tr>
 <tr class="even">
@@ -602,7 +602,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_NOTIFICATIONPHASES</p></td>
 </tr>
 <tr class="even">
-<td><p>Transacted объектов</p></td>
+<td><p>Objects Transacted</p></td>
 <td><p>DBPROP_TRANSACTEDOBJECT</p></td>
 </tr>
 <tr class="odd">
@@ -614,19 +614,19 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_OTHERINSERT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Собственные изменения, видимые</p></td>
+<td><p>Собственные изменения Видимые</p></td>
 <td><p>DBPROP_OWNUPDATEDELETE</p></td>
 </tr>
 <tr class="even">
-<td><p>Собственные вставки видимые</p></td>
+<td><p>Собственные вставки Видимые</p></td>
 <td><p>DBPROP_OWNINSERT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Сохранение при отменить</p></td>
+<td><p>Сохранение на abort</p></td>
 <td><p>DBPROP_ABORTPRESERVE</p></td>
 </tr>
 <tr class="even">
-<td><p>Сохранение при фиксации</p></td>
+<td><p>Сохранение на коммит</p></td>
 <td><p>DBPROP_COMMITPRESERVE</p></td>
 </tr>
 <tr class="odd">
@@ -634,7 +634,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_QUICKRESTART</p></td>
 </tr>
 <tr class="even">
-<td><p>Reentrant Events</p></td>
+<td><p>События для повторного антуламента</p></td>
 <td><p>DBPROP_REENTRANTEVENTS</p></td>
 </tr>
 <tr class="odd">
@@ -646,7 +646,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_REPORTMULTIPLECHANGES</p></td>
 </tr>
 <tr class="odd">
-<td><p>Возвращение ожидающих вставки</p></td>
+<td><p>Возвращение ожидающих вставок</p></td>
 <td><p>DBPROP_RETURNPENDINGINSERTS</p></td>
 </tr>
 <tr class="even">
@@ -670,7 +670,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_NOTIFYROWRESYNCH</p></td>
 </tr>
 <tr class="odd">
-<td><p>Модель потоков по строкам</p></td>
+<td><p>Модель потоков строки</p></td>
 <td><p>DBPROP_ROWTHREADMODEL</p></td>
 </tr>
 <tr class="even">
@@ -678,11 +678,11 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_NOTIFYROWUNDOCHANGE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Уведомление об отмене удаления строки</p></td>
+<td><p>Уведомление об отмене строки</p></td>
 <td><p>DBPROP_NOTIFYROWUNDODELETE</p></td>
 </tr>
 <tr class="even">
-<td><p>Уведомление об отмене вставки строки</p></td>
+<td><p>Уведомление об отмене строки</p></td>
 <td><p>DBPROP_NOTIFYROWUNDOINSERT</p></td>
 </tr>
 <tr class="odd">
@@ -694,11 +694,11 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_NOTIFYROWSETFETCHPOSISIONCHANGE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Уведомление о выпуске rowset</p></td>
+<td><p>Уведомление о выпуске Rowset</p></td>
 <td><p>DBPROP_NOTIFYROWSETRELEASE</p></td>
 </tr>
 <tr class="even">
-<td><p>Прокрутка назад</p></td>
+<td><p>Прокрутите назад</p></td>
 <td><p>DBPROP_CANSCROLLBACKWARDS</p></td>
 </tr>
 <tr class="odd">
@@ -710,7 +710,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_BOOKMARKSKIPPED</p></td>
 </tr>
 <tr class="odd">
-<td><p>Удостоверение строки strong</p></td>
+<td><p>Удостоверение Strong Row</p></td>
 <td><p>DBPROP_STRONGITDENTITY</p></td>
 </tr>
 <tr class="even">
@@ -731,7 +731,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 
 ## <a name="command-dynamic-properties"></a>Командные динамические свойства
 
-Следующие свойства добавляются в  коллекцию **свойств объекта Command.**
+Следующие свойства добавляются в коллекцию **Свойств** объекта **Command.**
 
 <table>
 <colgroup>
@@ -740,7 +740,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ADO Property Name</p></th>
+<th><p>Имя свойства ADO</p></th>
 <th><p>Имя свойства OLE DB</p></th>
 </tr>
 </thead>
@@ -754,11 +754,11 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>SSPROP_STREAM_BASEPATH</p></td>
 </tr>
 <tr class="odd">
-<td><p>Блокировка объектов хранилища</p></td>
+<td><p>Блокировка служба хранилища объектов</p></td>
 <td><p>DBPROP_BLOCKINGSTORAGEOBJECTS</p></td>
 </tr>
 <tr class="even">
-<td><p>Тип закладки</p></td>
+<td><p>Тип закладок</p></td>
 <td><p>DBPROP_BOOKMARKTYPE</p></td>
 </tr>
 <tr class="odd">
@@ -782,19 +782,19 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>SSPROP_STREAM_CONTENTTYPE</p></td>
 </tr>
 <tr class="even">
-<td><p>Автоматическое извлечение курсора</p></td>
+<td><p>Автоматическое извлечение cursor</p></td>
 <td><p>SSPROP_CURSORAUTOFETCH</p></td>
 </tr>
 <tr class="odd">
-<td><p>Отложить столбец</p></td>
+<td><p>Столбец Отсрочка</p></td>
 <td><p>DBPROP_DEFERRED</p></td>
 </tr>
 <tr class="even">
-<td><p>Отложить подготовку</p></td>
+<td><p>Отсрочка подготовки</p></td>
 <td><p>SSPROP_DEFERPREPARE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Задержка обновлений объектов хранилища</p></td>
+<td><p>Задержка служба хранилища обновлений объектов</p></td>
 <td><p>DBPROP_DELAYSTORAGEOBJECTS</p></td>
 </tr>
 <tr class="even">
@@ -826,7 +826,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_IConvertType</p></td>
 </tr>
 <tr class="odd">
-<td><p>Строки Immobile</p></td>
+<td><p>Immobile Rows</p></td>
 <td><p>DBPROP_IMMOBILEROWS</p></td>
 </tr>
 <tr class="even">
@@ -870,11 +870,11 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_ISupportErrorInfo</p></td>
 </tr>
 <tr class="even">
-<td><p>Литеральные закладки</p></td>
+<td><p>Буквальные закладки</p></td>
 <td><p>DBPROP_LITERALBOOKMARKS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Идентификатор строки литералов</p></td>
+<td><p>Удостоверение буквальных строк</p></td>
 <td><p>DBPROP_LITERALIDENTITY</p></td>
 </tr>
 <tr class="even">
@@ -882,15 +882,15 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_LOCKMODE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Максимальное число открытых строк</p></td>
+<td><p>Максимальные открытые строки</p></td>
 <td><p>DBPROP_MAXOPENROWS</p></td>
 </tr>
 <tr class="even">
-<td><p>Максимальное число ожидающих строк</p></td>
+<td><p>Максимальное количество ожидающих строк</p></td>
 <td><p>DBPROP_MAXPENDINGROWS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Максимальное число строк</p></td>
+<td><p>Максимальные строки</p></td>
 <td><p>DBPROP_MAXROWS</p></td>
 </tr>
 <tr class="even">
@@ -902,7 +902,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_NOTIFICATIONPHASES</p></td>
 </tr>
 <tr class="even">
-<td><p>Transacted объектов</p></td>
+<td><p>Objects Transacted</p></td>
 <td><p>DBPROP_TRANSACTEDOBJECT</p></td>
 </tr>
 <tr class="odd">
@@ -914,27 +914,27 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_OTHERINSERT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Свойство output Encoding</p></td>
+<td><p>Свойство коди-ния выходных данных</p></td>
 <td><p>DBPROP_OUTPUTENCODING</p></td>
 </tr>
 <tr class="even">
-<td><p>Свойство Output Stream</p></td>
+<td><p>Свойство Поток выходных данных</p></td>
 <td><p>DBPROP_OUTPUTSTREAM</p></td>
 </tr>
 <tr class="odd">
-<td><p>Собственные изменения, видимые</p></td>
+<td><p>Собственные изменения Видимые</p></td>
 <td><p>DBPROP_OWNUPDATEDELETE</p></td>
 </tr>
 <tr class="even">
-<td><p>Собственные вставки видимые</p></td>
+<td><p>Собственные вставки Видимые</p></td>
 <td><p>DBPROP_OWNINSERT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Сохранение при отменить</p></td>
+<td><p>Сохранение на abort</p></td>
 <td><p>DBPROP_ABORTPRESERVE</p></td>
 </tr>
 <tr class="even">
-<td><p>Сохранение при фиксации</p></td>
+<td><p>Сохранение на коммит</p></td>
 <td><p>DBPROP_COMMITPRESERVE</p></td>
 </tr>
 <tr class="odd">
@@ -942,7 +942,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_QUICKRESTART</p></td>
 </tr>
 <tr class="even">
-<td><p>Reentrant Events</p></td>
+<td><p>События для повторного антуламента</p></td>
 <td><p>DBPROP_REENTRANTEVENTS</p></td>
 </tr>
 <tr class="odd">
@@ -954,7 +954,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_REPORTMULTIPLECHANGES</p></td>
 </tr>
 <tr class="odd">
-<td><p>Возвращение ожидающих вставки</p></td>
+<td><p>Возвращение ожидающих вставок</p></td>
 <td><p>DBPROP_RETURNPENDINGINSERTS</p></td>
 </tr>
 <tr class="even">
@@ -978,7 +978,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_NOTIFYROWRESYNCH</p></td>
 </tr>
 <tr class="odd">
-<td><p>Модель потоков по строкам</p></td>
+<td><p>Модель потоков строки</p></td>
 <td><p>DBPROP_ROWTHREADMODEL</p></td>
 </tr>
 <tr class="even">
@@ -986,11 +986,11 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_NOTIFYROWUNDOCHANGE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Уведомление об отмене удаления строки</p></td>
+<td><p>Уведомление об отмене строки</p></td>
 <td><p>DBPROP_NOTIFYROWUNDODELETE</p></td>
 </tr>
 <tr class="even">
-<td><p>Уведомление об отмене вставки строки</p></td>
+<td><p>Уведомление об отмене строки</p></td>
 <td><p>DBPROP_NOTIFYROWUNDOINSERT</p></td>
 </tr>
 <tr class="odd">
@@ -1002,11 +1002,11 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_NOTIFYROWSETFETCHPOSITIONCHANGE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Уведомление о выпуске rowset</p></td>
+<td><p>Уведомление о выпуске Rowset</p></td>
 <td><p>DBPROP_NOTIFYROWSETRELEASE</p></td>
 </tr>
 <tr class="even">
-<td><p>Прокрутка назад</p></td>
+<td><p>Прокрутите назад</p></td>
 <td><p>DBPROP_CANSCROLLBACKWARDS</p></td>
 </tr>
 <tr class="odd">
@@ -1014,7 +1014,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_SERVERCURSOR</p></td>
 </tr>
 <tr class="even">
-<td><p>Данные сервера при вставке</p></td>
+<td><p>Данные сервера на вставке</p></td>
 <td><p>DBPROP_SERVERDATAONINSERT</p></td>
 </tr>
 <tr class="odd">
@@ -1022,7 +1022,7 @@ SQLOLEDB не может использовать SQL Server для поддер
 <td><p>DBPROP_BOOKMARKSKIP</p></td>
 </tr>
 <tr class="even">
-<td><p>Удостоверение строки strong</p></td>
+<td><p>Удостоверение Strong Row</p></td>
 <td><p>DBPROP_STRONGIDENTITY</p></td>
 </tr>
 <tr class="odd">
@@ -1045,5 +1045,5 @@ SQLOLEDB не может использовать SQL Server для поддер
 </table>
 
 
-Подробные сведения о реализации и функциональные сведения о поставщике OLE DB Microsoft SQL Server обратитесь к поставщику OLE DB для SQL Server документации в разделе OLE DB SDK MDAC.
+Подробные сведения о реализации и функциональные сведения о поставщике Microsoft SQL Server OLE DB обратитесь к поставщику OLE DB для SQL Server документации в разделе OLE DB SDK MDAC.
 

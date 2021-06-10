@@ -1,5 +1,5 @@
 ---
-title: Справочник по объекту Group (ADOX)
+title: Ссылка на объект группы (ADOX)
 TOCTitle: Group object (ADOX)
 ms:assetid: 7b616ef3-e2ca-4457-8644-b4b282c17c4f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249511(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292099"
 ---
-# <a name="group-object-adox-reference"></a>Справочник по объекту Group (ADOX)
+# <a name="group-object-adox-reference"></a>Ссылка на объект группы (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Объект Group (ADOX)](group-object-adox.md)
-- [Свойства, методы и события группы (ADOX)](group-properties-methods-and-events-adox.md)
+- [Объект group (ADOX)](group-object-adox.md)
+- [Свойства группы, методы и события (ADOX)](group-properties-methods-and-events-adox.md)
 

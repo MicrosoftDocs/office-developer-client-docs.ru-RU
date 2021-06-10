@@ -20,21 +20,21 @@ ms.locfileid: "32292323"
 
 Это формальная грамматика для создания любой команды фигуры:
 
-  - Необходимые грамматические термины — это текстовые строки, разделимые угловой скобкой (" \< \> ").
+  - Необходимые грамматические термины — это текстовые строки, делимитированные угловой скобками \< \> ("").
 
-  - Необязательные термины поотрихуются квадратными скобками (" \[ \] ").
+  - Необязательные термины делимитированы квадратными скобками \[ \] ("").
 
-  - Альтернативы указываются вигольным видео ("|").
+  - Альтернативы указываются виргулем ("|").
 
-  - Повторяющиеся альтернативы указываются многоязыком ("...").
+  - Повторяемая альтернатива указывается эллипсисом ("...").
 
-  - *Альфа-адрес* указывает строку алфавитных букв.
+  - *Альфа* указывает строку алфавитных букв.
 
-  - *Цифра* означает строку чисел.
+  - *Цифры* указывают строку чисел.
 
-  - *В цифре Юникода* указывается строка цифр юникода.
+  - *Однозначный код* указывает строку однокодовой цифры.
 
-Все остальные термины являются литералами.
+Все остальные термины являются буквальными.
 
 <table>
 <colgroup>
@@ -50,27 +50,27 @@ ms.locfileid: "32292323"
 <tbody>
 <tr class="odd">
 <td><p>&lt;shape-command&gt;</p></td>
-<td><p>SHAPE [ &lt; table-exp &gt; [[AS] &lt; alias &gt; ]][ &lt; shape-action &gt; ]</p></td>
+<td><p>SHAPE &lt; [table-exp &gt; [[AS] &lt; alias &gt; ]][ &lt; shape-action &gt; ]</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;table-exp&gt;</p></td>
-<td><p>{ &lt; provider-command-text &gt; } |<br />
-( &lt; shape-command &gt; ) |<br />
-TABLE &lt; quoted-name&gt; |<br />
+<td><p>&lt;{provider-command-text &gt; } |<br />
+&lt;(shape-command) &gt; |<br />
+Table &lt; quoted-name&gt; |<br />
 &lt;quoted-name&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;shape-action&gt;</p></td>
-<td><p>APPEND &lt; aliased-field-list&gt; |</p>
-<p>COMPUTE &lt; aliased-field-list &gt; [BY &lt; field-list &gt; ]</p></td>
+<td><p>&lt;Aliased-field-list APPEND&gt; |</p>
+<p>Compute &lt; aliased-field-list &gt; [BY &lt; field-list] &gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;aliased-field-list&gt;</p></td>
-<td><p>&lt;aliased-field &gt; [, &lt; aliased-field... &gt; ]</p></td>
+<td><p>&lt;aliased-field &gt; [, &lt; aliased-field...] &gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;aliased-field&gt;</p></td>
-<td><p>&lt;field-exp &gt; [[AS] &lt; alias &gt; ]</p></td>
+<td><p>&lt;псевдоним &gt; field-exp &lt; [AS] &gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;field-exp&gt;</p></td>
@@ -81,8 +81,8 @@ TABLE &lt; quoted-name&gt; |<br />
 </tr>
 <tr class="odd">
 <td><p>&lt;relation_exp&gt;</p></td>
-<td><p>&lt;table-exp &gt; [[AS] &lt; alias &gt; ]</p>
-<p>&lt;table-exp &gt; [[AS] &lt; alias &gt; ]</p></td>
+<td><p>&lt;псевдоним &gt; table-exp [[AS] &lt; &gt; ]</p>
+<p>&lt;псевдоним &gt; table-exp [[AS] &lt; &gt; ]</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;relation-cond-list&gt;</p></td>
@@ -94,68 +94,68 @@ TABLE &lt; quoted-name&gt; |<br />
 </tr>
 <tr class="even">
 <td><p>&lt;child-ref&gt;</p></td>
-<td><p>&lt;field-name&gt; |</p>
-<p>PARAMETER &lt; param-ref&gt;</p></td>
+<td><p>&lt;имя поля&gt; |</p>
+<p>ПАРАМЕТР &lt; param-ref&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;param-ref&gt;</p></td>
-<td><p>&lt;number&gt;</p></td>
+<td><p>&lt;число&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;field-list&gt;</p></td>
-<td><p>&lt;field-name &gt; [, &lt; field-name &gt; ]</p></td>
+<td><p>&lt;имя &gt; поля [, &lt; имя &gt; поля]</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;aggregate-exp&gt;</p></td>
-<td><p>SUM( &lt; qualified-field-name &gt; ) |</p>
-<p>AVG( &lt; qualified-field-name &gt; ) |</p>
-<p>MIN( &lt; qualified-field-name &gt; ) |</p>
-<p>MAX( &lt; qualified-field-name &gt; ) |</p>
-<p>COUNT( &lt; qualified-alias &gt;  |  &lt; qualified-name &gt; ) |</p>
-<p>STDEV( &lt; qualified-field-name &gt; ) |</p>
-<p>ANY( &lt; qualified-field-name &gt; )</p></td>
+<td><p>&lt;SUM(qualified-field-name) &gt; |</p>
+<p>AVG &lt; (qualified-field-name) &gt; |</p>
+<p>MIN &lt; (qualified-field-name) &gt; |</p>
+<p>MAX &lt; (qualified-field-name) &gt; |</p>
+<p>COUNT &lt; (квалифицированное &gt;  |  &lt; псевдонимное &gt; имя) |</p>
+<p>STDEV &lt; (qualified-field-name) &gt; |</p>
+<p>&lt;ANY(qualified-field-name) &gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;calculated-exp&gt;</p></td>
-<td><p>CALC( &lt; выражение &gt; )</p></td>
+<td><p>CALC &lt; &gt; (выражение)</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;qualified-field-name&gt;</p></td>
-<td><p>&lt;псевдоним &gt; .[ &lt; псевдоним &gt; ...] &lt; field-name&gt;</p></td>
+<td><p>&lt;псевдоним &gt; .[ &lt; псевдоним &gt; ...] &lt; имя поля&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;псевдоним&gt;</p></td>
 <td><p>&lt;quoted-name&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;field-name&gt;</p></td>
-<td><p>&lt;quoted-name &gt; [[AS] &lt; alias &gt; ]</p></td>
+<td><p>&lt;имя поля&gt;</p></td>
+<td><p>&lt;псевдоним quoted-name &gt; [[AS] &lt; &gt; ]</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;quoted-name&gt;</p></td>
-<td><p>&quot;&lt;string&gt;&quot; |</p>
+<td><p>&quot;&lt;строка&gt;&quot; |</p>
 <p>' &lt; string &gt; ' |</p>
-<p>[ &lt; string &gt; ] |</p>
-<p>&lt;name&gt;</p></td>
+<p>&lt; &gt; [строка] |</p>
+<p>&lt;имя&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;qualified-name&gt;</p></td>
-<td><p>alias[.alias...]</p></td>
+<td><p>псевдоним [.alias...]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;name&gt;</p></td>
-<td><p>alpha [ alpha | digit | _ | # | : | ...]</p></td>
+<td><p>&lt;имя&gt;</p></td>
+<td><p>альфа [альфа | цифры | _ | # | : | ...]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;number&gt;</p></td>
-<td><p>цифра [цифра...]</p></td>
+<td><p>&lt;число&gt;</p></td>
+<td><p>цифры [цифры...]</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;new-exp&gt;</p></td>
 <td><p>NEW &lt; field-type &gt; [( &lt; number &gt; [, number &lt; &gt; ])]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;field-type&gt;</p></td>
+<td><p>&lt;тип поля&gt;</p></td>
 <td><p>Тип данных OLE DB или ADO.</p></td>
 </tr>
 <tr class="even">
@@ -164,7 +164,7 @@ TABLE &lt; quoted-name&gt; |<br />
 </tr>
 <tr class="odd">
 <td><p>&lt;выражение&gt;</p></td>
-<td><p>Выражение Visual Basic для приложений, операнды которого являются другими столбцами, не относямися к CALC, в той же строке.</p></td>
+<td><p>Выражение Visual Basic для приложений, операндами которого являются другие столбцы, не относяльные к CALC, в одной строке.</p></td>
 </tr>
 </tbody>
 </table>

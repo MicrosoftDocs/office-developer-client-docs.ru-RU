@@ -19,7 +19,7 @@ ms.locfileid: "32294546"
 
 **Область применения**: Access 2013, Office 2013
 
-В следующей таблице [перечислены RDS. Коды ошибок объекта DataControl.](datacontrol-object-rds.md) Показаны положительный десятичной перевод с низкими двумябайтами, отрицательный десятичной перевод всего кода ошибки и показано, как отызвить его.
+В следующей таблице [перечислены RDS. Коды ошибок объектов DataControl.](datacontrol-object-rds.md) Показан положительный десятичной перевод низких двух bytes, отрицательный десятичной перевод полного кода ошибки и гексадецимальные значения.
 
 <table>
 <colgroup>
@@ -30,8 +30,8 @@ ms.locfileid: "32294546"
 <thead>
 <tr class="header">
 <th><p>RDS. Коды ошибок DataControl</p></th>
-<th><p>Числовой</p></th>
-<th><p>Описание</p></th>
+<th><p>Номер</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
@@ -40,77 +40,77 @@ ms.locfileid: "32294546"
 <td><p>4107<br />
 -2146824175<br />
 0x800A1011</p></td>
-<td><p>Не удается выполнить операцию, пока ожидается а async.</p></td>
+<td><p>Операция не может выполняться во время ожидания операции async.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_BadInlineTablegram</strong></p></td>
 <td><p>4105<br />
 -2146824183<br />
 0x800A1009</p></td>
-<td><p>Bad inline tablegram.</p></td>
+<td><p>Плохая inline tablegram.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_CantConnect</strong></p></td>
 <td><p>4099<br />
 -2146824189<br />
 0x800A1003</p></td>
-<td><p>Не удается подключиться к серверу.</p></td>
+<td><p>Невозможно подключиться к серверу.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_CantCreateObject</strong></p></td>
 <td><p>4100<br />
 -2146824188<br />
 0x800A1004</p></td>
-<td><p>Не удается создать бизнес-объект.</p></td>
+<td><p>Бизнес-объект не может быть создан.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_CantFindDataspace</strong></p></td>
 <td><p>4102<br />
 -2146824186<br />
 0x800A1006</p></td>
-<td><p>Не является допустимым свойством пространства данных.</p></td>
+<td><p>Свойство Dataspace не является допустимым.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_CantInvokeMethod</strong></p></td>
 <td><p>4101<br />
 -2146824187<br />
 0x800A1005</p></td>
-<td><p>Метод не может быть вызван в бизнес-объекте.</p></td>
+<td><p>Метод не может вызываться в бизнес-объекте.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_CrossDomainWarning</strong></p></td>
 <td><p>4112<br />
 -2146824170<br />
 0x800A1016</p></td>
-<td><p>Эта страница имеет доступ к данным в другом домене. Вы хотите разрешить это? Чтобы избежать этого сообщения в Internet Explorer, можно добавить безопасный <strong></strong> веб-сайт в зону надежных сайтов на вкладке "Безопасность" диалогового окна <strong>"Параметры</strong> браузера".</p></td>
+<td><p>Эта страница имеет доступ к данным на другом домене. Вы хотите разрешить это? Чтобы избежать этого сообщения в Internet Explorer, можно добавить безопасный <strong></strong> веб-сайт в зону доверенных сайтов на вкладке Безопасность диалогового окна <strong>"Параметры</strong> Интернета".</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_InvalidADCClientVersion</strong></p></td>
 <td><p>4106<br />
 -2146824176<br />
 0x800A1010</p></td>
-<td><p>Недостоверная версия клиента RDS — клиент новее сервера.</p></td>
+<td><p>Недействительный клиентская версия RDS — клиент является более новым, чем сервер.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_INVALIDARG</strong></p></td>
 <td><p>5376<br />
 -2147019520<br />
 0x80071500</p></td>
-<td><p>Один или несколько аргументов недопустимы.</p></td>
+<td><p>Один или несколько аргументов являются недействительными.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_InvalidBindings</strong></p></td>
 <td><p>4097<br />
 -2146824191<br />
 0x800A1001</p></td>
-<td><p>Ошибка в свойстве bindings.</p></td>
+<td><p>Ошибка в свойстве привязки.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_InvalidParam</strong></p></td>
 <td><p>4110<br />
 -2146824172<br />
 0x800A1014</p></td>
-<td><p>Один или несколько аргументов недопустимы.</p></td>
+<td><p>Один или несколько аргументов являются недействительными.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_NOINTERFACE</strong></p></td>
@@ -124,7 +124,7 @@ ms.locfileid: "32294546"
 <td><p>4111<br />
 -2146824171<br />
 0x800A1015</p></td>
-<td><p>Запрос не может быть выполнен во время обработки обработом события.</p></td>
+<td><p>Запрос нельзя выполнять, пока обработник событий еще обрабатывается.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_ObjectNotSafe</strong></p></td>
@@ -145,35 +145,35 @@ ms.locfileid: "32294546"
 <td><p>4108<br />
 -2146824174<br />
 0x800A1012</p></td>
-<td><p>Столбец, <strong>указанный в SortColumn</strong> или <strong>FilterColumn,</strong> не существует.</p></td>
+<td><p>Столбец, <strong>указанный в SortColumn или</strong> <strong>FilterColumn,</strong> не существует.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_RowsetNotUpdateable</strong></p></td>
 <td><p>4104<br />
 -2146824184<br />
 0x800A1008</p></td>
-<td><p>Набор строк не может быть обновлен.</p></td>
+<td><p>Rowset не обновляется.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_UnexpectedError</strong></p></td>
 <td><p>4351<br />
 -2146823937<br />
 0x800A10FF</p></td>
-<td><p>Непредвиденное сообщение об ошибке.</p></td>
+<td><p>Неожиданная ошибка.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_UpdatesFailed</strong></p></td>
 <td><p>4098<br />
 -2146824190<br />
 0x800A1002</p></td>
-<td><p>Не удается обновить базу данных.</p></td>
+<td><p>Невозможно обновить базу данных.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_URLMONNotFound</strong></p></td>
 <td><p>4119<br />
 -2146824169<br />
 0x800A1017</p></td>
-<td><p>Для свойства <strong>URL-адреса</strong> DataControl требуется системный файл Urlmon.dll, который не удается найти.</p></td>
+<td><p>Свойство URL-адреса <strong>DataControl</strong> требует Urlmon.dll файла системы, который невозможно найти.</p></td>
 </tr>
 </tbody>
 </table>

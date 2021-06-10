@@ -18,26 +18,26 @@ ms.locfileid: "32288913"
 
 **Область применения**: Access 2013, Office 2013
 
-Для программистов ADO или RDS идеальным миром будет тот, в котором каждый источник данных предоставляет интерфейс OLE DB, чтобы ADO мог вызываться непосредственно в источник данных. Хотя все больше поставщиков баз данных внедряют интерфейсы OLE DB, некоторые источники данных пока не реализованы таким образом. Однако практически ко всем системам DBMS, которые используются в настоящее время, можно получить доступ через ODBC.
+Для программиста ADO или RDS идеальным был бы мир, в котором каждый источник данных предоставляет интерфейс OLE DB, чтобы ADO мог вызываться непосредственно в источник данных. Несмотря на то, что все больше поставщиков баз данных внедряют интерфейсы OLE DB, некоторые источники данных еще не открыты таким образом. Однако практически все системы DBMS, которые используются сегодня, можно получить доступ через ODBC.
 
-Драйверы ODBC доступны для всех основных DBMS, которые используются в настоящее время, включая Microsoft SQL Server, Microsoft Access (якорь субобъедий Microsoft Jet) и Microsoft FoxPro, в дополнение к продуктам баз данных, не относянымся к Майкрософт, таким как Oracle.
+Драйверы ODBC доступны для всех основных DBMS, которые используются сегодня, включая Microsoft SQL Server, Microsoft Access (двигатель базы данных Microsoft Jet) и Microsoft FoxPro, в дополнение к продуктам баз данных, не входим в microsoft, например Oracle.
 
-Однако поставщик Microsoft ODBC позволяет ADO подключаться к любому источнику данных ODBC. Поставщик имеет свободный поток и Юникод включен.
+Поставщик ODBC Майкрософт, однако, позволяет ADO подключаться к любому источнику данных ODBC. Поставщик имеет свободные потоки и включен Юникод.
 
-Поставщик поддерживает транзакции, хотя различные подмозки DBMS поддерживают различные типы транзакций. Например, Microsoft Access поддерживает вложенные транзакции глубиной до пяти уровней.
+Поставщик поддерживает транзакции, хотя различные двигатели DBMS предлагают различные типы поддержки транзакций. Например, Microsoft Access поддерживает вложенные транзакции глубиной до пяти уровней.
 
-Это поставщик по умолчанию для ADO, и поддерживаются все зависящие от поставщика свойства и методы ADO.
+Это поставщик ADO по умолчанию, и все свойства и методы ADO, зависящие от поставщика, поддерживаются.
 
 ## <a name="connection-string-parameters"></a>Параметры строки подключения
 
-Чтобы подключиться к этому поставщику, установите для аргумента **Provider=** свойства [ConnectionString:](connectionstring-property-ado.md)
+Чтобы подключиться к этому поставщику, установите **аргумент Provider=** свойства [ConnectionString:](connectionstring-property-ado.md)
 
 ```sql 
  
 MSDASQL 
 ```
 
-При [чтении свойства Provider](provider-property-ado.md) также возвращается эта строка.
+Чтение свойства [Provider](provider-property-ado.md) также вернет эту строку.
 
 ## <a name="typical-connection-string"></a>Типичная строка подключения
 
@@ -48,7 +48,7 @@ MSDASQL
 "Provider=MSDASQL;DSN=dsnName;UID=userName;PWD=userPassword;" 
 ```
 
-Строка состоит из таких ключевых слов:
+Строка состоит из этих ключевых слов:
 
 <table>
 <colgroup>
@@ -58,7 +58,7 @@ MSDASQL
 <thead>
 <tr class="header">
 <th><p>Ключевое слово</p></th>
-<th><p>Описание</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
@@ -80,35 +80,35 @@ MSDASQL
 </tr>
 <tr class="odd">
 <td><p><strong>URL-адрес</strong></p></td>
-<td><p>Указывает URL-адрес файла или каталога, опубликованного в веб-папке.</p></td>
+<td><p>Указывает URL-адрес файла или каталога, опубликованный в веб-папке.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Так как это поставщик по умолчанию для ADO, если опустить параметр **Provider=** из строки подключения, ADO попытается установить подключение к этому поставщику.
+Так как это поставщик ADO по умолчанию, если вы не закроет параметр **Provider=** из строки подключения, ADO попытается установить подключение к этому поставщику.
 
-Поставщик не поддерживает какие-либо параметры подключения в дополнение к тем, которые определены ADO. Однако поставщик передает диспетчеру драйверов ODBC любые параметры подключения, не относячные к ADO.
+Поставщик не поддерживает какие-либо конкретные параметры подключения в дополнение к параметрам, определенным ADO. Однако поставщик передает диспетчеру драйверов ODBC любые параметры подключения, не относясь к ADO.
 
-Так как параметр **Provider** можно опустить, можно составить строку подключения ADO, идентичную строке подключения ODBC для того же источника данных. Используйте те же имена параметров (**DRIVER=**, **DATABASE=**, **DSN=** и так далее), значения и синтаксис, как при составления строки подключения ODBC. Можно подключиться к предопределенным имени источника данных (DSN) или FileDSN или без него.
+Так как можно отменить параметр **Provider,** можно составить строку подключения ADO, идентичную строке подключения ODBC для того же источника данных. Используйте те же имена параметров **(DRIVER=**, **DATABASE=**, **DSN=** и так далее), значения и синтаксис, как при сочинении строки подключения ODBC. Вы можете подключиться к предварительному имени источника данных (DSN) или FileDSN или без него.
 
 **Синтаксис с DSN или FileDSN:**
 
 `"[Provider=MSDASQL;] { DSN=name | FileDSN=filename } ; [DATABASE=database;] UID=user; PWD=password"`
 
-**Синтаксис без DSN (подключение без DSN):**
+**Синтаксис без подключения к DSN (без DSN):**
 
 `"[Provider=MSDASQL;] DRIVER=driver; SERVER=server;DATABASE=database; UID=user; PWD=password"`
 
-Если используется **DSN** или **FileDSN,** его необходимо определить с помощью администратора источника данных ODBC на панели управления Windows. В Microsoft Windows 2000 администратор ODBC находится в области администрирования. В предыдущих версиях Windows значок администратора ODBC назывался **32-битным ODBC** или просто **ODBC.**
+Если вы используете **DSN** или **FileDSN,** его необходимо определить с помощью администратора источника данных ODBC в панели управления Windows. В Microsoft Windows 2000 г. Администратор ODBC находится под административными средствами. В предыдущих версиях Windows значок администратора ODBC называется **32-битным ODBC** или просто **ODBC**.
 
-В качестве альтернативы настройке **DSN** можно указать драйвер ODBC (**DRIVER=**), например "SQL Server;" имя сервера (**SERVER=**); и имя базы данных (**DATABASE=**).
+В качестве альтернативы настройке **DSN** можно указать драйвер ODBC **(DRIVER=),** например "SQL Server;" имя сервера **(SERVER=);** и имя базы данных **(DATABASE=**).
 
-Вы также можете указать имя учетной записи пользователя **(UID=**) и пароль для учетной записи пользователя (**PWD=**) в параметрах, характерных для ODBC, или в стандартных параметрах пользователя и пароля, определяемого ADO.  
+Вы также можете указать имя учетной записи пользователя **(UID=)** и пароль для учетной записи пользователя **(PWD=)**  в параметрах ODBC или в стандартных параметрах пользователя и пароля, определенных ADO. 
 
-Хотя определение   **DSN** уже указывает базу данных, можно указать параметр базы данных в дополнение к **DSN** для подключения к другой базе данных. При использовании **DSN**   лучше всегда включать параметр базы данных. Это обеспечит подключение к соответствующей базе данных в случае, если другой пользователь изменил параметр базы данных по умолчанию с момента последней проверки **определения DSN.**
+Хотя **определение DSN** уже указывает базу данных, можно указать параметр базы данных в дополнение к   **DSN** для подключения к другой базе данных. Это хорошая идея, чтобы всегда включать *параметр* *базы данных* при использовании **DSN**. Это обеспечит подключение к соответствующей базе данных в том случае, если другой пользователь изменил параметр базы данных по умолчанию с момента последней проверки **определения DSN.**
 
-## <a name="provider-specific-connection-properties"></a>Provider-Specific подключения
+## <a name="provider-specific-connection-properties"></a>Provider-Specific свойств подключения
 
 Поставщик OLE DB для ODBC добавляет несколько свойств в коллекцию [свойств](properties-collection-ado.md) объекта **Connection.** В следующей таблице перечислены эти свойства с соответствующим именем свойства OLE DB в скобки.
 
@@ -120,24 +120,24 @@ MSDASQL
 <thead>
 <tr class="header">
 <th><p>Имя свойства</p></th>
-<th><p>Описание</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Доступные процедуры<br />
 (KAGPROP_ACCESSIBLEPROCEDURES)</p></td>
-<td><p>Указывает, имеет ли пользователь доступ к хранимой процедуре.</p></td>
+<td><p>Указывает, имеет ли пользователь доступ к сохраненным процедурам.</p></td>
 </tr>
 <tr class="even">
 <td><p>Доступные таблицы<br />
 (KAGPROP_ACCESSIBLETABLES)</p></td>
-<td><p>Указывает, имеет ли пользователь разрешение на выполнение заявлений SELECT для таблиц базы данных.</p></td>
+<td><p>Указывает, имеет ли пользователь разрешение на выполнение заявлений SELECT в таблицах баз данных.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Active Statements<br />
 (KAGPROP_ACTIVESTATEMENTS)</p></td>
-<td><p>Указывает количество работок, поддерживаемых драйвером ODBC для подключения.</p></td>
+<td><p>Указывает количество обработок, которые драйвер ODBC может поддерживать в подключении.</p></td>
 </tr>
 <tr class="even">
 <td><p>Имя драйвера<br />
@@ -152,52 +152,52 @@ MSDASQL
 <tr class="even">
 <td><p>Использование файлов<br />
 (KAGPROP_FILEUSAGE)</p></td>
-<td><p>Указывает, как драйвер обрабатывает файл в источнике данных; в качестве таблицы или каталога.</p></td>
+<td><p>Указывает, как драйвер обрабатывает файл в источнике данных; как таблица или каталог.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Like Escape Clause<br />
+<td><p>Как и предложение о побеге<br />
 (KAGPROP_LIKEESCAPECLAUSE)</p></td>
-<td><p>Указывает, поддерживает ли драйвер определение и использование escape-символа для символа процента (%) и подчеркнуть знак (_) в предикате LIKE предложения WHERE.</p></td>
+<td><p>Указывает, поддерживает ли драйвер определение и использование символа побега для символа процента (%) и подчеркнуть символ (_) в предикате LIKE клаузула WHERE.</p></td>
 </tr>
 <tr class="even">
 <td><p>Max Columns in Group By<br />
 (KAGPROP_MAXCOLUMNSINGROUPBY)</p></td>
-<td><p>Указывает максимальное число столбцов, которые могут быть указаны в предложении GROUP BY для заявления SELECT.</p></td>
+<td><p>Указывает максимальное количество столбцов, которые могут быть указаны в пункте GROUP BY в заявлении SELECT.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Максимальное время столбцов в индексе<br />
+<td><p>Столбцы Max в индексе<br />
 (KAGPROP_MAXCOLUMNSININDEX)</p></td>
-<td><p>Указывает максимальное число столбцов, которые можно включить в индекс.</p></td>
+<td><p>Указывает максимальное количество столбцов, которые можно включить в индекс.</p></td>
 </tr>
 <tr class="even">
-<td><p>Максимальное по порядку столбцов<br />
+<td><p>Max Columns in Order By<br />
 (KAGPROP_MAXCOLUMNSINORDERBY)</p></td>
-<td><p>Указывает максимальное число столбцов, которые могут быть указаны в предложении ORDER BY для заявления SELECT.</p></td>
+<td><p>Указывает максимальное количество столбцов, которые могут быть указаны в пункте ORDER BY в заявлении SELECT.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Максимальное время выбора столбцов<br />
+<td><p>Столбцы Max в Выберите<br />
 (KAGPROP_MAXCOLUMNSINSELECT)</p></td>
-<td><p>Указывает максимальное число столбцов, которые могут быть указаны в части SELECT в выписке SELECT.</p></td>
+<td><p>Указывает максимальное количество столбцов, которые могут быть указаны в части SELECT в заявлении SELECT.</p></td>
 </tr>
 <tr class="even">
-<td><p>Максимальное время столбцов в таблице<br />
+<td><p>Столбцы Max в таблице<br />
 (KAGPROP_MAXCOLUMNSINTABLE)</p></td>
-<td><p>Указывает максимальное число столбцов, разрешенных в таблице.</p></td>
+<td><p>Указывает максимальное количество столбцов, разрешенных в таблице.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Числимые функции<br />
 (KAGPROP_NUMERICFUNCTIONS)</p></td>
-<td><p>Указывает, какие числимые функции поддерживаются драйвером ODBC. Список имен функций и связанных значений, используемых в этой битовойmask, см. в приложении E. Скалярные функции в документации ODBC.</p></td>
+<td><p>Указывает, какие численные функции поддерживаются драйвером ODBC. Список имен функций и связанных значений, используемых в этой битмаске, см. в документации ODBC Appendix E: Scalar Functions.</p></td>
 </tr>
 <tr class="even">
-<td><p>Возможности внешнего join<br />
+<td><p>Внешние возможности окружных окружных окруж<br />
 (KAGPROP_OJCAPABILITY)</p></td>
-<td><p>Указывает типы ВНЕШНИХ JOI, поддерживаемые поставщиком.</p></td>
+<td><p>Указывает типы ВНЕШНИХ ИОИ, поддерживаемые поставщиком.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Внешние joins<br />
+<td><p>Внешние присоединяется<br />
 (KAGPROP_OUTERJOINS)</p></td>
-<td><p>Указывает, поддерживает ли поставщик ВНЕШНИЕ JOI.</p></td>
+<td><p>Указывает, поддерживает ли поставщик ВНЕШНИЕ JOINs.</p></td>
 </tr>
 <tr class="even">
 <td><p>Специальные символы<br />
@@ -205,35 +205,35 @@ MSDASQL
 <td><p>Указывает, какие символы имеют особое значение для драйвера ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Хранимые процедуры<br />
+<td><p>Сохраненные процедуры<br />
 (KAGPROP_PROCEDURES)</p></td>
-<td><p>Указывает, доступны ли хранимые процедуры для использования с этим драйвером ODBC.</p></td>
+<td><p>Указывает, доступны ли сохраненные процедуры для использования с этим драйвером ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p>Строки функций<br />
+<td><p>Функции строки<br />
 (KAGPROP_STRINGFUNCTIONS)</p></td>
-<td><p>Указывает, какие строки поддерживаются драйвером ODBC. Список имен функций и связанных значений, используемых в этой битовойmask, см. в приложении E. Скалярные функции в документации ODBC.</p></td>
+<td><p>Указывает, какие функции строк поддерживаются драйвером ODBC. Список имен функций и связанных значений, используемых в этой битмаске, см. в документации ODBC Appendix E: Scalar Functions.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Системные функции<br />
+<td><p>Функции системы<br />
 (KAGPROP_SYSTEMFUNCTIONS)</p></td>
-<td><p>Указывает, какие системные функции поддерживаются драйвером ODBC. Список имен функций и связанных значений, используемых в этой битовойmask, см. в приложении E. Скалярные функции в документации ODBC.</p></td>
+<td><p>Указывает, какие функции системы поддерживаются драйвером ODBC. Список имен функций и связанных значений, используемых в этой битмаске, см. в документации ODBC Appendix E: Scalar Functions.</p></td>
 </tr>
 <tr class="even">
 <td><p>Функции времени и даты<br />
 (KAGPROP_TIMEDATEFUNCTIONS)</p></td>
-<td><p>Указывает, какие функции времени и даты поддерживаются драйвером ODBC. Список имен функций и связанных значений, используемых в этой битовойmask, см. в приложении E. Скалярные функции в документации ODBC.</p></td>
+<td><p>Указывает, какие функции времени и даты поддерживаются драйвером ODBC. Список имен функций и связанных значений, используемых в этой битмаске, см. в документации ODBC Appendix E: Scalar Functions.</p></td>
 </tr>
 <tr class="odd">
-<td><p>SQL грамматики<br />
+<td><p>SQL Поддержка грамматики<br />
 (KAGPROP_ODBCSQLCONFORMANCE)</p></td>
-<td><p>Указывает SQL, поддерживаемую драйвером ODBC.</p></td>
+<td><p>Указывает грамматику SQL, поддерживаемую драйвером ODBC.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="provider-specific-recordset-and-command-properties"></a>Provider-Specific Recordset and Command Properties
+## <a name="provider-specific-recordset-and-command-properties"></a>Provider-Specific Recordset и Command Properties
 
 Поставщик OLE DB для ODBC добавляет несколько свойств в коллекцию **свойств** объектов **Recordset** и **Command.** В следующей таблице перечислены эти свойства с соответствующим именем свойства OLE DB в скобки.
 
@@ -245,65 +245,65 @@ MSDASQL
 <thead>
 <tr class="header">
 <th><p>Имя свойства</p></th>
-<th><p>Описание</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Обновления на основе запросов/удаления и вставки<br />
+<td><p>Обновления на основе запроса/удаления/вставки<br />
 (KAGPROP_QUERYBASEDUPDATES)</p></td>
 <td><p>Указывает, можно ли выполнять обновления, удаления и вставки с помощью SQL запросов.</p></td>
 </tr>
 <tr class="even">
-<td><p>Тип concurrency ODBC<br />
+<td><p>Тип конвалюты ODBC<br />
 (KAGPROP_CONCURRENCY)</p></td>
-<td><p>Указывает метод, используемый для снижения потенциальных проблем, вызванных двумя пользователями, пытающихся получить доступ к одному и тем же данным из источника данных одновременно.</p></td>
+<td><p>Указывает метод, используемый для уменьшения потенциальных проблем, вызванных двумя пользователями, пытающихся одновременно получить доступ к данным из источника данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Доступность BLOB-Forward-Only курсора<br />
+<td><p>Доступность BLOB на Forward-Only курсоре<br />
 (KAGPROP_BLOBSONFOCURSOR)</p></td>
-<td><p>Указывает, можно ли получить доступ к полям <strong>BLOB</strong> при использовании курсора "Только вперед".</p></td>
+<td><p>Указывает, можно ли получить доступ к полям <strong>BLOB</strong> при использовании курсора только для вперед.</p></td>
 </tr>
 <tr class="even">
-<td><p>Включить SQL_FLOAT, SQL_DOUBLE и SQL_REAL в предложения QBU WHERE<br />
+<td><p>Включай SQL_FLOAT, SQL_DOUBLE и SQL_REAL в QBU WHERE clauses<br />
 (KAGPROP_INCLUDENONEXACT)</p></td>
-<td><p>Указывает, можно ли включить значения SQL_FLOAT, SQL_DOUBLE и SQL_REAL в предложение QBU WHERE.</p></td>
+<td><p>Указывает, можно ли SQL_FLOAT, SQL_DOUBLE и SQL_REAL в положение QBU WHERE.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Положение последней строки после вставки<br />
+<td><p>Положение в последней строке после вставки<br />
 (KAGPROP_POSITIONONNEWROW)</p></td>
-<td><p>Указывает, что после вставки новой записи в таблицу в последнюю строку таблицы будет вводиться текущая строка.</p></td>
+<td><p>Указывает, что после вставки новой записи в таблицу последняя строка в таблице будет приходить в текущем ряду.</p></td>
 </tr>
 <tr class="even">
 <td><p>IRowsetChangeExtInfo<br />
 (KAGPROP_IROWSETCHANGEEXTINFO)</p></td>
-<td><p>Указывает, предоставляет ли <strong>интерфейс IRowsetChange</strong> расширенную поддержку информации.</p></td>
+<td><p>Указывает, предоставляет ли <strong>интерфейс IRowsetChange</strong> расширенную информационную поддержку.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Тип курсора ODBC<br />
 (KAGPROP_CURSOR)</p></td>
-<td><p>Указывает тип курсора, используемого набором <strong>записей.</strong></p></td>
+<td><p>Указывает тип курсора, используемого в <strong>Recordset.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>Создание наборов строк, которые можно маршалировать<br />
+<td><p>Создание rowset, который можно маршалить<br />
 (KAGPROP_MARSHALLABLE)</p></td>
-<td><p>Указывает, что драйвер ODBC создает набор записей, который можно маршалировать</p></td>
+<td><p>Указывает, что драйвер ODBC создает набор записей, который можно</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="command-text"></a>Текст команды
+## <a name="command-text"></a>Командный текст
 
-Использование объекта [Command](command-object-ado.md) во многом зависит от источника данных и типа запроса или командной команды, которые он будет принимать.
+Использование объекта [Command](command-object-ado.md) во многом зависит от источника данных и типа запроса или командного утверждения, которые он примет.
 
-ODBC предоставляет определенный синтаксис для вызовов хранимой процедуры. Для свойства [CommandText](commandtext-property-ado.md) объекта **Command** аргумент *CommandText* **методу Execute** объекта [Connection](connection-object-ado.md) или аргумент *Source* **методу Open** в [объекте Recordset](recordset-object-ado.md) передает строку с помощью этого синтаксиса:
+ODBC предоставляет определенный синтаксис для вызова сохраненных процедур. Для свойства  [CommandText](commandtext-property-ado.md)  объекта *CommandText аргумент CommandText* к [](connection-object-ado.md) методу Execute на объекте  Подключение или аргумент Source к методу Open на [объекте Recordset](recordset-object-ado.md) передается в строке с этим синтаксисом: 
 
 `"{ [ ? = ] call procedure [ ( ? [, ? [ ,  ]] ) ] }"`
 
-Each **?** ссылка на объект в коллекции [Parameters.](parameters-collection-ado.md) Первый **?** references **Parameters**(0), the next **?** references **Parameters**(1) и так далее.
+**Каждый?** ссылается на объект в коллекции [Параметры.](parameters-collection-ado.md) Первый?  ссылки **Параметры**(0), далее **?** ссылки **Параметры**(1) и так далее.
 
-Ссылки на параметры являются необязательными и зависят от структуры хранимой процедуры. Если вы хотите вызвать хранимую процедуру, которая не определяет параметры, строка будет выглядеть так:
+Ссылки на параметры необязательны и зависят от структуры сохраненной процедуры. Если вы хотите вызвать сохраненную процедуру, которая не определяет параметры, строка будет выглядеть так:
 
 `"{ call procedure }"`
 
@@ -311,21 +311,21 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 
 `"{ call procedure ( ?, ? ) }"`
 
-Если хранимая процедура возвращает значение, возвращаемого значения рассматривается как другой параметр. Если у вас нет параметров запроса, но есть возвращаемая строка, строка будет выглядеть так:
+Если сохраненная процедура возвращает значение, возвращаемая величина рассматривается как другой параметр. Если у вас нет параметров запроса, но у вас есть возвращаемая величина, строка будет выглядеть так:
 
 `"{ ? = call procedure }"`
 
-Наконец, если у вас есть возвращаемая строка и два параметра запроса, строка будет выглядеть так:
+Наконец, если у вас есть значение возврата и два параметра запроса, строка будет выглядеть так:
 
 `"{ ? = call procedure ( ?, ? ) }"`
 
 ## <a name="recordset-behavior"></a>Поведение наборов записей
 
-В следующих таблицах фиксировать стандартные методы и свойства ADO, доступные для объекта **Recordset,** открытого с помощью этого поставщика.
+В следующих таблицах перечислить стандартные методы и свойства ADO, доступные на **объекте Recordset,** открытом с помощью этого поставщика.
 
-Для получения более подробных сведений о поведении **объекта Recordset** для конфигурации поставщика запустите метод [Supports](supports-method-ado.md) и нумеруйте коллекцию **свойств** объекта **Recordset,** чтобы определить, присутствуют ли динамические свойства для конкретного поставщика.
+Дополнительные сведения о поведении **Recordset** для конфигурации поставщика запустите метод [Supports](supports-method-ado.md) и введите коллекцию **Свойств** в **наборе Recordset,** чтобы определить, присутствуют ли динамические свойства конкретного поставщика.
 
-Доступность стандартных свойств объекта **ADO Recordset:**
+Доступность стандартных свойств ADO **Recordset:**
 
 <table>
 <colgroup>
@@ -339,7 +339,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <tr class="header">
 <th><p>Свойство</p></th>
 <th><p>ForwardOnly</p></th>
-<th><p>Динамическая группа</p></th>
+<th><p>Динамический</p></th>
 <th><p>Keyset</p></th>
 <th><p>Статическое</p></th>
 </tr>
@@ -409,7 +409,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>read-only</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Фильтр</a></p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
 <td><p>чтение и написание</p></td>
 <td><p>чтение и написание</p></td>
 <td><p>чтение и написание</p></td>
@@ -465,7 +465,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>чтение и написание</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="state-property-ado.md">State</a></p></td>
+<td><p><a href="state-property-ado.md">Состояние</a></p></td>
 <td><p>read-only</p></td>
 <td><p>read-only</p></td>
 <td><p>read-only</p></td>
@@ -482,7 +482,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 </table>
 
 
-Свойства [AbsolutePosition](absoluteposition-property-ado.md) и [AbsolutePage](absolutepage-property-ado.md) используются только для записи, если ADO используется с версией 1.0 поставщика Microsoft OLE DB для ODBC.
+Свойства [AbsolutePosition](absoluteposition-property-ado.md) и [AbsolutePage](absolutepage-property-ado.md) являются только для записи, когда ADO используется с версией 1.0 поставщика DB Microsoft OLE для ODBC.
 
 Доступность стандартных методов ADO **Recordset:**
 
@@ -496,9 +496,9 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Method</p></th>
+<th><p>Метод</p></th>
 <th><p>ForwardOnly</p></th>
-<th><p>Динамическая группа</p></th>
+<th><p>Динамический</p></th>
 <th><p>Keyset</p></th>
 <th><p>Статическое</p></th>
 </tr>
@@ -547,7 +547,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">удаление</a>;</p></td>
+<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
@@ -631,7 +631,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">обновление</a>.</p></td>
+<td><p><a href="update-method-ado.md">Обновление</a></p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
@@ -650,15 +650,15 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 
 \*Не поддерживается для баз данных Microsoft Access.
 
-## <a name="dynamic-properties"></a>Динамические свойства
+## <a name="dynamic-properties"></a>Dynamic Properties
 
-Поставщик Microsoft OLE DB для ODBC вставляет несколько динамических свойств в коллекцию **свойств** неоплаченных объектов [Connection,](connection-object-ado.md) [Recordset](recordset-object-ado.md)и [Command.](command-object-ado.md)
+Поставщик DB Microsoft OLE для ODBC вставляет несколько динамических свойств в коллекцию **свойств** незапертых объектов [Connection,](connection-object-ado.md) [Recordset](recordset-object-ado.md)и [Command.](command-object-ado.md)
 
-Таблицы ниже — это перекрестный индекс имен ADO и OLE DB для каждого динамического свойства. Справочник программиста по OLE DB ссылается на имя свойства ADO по термину "Description". Дополнительные сведения об этих свойствах можно найти в справочнике программиста OLE DB. Найди имя свойства OLE DB в индексе или см. приложение C. Свойства OLE DB.
+Ниже приведены перекрестные индексы имен ADO и OLE DB для каждого динамического свойства. Ссылка программиста OLE DB относится к имени свойства ADO по термину "Описание". Дополнительные сведения об этих свойствах можно найти в справке программиста OLE DB. Поиск имени свойства OLE DB в Индексе или см. в приложении C: OLE DB Properties.
 
 ## <a name="connection-dynamic-properties"></a>Динамические свойства подключения
 
-Следующие свойства добавляются в коллекцию  свойств объекта **Connection.**
+Следующие свойства добавляются в коллекцию  Свойств объекта **Connection.**
 
 <table>
 <colgroup>
@@ -667,7 +667,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ADO Property Name</p></th>
+<th><p>Имя свойства ADO</p></th>
 <th><p>Имя свойства OLE DB</p></th>
 </tr>
 </thead>
@@ -685,7 +685,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_ASYNCTNXCOMMIT</p></td>
 </tr>
 <tr class="even">
-<td><p>Уровни изоляции автозафикса</p></td>
+<td><p>Уровни изоляции автокоммита</p></td>
 <td><p>DBPROP_SESS_AUTOCOMMITISOLEVELS</p></td>
 </tr>
 <tr class="odd">
@@ -693,15 +693,15 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_CATALOGLOCATION</p></td>
 </tr>
 <tr class="even">
-<td><p>Термин каталога</p></td>
+<td><p>Термин Каталог</p></td>
 <td><p>DBPROP_CATALOGTERM</p></td>
 </tr>
 <tr class="odd">
-<td><p>Определение столбца</p></td>
+<td><p>Определение столбцов</p></td>
 <td><p>DBPROP_COLUMNDEFINITION</p></td>
 </tr>
 <tr class="even">
-<td><p>Время подключения</p></td>
+<td><p>Подключение Время от времени</p></td>
 <td><p>DBPROP_INIT_TIMEOUT</p></td>
 </tr>
 <tr class="odd">
@@ -717,11 +717,11 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_DATASOURCENAME</p></td>
 </tr>
 <tr class="even">
-<td><p>Потоковая модель объектов источника данных</p></td>
+<td><p>Модель потоковой обработки объектов источника данных</p></td>
 <td><p>DBPROP_DSOTHREADMODEL</p></td>
 </tr>
 <tr class="odd">
-<td><p>DBMS Name</p></td>
+<td><p>Имя DBMS</p></td>
 <td><p>DBPROP_DBMSNAME</p></td>
 </tr>
 <tr class="even">
@@ -733,11 +733,11 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_INIT_PROVIDERSTRING</p></td>
 </tr>
 <tr class="even">
-<td><p>GROUP BY Support</p></td>
+<td><p>Поддержка GROUP BY</p></td>
 <td><p>DBPROP_GROUPBY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Поддержка разнородных таблиц</p></td>
+<td><p>Гетерогенная поддержка таблиц</p></td>
 <td><p>DBPROP_HETEROGENEOUSTABLES</p></td>
 </tr>
 <tr class="even">
@@ -757,7 +757,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_SUPPORTEDTXNISORETAIN</p></td>
 </tr>
 <tr class="even">
-<td><p>Код локализовки</p></td>
+<td><p>Идентификатор locale</p></td>
 <td><p>DBPROP_INIT_LCID</p></td>
 </tr>
 <tr class="odd">
@@ -777,7 +777,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_MAXROWSIZEINCLUDESBLOB</p></td>
 </tr>
 <tr class="odd">
-<td><p>Максимальное число таблиц в SELECT</p></td>
+<td><p>Максимальные таблицы в SELECT</p></td>
 <td><p>DBPROP_MAXTABLESINSELECT</p></td>
 </tr>
 <tr class="even">
@@ -793,7 +793,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_MULTIPLERESULTS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Несколько объектов хранилища</p></td>
+<td><p>Несколько служба хранилища объектов</p></td>
 <td><p>DBPROP_MULTIPLESTORAGEOBJECTS</p></td>
 </tr>
 <tr class="even">
@@ -801,11 +801,11 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_MULTITABLEUPDATE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Порядок оценки NULL</p></td>
+<td><p>Порядок коллансирования NULL</p></td>
 <td><p>DBPROP_NULLCOLLATION</p></td>
 </tr>
 <tr class="even">
-<td><p>Поведение при конкатенации NULL</p></td>
+<td><p>NULL Concatenation Behaviour</p></td>
 <td><p>DBPROP_CONCATNULLBEHAVIOR</p></td>
 </tr>
 <tr class="odd">
@@ -821,7 +821,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_OLEOBJECTS</p></td>
 </tr>
 <tr class="even">
-<td><p>Поддержка открытого наборов строк</p></td>
+<td><p>Поддержка open Rowset</p></td>
 <td><p>DBPROP_OPENROWSETSUPPORT</p></td>
 </tr>
 <tr class="odd">
@@ -829,7 +829,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_ORDERBYCOLUMNSINSELECT</p></td>
 </tr>
 <tr class="even">
-<td><p>Доступность выходных параметров</p></td>
+<td><p>Доступность параметров вывода</p></td>
 <td><p>DBPROP_OUTPUTPARAMETERAVAILABILITY</p></td>
 </tr>
 <tr class="odd">
@@ -841,15 +841,15 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_BYREFACCESSORS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Сохранить сведения о безопасности</p></td>
+<td><p>Сохраняются сведения о безопасности</p></td>
 <td><p>DBPROP_AUTH_PERSIST_SENSITIVE_AUTHINFO</p></td>
 </tr>
 <tr class="even">
-<td><p>Тип сохраняемого ИД</p></td>
+<td><p>Тип сохраняемого ID</p></td>
 <td><p>DBPROP_PERSISTENTIDTYPE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Подготовка поведения для отменить</p></td>
+<td><p>Подготовка поведения прервать</p></td>
 <td><p>DBPROP_PREPAREABORTBEHAVIOR</p></td>
 </tr>
 <tr class="even">
@@ -865,7 +865,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_INIT_PROMPT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Имя поставщика</p></td>
+<td><p>Удобное имя поставщика</p></td>
 <td><p>DBPROP_PROVIDERFRIENDLYNAME</p></td>
 </tr>
 <tr class="even">
@@ -877,15 +877,15 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_PROVIDERVER</p></td>
 </tr>
 <tr class="even">
-<td><p>Read-Only данных</p></td>
+<td><p>Read-Only источник данных</p></td>
 <td><p>DBPROP_DATASOURCEREADONLY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Преобразование наборов строк в команде</p></td>
+<td><p>Преобразования rowset в командной строке</p></td>
 <td><p>DBPROP_ROWSETCONVERSIONSONCOMMAND</p></td>
 </tr>
 <tr class="even">
-<td><p>Термин схемы</p></td>
+<td><p>Термин Схемы</p></td>
 <td><p>DBPROP_SCHEMATERM</p></td>
 </tr>
 <tr class="odd">
@@ -893,23 +893,23 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_SCHEMAUSAGE</p></td>
 </tr>
 <tr class="even">
-<td><p>SQL поддержки</p></td>
+<td><p>SQL Поддержка</p></td>
 <td><p>DBPROP_SQLSUPPORT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Структурированное хранилище</p></td>
+<td><p>Структурированные служба хранилища</p></td>
 <td><p>DBPROP_STRUCTUREDSTORAGE</p></td>
 </tr>
 <tr class="even">
-<td><p>Поддержка ветвей</p></td>
+<td><p>Поддержка subquery</p></td>
 <td><p>DBPROP_SUBQUERIES</p></td>
 </tr>
 <tr class="odd">
-<td><p>Table Term</p></td>
+<td><p>Термин Таблица</p></td>
 <td><p>DBPROP_TABLETERM</p></td>
 </tr>
 <tr class="even">
-<td><p>DDL транзакции</p></td>
+<td><p>DDL транзакций</p></td>
 <td><p>DBPROP_SUPPORTEDTXNDDL</p></td>
 </tr>
 <tr class="odd">
@@ -921,16 +921,16 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_USERNAME</p></td>
 </tr>
 <tr class="odd">
-<td><p>Окне Окне</p></td>
+<td><p>Ручка окна</p></td>
 <td><p>DBPROP_INIT_HWND</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="recordset-dynamic-properties"></a>Динамические свойства recordset
+## <a name="recordset-dynamic-properties"></a>Динамические свойства Recordset
 
-Следующие свойства добавляются в коллекцию **свойств** объекта **Recordset.**
+Следующие свойства добавляются в коллекцию Свойств  объекта **Recordset.**
 
 <table>
 <colgroup>
@@ -939,7 +939,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ADO Property Name</p></th>
+<th><p>Имя свойства ADO</p></th>
 <th><p>Имя свойства OLE DB</p></th>
 </tr>
 </thead>
@@ -949,11 +949,11 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_ACCESSORDER</p></td>
 </tr>
 <tr class="even">
-<td><p>Блокировка объектов хранилища</p></td>
+<td><p>Блокировка служба хранилища объектов</p></td>
 <td><p>DBPROP_BLOCKINGSTORAGEOBJECTS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Тип закладки</p></td>
+<td><p>Тип закладок</p></td>
 <td><p>DBPROP_BOOKMARKTYPE</p></td>
 </tr>
 <tr class="even">
@@ -973,7 +973,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_NOTIFYCOLUMNSET</p></td>
 </tr>
 <tr class="even">
-<td><p>Задержка обновлений объектов хранилища</p></td>
+<td><p>Задержка служба хранилища обновлений объектов</p></td>
 <td><p>DBPROP_DELAYSTORAGEOBJECTS</p></td>
 </tr>
 <tr class="odd">
@@ -1005,7 +1005,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_IConvertType</p></td>
 </tr>
 <tr class="even">
-<td><p>Строки Immobile</p></td>
+<td><p>Immobile Rows</p></td>
 <td><p>DBPROP_IMMOBILEROWS</p></td>
 </tr>
 <tr class="odd">
@@ -1045,23 +1045,23 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_ISupportErrorInfo</p></td>
 </tr>
 <tr class="even">
-<td><p>Литеральные закладки</p></td>
+<td><p>Буквальные закладки</p></td>
 <td><p>DBPROP_LITERALBOOKMARKS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Идентификатор строки литералов</p></td>
+<td><p>Удостоверение буквальных строк</p></td>
 <td><p>DBPROP_LITERALIDENTITY</p></td>
 </tr>
 <tr class="even">
-<td><p>Максимальное число открытых строк</p></td>
+<td><p>Максимальные открытые строки</p></td>
 <td><p>DBPROP_MAXOPENROWS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Максимальное число ожидающих строк</p></td>
+<td><p>Максимальное количество ожидающих строк</p></td>
 <td><p>DBPROP_MAXPENDINGROWS</p></td>
 </tr>
 <tr class="even">
-<td><p>Максимальное число строк</p></td>
+<td><p>Максимальные строки</p></td>
 <td><p>DBPROP_MAXROWS</p></td>
 </tr>
 <tr class="odd">
@@ -1073,23 +1073,23 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_NOTIFICATIONPHASES</p></td>
 </tr>
 <tr class="odd">
-<td><p>Transacted объектов</p></td>
+<td><p>Objects Transacted</p></td>
 <td><p>DBPROP_TRANSACTEDOBJECT</p></td>
 </tr>
 <tr class="even">
-<td><p>Собственные изменения, видимые</p></td>
+<td><p>Собственные изменения Видимые</p></td>
 <td><p>DBPROP_OWNUPDATEDELETE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Собственные вставки видимые</p></td>
+<td><p>Собственные вставки Видимые</p></td>
 <td><p>DBPROP_OWNINSERT</p></td>
 </tr>
 <tr class="even">
-<td><p>Сохранение при отменить</p></td>
+<td><p>Сохранение на abort</p></td>
 <td><p>DBPROP_ABORTPRESERVE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Сохранение при фиксации</p></td>
+<td><p>Сохранение на коммит</p></td>
 <td><p>DBPROP_COMMITPRESERVE</p></td>
 </tr>
 <tr class="even">
@@ -1097,7 +1097,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_QUICKRESTART</p></td>
 </tr>
 <tr class="odd">
-<td><p>Reentrant Events</p></td>
+<td><p>События для повторного антуламента</p></td>
 <td><p>DBPROP_REENTRANTEVENTS</p></td>
 </tr>
 <tr class="even">
@@ -1109,7 +1109,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_REPORTMULTIPLECHANGES</p></td>
 </tr>
 <tr class="even">
-<td><p>Возвращение ожидающих вставки</p></td>
+<td><p>Возвращение ожидающих вставок</p></td>
 <td><p>DBPROP_RETURNPENDINGINSERTS</p></td>
 </tr>
 <tr class="odd">
@@ -1133,7 +1133,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_NOTIFYROWRESYNCH</p></td>
 </tr>
 <tr class="even">
-<td><p>Модель потоков по строкам</p></td>
+<td><p>Модель потоков строки</p></td>
 <td><p>DBPROP_ROWTHREADMODEL</p></td>
 </tr>
 <tr class="odd">
@@ -1141,11 +1141,11 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_NOTIFYROWUNDOCHANGE</p></td>
 </tr>
 <tr class="even">
-<td><p>Уведомление об отмене удаления строки</p></td>
+<td><p>Уведомление об отмене строки</p></td>
 <td><p>DBPROP_NOTIFYROWUNDODELETE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Уведомление об отмене вставки строки</p></td>
+<td><p>Уведомление об отмене строки</p></td>
 <td><p>DBPROP_NOTIFYROWUNDOINSERT</p></td>
 </tr>
 <tr class="even">
@@ -1157,11 +1157,11 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_NOTIFYROWSETFETCHPOSISIONCHANGE</p></td>
 </tr>
 <tr class="even">
-<td><p>Уведомление о выпуске rowset</p></td>
+<td><p>Уведомление о выпуске Rowset</p></td>
 <td><p>DBPROP_NOTIFYROWSETRELEASE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Прокрутка назад</p></td>
+<td><p>Прокрутите назад</p></td>
 <td><p>DBPROP_CANSCROLLBACKWARDS</p></td>
 </tr>
 <tr class="even">
@@ -1169,7 +1169,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_BOOKMARKSKIPPED</p></td>
 </tr>
 <tr class="odd">
-<td><p>Удостоверение строки strong</p></td>
+<td><p>Удостоверение Strong Row</p></td>
 <td><p>DBPROP_STRONGITDENTITY</p></td>
 </tr>
 <tr class="even">
@@ -1190,7 +1190,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 
 ## <a name="command-dynamic-properties"></a>Командные динамические свойства
 
-Следующие свойства добавляются в  коллекцию **свойств объекта Command.**
+Следующие свойства добавляются в коллекцию **Свойств** объекта **Command.**
 
 <table>
 <colgroup>
@@ -1199,7 +1199,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ADO Property Name</p></th>
+<th><p>Имя свойства ADO</p></th>
 <th><p>Имя свойства OLE DB</p></th>
 </tr>
 </thead>
@@ -1209,11 +1209,11 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_ACCESSORDER</p></td>
 </tr>
 <tr class="even">
-<td><p>Блокировка объектов хранилища</p></td>
+<td><p>Блокировка служба хранилища объектов</p></td>
 <td><p>DBPROP_BLOCKINGSTORAGEOBJECTS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Тип закладки</p></td>
+<td><p>Тип закладок</p></td>
 <td><p>DBPROP_BOOKMARKTYPE</p></td>
 </tr>
 <tr class="even">
@@ -1233,7 +1233,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_NOTIFYCOLUMNSET</p></td>
 </tr>
 <tr class="even">
-<td><p>Задержка обновлений объектов хранилища</p></td>
+<td><p>Задержка служба хранилища обновлений объектов</p></td>
 <td><p>DBPROP_DELAYSTORAGEOBJECTS</p></td>
 </tr>
 <tr class="odd">
@@ -1265,7 +1265,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_IConvertType</p></td>
 </tr>
 <tr class="even">
-<td><p>Строки Immobile</p></td>
+<td><p>Immobile Rows</p></td>
 <td><p>DBPROP_IMMOBILEROWS</p></td>
 </tr>
 <tr class="odd">
@@ -1305,23 +1305,23 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_ISupportErrorInfo</p></td>
 </tr>
 <tr class="even">
-<td><p>Литеральные закладки</p></td>
+<td><p>Буквальные закладки</p></td>
 <td><p>DBPROP_LITERALBOOKMARKS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Идентификатор строки литералов</p></td>
+<td><p>Удостоверение буквальных строк</p></td>
 <td><p>DBPROP_LITERALIDENTITY</p></td>
 </tr>
 <tr class="even">
-<td><p>Максимальное число открытых строк</p></td>
+<td><p>Максимальные открытые строки</p></td>
 <td><p>DBPROP_MAXOPENROWS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Максимальное число ожидающих строк</p></td>
+<td><p>Максимальное количество ожидающих строк</p></td>
 <td><p>DBPROP_MAXPENDINGROWS</p></td>
 </tr>
 <tr class="even">
-<td><p>Максимальное число строк</p></td>
+<td><p>Максимальные строки</p></td>
 <td><p>DBPROP_MAXROWS</p></td>
 </tr>
 <tr class="odd">
@@ -1333,23 +1333,23 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_NOTIFICATIONPHASES</p></td>
 </tr>
 <tr class="odd">
-<td><p>Transacted объектов</p></td>
+<td><p>Objects Transacted</p></td>
 <td><p>DBPROP_TRANSACTEDOBJECT</p></td>
 </tr>
 <tr class="even">
-<td><p>Собственные изменения, видимые</p></td>
+<td><p>Собственные изменения Видимые</p></td>
 <td><p>DBPROP_OWNUPDATEDELETE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Собственные вставки видимые</p></td>
+<td><p>Собственные вставки Видимые</p></td>
 <td><p>DBPROP_OWNINSERT</p></td>
 </tr>
 <tr class="even">
-<td><p>Сохранение при отменить</p></td>
+<td><p>Сохранение на abort</p></td>
 <td><p>DBPROP_ABORTPRESERVE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Сохранение при фиксации</p></td>
+<td><p>Сохранение на коммит</p></td>
 <td><p>DBPROP_COMMITPRESERVE</p></td>
 </tr>
 <tr class="even">
@@ -1357,7 +1357,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_QUICKRESTART</p></td>
 </tr>
 <tr class="odd">
-<td><p>Reentrant Events</p></td>
+<td><p>События для повторного антуламента</p></td>
 <td><p>DBPROP_REENTRANTEVENTS</p></td>
 </tr>
 <tr class="even">
@@ -1369,7 +1369,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_REPORTMULTIPLECHANGES</p></td>
 </tr>
 <tr class="even">
-<td><p>Возвращение ожидающих вставки</p></td>
+<td><p>Возвращение ожидающих вставок</p></td>
 <td><p>DBPROP_RETURNPENDINGINSERTS</p></td>
 </tr>
 <tr class="odd">
@@ -1393,7 +1393,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_NOTIFYROWRESYNCH</p></td>
 </tr>
 <tr class="even">
-<td><p>Модель потоков по строкам</p></td>
+<td><p>Модель потоков строки</p></td>
 <td><p>DBPROP_ROWTHREADMODEL</p></td>
 </tr>
 <tr class="odd">
@@ -1401,11 +1401,11 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_NOTIFYROWUNDOCHANGE</p></td>
 </tr>
 <tr class="even">
-<td><p>Уведомление об отмене удаления строки</p></td>
+<td><p>Уведомление об отмене строки</p></td>
 <td><p>DBPROP_NOTIFYROWUNDODELETE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Уведомление об отмене вставки строки</p></td>
+<td><p>Уведомление об отмене строки</p></td>
 <td><p>DBPROP_NOTIFYROWUNDOINSERT</p></td>
 </tr>
 <tr class="even">
@@ -1417,11 +1417,11 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_NOTIFYROWSETFETCHPOSITIONCHANGE</p></td>
 </tr>
 <tr class="even">
-<td><p>Уведомление о выпуске rowset</p></td>
+<td><p>Уведомление о выпуске Rowset</p></td>
 <td><p>DBPROP_NOTIFYROWSETRELEASE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Прокрутка назад</p></td>
+<td><p>Прокрутите назад</p></td>
 <td><p>DBPROP_CANSCROLLBACKWARDS</p></td>
 </tr>
 <tr class="even">
@@ -1429,7 +1429,7 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 <td><p>DBPROP_BOOKMARKSKIP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Удостоверение строки strong</p></td>
+<td><p>Удостоверение Strong Row</p></td>
 <td><p>DBPROP_STRONGIDENTITY</p></td>
 </tr>
 <tr class="even">
@@ -1446,5 +1446,5 @@ Each **?** ссылка на объект в коллекции [Parameters.](pa
 
 ## <a name="see-also"></a>См. также
 
-Подробные сведения об определенной реализации и функциональной информации о поставщике Microsoft OLE DB для ODBC можно получить в руководстве программиста [OLE DB](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85)) или в Центре разработчиков платформы [данных.](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017)
+Сведения о конкретной реализации и функциональных сведениях о поставщике DB Microsoft OLE для ODBC можно получить в руководстве программиста [OLE DB](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85)) или в Центре разработчиков [платформы данных.](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017)
 

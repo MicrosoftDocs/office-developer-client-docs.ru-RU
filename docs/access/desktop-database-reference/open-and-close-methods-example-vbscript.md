@@ -21,7 +21,7 @@ ms.locfileid: "32288436"
 
 В этом примере используются методы [Open](open-method-ado-recordset.md) и [Close](close-method-ado.md) для открытых объектов [Recordset](recordset-object-ado.md) и [Connection.](connection-object-ado.md)
 
-Используйте следующий пример на странице Active Server (ASP). Используйте **поиск,** чтобы найти файл Adovbs.inc и разместить его в каталоге, который вы планируете использовать. Вырезать и ввести следующий код в Блокнот или другой текстовый редактор и сохранить его как **OpenVBS.asp**. Результат можно просмотреть в любом браузере.
+Используйте следующий пример на странице Active Server Page (ASP). Используйте **Поиск,** чтобы найти файл Adovbs.inc и разместить его в каталоге, который вы планируете использовать. Cut and paste the following code into Блокнот or another text editor, and save it as **OpenVBS.asp**. Результат можно просмотреть в любом браузере.
 
 ```vb 
  

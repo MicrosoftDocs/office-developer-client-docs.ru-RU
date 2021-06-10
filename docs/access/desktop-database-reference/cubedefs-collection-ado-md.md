@@ -1,5 +1,5 @@
 ---
-title: CubeDefs collection (ADO MD)
+title: Коллекция CubeDefs (ADO MD)
 TOCTitle: CubeDefs collection (ADO MD)
 ms:assetid: 31adca99-7c4f-7393-4bab-bcb38bcfc2ac
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249090(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295270"
 ---
-# <a name="cubedefs-collection-ado-md"></a>CubeDefs collection (ADO MD)
+# <a name="cubedefs-collection-ado-md"></a>Коллекция CubeDefs (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013
 
 Содержит [объекты CubeDef,](cubedef-object-ado-md.md) которые представляют куб из многомерного каталога.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
 **CubeDefs** — это стандартная коллекция ADO. С помощью свойств и методов коллекции можно сделать следующее:
 
-- Получите количество объектов в коллекции с помощью свойства [Count.](count-property-ado.md)
+- Получение количества объектов в коллекции с помощью свойства [Count.](count-property-ado.md)
 
-- Возвращает объект из коллекции со свойством [Item по](item-property-ado.md) умолчанию.
+- Возвращаем объект из коллекции с свойством [Item по](item-property-ado.md) умолчанию.
 
-- Обновите объекты в коллекции от поставщика с помощью [метода Refresh.](refresh-method-ado.md)
+- Обновление объектов в коллекции от поставщика с помощью метода [Обновления.](refresh-method-ado.md)
 

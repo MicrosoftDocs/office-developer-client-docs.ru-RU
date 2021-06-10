@@ -1,5 +1,5 @@
 ---
-title: Hierarchy properties, methods, and events (ADO MD)
+title: Свойства, методы и события иерархии (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 4661738f-86c5-a944-2884-baed66c1a9d9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249217(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291952"
 ---
-# <a name="hierarchy-properties-methods-and-events-ado-md"></a>Hierarchy properties, methods, and events (ADO MD)
+# <a name="hierarchy-properties-methods-and-events-ado-md"></a>Свойства, методы и события иерархии (ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Свойство Description](description-property-ado-md.md)
 - [Коллекция Levels](levels-collection-ado-md.md)
@@ -26,7 +26,7 @@ ms.locfileid: "32291952"
 - [Коллекция Properties](properties-collection-ado.md)
 - [Свойство UniqueName](uniquename-property-ado-md.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 Нет.
 

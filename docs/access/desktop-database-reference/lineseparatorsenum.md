@@ -1,5 +1,5 @@
 ---
-title: LineSeparatorsEnum (справочник по базам данных Access для настольных ПК)
+title: LineSeparatorsEnum (ссылка на базу данных для настольных компьютеров)
 TOCTitle: LineSeparatorsEnum
 ms:assetid: 3b0c58a8-1617-f9b1-c0c8-928580b2dade
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249148(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32289944"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает символ, используемый в качестве деспликатора линии в текстовых [объектах Stream.](stream-object-ado.md)
+Указывает символ, используемый в качестве сепаратора строк в текстовых объектах [Stream.](stream-object-ado.md)
 
 <br/>
 
@@ -38,13 +38,13 @@ ms.locfileid: "32289944"
 <tbody>
 <tr class="odd">
 <td><p><strong>adCR</strong></p></td>
-<td><p>13 </p></td>
-<td><p>Указывает возврат каретки.</p></td>
+<td><p>13</p></td>
+<td><p>Указывает возвращение вагона.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCRLF</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Значение, используемое по умолчанию. Указывает канал строки возврата каретки.</p></td>
+<td><p>Значение, используемое по умолчанию. Указывает канал возвращаемой строки перевозки.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adLF</strong></p></td>

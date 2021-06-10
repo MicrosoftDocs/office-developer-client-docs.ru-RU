@@ -1,5 +1,5 @@
 ---
-title: Справочник по коллекции Keys (ADOX)
+title: Ссылка на коллекцию ключей (ADOX)
 TOCTitle: Keys collection (ADOX)
 ms:assetid: e604e8b3-bc2a-4075-a7d5-cc840a0f66c2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250168(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290178"
 ---
-# <a name="keys-collection-adox-reference"></a>Справочник по коллекции Keys (ADOX)
+# <a name="keys-collection-adox-reference"></a>Ссылка на коллекцию ключей (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Коллекция Keys (ADOX)](keys-collection-adox.md)
-- [Свойства, методы и события коллекции Keys (ADOX)](keys-collection-properties-methods-and-events-adox.md)
+- [Коллекция ключей (ADOX)](keys-collection-adox.md)
+- [Свойства, методы и события коллекции ключей (ADOX)](keys-collection-properties-methods-and-events-adox.md)
 

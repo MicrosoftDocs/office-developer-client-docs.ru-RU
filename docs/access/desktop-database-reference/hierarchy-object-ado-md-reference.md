@@ -1,5 +1,5 @@
 ---
-title: Объект Hierarchy (справочник по ADO MD)
+title: Объект Иерархия (ссылка ADO MD)
 TOCTitle: Hierarchy object (ADO MD)
 ms:assetid: 0c849ee3-4b3f-4bfa-87e9-c9466881aca1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248848(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291966"
 ---
-# <a name="hierarchy-object-ado-md-reference"></a>Объект Hierarchy (справочник по ADO MD)
+# <a name="hierarchy-object-ado-md-reference"></a>Объект Иерархия (ссылка ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Объект Hierarchy (ADO MD)](hierarchy-object-ado-md.md)
-- [Hierarchy properties, methods, and events (ADO MD)](hierarchy-properties-methods-and-events-ado-md.md)
+- [Объект Иерархия (ADO MD)](hierarchy-object-ado-md.md)
+- [Свойства, методы и события иерархии (ADO MD)](hierarchy-properties-methods-and-events-ado-md.md)
 

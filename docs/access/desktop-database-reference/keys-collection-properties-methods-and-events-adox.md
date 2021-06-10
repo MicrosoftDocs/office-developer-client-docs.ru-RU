@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события коллекции Keys (ADOX)
+title: Свойства, методы и события коллекции ключей (ADOX)
 TOCTitle: Keys collection properties, methods, and events (ADOX)
 ms:assetid: 2fd7e470-2237-9790-cbfc-d1da3b437d12
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249079(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290171"
 ---
-# <a name="keys-collection-properties-methods-and-events-adox"></a>Свойства, методы и события коллекции Keys (ADOX)
+# <a name="keys-collection-properties-methods-and-events-adox"></a>Свойства, методы и события коллекции ключей (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -23,10 +23,10 @@ ms.locfileid: "32290171"
 - [Свойство Count](count-property-ado.md)
 - [Свойство Item](item-property-ado.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
-- [Метод Append (Keys)](append-method-adox-keys.md)
-- [Метод Delete (Collections)](delete-method-adox-collections.md)
+- [Метод приложения (Клавиши)](append-method-adox-keys.md)
+- [Удаление метода (Коллекции)](delete-method-adox-collections.md)
 - [Метод Refresh](refresh-method-ado.md)
 
 ## <a name="events"></a>События

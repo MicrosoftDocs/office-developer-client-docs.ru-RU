@@ -1,5 +1,5 @@
 ---
-title: Метод Create (ADOX)
+title: Создание метода (ADOX)
 TOCTitle: Create method (ADOX)
 ms:assetid: d4072ee7-a0b9-7780-7be0-1d64b42b437c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250060(v=office.15)
@@ -14,25 +14,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295424"
 ---
-# <a name="create-method-adox"></a>Метод Create (ADOX)
+# <a name="create-method-adox"></a>Создание метода (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
-Создает каталог.
+Создает новый каталог.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Каталог .* Создание *ConnectString*
+*Каталог*. Создание *ConnectString*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*ConnectString* |**Строка,** используемая для подключения к источнику данных.|
+|*ConnectString* |Значение **String,** используемое для подключения к источнику данных.|
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Метод **Create** создает и открывает новое подключение [ADO](connection-object-ado.md) к источнику данных, указанному в *ConnectString.* В случае успеха новый **объект Connection** будет назначен свойству [ActiveConnection.](activeconnection-property-adox.md)
+Метод **Create** создает и открывает новое подключение [ADO](connection-object-ado.md) к источнику данных, указанному в *ConnectString.* В случае успешной работы новый **объект Connection** назначен свойству [ActiveConnection.](activeconnection-property-adox.md)
 
-Если поставщик не поддерживает создание новых каталогов, произойдет ошибка.
+Ошибка возникает, если поставщик не поддерживает создание новых каталогов.
 

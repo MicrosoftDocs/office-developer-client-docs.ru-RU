@@ -1,5 +1,5 @@
 ---
-title: Блоки данных (справочник по базам данных Access для настольных ПК)
+title: Блоки данных (ссылка на настольные базы данных)
 TOCTitle: data blocks
 ms:assetid: 8afd9208-1dcd-4b9a-85a0-dabacc09058d
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125230(v=office.15)

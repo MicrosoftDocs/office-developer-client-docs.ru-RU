@@ -22,11 +22,11 @@ ms.locfileid: "32294920"
 
 **Область применения**: Access 2013, Office 2013
 
-Создает реплику из другой реплики базы данных (только для рабочей области Microsoft Access).
+Создает новую реплику из другой реплики базы данных (только в рабочей области Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* MakeReplica(***PathName***, ***Description***, ***Options***)
+*выражения* . MakeReplica (***PathName***, ***Описание***, ***Параметры***)
 
 *выражение*: переменная, представляющая объект **Database**.
 
@@ -50,33 +50,33 @@ ms.locfileid: "32294920"
 <tbody>
 <tr class="odd">
 <td><p><em>PathName</em></p></td>
-<td><p>Обязательно</p></td>
-<td><p><strong>Строка</strong></p></td>
-<td><p>Путь и имя файла новой реплики. Если реплика является существующим именем файла, возникает ошибка.</p></td>
+<td><p>Обязательный</p></td>
+<td><p><strong>String</strong></p></td>
+<td><p>Путь и имя файла новой реплики. Если реплика — это существующее имя файла, возникает ошибка.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Description</em></p></td>
-<td><p>Обязательно</p></td>
-<td><p><strong>Строка</strong></p></td>
-<td><p><strong>Строка,</strong> описываемая создаемую реплику</p></td>
+<td><p>Обязательный</p></td>
+<td><p><strong>String</strong></p></td>
+<td><p><strong>Строка,</strong> описываемая создаемой репликой</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Options</em></p></td>
 <td><p>Необязательно</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong><a href="replicatypeenum-enumeration-dao.md">Константа ReplicaTypeEnum,</a></strong> которая определяет характеристики создаемой реплики.</p></td>
+<td><p><strong><a href="replicatypeenum-enumeration-dao.md">Константа ReplicaTypeEnum,</a></strong> которая указывает характеристики создаемой реплики.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Все свойства **[ReplicaFilter](tabledef-replicafilter-property-dao.md)** новой частичной реплики будут иметь значение **False,** то есть в таблицах не будет данных.
+В недавно созданной частичной реплике будут задавлены все свойства **[ReplicaFilter](tabledef-replicafilter-property-dao.md)** **False,** что означает, что в таблицах данных не будет.
 
 ## <a name="example"></a>Пример
 
-Эта функция использует метод **MakeReplica** для создания дополнительной реплики существующего мастера разработки. Аргумент intOptions может быть комбинацией констант **dbRepMakeReadOnly** и **dbRepMakePartial** или может быть 0. Например, чтобы создать частичную реплику только для чтения, необходимо передать значение **dbRepMakeReadOnly**  +  **dbRepMakePartial** в качестве значения intOptions.
+Эта функция использует **метод MakeReplica** для создания дополнительной реплики существующего мастера дизайна. Аргумент intOptions может быть комбинацией констант **dbRepMakeReadOnly** и **dbRepMakePartial** или может быть 0. Например, чтобы создать частичную реплику только для чтения, необходимо передать значение **dbRepMakeReadOnly**  +  **dbRepMakePartial** как значение intOptions.
 
 ```vb 
 Function MakeAdditionalReplica(strReplicableDB As _ 

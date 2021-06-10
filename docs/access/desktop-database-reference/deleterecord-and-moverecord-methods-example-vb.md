@@ -19,7 +19,7 @@ ms.locfileid: "32294024"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано, как копировать, перемещать, изменять и удалять содержимое текстового файла, опубликованного в веб-папке. Другие используемые свойства и методы [включают GetChildren,](getchildren-method-ado.md) [ParentURL,](parenturl-property-ado.md) [Source](source-property-ado-record.md)и [Flush.](flush-method-ado.md)
+В этом примере показано, как копировать, перемещать, редактировать и удалять содержимое текстового файла, опубликованного в веб-папке. Другие свойства и методы, используемые включают [GetChildren,](getchildren-method-ado.md) [ParentURL,](parenturl-property-ado.md) [Source](source-property-ado-record.md)и [Flush](flush-method-ado.md).
 
 ```vb 
  

@@ -18,7 +18,7 @@ ms.locfileid: "32295298"
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Свойство Description](description-property-ado-md.md)
 - [Коллекция Dimensions](dimensions-collection-ado-md.md)

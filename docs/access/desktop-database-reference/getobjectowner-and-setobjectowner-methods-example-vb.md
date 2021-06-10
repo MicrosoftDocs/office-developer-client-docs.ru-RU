@@ -19,7 +19,7 @@ ms.locfileid: "32292302"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируются методы [GetObjectOwner](getobjectowner-method-adox.md) и [SetObjectOwner.](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) В этом коде предполагается, что существует группа Accounting (см. пример с методами Groups [и Users Append и ChangePassword (VB),](groups-and-users-append-changepassword-methods-example-vb.md) чтобы узнать, как добавить эту группу в систему. Для владельца таблицы "Категории" установлено "Бухгалтерия".
+В этом примере демонстрируются методы [GetObjectOwner](getobjectowner-method-adox.md) и [SetObjectOwner.](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) Этот код предполагает существование учетной группы (см. приложение "Группы и пользователи", пример методов [ChangePassword (VB),](groups-and-users-append-changepassword-methods-example-vb.md) чтобы узнать, как добавить эту группу в систему). Владелец таблицы Категорий заданной учетной таблицей.
 
 ```vb 
  

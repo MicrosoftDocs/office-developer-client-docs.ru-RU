@@ -1,5 +1,5 @@
 ---
-title: Parameter properties, methods, and events (ADO)
+title: Свойства параметров, методы и события (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 3689904e-be91-ce15-1784-72f862033828
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249125(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288058"
 ---
-# <a name="parameter-properties-methods-and-events-ado"></a>Parameter properties, methods, and events (ADO)
+# <a name="parameter-properties-methods-and-events-ado"></a>Свойства параметров, методы и события (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Свойство Attributes](attributes-property-ado.md)
 - [Свойство Direction](direction-property-ado.md)
@@ -31,7 +31,7 @@ ms.locfileid: "32288058"
 - [Свойство Value](value-property-ado.md)
 
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 - [Метод AppendChunk](appendchunk-method-ado.md)
 

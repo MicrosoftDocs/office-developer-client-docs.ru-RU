@@ -1,5 +1,5 @@
 ---
-title: Enumeration LanguageConstants (DAO)
+title: Переумерия LanguageConstants (DAO)
 TOCTitle: LanguageConstants Enumeration
 ms:assetid: a39c2628-0b87-2e7e-93fc-a56c5f4956bf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821047(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290259"
 ---
-# <a name="languageconstants-enumeration-dao"></a>Enumeration LanguageConstants (DAO)
+# <a name="languageconstants-enumeration-dao"></a>Переумерия LanguageConstants (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает порядок совмества для создания базы данных.
+Указывает порядок collating для создания базы данных.
 
 <table>
 <colgroup>
@@ -103,7 +103,7 @@ ms.locfileid: "32290259"
 <tr class="even">
 <td><p>dbLangNordic</p></td>
 <td><p>&quot;; LANGID=0x041D; CP=1252; COUNTRY=0&quot;</p></td>
-<td><p>Вайс</p></td>
+<td><p>Nordic</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbLangNorwDan</p></td>

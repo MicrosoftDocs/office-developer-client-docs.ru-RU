@@ -19,7 +19,7 @@ ms.locfileid: "32292274"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируются методы [GetPermissions](getpermissions-method-adox.md) и [SetPermissions.](setpermissions-method-adox.md) Следующий код предоставляет пользователю-администратору полный доступ к таблице "Заказы".
+В этом примере демонстрируются методы [GetPermissions](getpermissions-method-adox.md) и [SetPermissions.](setpermissions-method-adox.md) Следующий код предоставляет полный доступ для таблицы "Заказы" пользователю Admin.
 
 ```vb 
  

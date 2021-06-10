@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события группы (ADOX)
+title: Свойства группы, методы и события (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: c1597b02-a9db-662e-3842-3444c63406cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249939(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292106"
 ---
-# <a name="group-properties-methods-and-events-adox"></a>Свойства, методы и события группы (ADOX)
+# <a name="group-properties-methods-and-events-adox"></a>Свойства группы, методы и события (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Свойство Name](name-property-adox.md)
 - [Коллекция Properties](properties-collection-ado.md)
 - [Коллекция Users](users-collection-adox.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 - [Метод GetPermissions](getpermissions-method-adox.md)
 - [Метод SetPermissions](setpermissions-method-adox.md)

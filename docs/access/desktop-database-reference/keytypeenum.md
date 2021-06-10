@@ -1,5 +1,5 @@
 ---
-title: KeyTypeEnum (справочник по базе данных Access для настольных ПК)
+title: KeyTypeEnum (Ссылка на настольные базы данных)
 TOCTitle: KeyTypeEnum
 ms:assetid: 333fe365-ff74-9a12-63a7-f3e3f5eff7f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249103(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32290245"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает тип key: [primary,](key-object-adox.md)foreign или unique.
+Указывает тип [ключа:](key-object-adox.md)основной, иностранный или уникальный.
 
 <br/>
 
@@ -38,17 +38,17 @@ ms.locfileid: "32290245"
 <tbody>
 <tr class="odd">
 <td><p><strong>adKeyPrimary</strong></p></td>
-<td><p>1 </p></td>
-<td><p>Значение, используемое по умолчанию. Ключ — это первичный ключ.</p></td>
+<td><p>1</p></td>
+<td><p>Значение, используемое по умолчанию. Ключ — это основной ключ.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adKeyForeign</strong></p></td>
-<td><p>2 </p></td>
-<td><p>Ключ — это внешняя клавиша.</p></td>
+<td><p>2</p></td>
+<td><p>Ключ — это иностранный ключ.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adKeyUnique</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Ключ уникален.</p></td>
 </tr>
 </tbody>

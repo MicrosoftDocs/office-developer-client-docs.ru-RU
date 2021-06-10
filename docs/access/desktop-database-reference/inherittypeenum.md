@@ -1,5 +1,5 @@
 ---
-title: InheritTypeEnum (справочник по базе данных Access для настольных ПК)
+title: InheritTypeEnum (Ссылка на настольные базы данных)
 TOCTitle: InheritTypeEnum
 ms:assetid: aa505c66-5871-10a8-35a7-cb30bb5dc21a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249787(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32291416"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, как объекты наследуют разрешения, заданные с [помощью SetPermissions.](setpermissions-method-adox.md)
+Указывает, как объекты будут наследовать разрешения, заданные [с помощью SetPermissions.](setpermissions-method-adox.md)
 
 <br/>
 
@@ -38,12 +38,12 @@ ms.locfileid: "32291416"
 <tbody>
 <tr class="odd">
 <td><p><strong>adInheritBoth</strong></p></td>
-<td><p>3 </p></td>
-<td><p>Объекты и другие контейнеры, содержащиеся в основном объекте, наследуют запись.</p></td>
+<td><p>3</p></td>
+<td><p>И объекты, и другие контейнеры, содержащиеся в основном объекте, наследуют запись.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adInheritContainers</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Другие контейнеры, содержащиеся в основном объекте, наследуют запись.</p></td>
 </tr>
 <tr class="odd">
@@ -54,11 +54,11 @@ ms.locfileid: "32291416"
 <tr class="even">
 <td><p><strong>adInheritNoPropagate</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Флаги <strong>adInheritObjects</strong> и <strong>adInheritContainers</strong> не распространяются на унаследованные записи.</p></td>
+<td><p>Флаги <strong>adInheritObjects</strong> и <strong>adInheritContainers</strong> не распространяются на наследуемую запись.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adInheritObjects</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Не контейнерные объекты в контейнере наследуют разрешения.</p></td>
 </tr>
 </tbody>

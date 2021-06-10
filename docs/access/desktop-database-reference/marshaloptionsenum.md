@@ -1,5 +1,5 @@
 ---
-title: MarshalOptionsEnum (справочник по базам данных Access для настольных ПК)
+title: MarshalOptionsEnum (ссылка на базу данных для настольных компьютеров)
 TOCTitle: MarshalOptionsEnum
 ms:assetid: 5361884b-a0fe-c480-1b9f-18e53be77f86
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249272(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32289730"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, какие записи должны быть возвращены на сервер.
+Указывает, какие записи следует возвращать на сервер.
 
 <br/>
 
@@ -43,7 +43,7 @@ ms.locfileid: "32289730"
 </tr>
 <tr class="even">
 <td><p><strong>adMarshalModifiedOnly</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Возвращает на сервер только измененные строки.</p></td>
 </tr>
 </tbody>

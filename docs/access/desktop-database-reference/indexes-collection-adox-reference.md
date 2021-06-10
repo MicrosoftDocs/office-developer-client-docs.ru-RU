@@ -1,5 +1,5 @@
 ---
-title: Справочник по коллекции Indexes (ADOX)
+title: Ссылка на коллекцию индексов (ADOX)
 TOCTitle: Indexes collection (ADOX)
 ms:assetid: 2eaf8405-7907-4fa4-92bc-ed7b0c829b42
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249075(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291575"
 ---
-# <a name="indexes-collection-adox-reference"></a>Справочник по коллекции Indexes (ADOX)
+# <a name="indexes-collection-adox-reference"></a>Ссылка на коллекцию индексов (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Коллекция Indexes (ADOX)](indexes-collection-adox.md)
-- [Indexes collection properties, methods, and events (ADOX)](indexes-collection-properties-methods-and-events-adox.md)
+- [Коллекция индексов (ADOX)](indexes-collection-adox.md)
+- [Индексирует свойства, методы и события коллекции (ADOX)](indexes-collection-properties-methods-and-events-adox.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Indexes members (DAO)
+title: Участники индексов (DAO)
 TOCTitle: Indexes Members
 ms:assetid: 7b145a20-5cc9-57c3-7c6f-89cebdab7ea2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196191(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291540"
 ---
-# <a name="indexes-members-dao"></a>Indexes members (DAO)
+# <a name="indexes-members-dao"></a>Участники индексов (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Коллекция Indexes содержит все хранимые объекты Индекса объекта TableDef (только для рабочей области Microsoft Access).
+Коллекция Indexes содержит все сохраненные объекты Index объекта TableDef (только в рабочей области Microsoft Access).
 
 ## <a name="methods"></a>Методы
 
@@ -36,7 +36,7 @@ ms.locfileid: "32291540"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="indexes-append-method-dao.md">Append</a></strong></p></td>
+<td><p><strong><a href="indexes-append-method-dao.md">Приложение</a></strong></p></td>
 <td><p>Добавляет новый <strong>индекс</strong> в коллекцию <strong>Indexes.</strong></p></td>
 </tr>
 <tr class="even">
@@ -45,7 +45,7 @@ ms.locfileid: "32291540"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="indexes-refresh-method-dao.md">Refresh</a></strong></p></td>
-<td><p>Обновляет объекты в указанном уровне, чтобы отразить текущую схему базы данных.</p></td>
+<td><p>Обновляет объекты указанного коллегии, чтобы отразить текущую схему базы данных.</p></td>
 </tr>
 </tbody>
 </table>

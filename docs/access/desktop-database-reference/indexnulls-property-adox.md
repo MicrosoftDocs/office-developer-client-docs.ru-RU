@@ -19,13 +19,13 @@ ms.locfileid: "32291478"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, имеют ли записи, которые имеют значения null в своих полях индекса.
+Указывает, имеют ли записи индексов записи с значениями null в своих полях индексов.
 
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+## <a name="settings-and-return-values"></a>Параметры и значения возврата
 
-Задает и возвращает значение [AllowNullsEnum.](allownullsenum.md) Значение по умолчанию **— adIndexNullsDisallow.**
+Задает и возвращает значение [AllowNullsEnum.](allownullsenum.md) По умолчанию значение **adIndexNullsDisallow**.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Это свойство доступно только для чтения в [объектах Index,](index-object-adox.md) которые уже были appended в коллекцию.
+Это свойство доступно только для чтения в [объектах Index,](index-object-adox.md) которые уже примеся к коллекции.
 

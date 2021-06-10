@@ -1,5 +1,5 @@
 ---
-title: Объект Group (ADOX)
+title: Объект group (ADOX)
 TOCTitle: Group object (ADOX)
 ms:assetid: 91cf1b87-c928-1d89-2731-138f6299cc60
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249642(v=office.15)
@@ -14,24 +14,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292120"
 ---
-# <a name="group-object-adox"></a>Объект Group (ADOX)
+# <a name="group-object-adox"></a>Объект group (ADOX)
 
 
 **Область применения**: Access 2013, Office 2013
 
 Представляет учетную запись группы, которая имеет разрешения на доступ в защищенной базе данных.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Коллекция [Groups](groups-collection-adox.md) [каталога представляет](catalog-object-adox.md) все учетные записи группы каталога. Коллекция **Groups** для [пользователя представляет](user-object-adox.md) только группу, к которой принадлежит пользователь.
+Коллекция [Групп](groups-collection-adox.md) [каталога](catalog-object-adox.md) представляет все учетные записи группы каталога. Коллекция **Groups** для [пользователя представляет](user-object-adox.md) только группу, к которой принадлежит пользователь.
 
 С помощью свойств, коллекций и методов объекта **Group** можно:
 
-  - Определите группу с помощью [свойства Name.](name-property-adox.md)
+  - Определите группу с [свойством Name.](name-property-adox.md)
 
-  - Определите, имеет ли группа разрешения на чтение, запись или удаление с помощью методов [GetPermissions](getpermissions-method-adox.md) и [SetPermissions.](setpermissions-method-adox.md)
+  - Определите, читала ли группа разрешения, писала или удаляла их с помощью методов [GetPermissions](getpermissions-method-adox.md) и [SetPermissions.](setpermissions-method-adox.md)
 
-  - Доступ к учетным записям пользователей, которые имеют членство в группе, в коллекции [Users.](users-collection-adox.md)
+  - Доступ к учетным записям пользователей, которые имеют членство в группе с [коллекцией Пользователей.](users-collection-adox.md)
 
-  - Доступ к свойствам поставщика с помощью коллекции [Properties.](properties-collection-ado.md)
+  - Доступ к свойствам, определенным поставщикам, с [коллекцией свойств.](properties-collection-ado.md)
 

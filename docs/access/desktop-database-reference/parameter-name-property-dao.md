@@ -1,5 +1,5 @@
 ---
-title: Parameter.Name DAO
+title: Parameter.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: 5ad1d2be-de1a-81e8-9d97-959f4cc577ba
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194497(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288100"
 ---
-# <a name="parametername-property-dao"></a>Parameter.Name DAO
+# <a name="parametername-property-dao"></a>Parameter.Name (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32288100"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* Имя
+*выражения* . Имя
 
-*выражение* Переменная, представляюная объект **Parameter.**
+*выражение* Переменная, представляюная **объект Параметр.**
 

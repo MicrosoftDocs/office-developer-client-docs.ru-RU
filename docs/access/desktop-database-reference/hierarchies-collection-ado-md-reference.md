@@ -1,5 +1,5 @@
 ---
-title: Hierarchies collection (ADO MD reference)
+title: Коллекция иерархий (ссылка на ADO MD)
 TOCTitle: Hierarchies collection (ADO MD)
 ms:assetid: d073a1ca-0f5a-48e0-84da-6a3c62c8cda9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250040(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291987"
 ---
-# <a name="hierarchies-collection-ado-md-reference"></a>Hierarchies collection (ADO MD reference)
+# <a name="hierarchies-collection-ado-md-reference"></a>Коллекция иерархий (ссылка на ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Hierarchies collection (ADO MD)](hierarchies-collection-ado-md.md)
-- [Hierarchies collection properties, methods, and events (ADO MD)](hierarchies-collection-properties-methods-and-events-ado-md.md)
+- [Коллекция иерархий (ADO MD)](hierarchies-collection-ado-md.md)
+- [Свойства коллекций иерархий, методы и события (ADO MD)](hierarchies-collection-properties-methods-and-events-ado-md.md)
 

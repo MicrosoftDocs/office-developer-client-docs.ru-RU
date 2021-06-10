@@ -1,5 +1,5 @@
 ---
-title: Коллекция Members (справочник по ADO MD)
+title: Коллекция участников (ссылка на ADO MD)
 TOCTitle: Members collection (ADO MD)
 ms:assetid: 7365afa6-2b59-404c-a6f7-ca2104303d3a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249470(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289390"
 ---
-# <a name="members-collection-ado-md-reference"></a>Коллекция Members (справочник по ADO MD)
+# <a name="members-collection-ado-md-reference"></a>Коллекция участников (ссылка на ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Коллекция Members (ADO MD)](members-collection-ado-md.md)
-- [Members collection properties, methods, and events (ADO MD)](members-collection-properties-methods-and-events-ado-md.md)
+- [Коллекция членов (ADO MD)](members-collection-ado-md.md)
+- [Свойства, методы и события коллекции членов (ADO MD)](members-collection-properties-methods-and-events-ado-md.md)
 

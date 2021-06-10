@@ -22,11 +22,11 @@ ms.locfileid: "32294199"
 
 **Область применения**: Access 2013, Office 2013
 
-Временно переопределяет значения ключей ядер ядер баз данных Microsoft Access в реестре Windows (только для рабочей области Microsoft Access).
+Временно переопределяет значения для ключей двигателя базы данных Microsoft Access в реестре Windows (только в рабочей области Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* SetOption(***Option***, ***Value***)
+*выражения* . SetOption ***(Параметр***, ***Значение***)
 
 *выражение*: выражение, возвращающее объект **DBEngine**.
 
@@ -52,21 +52,21 @@ ms.locfileid: "32294199"
 <td><p><em>Option</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>Константа, как описано в примечах.</p></td>
+<td><p>Константа, как описано в Примечание.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Value</em></p></td>
-<td><p>Обязательно</p></td>
+<td><p>Обязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Значение, которое вы хотите установить.</p></td>
+<td><p>Значение, которое необходимо установить.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Каждая константа ссылается на соответствующий раздел реестра в пути HKEY \_ LOCAL MACHINE SOFTWARE Microsoft Office \_ \\ \\ \\ \\ 12.0 \\ Access Connectivity \\ Engines \\ ACE (то есть **dbSharedAsyncDelay** соответствует ключу HKEY \_ LOCAL MACHINE SOFTWARE Microsoft Office \_ \\ \\ \\ \\ 12.0 \\ Access Connectivity \\ Engines \\ ACE \\ SharedAsyncDelay и т. д.).
+Каждая константа ссылается на соответствующий ключ реестра в пути HKEY LOCAL MACHINE \_ \_ SOFTWARE Microsoft Office \\ \\ \\ \\ 12.0 \\ Access Connectivity Engine \\ Engines \\ ACE (то есть **dbSharedAsyncDelay** соответствует ключевому программному обеспечению локальной машины HKEY Microsoft Office 12.0 Двигатели подключения доступа \_ \_ \\ \\ \\ \\ \\ \\ \\ ACE \\ SharedAsyncDelay и т. д.).
 
 <table>
 <colgroup>
@@ -82,7 +82,7 @@ ms.locfileid: "32294199"
 <tbody>
 <tr class="odd">
 <td><p><strong>dbPageTimeout</strong></p></td>
-<td><p>Ключ PageTimeout</p></td>
+<td><p>Клавиша PageTimeout</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbSharedAsyncDelay</strong></p></td>
@@ -102,7 +102,7 @@ ms.locfileid: "32294199"
 </tr>
 <tr class="even">
 <td><p><strong>dbImplicitCommitSync</strong></p></td>
-<td><p>Ключ ImplicitCommitSync</p></td>
+<td><p>Клавиша ImplicitCommitSync</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbMaxBufferSize</strong></p></td>
@@ -122,11 +122,11 @@ ms.locfileid: "32294199"
 </tr>
 <tr class="odd">
 <td><p><strong>dbFlushTransactionTimeout</strong></p></td>
-<td><p>Ключ FlushTransactionTimeout</p></td>
+<td><p>Клавиша FlushTransactionTimeout</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Используйте метод **SetOption** для переопределения значений реестра во время работы. Новые значения, установленные с помощью метода **SetOption,** остаются в силе до тех пор, пока не будут изменены другим вызовом **SetOption** или пока объект **DBEngine** не будет закрыт.
+Используйте метод **SetOption** для переопределения значений реестра во время работы. Новые значения, установленные с помощью метода **SetOption,** остаются в силе до тех пор, пока не будут изменены другим вызовом **SetOption** или до закрытия объекта **DBEngine.**
 

@@ -1,5 +1,5 @@
 ---
-title: Методы Index (DAO)
+title: Методы индексации (DAO)
 TOCTitle: Methods
 ms:assetid: 740d56e1-e789-41f0-b2dd-a39b81b68907
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161014(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291791"
 ---
-# <a name="index-methods-dao"></a>Методы Index (DAO)
+# <a name="index-methods-dao"></a>Методы индексации (DAO)
 
 **Область применения**: Access 2013, Office 2013
 

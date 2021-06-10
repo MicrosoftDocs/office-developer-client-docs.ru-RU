@@ -1,5 +1,5 @@
 ---
-title: ObjectStateEnum (справочник по базам данных Access для настольных ПК)
+title: ObjectStateEnum (Ссылка на настольные базы данных)
 TOCTitle: ObjectStateEnum
 ms:assetid: 129d589a-2955-3da9-e60a-7fbfdd6bfbdc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248900(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32288527"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, является ли объект открытым или закрытым, подключается к источнику данных, выполняет команду или искомые данные.
+Указывает, открыт ли объект или закрыт, подключение к источнику данных, выполнение команды или сбор данных.
 
 <br/>
 
@@ -43,12 +43,12 @@ ms.locfileid: "32288527"
 </tr>
 <tr class="even">
 <td><p><strong>adStateOpen</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Указывает, что объект открыт.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adStateConnecting</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Указывает, что объект подключается.</p></td>
 </tr>
 <tr class="even">
@@ -59,7 +59,7 @@ ms.locfileid: "32288527"
 <tr class="odd">
 <td><p><strong>adStateFetching</strong></p></td>
 <td><p>8 </p></td>
-<td><p>Указывает, что извлекаются строки объекта.</p></td>
+<td><p>Указывает, что строки объекта извлекаются.</p></td>
 </tr>
 </tbody>
 </table>

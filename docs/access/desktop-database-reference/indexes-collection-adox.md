@@ -1,5 +1,5 @@
 ---
-title: Коллекция Indexes (ADOX)
+title: Коллекция индексов (ADOX)
 TOCTitle: Indexes collection (ADOX)
 ms:assetid: ab04bdd1-7c4a-44cb-dfc6-add3a52f502f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249793(v=office.15)
@@ -14,26 +14,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291582"
 ---
-# <a name="indexes-collection-adox"></a>Коллекция Indexes (ADOX)
+# <a name="indexes-collection-adox"></a>Коллекция индексов (ADOX)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Содержит все [объекты index](index-object-adox.md) таблицы.
+Содержит все [объекты Index](index-object-adox.md) таблицы.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Метод [Append](append-method-adox-indexes.md) для коллекции **Indexes** уникален для ADOX. Вы можете выполнить указанные ниже действия.
+Метод [Приложения](append-method-adox-indexes.md) для коллекции **Indexes** уникален для ADOX. Вы получаете перечисленные ниже возможности.
 
-  - Добавьте новый индекс в коллекцию с помощью **метода Append.**
+  - Добавьте новый индекс в коллекцию с помощью метода **Приложения.**
 
-Остальные свойства и методы являются стандартными для коллекций ADO. Вы можете выполнить указанные ниже действия.
+Остальные свойства и методы являются стандартными для коллекций ADO. Вы получаете перечисленные ниже возможности.
 
-  - Доступ к индексу в коллекции с помощью [свойства Item.](item-property-ado.md)
+  - Доступ к индексу в коллекции с [свойством Item.](item-property-ado.md)
 
-  - Возвращает количество индексов, содержащихся в коллекции, со свойством [Count.](count-property-ado.md)
+  - Возвращайте количество индексов, содержащихся в коллекции, с [свойством Count.](count-property-ado.md)
 
-  - Удалите индекс из коллекции с помощью метода [Delete.](delete-method-adox-collections.md)
+  - Удалите индекс из коллекции методом [Delete.](delete-method-adox-collections.md)
 
-  - Обновите объекты в коллекции, чтобы отразить схему текущей базы данных с помощью метода [Refresh.](refresh-method-ado.md)
+  - Обновите объекты в коллекции, чтобы отразить схему текущей базы данных с помощью [метода Обновления.](refresh-method-ado.md)
 

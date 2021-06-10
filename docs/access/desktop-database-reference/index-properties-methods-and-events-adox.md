@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события индекса (ADOX)
+title: Свойства индекса, методы и события (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 392ac7eb-a7ab-d016-ed7b-4054c6f9dacc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249139(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291715"
 ---
-# <a name="index-properties-methods-and-events-adox"></a>Свойства, методы и события индекса (ADOX)
+# <a name="index-properties-methods-and-events-adox"></a>Свойства индекса, методы и события (ADOX)
 
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Свойство Clustered](clustered-property-adox.md)
 - [Коллекция Columns](columns-collection-adox.md)
@@ -30,7 +30,7 @@ ms.locfileid: "32291715"
 - [Свойство Unique](unique-property-adox.md)
 
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 Нет.
 

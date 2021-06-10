@@ -1,5 +1,5 @@
 ---
-title: Level properties, methods, and events (ADO MD)
+title: Свойства уровня, методы и события (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 68fd04d9-f0e7-4425-7388-802337a6c1da
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249413(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290015"
 ---
-# <a name="level-properties-methods-and-events-ado-md"></a>Level properties, methods, and events (ADO MD)
+# <a name="level-properties-methods-and-events-ado-md"></a>Свойства уровня, методы и события (ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Свойство Caption](caption-property-ado-md.md)
 - [Свойство Depth](depth-property-ado-md.md)
@@ -28,7 +28,7 @@ ms.locfileid: "32290015"
 - [Коллекция Properties](properties-collection-ado.md)
 - [Свойство UniqueName](uniquename-property-ado-md.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 Нет.
 

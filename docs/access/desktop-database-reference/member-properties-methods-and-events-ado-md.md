@@ -1,5 +1,5 @@
 ---
-title: Member properties, methods, and events (ADO MD)
+title: Свойства, методы и события (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 67d28214-2805-010b-eb10-4995fb69506c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249404(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289451"
 ---
-# <a name="member-properties-methods-and-events-ado-md"></a>Member properties, methods, and events (ADO MD)
+# <a name="member-properties-methods-and-events-ado-md"></a>Свойства, методы и события (ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Свойство Caption](caption-property-ado-md.md)
 - [Свойство ChildCount](childcount-property-ado-md.md)
@@ -35,7 +35,7 @@ ms.locfileid: "32289451"
 - [Свойство UniqueName](uniquename-property-ado-md.md)
 
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 Нет.
 

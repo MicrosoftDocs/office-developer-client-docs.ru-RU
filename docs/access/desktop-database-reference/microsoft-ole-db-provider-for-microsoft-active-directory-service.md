@@ -18,18 +18,18 @@ ms.locfileid: "32288941"
 
 **Область применения**: Access 2013, Office 2013
 
-Поставщик интерфейсов службы Microsoft Active Directory (ADSI) позволяет ADO подключаться к разнородным службам каталогов через ADSI. Это предоставляет приложениям ADO доступ только для чтения к службам каталогов Microsoft Windows NT 4.0 и Microsoft Windows 2000 в дополнение к любой службе каталогов, совместимой с LDAP, и службам Novell Directory Services. Сам ADSI основан на модели поставщика, поэтому если новый поставщик дает доступ к другому каталогу, приложение ADO сможет легко получить к нему доступ. Поставщик ADSI имеет свободный поток и юникод включен.
+Поставщик служб Microsoft Active Directory Service Interfaces (ADSI) позволяет ADO подключаться к неоднородным службам каталогов с помощью ADSI. Это предоставляет приложениям ADO доступ только для чтения к службам каталогов Microsoft Windows NT 4.0 и Microsoft Windows 2000, а также к любым службам каталогов, совместимым с LDAP и Novell Directory Services. Сам ADSI основан на модели поставщика, поэтому если новый поставщик дает доступ к другому каталогу, приложение ADO сможет получить к нему доступ без проблем. Поставщик ADSI является бесплатным и включен юникодом.
 
 ## <a name="connection-string-parameters"></a>Параметры строки подключения
 
-Чтобы подключиться к этому поставщику, установите для аргумента **Provider** свойства [ConnectionString:](connectionstring-property-ado.md)
+Чтобы подключиться к этому поставщику, установите **аргумент поставщика** свойства [ConnectionString:](connectionstring-property-ado.md)
 
 ```vb 
  
 ADSDSOObject 
 ```
 
-При [чтении свойства Provider](provider-property-ado.md) также будет возвращена эта строка.
+Чтение свойства [Provider](provider-property-ado.md) также вернет эту строку.
 
 ## <a name="typical-connection-string"></a>Типичная строка подключения
 
@@ -40,7 +40,7 @@ ADSDSOObject
 "Provider=ADSDSOObject;User ID=userName;Password=userPassword;" 
 ```
 
-Строка состоит из таких ключевых слов:
+Строка состоит из этих ключевых слов:
 
 <table>
 <colgroup>
@@ -50,7 +50,7 @@ ADSDSOObject
 <thead>
 <tr class="header">
 <th><p>Ключевое слово</p></th>
-<th><p>Описание</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
@@ -70,9 +70,9 @@ ADSDSOObject
 </table>
 
 
-**Текст команды**
+**Командный текст**
 
-Поставщик распознает текстовую строку команды из четырех команд в следующем синтаксис:
+Текстовая строка из четырех команд распознается поставщиком в следующем синтаксисе:
 
 `"Root; Filter; Attributes[; Scope]"`
 
@@ -90,34 +90,34 @@ ADSDSOObject
 <tbody>
 <tr class="odd">
 <td><p><em>Root</em></p></td>
-<td><p>Указывает объект <strong>ADsPath,</strong> из которого следует запустить поиск (то есть корневой объект поиска).</p></td>
+<td><p>Указывает объект <strong>ADsPath,</strong> с которого следует начать поиск (то есть корень поиска).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Фильтр</em></p></td>
+<td><p><em>Filter</em></p></td>
 <td><p>Указывает фильтр поиска в формате RFC 1960.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Атрибуты</em></p></td>
-<td><p>Указывает список возвращаемого атрибута с запятой.</p></td>
+<td><p><em>Attributes</em></p></td>
+<td><p>Указывает список атрибутов, возвращаемого с запятой.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Scope</em></p></td>
-<td><p>Необязательный параметр. <strong>Строка,</strong> которая определяет область поиска. Может иметь одно из следующих результатов: Base — поиск только базового объекта (корневой объект поиска).<br />
+<td><p>Необязательный параметр. <strong>Строка,</strong> которая указывает область поиска. Может быть одним из следующих: Base — поиск только базового объекта (корень поиска).<br />
 OneLevel — поиск только одного уровня.<br />
-Подtree — поиск по всему подtree.</p></td>
+Subtree — поиск всего подтрия.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Например:
+Пример.
 
 ```vb 
  
 "<LDAP://DC=ArcadiaBay,DC=COM>;(objectClass=*);sn, givenName; subtree" 
 ```
 
-Поставщик также поддерживает SQL select для текста команды. Например:
+Поставщик также поддерживает SQL SELECT для командного текста. Пример.
 
 ```vb 
  
@@ -125,15 +125,15 @@ OneLevel — поиск только одного уровня.<br />
 objectClass='user' AND objectCategory='Person'" 
 ```
 
-Поставщик не принимает хранимые вызовы процедур или простые имена таблиц (например, свойство [CommandType](commandtype-property-ado.md) всегда будет **adCmdText).** Более полное описание текстовых элементов команд см. в документации по интерфейсам службы Active Directory.
+Поставщик не принимает сохраненные вызовы процедур или простые имена таблиц (например, свойство [CommandType](commandtype-property-ado.md) всегда **будет adCmdText).** Дополнительные описания текстовых элементов команд см. в документации по интерфейсам службы Active Directory.
 
 ## <a name="recordset-behavior"></a>Поведение наборов записей
 
-В следующих таблицах списка функций, доступных для объекта [Recordset,](recordset-object-ado.md) открытого с помощью этого поставщика. Доступен только тип статического курсора **(adOpenStatic).**
+В следующих таблицах перечислить функции, доступные на [объекте Recordset,](recordset-object-ado.md) открытом с помощью этого поставщика. Доступен только тип статического курсора **(adOpenStatic).**
 
-Для получения более подробных сведений о поведении **объекта Recordset** для конфигурации поставщика запустите метод [Supports](supports-method-ado.md) и нумеруйте коллекцию [свойств](properties-collection-ado.md) объекта **Recordset,** чтобы определить, присутствуют ли динамические свойства для конкретного поставщика.
+Дополнительные сведения о поведении **Recordset** для конфигурации поставщика запустите метод [Supports](supports-method-ado.md) и введите коллекцию [Свойств](properties-collection-ado.md) в **наборе Recordset,** чтобы определить, присутствуют ли динамические свойства конкретного поставщика.
 
-Доступность стандартных свойств объекта **ADO Recordset:**
+Доступность стандартных свойств ADO **Recordset:**
 
 <table>
 <colgroup>
@@ -173,22 +173,22 @@ objectClass='user' AND objectCategory='Person'"
 </tr>
 <tr class="odd">
 <td><p><a href="cursorlocation-property-ado.md">CursorLocation</a></p></td>
-<td><p>always <strong>adUseServer</strong></p></td>
+<td><p>всегда <strong>adUseServer</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="cursortype-property-ado.md">CursorType</a></p></td>
-<td><p>always <strong>adOpenStatic</strong></p></td>
+<td><p>всегда <strong>adOpenStatic</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="editmode-property-ado.md">EditMode</a></p></td>
-<td><p>always <strong>adEditNone</strong></p></td>
+<td><p>всегда <strong>adEditNone</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="bof-eof-properties-ado.md">EOF</a></p></td>
 <td><p>read-only</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Фильтр</a></p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
 <td><p>чтение и написание</p></td>
 </tr>
 <tr class="even">
@@ -220,7 +220,7 @@ objectClass='user' AND objectCategory='Person'"
 <td><p>чтение и написание</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="state-property-ado.md">State</a></p></td>
+<td><p><a href="state-property-ado.md">Состояние</a></p></td>
 <td><p>read-only</p></td>
 </tr>
 <tr class="even">
@@ -240,7 +240,7 @@ objectClass='user' AND objectCategory='Person'"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Method</p></th>
+<th><p>Метод</p></th>
 <th><p>Доступно?</p></th>
 </tr>
 </thead>
@@ -270,7 +270,7 @@ objectClass='user' AND objectCategory='Person'"
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">удаление</a>;</p></td>
+<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
 <td><p>Нет</p></td>
 </tr>
 <tr class="even">
@@ -318,7 +318,7 @@ objectClass='user' AND objectCategory='Person'"
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">обновление</a>.</p></td>
+<td><p><a href="update-method-ado.md">Обновление</a></p></td>
 <td><p>Нет</p></td>
 </tr>
 <tr class="even">

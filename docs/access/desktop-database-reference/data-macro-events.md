@@ -1,5 +1,5 @@
 ---
-title: События макроса данных (справочник по базе данных Access для настольных ПК)
+title: События макрос данных (ссылка на настольные базы данных)
 TOCTitle: Data macro events
 ms:assetid: 4b36bcff-f733-442f-9098-cc5e4ee69ca3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124692(v=office.15)

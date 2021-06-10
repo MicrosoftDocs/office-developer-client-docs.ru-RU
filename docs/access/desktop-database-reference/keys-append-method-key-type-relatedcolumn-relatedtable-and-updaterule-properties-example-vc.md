@@ -1,5 +1,5 @@
 ---
-title: Пример работы метода Keys Append, свойства Key Type и RelatedColumn (VC++)
+title: Пример свойств Keys Append, Key Type, RelatedColumn (VC++)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)
 ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290640"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a>Пример с свойствами Keys Append, Key Type, RelatedColumn, RelatedTable и UpdateRule (VC++)
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a>Пример свойств Keys Append, Key Type, RelatedColumn, RelatedTable и UpdateRule (VC++)
 
 
 **Область применения**: Access 2013, Office 2013
 
-В следующем коде показано, как создать новый внешнего ключа. Предполагается, что существует две таблицы (клиенты и заказы).
+В следующем коде показано, как создать новый иностранный ключ. Предполагается, что существуют две таблицы (Клиенты и Заказы).
 
 ```cpp 
  

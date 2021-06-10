@@ -20,7 +20,7 @@ ms.locfileid: "32294501"
 
 ## <a name="properties"></a>Свойства
 
-- [Свойство Connect (RDS)](connect-property-rds.md)
+- [Подключение (RDS)](connect-property-rds.md)
 - [Свойство ExecuteOptions (RDS)](executeoptions-property-rds.md)
 - [Свойство FetchOptions (RDS)](fetchoptions-property-rds.md)
 - [Свойство FilterColumn (RDS)](filtercolumn-property-rds.md)
@@ -30,21 +30,21 @@ ms.locfileid: "32294501"
 - [Свойство InternetTimeout (RDS)](internettimeout-property-rds.md)
 - [Свойство ReadyState (RDS)](readystate-property-rds.md)
 - [Recordset, SourceRecordset Properties (RDS)](recordset-sourcerecordset-properties-rds.md)
-- [Свойство сервера (RDS)](server-property-rds.md)
+- [Свойство Server (RDS)](server-property-rds.md)
 - [Свойство SortColumn (RDS)](sortcolumn-property-rds.md)
 - [Свойство SortDirection (RDS)](sortdirection-property-rds.md)
 - [SQL (RDS)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado)
-- [Свойство URL (RDS)](url-property-rds.md)
+- [Свойство URL(RDS)](url-property-rds.md)
 
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
-- [Метод Cancel (RDS)](cancel-method-rds.md)
+- [Отмена метода (RDS)](cancel-method-rds.md)
 - [Метод CancelUpdate (RDS)](cancelupdate-method-rds.md)
 - [Метод CreateRecordset (RDS)](createrecordset-method-rds.md)
 - [Методы MoveFirst, MoveLast, MoveNext и MovePrevious (RDS)](movefirst-movelast-movenext-and-moveprevious-methods-rds.md)
-- [Метод Refresh (RDS)](refresh-method-rds.md)
-- [Метод Reset (RDS)](reset-method-rds.md)
+- [Метод обновления (RDS)](refresh-method-rds.md)
+- [Метод сброса (RDS)](reset-method-rds.md)
 - [Метод SubmitChanges (RDS)](submitchanges-method-rds.md)
 
 

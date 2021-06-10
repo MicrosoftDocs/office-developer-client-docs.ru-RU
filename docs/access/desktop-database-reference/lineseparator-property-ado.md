@@ -19,15 +19,15 @@ ms.locfileid: "32289951"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает двоичный символ, который будет использоваться в качестве различиватора линии в текстовых [объектах Stream.](stream-object-ado.md)
+Указывает двоичный символ, который будет использоваться в качестве сепаратора строки в текстовых [объектах Stream.](stream-object-ado.md)
 
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+## <a name="settings-and-return-values"></a>Параметры и значения возврата
 
-Задает или возвращает [значение LineSeparatorsEnum,](lineseparatorsenum.md) которое указывает знак разлиения строки, используемый в **Stream.** Значение по умолчанию **— adCRLF.**
+Задает или возвращает [значение LineSeparatorsEnum,](lineseparatorsenum.md) которое указывает на символ сепаратора строки, используемый в **потоке.** По умолчанию значение **adCRLF**.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-**LineSeparator** используется для интерпретации строк при чтении содержимого текстового **потока.** Строки можно пропустить с помощью метода [SkipLine.](skipline-method-ado.md)
+**LineSeparator** используется для интерпретации строк при чтении контента текстового **потока.** Строки можно пропустить с помощью метода [SkipLine.](skipline-method-ado.md)
 
-**LineSeparator** используется только с текстовыми объектами **Stream** ([Тип](type-property-ado-stream.md) **adTypeText).** Это свойство игнорируется, **если type** **— adTypeBinary.**
+**LineSeparator** используется только с текстовыми объектами **Stream** [(Type](type-property-ado-stream.md) **is adTypeText).** Это свойство игнорируется, **если Type** **является adTypeBinary.**
 

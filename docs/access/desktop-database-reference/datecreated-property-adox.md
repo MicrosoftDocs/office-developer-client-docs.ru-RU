@@ -25,7 +25,7 @@ ms.locfileid: "32294423"
 
 Возвращает значение **Variant,** указывав дату создания. Значение null, если **DateCreated** не поддерживается поставщиком.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Свойство **DateCreated** имеет null для новых объектов. После приложения нового [](view-object-adox.md) представления [](procedure-object-adox.md)или процедуры необходимо вызвать метод [Refresh](refresh-method-ado.md) коллекции [Views](views-collection-adox.md) или [Procedures,](procedures-collection-adox.md) чтобы получить значения для свойства **DateCreated.**
+Свойство **DateCreated** является null для вновь пристроенных объектов. После придания [](view-object-adox.md) нового представления или процедуры [необходимо](procedure-object-adox.md)вызвать [](views-collection-adox.md) метод [](procedures-collection-adox.md) [Обновления](refresh-method-ado.md) коллекции Просмотры или Процедуры для получения значений для **свойства DateCreated.**
 

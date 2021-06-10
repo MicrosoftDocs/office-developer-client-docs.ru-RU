@@ -1,5 +1,5 @@
 ---
-title: Keys Append Method, Key Type, RelatedColumn properties example (VB)
+title: Пример свойств Keys Append, Key Type, RelatedColumn (VB)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)
 ms:assetid: d1b0508d-ab2c-eece-061c-09c67ea9ecae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290633"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a>Пример работы с свойствами Keys Append, Key Type, RelatedColumn, RelatedTable и UpdateRule (VB)
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a>Пример свойств Keys Append, Key Type, RelatedColumn, RelatedTable и UpdateRule (VB)
 
 
 **Область применения**: Access 2013, Office 2013
 
-В следующем коде показано, как создать новый внешнего ключа. Предполагается, что существует две **таблицы (Клиенты** и **Заказы).**
+В следующем коде показано, как создать новый иностранный ключ. Предполагается, что существуют две **таблицы (клиенты** и **заказы).**
 
 ```vb 
  

@@ -19,7 +19,7 @@ ms.locfileid: "32288562"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере свойства [NumericScale](numericscale-property-ado.md) и [Precision](precision-property-ado.md) используются для отображения числовых масштабов и точности полей в таблице ***"Скидки"*** базы данных ***Pubs.***
+В этом примере свойства [NumericScale](numericscale-property-ado.md) и [Precision](precision-property-ado.md) используются для отображения числовых масштабов и точности полей в таблице Скидки базы данных ***Pubs.*** 
 
 ```java 
  

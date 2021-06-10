@@ -1,5 +1,5 @@
 ---
-title: Members collection properties, methods, and events (ADO MD)
+title: Свойства, методы и события коллекции членов (ADO MD)
 TOCTitle: Members collection properties, methods, and events
 ms:assetid: 71db6aef-4479-d5ee-8487-66c4f16833c4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249455(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289383"
 ---
-# <a name="members-collection-properties-methods-and-events-ado-md"></a>Members collection properties, methods, and events (ADO MD)
+# <a name="members-collection-properties-methods-and-events-ado-md"></a>Свойства, методы и события коллекции членов (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -24,7 +24,7 @@ ms.locfileid: "32289383"
 - [Свойство Count](count-property-ado.md)
 - [Свойство Item](item-property-ado.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 - [Метод Refresh](refresh-method-ado.md)
 

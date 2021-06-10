@@ -21,13 +21,13 @@ ms.locfileid: "32288520"
 
 Указывает масштаб числимого значения в столбце.
 
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+## <a name="settings-and-return-values"></a>Параметры и значения возврата
 
-Задает и возвращает значение **byte,** которое является масштабом значений данных в столбце, если свойство [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) является **adNumeric** или **adDecimal**. **NumericScale** игнорируется для всех других типов данных.
+Задает и возвращает значение **Byte,** которое является масштабом значений данных в столбце, когда свойство [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) является **adNumeric** или **adDecimal.** **NumericScale** игнорируется для всех других типов данных.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
 Значение по умолчанию — ноль (0).
 
-**NumericScale** доступно только для чтения для объектов [Column,](column-object-adox.md) которые уже были приданы к коллекции.
+**NumericScale** — это только чтение для объектов [Column,](column-object-adox.md) уже примежаных к коллекции.
 

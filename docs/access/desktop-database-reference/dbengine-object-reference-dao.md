@@ -1,5 +1,5 @@
 ---
-title: Справочник по объекту DBEngine (DAO)
+title: Ссылка на объекты DBEngine (DAO)
 TOCTitle: DBEngine Object
 ms:assetid: a48f3f16-0ca8-4483-a662-84916c764722
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142515(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294248"
 ---
-# <a name="dbengine-object-reference-dao"></a>Справочник по объекту DBEngine (DAO)
+# <a name="dbengine-object-reference-dao"></a>Ссылка на объекты DBEngine (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
 - [Объект DBEngine (DAO)](dbengine-object-dao.md)
-- [Члены DBEngine (DAO)](dbengine-members-dao.md)
+- [Участники DBEngine (DAO)](dbengine-members-dao.md)
 - [Свойства DBEngine (DAO)](dbengine-properties-dao.md)
 - [Методы DBEngine (DAO)](dbengine-methods-dao.md)
 

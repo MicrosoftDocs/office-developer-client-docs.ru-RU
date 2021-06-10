@@ -23,21 +23,21 @@ ms.locfileid: "32294381"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает или возвращает значение, которое указывает, какой тип рабочей области будет использоваться следующим созданным объектом **[Workspace.](workspace-object-dao.md)**
+Задает или возвращает значение, которое указывает, какой тип рабочего пространства будет использоваться следующим созданным объектом **[Workspace.](workspace-object-dao.md)**
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* DefaultType
+*выражения* . DefaultType
 
 *expression*: переменная, представляющая объект **DBEngine**.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Значение параметра или возвращаемого значения может быть одной из **[констант WorkspaceTypeEnum.](workspacetypeenum-enumeration-dao.md)**
+Значение параметра или возврата может быть одним из констант **[WorkspaceTypeEnum.](workspacetypeenum-enumeration-dao.md)**
 
 
 > [!NOTE]
 > Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.
 
-Параметр может быть переопределен  для одной рабочей области, задав аргумент типа **[методу CreateWorkspace.](dbengine-createworkspace-method-dao.md)**
+Параметр может быть переопределен для одного **рабочего** пространства, задав аргумент типа **[методу CreateWorkspace.](dbengine-createworkspace-method-dao.md)**
 

@@ -18,7 +18,7 @@ ms.locfileid: "32291226"
 
 **Область применения**: Access 2013, Office 2013
 
-Введение в руководство программиста microsoft ActiveX Data Objects (ADO) см. в следующих темах:
+Сведения о руководстве программиста по объектам ActiveX (ADO) Microsoft см. в следующих темах:
 
 - [Что нового в ADO](what-s-new-in-ado.md)
 - [Prerequisites (ADO Introduction)](prerequisites-ado-introduction.md)
@@ -30,7 +30,7 @@ ms.locfileid: "32291226"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Перейдите [к разделу I. Объекты данных Active X.](section-i-activex-data-objects.md)
+Перейдите [к разделу I. Объекты данных Active X](section-i-activex-data-objects.md).
 
 ## <a name="see-also"></a>См. также
 

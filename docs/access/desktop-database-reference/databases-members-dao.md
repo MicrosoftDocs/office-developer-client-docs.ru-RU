@@ -1,5 +1,5 @@
 ---
-title: Члены базы данных (DAO)
+title: Члены баз данных (DAO)
 TOCTitle: Databases Members
 ms:assetid: 26590849-6530-7e10-9a2c-1a9a5b2bfac6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191890(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294612"
 ---
-# <a name="databases-members-dao"></a>Члены базы данных (DAO)
+# <a name="databases-members-dao"></a>Члены баз данных (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Коллекция databases содержит все открытые объекты базы данных, открытые или созданные в объекте Workspace.
+Коллекция баз данных содержит все открытые объекты базы данных, открытые или созданные в объекте Workspace.
 
 ## <a name="methods"></a>Методы
 

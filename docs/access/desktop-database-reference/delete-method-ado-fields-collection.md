@@ -1,5 +1,5 @@
 ---
-title: Метод Delete (коллекция полей ADO)
+title: Метод удаления (коллекция полей ADO)
 TOCTitle: Delete method (ADO Fields Collection)
 ms:assetid: adc66365-703f-4491-fc5b-dbc9bca2ac53
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249817(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294108"
 ---
-# <a name="delete-method-ado-fields-collection"></a>Метод Delete (коллекция полей ADO)
+# <a name="delete-method-ado-fields-collection"></a>Метод удаления (коллекция полей ADO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -29,9 +29,9 @@ ms.locfileid: "32294108"
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Field* |**Вариант,** который обозначает [удаляемый объект Field.](field-object-ado.md) Этот параметр может быть именем объекта **Field** или порядковой позицией самого **объекта Field.**|
+|*Field* |Вариант, который обозначает удаление [объекта Field.](field-object-ado.md)  Этот параметр может быть именем объекта **Field** или расположением самого **объекта Field.**|
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Вызов метода **Fields.Delete** в открытом наборе [записей](recordset-object-ado.md) приводит к ошибке во время работы.
+Вызов метода **Fields.Delete** в открытом [наборе записей](recordset-object-ado.md) вызывает ошибку во время работы.
 

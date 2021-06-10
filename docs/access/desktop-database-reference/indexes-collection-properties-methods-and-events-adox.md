@@ -1,5 +1,5 @@
 ---
-title: Indexes collection properties, methods, and events (ADOX)
+title: Индексирует свойства, методы и события коллекции (ADOX)
 TOCTitle: Indexes collection properties, methods, and events (ADOX)
 ms:assetid: 46f3e51d-a7e8-60a0-9c54-d2228e9383b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249218(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291561"
 ---
-# <a name="indexes-collection-properties-methods-and-events-adox"></a>Indexes collection properties, methods, and events (ADOX)
+# <a name="indexes-collection-properties-methods-and-events-adox"></a>Индексирует свойства, методы и события коллекции (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -23,10 +23,10 @@ ms.locfileid: "32291561"
 - [Свойство Count](count-property-ado.md)
 - [Свойство Item](item-property-ado.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
-- [Метод Append (Indexes)](append-method-adox-indexes.md)
-- [Метод Delete (Collections)](delete-method-adox-collections.md)
+- [Метод приложения (Индексы)](append-method-adox-indexes.md)
+- [Удаление метода (Коллекции)](delete-method-adox-collections.md)
 - [Метод Refresh](refresh-method-ado.md)
 
 ## <a name="events"></a>События

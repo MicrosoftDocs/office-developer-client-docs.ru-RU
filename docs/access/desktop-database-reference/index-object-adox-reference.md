@@ -1,5 +1,5 @@
 ---
-title: Справочник по объекту Index (ADOX)
+title: Ссылка на объект Index (ADOX)
 TOCTitle: Index object (ADOX)
 ms:assetid: 03b5fcb4-6d35-4a33-9895-956647ecd04f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248803(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291784"
 ---
-# <a name="index-object-adox-reference"></a>Справочник по объекту Index (ADOX)
+# <a name="index-object-adox-reference"></a>Ссылка на объект Index (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
 - [Объект Index (ADOX)](index-object-adox.md)
-- [Свойства, методы и события индекса (ADOX)](index-properties-methods-and-events-adox.md)
+- [Свойства индекса, методы и события (ADOX)](index-properties-methods-and-events-adox.md)
 

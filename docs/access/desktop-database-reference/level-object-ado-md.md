@@ -1,5 +1,5 @@
 ---
-title: Level object (ADO MD)
+title: Объект Level (ADO MD)
 TOCTitle: Level object (ADO MD)
 ms:assetid: ddbcabce-8777-1068-98a3-be209084f497
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250121(v=office.15)
@@ -14,30 +14,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290116"
 ---
-# <a name="level-object-ado-md"></a>Level object (ADO MD)
+# <a name="level-object-ado-md"></a>Объект Level (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Содержит набор членов, каждый из которых имеет одинаковый ранг в иерархии.
+Содержит набор участников, каждый из которых имеет один и тот же ранг в иерархии.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
 С помощью коллекций и свойств объекта **Level** можно сделать следующее:
 
-  - Определите **уровень** со [свойствами Name](name-property-ado-md.md) и [UniqueName.](uniquename-property-ado-md.md)
+  - Определите **уровень** с [свойствами Name](name-property-ado-md.md) и [UniqueName.](uniquename-property-ado-md.md)
 
-  - Возвращает строку, которая будет применяться при отобраке **уровня** со [свойством Caption.](caption-property-ado-md.md)
+  - Возвращаем строку, используемую при отобратии **уровня** с [свойством caption.](caption-property-ado-md.md)
 
-  - Возвращает осмысленные строки, описывая **уровень** со [свойством Description.](description-property-ado-md.md)
+  - Верни значимую строку, описываемую **свойством Level** с [свойством Description.](description-property-ado-md.md)
 
-  - Возвращает [объекты Member,](member-object-ado-md.md) которые составляют **уровень** с [коллекцией Members.](members-collection-ado-md.md)
+  - Возвращаем [объекты Member,](member-object-ado-md.md) которые составляют **level** с коллекцией [Members.](members-collection-ado-md.md)
 
-  - Возвращает количество уровней из корневого объекта **Level** со [свойством Depth.](depth-property-ado-md.md)
+  - Возвращаем количество уровней из корневого уровня **с** [свойством Depth.](depth-property-ado-md.md)
 
-  - Используйте стандартную коллекцию [свойств](properties-collection-ado.md) ADO для получения дополнительных сведений об **объекте Level.**
+  - Используйте стандартную коллекцию свойств ADO [для](properties-collection-ado.md) получения дополнительных сведений об **объекте Level.**
 
-Коллекция **Properties** содержит свойства, предоставленные поставщиком. В следующей таблице перечислены свойства, которые могут быть доступны. Фактический список свойств может отличаться в зависимости от реализации поставщика. Более полный список доступных свойств см. в документации к поставщику.
+Коллекция **свойств** содержит свойства, предоставленные поставщиком. В следующей таблице перечислены свойства, которые могут быть доступны. Фактический список свойств может отличаться в зависимости от реализации поставщика. Дополнительный список доступных свойств см. в документации для поставщика.
 
 <table>
 <colgroup>
@@ -60,12 +60,12 @@ ms.locfileid: "32290116"
 <td><p>Имя куба.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Описание</p></td>
-<td><p>Осмысленное описание уровня.</p></td>
+<td><p>Description</p></td>
+<td><p>Содержательное описание уровня.</p></td>
 </tr>
 <tr class="even">
 <td><p>DimensionUniqueName</p></td>
-<td><p>Однозначное имя <a href="dimension-object-ado-md.md">измерения.</a></p></td>
+<td><p>Однозначное имя <a href="dimension-object-ado-md.md">измерения</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>HierarchyUniqueName</p></td>
@@ -73,7 +73,7 @@ ms.locfileid: "32290116"
 </tr>
 <tr class="even">
 <td><p>LevelCaption</p></td>
-<td><p>Метка или заголовок, связанный с уровнем.</p></td>
+<td><p>Метка или подпись, связанные с уровнем.</p></td>
 </tr>
 <tr class="odd">
 <td><p>LevelCardinality</p></td>
