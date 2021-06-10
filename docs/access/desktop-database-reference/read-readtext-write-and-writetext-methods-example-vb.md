@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301017"
 ---
-# <a name="read-readtext-write-and-writetext-methods-example-vb"></a><span data-ttu-id="4fa0e-102">Пример использования методов Read, ReadText, Write и WriteText (VB)</span><span class="sxs-lookup"><span data-stu-id="4fa0e-102">Read, ReadText, Write, and WriteText methods example (VB)</span></span>
+# <a name="read-readtext-write-and-writetext-methods-example-vb"></a><span data-ttu-id="c895f-102">Пример использования методов Read, ReadText, Write и WriteText (VB)</span><span class="sxs-lookup"><span data-stu-id="c895f-102">Read, ReadText, Write, and WriteText methods example (VB)</span></span>
 
 
-<span data-ttu-id="4fa0e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4fa0e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c895f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c895f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4fa0e-104">В этом примере показано, как считывать содержимое текстового окна как в текстовый [поток,](stream-object-ado.md) так и в двоичный **поток.**</span><span class="sxs-lookup"><span data-stu-id="4fa0e-104">This example demonstrates how to read the contents of a text box into both a text [Stream](stream-object-ado.md) and a binary **Stream**.</span></span> <span data-ttu-id="4fa0e-105">Другие показанные свойства и методы: [Position,](position-property-ado.md) [Size,](size-property-ado.md) [Charset](charset-property-ado.md)и [SetEOS.](seteos-method-ado.md)</span><span class="sxs-lookup"><span data-stu-id="4fa0e-105">Other properties and methods shown include [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md), and [SetEOS](seteos-method-ado.md).</span></span>
+<span data-ttu-id="c895f-104">В этом примере показано, как считывать содержимое текстового окна как в текстовом [потоке,](stream-object-ado.md) так и в двоичном **потоке.**</span><span class="sxs-lookup"><span data-stu-id="c895f-104">This example demonstrates how to read the contents of a text box into both a text [Stream](stream-object-ado.md) and a binary **Stream**.</span></span> <span data-ttu-id="c895f-105">Другие свойства и методы, показанные, [включают Положение,](position-property-ado.md) [Размер,](size-property-ado.md) [Шарсет](charset-property-ado.md)и [SetEOS](seteos-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="c895f-105">Other properties and methods shown include [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md), and [SetEOS](seteos-method-ado.md).</span></span>
 
 ```vb 
  

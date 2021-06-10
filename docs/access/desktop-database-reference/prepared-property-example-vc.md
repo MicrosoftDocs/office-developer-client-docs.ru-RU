@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301430"
 ---
-# <a name="prepared-property-example-vc"></a><span data-ttu-id="6600b-102">Пример использования свойства Prepared (VC++)</span><span class="sxs-lookup"><span data-stu-id="6600b-102">Prepared property example (VC++)</span></span>
+# <a name="prepared-property-example-vc"></a><span data-ttu-id="bb13d-102">Пример использования свойства Prepared (VC++)</span><span class="sxs-lookup"><span data-stu-id="bb13d-102">Prepared property example (VC++)</span></span>
 
 
-<span data-ttu-id="6600b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6600b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bb13d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bb13d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6600b-104">В этом примере показано свойство [Prepared,](prepared-property-ado.md) открыв два [объекта Command](command-object-ado.md) : один подготовлен, а другой — нет.</span><span class="sxs-lookup"><span data-stu-id="6600b-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
+<span data-ttu-id="bb13d-104">В этом примере демонстрируется свойство [Prepared,](prepared-property-ado.md) открыв два [объекта Command](command-object-ado.md) — один подготовленный и не подготовленный.</span><span class="sxs-lookup"><span data-stu-id="bb13d-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
 
 ```cpp 
  

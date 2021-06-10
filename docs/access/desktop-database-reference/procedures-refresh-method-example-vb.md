@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301339"
 ---
-# <a name="procedures-refresh-method-example-vb"></a><span data-ttu-id="d9385-102">Пример использования метода Refresh для коллекции Procedures (VB)</span><span class="sxs-lookup"><span data-stu-id="d9385-102">Procedures Refresh method example (VB)</span></span>
+# <a name="procedures-refresh-method-example-vb"></a><span data-ttu-id="fd424-102">Пример использования метода Refresh для коллекции Procedures (VB)</span><span class="sxs-lookup"><span data-stu-id="fd424-102">Procedures Refresh method example (VB)</span></span>
 
 
-<span data-ttu-id="d9385-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d9385-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fd424-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fd424-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d9385-104">В следующем коде показано, как обновить коллекцию [Procedures](procedures-collection-adox.md) [каталога.](catalog-object-adox.md)</span><span class="sxs-lookup"><span data-stu-id="d9385-104">The following code shows how to refresh the [Procedures](procedures-collection-adox.md) collection of a [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="d9385-105">Это необходимо для доступа к  [объектам Procedure](procedure-object-adox.md) из каталога.</span><span class="sxs-lookup"><span data-stu-id="d9385-105">This is required before [Procedure](procedure-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
+<span data-ttu-id="fd424-104">В следующем коде показано, как обновить коллекцию [Процедур](procedures-collection-adox.md) [каталога.](catalog-object-adox.md)</span><span class="sxs-lookup"><span data-stu-id="fd424-104">The following code shows how to refresh the [Procedures](procedures-collection-adox.md) collection of a [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="fd424-105">Это необходимо для доступа [к объектам Процедуры](procedure-object-adox.md) **из** Каталога.</span><span class="sxs-lookup"><span data-stu-id="fd424-105">This is required before [Procedure](procedure-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
 
 ```vb 
  

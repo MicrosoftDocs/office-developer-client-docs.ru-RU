@@ -1,5 +1,5 @@
 ---
-title: Свойства (DAO)
+title: Свойства свойств (DAO)
 TOCTitle: Properties
 ms:assetid: b624704d-8ad9-467f-8c79-d52e632aab9e
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn179851(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301242"
 ---
-# <a name="properties-properties-dao"></a><span data-ttu-id="1e3ed-102">Свойства (DAO)</span><span class="sxs-lookup"><span data-stu-id="1e3ed-102">Properties properties (DAO)</span></span>
+# <a name="properties-properties-dao"></a><span data-ttu-id="068e3-102">Свойства свойств (DAO)</span><span class="sxs-lookup"><span data-stu-id="068e3-102">Properties properties (DAO)</span></span>
 
-<span data-ttu-id="1e3ed-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1e3ed-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="068e3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="068e3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="1e3ed-104">Свойство Properties.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="1e3ed-104">Properties.Count property (DAO)</span></span>](properties-count-property-dao.md)
+- [<span data-ttu-id="068e3-104">Свойство Properties.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="068e3-104">Properties.Count property (DAO)</span></span>](properties-count-property-dao.md)
 

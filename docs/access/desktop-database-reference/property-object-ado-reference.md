@@ -1,5 +1,5 @@
 ---
-title: Справочник по объекту Property (ADO)
+title: Справка об объекте свойства (ADO)
 TOCTitle: Property object (ADO)
 ms:assetid: 595d2afb-1d5b-4138-9066-b5d14cdceeb2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249303(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301206"
 ---
-# <a name="property-object-ado-reference"></a><span data-ttu-id="6f610-102">Справочник по объекту Property (ADO)</span><span class="sxs-lookup"><span data-stu-id="6f610-102">Property object (ADO) reference</span></span>
+# <a name="property-object-ado-reference"></a><span data-ttu-id="b9978-102">Справка об объекте свойства (ADO)</span><span class="sxs-lookup"><span data-stu-id="b9978-102">Property object (ADO) reference</span></span>
 
-<span data-ttu-id="6f610-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6f610-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b9978-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9978-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="6f610-104">Объект Property (ADO)</span><span class="sxs-lookup"><span data-stu-id="6f610-104">Property object (ADO)</span></span>](property-object-ado.md)
-- [<span data-ttu-id="6f610-105">Свойства, методы и события (ADO)</span><span class="sxs-lookup"><span data-stu-id="6f610-105">Property properties, methods, and events (ADO)</span></span>](property-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="b9978-104">Объект Property (ADO)</span><span class="sxs-lookup"><span data-stu-id="b9978-104">Property object (ADO)</span></span>](property-object-ado.md)
+- [<span data-ttu-id="b9978-105">Свойства, методы и события (ADO)</span><span class="sxs-lookup"><span data-stu-id="b9978-105">Property properties, methods, and events (ADO)</span></span>](property-properties-methods-and-events-ado.md)
 

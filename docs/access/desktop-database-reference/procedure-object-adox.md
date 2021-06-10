@@ -14,22 +14,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301395"
 ---
-# <a name="procedure-object-adox"></a><span data-ttu-id="df312-102">Объект Procedure (ADOX)</span><span class="sxs-lookup"><span data-stu-id="df312-102">Procedure object (ADOX)</span></span>
+# <a name="procedure-object-adox"></a><span data-ttu-id="90c2b-102">Объект Procedure (ADOX)</span><span class="sxs-lookup"><span data-stu-id="90c2b-102">Procedure object (ADOX)</span></span>
 
 
-<span data-ttu-id="df312-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="df312-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="90c2b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="90c2b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="df312-104">Представляет хранимую процедуру.</span><span class="sxs-lookup"><span data-stu-id="df312-104">Represents a stored procedure.</span></span> <span data-ttu-id="df312-105">При использовании в сочетании с объектом команды [ADO](command-object-ado.md) объект **Procedure** можно использовать для добавления, удаления или изменения хранимых процедур.</span><span class="sxs-lookup"><span data-stu-id="df312-105">When used in conjunction with the ADO [Command](command-object-ado.md) object, the **Procedure** object can be used for adding, deleting, or modifying stored procedures.</span></span>
+<span data-ttu-id="90c2b-104">Представляет сохраненную процедуру.</span><span class="sxs-lookup"><span data-stu-id="90c2b-104">Represents a stored procedure.</span></span> <span data-ttu-id="90c2b-105">При использовании в сочетании с объектом ADO [Command](command-object-ado.md) объект **Procedure** можно использовать для добавления, удаления или изменения сохраненных процедур.</span><span class="sxs-lookup"><span data-stu-id="90c2b-105">When used in conjunction with the ADO [Command](command-object-ado.md) object, the **Procedure** object can be used for adding, deleting, or modifying stored procedures.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="df312-106">Заметки</span><span class="sxs-lookup"><span data-stu-id="df312-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="90c2b-106">Примечания</span><span class="sxs-lookup"><span data-stu-id="90c2b-106">Remarks</span></span>
 
-<span data-ttu-id="df312-107">Объект **Procedure** позволяет создать хранимую процедуру без необходимости знать или использовать синтаксис "CREATE PROCEDURE" поставщика.</span><span class="sxs-lookup"><span data-stu-id="df312-107">The **Procedure** object allows you to create a stored procedure without having to know or use the provider's "CREATE PROCEDURE" syntax.</span></span>
+<span data-ttu-id="90c2b-107">Объект **Procedure** позволяет создавать сохраненную процедуру без необходимости знать синтаксис "CREATE PROCEDURE" поставщика или использовать его.</span><span class="sxs-lookup"><span data-stu-id="90c2b-107">The **Procedure** object allows you to create a stored procedure without having to know or use the provider's "CREATE PROCEDURE" syntax.</span></span>
 
-<span data-ttu-id="df312-108">С помощью свойств объекта **Procedure** можно:</span><span class="sxs-lookup"><span data-stu-id="df312-108">With the properties of a **Procedure** object, you can:</span></span>
+<span data-ttu-id="90c2b-108">Со свойствами объекта **Procedure** можно:</span><span class="sxs-lookup"><span data-stu-id="90c2b-108">With the properties of a **Procedure** object, you can:</span></span>
 
-  - <span data-ttu-id="df312-109">Определите процедуру с помощью [свойства Name.](name-property-adox.md)</span><span class="sxs-lookup"><span data-stu-id="df312-109">Identify the procedure with the [Name](name-property-adox.md) property.</span></span>
+  - <span data-ttu-id="90c2b-109">Определите процедуру с [свойством Name.](name-property-adox.md)</span><span class="sxs-lookup"><span data-stu-id="90c2b-109">Identify the procedure with the [Name](name-property-adox.md) property.</span></span>
 
-  - <span data-ttu-id="df312-110">Укажите объект **команды** ADO, который можно использовать для создания или выполнения процедуры с помощью [свойства Command.](command-property-adox.md)</span><span class="sxs-lookup"><span data-stu-id="df312-110">Specify the ADO **Command** object that can be used to create or execute the procedure with the [Command](command-property-adox.md) property.</span></span>
+  - <span data-ttu-id="90c2b-110">Укажите объект ADO **Command,** который можно использовать для создания или выполнения процедуры с помощью [свойства Command.](command-property-adox.md)</span><span class="sxs-lookup"><span data-stu-id="90c2b-110">Specify the ADO **Command** object that can be used to create or execute the procedure with the [Command](command-property-adox.md) property.</span></span>
 
-  - <span data-ttu-id="df312-111">Сведения о дате возврата [со свойствами DateCreated](datecreated-property-adox.md) и [DateModified.](datemodified-property-adox.md)</span><span class="sxs-lookup"><span data-stu-id="df312-111">Return date information with the [DateCreated](datecreated-property-adox.md) and [DateModified](datemodified-property-adox.md) properties.</span></span>
+  - <span data-ttu-id="90c2b-111">Сведения о дате возврата со свойствами [DateCreated](datecreated-property-adox.md) и [DateModified.](datemodified-property-adox.md)</span><span class="sxs-lookup"><span data-stu-id="90c2b-111">Return date information with the [DateCreated](datecreated-property-adox.md) and [DateModified](datemodified-property-adox.md) properties.</span></span>
 

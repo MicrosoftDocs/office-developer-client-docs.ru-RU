@@ -14,28 +14,28 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300625"
 ---
-# <a name="recordsetbookmarkable-property-dao"></a><span data-ttu-id="16920-102">Свойство Recordset.Bookmarkable (DAO)</span><span class="sxs-lookup"><span data-stu-id="16920-102">Recordset.Bookmarkable property (DAO)</span></span>
+# <a name="recordsetbookmarkable-property-dao"></a><span data-ttu-id="17735-102">Свойство Recordset.Bookmarkable (DAO)</span><span class="sxs-lookup"><span data-stu-id="17735-102">Recordset.Bookmarkable property (DAO)</span></span>
 
 
-<span data-ttu-id="16920-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="16920-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="17735-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="17735-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="16920-104">Возвращает значение, которое указывает, поддерживает ли объект **Recordset** закладки, которые можно задать с помощью свойства **[Bookmark](recordset-bookmark-property-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="16920-104">Returns a value that indicates whether a **Recordset** object supports bookmarks, which you can set by using the **[Bookmark](recordset-bookmark-property-dao.md)** property.</span></span>
+<span data-ttu-id="17735-104">Возвращает значение, которое указывает, поддерживает ли объект **Recordset** закладки, которые можно задать с помощью свойства **[Bookmark](recordset-bookmark-property-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="17735-104">Returns a value that indicates whether a **Recordset** object supports bookmarks, which you can set by using the **[Bookmark](recordset-bookmark-property-dao.md)** property.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="16920-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="16920-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="17735-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="17735-105">Syntax</span></span>
 
-<span data-ttu-id="16920-106">*выражение .* Закладка</span><span class="sxs-lookup"><span data-stu-id="16920-106">*expression* .Bookmarkable</span></span>
+<span data-ttu-id="17735-106">*выражения* . Bookmarkable</span><span class="sxs-lookup"><span data-stu-id="17735-106">*expression* .Bookmarkable</span></span>
 
-<span data-ttu-id="16920-107">*expression*: переменная, представляющая объект **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="16920-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="17735-107">*expression*: переменная, представляющая объект **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="17735-107">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="16920-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="16920-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="17735-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="17735-108">Remarks</span></span>
 
-<span data-ttu-id="16920-109">Проверьте параметр **свойства Bookmarkable** объекта **Recordset,** прежде чем пытаться установить или проверить свойство **Bookmark.**</span><span class="sxs-lookup"><span data-stu-id="16920-109">Check the **Bookmarkable** property setting of a **Recordset** object before you attempt to set or check the **Bookmark** property.</span></span>
+<span data-ttu-id="17735-109">Проверьте параметр **свойства Bookmarkable** объекта **Recordset,** прежде чем пытаться установить или проверить свойство **Bookmark.**</span><span class="sxs-lookup"><span data-stu-id="17735-109">Check the **Bookmarkable** property setting of a **Recordset** object before you attempt to set or check the **Bookmark** property.</span></span>
 
-<span data-ttu-id="16920-110">Для **объектов Recordset,** полностью основанных на таблицах ядров баз данных Microsoft Access, свойство **Bookmarkable** имеет значение True, и можно использовать закладки.</span><span class="sxs-lookup"><span data-stu-id="16920-110">For **Recordset** objects based entirely on Microsoft Access database engine tables, the value of the **Bookmarkable** property is True, and you can use bookmarks.</span></span> <span data-ttu-id="16920-111">Другие продукты базы данных, однако, могут не поддерживать закладки.</span><span class="sxs-lookup"><span data-stu-id="16920-111">Other database products may not support bookmarks, however.</span></span> <span data-ttu-id="16920-112">Например, нельзя использовать закладки в любом объекте **Recordset** на основании связанной таблицы Paradox, которая не содержит основной ключ.</span><span class="sxs-lookup"><span data-stu-id="16920-112">For example, you can't use bookmarks in any **Recordset** object based on a linked Paradox table that has no primary key.</span></span>
+<span data-ttu-id="17735-110">Для **объектов Recordset,** полностью основанных на таблицах двигателей базы данных Microsoft Access, значение свойства **Bookmarkable** является True, и вы можете использовать закладки.</span><span class="sxs-lookup"><span data-stu-id="17735-110">For **Recordset** objects based entirely on Microsoft Access database engine tables, the value of the **Bookmarkable** property is True, and you can use bookmarks.</span></span> <span data-ttu-id="17735-111">Другие продукты базы данных, однако, могут не поддерживать закладки.</span><span class="sxs-lookup"><span data-stu-id="17735-111">Other database products may not support bookmarks, however.</span></span> <span data-ttu-id="17735-112">Например, нельзя использовать закладки в любом объекте **Recordset** на основании связанной таблицы Paradox, которая не содержит основной ключ.</span><span class="sxs-lookup"><span data-stu-id="17735-112">For example, you can't use bookmarks in any **Recordset** object based on a linked Paradox table that has no primary key.</span></span>
 
-## <a name="example"></a><span data-ttu-id="16920-113">Пример</span><span class="sxs-lookup"><span data-stu-id="16920-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="17735-113">Пример</span><span class="sxs-lookup"><span data-stu-id="17735-113">Example</span></span>
 
-<span data-ttu-id="16920-114">В этом примере используются свойства **Bookmark** и **Bookmarkable**, чтобы пользователи могли отмечать записи в **Recordset** и позднее возвращаться к ним.</span><span class="sxs-lookup"><span data-stu-id="16920-114">This example uses the **Bookmark** and **Bookmarkable** properties to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="17735-114">В этом примере используются свойства **Bookmark** и **Bookmarkable**, чтобы пользователи могли отмечать записи в **Recordset** и позднее возвращаться к ним.</span><span class="sxs-lookup"><span data-stu-id="17735-114">This example uses the **Bookmark** and **Bookmarkable** properties to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
 ```vb
     Sub BookmarkX() 
