@@ -1,5 +1,5 @@
 ---
-title: Методы Workspace (DAO)
+title: Методы рабочего пространства (DAO)
 TOCTitle: Methods
 ms:assetid: 20faf18e-4c9f-4802-a7c5-5297debfd712
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123992(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305882"
 ---
-# <a name="workspace-methods-dao"></a>Методы Workspace (DAO)
+# <a name="workspace-methods-dao"></a>Методы рабочего пространства (DAO)
 
 **Область применения**: Access 2013, Office 2013
 

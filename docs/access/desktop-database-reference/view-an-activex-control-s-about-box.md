@@ -1,7 +1,7 @@
 ---
 title: Просмотр окна сведений об элементе ActiveX
 TOCTitle: View an ActiveX control About box
-description: Действия для просмотра окна "О".
+description: Действия для просмотра окна О.
 ms:assetid: 72a855b4-dd1a-a531-6402-0321335d3bf5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195825(v=office.15)
 ms:contentKeyID: 48545612
@@ -23,9 +23,9 @@ ms.locfileid: "32305966"
 
 **Область применения**: Access 2013, Office 2013
 
-Чтобы просмотреть поле **"О** компании", в котором показаны сведения о версии и авторских правах для ActiveX управления:
+Чтобы просмотреть **поле About,** показывающая версию и сведения об авторских правах для ActiveX управления:
 
-1. Выберите поле **"О** свойствах" на листе свойств Microsoft Access.
+1. Выберите поле **О** свойстве в листе свойств Microsoft Access.
 
-2. Choose the **Build** button to the right of the property box.
+2. Выберите **кнопку Сборка** справа от окна свойства.
 

@@ -1,5 +1,5 @@
 ---
-title: Пример коллекции Views и Fields Collections (VB)
+title: Пример коллекции представлений и полей (VB)
 TOCTitle: Views and Fields Collections example (VB)
 ms:assetid: 7c166bea-d6a3-0a9d-5220-af72996a76fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249518(v=office.15)

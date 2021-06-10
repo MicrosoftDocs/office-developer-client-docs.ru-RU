@@ -19,7 +19,7 @@ ms.locfileid: "32306302"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано свойство [Type,](type-property-ado.md) отображая имя константы, соответствующее значению свойства [Type](type-property-ado.md) всех объектов [Field](field-object-ado.md) в таблице ***Employees.*** Для запуска этой процедуры требуется функция FieldType.
+В этом примере показано свойство [Type,](type-property-ado.md) отобразив имя константы, соответствующее значению свойства [Type](type-property-ado.md) всех объектов [Field](field-object-ado.md) в таблице ***Employees.*** Для запуска этой процедуры требуется функция FieldType.
 
 ```vb 
  

@@ -1,5 +1,5 @@
 ---
-title: State property (ADO MD)
+title: Свойство state (ADO MD)
 TOCTitle: State property (ADO MD)
 ms:assetid: 4df09f45-9b62-33ce-b4ed-230e41eaac7a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249249(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306365"
 ---
-# <a name="state-property-ado-md"></a>State property (ADO MD)
+# <a name="state-property-ado-md"></a>Свойство state (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,9 +23,9 @@ ms.locfileid: "32306365"
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает **длинное** integer, указывающее текущее состояние объекта [Cellset](cellset-object-ado-md.md) и является только для чтения. Допустимы следующие значения: **adStateClosed** (0) и **adStateOpen** (1).
+Возвращает **длинное** количество, указывающее текущее состояние объекта [Cellset,](cellset-object-ado-md.md) и только для чтения. Допустимы следующие значения: **adStateClosed** (0) и **adStateOpen** (1).
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Чтобы использовать имена [констант ObjectStateEnum,](objectstateenum.md) в проекте должна быть ссылка на библиотеку типов ADO. Дополнительные [сведения см. в использовании ADO с ADO MD.](using-ado-with-ado-md.md)
+Чтобы использовать [постоянные имена ObjectStateEnum,](objectstateenum.md) в проекте должна быть ссылаться библиотека типов ADO. Дополнительные сведения см. [в использовании ADO с ADO MD.](using-ado-with-ado-md.md)
 

@@ -19,13 +19,13 @@ ms.locfileid: "32306442"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает последовательность сортировки для столбца (только для столбцов индекса).
+Указывает последовательность сортировки столбца (только столбцы индекса).
 
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+## <a name="settings-and-return-values"></a>Параметры и значения возврата
 
-Задает и возвращает **длинное** значение, которое может быть одной из [констант SortOrderEnum.](sortorderenum.md) Значение по умолчанию **— adSortAscending.**
+Задает и возвращает **длинное** значение, которое может быть одним из констант [SortOrderEnum.](sortorderenum.md) По умолчанию значение **adSortAscending**.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Это свойство применяется только к объектам [Column](column-object-adox.md) в коллекции [Columns](columns-collection-adox.md) [индекса.](index-object-adox.md)
+Это свойство применяется только к [объектам Column](column-object-adox.md) в коллекции [Столбцы](columns-collection-adox.md) [индекса.](index-object-adox.md)
 

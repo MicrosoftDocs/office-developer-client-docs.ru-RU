@@ -1,5 +1,5 @@
 ---
-title: Enumeration UpdateTypeEnum (DAO)
+title: Переумерия UpdateTypeEnum (DAO)
 TOCTitle: UpdateTypeEnum Enumeration
 ms:assetid: 7ac38bae-27fc-f3d0-5b75-569bce547954
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196186(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306190"
 ---
-# <a name="updatetypeenum-enumeration-dao"></a>Enumeration UpdateTypeEnum (DAO)
+# <a name="updatetypeenum-enumeration-dao"></a>Переумерия UpdateTypeEnum (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Используется вместе с **методом Update** для указания обновлений для записи на диск.
+Используется с помощью **метода Update** для указания обновлений для записи на диск.
 
 <table>
 <colgroup>
@@ -38,17 +38,17 @@ ms.locfileid: "32306190"
 <tr class="odd">
 <td><p>dbUpdateBatch</p></td>
 <td><p>4 </p></td>
-<td><p>Все ожидающих изменений в кэше обновлений записаны на диск.</p></td>
+<td><p>Все ожидающих изменений в кэше обновления записаны на диск.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbUpdateCurrentRecord</p></td>
-<td><p>2 </p></td>
-<td><p>На диск записывают только ожидающих изменений текущей записи.</p></td>
+<td><p>2</p></td>
+<td><p>Только ожидающих изменений текущей записи записывают на диск.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbUpdateRegular</p></td>
-<td><p>1 </p></td>
-<td><p>(По умолчанию) Ожидающих изменений не кэшировали и сразу же записаны на диск.</p></td>
+<td><p>1</p></td>
+<td><p>(По умолчанию) Ожидающих изменений не кэшировали и сразу же на диск пишутся.</p></td>
 </tr>
 </tbody>
 </table>

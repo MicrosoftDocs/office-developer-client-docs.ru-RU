@@ -18,26 +18,26 @@ ms.locfileid: "32306743"
 
 **Область применения**: Access 2013, Office 2013
 
-Получает или задает объект OLE DB **Rowset** из/объекта **ADORecordsetConstruction.** При использовании put \_ Rowset набор строк превращается в объект ADO **Recordset.**
+Получает или задает объект OLE DB **Rowset** из/на **объект ADORecordsetConstruction.** При использовании put \_ Rowset набор строк превращается в объект ADO **Recordset.**
 
 Для чтения и записи.
 
 ## <a name="syntax"></a>Синтаксис
 
-HRESULT get \_ Rowset( \[ out, retval \] IUnknown \* \* ppRowset);
+HRESULT get \_ Rowset \[ (out, retval \] IUnknown \* \* ppRowset);
 
-HRESULT put \_ Rowset( \[ in \] IUnknown \* pRowset);
+HRESULT put \_ Rowset \[ (in \] IUnknown \* pRowset);
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*ppRowset* |Указатель на объект **rowset** OLE DB.|
+|*ppRowset* |Указатель на объект OLE DB **Rowset.**|
 |*PRowset* |Объект OLE DB **Rowset.**|
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Этот метод свойства возвращает стандартные значения HRESULT, включая S \_ OK и E \_ FAIL.
+Этот метод свойства возвращает стандартные значения HRESULT, в том числе S \_ OK и E \_ FAIL.
 
 ## <a name="applies-to"></a>Область применения
 

@@ -1,5 +1,5 @@
 ---
-title: QueryDefStateEnum enumeration (DAO)
+title: Перемерение QueryDefStateEnum (DAO)
 TOCTitle: QueryDefStateEnum Enumeration
 ms:assetid: edfa3085-f8b4-b813-0828-2ba2a9dc0b9d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836359(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303320"
 ---
-# <a name="querydefstateenum-enumeration-dao"></a>QueryDefStateEnum enumeration (DAO)
+# <a name="querydefstateenum-enumeration-dao"></a>Перемерение QueryDefStateEnum (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Используется со **свойством Prepare,** чтобы указать метод, используемый для указания способа подготовки запроса.
+Используется с **свойством Подготовка,** чтобы указать метод, используемый для указания подготовки запроса.
 
 <table>
 <colgroup>
@@ -37,13 +37,13 @@ ms.locfileid: "32303320"
 <tbody>
 <tr class="odd">
 <td><p>dbQPrepare</p></td>
-<td><p>1 </p></td>
-<td><p>(По умолчанию) Это утверждение подготовлено (то есть называется API SQLPrepare ODBC).</p></td>
+<td><p>1</p></td>
+<td><p>(По умолчанию) Заявление подготовлено (то есть называется API SQLPrepare ODBC).</p></td>
 </tr>
 <tr class="even">
 <td><p>dbQUnprepare</p></td>
-<td><p>2 </p></td>
-<td><p>Этот запрос не подготовлен (то есть называется API SQLExecDirect ODBC).</p></td>
+<td><p>2</p></td>
+<td><p>Заявление не подготовлено (то есть называется API SQLExecDirect ODBC).</p></td>
 </tr>
 </tbody>
 </table>

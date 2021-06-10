@@ -25,7 +25,7 @@ ms.locfileid: "32302935"
 - [Свойство Type](type-property-ado.md)
 - [Свойство Value](value-property-ado.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 Нет.
 

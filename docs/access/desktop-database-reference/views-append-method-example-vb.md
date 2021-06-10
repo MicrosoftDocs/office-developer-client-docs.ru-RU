@@ -19,7 +19,7 @@ ms.locfileid: "32312049"
 
 **Область применения**: Access 2013, Office 2013
 
-В следующем коде показано, как использовать объект [Command](command-object-ado.md) и метод [Append](append-method-adox-views.md) коллекции [Views](views-collection-adox.md) для создания нового представления в основном источнике данных.
+В следующем коде показано, как использовать [](append-method-adox-views.md) объект [Command](command-object-ado.md) и метод приложения коллекции [Просмотры](views-collection-adox.md) для создания нового представления в основном источнике данных.
 
 ```vb 
  

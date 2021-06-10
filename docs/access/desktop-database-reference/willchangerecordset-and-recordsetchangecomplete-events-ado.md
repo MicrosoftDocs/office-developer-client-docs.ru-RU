@@ -18,28 +18,28 @@ ms.locfileid: "32302823"
 
 **Область применения**: Access 2013, Office 2013
 
-Событие **WillChangeRecordset** вызвано до того, как ожидаемая операция изменяет [набор recordset.](recordset-object-ado.md) Событие **RecordsetChangeComplete** вызвано после изменения **recordset.**
+Событие **WillChangeRecordset** вызвано до того, как ожидаемая операция изменяет [набор Recordset.](recordset-object-ado.md) Событие **RecordsetChangeComplete** вызвано после изменения **recordset.**
 
 ## <a name="syntax"></a>Синтаксис
 
 WillChangeRecordset *adReason*, *adStatus*, *pRecordset*
 
-RecordsetChangeComplete *adReason,* *pError,* *adStatus*, *pRecordset*
+RecordsetChangeComplete *adReason*, *pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*adReason* |Значение [EventReasonEnum,](eventreasonenum.md) которое указывает причину этого события. Его значение может быть **adRsnRequery,** **adRsnResynch,** **adRsnClose**, **adRsnOpen**.|
-|*adStatus* |[EventStatusEnum](eventstatusenum.md). При **вызывается WillChangeRecordset,** этот параметр задан как **adStatusOK,** если операция, которая вызвала событие, была успешной. Если это событие не может запросить отмену ожидающей операции, ему задается **adStatusCantDeny.** <br/><br/>При вызывается **RecordsetChangeComplete,** этот параметр задан как **adStatusOK,** если операция, которая вызвала событие, была успешной, **adStatusErrorsOccurred,** если операция не удалась, или **adStatusCancel,** если операция, связанная с ранее принятым событием **WillChangeRecordset,** была отменена. <br/><br/>Перед возвратом **WillChangeRecordset** установите для этого параметра параметр **adStatusCancel** запрос отмены ожидающих операций или установите для этого параметра параметр adStatusUnwantedEvent, чтобы предотвратить последующие уведомления. <br/><br/>Перед **возвратом WillChangeRecordset** или **RecordsetChangeComplete** установите для этого параметра параметр **adStatusUnwantedEvent,** чтобы предотвратить последующие уведомления.|
-|*pError* |Объект [Error.](error-object-ado.md) В ней описывается ошибка, которая произошла, если *значением adStatus* является **adStatusErrorsOccurred;** в противном случае он не установлен.|
-|*pRecordset* |Объект **Recordset.** Набор **записей,** для которого произошло это событие.|
+|*adReason* |Значение [EventReasonEnum,](eventreasonenum.md) которое указывает причину этого события. Его значение может быть **adRsnRequery**, **adRsnResynch**, **adRsnClose**, **adRsnOpen**.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Когда **вызывается WillChangeRecordset,** этот параметр задан **adStatusOK,** если операция, вызвавла событие, была успешной. Оно устанавливается **для adStatusCantDeny,** если это событие не может запросить отмену ожидающей операции. <br/><br/>Когда **вызывается RecordsetChangeComplete,** этот параметр задан **adStatusOK,** если операция, вызвавла событие, была успешной, **adStatusErrorsOccurred,** если операция не удалась, или **adStatusCancel,** если операция, связанная с ранее принятым событием **WillChangeRecordset,** была отменена. <br/><br/>Перед возвращением **WillChangeRecordset** установите этот параметр **adStatusCancel** для запроса отмены ожидаемой операции или установите этот параметр adStatusUnwantedEvent для предотвращения последующих уведомлений. <br/><br/>Перед **возвращением WillChangeRecordset** или **RecordsetChangeComplete** установите этот параметр **adStatusUnwantedEvent,** чтобы предотвратить последующие уведомления.|
+|*pError* |Объект [Ошибки.](error-object-ado.md) Он описывает ошибку, которая произошла, если значение *adStatus* **является adStatusErrorsOccurred;** в противном случае она не установлена.|
+|*pRecordset* |Объект **Recordset.** **Набор записей,** для которого произошло это событие.|
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Событие **WillChangeRecordset** или **RecordsetChangeComplete** может возникать из-за методов **Recordset** [Requery](requery-method-ado.md) или [Open.](open-method-ado-recordset.md)
+Событие **WillChangeRecordset** или **RecordsetChangeComplete** может происходить из-за методов [Requery](requery-method-ado.md) **recordset** или [Open.](open-method-ado-recordset.md)
 
-Если поставщик не поддерживает закладки, уведомление о событии **RecordsetChange** возникает при каждом извлечении новых строк от поставщика. Частота этого события зависит от свойства **RecordsetCacheSize.**
+Если поставщик не поддерживает закладки, уведомление о событии **RecordsetChange** возникает при каждом извлечении новых строк у поставщика. Частота этого события зависит от свойства **RecordsetCacheSize.**
 
-Необходимо установить для параметра **adStatus** значение **adStatusUnwantedEvent** для каждого возможного значения **adReason,** чтобы полностью остановить уведомление о событии, которое включает параметр **adReason.**
+Параметр **adStatus** необходимо задать **adStatusUnwantedEvent** для каждого возможного значения **adReason,** чтобы полностью остановить уведомление о событии для любого события, которое включает параметр **adReason.**
 

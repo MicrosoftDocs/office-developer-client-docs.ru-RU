@@ -1,5 +1,5 @@
 ---
-title: Пример коллекции Views, свойства CommandText (VB)
+title: Коллекция представлений, пример свойств CommandText (VB)
 TOCTitle: Views Collection, CommandText property example (VB)
 ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15)

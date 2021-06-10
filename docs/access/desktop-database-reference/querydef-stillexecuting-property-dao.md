@@ -25,15 +25,15 @@ ms.locfileid: "32303418"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* StillExecuting
+*выражения* . StillExecuting
 
 *выражение*: переменная, представляющая объект **QueryDef**.
 
 ## <a name="remarks"></a>Примечания
 
-Используйте свойство **StillExecuting,** чтобы определить, завершен ли **[](querydef-execute-method-dao.md)** последний метод асинхронного выполнения или **[OpenConnection](dbengine-openconnection-method-dao.md)** (то есть метод, выполняемый с помощью параметра **dbRunAsync).** Свойство **StillExecuting** имеет свойство **True,** но получить доступ к любому возвращенного объекта невозможно.
+Используйте **свойство StillExecuting,** чтобы определить, завершен ли **[](querydef-execute-method-dao.md)** последний метод асинхронного выполнения или **[OpenConnection](dbengine-openconnection-method-dao.md)** (то есть метод, выполненный с помощью параметра **dbRunAsync).** Несмотря на то, что свойство **StillExecuting** **является True,** доступ к любому возвращенного объекта невозможно получить.
 
-После того как **свойство StillExecuting** возвращает **false,** после вызова **OpenConnection,** который возвращает связанный объект **[Connection,](connection-object-dao.md)** на объект можно ссылаться. Если свойство **StillExecuting** остается **true,** ссылки на объект могут не быть, кроме чтения свойства **StillExecuting.**
+После возвращения **свойства StillExecuting** **False** после вызова **OpenConnection,** **[](connection-object-dao.md)** возвращаемого связанному объекту Подключения, можно ссылаться на объект. До тех пор, пока **StillExecuting** остается **True,** объект может не ссылаться, кроме как на чтение свойства **StillExecuting.**
 
-Используйте метод **[Cancel,](connection-cancel-method-dao.md)** чтобы завершить выполнение задачи.
+Чтобы завершить выполнение задачи в процессе выполнения, используйте метод **[Cancel.](connection-cancel-method-dao.md)**
 

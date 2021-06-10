@@ -1,5 +1,5 @@
 ---
-title: Row Property - ActiveX Data Objects (ADO)
+title: Свойство Row — ActiveX объектов данных (ADO)
 TOCTitle: Row property (ADO)
 ms:assetid: 1c2b0e27-7232-4b1c-826c-9dc15d758851
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15)
@@ -18,24 +18,24 @@ ms.locfileid: "32306484"
 
 **Область применения**: Access 2013, Office 2013
 
-Получает или задает объект строки OLE **DB** из/объекта **ADORecordConstruction.** При использовании **put \_ Row** для набора объекта **Row** строка превращается в объект **записи** ADO. Для чтения и записи.
+Получает или задает объект OLE DB **Row** из/на **объект ADORecordConstruction.** При использовании **put \_ Row** для набора объекта **Row** строка превращается в объект ADO **Record.** Для чтения и записи.
 
 ## <a name="syntax"></a>Синтаксис
 
-HRESULT get \_ Row( \[ out, retval \] IUnknown \* \* ppRow);
+HRESULT \_ get Row \[ (out, retval \] IUnknown \* \* ppRow);
 
-HRESULT put \_ Row( \[ in \] IUnknown \* pRow);
+HRESULT put \_ Row \[ (in \] IUnknown \* pRow);
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*ppRow* |Указатель на объект строки OLE **DB.**|
-|*PRow* |Объект строки OLE **DB.**|
+|*ppRow* |Указатель на объект OLE DB **Row.**|
+|*PRow* |Объект OLE DB **Row.**|
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Этот метод свойства возвращает стандартные значения HRESULT, включая S \_ OK и E \_ FAIL.
+Этот метод свойства возвращает стандартные значения HRESULT, в том числе S \_ OK и E \_ FAIL.
 
 ## <a name="applies-to"></a>Область применения
 

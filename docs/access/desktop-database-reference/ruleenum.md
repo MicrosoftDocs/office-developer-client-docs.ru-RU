@@ -1,5 +1,5 @@
 ---
-title: RuleEnum (справочник по базе данных Access для настольных ПК)
+title: RuleEnum (Ссылка на настольные базы данных)
 TOCTitle: RuleEnum
 ms:assetid: 5b59f202-315b-09b7-8505-9ac08ceccb3d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249317(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32306680"
 
 **Область применения**: Access 2013, Office 2013
 
-Правило, заданное при [удалении](key-object-adox.md) ключа.
+Указывает правило, за чем [](key-object-adox.md) следует следовать при удалении ключа.
 
 <br/>
 
@@ -38,23 +38,23 @@ ms.locfileid: "32306680"
 <tbody>
 <tr class="odd">
 <td><p><strong>adRICascade</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Каскадные изменения.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRINone</strong></p></td>
 <td><p>0</p></td>
-<td><p>Значение, используемое по умолчанию. Никаких действий не происходит.</p></td>
+<td><p>Значение, используемое по умолчанию. Никаких действий не принимаются.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRISetDefault</strong></p></td>
-<td><p>3 </p></td>
-<td><p>Значение внешнего ключа установлено по умолчанию.</p></td>
+<td><p>3</p></td>
+<td><p>Значение иностранного ключевого значения задается по умолчанию.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRISetNull</strong></p></td>
-<td><p>2 </p></td>
-<td><p>Для внешнего ключа установлено значение null.</p></td>
+<td><p>2</p></td>
+<td><p>Значение иностранного ключевого значения задаваемо null.</p></td>
 </tr>
 </tbody>
 </table>

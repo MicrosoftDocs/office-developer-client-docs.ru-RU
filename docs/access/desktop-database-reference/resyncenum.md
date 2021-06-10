@@ -1,5 +1,5 @@
 ---
-title: ResyncEnum (справочник по базам данных Access для настольных ПК)
+title: ResyncEnum (Ссылка на настольные базы данных)
 TOCTitle: ResyncEnum
 ms:assetid: 3d38b77b-6afe-e6a0-1a05-7c7ffc19edef
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249164(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32306547"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, перезаписываются ли значения в результате вызова [Resync.](resync-method-ado.md)
+Указывает, перезаписываются ли значения по вызову [в Resync.](resync-method-ado.md)
 
 <br/>
 
@@ -38,13 +38,13 @@ ms.locfileid: "32306547"
 <tbody>
 <tr class="odd">
 <td><p><strong>adResyncAllValues</strong></p></td>
-<td><p>2 </p></td>
-<td><p>Значение, используемое по умолчанию. Переописывание данных и отмена ожидающих обновлений.</p></td>
+<td><p>2</p></td>
+<td><p>Значение, используемое по умолчанию. Переоценка данных и отмена ожидающих обновлений.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adResyncUnderlyingValues</strong></p></td>
-<td><p>1 </p></td>
-<td><p>Не переописывать данные, а ожидающих обновлений не отменяются.</p></td>
+<td><p>1</p></td>
+<td><p>Не переописывание данных, а ожидающих обновлений не отменяется.</p></td>
 </tr>
 </tbody>
 </table>

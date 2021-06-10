@@ -18,17 +18,17 @@ ms.locfileid: "32306232"
 
 **Область применения**: Access 2013, Office 2013
 
-ADO можно реализовать с помощью Visual J++ следующими способами:
+Вы можете реализовать ADO с помощью Visual J++ следующими способами:
 
-  - В Visual J++ 6.0 (или более поздней версии) используйте [ADO для классов Windows Foundation.](ado-wfc-programming.md)
+  - С visual J++ 6.0 (или более поздней) используйте [ADO для Windows классов Foundation](ado-wfc-programming.md).
 
-  - В Visual J++ 1.x используйте мастер [библиотеки типов Java.](using-the-java-type-library-wizard.md)
+  - С Visual J++ 1.x используйте [мастер библиотеки java type.](using-the-java-type-library-wizard.md)
 
-  - Используйте [Microsoft SDK для использования в программах Java.](using-the-microsoft-sdk-for-java.md)
+  - Используйте [microsoft SDK для утилит Java.](using-the-microsoft-sdk-for-java.md)
 
-Дополнительные сведения об использовании ADO с Visual J++ см. в следующих темах:
+Дополнительные сведения об использовании ADO с Visual J++см. в следующих темах:
 
   - [ADO Java Class Wrappers](ado-java-class-wrappers.md)
 
-  - [Синтаксис ADO/WFC](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-wfc-syntax-index)
+  - [Индекс синтаксиса ADO/WFC](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-wfc-syntax-index)
 

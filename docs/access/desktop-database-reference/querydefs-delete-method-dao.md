@@ -22,9 +22,9 @@ ms.locfileid: "32303453"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* ***Delete(Name)***
+*выражения* . Удаление ***(Имя)***
 
-*выражение* Переменная, представляюная объект **QueryDefs.**
+*выражение* Переменная, представляюная **объект QueryDefs.**
 
 ## <a name="parameters"></a>Параметры
 
@@ -47,7 +47,7 @@ ms.locfileid: "32303453"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Н/Д</p></td>
 </tr>
 </tbody>

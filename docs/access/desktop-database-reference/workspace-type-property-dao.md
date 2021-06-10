@@ -27,9 +27,9 @@ ms.locfileid: "32311307"
 
 *expression*: переменная, представляющая объект **Workspace**.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Для объекта **Workspace** возможные параметры и возвращаемые значения:
+Для объекта **Workspace** возможные параметры и значения возврата следуют следующим образом.
 
 <table>
 <colgroup>
@@ -45,11 +45,11 @@ ms.locfileid: "32311307"
 <tbody>
 <tr class="odd">
 <td><p><strong>dbUseJet</strong></p></td>
-<td><p>Workspace <strong>подключена</strong> к яд базы данных Microsoft Access.</p></td>
+<td><p>Рабочее <strong>пространство подключено</strong> к базе данных Microsoft Access.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbUseODBC</strong></p></td>
-<td><p>Workspace <strong>подключена</strong> к источнику данных ODBC.</p></td>
+<td><p>Рабочее <strong>пространство подключено</strong> к источнику данных ODBC.</p></td>
 </tr>
 </tbody>
 </table>

@@ -19,7 +19,7 @@ ms.locfileid: "32302795"
 
 **Область применения**: Access 2013, Office 2013
 
-В выражениях CALC для формирования данных можно использовать следующие Visual Basic для приложений функции:
+Следующие функции Visual Basic для приложений могут использоваться при формировании выражений CALC:
 
 <table style="width:100%;">
 <colgroup>
@@ -59,8 +59,8 @@ ms.locfileid: "32302795"
 <td><p>Cvar</p></td>
 <td><p>CVDate</p></td>
 <td><p>CVErr</p></td>
-<td><p>Дата</p></td>
-<td><p>Date$</p></td>
+<td><p>Date</p></td>
+<td><p>Дата $</p></td>
 <td><p>DateAdd</p></td>
 </tr>
 <tr class="odd">
@@ -73,10 +73,10 @@ ms.locfileid: "32302795"
 </tr>
 <tr class="even">
 <td><p>Error</p></td>
-<td><p>Error$</p></td>
+<td><p>Ошибка $</p></td>
 <td><p>Exp</p></td>
 <td><p>Исправление</p></td>
-<td><p>Format</p></td>
+<td><p>Формат</p></td>
 <td><p>Format$</p></td>
 </tr>
 <tr class="odd">
@@ -105,7 +105,7 @@ ms.locfileid: "32302795"
 </tr>
 <tr class="even">
 <td><p>LeftB</p></td>
-<td><p>Left$</p></td>
+<td><p>Слева $</p></td>
 <td><p>LeftB$</p></td>
 <td><p>Len</p></td>
 <td><p>Log</p></td>
@@ -124,7 +124,7 @@ ms.locfileid: "32302795"
 <td><p>NPer</p></td>
 <td><p>NPV</p></td>
 <td><p>Окт</p></td>
-<td><p>Oct$</p></td>
+<td><p>Октябрь $</p></td>
 <td><p>Плт</p></td>
 </tr>
 <tr class="odd">
@@ -149,7 +149,7 @@ ms.locfileid: "32302795"
 <td><p>Sin</p></td>
 <td><p>SLN</p></td>
 <td><p>Space</p></td>
-<td><p>Space$</p></td>
+<td><p>Пространство $</p></td>
 </tr>
 <tr class="even">
 <td><p>Sqr</p></td>
@@ -163,8 +163,8 @@ ms.locfileid: "32302795"
 <td><p>String$</p></td>
 <td><p>SYD</p></td>
 <td><p>Желто-коричневый</p></td>
-<td><p>Время</p></td>
-<td><p>Time$</p></td>
+<td><p>Time</p></td>
+<td><p>Время $</p></td>
 <td><p>Таймер</p></td>
 </tr>
 <tr class="even">

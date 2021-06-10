@@ -1,5 +1,5 @@
 ---
-title: Visual J++ (справочник по базе данных Access для настольных ПК)
+title: Visual J++ (ссылка на настольные базы данных)
 TOCTitle: Visual J++
 ms:assetid: 5c05db85-cdf2-9a73-fbc5-3dbfa6752376
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249320(v=office.15)
@@ -19,7 +19,7 @@ ms.locfileid: "32311335"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом коротком примере Microsoft Visual J++ показано, как можно связать собственную функцию с определенным событием.
+В этом кратком примере Microsoft Visual J++ показано, как можно связать свою функцию с определенным событием.
 
 ```java 
  
@@ -53,7 +53,7 @@ public class EventExampleVJ
 // EndEventExampleVJ 
 ```
 
-Во-первых, метод класса *onConnectionComplete* связан с событием **ConnectionComplete** путем создания нового объекта **ConnectionEventHandler** и назначения функции *onConnectComplete* объекту.
+Во-первых, метод класса *onConnectionComplete* связан с событием **ConnectionComplete,** создав новый объект **ConnectionEventHandler** и назначив объекту функцию *onConnectComplete.*
 
-Затем *основная* функция создает объект **Connection** и включает обработку событий, вызывая метод **addOnConnectComplete** и передавая ему адрес *функции обработчик.*
+Затем *основная* функция создает объект **Connection** и включает обработку событий, вызывая метод **addOnConnectComplete** и передав ему адрес функции *обработчик.*
 

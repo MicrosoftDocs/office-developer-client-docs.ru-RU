@@ -18,26 +18,26 @@ ms.locfileid: "32306057"
 
 **Область применения**: Access 2013, Office 2013
 
-Событие **WillMove** вызвано, прежде чем ожидающая операция изменяет текущую позицию в [наборе записей.](recordset-object-ado.md) Событие **MoveComplete** вызвано после изменения текущей позиции **в наборе записей.**
+Событие **WillMove вызвано** до того, как ожидающая операция изменяет текущую позицию в [Наборе записей.](recordset-object-ado.md) Событие **MoveComplete** вызвано после изменения текущей позиции **в Recordset.**
 
 ## <a name="syntax"></a>Синтаксис
 
 WillMove *adReason*, *adStatus*, *pRecordset*
 
-MoveComplete *adReason,* *pError,* *adStatus*, *pRecordset*
+MoveComplete *adReason*, *pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*adReason* |Значение [EventReasonEnum,](eventreasonenum.md) которое указывает причину этого события. Его значение может быть **adRsnMoveFirst,** **adRsnMoveLast,** **adRsnMoveNext,** **adRsnMovePrevious,** **adRsnMove** или **adRsnRequery**.|
-|*pError* |Объект [Error.](error-object-ado.md) В ней описывается ошибка, которая произошла, если *значением adStatus* является **adStatusErrorsOccurred;** в противном случае он не установлен.|
-|*adStatus* |[EventStatusEnum](eventstatusenum.md). При **вызывается WillMove,** этот параметр задан как **adStatusOK,** если операция, которая вызвала событие, была успешной. Если это событие не может запросить отмену ожидающей операции, ему задается **adStatusCantDeny.** <br/><br/>При **вызывается MoveComplete,** этот параметр задан как **adStatusOK,** если операция, которая привела к событию, была успешной, или **adStatusErrorsOccurred,** если операция не удалась. <br/><br/>Перед возвратом **WillMove** установите для этого параметра параметр **adStatusCancel** запрос отмены ожидающих операций или установите для этого параметра adStatusUnwantedEvent, чтобы запретить последующие нотации. <br/><br/>Перед **возвращением MoveComplete** установите для этого параметра **параметр adStatusUnwantedEvent,** чтобы предотвратить последующие уведомления.|
-|*pRecordset* |Объект [Recordset.](recordset-object-ado.md) Набор **записей,** для которого произошло это событие.|
+|*adReason* |Значение [EventReasonEnum,](eventreasonenum.md) которое указывает причину этого события. Его значение может быть **adRsnMoveFirst**, **adRsnMoveLast**, **adRsnMoveNext**, **adRsnMovePrevious**, **adRsnMove**, или **adRsnRequery**.|
+|*pError* |Объект [Ошибки.](error-object-ado.md) Он описывает ошибку, которая произошла, если значение *adStatus* **является adStatusErrorsOccurred;** в противном случае она не установлена.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Когда **вызывается WillMove,** этот параметр задан **adStatusOK,** если операция, которая вызвала событие, была успешной. Оно устанавливается **для adStatusCantDeny,** если это событие не может запросить отмену ожидающей операции. <br/><br/>Когда **вызывается MoveComplete,** этот параметр задан **adStatusOK,** если операция, вызвавла событие, была успешной, или **adStatusErrorsOccurred,** если операция не удалась. <br/><br/>Перед возвращением **WillMove** установите этот параметр **adStatusCancel** для запроса отмены ожидаемой операции или установите этот параметр adStatusUnwantedEvent для предотвращения последующих замений. <br/><br/>Перед **возвращением MoveComplete** установите этот параметр **adStatusUnwantedEvent,** чтобы предотвратить последующие уведомления.|
+|*pRecordset* |Объект [Recordset.](recordset-object-ado.md) **Набор записей,** для которого произошло это событие.|
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Событие **WillMove** или **MoveComplete** может произойти из-за следующих операций **Recordset:**
+Событие **WillMove или** **MoveComplete** может произойти из-за следующих операций **Recordset:**
 
 - [Open](open-method-ado-recordset.md)
 - [Move](move-method-ado.md)
@@ -50,13 +50,13 @@ MoveComplete *adReason,* *pError,* *adStatus*, *pRecordset*
 
 Эти события могут возникать из-за следующих свойств:
 
-- [Фильтр](filter-property-ado.md)
-- [Индекс](index-property-ado.md)
+- [Filter](filter-property-ado.md)
+- [Index](index-property-ado.md)
 - [Bookmark](bookmark-property-ado.md)
 - [AbsolutePage](absolutepage-property-ado.md)
 - [AbsolutePosition](absoluteposition-property-ado.md)
 
-Эти события также происходят, если для родительского **recordset** подключены события **Recordset** и родительский **набор записей.**
+Эти события также происходят, если у ребенка **Recordset** подключены события **Recordset** и родительский **набор записей** перемещается.
 
-Необходимо установить для параметра *adStatus* значение **adStatusUnwantedEvent** для каждого возможного значения *adReason,* чтобы полностью остановить уведомление о событии, которое включает параметр *adReason.*
+Параметр *adStatus* необходимо задать **adStatusUnwantedEvent** для каждого возможного значения *adReason,* чтобы полностью остановить уведомление о событии для любого события, которое включает параметр *adReason.*
 

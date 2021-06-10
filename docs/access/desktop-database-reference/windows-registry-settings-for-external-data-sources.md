@@ -20,6 +20,6 @@ ms.locfileid: "32305952"
 
 - [Настройка параметров реестра Windows для ядра СУБД Microsoft Access](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
 - [Инициализация драйвера Microsoft Excel](initializing-the-microsoft-excel-driver.md)
-- [Инициализация драйвера источника данных Microsoft Exchange](initializing-the-microsoft-exchange-data-source-driver.md)
+- [Инициализация драйвера microsoft Exchange источника данных](initializing-the-microsoft-exchange-data-source-driver.md)
 - [Инициализация драйвера источника текстовых данных](initializing-the-text-data-source-driver.md)
 

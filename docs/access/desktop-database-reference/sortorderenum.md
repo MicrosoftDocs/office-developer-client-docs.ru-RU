@@ -1,5 +1,5 @@
 ---
-title: SortOrderEnum (справочник по базам данных Access для настольных ПК)
+title: SortOrderEnum (Ссылка на настольные базы данных)
 TOCTitle: SortOrderEnum
 ms:assetid: 65a1f984-3ce4-f434-8c20-33162517ecba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249393(v=office.15)
@@ -38,13 +38,13 @@ ms.locfileid: "32306463"
 <tbody>
 <tr class="odd">
 <td><p><strong>adSortAscending</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Значение, используемое по умолчанию. Последовательность сортировки для столбца возрастает.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSortDescending</strong></p></td>
-<td><p>2 </p></td>
-<td><p>Последовательность сортировки для столбца убывая.</p></td>
+<td><p>2</p></td>
+<td><p>Последовательность сортировки для столбца нисходящая.</p></td>
 </tr>
 </tbody>
 </table>

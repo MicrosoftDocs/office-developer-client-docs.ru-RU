@@ -1,5 +1,5 @@
 ---
-title: View Object (ADOX - Access desktop database reference)
+title: View Object (ADOX — ссылка на базу данных для настольных компьютеров)
 TOCTitle: View object (ADOX)
 ms:assetid: 3b2e9972-8a0d-eaa3-1c93-ae0665a47f02
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249149(v=office.15)
@@ -14,22 +14,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306051"
 ---
-# <a name="view-object-adox"></a>Объект View (ADOX)
+# <a name="view-object-adox"></a>Просмотр объекта (ADOX)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Представляет отфильтрованный набор записей или виртуальную таблицу. При использовании в сочетании с объектом ADO [Command](command-object-ado.md) объект **View** можно использовать для добавления, удаления или изменения представлений.
+Представляет фильтрованный набор записей или виртуальную таблицу. При использовании в сочетании с объектом ADO [Command](command-object-ado.md) объект **View** можно использовать для добавления, удаления или изменения представлений.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Представление — это виртуальная таблица, созданная из других таблиц или представлений базы данных. Объект **View** позволяет создавать представление без необходимости знать или использовать синтаксис "CREATE VIEW" поставщика.
+Представление — это виртуальная таблица, созданная из других таблиц или представлений баз данных. Объект **View** позволяет создавать представление без необходимости знать синтаксис "CREATE VIEW" поставщика или использовать его.
 
-С помощью свойств объекта **View** можно:
+Со свойствами объекта **View** можно:
 
-  - Определите представление с помощью [свойства Name.](name-property-adox.md)
+  - Определите представление с [свойством Name.](name-property-adox.md)
 
-  - Укажите объект **команды** ADO, который можно использовать для добавления, удаления или изменения представлений с помощью свойства [Command.](command-property-adox.md)
+  - Укажите объект ADO **Command,** который можно использовать для добавления, удаления или изменения представлений с помощью [свойства Command.](command-property-adox.md)
 
-  - Сведения о дате возврата [со свойствами DateCreated](datecreated-property-adox.md) и [DateModified.](datemodified-property-adox.md)
+  - Сведения о дате возврата со свойствами [DateCreated](datecreated-property-adox.md) и [DateModified.](datemodified-property-adox.md)
 
