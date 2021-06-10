@@ -1,5 +1,5 @@
 ---
-title: Справочник по объекту User (ADOX)
+title: Ссылка на объект пользователя (ADOX)
 TOCTitle: User object (ADOX)
 ms:assetid: 1e3090b2-443b-41df-a67a-f2c1452c48f3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248974(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313169"
 ---
-# <a name="user-object-adox-reference"></a>Справочник по объекту User (ADOX)
+# <a name="user-object-adox-reference"></a>Ссылка на объект пользователя (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Объект User (ADOX)](user-object-adox.md)
+- [Объект пользователя (ADOX)](user-object-adox.md)
 - [Свойства, методы и события пользователя (ADOX)](user-properties-methods-and-events-adox.md)
 

@@ -1,5 +1,5 @@
 ---
-title: StringFormatEnum (справочник по базе данных Access для настольных ПК)
+title: StringFormatEnum (Ссылка на настольные базы данных)
 TOCTitle: StringFormatEnum
 ms:assetid: ab069d67-d983-f390-5d45-876a9f9d9691
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249794(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32314464"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает формат при искомом наборе [записей в](recordset-object-ado.md) виде строки.
+Указывает формат при искомом [наборе записей](recordset-object-ado.md) в виде строки.
 
 <br/>
 
@@ -38,8 +38,8 @@ ms.locfileid: "32314464"
 <tbody>
 <tr class="odd">
 <td><p><strong>adClipString</strong></p></td>
-<td><p>2 </p></td>
-<td><p>Делегировка строк <em>по RowDelimiter,</em>столбцов <em>по ColumnDelimiter</em>и значений <em>null по NullExpr</em>. Эти три параметра метода <a href="getstring-method-ado.md">GetString</a> действительны только с помощью <em>StringFormat</em> <strong>adClipString.</strong></p></td>
+<td><p>2</p></td>
+<td><p>Delimits <em>rowDelimiter</em>, столбцы <em>ColumnDelimiter</em>и null значения <em>NullExpr</em>. Эти три параметра метода <a href="getstring-method-ado.md">GetString</a> действительны только с <em>помощью stringFormat</em> <strong>adClipString.</strong></p></td>
 </tr>
 </tbody>
 </table>

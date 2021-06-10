@@ -18,16 +18,16 @@ ms.locfileid: "32312364"
 
 **Область применения**: Access 2013, Office 2013
 
-Сведения об использовании ADO с Visual C++ см. в следующих разделах:
+Сведения об использовании ADO с visual C++см. в следующих разделах:
 
 - [Программирование для ADO на Visual C++](visual-c-ado-programming.md)
-- [Расширения Visual C++ для ADO](visual-c-extensions-for-ado.md)
+- [Visual C++ extensions for ADO](visual-c-extensions-for-ado.md)
 - [Использование расширений Visual C++](using-visual-c-extensions.md)
-- [Заглавная кнопка расширений Visual C++](visual-c-extensions-header.md)
+- [Visual C++ extensions header](visual-c-extensions-header.md)
 - [Пример расширений Visual C++](visual-c-extensions-example.md)
 
 
 ## <a name="see-also"></a>См. также
 
-- [ADO для синтаксиса Visual C++ для COM](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-for-com)
-- [ADO для синтаксиса Visual C++ с \# импортом](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-with-import)
+- [Индекс синтаксиса ADO для visual C++ для com](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-for-com)
+- [ADO для индекса синтаксиса Visual C++ с \# импортом](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-with-import)

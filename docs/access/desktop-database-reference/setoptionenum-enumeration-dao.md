@@ -1,5 +1,5 @@
 ---
-title: Enumeration SetOptionEnum (DAO)
+title: Переименовка SetOptionEnum (DAO)
 TOCTitle: SetOptionEnum Enumeration
 ms:assetid: 0a26b7f7-b6cd-cf0f-1071-d872beeefaa5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845094(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314604"
 ---
-# <a name="setoptionenum-enumeration-dao"></a>Enumeration SetOptionEnum (DAO)
+# <a name="setoptionenum-enumeration-dao"></a>Переименовка SetOptionEnum (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Используется с **методом SetOption** для указания ключа ядер ядер базы данных Microsoft Access в реестре Windows для переопределения.
+Используется с помощью **метода SetOption** для указания ключа двигателя базы данных Microsoft Access в Windows реестра для переопределения.
 
 <table>
 <colgroup>
@@ -43,7 +43,7 @@ ms.locfileid: "32314604"
 <tr class="even">
 <td><p>dbFlushTransactionTimeout</p></td>
 <td><p>66</p></td>
-<td><p>Ключ FlushTransactionTimeout.</p></td>
+<td><p>Клавиша FlushTransactionTimeout.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbImplicitCommitSync</p></td>
@@ -83,7 +83,7 @@ ms.locfileid: "32314604"
 <tr class="even">
 <td><p>dbPasswordEncryptionKeyLength</p></td>
 <td><p>82</p></td>
-<td><p>Длина ключа шифрования. Должно быть кратно 8, начиная с 40.</p></td>
+<td><p>Длина ключа шифрования. Должно быть несколько из 8, начиная с 40.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbPasswordEncryptionProvider</p></td>

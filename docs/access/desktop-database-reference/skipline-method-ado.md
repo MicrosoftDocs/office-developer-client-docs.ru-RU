@@ -25,9 +25,9 @@ ms.locfileid: "32314562"
 
 *Stream*. SkipLine
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Пропускаются все символы до следующей строки, включая сепаратор. По умолчанию [lineSeparator](lineseparator-property-ado.md) — **adCRLF.** Если попытаться пропустить [EOS,](eos-property-ado.md)текущая позиция останется в **EOS.**
+Пропускаются все символы, в том числе следующий сепаратор строки. По умолчанию [LineSeparator](lineseparator-property-ado.md) **— adCRLF.** Если вы попытается пропустить [прошлое EOS,](eos-property-ado.md)текущая позиция просто останется в **EOS**.
 
-Метод **SkipLine** используется с текстовыми потоками [(тип](type-property-ado-stream.md) **adTypeText).**
+Метод **SkipLine** используется с текстовыми потоками [(Type](type-property-ado-stream.md) **is adTypeText).**
 

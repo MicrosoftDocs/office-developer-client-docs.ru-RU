@@ -1,5 +1,5 @@
 ---
-title: Системные команды (справочник по базе данных Access для настольных пк)
+title: Системные команды (ссылка на настольные базы данных)
 TOCTitle: System commands
 ms:assetid: b85d04eb-c30f-47c3-9aa2-ed2f8d12afad
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn179887(v=office.15)

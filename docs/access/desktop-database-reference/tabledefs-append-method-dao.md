@@ -18,7 +18,7 @@ ms.locfileid: "32314380"
 
 **Область применения**: Access 2013, Office 2013
 
-Добавляет новый **TableDef в** **коллекцию TableDefs.**
+Добавляет новый **TableDef в** коллекцию **TableDefs.**
 
 ## <a name="syntax"></a>Синтаксис
 

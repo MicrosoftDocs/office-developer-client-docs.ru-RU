@@ -1,5 +1,5 @@
 ---
-title: Stream properties, methods, and events (ADO)
+title: Свойства потока, методы и события (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 12542605-9520-f0a9-09e4-9eac6b37c35e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314429"
 ---
-# <a name="stream-properties-methods-and-events-ado"></a>Stream properties, methods, and events (ADO)
+# <a name="stream-properties-methods-and-events-ado"></a>Свойства потока, методы и события (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -30,7 +30,7 @@ ms.locfileid: "32314429"
 - [Свойство Type (Stream в ADO)](type-property-ado-stream.md)
 
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 - [Метод Cancel](cancel-method-ado.md)
 - [Метод Close](close-method-ado.md)

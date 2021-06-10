@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события коллекции Tables (ADOX)
+title: Свойства, методы и события коллекции таблиц (ADOX)
 TOCTitle: Tables collection properties, methods, and events (ADOX)
 ms:assetid: 0459dc60-3084-7bf3-bd83-c0dc197fd24d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248806(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314065"
 ---
-# <a name="tables-collection-properties-methods-and-events-adox"></a>Свойства, методы и события коллекции Tables (ADOX)
+# <a name="tables-collection-properties-methods-and-events-adox"></a>Свойства, методы и события коллекции таблиц (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -23,10 +23,10 @@ ms.locfileid: "32314065"
 - [Свойство Count](count-property-ado.md)
 - [Свойство Item](item-property-ado.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
-- [Метод Append (Tables)](append-method-adox-tables.md)
-- [Метод Delete (Collections)](delete-method-adox-collections.md)
+- [Метод приложения (Таблицы)](append-method-adox-tables.md)
+- [Удаление метода (Коллекции)](delete-method-adox-collections.md)
 - [Метод Refresh](refresh-method-ado.md)
 
 ## <a name="events"></a>События

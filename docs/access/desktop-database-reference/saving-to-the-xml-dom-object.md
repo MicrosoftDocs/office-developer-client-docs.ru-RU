@@ -20,7 +20,7 @@ ms.locfileid: "32314730"
 
 ## <a name="saving-to-the-xml-dom-object"></a>Saving to the XML DOM Object
 
-Набор записей  можно сохранить в формате XML в экземпляре MSXML DOM, как показано в следующем Visual Basic коде:
+Можно сохранить набор **записей** в XML-формате до экземпляра объекта doM MSXML, как показано в следующем коде Visual Basic:
 
 ```vb 
  

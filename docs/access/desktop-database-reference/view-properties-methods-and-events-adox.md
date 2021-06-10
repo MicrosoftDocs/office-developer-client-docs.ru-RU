@@ -26,7 +26,7 @@ ms.locfileid: "32312105"
 - [Свойство DateModified](datemodified-property-adox.md)
 - [Свойство Name](name-property-adox.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 Нет.
 

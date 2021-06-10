@@ -19,7 +19,7 @@ ms.locfileid: "32312161"
 
 **Область применения**: Access 2013, Office 2013
 
-В следующем коде показано, как обновить коллекцию [Views](views-collection-adox.md) [каталога.](catalog-object-adox.md) Это необходимо для доступа [к объектам просмотра](view-object-adox.md) из каталога. 
+В следующем коде показано, как обновить коллекцию [Просмотров](views-collection-adox.md) [каталога.](catalog-object-adox.md) Это необходимо для доступа к  [объектам Просмотра](view-object-adox.md) из Каталога.
 
 ```vb 
  

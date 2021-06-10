@@ -18,13 +18,13 @@ ms.locfileid: "32312959"
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Коллекция Groups](groups-collection-adox.md)
 - [Свойство Name](name-property-adox.md)
 - [Коллекция Properties](properties-collection-ado.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 - [Метод ChangePassword](changepassword-method-adox.md)
 - [Метод GetPermissions](getpermissions-method-adox.md)

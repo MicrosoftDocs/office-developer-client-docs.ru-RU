@@ -22,7 +22,7 @@ ms.locfileid: "32313995"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* ***Delete(Name)***
+*выражения* . Удаление ***(Имя)***
 
 *выражение* Переменная, представляюная объект **TableDefs.**
 
@@ -47,14 +47,14 @@ ms.locfileid: "32313995"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
-<td><p>Имя TableDef, который требуется удалить.</p></td>
+<td><p><strong>String</strong></p></td>
+<td><p>Имя tableDef для удаления.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Метод Delete поддерживается только в том случае, если объект **TableDef** является новым и не был appended к базе данных, или если для свойства **Updatable** **tableDef** задано true **.**
+Метод Delete поддерживается только в том случае, если объект **TableDef** является новым и не был пристроен к базе данных, или если свойство **Updatable** **tableDef** задано true **.**
 

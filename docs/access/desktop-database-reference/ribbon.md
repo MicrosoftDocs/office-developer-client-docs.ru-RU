@@ -1,5 +1,5 @@
 ---
-title: Лента (справочник по базе данных Access для настольных ПК)
+title: Ribbon (Ссылка на настольные базы данных)
 TOCTitle: Ribbon
 ms:assetid: 7314847b-73d2-48d2-87c2-80ddf696f026
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn160996(v=office.15)

@@ -1,5 +1,5 @@
 ---
-title: StreamReadEnum (справочник по базам данных Access для настольных ПК)
+title: StreamReadEnum (Ссылка на настольные базы данных)
 TOCTitle: StreamReadEnum
 ms:assetid: 12432c0d-dc2e-10ea-13db-0c07b6ba29bc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248895(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32314723"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, следует ли читать весь поток или следующую строку из [объекта Stream.](stream-object-ado.md)
+Указывает, следует ли читать весь поток или следующую строку с объекта [Stream.](stream-object-ado.md)
 
 <br/>
 
@@ -39,12 +39,12 @@ ms.locfileid: "32314723"
 <tr class="odd">
 <td><p><strong>adReadAll</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Значение, используемое по умолчанию. Считывает все ветви из потока от текущего положения до <a href="eos-property-ado.md">маркера EOS.</a> Это единственное допустимые значения <strong>StreamReadEnum</strong> с двоичными потоками<a href="type-property-ado-stream.md">(тип</a> <strong>adTypeBinary).</strong></p></td>
+<td><p>Значение, используемое по умолчанию. Читает все bytes из потока, от текущего положения далее до <a href="eos-property-ado.md">маркера EOS.</a> Это единственное допустимые <strong>значения StreamReadEnum</strong> с двоичными потоками<a href="type-property-ado-stream.md">(Type</a> <strong>is adTypeBinary).</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adReadLine</strong></p></td>
 <td><p>–2</p></td>
-<td><p>Считывает следующую строку из потока (обозначенную <a href="lineseparator-property-ado.md">свойством LineSeparator).</a></p></td>
+<td><p>Читает следующую строку из потока (назначена <a href="lineseparator-property-ado.md">свойством LineSeparator).</a></p></td>
 </tr>
 </tbody>
 </table>

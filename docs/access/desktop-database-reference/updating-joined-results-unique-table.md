@@ -21,5 +21,5 @@ ms.locfileid: "32313386"
 
 ## <a name="updating-joined-results-unique-table"></a>Обновление результатов JOINed: уникальная таблица
 
-ADO позволяет тесно контролировать изменения определенной базовой таблицы в наборе **записей,** сформированном операцией JOIN для нескольких базовых таблиц с помощью динамического свойства **Unique Table.** For details on using **Unique Table**, refer to the ADO programmer's reference topics on the **Unique Table** and **Update Resynch** dynamic properties.
+ADO позволяет тщательно контролировать изменения определенной базовой таблицы в наборе записей, который был создан операцией JOIN на нескольких базовых таблицах с помощью динамического свойства **Unique Table.**  Сведения об использовании **уникальной** таблицы можно найти в справочных темах программиста ADO в динамических свойствах **Unique Table** и **Update Resynch.**
 

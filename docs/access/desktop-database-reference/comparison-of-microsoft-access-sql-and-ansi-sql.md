@@ -18,19 +18,19 @@ ms.locfileid: "34870859"
 
 **Область применения**: Access 2013, Office 2013
 
-Яд баз SQL Microsoft Access, как правило, соответствует стандарту ANSI-89 уровня 1. Однако некоторые функции SQL ANSI не реализованы в Microsoft Access SQL. И наоборот, microsoft Access SQL зарезервированные слова и функции, не поддерживаемые в anSI SQL.
+Движок базы данных Microsoft Access SQL, как правило, является совместимым с ANSI-89 Level 1. Однако некоторые функции SQL anSI не реализованы в Microsoft Access SQL. И наоборот, microsoft Access SQL содержит зарезервированные слова и функции, не поддерживаемые в ansi SQL.
 
 ## <a name="major-differences"></a>Основные различия
 
-- Microsoft Access SQL и ANSI SQL имеют разные зарезервированные слова и типы данных. Дополнительные сведения см. в SQL microsoft [Access Database Engine reserved Words](sql-reserved-words.md) and Equivalent [ANSI SQL Data Types.](equivalent-ansi-sql-data-types.md) При использовании поставщика OLE DB для ядоработки Microsoft Access существуют дополнительные зарезервированные слова.
+- Microsoft Access SQL и ANSI SQL имеют разные зарезервированные слова и типы данных. Дополнительные сведения см. в ядро СУБД SQL Microsoft [Access ядро СУБД SQL](sql-reserved-words.md) и [эквивалентных SQL anSI.](equivalent-ansi-sql-data-types.md) С помощью поставщика ядро СУБД OLE DB есть дополнительные зарезервированные слова.
 
 - **[Между... И](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/between-and-operator)**
     
   *expr1* \[ NOT \] **Between** *value1* **And** *value2*
     
-  В Microsoft Access SQL *значение 1* может быть больше *значения 2;* в anSI SQL *значение 1* должно быть равно или меньше *значения 2.*
+  В microsoft Access SQL *значение1* может быть больше *значения 2;* в SQL *anSI значение1 должно* быть равно или меньше *значения2.*
 
-- Microsoft Access SQL поддерживает как поддиансовые знаки [](using-wildcard-characters-in-string-comparisons.md) anSI SQL, так и поддиафидные знаки, которые используются в ядере баз данных Microsoft Access с оператором **[Like.](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/like-operator-microsoft-access-sql)** Использование поддиапозитных знаков ANSI и ядер базы данных Microsoft Access является взаимоисключающими. Необходимо использовать один набор или другой набор и не может их смешивать. Поддиапные SQL ANSI доступны только при использовании ядер базы данных Microsoft Access и поставщика OLE DB ядер баз данных Microsoft Access. Если вы попытались использовать под SQL ANSI через Microsoft Access или DAO, они будут интерпретируются как литералы. При использовании поставщика OLE DB для ядоработки OLE DB для ядоработки Microsoft Access используется обратное.
+- Microsoft Access SQL поддерживает как символы SQL ansi, [](using-wildcard-characters-in-string-comparisons.md) так и символы подмайки, которые являются специфическими для двигателя базы данных Microsoft Access для использования с оператором **[Like.](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/like-operator-microsoft-access-sql)** Использование символов подкардных знаков базы данных anSI и Microsoft Access является взаимоисключающими. Необходимо использовать один набор или другой набор и не смешивать их. Подкарды SQL anSI доступны только при использовании двигателя базы данных Microsoft Access и поставщика ядро СУБД OLE DB. Если вы попробуете использовать SQL anSI через Microsoft Access или DAO, они будут интерпретируются как буквальные. При использовании поставщика OLE DB ядро СУБД Microsoft Access ядро СУБД обратное.
     
     <table>
     <colgroup>
@@ -40,7 +40,7 @@ ms.locfileid: "34870859"
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Совпадающий символ</p></th>
+    <th><p>Соответствие символу</p></th>
     <th><p>Microsoft Access SQL</p></th>
     <th><p>ANSI SQL</p></th>
     </tr>
@@ -60,25 +60,25 @@ ms.locfileid: "34870859"
     </table>
 
 
-- Как правило SQL Microsoft Access менее строгий. Например, он разрешает группировку и порядок выражений.
+- Microsoft Access SQL, как правило, менее строгим. Например, позволяет группить и заказывать выражения.
 
 - Microsoft Access SQL поддерживает более мощные выражения.
 
-## <a name="enhanced-features-of-microsoft-access-sql"></a>Расширенные функции microsoft Access SQL
+## <a name="enhanced-features-of-microsoft-access-sql"></a>Расширенные возможности microsoft Access SQL
 
 Microsoft Access SQL предоставляет следующие расширенные функции:
 
-- Заявление [TRANSFORM,](transform-statement-microsoft-access-sql.md) которое поддерживает перекрестные запросы.
+- Заявление [TRANSFORM,](transform-statement-microsoft-access-sql.md) которое обеспечивает поддержку запросов на перекрестие.
 
-- Дополнительные [агрегатные функции,](sql-aggregate-functions-sql.md)такие как **StDev** и **VarP.**
+- Дополнительные [агрегированные](sql-aggregate-functions-sql.md)функции, такие как **StDev** и **VarP.**
 
 - Объявление [PARAMETERS](parameters-declaration-microsoft-access-sql.md) для определения запросов параметров.
 
-## <a name="ansi-sql-features-not-supported-in-microsoft-access-sql"></a>Функции SQL ANSI не поддерживаются в Microsoft Access SQL
+## <a name="ansi-sql-features-not-supported-in-microsoft-access-sql"></a>Функции SQL anSI, не поддерживаемые в Microsoft Access SQL
 
 Microsoft Access SQL не поддерживает следующие функции SQL ANSI:
 
-- ОТДЕЛЬНЫЕ сводные ссылки на функции. Например, microsoft Access SQL не разрешает СУММ(DISTINCT *columnname).*
+- Ссылки на отдельные совокупные функции. Например, microsoft Access SQL не позволяет sum (DISTINCT *columnname).*
 
-- Предложение LIMIT TO *nn* ROWS, используемого для ограничения количества строк, возвращаемого запросом. Для ограничения области [запроса можно](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) использовать только предложение WHERE.
+- Пункт LIMIT TO *nn* ROWS, используемый для ограничения количества строк, возвращаемого запросом. Чтобы ограничить область запроса, можно использовать только пункт [WHERE.](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql)
 

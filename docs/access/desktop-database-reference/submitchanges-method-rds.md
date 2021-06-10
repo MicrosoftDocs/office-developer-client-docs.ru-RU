@@ -18,32 +18,32 @@ ms.locfileid: "32314401"
 
 **Область применения**: Access 2013, Office 2013
 
-Отправка ожидающих изменений локально кэшируемых и updatable [recordset](recordset-object-ado.md) в источник данных, указанный в свойстве [Connect](connect-property-rds.md) или [URL-адресе.](url-property-rds.md)
+Отправка ожидающих изменений локально кэшируемых и updatable [Recordset](recordset-object-ado.md) источнику данных, указанному в свойстве Подключение или [свойстве](url-property-rds.md) [URL-адреса.](connect-property-rds.md)
 
 ## <a name="syntax"></a>Синтаксис
 
 *DataControl*. SubmitChanges
 
-*DataFactory*. Подключение SubmitChanges, *Recordset*
+*DataFactory*. SubmitChanges *Connection*, *Recordset*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*DataControl* |Объектная переменная, представляюная [RDS. Объект DataControl.](datacontrol-object-rds.md)|
-|*DataFactory* |Объектная переменная, представляюная [объект RDSServer.DataFactory.](datafactory-object-rdsserver.md)|
-|*Connection* |**Строка,** представляютив подключение, созданное с **помощью RDS. Свойство Connect объекта DataControl.** |
-|*Recordset* |Объектная переменная, представляюная объект **Recordset.**|
+|*DataControl* |Переменная объекта, представляюая [RDS. Объект DataControl.](datacontrol-object-rds.md)|
+|*DataFactory* |Переменная объекта, представляют [объект RDSServer.DataFactory.](datafactory-object-rdsserver.md)|
+|*Connection* |Значение **String,** представляю которое представляет соединение, созданное с **RDS. Свойство Подключение объекта DataControl.** |
+|*Recordset* |Переменная объекта, представляют объект **Recordset.**|
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Свойства [Connect,](connect-property-rds.md) [Server](server-property-rds.md) [и SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) должны быть заданы перед использованием метода **SubmitChanges** с **RDS. Объект DataControl.**
+Свойства [Подключение,](connect-property-rds.md) [server](server-property-rds.md)и [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) должны быть заданы, прежде чем использовать метод **SubmitChanges** с **помощью RDS. Объект DataControl.**
 
-Если вызвать метод [CancelUpdate](cancelupdate-method-rds.md) после вызова **SubmitChanges** для того же объекта **Recordset,** вызов **CancelUpdate** не удастся, так как изменения уже были зафиксированы.
+При вызове метода [CancelUpdate](cancelupdate-method-rds.md) после вызова **SubmitChanges** для того же объекта **Recordset** вызов **CancelUpdate** не удается, так как изменения уже были совершены.
 
-Для изменения отправляются только измененные записи, и либо все изменения будут успешными, либо все они будут сбой вместе.
+Только измененные записи отправляются для изменения, и либо все изменения успешно, либо все они сбой вместе.
 
-**SubmitChanges можно использовать** только с *объектом* **RDSServer.DataFactory** по умолчанию. Настраиваемые бизнес-объекты не могут использовать этот метод.
+Можно использовать **SubmitChanges** только с *объектом* **RDSServer.DataFactory** по умолчанию. Настраиваемые бизнес-объекты не могут использовать этот метод.
 
-Если свойство **URL-адреса** задано, **SubmitChanges** будет отправлять изменения в расположение, указанное URL-адресом.
+Если свойство **URL-адреса** задано, **SubmitChanges** будет отправлять изменения в указанное URL-адресом расположение.
 

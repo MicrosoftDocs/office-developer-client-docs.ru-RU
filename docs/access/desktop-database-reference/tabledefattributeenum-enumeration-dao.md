@@ -1,5 +1,5 @@
 ---
-title: TableDefAttributeEnum enumeration (DAO)
+title: ТаблицаDefAttributeEnum (DAO)
 TOCTitle: TableDefAttributeEnum Enumeration
 ms:assetid: 5a0dea24-9092-1642-a3d9-29f0de0a4ee4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194433(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314240"
 ---
-# <a name="tabledefattributeenum-enumeration-dao"></a>TableDefAttributeEnum enumeration (DAO)
+# <a name="tabledefattributeenum-enumeration-dao"></a>ТаблицаDefAttributeEnum (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Используется со **свойством Attributes** для определения атрибутов объекта **TableDef.**
+Используется с **свойством Атрибуты** для определения атрибутов объекта **TableDef.**
 
 <table>
 <colgroup>
@@ -38,17 +38,17 @@ ms.locfileid: "32314240"
 <tr class="odd">
 <td><p>dbAttachedODBC</p></td>
 <td><p>536870912</p></td>
-<td><p>Связанная таблица базы данных ODBC.</p></td>
+<td><p>Связанная таблица баз данных ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbAttachedTable</p></td>
 <td><p>1073741824</p></td>
-<td><p>Связанная таблица базы данных, не связанная с ODBC.</p></td>
+<td><p>Связанная таблица баз данных, не связанных с ODBC.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbAttachExclusive</p></td>
 <td><p>65536</p></td>
-<td><p>Открывает связанную таблицу яд баз данных Microsoft Access для монопольного использования.</p></td>
+<td><p>Открывает связанную таблицу баз данных Microsoft Access для эксклюзивного использования.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbAttachSavePWD</p></td>
@@ -57,13 +57,13 @@ ms.locfileid: "32314240"
 </tr>
 <tr class="odd">
 <td><p>dbHiddenObject</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Скрытая таблица (для временного использования).</p></td>
 </tr>
 <tr class="even">
 <td><p>dbSystemObject</p></td>
 <td><p>-2147483646</p></td>
-<td><p>Системная таблица.</p></td>
+<td><p>Таблица систем.</p></td>
 </tr>
 </tbody>
 </table>

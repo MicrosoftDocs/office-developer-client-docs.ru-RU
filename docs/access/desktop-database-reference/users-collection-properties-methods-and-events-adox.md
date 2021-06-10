@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события коллекции Users (ADOX)
+title: Свойства, методы и события коллекции пользователей (ADOX)
 TOCTitle: Users collection properties, methods, and events (ADOX)
 ms:assetid: b15b153c-6234-514e-29c5-831801b5259b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249845(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312763"
 ---
-# <a name="users-collection-properties-methods-and-events-adox"></a>Свойства, методы и события коллекции Users (ADOX)
+# <a name="users-collection-properties-methods-and-events-adox"></a>Свойства, методы и события коллекции пользователей (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -23,10 +23,10 @@ ms.locfileid: "32312763"
 - [Свойство Count](count-property-ado.md)
 - [Свойство Item](item-property-ado.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
-- [Метод Append (Пользователи)](append-method-adox-users.md)
-- [Метод Delete (Collections)](delete-method-adox-collections.md)
+- [Метод приложения (Пользователи)](append-method-adox-users.md)
+- [Удаление метода (Коллекции)](delete-method-adox-collections.md)
 - [Метод Refresh](refresh-method-ado.md)
 
 ## <a name="events"></a>События

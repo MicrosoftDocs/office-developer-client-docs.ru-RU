@@ -19,7 +19,7 @@ ms.locfileid: "32314751"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает параметры открытия объекта [Stream.](stream-object-ado.md) Значения можно объединить с операцией OR.
+Указывает параметры открытия объекта [Stream.](stream-object-ado.md) Эти значения можно сочетать с операцией OR.
 
 <table>
 <colgroup>
@@ -37,18 +37,18 @@ ms.locfileid: "32314751"
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenStreamAsync</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Открывает объект <strong>Stream</strong> в асинхронном режиме.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adOpenStreamFromRecord</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Определяет содержимое параметра <em>Source</em> как уже открытый <a href="record-object-ado.md">объект Record.</a> Поведение по умолчанию — рассматривать <em>Source</em> как URL-адрес, который указывает непосредственно на узел в древостройной структуре. Откроется поток по умолчанию, связанный с этим узлом.</p></td>
+<td><p>Определяет содержимое параметра <em>Source</em> для уже открытого объекта <a href="record-object-ado.md">Record.</a> По умолчанию необходимо рассматривать <em>Source</em> как URL-адрес, который указывает непосредственно на узел в структуре дерева. По умолчанию открывается поток, связанный с этим узлом.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adOpenStreamUnspecified</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Значение, используемое по умолчанию. Указывает открытие объекта <strong>Stream</strong> с вариантами по умолчанию.</p></td>
+<td><p>Значение, используемое по умолчанию. Указывает открытие объекта <strong>Stream</strong> с помощью параметров по умолчанию.</p></td>
 </tr>
 </tbody>
 </table>

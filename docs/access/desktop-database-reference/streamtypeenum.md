@@ -1,5 +1,5 @@
 ---
-title: StreamTypeEnum (справочник по базе данных Access для настольных ПК)
+title: StreamTypeEnum (ссылка на настольные базы данных)
 TOCTitle: StreamTypeEnum
 ms:assetid: 3e84c728-0c71-55fb-06f2-7f4e644689ce
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249172(v=office.15)
@@ -38,13 +38,13 @@ ms.locfileid: "32314450"
 <tbody>
 <tr class="odd">
 <td><p><strong>adTypeBinary</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Указывает двоичные данные.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adTypeText</strong></p></td>
-<td><p>2 </p></td>
-<td><p>Значение, используемое по умолчанию. Указывает текстовые данные, которые указаны в наборе символов, указанном <a href="charset-property-ado.md">Charset.</a></p></td>
+<td><p>2</p></td>
+<td><p>Значение, используемое по умолчанию. Указывает текстовые данные, которые указаны в наборе символов, заданных <a href="charset-property-ado.md">Charset.</a></p></td>
 </tr>
 </tbody>
 </table>

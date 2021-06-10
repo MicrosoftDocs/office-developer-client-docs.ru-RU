@@ -1,5 +1,5 @@
 ---
-title: Члены TableDefs (DAO)
+title: Участники TableDefs (DAO)
 TOCTitle: TableDefs Members
 ms:assetid: 7a365303-1e7d-0c01-67ed-defcc76577d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196175(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314086"
 ---
-# <a name="tabledefs-members-dao"></a>Члены TableDefs (DAO)
+# <a name="tabledefs-members-dao"></a>Участники TableDefs (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -36,8 +36,8 @@ ms.locfileid: "32314086"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="tabledefs-append-method-dao.md">Append</a></strong></p></td>
-<td><p>Добавляет новый <strong>TableDef в</strong> <strong>коллекцию TableDefs.</strong></p></td>
+<td><p><strong><a href="tabledefs-append-method-dao.md">Приложение</a></strong></p></td>
+<td><p>Добавляет новый <strong>TableDef в</strong> коллекцию <strong>TableDefs.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledefs-delete-method-dao.md">Delete</a></strong></p></td>
@@ -45,7 +45,7 @@ ms.locfileid: "32314086"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledefs-refresh-method-dao.md">Refresh</a></strong></p></td>
-<td><p>Обновляет объекты в указанном уровне, чтобы отразить текущую схему базы данных.</p></td>
+<td><p>Обновляет объекты указанного коллегии, чтобы отразить текущую схему базы данных.</p></td>
 </tr>
 </tbody>
 </table>

@@ -19,7 +19,7 @@ ms.locfileid: "32312112"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано свойство [Value](value-property-ado.md) с объектами [Field](field-object-ado.md) и [Property](property-object-ado.md) путем отображения значений полей и свойств для ***таблицы Employees.***
+В этом примере демонстрируется свойство [Value](value-property-ado.md) с объектами [Field](field-object-ado.md) и [Property](property-object-ado.md) путем отображения значений поля и свойств для ***таблицы Employees.***
 
 ```vb 
  

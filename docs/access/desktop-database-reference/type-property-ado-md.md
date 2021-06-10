@@ -1,5 +1,5 @@
 ---
-title: Свойство Type (ADO MD)
+title: Свойство type (ADO MD)
 TOCTitle: Type property (ADO MD)
 ms:assetid: 4aaa151e-1f02-aa7d-a9e5-e7019b200924
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249230(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313988"
 ---
-# <a name="type-property-ado-md"></a>Свойство Type (ADO MD)
+# <a name="type-property-ado-md"></a>Свойство type (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -25,7 +25,7 @@ ms.locfileid: "32313988"
 
 Возвращает значение [MemberTypeEnum](membertypeenum.md) и является только для чтения.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Это свойство поддерживается только для объектов [Member,](member-object-ado-md.md) принадлежащих [объекту Level.](level-object-ado-md.md) Ошибка возникает, когда на это свойство ссылается объект **Member,** принадлежащий [объекту Position.](position-object-ado-md.md)
+Это свойство поддерживается только на [объектах Member,](member-object-ado-md.md) принадлежащих [объекту Level.](level-object-ado-md.md) Ошибка возникает, когда это свойство ссылается на **объекты Member,** принадлежащие [объекту Position.](position-object-ado-md.md)
 
