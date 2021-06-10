@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295781"
 ---
-# <a name="connectiontransactions-property-dao"></a><span data-ttu-id="4e54c-102">Свойство Connection.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="4e54c-102">Connection.Transactions property (DAO)</span></span>
+# <a name="connectiontransactions-property-dao"></a><span data-ttu-id="99071-102">Свойство Connection.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="99071-102">Connection.Transactions property (DAO)</span></span>
 
 
-<span data-ttu-id="4e54c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4e54c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="99071-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="99071-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4e54c-104">Возвращает значение, которое указывает на то, поддерживает ли объект транзакций.</span><span class="sxs-lookup"><span data-stu-id="4e54c-104">Returns a value that indicates whether an object supports transactions.</span></span> <span data-ttu-id="4e54c-105">Только для чтения, **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="4e54c-105">Read-only **Boolean**.</span></span>
+<span data-ttu-id="99071-104">Возвращает значение, которое указывает на то, поддерживает ли объект транзакций.</span><span class="sxs-lookup"><span data-stu-id="99071-104">Returns a value that indicates whether an object supports transactions.</span></span> <span data-ttu-id="99071-105">Только для чтения, **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="99071-105">Read-only **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4e54c-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="4e54c-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="99071-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="99071-106">Syntax</span></span>
 
-<span data-ttu-id="4e54c-107">*выражение .* Транзакции</span><span class="sxs-lookup"><span data-stu-id="4e54c-107">*expression* .Transactions</span></span>
+<span data-ttu-id="99071-107">*выражения* . Транзакции</span><span class="sxs-lookup"><span data-stu-id="99071-107">*expression* .Transactions</span></span>
 
-<span data-ttu-id="4e54c-108">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="4e54c-108">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="99071-108">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="99071-108">*expression* A variable that represents a **Connection** object.</span></span>
 

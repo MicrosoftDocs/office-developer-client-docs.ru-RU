@@ -1,5 +1,5 @@
 ---
-title: Метод Containers.Refresh (DAO)
+title: Containers.Refresh method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: a4fe114a-9209-4a01-b7c8-8e83bc5adb04
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821123(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295599"
 ---
-# <a name="containersrefresh-method-dao"></a><span data-ttu-id="e65a8-102">Метод Containers.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="e65a8-102">Containers.Refresh method (DAO)</span></span>
+# <a name="containersrefresh-method-dao"></a><span data-ttu-id="36840-102">Containers.Refresh method (DAO)</span><span class="sxs-lookup"><span data-stu-id="36840-102">Containers.Refresh method (DAO)</span></span>
 
 
-<span data-ttu-id="e65a8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e65a8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="36840-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="36840-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e65a8-104">Не поддерживается для коллекции **[Connections.](connections-collection-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="e65a8-104">Not supported for the **[Connections](connections-collection-dao.md)** collection.</span></span>
+<span data-ttu-id="36840-104">Не поддерживается для коллекции **[Подключения.](connections-collection-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="36840-104">Not supported for the **[Connections](connections-collection-dao.md)** collection.</span></span>
 
-<span data-ttu-id="e65a8-105">Метод Refresh нельзя  использовать с неохраняемой коллекцией, например **Connections, Databases,** **Recordsets,** **Workspaces** или **коллекцией QueryDefs** объекта **Connection.** </span><span class="sxs-lookup"><span data-stu-id="e65a8-105">You can't use the **Refresh** method with collections that aren't persistent, such as **Connections**, **Databases**, **Recordsets**, **Workspaces**, or the **QueryDefs** collection of a **Connection** object.</span></span>
+<span data-ttu-id="36840-105">Нельзя использовать метод  Обновления с неустранительными коллекциями, такими как **Connections,** **Databases,** **Recordsets,** **Workspaces** или **коллекция QueryDefs** объекта **Connection.**</span><span class="sxs-lookup"><span data-stu-id="36840-105">You can't use the **Refresh** method with collections that aren't persistent, such as **Connections**, **Databases**, **Recordsets**, **Workspaces**, or the **QueryDefs** collection of a **Connection** object.</span></span>
 

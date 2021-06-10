@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296089"
 ---
-# <a name="comparebookmarks-method-example-vj"></a><span data-ttu-id="58136-102">Пример использования метода CompareBookmarks (VJ++)</span><span class="sxs-lookup"><span data-stu-id="58136-102">CompareBookmarks method example (VJ++)</span></span>
+# <a name="comparebookmarks-method-example-vj"></a><span data-ttu-id="fe44f-102">Пример использования метода CompareBookmarks (VJ++)</span><span class="sxs-lookup"><span data-stu-id="fe44f-102">CompareBookmarks method example (VJ++)</span></span>
 
 
-<span data-ttu-id="58136-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="58136-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fe44f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fe44f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="58136-104">В этом примере демонстрируется метод [CompareBookmarks.](comparebookmarks-method-ado.md)</span><span class="sxs-lookup"><span data-stu-id="58136-104">This example demonstrates the [CompareBookmarks](comparebookmarks-method-ado.md) method.</span></span> <span data-ttu-id="58136-105">Относительное значение закладок редко требуется, если определенная закладка каким-либо образом не является специальной.</span><span class="sxs-lookup"><span data-stu-id="58136-105">The relative value of bookmarks is seldom needed unless a particular bookmark is somehow special.</span></span>
+<span data-ttu-id="fe44f-104">В этом примере демонстрируется метод [CompareBookmarks.](comparebookmarks-method-ado.md)</span><span class="sxs-lookup"><span data-stu-id="fe44f-104">This example demonstrates the [CompareBookmarks](comparebookmarks-method-ado.md) method.</span></span> <span data-ttu-id="fe44f-105">Относительное значение закладок редко требуется, если определенная закладка не является чем-то особенным.</span><span class="sxs-lookup"><span data-stu-id="fe44f-105">The relative value of bookmarks is seldom needed unless a particular bookmark is somehow special.</span></span>
 
-<span data-ttu-id="58136-106">Назначь случайную строку наборов [записей,](recordset-object-ado.md) производных от таблицы ***"Авторы",*** в качестве цели поиска.</span><span class="sxs-lookup"><span data-stu-id="58136-106">Designate a random row of a [Recordset](recordset-object-ado.md) derived from the ***Authors*** table as the target of a search.</span></span> <span data-ttu-id="58136-107">Затем отобразить положение каждой строки относительно этой цели.</span><span class="sxs-lookup"><span data-stu-id="58136-107">Then display the position of each row relative to that target.</span></span>
+<span data-ttu-id="fe44f-106">В качестве цели поиска назначим  случайный ряд [наборов](recordset-object-ado.md) записей, полученных из таблицы Авторов.</span><span class="sxs-lookup"><span data-stu-id="fe44f-106">Designate a random row of a [Recordset](recordset-object-ado.md) derived from the ***Authors*** table as the target of a search.</span></span> <span data-ttu-id="fe44f-107">Затем отобразить положение каждой строки относительно этой цели.</span><span class="sxs-lookup"><span data-stu-id="fe44f-107">Then display the position of each row relative to that target.</span></span>
 
 ```java 
  

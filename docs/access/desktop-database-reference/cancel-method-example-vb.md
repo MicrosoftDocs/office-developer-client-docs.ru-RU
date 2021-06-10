@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296691"
 ---
-# <a name="cancel-method-example-vb"></a><span data-ttu-id="3b3b7-102">Пример использования метода Cancel (VB)</span><span class="sxs-lookup"><span data-stu-id="3b3b7-102">Cancel method example (VB)</span></span>
+# <a name="cancel-method-example-vb"></a><span data-ttu-id="fc6ba-102">Пример использования метода Cancel (VB)</span><span class="sxs-lookup"><span data-stu-id="fc6ba-102">Cancel method example (VB)</span></span>
 
 
-<span data-ttu-id="3b3b7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3b3b7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fc6ba-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc6ba-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3b3b7-104">В этом примере метод [Cancel](cancel-method-ado.md) используется для отмены команды, которая выполняется в [объекте Connection,](connection-object-ado.md) если подключение занято.</span><span class="sxs-lookup"><span data-stu-id="3b3b7-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
+<span data-ttu-id="fc6ba-104">В этом примере метод [Отмена](cancel-method-ado.md) отмены выполнения команды на [объекте Подключения,](connection-object-ado.md) если подключение загружено.</span><span class="sxs-lookup"><span data-stu-id="fc6ba-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
 
 ```vb 
  

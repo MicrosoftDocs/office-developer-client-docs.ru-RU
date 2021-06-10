@@ -1,5 +1,5 @@
 ---
-title: Справочник по объекту Container (DAO)
+title: Ссылка на объект контейнера (DAO)
 TOCTitle: Container Object
 ms:assetid: 494630ce-f71e-4876-990d-088cd8b6e8c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124656(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295627"
 ---
-# <a name="container-object-reference-dao"></a><span data-ttu-id="38828-102">Справочник по объекту контейнера (DAO)</span><span class="sxs-lookup"><span data-stu-id="38828-102">Container object reference (DAO)</span></span>
+# <a name="container-object-reference-dao"></a><span data-ttu-id="69556-102">Ссылка на объект контейнера (DAO)</span><span class="sxs-lookup"><span data-stu-id="69556-102">Container object reference (DAO)</span></span>
 
-<span data-ttu-id="38828-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="38828-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="69556-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69556-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="38828-104">Объект Container (DAO)</span><span class="sxs-lookup"><span data-stu-id="38828-104">Container object (DAO)</span></span>](container-object-dao.md)
-- [<span data-ttu-id="38828-105">Контейнерные члены (DAO)</span><span class="sxs-lookup"><span data-stu-id="38828-105">Container members (DAO)</span></span>](container-members-dao.md)
-- [<span data-ttu-id="38828-106">Свойства контейнера (DAO)</span><span class="sxs-lookup"><span data-stu-id="38828-106">Container properties (DAO)</span></span>](container-properties-dao.md)
+- [<span data-ttu-id="69556-104">Контейнерный объект (DAO)</span><span class="sxs-lookup"><span data-stu-id="69556-104">Container object (DAO)</span></span>](container-object-dao.md)
+- [<span data-ttu-id="69556-105">Участники контейнера (DAO)</span><span class="sxs-lookup"><span data-stu-id="69556-105">Container members (DAO)</span></span>](container-members-dao.md)
+- [<span data-ttu-id="69556-106">Свойства контейнера (DAO)</span><span class="sxs-lookup"><span data-stu-id="69556-106">Container properties (DAO)</span></span>](container-properties-dao.md)
 

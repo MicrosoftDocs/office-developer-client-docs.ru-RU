@@ -14,25 +14,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295970"
 ---
-# <a name="connectioncancel-method-dao"></a><span data-ttu-id="38c19-102">Метод Connection.Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="38c19-102">Connection.Cancel method (DAO)</span></span>
+# <a name="connectioncancel-method-dao"></a><span data-ttu-id="d6f6d-102">Метод Connection.Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="d6f6d-102">Connection.Cancel method (DAO)</span></span>
 
-<span data-ttu-id="38c19-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="38c19-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d6f6d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6f6d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="38c19-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="38c19-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d6f6d-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d6f6d-104">Syntax</span></span>
 
-<span data-ttu-id="38c19-105">*выражение .* Отмена</span><span class="sxs-lookup"><span data-stu-id="38c19-105">*expression* .Cancel</span></span>
+<span data-ttu-id="d6f6d-105">*выражения* . Отмена</span><span class="sxs-lookup"><span data-stu-id="d6f6d-105">*expression* .Cancel</span></span>
 
-<span data-ttu-id="38c19-106">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="38c19-106">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="d6f6d-106">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="d6f6d-106">*expression* A variable that represents a **Connection** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="38c19-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="38c19-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d6f6d-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="d6f6d-107">Remarks</span></span>
 
-<span data-ttu-id="38c19-108">Используйте метод **Cancel,** чтобы завершить выполнение асинхронного вызова метода **Execute** или **OpenConnection** (то есть метод был вызван с помощью параметра dbRunAsync).</span><span class="sxs-lookup"><span data-stu-id="38c19-108">Use the **Cancel** method to terminate execution of an asynchronous **Execute** or **OpenConnection** method call (that is, the method was invoked with the dbRunAsync option).</span></span> <span data-ttu-id="38c19-109">**Отмена** возвращает ошибку времени запуска, если dbRunAsync не использовался в методе, который вы пытаетесь завершить.</span><span class="sxs-lookup"><span data-stu-id="38c19-109">**Cancel** will return a run-time error if dbRunAsync was not used in the method you're trying to terminate.</span></span>
+<span data-ttu-id="d6f6d-108">Используйте метод **Cancel** для прекращения выполнения асинхронного вызова метода **Выполнения** или **OpenConnection** (то есть метод вызывался с помощью параметра dbRunAsync).</span><span class="sxs-lookup"><span data-stu-id="d6f6d-108">Use the **Cancel** method to terminate execution of an asynchronous **Execute** or **OpenConnection** method call (that is, the method was invoked with the dbRunAsync option).</span></span> <span data-ttu-id="d6f6d-109">**Отмена** возвращает временную ошибку, если dbRunAsync не использовался в методе, который вы пытаетесь завершить.</span><span class="sxs-lookup"><span data-stu-id="d6f6d-109">**Cancel** will return a run-time error if dbRunAsync was not used in the method you're trying to terminate.</span></span>
 
-<span data-ttu-id="38c19-110">Ошибка возникает, если после вызова метода **Cancel** вы попытались со ссылкой на объект, который был бы создан асинхронным вызовом **OpenConnection** (то есть объект **Connection,** из которого вы вызывали метод **Cancel).**</span><span class="sxs-lookup"><span data-stu-id="38c19-110">An error will occur if, following a **Cancel** method call, you try to reference the object that would have been created by an asynchronous **OpenConnection** call (that is, the **Connection** object from which you called the **Cancel** method).</span></span>
+<span data-ttu-id="d6f6d-110">Ошибка будет возникать,  если после вызова метода Отмены вы попытайтесь ссылаться на объект, созданный асинхронным вызовом **OpenConnection** (то есть объектом Подключения, из которого вы назвали метод  **Отмены).**</span><span class="sxs-lookup"><span data-stu-id="d6f6d-110">An error will occur if, following a **Cancel** method call, you try to reference the object that would have been created by an asynchronous **OpenConnection** call (that is, the **Connection** object from which you called the **Cancel** method).</span></span>
 
-## <a name="example"></a><span data-ttu-id="38c19-111">Пример</span><span class="sxs-lookup"><span data-stu-id="38c19-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d6f6d-111">Пример</span><span class="sxs-lookup"><span data-stu-id="d6f6d-111">Example</span></span>
 
-<span data-ttu-id="38c19-112">В этом примере свойство **StillExecuting** и метод **Cancel** используются для асинхронного открытия объекта **Connection.**</span><span class="sxs-lookup"><span data-stu-id="38c19-112">This example uses the **StillExecuting** property and the **Cancel** method to asynchronously open a **Connection** object.</span></span>
+<span data-ttu-id="d6f6d-112">В этом примере свойство **StillExecuting** и метод **Cancel** используются для асинхронного открытия объекта **Подключения.**</span><span class="sxs-lookup"><span data-stu-id="d6f6d-112">This example uses the **StillExecuting** property and the **Cancel** method to asynchronously open a **Connection** object.</span></span>
 
 ```vb
     Sub CancelConnectionX() 

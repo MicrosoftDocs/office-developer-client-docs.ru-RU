@@ -1,5 +1,5 @@
 ---
-title: Columns and Tables Append Methods, Name property example (VB)
+title: Столбцы и методы приложения таблиц, пример свойства name (VB)
 TOCTitle: Columns and Tables Append Methods, Name property example (VB)
 ms:assetid: 39458400-f30c-0636-19f2-c2c2788a6534
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249140(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296229"
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="b9b60-102">Columns and Tables Append Methods, Name property example (VB)</span><span class="sxs-lookup"><span data-stu-id="b9b60-102">Columns and Tables Append Methods, Name property example (VB)</span></span>
+# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="a336b-102">Столбцы и методы приложения таблиц, пример свойства name (VB)</span><span class="sxs-lookup"><span data-stu-id="a336b-102">Columns and Tables Append Methods, Name property example (VB)</span></span>
 
 
-<span data-ttu-id="b9b60-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9b60-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a336b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a336b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b9b60-104">В следующем коде показано, как создать таблицу.</span><span class="sxs-lookup"><span data-stu-id="b9b60-104">The following code demonstrates how to create a new table.</span></span>
+<span data-ttu-id="a336b-104">В следующем коде показано, как создать новую таблицу.</span><span class="sxs-lookup"><span data-stu-id="a336b-104">The following code demonstrates how to create a new table.</span></span>
 
 ```vb 
  

@@ -1,5 +1,5 @@
 ---
-title: Объект Cellset (справочник по ADO MD)
+title: Объект Cellset (ссылка ADO MD)
 TOCTitle: Cellset object (ADO MD)
 ms:assetid: 0118476d-8cb6-49ca-80ac-5ace7987c878
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248780(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296537"
 ---
-# <a name="cellset-object-ado-md-reference"></a><span data-ttu-id="277f9-102">Объект Cellset (справочник по ADO MD)</span><span class="sxs-lookup"><span data-stu-id="277f9-102">Cellset object (ADO MD reference)</span></span>
+# <a name="cellset-object-ado-md-reference"></a><span data-ttu-id="aa978-102">Объект Cellset (ссылка ADO MD)</span><span class="sxs-lookup"><span data-stu-id="aa978-102">Cellset object (ADO MD reference)</span></span>
 
-<span data-ttu-id="277f9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="277f9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="aa978-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aa978-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="277f9-104">Cellset object (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="277f9-104">Cellset object (ADO MD)</span></span>](cellset-object-ado-md.md)
-- [<span data-ttu-id="277f9-105">Cellset properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="277f9-105">Cellset properties, methods, and events (ADO MD)</span></span>](cellset-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="aa978-104">Объект Cellset (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="aa978-104">Cellset object (ADO MD)</span></span>](cellset-object-ado-md.md)
+- [<span data-ttu-id="aa978-105">Свойства, методы и события cellset (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="aa978-105">Cellset properties, methods, and events (ADO MD)</span></span>](cellset-properties-methods-and-events-ado-md.md)
 

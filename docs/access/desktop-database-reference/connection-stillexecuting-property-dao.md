@@ -14,27 +14,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295795"
 ---
-# <a name="connectionstillexecuting-property-dao"></a><span data-ttu-id="e2ae5-102">Свойство Connection.StillExecuting (DAO)</span><span class="sxs-lookup"><span data-stu-id="e2ae5-102">Connection.StillExecuting property (DAO)</span></span>
+# <a name="connectionstillexecuting-property-dao"></a><span data-ttu-id="0ff35-102">Свойство Connection.StillExecuting (DAO)</span><span class="sxs-lookup"><span data-stu-id="0ff35-102">Connection.StillExecuting property (DAO)</span></span>
 
-<span data-ttu-id="e2ae5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e2ae5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0ff35-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0ff35-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e2ae5-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e2ae5-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0ff35-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="0ff35-104">Syntax</span></span>
 
-<span data-ttu-id="e2ae5-105">*выражение .* StillExecuting</span><span class="sxs-lookup"><span data-stu-id="e2ae5-105">*expression* .StillExecuting</span></span>
+<span data-ttu-id="0ff35-105">*выражения* . StillExecuting</span><span class="sxs-lookup"><span data-stu-id="0ff35-105">*expression* .StillExecuting</span></span>
 
-<span data-ttu-id="e2ae5-106">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="e2ae5-106">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="0ff35-106">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="0ff35-106">*expression* A variable that represents a **Connection** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="e2ae5-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="e2ae5-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0ff35-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="0ff35-107">Remarks</span></span>
 
-<span data-ttu-id="e2ae5-108">Используйте свойство **StillExecuting,** чтобы определить, завершен ли  последний метод асинхронного выполнения или **OpenConnection** (то есть метод, выполняемый с помощью параметра **dbRunAsync).**</span><span class="sxs-lookup"><span data-stu-id="e2ae5-108">Use the **StillExecuting** property to determine if the most recently called asynchronous **Execute** or **OpenConnection** method (that is, a method executed with the **dbRunAsync** option) is complete.</span></span> <span data-ttu-id="e2ae5-109">Свойство **StillExecuting** имеет свойство **True,** но получить доступ к любому возвращенного объекта невозможно.</span><span class="sxs-lookup"><span data-stu-id="e2ae5-109">While the **StillExecuting** property is **True**, any returned object cannot be accessed.</span></span>
+<span data-ttu-id="0ff35-108">Используйте **свойство StillExecuting,** чтобы определить, завершен ли  последний метод асинхронного выполнения или **OpenConnection** (то есть метод, выполненный с помощью параметра **dbRunAsync).**</span><span class="sxs-lookup"><span data-stu-id="0ff35-108">Use the **StillExecuting** property to determine if the most recently called asynchronous **Execute** or **OpenConnection** method (that is, a method executed with the **dbRunAsync** option) is complete.</span></span> <span data-ttu-id="0ff35-109">Несмотря на то, что свойство **StillExecuting** **является True,** доступ к любому возвращенного объекта невозможно получить.</span><span class="sxs-lookup"><span data-stu-id="0ff35-109">While the **StillExecuting** property is **True**, any returned object cannot be accessed.</span></span>
 
-<span data-ttu-id="e2ae5-110">После того как **свойство StillExecuting** возвращает **false,** после вызова **OpenConnection,** который возвращает связанный объект **Connection,** на объект можно ссылаться.</span><span class="sxs-lookup"><span data-stu-id="e2ae5-110">Once the **StillExecuting** property returns **False**, following the **OpenConnection** call that returns the associated **Connection** object, the object can be referenced.</span></span> <span data-ttu-id="e2ae5-111">Если свойство **StillExecuting** остается **true,** ссылки на объект могут не быть, кроме чтения свойства **StillExecuting.**</span><span class="sxs-lookup"><span data-stu-id="e2ae5-111">So long as **StillExecuting** remains **True**, the object may not be referenced, other than to read the **StillExecuting** property.</span></span>
+<span data-ttu-id="0ff35-110">После возвращения **свойства StillExecuting** **False** после вызова **OpenConnection,**  возвращаемого связанному объекту Подключения, можно ссылаться на объект.</span><span class="sxs-lookup"><span data-stu-id="0ff35-110">Once the **StillExecuting** property returns **False**, following the **OpenConnection** call that returns the associated **Connection** object, the object can be referenced.</span></span> <span data-ttu-id="0ff35-111">До тех пор, пока **StillExecuting** остается **True,** объект может не ссылаться, кроме как на чтение свойства **StillExecuting.**</span><span class="sxs-lookup"><span data-stu-id="0ff35-111">So long as **StillExecuting** remains **True**, the object may not be referenced, other than to read the **StillExecuting** property.</span></span>
 
-<span data-ttu-id="e2ae5-112">Используйте метод **[Cancel,](connection-cancel-method-dao.md)** чтобы завершить выполнение задачи.</span><span class="sxs-lookup"><span data-stu-id="e2ae5-112">Use the **[Cancel](connection-cancel-method-dao.md)** method to terminate execution of a task in progress.</span></span>
+<span data-ttu-id="0ff35-112">Чтобы завершить выполнение задачи в процессе выполнения, используйте метод **[Cancel.](connection-cancel-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="0ff35-112">Use the **[Cancel](connection-cancel-method-dao.md)** method to terminate execution of a task in progress.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e2ae5-113">Пример</span><span class="sxs-lookup"><span data-stu-id="e2ae5-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0ff35-113">Пример</span><span class="sxs-lookup"><span data-stu-id="0ff35-113">Example</span></span>
 
-<span data-ttu-id="e2ae5-114">В этом примере свойство **StillExecuting** и метод **Cancel** используются для асинхронного открытия **объекта Connection.**</span><span class="sxs-lookup"><span data-stu-id="e2ae5-114">This example uses the **StillExecuting** property and the **Cancel** method to asynchronously open a **Connection** object.</span></span>
+<span data-ttu-id="0ff35-114">В этом примере свойство **StillExecuting** и метод **Cancel** используются для асинхронного открытия объекта **Подключения.**</span><span class="sxs-lookup"><span data-stu-id="0ff35-114">This example uses the **StillExecuting** property and the **Cancel** method to asynchronously open a **Connection** object.</span></span>
 
 ```vb
     Sub CancelConnectionX() 

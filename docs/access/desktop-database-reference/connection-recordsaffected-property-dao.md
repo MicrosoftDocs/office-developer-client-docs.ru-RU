@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295816"
 ---
-# <a name="connectionrecordsaffected-property-dao"></a><span data-ttu-id="36dc0-102">Свойство Connection.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="36dc0-102">Connection.RecordsAffected property (DAO)</span></span>
+# <a name="connectionrecordsaffected-property-dao"></a><span data-ttu-id="9d380-102">Свойство Connection.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="9d380-102">Connection.RecordsAffected property (DAO)</span></span>
 
 
-<span data-ttu-id="36dc0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="36dc0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9d380-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9d380-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="36dc0-104">Возвращает количество записей, затронутых последним вызовом метода **[Execute.](connection-execute-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="36dc0-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
+<span data-ttu-id="9d380-104">Возвращает количество записей, затронутых самым недавно вызываемой методом **[Выполнения.](connection-execute-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="9d380-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="36dc0-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="36dc0-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9d380-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9d380-105">Syntax</span></span>
 
-<span data-ttu-id="36dc0-106">*выражение .* RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="36dc0-106">*expression* .RecordsAffected</span></span>
+<span data-ttu-id="9d380-106">*выражения* . RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="9d380-106">*expression* .RecordsAffected</span></span>
 
-<span data-ttu-id="36dc0-107">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="36dc0-107">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="9d380-107">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="9d380-107">*expression* A variable that represents a **Connection** object.</span></span>
 

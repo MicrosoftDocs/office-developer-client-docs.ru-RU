@@ -1,5 +1,5 @@
 ---
-title: Справочник по объекту Containers (DAO)
+title: Ссылка на объект контейнеры (DAO)
 TOCTitle: Containers Object
 ms:assetid: 62cc5de0-4528-4068-9104-581b0c987c05
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142215(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295564"
 ---
-# <a name="containers-object-reference-dao"></a><span data-ttu-id="d7ec1-102">Справочник по объекту Containers (DAO)</span><span class="sxs-lookup"><span data-stu-id="d7ec1-102">Containers object reference (DAO)</span></span>
+# <a name="containers-object-reference-dao"></a><span data-ttu-id="83a80-102">Ссылка на объект контейнеры (DAO)</span><span class="sxs-lookup"><span data-stu-id="83a80-102">Containers object reference (DAO)</span></span>
 
-<span data-ttu-id="d7ec1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7ec1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="83a80-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="83a80-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="d7ec1-104">Коллекция Containers (DAO)</span><span class="sxs-lookup"><span data-stu-id="d7ec1-104">Containers collection (DAO)</span></span>](containers-collection-dao.md)
-- [<span data-ttu-id="d7ec1-105">Containers members (DAO)</span><span class="sxs-lookup"><span data-stu-id="d7ec1-105">Containers members (DAO)</span></span>](containers-members-dao.md)
-- [<span data-ttu-id="d7ec1-106">Свойства контейнеров (DAO)</span><span class="sxs-lookup"><span data-stu-id="d7ec1-106">Containers properties (DAO)</span></span>](containers-properties-dao.md)
-- [<span data-ttu-id="d7ec1-107">Методы Containers (DAO)</span><span class="sxs-lookup"><span data-stu-id="d7ec1-107">Containers methods (DAO)</span></span>](containers-methods-dao.md)
+- [<span data-ttu-id="83a80-104">Коллекция контейнеров (DAO)</span><span class="sxs-lookup"><span data-stu-id="83a80-104">Containers collection (DAO)</span></span>](containers-collection-dao.md)
+- [<span data-ttu-id="83a80-105">Члены контейнеров (DAO)</span><span class="sxs-lookup"><span data-stu-id="83a80-105">Containers members (DAO)</span></span>](containers-members-dao.md)
+- [<span data-ttu-id="83a80-106">Свойства контейнеров (DAO)</span><span class="sxs-lookup"><span data-stu-id="83a80-106">Containers properties (DAO)</span></span>](containers-properties-dao.md)
+- [<span data-ttu-id="83a80-107">Методы контейнеров (DAO)</span><span class="sxs-lookup"><span data-stu-id="83a80-107">Containers methods (DAO)</span></span>](containers-methods-dao.md)
 

@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296040"
 ---
-# <a name="complextype-object-dao"></a><span data-ttu-id="cb203-102">Объект ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="cb203-102">ComplexType object (DAO)</span></span>
+# <a name="complextype-object-dao"></a><span data-ttu-id="7737e-102">Объект ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="7737e-102">ComplexType object (DAO)</span></span>
 
-<span data-ttu-id="cb203-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cb203-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7737e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7737e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cb203-104">Представляет поле с несколькими значениями.</span><span class="sxs-lookup"><span data-stu-id="cb203-104">Represents a multi-valued field.</span></span>
+<span data-ttu-id="7737e-104">Представляет многомерное поле.</span><span class="sxs-lookup"><span data-stu-id="7737e-104">Represents a multi-valued field.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="cb203-105">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="cb203-105">Version information</span></span>
+## <a name="version-information"></a><span data-ttu-id="7737e-105">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="7737e-105">Version information</span></span>
 
-<span data-ttu-id="cb203-106">Добавлен в версии: Access 2007</span><span class="sxs-lookup"><span data-stu-id="cb203-106">Version added: Access 2007</span></span>
+<span data-ttu-id="7737e-106">Добавлен в версии: Access 2007</span><span class="sxs-lookup"><span data-stu-id="7737e-106">Version added: Access 2007</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="cb203-107">Заметки</span><span class="sxs-lookup"><span data-stu-id="cb203-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7737e-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="7737e-107">Remarks</span></span>
 
-<span data-ttu-id="cb203-108">Используйте свойство **[Fields,](complextype-fields-property-dao.md)** чтобы вернуть коллекцию **[Fields](fields-collection-dao.md)** для **объекта ComplexType.**</span><span class="sxs-lookup"><span data-stu-id="cb203-108">Use the **[Fields](complextype-fields-property-dao.md)** property to return the **[Fields](fields-collection-dao.md)** collection for the **ComplexType** object.</span></span>
+<span data-ttu-id="7737e-108">Используйте свойство **[Fields,](complextype-fields-property-dao.md)** чтобы вернуть коллекцию **[Поля](fields-collection-dao.md)** для объекта **ComplexType.**</span><span class="sxs-lookup"><span data-stu-id="7737e-108">Use the **[Fields](complextype-fields-property-dao.md)** property to return the **[Fields](fields-collection-dao.md)** collection for the **ComplexType** object.</span></span>
 

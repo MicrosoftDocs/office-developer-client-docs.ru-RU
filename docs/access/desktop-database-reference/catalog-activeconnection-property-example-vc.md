@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296600"
 ---
-# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="a1867-102">Пример использования свойства ActiveConnection объекта Catalog (VC++)</span><span class="sxs-lookup"><span data-stu-id="a1867-102">Catalog ActiveConnection property example (VC++)</span></span>
+# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="a046b-102">Пример использования свойства ActiveConnection объекта Catalog (VC++)</span><span class="sxs-lookup"><span data-stu-id="a046b-102">Catalog ActiveConnection property example (VC++)</span></span>
 
 
-<span data-ttu-id="a1867-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a1867-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a046b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a046b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a1867-104">Установка для [свойства ActiveConnection](activeconnection-property-adox.md) допустимого открытого подключения "открывает" каталог.</span><span class="sxs-lookup"><span data-stu-id="a1867-104">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog.</span></span> <span data-ttu-id="a1867-105">Из открытого каталога можно получить доступ к объектам схемы, которые содержатся в этом каталоге.</span><span class="sxs-lookup"><span data-stu-id="a1867-105">From an open catalog, you can access the schema objects contained within that catalog.</span></span>
+<span data-ttu-id="a046b-104">Настройка свойства [ActiveConnection допустимого](activeconnection-property-adox.md) открытого подключения "открывает" каталог.</span><span class="sxs-lookup"><span data-stu-id="a046b-104">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog.</span></span> <span data-ttu-id="a046b-105">Из открытого каталога можно получить доступ к объектам схемы, содержамся в этом каталоге.</span><span class="sxs-lookup"><span data-stu-id="a046b-105">From an open catalog, you can access the schema objects contained within that catalog.</span></span>
 
 ```cpp 
  

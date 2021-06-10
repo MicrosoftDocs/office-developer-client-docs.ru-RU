@@ -1,5 +1,5 @@
 ---
-title: Cell object (ADO MD reference)
+title: Объект Cell (ссылка ADO MD)
 TOCTitle: Cell object (ADO MD)
 ms:assetid: 2db153d4-ff06-44fd-b20d-285ad505efa6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249073(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296565"
 ---
-# <a name="cell-object-ado-md-reference"></a><span data-ttu-id="0aff4-102">Cell object (ADO MD reference)</span><span class="sxs-lookup"><span data-stu-id="0aff4-102">Cell object (ADO MD reference)</span></span>
+# <a name="cell-object-ado-md-reference"></a><span data-ttu-id="7e6b2-102">Объект Cell (ссылка ADO MD)</span><span class="sxs-lookup"><span data-stu-id="7e6b2-102">Cell object (ADO MD reference)</span></span>
 
-<span data-ttu-id="0aff4-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0aff4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7e6b2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e6b2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="0aff4-104">Cell object (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="0aff4-104">Cell object (ADO MD)</span></span>](cell-object-ado-md.md)
-- [<span data-ttu-id="0aff4-105">Cell properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="0aff4-105">Cell properties, methods, and events (ADO MD)</span></span>](cell-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="7e6b2-104">Объект Cell (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="7e6b2-104">Cell object (ADO MD)</span></span>](cell-object-ado-md.md)
+- [<span data-ttu-id="7e6b2-105">Свойства ячейки, методы и события (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="7e6b2-105">Cell properties, methods, and events (ADO MD)</span></span>](cell-properties-methods-and-events-ado-md.md)
 

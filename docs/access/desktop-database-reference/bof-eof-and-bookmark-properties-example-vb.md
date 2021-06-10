@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296831"
 ---
-# <a name="bof-eof-and-bookmark-properties-example-vb"></a><span data-ttu-id="2aecd-102">Пример использования свойств BOF, EOF и Bookmark (VB)</span><span class="sxs-lookup"><span data-stu-id="2aecd-102">BOF, EOF, and Bookmark properties example (VB)</span></span>
+# <a name="bof-eof-and-bookmark-properties-example-vb"></a><span data-ttu-id="08de9-102">Пример использования свойств BOF, EOF и Bookmark (VB)</span><span class="sxs-lookup"><span data-stu-id="08de9-102">BOF, EOF, and Bookmark properties example (VB)</span></span>
 
 
-<span data-ttu-id="2aecd-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2aecd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="08de9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="08de9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2aecd-104">В этом примере свойства [BOF](bof-eof-properties-ado.md) и [EOF](bof-eof-properties-ado.md) используются для отображения сообщения, если пользователь пытается перейти к первой или последней записи [объекта Recordset.](recordset-object-ado.md)</span><span class="sxs-lookup"><span data-stu-id="2aecd-104">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="2aecd-105">Он использует свойство [Bookmark,](bookmark-property-ado.md) чтобы позволить пользователю пометить запись в **наборе записей** и вернуться к ней позже.</span><span class="sxs-lookup"><span data-stu-id="2aecd-105">It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="08de9-104">В этом примере свойства [BOF](bof-eof-properties-ado.md) и [EOF](bof-eof-properties-ado.md) используются для отображения сообщения, если пользователь пытается перейти мимо первой или последней записи [recordset.](recordset-object-ado.md)</span><span class="sxs-lookup"><span data-stu-id="08de9-104">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="08de9-105">Оно использует свойство [Bookmark,](bookmark-property-ado.md) чтобы позволить пользователю пометить запись в **наборе Recordset** и вернуться к ней позже.</span><span class="sxs-lookup"><span data-stu-id="08de9-105">It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
 ```vb 
  
@@ -125,7 +125,7 @@ End Sub
 'EndBOFVB 
 ```
 
-<span data-ttu-id="2aecd-106">В этом примере свойства **Bookmark** и [Filter](filter-property-ado.md) используются для создания ограниченного представления **объекта Recordset.**</span><span class="sxs-lookup"><span data-stu-id="2aecd-106">This example uses the **Bookmark** and [Filter](filter-property-ado.md) properties to create a limited view of the **Recordset**.</span></span> <span data-ttu-id="2aecd-107">Доступны только записи, на которые ссылается массив закладок.</span><span class="sxs-lookup"><span data-stu-id="2aecd-107">Only records referenced by the array of bookmarks are accessible.</span></span>
+<span data-ttu-id="08de9-106">В этом примере **свойства Bookmark** и [Filter](filter-property-ado.md) используются для создания ограниченного представления **наборов записей.**</span><span class="sxs-lookup"><span data-stu-id="08de9-106">This example uses the **Bookmark** and [Filter](filter-property-ado.md) properties to create a limited view of the **Recordset**.</span></span> <span data-ttu-id="08de9-107">Доступны только записи, на которые ссылается массив закладок.</span><span class="sxs-lookup"><span data-stu-id="08de9-107">Only records referenced by the array of bookmarks are accessible.</span></span>
 
 ```vb 
  

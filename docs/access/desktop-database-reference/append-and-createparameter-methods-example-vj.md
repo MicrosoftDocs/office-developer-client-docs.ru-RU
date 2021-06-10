@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32297118"
 ---
-# <a name="append-and-createparameter-methods-example-vj"></a><span data-ttu-id="1339b-102">Пример использования методов Append и CreateParameter (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1339b-102">Append and CreateParameter methods example (VJ++)</span></span>
+# <a name="append-and-createparameter-methods-example-vj"></a><span data-ttu-id="dc7b2-102">Пример использования методов Append и CreateParameter (VJ++)</span><span class="sxs-lookup"><span data-stu-id="dc7b2-102">Append and CreateParameter methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="1339b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1339b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dc7b2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dc7b2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1339b-104">В этом примере используются [методы Append](append-method-ado.md) и [CreateParameter](createparameter-method-ado.md) для выполнения хранимой процедуры с входным параметром.</span><span class="sxs-lookup"><span data-stu-id="1339b-104">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.</span></span>
+<span data-ttu-id="dc7b2-104">В этом примере используются [методы Append](append-method-ado.md) и [CreateParameter](createparameter-method-ado.md) для выполнения сохраненной процедуры с параметром ввода.</span><span class="sxs-lookup"><span data-stu-id="dc7b2-104">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.</span></span>
 
 ```java 
  

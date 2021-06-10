@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295802"
 ---
-# <a name="connectionupdatable-property-dao"></a><span data-ttu-id="5667d-102">Свойство Connection.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="5667d-102">Connection.Updatable property (DAO)</span></span>
+# <a name="connectionupdatable-property-dao"></a><span data-ttu-id="1fccf-102">Свойство Connection.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fccf-102">Connection.Updatable property (DAO)</span></span>
 
 
-<span data-ttu-id="5667d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5667d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1fccf-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1fccf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5667d-104">Возвращает значение, которое указывает на то, можно ли изменить DAO объект.</span><span class="sxs-lookup"><span data-stu-id="5667d-104">Returns a value that indicates whether you can change a DAO object.</span></span> <span data-ttu-id="5667d-105">Boolean только **для чтения.** Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="5667d-105">Read-only **Boolean**.Read-only.</span></span>
+<span data-ttu-id="1fccf-104">Возвращает значение, которое указывает на то, можно ли изменить DAO объект.</span><span class="sxs-lookup"><span data-stu-id="1fccf-104">Returns a value that indicates whether you can change a DAO object.</span></span> <span data-ttu-id="1fccf-105">Только для чтения **Boolean**. Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="1fccf-105">Read-only **Boolean**.Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="5667d-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="5667d-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1fccf-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="1fccf-106">Syntax</span></span>
 
-<span data-ttu-id="5667d-107">*выражение .* Updatable</span><span class="sxs-lookup"><span data-stu-id="5667d-107">*expression* .Updatable</span></span>
+<span data-ttu-id="1fccf-107">*выражения* . Updatable</span><span class="sxs-lookup"><span data-stu-id="1fccf-107">*expression* .Updatable</span></span>
 
-<span data-ttu-id="5667d-108">*выражение* Выражение, которое возвращает объект **Connection.**</span><span class="sxs-lookup"><span data-stu-id="5667d-108">*expression* An expression that returns a **Connection** object.</span></span>
+<span data-ttu-id="1fccf-108">*выражение* Выражение, возвращаемая **объекту Подключение.**</span><span class="sxs-lookup"><span data-stu-id="1fccf-108">*expression* An expression that returns a **Connection** object.</span></span>
 

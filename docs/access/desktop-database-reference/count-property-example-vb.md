@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295466"
 ---
-# <a name="count-property-example-vb"></a><span data-ttu-id="62ef5-102">Пример использования свойства Count (VB)</span><span class="sxs-lookup"><span data-stu-id="62ef5-102">Count property example (VB)</span></span>
+# <a name="count-property-example-vb"></a><span data-ttu-id="0419d-102">Пример использования свойства Count (VB)</span><span class="sxs-lookup"><span data-stu-id="0419d-102">Count property example (VB)</span></span>
 
 
-<span data-ttu-id="62ef5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="62ef5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0419d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0419d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="62ef5-104">В этом примере показано свойство [Count](count-property-ado.md) с двумя коллекциями в базе ***данных Employee.***</span><span class="sxs-lookup"><span data-stu-id="62ef5-104">This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employee*** database.</span></span> <span data-ttu-id="62ef5-105">Свойство получает количество объектов в каждой коллекции и задает верхний предел для циклов, которые нумерируют эти коллекции.</span><span class="sxs-lookup"><span data-stu-id="62ef5-105">The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections.</span></span> <span data-ttu-id="62ef5-106">Еще один способ мимикировать эти коллекции без использования свойства **Count** состоит в использовании заявлений.</span><span class="sxs-lookup"><span data-stu-id="62ef5-106">Another way to enumerate these collections without using the **Count** property would be to use statements.</span></span>
+<span data-ttu-id="0419d-104">В этом примере показано [свойство Count](count-property-ado.md) с двумя коллекциями в базе ***данных сотрудников.***</span><span class="sxs-lookup"><span data-stu-id="0419d-104">This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employee*** database.</span></span> <span data-ttu-id="0419d-105">Свойство получает количество объектов в каждой коллекции и задает верхний предел для циклов, которые окрикируют эти коллекции.</span><span class="sxs-lookup"><span data-stu-id="0419d-105">The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections.</span></span> <span data-ttu-id="0419d-106">Еще один способ, чтобы оготать эти коллекции без использования свойства **Count,** состоит в использовании заявлений.</span><span class="sxs-lookup"><span data-stu-id="0419d-106">Another way to enumerate these collections without using the **Count** property would be to use statements.</span></span>
 
 ```vb 
  

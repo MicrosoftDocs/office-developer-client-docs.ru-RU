@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296733"
 ---
-# <a name="cachesize-property-example-vc"></a><span data-ttu-id="7c555-102">Пример использования свойства CacheSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="7c555-102">CacheSize property example (VC++)</span></span>
+# <a name="cachesize-property-example-vc"></a><span data-ttu-id="a1cf0-102">Пример использования свойства CacheSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="a1cf0-102">CacheSize property example (VC++)</span></span>
 
 
-<span data-ttu-id="7c555-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7c555-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a1cf0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a1cf0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7c555-104">В этом примере свойство [CacheSize](cachesize-property-ado.md) используется для демонстрации разницы в производительности для операции, выполняемой с кэшом с 30 записями и без него.</span><span class="sxs-lookup"><span data-stu-id="7c555-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
+<span data-ttu-id="a1cf0-104">В этом примере свойство [CacheSize](cachesize-property-ado.md) показывает разницу в производительности для операции, выполненной с кэшом с 30 записью и без него.</span><span class="sxs-lookup"><span data-stu-id="a1cf0-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
 
 ```cpp 
  

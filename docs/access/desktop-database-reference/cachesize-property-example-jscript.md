@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296740"
 ---
-# <a name="cachesize-property-example-jscript"></a><span data-ttu-id="a41cd-102">Пример использования свойства CacheSize (JScript)</span><span class="sxs-lookup"><span data-stu-id="a41cd-102">CacheSize property example (JScript)</span></span>
+# <a name="cachesize-property-example-jscript"></a><span data-ttu-id="6b63d-102">Пример использования свойства CacheSize (JScript)</span><span class="sxs-lookup"><span data-stu-id="6b63d-102">CacheSize property example (JScript)</span></span>
 
 
-<span data-ttu-id="a41cd-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a41cd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6b63d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6b63d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a41cd-104">В этом примере свойство [CacheSize](cachesize-property-ado.md) используется для демонстрации разницы в производительности для операции, выполняемой с кэшом с 30 записями и без него.</span><span class="sxs-lookup"><span data-stu-id="a41cd-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span> <span data-ttu-id="a41cd-105">Включите следующий код в Блокнот или другой текстовый редактор и сохраните его как **CacheSizeJS.asp.**</span><span class="sxs-lookup"><span data-stu-id="a41cd-105">Cut and paste the following code to Notepad or another text editor, and save it as **CacheSizeJS.asp**.</span></span>
+<span data-ttu-id="6b63d-104">В этом примере свойство [CacheSize](cachesize-property-ado.md) показывает разницу в производительности для операции, выполненной с кэшом с 30 записью и без него.</span><span class="sxs-lookup"><span data-stu-id="6b63d-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span> <span data-ttu-id="6b63d-105">Вырезать и вклеить следующий код для Блокнот или другого текстового редактора и сохранить его как **CacheSizeJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="6b63d-105">Cut and paste the following code to Notepad or another text editor, and save it as **CacheSizeJS.asp**.</span></span>
 
 ```javascript 
  

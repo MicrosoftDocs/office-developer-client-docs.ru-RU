@@ -1,5 +1,5 @@
 ---
-title: Ссылка на объект Connection (ADO)
+title: Ссылка на объект подключения (ADO)
 TOCTitle: Connection object (ADO)
 ms:assetid: 817875e9-0970-4d26-8c35-6c6257279bd0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249556(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295900"
 ---
-# <a name="connection-object-ado-reference"></a><span data-ttu-id="49096-102">Ссылка на объект Connection (ADO)</span><span class="sxs-lookup"><span data-stu-id="49096-102">Connection object (ADO) reference</span></span>
+# <a name="connection-object-ado-reference"></a><span data-ttu-id="6397b-102">Ссылка на объект подключения (ADO)</span><span class="sxs-lookup"><span data-stu-id="6397b-102">Connection object (ADO) reference</span></span>
 
-<span data-ttu-id="49096-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="49096-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6397b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6397b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="49096-104">Connection object (ADO)</span><span class="sxs-lookup"><span data-stu-id="49096-104">Connection object (ADO)</span></span>](connection-object-ado.md)
-- [<span data-ttu-id="49096-105">Свойства, методы и события подключения (ADO)</span><span class="sxs-lookup"><span data-stu-id="49096-105">Connection properties, methods, and events (ADO)</span></span>](connection-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="6397b-104">Объект подключения (ADO)</span><span class="sxs-lookup"><span data-stu-id="6397b-104">Connection object (ADO)</span></span>](connection-object-ado.md)
+- [<span data-ttu-id="6397b-105">Свойства подключения, методы и события (ADO)</span><span class="sxs-lookup"><span data-stu-id="6397b-105">Connection properties, methods, and events (ADO)</span></span>](connection-properties-methods-and-events-ado.md)
 

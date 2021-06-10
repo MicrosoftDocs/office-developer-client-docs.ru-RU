@@ -1,5 +1,5 @@
 ---
-title: Объект Connection (DAO)
+title: Объект подключения (DAO)
 TOCTitle: Connection Object
 ms:assetid: f469b04e-2539-6b53-31f2-85fe22fcc2fc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836694(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295865"
 ---
-# <a name="connection-object-dao"></a><span data-ttu-id="74803-102">Объект Connection (DAO)</span><span class="sxs-lookup"><span data-stu-id="74803-102">Connection object (DAO)</span></span>
+# <a name="connection-object-dao"></a><span data-ttu-id="219ba-102">Объект подключения (DAO)</span><span class="sxs-lookup"><span data-stu-id="219ba-102">Connection object (DAO)</span></span>
 
-<span data-ttu-id="74803-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="74803-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="74803-104">Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="74803-104">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="74803-105">Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="74803-105">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
-
-<span data-ttu-id="74803-106">Объект **Connection** представляет подключение к базе данных ODBC (только для рабочей области ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="74803-106">A **Connection** object represents a connection to an ODBC database (ODBCDirect workspaces only).</span></span>
-
-## <a name="remarks"></a><span data-ttu-id="74803-107">Заметки</span><span class="sxs-lookup"><span data-stu-id="74803-107">Remarks</span></span>
-
-<span data-ttu-id="74803-108">Connection **—** это несохраняемый объект, который представляет подключение к удаленной базе данных.</span><span class="sxs-lookup"><span data-stu-id="74803-108">A **Connection** is a non-persistent object that represents a connection to a remote database.</span></span> <span data-ttu-id="74803-109">Объект **Connection** доступен только в рабочей области ODBCDirect (то есть объект **Workspace,** созданный с параметром типа **dbUseODBC).**</span><span class="sxs-lookup"><span data-stu-id="74803-109">The **Connection** object is only available in ODBCDirect workspaces (that is, a **Workspace** object created with the type option set to **dbUseODBC**).</span></span>
+<span data-ttu-id="219ba-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="219ba-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="74803-110">Код, написанный для более ранних версий DAO, может продолжать использовать объект **Database** для обеспечения обратной совместимости, но при желании новые функции **Connection** следует пересмотреть код для использования объекта **Connection.**</span><span class="sxs-lookup"><span data-stu-id="74803-110">Code written for earlier versions of DAO can continue to use the **Database** object for backward compatibility, but if the new features of a **Connection** are desired, you should revise code to use the **Connection** object.</span></span> <span data-ttu-id="74803-111">Чтобы помочь в преобразовании кода, можно получить  ссылку на объект **Connection** из базы данных, считав свойство [Connection](database-connection-property-dao.md) объекта **Database.**</span><span class="sxs-lookup"><span data-stu-id="74803-111">To help with code conversion, you can obtain a **Connection** object reference from a **Database** by reading the [Connection](database-connection-property-dao.md) property of the **Database** object.</span></span> <span data-ttu-id="74803-112">И наоборот, ссылку на объект **Database** можно получить из свойства **Database** объекта **Connection.**</span><span class="sxs-lookup"><span data-stu-id="74803-112">Conversely, you can obtain a **Database** object reference from the **Connection** object's **Database** property.</span></span>
+> <span data-ttu-id="219ba-104">Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="219ba-104">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="219ba-105">Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="219ba-105">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
+
+<span data-ttu-id="219ba-106">Объект **Connection** представляет подключение к базе данных ODBC (только в рабочей области ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="219ba-106">A **Connection** object represents a connection to an ODBC database (ODBCDirect workspaces only).</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="219ba-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="219ba-107">Remarks</span></span>
+
+<span data-ttu-id="219ba-108">Подключение **—** это объект, который представляет собой подключение к удаленной базе данных.</span><span class="sxs-lookup"><span data-stu-id="219ba-108">A **Connection** is a non-persistent object that represents a connection to a remote database.</span></span> <span data-ttu-id="219ba-109">Объект **Connection** доступен только в рабочей области ODBCDirect (то есть объект **Workspace,** созданный с параметром типа **dbUseODBC).**</span><span class="sxs-lookup"><span data-stu-id="219ba-109">The **Connection** object is only available in ODBCDirect workspaces (that is, a **Workspace** object created with the type option set to **dbUseODBC**).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="219ba-110">Код, написанный для более ранних версий DAO, может продолжать использовать объект **Database** для обратной совместимости, но при желании новых функций подключения следует пересмотреть код для использования объекта **Подключения.** </span><span class="sxs-lookup"><span data-stu-id="219ba-110">Code written for earlier versions of DAO can continue to use the **Database** object for backward compatibility, but if the new features of a **Connection** are desired, you should revise code to use the **Connection** object.</span></span> <span data-ttu-id="219ba-111">Чтобы помочь с преобразованием кода, вы можете  получить ссылку на объект **Подключения** из базы данных, прочитав свойство [Подключение](database-connection-property-dao.md) объекта **Database.**</span><span class="sxs-lookup"><span data-stu-id="219ba-111">To help with code conversion, you can obtain a **Connection** object reference from a **Database** by reading the [Connection](database-connection-property-dao.md) property of the **Database** object.</span></span> <span data-ttu-id="219ba-112">И наоборот, вы можете получить ссылку на объект **Базы** данных из свойства **Базы** данных объекта **Подключения.**</span><span class="sxs-lookup"><span data-stu-id="219ba-112">Conversely, you can obtain a **Database** object reference from the **Connection** object's **Database** property.</span></span>
 
 

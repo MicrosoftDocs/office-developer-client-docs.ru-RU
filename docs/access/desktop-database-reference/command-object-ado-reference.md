@@ -1,5 +1,5 @@
 ---
-title: Command object (ADO) reference
+title: Ссылка на командный объект (ADO)
 TOCTitle: Command object (ADO)
 ms:assetid: 87df0a0c-1529-46d8-bd36-b7a9c8b17615
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249590(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296187"
 ---
-# <a name="command-object-ado-reference"></a><span data-ttu-id="7aab2-102">Command object (ADO) reference</span><span class="sxs-lookup"><span data-stu-id="7aab2-102">Command object (ADO) reference</span></span>
+# <a name="command-object-ado-reference"></a><span data-ttu-id="6eabf-102">Ссылка на командный объект (ADO)</span><span class="sxs-lookup"><span data-stu-id="6eabf-102">Command object (ADO) reference</span></span>
 
-<span data-ttu-id="7aab2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7aab2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6eabf-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6eabf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="7aab2-104">Command object (ADO)</span><span class="sxs-lookup"><span data-stu-id="7aab2-104">Command object (ADO)</span></span>](command-object-ado.md)
-- [<span data-ttu-id="7aab2-105">Command properties, methods, and events (ADO)</span><span class="sxs-lookup"><span data-stu-id="7aab2-105">Command properties, methods, and events (ADO)</span></span>](command-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="6eabf-104">Объект Command (ADO)</span><span class="sxs-lookup"><span data-stu-id="6eabf-104">Command object (ADO)</span></span>](command-object-ado.md)
+- [<span data-ttu-id="6eabf-105">Свойства команд, методы и события (ADO)</span><span class="sxs-lookup"><span data-stu-id="6eabf-105">Command properties, methods, and events (ADO)</span></span>](command-properties-methods-and-events-ado.md)
 
