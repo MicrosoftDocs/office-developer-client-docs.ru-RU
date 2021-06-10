@@ -1,5 +1,5 @@
 ---
-title: Справочник по объекту Stream (ADO)
+title: Ссылка на объект Stream (ADO)
 TOCTitle: Stream object (ADO)
 ms:assetid: 4574095e-06d3-4c2f-86e0-2a7cf1247395
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249214(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314457"
 ---
-# <a name="stream-object-ado-reference"></a><span data-ttu-id="51f42-102">Справочник по объекту Stream (ADO)</span><span class="sxs-lookup"><span data-stu-id="51f42-102">Stream object (ADO) reference</span></span>
+# <a name="stream-object-ado-reference"></a><span data-ttu-id="d95a9-102">Ссылка на объект Stream (ADO)</span><span class="sxs-lookup"><span data-stu-id="d95a9-102">Stream object (ADO) reference</span></span>
 
-<span data-ttu-id="51f42-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="51f42-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d95a9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d95a9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="51f42-104">Stream object (ADO)</span><span class="sxs-lookup"><span data-stu-id="51f42-104">Stream object (ADO)</span></span>](stream-object-ado.md)
-- [<span data-ttu-id="51f42-105">Stream properties, methods, and events (ADO)</span><span class="sxs-lookup"><span data-stu-id="51f42-105">Stream properties, methods, and events (ADO)</span></span>](stream-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="d95a9-104">Объект Stream (ADO)</span><span class="sxs-lookup"><span data-stu-id="d95a9-104">Stream object (ADO)</span></span>](stream-object-ado.md)
+- [<span data-ttu-id="d95a9-105">Свойства потока, методы и события (ADO)</span><span class="sxs-lookup"><span data-stu-id="d95a9-105">Stream properties, methods, and events (ADO)</span></span>](stream-properties-methods-and-events-ado.md)
 

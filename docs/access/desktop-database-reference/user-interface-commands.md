@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313155"
 ---
-# <a name="user-interface-commands"></a><span data-ttu-id="1fb1d-102">Команды пользовательского интерфейса</span><span class="sxs-lookup"><span data-stu-id="1fb1d-102">User interface commands</span></span>
+# <a name="user-interface-commands"></a><span data-ttu-id="41ea3-102">Команды пользовательского интерфейса</span><span class="sxs-lookup"><span data-stu-id="41ea3-102">User interface commands</span></span>
 
-<span data-ttu-id="1fb1d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1fb1d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="41ea3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="41ea3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="1fb1d-104">Макрокоманда AddMenu</span><span class="sxs-lookup"><span data-stu-id="1fb1d-104">AddMenu macro action</span></span>](addmenu-macro-action.md)
-- [<span data-ttu-id="1fb1d-105">Макрокоманда BrowseTo</span><span class="sxs-lookup"><span data-stu-id="1fb1d-105">BrowseTo macro action</span></span>](browseto-macro-action.md)
-- [<span data-ttu-id="1fb1d-106">Макрокоманда LockNavigationPane</span><span class="sxs-lookup"><span data-stu-id="1fb1d-106">LockNavigationPane macro action</span></span>](locknavigationpane-macro-action.md)
-- [<span data-ttu-id="1fb1d-107">Макрокоманда MessageBox</span><span class="sxs-lookup"><span data-stu-id="1fb1d-107">MessageBox macro action</span></span>](messagebox-macro-action.md)
-- [<span data-ttu-id="1fb1d-108">Макрокоманда NavigateTo</span><span class="sxs-lookup"><span data-stu-id="1fb1d-108">NavigateTo macro action</span></span>](navigateto-macro-action.md)
-- [<span data-ttu-id="1fb1d-109">Макрокоманда SetDisplayedCategories</span><span class="sxs-lookup"><span data-stu-id="1fb1d-109">SetDisplayedCategories macro action</span></span>](setdisplayedcategories-macro-action.md)
-- [<span data-ttu-id="1fb1d-110">Макрокоманда SetMenuItem</span><span class="sxs-lookup"><span data-stu-id="1fb1d-110">SetMenuItem macro action</span></span>](setmenuitem-macro-action.md)
-- [<span data-ttu-id="1fb1d-111">Макрокоманда ShowToolbar</span><span class="sxs-lookup"><span data-stu-id="1fb1d-111">ShowToolbar macro action</span></span>](showtoolbar-macro-action.md)
+- [<span data-ttu-id="41ea3-104">Макрокоманда AddMenu</span><span class="sxs-lookup"><span data-stu-id="41ea3-104">AddMenu macro action</span></span>](addmenu-macro-action.md)
+- [<span data-ttu-id="41ea3-105">Макрокоманда BrowseTo</span><span class="sxs-lookup"><span data-stu-id="41ea3-105">BrowseTo macro action</span></span>](browseto-macro-action.md)
+- [<span data-ttu-id="41ea3-106">Макрокоманда LockNavigationPane</span><span class="sxs-lookup"><span data-stu-id="41ea3-106">LockNavigationPane macro action</span></span>](locknavigationpane-macro-action.md)
+- [<span data-ttu-id="41ea3-107">Макрокоманда MessageBox</span><span class="sxs-lookup"><span data-stu-id="41ea3-107">MessageBox macro action</span></span>](messagebox-macro-action.md)
+- [<span data-ttu-id="41ea3-108">Макрокоманда NavigateTo</span><span class="sxs-lookup"><span data-stu-id="41ea3-108">NavigateTo macro action</span></span>](navigateto-macro-action.md)
+- [<span data-ttu-id="41ea3-109">Макрокоманда SetDisplayedCategories</span><span class="sxs-lookup"><span data-stu-id="41ea3-109">SetDisplayedCategories macro action</span></span>](setdisplayedcategories-macro-action.md)
+- [<span data-ttu-id="41ea3-110">Макрокоманда SetMenuItem</span><span class="sxs-lookup"><span data-stu-id="41ea3-110">SetMenuItem macro action</span></span>](setmenuitem-macro-action.md)
+- [<span data-ttu-id="41ea3-111">Макрокоманда ShowToolbar</span><span class="sxs-lookup"><span data-stu-id="41ea3-111">ShowToolbar macro action</span></span>](showtoolbar-macro-action.md)
 

@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314674"
 ---
-# <a name="section-ii-remote-data-service"></a><span data-ttu-id="64ba8-102">Раздел II. Служба удаленных данных</span><span class="sxs-lookup"><span data-stu-id="64ba8-102">Section II: Remote Data Service</span></span>
+# <a name="section-ii-remote-data-service"></a><span data-ttu-id="b399b-102">Раздел II. Служба удаленных данных</span><span class="sxs-lookup"><span data-stu-id="b399b-102">Section II: Remote Data Service</span></span>
 
-<span data-ttu-id="64ba8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="64ba8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b399b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b399b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="64ba8-104">В этом разделе содержатся следующие главы:</span><span class="sxs-lookup"><span data-stu-id="64ba8-104">This section contains the following chapters:</span></span>
+<span data-ttu-id="b399b-104">В этом разделе содержатся следующие главы:</span><span class="sxs-lookup"><span data-stu-id="b399b-104">This section contains the following chapters:</span></span>
 
-- [<span data-ttu-id="64ba8-105">Глава 11. Основы RDS</span><span class="sxs-lookup"><span data-stu-id="64ba8-105">Chapter 11: RDS fundamentals</span></span>](chapter-11-rds-fundamentals.md)
-- [<span data-ttu-id="64ba8-106">Глава 12. Руководство по RDS</span><span class="sxs-lookup"><span data-stu-id="64ba8-106">Chapter 12: RDS tutorial</span></span>](chapter-12-rds-tutorial.md)
-- [<span data-ttu-id="64ba8-107">Глава 13. Безопасность и использование RDS</span><span class="sxs-lookup"><span data-stu-id="64ba8-107">Chapter 13: RDS usage and security</span></span>](chapter-13-rds-usage-and-security.md)
+- [<span data-ttu-id="b399b-105">Глава 11. Основы RDS</span><span class="sxs-lookup"><span data-stu-id="b399b-105">Chapter 11: RDS fundamentals</span></span>](chapter-11-rds-fundamentals.md)
+- [<span data-ttu-id="b399b-106">Глава 12. Руководство по RDS</span><span class="sxs-lookup"><span data-stu-id="b399b-106">Chapter 12: RDS tutorial</span></span>](chapter-12-rds-tutorial.md)
+- [<span data-ttu-id="b399b-107">Глава 13. Безопасность и использование RDS</span><span class="sxs-lookup"><span data-stu-id="b399b-107">Chapter 13: RDS usage and security</span></span>](chapter-13-rds-usage-and-security.md)
 

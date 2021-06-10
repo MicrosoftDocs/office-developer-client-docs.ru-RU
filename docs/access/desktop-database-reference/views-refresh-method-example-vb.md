@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312161"
 ---
-# <a name="views-refresh-method-example-vb"></a><span data-ttu-id="9b93f-102">Пример использования метода Refresh для коллекции Views (VB)</span><span class="sxs-lookup"><span data-stu-id="9b93f-102">Views Refresh method example (VB)</span></span>
+# <a name="views-refresh-method-example-vb"></a><span data-ttu-id="ba4b7-102">Пример использования метода Refresh для коллекции Views (VB)</span><span class="sxs-lookup"><span data-stu-id="ba4b7-102">Views Refresh method example (VB)</span></span>
 
 
-<span data-ttu-id="9b93f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9b93f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ba4b7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ba4b7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9b93f-104">В следующем коде показано, как обновить коллекцию [Views](views-collection-adox.md) [каталога.](catalog-object-adox.md)</span><span class="sxs-lookup"><span data-stu-id="9b93f-104">The following code shows how to refresh the [Views](views-collection-adox.md) collection of a [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="9b93f-105">Это необходимо для доступа [к объектам просмотра](view-object-adox.md) из каталога. </span><span class="sxs-lookup"><span data-stu-id="9b93f-105">This is required before [View](view-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
+<span data-ttu-id="ba4b7-104">В следующем коде показано, как обновить коллекцию [Просмотров](views-collection-adox.md) [каталога.](catalog-object-adox.md)</span><span class="sxs-lookup"><span data-stu-id="ba4b7-104">The following code shows how to refresh the [Views](views-collection-adox.md) collection of a [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="ba4b7-105">Это необходимо для доступа к  [объектам Просмотра](view-object-adox.md) из Каталога.</span><span class="sxs-lookup"><span data-stu-id="ba4b7-105">This is required before [View](view-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
 
 ```vb 
  

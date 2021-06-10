@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313386"
 ---
-# <a name="updating-joined-results-unique-table"></a><span data-ttu-id="de830-102">Updating JOINed Results: Unique Table</span><span class="sxs-lookup"><span data-stu-id="de830-102">Updating JOINed Results: Unique Table</span></span>
+# <a name="updating-joined-results-unique-table"></a><span data-ttu-id="8eeb5-102">Updating JOINed Results: Unique Table</span><span class="sxs-lookup"><span data-stu-id="8eeb5-102">Updating JOINed Results: Unique Table</span></span>
 
 
-<span data-ttu-id="de830-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="de830-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8eeb5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8eeb5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="updating-joined-results-unique-table"></a><span data-ttu-id="de830-104">Обновление результатов JOINed: уникальная таблица</span><span class="sxs-lookup"><span data-stu-id="de830-104">Updating JOINed results: Unique Table</span></span>
+## <a name="updating-joined-results-unique-table"></a><span data-ttu-id="8eeb5-104">Обновление результатов JOINed: уникальная таблица</span><span class="sxs-lookup"><span data-stu-id="8eeb5-104">Updating JOINed results: Unique Table</span></span>
 
-<span data-ttu-id="de830-105">ADO позволяет тесно контролировать изменения определенной базовой таблицы в наборе **записей,** сформированном операцией JOIN для нескольких базовых таблиц с помощью динамического свойства **Unique Table.**</span><span class="sxs-lookup"><span data-stu-id="de830-105">ADO enables you to closely control modifications to a particular base table in a **Recordset** that was formed by a JOIN operation on multiple base tables using the **Unique Table** dynamic property.</span></span> <span data-ttu-id="de830-106">For details on using **Unique Table**, refer to the ADO programmer's reference topics on the **Unique Table** and **Update Resynch** dynamic properties.</span><span class="sxs-lookup"><span data-stu-id="de830-106">For details on using **Unique Table**, refer to the ADO programmer's reference topics on the **Unique Table** and **Update Resynch** dynamic properties.</span></span>
+<span data-ttu-id="8eeb5-105">ADO позволяет тщательно контролировать изменения определенной базовой таблицы в наборе записей, который был создан операцией JOIN на нескольких базовых таблицах с помощью динамического свойства **Unique Table.** </span><span class="sxs-lookup"><span data-stu-id="8eeb5-105">ADO enables you to closely control modifications to a particular base table in a **Recordset** that was formed by a JOIN operation on multiple base tables using the **Unique Table** dynamic property.</span></span> <span data-ttu-id="8eeb5-106">Сведения об использовании **уникальной** таблицы можно найти в справочных темах программиста ADO в динамических свойствах **Unique Table** и **Update Resynch.**</span><span class="sxs-lookup"><span data-stu-id="8eeb5-106">For details on using **Unique Table**, refer to the ADO programmer's reference topics on the **Unique Table** and **Update Resynch** dynamic properties.</span></span>
 

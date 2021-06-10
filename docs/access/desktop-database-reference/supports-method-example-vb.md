@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314471"
 ---
-# <a name="supports-method-example-vb"></a><span data-ttu-id="cb67b-102">Пример использования метода Supports (VB)</span><span class="sxs-lookup"><span data-stu-id="cb67b-102">Supports method example (VB)</span></span>
+# <a name="supports-method-example-vb"></a><span data-ttu-id="764ac-102">Пример использования метода Supports (VB)</span><span class="sxs-lookup"><span data-stu-id="764ac-102">Supports method example (VB)</span></span>
 
 
-<span data-ttu-id="cb67b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cb67b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="764ac-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="764ac-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cb67b-104">В этом примере метод [Supports](supports-method-ado.md) используется для отображения параметров, поддерживаемых набором записей, открытым с помощью различных типов курсоров.</span><span class="sxs-lookup"><span data-stu-id="cb67b-104">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types.</span></span> <span data-ttu-id="cb67b-105">Для запуска этой процедуры требуется процедура DisplaySupport.</span><span class="sxs-lookup"><span data-stu-id="cb67b-105">The DisplaySupport procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="764ac-104">В этом примере метод [Supports](supports-method-ado.md) отображает параметры, поддерживаемые набором записей, открывающимися с помощью различных типов курсоров.</span><span class="sxs-lookup"><span data-stu-id="764ac-104">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types.</span></span> <span data-ttu-id="764ac-105">Для запуска этой процедуры требуется процедура DisplaySupport.</span><span class="sxs-lookup"><span data-stu-id="764ac-105">The DisplaySupport procedure is required for this procedure to run.</span></span>
 
 ```vb 
  

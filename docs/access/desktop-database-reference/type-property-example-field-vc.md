@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314094"
 ---
-# <a name="type-property-example-field-vc"></a><span data-ttu-id="a0656-102">Пример использования свойства Type (Field) (VC++)</span><span class="sxs-lookup"><span data-stu-id="a0656-102">Type property example (Field) (VC++)</span></span>
+# <a name="type-property-example-field-vc"></a><span data-ttu-id="13f13-102">Пример использования свойства Type (Field) (VC++)</span><span class="sxs-lookup"><span data-stu-id="13f13-102">Type property example (Field) (VC++)</span></span>
 
 
-<span data-ttu-id="a0656-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a0656-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="13f13-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="13f13-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a0656-104">В этом примере показано свойство [Type,](type-property-ado.md) отображая имя константы, соответствующее значению свойства **Type** всех объектов [Field](field-object-ado.md) в таблице ***Employees.***</span><span class="sxs-lookup"><span data-stu-id="a0656-104">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the **Type** property of all the [Field](field-object-ado.md) objects in the ***Employees*** table.</span></span> <span data-ttu-id="a0656-105">Функция FieldType необходима для запуска этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="a0656-105">The FieldType function is required for this procedure to run.</span></span>
+<span data-ttu-id="13f13-104">В этом примере показано свойство [Type,](type-property-ado.md) отобразив имя константы, соответствующее значению свойства **Type** всех объектов [Field](field-object-ado.md) в таблице ***Employees.***</span><span class="sxs-lookup"><span data-stu-id="13f13-104">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the **Type** property of all the [Field](field-object-ado.md) objects in the ***Employees*** table.</span></span> <span data-ttu-id="13f13-105">Для запуска этой процедуры требуется функция FieldType.</span><span class="sxs-lookup"><span data-stu-id="13f13-105">The FieldType function is required for this procedure to run.</span></span>
 
 ```cpp 
  

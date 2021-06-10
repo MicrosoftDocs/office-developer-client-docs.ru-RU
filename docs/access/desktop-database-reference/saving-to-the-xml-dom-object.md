@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314730"
 ---
-# <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="476c8-102">Сохранение в объект XML DOM</span><span class="sxs-lookup"><span data-stu-id="476c8-102">Saving to the XML DOM object</span></span>
+# <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="2f083-102">Сохранение в объект XML DOM</span><span class="sxs-lookup"><span data-stu-id="2f083-102">Saving to the XML DOM object</span></span>
 
-<span data-ttu-id="476c8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="476c8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2f083-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2f083-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="476c8-104">Saving to the XML DOM Object</span><span class="sxs-lookup"><span data-stu-id="476c8-104">Saving to the XML DOM Object</span></span>
+## <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="2f083-104">Saving to the XML DOM Object</span><span class="sxs-lookup"><span data-stu-id="2f083-104">Saving to the XML DOM Object</span></span>
 
-<span data-ttu-id="476c8-105">Набор записей  можно сохранить в формате XML в экземпляре MSXML DOM, как показано в следующем Visual Basic коде:</span><span class="sxs-lookup"><span data-stu-id="476c8-105">You can save a **Recordset** in XML format to an instance of an MSXML DOM object, as shown in the following Visual Basic code:</span></span>
+<span data-ttu-id="2f083-105">Можно сохранить набор **записей** в XML-формате до экземпляра объекта doM MSXML, как показано в следующем коде Visual Basic:</span><span class="sxs-lookup"><span data-stu-id="2f083-105">You can save a **Recordset** in XML format to an instance of an MSXML DOM object, as shown in the following Visual Basic code:</span></span>
 
 ```vb 
  

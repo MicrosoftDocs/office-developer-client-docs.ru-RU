@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312112"
 ---
-# <a name="value-property-example-vb"></a><span data-ttu-id="8068f-102">Пример использования свойства Value (VB)</span><span class="sxs-lookup"><span data-stu-id="8068f-102">Value property example (VB)</span></span>
+# <a name="value-property-example-vb"></a><span data-ttu-id="f776c-102">Пример использования свойства Value (VB)</span><span class="sxs-lookup"><span data-stu-id="f776c-102">Value property example (VB)</span></span>
 
 
-<span data-ttu-id="8068f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8068f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f776c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f776c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8068f-104">В этом примере показано свойство [Value](value-property-ado.md) с объектами [Field](field-object-ado.md) и [Property](property-object-ado.md) путем отображения значений полей и свойств для ***таблицы Employees.***</span><span class="sxs-lookup"><span data-stu-id="8068f-104">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
+<span data-ttu-id="f776c-104">В этом примере демонстрируется свойство [Value](value-property-ado.md) с объектами [Field](field-object-ado.md) и [Property](property-object-ado.md) путем отображения значений поля и свойств для ***таблицы Employees.***</span><span class="sxs-lookup"><span data-stu-id="f776c-104">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
 
 ```vb 
  

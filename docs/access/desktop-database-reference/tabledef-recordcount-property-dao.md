@@ -14,22 +14,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314289"
 ---
-# <a name="tabledefrecordcount-property-dao"></a><span data-ttu-id="3cd78-102">Свойство TableDef.RecordCount (DAO)</span><span class="sxs-lookup"><span data-stu-id="3cd78-102">TableDef.RecordCount property (DAO)</span></span>
+# <a name="tabledefrecordcount-property-dao"></a><span data-ttu-id="e6e3d-102">Свойство TableDef.RecordCount (DAO)</span><span class="sxs-lookup"><span data-stu-id="e6e3d-102">TableDef.RecordCount property (DAO)</span></span>
 
 
-<span data-ttu-id="3cd78-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3cd78-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e6e3d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e6e3d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3cd78-104">Возвращает общее число записей в **[объекте TableDef.](tabledef-object-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="3cd78-104">Returns the total number of records in a **[TableDef](tabledef-object-dao.md)** object.</span></span> <span data-ttu-id="3cd78-105">Только для чтения, **Long**.</span><span class="sxs-lookup"><span data-stu-id="3cd78-105">Read-only **Long**.</span></span>
+<span data-ttu-id="e6e3d-104">Возвращает общее количество записей в **[объекте TableDef.](tabledef-object-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="e6e3d-104">Returns the total number of records in a **[TableDef](tabledef-object-dao.md)** object.</span></span> <span data-ttu-id="e6e3d-105">Только для чтения, **Long**.</span><span class="sxs-lookup"><span data-stu-id="e6e3d-105">Read-only **Long**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3cd78-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="3cd78-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e6e3d-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e6e3d-106">Syntax</span></span>
 
-<span data-ttu-id="3cd78-107">*выражение* .RecordCount</span><span class="sxs-lookup"><span data-stu-id="3cd78-107">*expression* .RecordCount</span></span>
+<span data-ttu-id="e6e3d-107">*выражение* .RecordCount</span><span class="sxs-lookup"><span data-stu-id="e6e3d-107">*expression* .RecordCount</span></span>
 
-<span data-ttu-id="3cd78-108">*выражение*: переменная, представляющая объект **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="3cd78-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="e6e3d-108">*выражение*: переменная, представляющая объект **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="e6e3d-108">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="3cd78-109">Комментарии</span><span class="sxs-lookup"><span data-stu-id="3cd78-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e6e3d-109">Комментарии</span><span class="sxs-lookup"><span data-stu-id="e6e3d-109">Remarks</span></span>
 
-<span data-ttu-id="3cd78-110">У объекта **Recordset** или **TableDef** без записей свойству **RecordCount** соответствует значение 0.</span><span class="sxs-lookup"><span data-stu-id="3cd78-110">A **Recordset** or **TableDef** object with no records has a **RecordCount** property setting of 0.</span></span>
+<span data-ttu-id="e6e3d-110">У объекта **Recordset** или **TableDef** без записей свойству **RecordCount** соответствует значение 0.</span><span class="sxs-lookup"><span data-stu-id="e6e3d-110">A **Recordset** or **TableDef** object with no records has a **RecordCount** property setting of 0.</span></span>
 
-<span data-ttu-id="3cd78-111">При работе со связанными **объектами TableDef** для свойства **RecordCount** всегда задается –1.</span><span class="sxs-lookup"><span data-stu-id="3cd78-111">When you work with linked **TableDef** objects, the **RecordCount** property setting is always –1.</span></span>
+<span data-ttu-id="e6e3d-111">При работе с связанными **объектами TableDef** параметр **свойства RecordCount** всегда —1.</span><span class="sxs-lookup"><span data-stu-id="e6e3d-111">When you work with linked **TableDef** objects, the **RecordCount** property setting is always –1.</span></span>
 

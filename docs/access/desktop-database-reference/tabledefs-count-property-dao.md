@@ -14,22 +14,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314268"
 ---
-# <a name="tabledefscount-property-dao"></a><span data-ttu-id="7c376-102">Свойство TableDefs.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="7c376-102">TableDefs.Count property (DAO)</span></span>
+# <a name="tabledefscount-property-dao"></a><span data-ttu-id="6657d-102">Свойство TableDefs.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="6657d-102">TableDefs.Count property (DAO)</span></span>
 
 
-<span data-ttu-id="7c376-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7c376-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6657d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6657d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7c376-104">Возвращает количество объектов в указанной коллекции.</span><span class="sxs-lookup"><span data-stu-id="7c376-104">Returns the number of objects in the specified collection.</span></span> <span data-ttu-id="7c376-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="7c376-105">Read-only.</span></span>
+<span data-ttu-id="6657d-104">Возвращает количество объектов в указанной коллекции.</span><span class="sxs-lookup"><span data-stu-id="6657d-104">Returns the number of objects in the specified collection.</span></span> <span data-ttu-id="6657d-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="6657d-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7c376-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="7c376-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6657d-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="6657d-106">Syntax</span></span>
 
-<span data-ttu-id="7c376-107">*выражение .* Count</span><span class="sxs-lookup"><span data-stu-id="7c376-107">*expression* .Count</span></span>
+<span data-ttu-id="6657d-107">*выражения* . Count</span><span class="sxs-lookup"><span data-stu-id="6657d-107">*expression* .Count</span></span>
 
-<span data-ttu-id="7c376-108">*выражение* Переменная, представляюная объект **TableDefs.**</span><span class="sxs-lookup"><span data-stu-id="7c376-108">*expression* A variable that represents a **TableDefs** object.</span></span>
+<span data-ttu-id="6657d-108">*выражение* Переменная, представляюная объект **TableDefs.**</span><span class="sxs-lookup"><span data-stu-id="6657d-108">*expression* A variable that represents a **TableDefs** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7c376-109">Заметки</span><span class="sxs-lookup"><span data-stu-id="7c376-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6657d-109">Примечания</span><span class="sxs-lookup"><span data-stu-id="6657d-109">Remarks</span></span>
 
-<span data-ttu-id="7c376-110">Так как члены коллекции начинаются с 0, всегда следует кодировать циклы, начиная с 0 и заканчивая значением свойства **Count** минус 1.</span><span class="sxs-lookup"><span data-stu-id="7c376-110">Because members of a collection begin with 0, you should always code loops starting with the 0 member and ending with the value of the **Count** property minus 1.</span></span> <span data-ttu-id="7c376-111">Если вы хотите обоймить члены коллекции, не проверяя свойство **Count,** можно использовать объект **For Each... Следующая** команда.</span><span class="sxs-lookup"><span data-stu-id="7c376-111">If you want to loop through the members of a collection without checking the **Count** property, you can use a **For Each...Next** command.</span></span>
+<span data-ttu-id="6657d-110">Так как члены коллекции начинаются с 0, всегда следует использовать циклы кода, начиная с участника 0 и заканчивая значением свойства **Count** минус 1.</span><span class="sxs-lookup"><span data-stu-id="6657d-110">Because members of a collection begin with 0, you should always code loops starting with the 0 member and ending with the value of the **Count** property minus 1.</span></span> <span data-ttu-id="6657d-111">Если вы хотите пройти цикл через членов коллекции без проверки свойства **Count,** вы можете использовать **для каждого... Следующая** команда.</span><span class="sxs-lookup"><span data-stu-id="6657d-111">If you want to loop through the members of a collection without checking the **Count** property, you can use a **For Each...Next** command.</span></span>
 
-<span data-ttu-id="7c376-112">Параметр **свойства Count** никогда не имеет NULL.</span><span class="sxs-lookup"><span data-stu-id="7c376-112">The **Count** property setting is never Null.</span></span> <span data-ttu-id="7c376-113">Если его значение 0, в коллекции нет объектов.</span><span class="sxs-lookup"><span data-stu-id="7c376-113">If its value is 0, there are no objects in the collection.</span></span>
+<span data-ttu-id="6657d-112">Параметр **свойства Count** никогда не является Null.</span><span class="sxs-lookup"><span data-stu-id="6657d-112">The **Count** property setting is never Null.</span></span> <span data-ttu-id="6657d-113">Если его значение 0, в коллекции нет объектов.</span><span class="sxs-lookup"><span data-stu-id="6657d-113">If its value is 0, there are no objects in the collection.</span></span>
 
