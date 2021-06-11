@@ -23,22 +23,22 @@ ms.locfileid: "33415133"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Извлекает список регистраций для файла личных папок (PST).
+Извлекает список регистраций для файла "Личные папки" (PST).
   
 ```cpp
 HRESULT GetPersistedRegistration(SPropValue **ppmval);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ppmval_
   
-> [in] Указатель на указатель на [структуру SPropValue.](spropvalue.md) Член ulPropTag этой структуры имеет тип PT_MV_UNICODE, а член значения MVszW будет массивом строк Юникода с нулью. Эти строки являются путями к DLL, для которых была сохраняема регистрация. 
+> [in] Указатель на указатель на [структуру SPropValue.](spropvalue.md) Член ulPropTag этой структуры имеет тип PT_MV_UNICODE, а член значения MVszW будет массивом null-terminated строк Юникод. Эти строки являются путями к DLLs, для которых регистрация сохраняется. 
     
 > [!NOTE]
-> Поддержка .pst для ANSI не реализована. 
+> Поддержка PST для ANSI не реализована. 
   
 ## <a name="return-value"></a>Возвращаемое значение
 

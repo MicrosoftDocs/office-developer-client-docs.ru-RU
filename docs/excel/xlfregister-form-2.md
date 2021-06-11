@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlfRegister
 keywords:
-- Функция xlfregister [excel 2007]
+- функция xlfregister [Excel 2007]
 localization_priority: Normal
 ms.assetid: 3ebbd775-f3d2-4ba7-8835-a5b38ad2267a
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,29 +22,29 @@ ms.locfileid: "33416043"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Может быть вызван из команды DLL или XLL, которая сама была вызвана Microsoft Excel. Это эквивалентно вызову **REGISTER** из листа макроса XLM Excel. 
+Может быть вызвано из команды DLL или XLL, которая сама была вызвана Microsoft Excel. Это эквивалентно вызову **REGISTER** с макрос Excel XLM. 
   
-Функция **xlfRegister** может быть вызвана в двух формах: 
+Функцию **xlfRegister** можно назвать в двух формах: 
   
-- [xlfRegister (форма 1):](xlfregister-form-1.md)регистрирует отдельные команды или функции.
+- [xlfRegister (Форма 1)](xlfregister-form-1.md): Регистрирует индивидуальную команду или функцию.
     
-- xlfRegister (форма 2): загружает и активирует XLL.
+- xlfRegister (Форма 2): Загружает и активирует XLL.
     
-Эта функция, вызванная в форме 2, может использоваться только для загрузки и активации XLL, содержащей процедуру [xlAutoOpen.](xlautoopen.md) 
+Вызванная в форме 2, эта функция может использоваться только для загрузки и активации XLL, содержащей [процедуру xlAutoOpen.](xlautoopen.md) 
   
 ```cs
 Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
- _pxModuleText_ (**xltypeStr)**
+ _pxModuleText_ **(xltypeStr)**
   
 Имя DLL для загрузки и активации.
   
 ## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-В случае успеха возвращается имя DLL (**xltypeStr).** В противном случае возвращается #VALUE! error.
+В случае успешной работы возвращается имя DLL **(xltypeStr).** В противном случае он возвращает #VALUE! ошибка.
   
 ## <a name="see-also"></a>См. также
 

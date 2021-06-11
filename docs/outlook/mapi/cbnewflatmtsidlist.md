@@ -23,9 +23,9 @@ ms.locfileid: "33416680"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет количество ветвей, которые должны быть выделены для новой структуры [FLATMTSIDLIST,](flatmtsidlist.md) которая содержит несколько [структур MTSID](mtsid.md) указанного размера. 
+Вычисляет количество bytes, которые должны быть выделены для новой структуры [FLATMTSIDLIST,](flatmtsidlist.md) которая содержит несколько [структур MTSID](mtsid.md) определенного размера. 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ ms.locfileid: "33416680"
 CbNewFLATMTSIDIDLIST (_cb)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
- __cb_
+ _ _cb_
   
-> Количествобайтов в структурах **MTSID,** включаемого в новую структуру **FLATMTSIDLIST.** 
+> Количество bytes в **структурах MTSID,** которые будут включены в новую структуру **FLATMTSIDLIST.** 
     
 ## <a name="see-also"></a>См. также
 

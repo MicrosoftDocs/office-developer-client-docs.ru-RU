@@ -1,5 +1,5 @@
 ---
-title: Арифметические операторы (пользовательское веб-приложение Access)
+title: Arithmetic Operators (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,21 +13,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411843"
 ---
-# <a name="arithmetic-operators-access-custom-web-app"></a>Арифметические операторы (пользовательское веб-приложение Access)
+# <a name="arithmetic-operators-access-custom-web-app"></a>Arithmetic Operators (Access custom web app)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
-- [- (Вычитать) (пользовательское веб-приложение Access)](subtractaccess-custom-web-app.md)
+- [- (Вычитать) (Доступ к настраиваемого веб-приложения)](subtractaccess-custom-web-app.md)
     
-- [\* (Умножение) (Пользовательское веб-приложение Access)](multiplyaccess-custom-web-app.md)
+- [\* (Умножить) (Доступ к настраиваемой веб-приложению)](multiplyaccess-custom-web-app.md)
     
-- [/ (Деление) (пользовательское веб-приложение Access)](divideaccess-custom-web-app.md)
+- [/ (Разделяй) (Доступ к настраиваемой веб-приложению)](divideaccess-custom-web-app.md)
     
-- [+ (Добавить) (пользовательское веб-приложение Access)](plusaddaccess-custom-web-app.md)
+- [+ (Добавить) (Доступ к настраиваемой веб-приложение)](plusaddaccess-custom-web-app.md)
     
-- [Mod (Access custom web app)](mod-access-custom-web-app.md)
+- [Mod (Доступ к настраиваемой веб-приложению)](mod-access-custom-web-app.md)
     
 

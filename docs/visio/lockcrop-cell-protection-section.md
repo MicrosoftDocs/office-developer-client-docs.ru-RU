@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm610
 localization_priority: Normal
 ms.assetid: ae05de63-b527-66e6-2c79-056c9c92ec95
-description: Блокирует объект из другой программы от обрезки средством обрезки.
+description: Блокирует объект из другой программы, чтобы не быть обрезанным с помощью средства Crop.
 ms.openlocfilehash: bfb8bebd50908387fa3f94a8ca228935ef709133
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33411857"
 ---
 # <a name="lockcrop-cell-protection-section"></a>LockCrop Cell (Protection Section)
 
-Блокирует объект из другой программы от обрезки средством **обрезки.** 
+Блокирует объект из другой программы, чтобы не быть обрезанным с помощью **средства Crop.** 
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Фигуру невозможно обрезить  <br/> |
+| TRUE  <br/> | Фигура не может быть обрезана  <br/> |
 | FALSE  <br/> | Фигура может быть обрезана.  <br/> |
    
 ## <a name="remarks"></a>Примечания

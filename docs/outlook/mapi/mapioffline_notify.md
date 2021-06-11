@@ -17,13 +17,13 @@ ms.locfileid: "33414769"
 ---
 # <a name="mapioffline_notify"></a>MAPIOFFLINE_NOTIFY
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Это уведомление об изменении состояния подключения. Он указывает измененную часть состояния подключения, старое и новое состояние подключения.
+Это уведомление об изменении состояния подключения. Он указывает часть измененного состояния подключения, старое состояние подключения и новое состояние подключения.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. **[IMAPIOfflineNotify.](imapiofflinenotifyiunknown.md)** 
+См. **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
   
 ```cpp
 typedef struct  
@@ -46,11 +46,11 @@ typedef struct
 
  _ulSize_
   
-> Размер **MAPIOFFLINE_NOTIFY** структуры. 
+> Размер структуры **MAPIOFFLINE_NOTIFY.** 
     
  _NotifyType_
   
-> Тип уведомления. Обратите внимание, что поддерживается только уведомление об изменении состояния подключения; Поддерживаются только такие значения:
+> Тип уведомления. Обратите внимание, что поддерживается только уведомление об изменении состояния подключения; единственными поддерживаемыми значениями являются:
     
    - MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START
     
@@ -60,7 +60,7 @@ typedef struct
     
  _ulClientToken_
   
-> Маркер, определенный клиентом **[](mapioffline_adviseinfo.md)** в структуре MAPIOFFLINE_ADVISEINFO **[IMAPIOfflineMgr::Advise.](imapiofflinemgr-advise.md)** 
+> Маркер, определенный клиентом в **[структуре MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. 
     
  _ulMask_
   
@@ -68,7 +68,7 @@ typedef struct
     
  _ulStateOld_
   
-> Старое состояние подключения. Поддерживаются только такие значения:
+> Старое состояние подключения. Единственными поддерживаемыми значениями являются:
     
    - MAPIOFFLINE_STATE_OFFLINE
     
@@ -76,7 +76,7 @@ typedef struct
     
  _ulStateNew_
   
-> Новое состояние подключения. Поддерживаются только такие значения:
+> Новое состояние подключения. Единственными поддерживаемыми значениями являются:
     
    - MAPIOFFLINE_STATE_OFFLINE
     
@@ -84,13 +84,13 @@ typedef struct
     
 ## <a name="remarks"></a>Примечания
 
-API автономного состояния поддерживает только уведомления об изменениях в сети или автономном режиме. Перед проверкой фактического изменения клиент должен проверить, возвращает ли Outlook следующие значения:
+API состояния автономного доступа поддерживает только уведомления об изменениях в режиме online/offline. Клиент должен проверить, Outlook возвращает следующие значения, прежде чем исследовать фактическое изменение:
   
-1.  *NotifyType*  имеет значение MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START, MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE или MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE. В этом случае клиент может предположить, что изменение является изменением состояния подключения, а *сведения* — структурой *StateChange.* 
+1.  *NotifyType*  имеет значение MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START, MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE или MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE. В этом случае клиент может предположить, что изменение является изменением состояния подключения, а *Info* — структурой *StateChange.* 
     
-2.  *ulMask*  имеет значение MAPIOFFLINE_STATE_OFFLINE_MASK. В этом случае клиент может предположить, что это изменение сетевого/автономного состояния подключения, и продолжить изучение *ulStateOld* и *ulStateNew.* 
+2.  *ulMask*  имеет значение MAPIOFFLINE_STATE_OFFLINE_MASK. В этом случае клиент может предположить, что изменение является изменением состояния подключения в режиме online/offline и может продолжить изучение *ulStateOld* и *ulStateNew.* 
     
-Вполне возможно, что Outlook извеирует клиента о других изменениях, которые не поддерживаются. В таких случаях *NotifyType* не будет одним из трех значений, которые были заранее задеклины, или *ulMask* не будет MAPIOFFLINE_STATE_OFFLINE_MASK, и клиент должен игнорировать остальные данные в *сведениях.* 
+Не исключено, что Outlook клиента о других изменениях, которые не поддерживаются. В таких случаях  *NotifyType*  не будет одним из трех значений, о чем говорилось ранее, или  *ulMask*  не будет MAPIOFFLINE_STATE_OFFLINE_MASK, и клиент должен игнорировать остальные данные в  *Info*  . 
   
 ## <a name="see-also"></a>См. также
 

@@ -19,16 +19,16 @@ ms.locfileid: "33412389"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
  **Чтобы получить участников списка рассылки**
   
-1. Создайте массив тегов свойств размера со свойствами членов, которые вы хотите получить, например **PR_ENTRYID** ([PidTagEntryId),](pidtagentryid-canonical-property.md) **PR_DISPLAY_NAME** ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)и **PR_DISPLAY_TYPE** ([PidTagDisplayType).](pidtagdisplaytype-canonical-property.md)
+1. Создайте массив тегов свойств размером с свойствами участников, которые вы хотите получить, например **PR_ENTRYID** [(PidTagEntryId),](pidtagentryid-canonical-property.md) **PR_DISPLAY_NAME** [(PidTagDisplayName)](pidtagdisplayname-canonical-property.md)и **PR_DISPLAY_TYPE** [(PidTagDisplayType).](pidtagdisplaytype-canonical-property.md)
     
-2. Вызовите [IAddrBook::OpenEntry,](iaddrbook-openentry.md) чтобы открыть список рассылки. 
+2. Вызов [IAddrBook::OpenEntry,](iaddrbook-openentry.md) чтобы открыть список рассылки. 
     
-3. Вызовите метод **IABContainer::GetContentsTable** списка рассылки, чтобы получить доступ к его таблице содержимого. 
+3. Чтобы получить доступ к таблице содержимого, позвоните по методу **IABContainer::GetContentsTable.** 
     
-4. Вызовите [HrQueryAllRows,](hrqueryallrows.md) чтобы получить все строки таблицы, представляющие члены списка рассылки. 
+4. Позвоните [в HrQueryAllRows,](hrqueryallrows.md) чтобы получить все строки таблицы, представляющие участников списка рассылки. 
     
 

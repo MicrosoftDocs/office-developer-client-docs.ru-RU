@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlGetBinaryName
 keywords:
-- Функция xlgetbinaryname [excel 2007]
+- функция xlgetbinaryname [Excel 2007]
 localization_priority: Normal
 ms.assetid: 66af3f78-65b5-42e0-82f9-ffd639d41751
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,25 +22,25 @@ ms.locfileid: "33412466"
 
 **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Используется для возврата работки данных, сохраненных функцией [xlDefineBinaryName.](xldefinebinaryname.md) Данные с определенным двоичным именем сохраняются в книге и доступны по имени в любое время. Дополнительные сведения см. в подразданном "Binary name Scope Limitation" (Ограничение области двоичных имен) в подраздах ["Известные проблемы" в разработке XLL для Excel.](known-issues-in-excel-xll-development.md)
+Используется для возврата ручки для данных, сохраненных функцией [xlDefineBinaryName.](xldefinebinaryname.md) Данные с определенным двоичным именем сохраняются в книге и могут быть доступны по имени в любое время. Дополнительные сведения см. в "Двоичное ограничение области имен" в известных проблемах [Excel XLL Development.](known-issues-in-excel-xll-development.md)
   
 ```cs
 Excel12(xlGetBinaryName, LPXLOPER12 pxRes, 1, LPXLOPER12 pxName);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
-_pxRes_ (**xltypeBigData** или **xltypeErr)**
+_pxRes_ **(xltypeBigData** или **xltypeErr)**
   
-Структура Bigdata, указывая извлеченные данные или ошибка, — это то, что данные не удалось извлечь или имя не определено. Когда функция возвращается, член **hdata** **XLOPER** /  **XLOPER12** содержит лад для именуемых данных.  _pxRes_ следует освободить в вызове **xlFree,** когда это больше не требуется. 
+Структура bigdata, указывавая извлеченные данные или ошибка, — данные не могут быть извлечены или имя не определено. Когда функция возвращается, член **hdata** **XLOPER XLOPER12** содержит ручку /   для названных данных.  _pxRes_ следует освободить при вызове **на xlFree,** если это больше не требуется. 
   
-_pxName_ (**xltypeStr)**
+_pxName_ **(xltypeStr)**
   
-Строка, указывая имя данных.
+Строка с указанием имени данных.
   
 ## <a name="remarks"></a>Примечания
 
-Microsoft Excel является владельцем окна памяти, возвращаемой **в формате hdata.** В Windows handle — это глобальный работник памяти (выделенный функцией **GlobalAlloc).** 
+Microsoft Excel владеет возвращенной в hdata ручкой **памяти.** В Windows, ручка является глобальной ручкой памяти (выделенной функцией **GlobalAlloc).** 
   
 ## <a name="see-also"></a>См. также
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251469
 localization_priority: Normal
 ms.assetid: 65873b32-2406-7c33-8e68-802461f467b2
-description: Возвращает true (1), если логическоеexpression имеет false. В противном случае возвращается false (0).
+description: Возвращает TRUE (1), если логическиеэкспрессии false. В противном случае возвращает FALSE (0).
 ms.openlocfilehash: 3359e21654bcc318caf31405093f851eca064119
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33413334"
 ---
 # <a name="not-function"></a>Функция NOT
 
-Возвращает true (1), если  _логическоеexpression_ имеет false. В противном случае возвращается false (0). 
+Возвращает TRUE (1), если  _логическиеэкспрессии_ false. В противном случае возвращает FALSE (0). 
   
 ## <a name="syntax"></a>Синтаксис
 
@@ -28,7 +28,7 @@ NOT(** *logicalexpression* ** )
 
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _logicalexpression_ <br/> |Обязательно  <br/> |**Строка** <br/> |Логическое выражение для оценки.  <br/> |
+| _logicalexpression_ <br/> |Обязательный  <br/> |**String** <br/> |Логическое выражение для оценки.  <br/> |
    
 ### <a name="return-value"></a>Возвращаемое значение
 
@@ -36,7 +36,7 @@ Boolean
   
 ## <a name="example"></a>Пример
 
-NOT(Height \> 0.75 in) 
+NOT (Высота \> 0,75 в) 
   
 Возвращает 1, если высота меньше или равна 0,75 дюйма. Возвращает 0, если высота больше 0,75 дюйма. 
   

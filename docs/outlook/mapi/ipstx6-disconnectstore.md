@@ -23,9 +23,9 @@ ms.locfileid: "33409820"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Отключает локальное хранилище.
+Отключает локальный магазин.
   
 ```cpp
 HRESULT DisconnectStore( 
@@ -33,11 +33,11 @@ HRESULT DisconnectStore(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
->  [in] Flags to modify behavior. Для этого параметра всегда должно быть задано 0. 
+>  [in] Flags to modify behavior. Этот параметр всегда должен быть задан в 0. 
     
 ## <a name="see-also"></a>См. также
 

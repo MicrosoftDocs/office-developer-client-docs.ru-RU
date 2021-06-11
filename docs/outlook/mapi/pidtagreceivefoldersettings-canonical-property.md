@@ -23,7 +23,7 @@ ms.locfileid: "33415056"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит таблицу параметров папки получения в хранилище сообщений.
   
@@ -36,15 +36,15 @@ ms.locfileid: "33415056"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство можно исключить в операциях [IMAPIProp::CopyTo](imapiprop-copyto.md) или включить в операции [IMAPIProp::CopyProps.](imapiprop-copyprops.md) Свойство типа PT_OBJECT не может быть успешно извлечено методом [IMAPIProp::GetProps;](imapiprop-getprops.md) Доступ к его содержимому должен получить метод [IMAPIProp::OpenProperty,](imapiprop-openproperty.md) запрашивающий интерфейс с идентификатором IID_IMAPITable. Поставщики служб должны сообщить о нем методу [IMAPIProp::GetPropList,](imapiprop-getproplist.md) если он установлен, но при желании может сообщить о нем или нет, если он не за установлен. 
+Это свойство можно исключить в [операциях IMAPIProp::CopyTo](imapiprop-copyto.md) или включить в [операции IMAPIProp::CopyProps.](imapiprop-copyprops.md) Как свойство типа PT_OBJECT, его невозможно успешно получить [методом IMAPIProp::GetProps;](imapiprop-getprops.md) Его содержимое должно быть доступны [методом IMAPIProp::OpenProperty,](imapiprop-openproperty.md) запрашивая интерфейс с идентификатором IID_IMAPITable. Поставщики услуг должны сообщить об этом [методу IMAPIProp::GetPropList,](imapiprop-getproplist.md) если он за установлен, но может сообщить об этом или нет, если он не установлен. 
   
-Чтобы получить содержимое таблицы, клиентские приложения должны вызвать [метод IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) Дополнительные сведения [см. в таблицах папок получения.](receive-folder-tables.md)
+Чтобы получить содержимое таблицы, клиентский приложение должно вызвать [метод IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) Дополнительные сведения см. в [таблице Получение таблиц папок.](receive-folder-tables.md)
   
-Это свойство содержит таблицу сопоставлений папок получения для хранения сообщений. Вызов **OpenProperty** для этого свойства эквивалентен вызову **GetReceiveFolderTable** в хранилище сообщений. 
+Это свойство содержит таблицу сопоставлений папок получения для магазина сообщений. Вызов **OpenProperty** в этом свойстве эквивалентен вызову **GetReceiveFolderTable** в хранилище сообщений. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -64,5 +64,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

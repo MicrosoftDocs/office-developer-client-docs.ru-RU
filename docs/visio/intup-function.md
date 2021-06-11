@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251446
 localization_priority: Normal
 ms.assetid: ce193ce1-c7fd-6609-ad37-a3a28b30a1bd
-description: Округлит число до следующего числа.
+description: Округлит число до следующей очереди.
 ms.openlocfilehash: 405345ae1d22d599df85e2a640445c8c681ec2f6
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33416141"
 ---
 # <a name="intup-function"></a>Функция INTUP
 
-Округлит число до следующего числа.
+Округлит число до следующей очереди.
   
 ## <a name="syntax"></a>Синтаксис
 
@@ -28,11 +28,11 @@ INTUP(** *number* ** )
 
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _число_ <br/> |Обязательна  <br/> |**Number** <br/> |Число для округлки.  <br/> |
+| _число_ <br/> |Обязательный  <br/> |**Number** <br/> |Номер, который нужно округить.  <br/> |
    
 ## <a name="example-1"></a>Пример 1
 
-INTUP(3.2)
+INTUP (3.2)
   
 Возвращает 4.
   

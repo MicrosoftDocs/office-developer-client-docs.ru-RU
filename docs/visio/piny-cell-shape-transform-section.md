@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm795
 localization_priority: Normal
 ms.assetid: 98b86b9d-9cc0-1169-1c44-ef1505bf92fa
-description: Представляет Y-координату закрепления фигуры (центра поворота) относительно начала родительского.
+description: Представляет y-координату пин-кода фигуры (центр вращения) по отношению к происхождению родительского.
 ms.openlocfilehash: 17daf691e4802a93775bfd5272d2142ef33bd189
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33411864"
 ---
 # <a name="piny-cell-shape-transform-section"></a>PinY Cell (Shape Transform Section)
 
-Представляет  *Y-координату*  закрепления фигуры (центра поворота) относительно начала родительского. 
+Представляет  *y-координату*  пин-кода фигуры (центр вращения) по отношению к происхождению родительского. 
   
 ## <a name="remarks"></a>Примечания
 

@@ -19,13 +19,13 @@ ms.locfileid: "33416659"
 
 В этом разделе описана объектная модель для решений InfoPath с управляемым кодом, а также типичные задачи программирования.
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 [Объектные модели, совместимые с InfoPath 2003](infopath-2003-compatible-object-models.md)
   
 > Предоставляется обзор объектных моделей, используемых в проектах InfoPath с управляемым кодом.
     
-[Доступ к данным приложения с помощью объектной модели InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
+[Доступ к данным приложений с помощью объектной модели InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
   
 > Описывается доступ к сведениям о приложении InfoPath, базовом XML-документе формы и файле определения формы (XSF).
     
@@ -33,7 +33,7 @@ ms.locfileid: "33416659"
   
 > Описывается доступ к данным, расположенным на внешних источниках данных.
     
-[Доступ к данным формы с помощью объектной модели InfoPath 2003](how-to-access-form-data-using-the-infopath-2003-object-model.md)
+[Данные формы доступа с помощью объектной модели InfoPath 2003](how-to-access-form-data-using-the-infopath-2003-object-model.md)
   
 > Описывается доступ к сведениям о базовом документе XML для формы и о содержащихся в форме данных, а также выполнение некоторых действий с документом XML.
     
@@ -45,11 +45,11 @@ ms.locfileid: "33416659"
   
 > Описывается обработка ошибок в проектах InfoPath с управляемым кодом.
     
-[Реагирование на события формы с помощью объектной модели InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+[Реагирование на события форм с помощью объектной модели InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
   
 > Описывается создание обработчиков событий для обработки событий, возникающих при заполнении пользователем формы.
     
-[Работа с Окнами форм с помощью объектной модели InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
+[Работа с формой Windows с помощью объектной модели InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
   
 > Описывается работа с окнами форм.
     

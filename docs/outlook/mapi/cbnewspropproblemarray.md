@@ -23,9 +23,9 @@ ms.locfileid: "33413341"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет количество ветвей, выделяемого для новой [структуры SPropProblemArray,](spropproblemarray.md) которая содержит указанное число [структур SPropProblem.](spropproblem.md) 
+Вычисляет количество bytes, которые будут выделены для новой [структуры SPropProblemArray,](spropproblemarray.md) которая содержит определенное количество [структур SPropProblem.](spropproblem.md) 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ ms.locfileid: "33413341"
 CbNewSPropProblemArray (_cprob)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ _cprob_
   
-> Количество структур **SPropProblem,** которые необходимо включить в новую **структуру SPropProblemArray.** 
+> Количество **структур SPropProblem,** которые будут включены в новую **структуру SPropProblemArray.** 
     
 ## <a name="see-also"></a>См. также
 

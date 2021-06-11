@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm50115
 localization_priority: Normal
 ms.assetid: 3d16b8b3-601b-c10b-68a8-ffd47251306f
-description: Определяет внешний вид по умолчанию для всех соединитеителей на странице рисования.
+description: Определяет внешний вид по умолчанию для всех соединители на странице рисования.
 ms.openlocfilehash: 6daed2e06f7673e5a4ec97ec83dc31bad2766301
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,13 +18,13 @@ ms.locfileid: "33410625"
 ---
 # <a name="linerouteext-cell-page-layout-section"></a>LineRouteExt Cell (Page Layout Section)
 
-Определяет внешний вид по умолчанию для всех соединитеителей на странице рисования.
+Определяет внешний вид по умолчанию для всех соединители на странице рисования.
   
 |**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 | 0  <br/> | По умолчанию (прямо)  <br/> |**visLORouteExtDefault** <br/> |
-| 1   <br/> | Прямо  <br/> |**visLORouteExtStraight** <br/> |
-| 2   <br/> | Curved  <br/> |**visLORouteExtNURBS** <br/> |
+| 1  <br/> | Прямая  <br/> |**visLORouteExtStraight** <br/> |
+| 2  <br/> | Изогнутый  <br/> |**visLORouteExtNURBS** <br/> |
    
 ## <a name="remarks"></a>Примечания
 

@@ -23,42 +23,42 @@ ms.locfileid: "33413383"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Управляет объектами, связанными с сеансом для логотипа MAPI.
+Управляет объектами, связанными с сеансом логотипа MAPI.
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapix.h  <br/> |
-|Выставим:  <br/> |Объекты сеанса  <br/> |
+|Подвергается:  <br/> |Объекты сеанса  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения и MAPI  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPISession  <br/> |
 |Тип указателя:  <br/> |LPMAPISESSION  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[GetLastError](imapisession-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR,](mapierror.md) которая содержит сведения об ошибке предыдущего сеанса.  <br/> |
+|[GetLastError](imapisession-getlasterror.md) <br/> |Возвращает [структуру MAPIERROR, которая](mapierror.md) содержит сведения об ошибке предыдущего сеанса.  <br/> |
 |[GetMsgStoresTable](imapisession-getmsgstorestable.md) <br/> |Предоставляет доступ к таблице хранилища сообщений, которая содержит сведения обо всех хранилищах сообщений в профиле сеанса.  <br/> |
 |[OpenMsgStore](imapisession-openmsgstore.md) <br/> |Открывает хранилище сообщений и возвращает указатель [IMsgStore](imsgstoreimapiprop.md) для дальнейшего доступа.  <br/> |
 |[OpenAddressBook](imapisession-openaddressbook.md) <br/> |Открывает интегрированную адресную книгу MAPI, возвращая указатель [IAddrBook](iaddrbookimapiprop.md) для дальнейшего доступа.  <br/> |
 |[OpenProfileSection](imapisession-openprofilesection.md) <br/> |Открывает раздел текущего профиля и возвращает указатель [IProfSect](iprofsectimapiprop.md) для дальнейшего доступа.  <br/> |
-|[GetStatusTable](imapisession-getstatustable.md) <br/> |Предоставляет доступ к таблице состояния, которая содержит сведения обо всех ресурсах MAPI в сеансе.  <br/> |
+|[GetStatusTable](imapisession-getstatustable.md) <br/> |Предоставляет доступ к таблице состояние, таблице, которая содержит сведения обо всех ресурсах MAPI в сеансе.  <br/> |
 |[OpenEntry](imapisession-openentry.md) <br/> |Открывает объект и возвращает указатель интерфейса для дальнейшего доступа.  <br/> |
-|[CompareEntryIDs](imapisession-compareentryids.md) <br/> |Сравнивает два идентификатора записей, чтобы определить, относятся ли они к одному объекту.  <br/> |
-|[Консультация](imapisession-advise.md) <br/> |Регистрируется для получения уведомлений об указанных событиях, влияющих на сеанс.  <br/> |
-|[Unadvise](imapisession-unadvise.md) <br/> |Отменяет отправку уведомлений, которые ранее были настроены с помощью вызова метода **Advise.**  <br/> |
-|**MessageOptions** <br/> | *Не поддерживается и не документируется.*  <br/> |
-|**QueryDefaultMessageOpt** <br/> | *Не поддерживается и не документируется.*  <br/> |
+|[CompareEntryIDs](imapisession-compareentryids.md) <br/> |Сравнивает два идентификатора записи, чтобы определить, относятся ли они к одному объекту.  <br/> |
+|[Консультирование](imapisession-advise.md) <br/> |Регистрируется для получения уведомления о указанных событиях, влияющих на сеанс.  <br/> |
+|[Unadvise](imapisession-unadvise.md) <br/> |Отменяет отправку уведомлений, ранее настроенных с помощью вызова метода **Advise.**  <br/> |
+|**MessageOptions** <br/> | *Не поддерживается или не документируется.*  <br/> |
+|**QueryDefaultMessageOpt** <br/> | *Не поддерживается или не документируется.*  <br/> |
 |[EnumAdrTypes](imapisession-enumadrtypes.md) <br/> |Устарело. Возвращает типы адресов, которые могут обрабатываться всеми поставщиками транспорта в сеансе.  <br/> |
-|[QueryIdentity](imapisession-queryidentity.md) <br/> |Возвращает идентификатор записи объекта, который предоставляет основное удостоверение для сеанса.  <br/> |
+|[QueryIdentity](imapisession-queryidentity.md) <br/> |Возвращает идентификатор входа объекта, который предоставляет основное удостоверение сеанса.  <br/> |
 |[Logoff](imapisession-logoff.md) <br/> |Завершает сеанс MAPI.  <br/> |
-|[SetDefaultStore](imapisession-setdefaultstore.md) <br/> |Устанавливает хранилище сообщений как хранилище сообщений по умолчанию для сеанса.  <br/> |
+|[SetDefaultStore](imapisession-setdefaultstore.md) <br/> |Создает хранилище сообщений как хранилище сообщений по умолчанию для сеанса.  <br/> |
 |[AdminServices](imapisession-adminservices.md) <br/> |Возвращает [указатель IMsgServiceAdmin](imsgserviceadminiunknown.md) для внесения изменений в службы сообщений.  <br/> |
 |[ShowForm](imapisession-showform.md) <br/> |Отображает форму.  <br/> |
-|[PrepareForm](imapisession-prepareform.md) <br/> |Создает числовой маркер, который метод **ShowForm** использует для доступа к сообщению.  <br/> |
+|[PrepareForm](imapisession-prepareform.md) <br/> |Создает числимый маркер, который метод **ShowForm** использует для доступа к сообщению.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

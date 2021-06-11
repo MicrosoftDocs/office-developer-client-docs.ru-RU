@@ -8,7 +8,7 @@ f1_keywords:
 - TempErr
 - TempErr12
 keywords:
-- функция многитель [excel 2007],Функция TempErr12 [Excel 2007]
+- функция темпера [Excel 2007], функция TempErr12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: cf8c26b2-ca2b-4dda-a02d-0ccbeac19106
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,14 +23,14 @@ ms.locfileid: "33410611"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Функция библиотеки Framework, которая создает временную  /  **XLOPER XLOPER12,** содержащую ошибку листа Microsoft Excel. 
+Функция библиотеки framework, которая создает временную **XLOPER** /  **XLOPER12,** содержащую ошибку Microsoft Excel таблицы. 
   
 ```cs
 LPXLOPER TempErr(WORD err);
 LPXLOPER12 TempErr12(BOOL err);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _err_
   
@@ -40,7 +40,7 @@ LPXLOPER12 TempErr12(BOOL err);
 |:-----|:-----|:-----|
 |#NULL  <br/> |**xlerrNull** <br/> |0  <br/> |
 |#ДЕЛ/0!  <br/> |**xlerrDiv0** <br/> |7   <br/> |
-|#ЗНАЧ!  <br/> |**xlerrValue** <br/> |15   <br/> |
+|#ЗНАЧ!  <br/> |**xlerrValue** <br/> |15  <br/> |
 |#ССЫЛКА!  <br/> |**xlerrRef** <br/> |23  <br/> |
 |#ИМЯ?  <br/> |**xlerrName** <br/> |29  <br/> |
 |#ЧИСЛО!  <br/> |**xlerrNum** <br/> |36  <br/> |
@@ -48,14 +48,14 @@ LPXLOPER12 TempErr12(BOOL err);
    
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает **xltypeBool, содержащий** переданный код ошибки. 
+Возвращает **xltypeBool,** содержащий переданный код ошибки. 
   
 ## <a name="example"></a>Пример
 
-В этом примере функция **TempErr12** используется для возврата #VALUE! ошибка в Excel. 
+В этом примере **используется функция TempErr12** для возврата #VALUE! ошибка Excel. 
   
 > [!NOTE]
-> Функция библиотеки Framework **TempErr12** выделяет память из внутреннего буфера, который обычно выделяется при вызвании функции **Framework Excel12f.** Если в этом примере функция многократно вызвана без использования **Excel12f,** происходит утечка памяти. 
+> Функция библиотеки Framework **TempErr12** выделяет память из внутреннего буфера, который обычно освобожден при назвав функцию **Framework Excel12f.** Если эта функция в примере называется несколько раз без призыва **Excel12f,** происходит утечка памяти. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

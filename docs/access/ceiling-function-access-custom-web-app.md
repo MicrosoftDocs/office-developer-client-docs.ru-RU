@@ -1,5 +1,5 @@
 ---
-title: Функция Ceiling (пользовательское веб-приложение Access)
+title: Функция ceiling (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414209"
 ---
-# <a name="ceiling-function-access-custom-web-app"></a>Функция Ceiling (пользовательское веб-приложение Access)
+# <a name="ceiling-function-access-custom-web-app"></a>Функция ceiling (Доступ к настраиваемой веб-приложению)
 
 Возвращает наименьшее число, большее или равное указанному числовому выражению.
   
@@ -22,12 +22,12 @@ ms.locfileid: "33414209"
   
 ## <a name="syntax"></a>Синтаксис
 
-**Ceiling** *(NumericExpression)* 
+**Потолок** *(NumericExpression)* 
   
 Функция Ceiling содержит следующий аргумент.
   
 |**Имя аргумента**|**Описание**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Числовое выражение.  <br/> |
+| *NumericExpression*  <br/> |Численное выражение.  <br/> |
    
 

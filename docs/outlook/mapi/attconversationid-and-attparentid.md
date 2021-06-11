@@ -17,19 +17,19 @@ ms.locfileid: "33410051"
 ---
 # <a name="attconversationid-and-attparentid"></a>attConversationID и attParentID
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Ключ беседы почты Windows для workgroups 3.1 является текстовой строкой. Эквивалент MAPI — это двоичное значение. Для обеспечения обратной совместимости реализация TNEF преобразует двоичные данные в текст и добавляет завершающий символ null.
+Клавиша Windows для workgroups 3.1 Mail — это текстовая строка. Эквивалент MAPI — это двоичное значение. Чтобы обеспечить обратную совместимость, реализация TNEF преобразует двоичные данные в текст и добавляет символ null.
   
 > [!NOTE]
-> Соответствующие свойства в MAPI, с которыми связываются эти атрибуты TNEF, PR_CONVERSATION_KEY и PR_PARENT_KEY, были неподдержаты в Microsoft Exchange Server: использование **PR_CONVERSATION_KEY**, каноническое свойство [PidTagConversationKey](pidtagconversationkey-canonical-property.md), сохраняется только в Outlook для locating **IPM. Сообщения MessageManager.** 
+> Соответствующие свойства в MAPI, к которым эти атрибуты TNEF сопопоставу, PR_CONVERSATION_KEY и PR_PARENT_KEY, были обескровлены в Microsoft Exchange Server: Использование **PR_CONVERSATION_KEY**, каноническое свойство [PidTagConversationKey](pidtagconversationkey-canonical-property.md), сохраняется только в Outlook, для размещения **IPM. Сообщения MessageManager.** 
   
 ## <a name="remarks"></a>Примечания
 
-Свойство **PR_CONVERSATION_KEY** является устаревшим предшествует каноническому свойству **PR_CONVERSATION_INDEX,** [PidTagConversationIndex и](pidtagconversationindex-canonical-property.md) **PR_CONVERSATION_TOPIC,** [PidTagConversationTopic,](pidtagconversationtopic-canonical-property.md)которое следует использовать.
+Свойство **PR_CONVERSATION_KEY** является устаревшим предшественником **PR_CONVERSATION_INDEX,** [PidTagConversationIndex Canonical Property](pidtagconversationindex-canonical-property.md) и **PR_CONVERSATION_TOPIC**, [PidTagConversationTopic Canonical Property](pidtagconversationtopic-canonical-property.md), которое следует использовать вместо этого.
   
 ## <a name="see-also"></a>См. также
 
-- [Подtree IPM](ipm-subtree.md)
+- [Подтрий IPM](ipm-subtree.md)
 - [Специальные папки MAPI](mapi-special-folders.md)
 

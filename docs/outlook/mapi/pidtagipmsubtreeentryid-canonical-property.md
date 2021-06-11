@@ -23,9 +23,9 @@ ms.locfileid: "33412732"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификатор записи корневого поддерева папки межличностного сообщения (IPM) в дереве папок в хранилище сообщений. 
+Содержит идентификатор входа корневого подтриба папки межличностного сообщения (IPM) в дереве папки магазина сообщений. 
   
 |||
 |:-----|:-----|
@@ -40,7 +40,7 @@ ms.locfileid: "33412732"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

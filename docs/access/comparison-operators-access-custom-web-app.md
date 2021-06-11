@@ -1,5 +1,5 @@
 ---
-title: Comparison Operators (Access custom web app)
+title: Операторы сравнения (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,29 +13,29 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412844"
 ---
-# <a name="comparison-operators-access-custom-web-app"></a>Comparison Operators (Access custom web app)
+# <a name="comparison-operators-access-custom-web-app"></a>Операторы сравнения (Доступ к настраиваемой веб-приложению)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
-- [\< (Меньше) (Пользовательское веб-приложение Access)](less-thanaccess-custom-web-app.md)
+- [\< (Меньше) (Доступ к настраиваемой веб-приложению)](less-thanaccess-custom-web-app.md)
     
-- [\<= (Меньше или равно) (пользовательское веб-приложение Access)](equalsless-than-or-equal-toaccess-custom-web-app.md)
+- [\<= (Меньше или меньше) (Доступ к настраиваемой веб-приложению)](equalsless-than-or-equal-toaccess-custom-web-app.md)
     
-- [\<\> (Не равно) (Пользовательское веб-приложение Access)](not-equal-toaccess-custom-web-app.md)
+- [\<\> (Не равно) (Доступ к настраиваемой веб-приложению)](not-equal-toaccess-custom-web-app.md)
     
-- [= (Равно) (пользовательское веб-приложение Access)](equalsequalsaccess-custom-web-app.md)
+- [= (Равно) (Доступ к настраиваемой веб-приложению)](equalsequalsaccess-custom-web-app.md)
     
-- [\> (Больше) (Пользовательское веб-приложение Access)](greater-thanaccess-custom-web-app.md)
+- [\> (Больше, чем) (Доступ к настраиваемой веб-приложению)](greater-thanaccess-custom-web-app.md)
     
-- [\>= (Больше или равно) (пользовательское веб-приложение Access)](equalsgreater-than-or-equal-toaccess-custom-web-app.md)
+- [\>= (Больше или равно) (Доступ к настраиваемой веб-приложению)](equalsgreater-than-or-equal-toaccess-custom-web-app.md)
     
-- [BETWEEN (пользовательское веб-приложение Access)](between-access-custom-web-app.md)
+- [BETWEEN (Доступ к настраиваемой веб-приложению)](between-access-custom-web-app.md)
     
-- [IN (пользовательское веб-приложение Access)](in-access-custom-web-app.md)
+- [IN (Доступ к настраиваемой веб-приложению)](in-access-custom-web-app.md)
     
-- [LIKE (пользовательское веб-приложение Access)](like-access-custom-web-app.md)
+- [LIKE (Доступ к настраиваемой веб-приложению)](like-access-custom-web-app.md)
     
 

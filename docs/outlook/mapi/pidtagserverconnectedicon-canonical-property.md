@@ -19,9 +19,9 @@ ms.locfileid: "33410464"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает значок, отображаемой в панели состояния.
+Указывает значок, отображаемый в панели состояния.
   
 |||
 |:-----|:-----|
@@ -40,5 +40,5 @@ ms.locfileid: "33410464"
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

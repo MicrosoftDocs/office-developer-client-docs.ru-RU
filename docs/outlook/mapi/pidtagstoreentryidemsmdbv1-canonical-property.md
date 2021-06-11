@@ -19,9 +19,9 @@ ms.locfileid: "33415154"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит старый стиль (Microsoft Outlook 2002 и более ранних версий) идентификатора записи для Microsoft Exchange Server 2010 или Exchange Server 2013.
+Содержит старый стиль (Microsoft Outlook 2002 и более ранние версии) идентификатора записи магазина сообщений Microsoft Exchange Server 2010 или Exchange Server 2013 года.
   
 |||
 |:-----|:-----|
@@ -32,9 +32,9 @@ ms.locfileid: "33415154"
    
 ## <a name="remarks"></a>Примечания
 
-Начиная с Microsoft Outlook 2003, FQDNs сервера были интегрированы в ИД записи, тем самым избегая дополнительных RPCs для ссылок. Однако это делает ИД записей длиннее и представляет дополнительные сценарии, в которых метод **CompareEntryIDs** должен использоваться для определения того, эквивалентны ли два ИД записей. Свойство PR_STORE_ENTRYID_EMSMDB_V1 (PidTagStoreIdEmsbdbV1) имеет доступ к старой версии ИД записи Exchange Server, используемой Microsoft Outlook 2002 (Microsoft Office XP) и более ранними версиями. Это позволяет сэкономить место, а также уменьшить количество вызовов **CompareEntryIDs,** необходимых для определения эквивалентных номеров записей. Обратите внимание, что при использовании более старых ИД записей для открытия почтового ящика могут возникнуть дополнительные функции проверки записей, если требуется получить ссылку. 
+Начиная с Microsoft Outlook 2003 г. серверные FQDNs были интегрированы в ID-документы записи, что позволяет избежать дополнительных RPCs для рефералов. Тем не менее, это делает ID записи длиннее и вводит больше сценариев, в которых метод **CompareEntryIDs** должен быть использован, чтобы определить, эквивалентны ли два ID записи. Свойство PR_STORE_ENTRYID_EMSMDB_V1 (PidTagStoreIdEmsbdbV1) имеет доступ к более старшему формату ID записи Exchange Server, используемого Microsoft Outlook 2002 (Microsoft Office XP) и более ранних версий. Это позволяет сэкономить пространство, а также уменьшить количество вызовов **CompareEntryIDs,** необходимых для определения эквивалентных ID-данных входа. Обратите внимание, что с помощью более старых ID-адресов записи для открытия почтового ящика могут возникнуть дополнительные RPCs, если требуется направление. 
   
-Чтобы получить доступ к PR_STORE_ENTRYID_EMSMDB_V1 в режиме кэширования, необходимо обойти кэш с помощью флага MAPI_NO_CACHE с методом [IMAPIProp::GetProps.](imapiprop-getprops.md) Если **PR_STORE_ENTRYID_EMSMDB_V1** нет, код должен вернуться к PR_STORE_ENTRYID. Свойство PR_STORE_ENTRYID_EMSMDB_V1 поддерживается только с Outlook 2003 по Microsoft Outlook 2013. 
+Чтобы получить доступ PR_STORE_ENTRYID_EMSMDB_V1 в кэшировом режиме, необходимо обойти кэш с помощью флага MAPI_NO_CACHE с помощью [метода IMAPIProp::GetProps.](imapiprop-getprops.md) Если **PR_STORE_ENTRYID_EMSMDB_V1** не доступен, код должен вернуться к PR_STORE_ENTRYID. Только Outlook 2003 Microsoft Outlook 2013 поддерживают PR_STORE_ENTRYID_EMSMDB_V1 свойства. 
   
 ## <a name="see-also"></a>См. также
 
@@ -49,5 +49,5 @@ ms.locfileid: "33415154"
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

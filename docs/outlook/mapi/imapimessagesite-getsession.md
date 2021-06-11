@@ -23,7 +23,7 @@ ms.locfileid: "33412690"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Возвращает сеанс MAPI, в котором было создано или открыто текущее сообщение.
   
@@ -33,11 +33,11 @@ HRESULT GetSession(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ppSession_
   
-> [out] Указатель на указатель на возвращенный объект сеанса.
+> [вышел] Указатель на указатель на возвращаемом объекте сеанса.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -47,11 +47,11 @@ S_OK
     
 S_FALSE 
   
-> Сеанс для текущего сообщения не существует.
+> Для текущего сообщения сеанса не существует.
     
 ## <a name="remarks"></a>Примечания
 
-Список интерфейсов, связанных с серверами форм, см. в списке [интерфейсов форм MAPI.](mapi-form-interfaces.md)
+Список интерфейсов, связанных с серверами форм, см. в перечне [интерфейсов форм MAPI.](mapi-form-interfaces.md)
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -59,7 +59,7 @@ S_FALSE
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |MFCMAPI использует метод **IMAPIMessageSite::GetSession** для возврата кэшного указателя сеанса, если он доступен.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |MFCMAPI использует **метод IMAPIMessageSite::GetSession** для возврата кэшного указателя сеанса, если он доступен.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

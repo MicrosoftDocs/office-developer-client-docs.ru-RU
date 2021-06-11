@@ -1,5 +1,5 @@
 ---
-title: Распространенные задачи по разработке шаблонов форм с помощью объектной модели InfoPath
+title: Общие задачи по разработке шаблонов форм с помощью объектной модели InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411577"
 ---
-# <a name="common-tasks-for-developing-form-templates-using-the-infopath-object-model"></a>Распространенные задачи по разработке шаблонов форм с помощью объектной модели InfoPath
+# <a name="common-tasks-for-developing-form-templates-using-the-infopath-object-model"></a>Общие задачи по разработке шаблонов форм с помощью объектной модели InfoPath
 
 Эта тема призвана помочь быстро найти ответы на распространенные вопросы о разработке шаблонов форм с кодом, работающим с использованием сборки **Microsoft.Office.Interop.InfoPath.SemiTrust**. 
   
@@ -29,7 +29,7 @@ ms.locfileid: "33411577"
     
 - [Отлаживать проекты InfoPath с помощью объектной модели InfoPath 2003](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
     
-- [Добавление настраиваемой сборки и ссылка на нее](how-to-add-and-reference-custom-assemblies.md)
+- [Добавление и ссылка настраиваемые сборки](how-to-add-and-reference-custom-assemblies.md)
     
 - [Пошаговое руководство. Создание и отладка начального шаблона формы с помощью объектной модели InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
     
@@ -37,11 +37,11 @@ ms.locfileid: "33411577"
 
 Типичные задачи, выполняемые при программировании шаблонов форм с управляемым кодом.
   
-- [Реагирование на события формы с помощью объектной модели InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+- [Реагирование на события форм с помощью объектной модели InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
     
 - [Работа с представлениями с помощью объектной модели InfoPath 2003](how-to-work-with-views-using-the-infopath-2003-object-model.md)
     
-- [Работа с Окнами форм с помощью объектной модели InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
+- [Работа с формой Windows с помощью объектной модели InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
     
 - [Отображение оповещений и диалогов с помощью объектной модели InfoPath 2003](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
     
@@ -57,23 +57,23 @@ ms.locfileid: "33411577"
 
 Типичные задачи, выполняемые при работе с данными.
   
-- [Доступ к данным приложения с помощью объектной модели InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
+- [Доступ к данным приложений с помощью объектной модели InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
     
 - [Доступ к внешним источникам данных с помощью объектной модели InfoPath 2003](how-to-access-external-data-sources-using-the-infopath-2003-object-model.md)
     
-- [Доступ к данным формы с помощью объектной модели InfoPath 2003](how-to-access-form-data-using-the-infopath-2003-object-model.md)
+- [Данные формы доступа с помощью объектной модели InfoPath 2003](how-to-access-form-data-using-the-infopath-2003-object-model.md)
     
 ## <a name="security-and-deployment"></a>Безопасность и развертывание
 
 Типичные задачи и сведения, связанные с безопасностью и разработкой шаблонов форм с управляемым кодом.
   
-- [О модели безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
+- [О модели безопасности шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
     
-- [Развертывание шаблонов форм InfoPath с кодом](how-to-deploy-infopath-form-templates-with-code.md)
+- [Развертывание шаблонов форм InfoPath с помощью кода](how-to-deploy-infopath-form-templates-with-code.md)
     
-- [Настройка параметров безопасности для шаблонов форм с помощью кода](how-to-configure-security-settings-for-form-templates-with-code.md)
+- [Настройка безопасности Параметры шаблонов форм с помощью кода](how-to-configure-security-settings-for-form-templates-with-code.md)
     
-- [Предварительный просмотр и отлагивание шаблонов форм, которые требуют полного доверия](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
+- [Шаблоны предварительного просмотра и отлаговки форм, которые требуют полного доверия](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
     
 ## <a name="see-also"></a>См. также
 

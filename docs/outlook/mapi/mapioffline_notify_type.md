@@ -19,13 +19,13 @@ ms.locfileid: "33413432"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В MAPIOFFLINE_NOTIFY_TYPE уведомления указывается, происходит ли изменение состояния подключения, происходит или завершено. 
+В MAPIOFFLINE_NOTIFY_TYPE уведомления указывается, происходит или завершено изменение состояния подключения. 
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. **[IMAPIOfflineNotify.](imapiofflinenotifyiunknown.md)** 
+См. **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
   
 ```cpp
 typedef enum { 

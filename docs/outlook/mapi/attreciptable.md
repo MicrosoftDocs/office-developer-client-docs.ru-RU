@@ -17,14 +17,14 @@ ms.locfileid: "33412158"
 ---
 # <a name="attreciptable"></a>attRecipTable
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-При кодировании таблицы получателей каждый получатель кодируется как строка свойств MAPI. Формат: 
+При кодировании таблицы получателей каждый получатель закодирован как ряд свойств MAPI. Формат: 
   
 _Row_Seq:_
   
 >  _количество строк Property_Sequence,_ ... 
     
-Формат _Property_Seq_ такой же, как в атрибуте [attMAPIProps.](attmapiprops.md) 
+Формат _Property_Seq_ такой же, как и в [атрибуте attMAPIProps.](attmapiprops.md) 
     
 

@@ -26,8 +26,8 @@ ms.locfileid: "33414125"
 |**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 | 0  <br/> | Выравнивание по левому краю (по умолчанию).  <br/> |**visSmartTagXJustifyLeft** <br/> |
-| 1   <br/> | Выравнивание по центру.  <br/> |**visSmartTagXJustifyCenter** <br/> |
-| 2   <br/> | Выравнивание по правому краю.  <br/> |**visSmartTagXJustifyRight** <br/> |
+| 1  <br/> | Выравнивание по центру.  <br/> |**visSmartTagXJustifyCenter** <br/> |
+| 2  <br/> | Выравнивание по правому краю.  <br/> |**visSmartTagXJustifyRight** <br/> |
    
 ## <a name="remarks"></a>Замечания
 

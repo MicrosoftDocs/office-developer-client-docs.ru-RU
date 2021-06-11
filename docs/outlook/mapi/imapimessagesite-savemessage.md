@@ -23,7 +23,7 @@ ms.locfileid: "33417107"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Запрашивает, чтобы текущее сообщение было сохранено.
   
@@ -43,9 +43,9 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Формы вызвать **метод IMAPIMessageSite::SaveMessage,** чтобы запросить сохранение сообщения. 
+Формы называют **метод IMAPIMessageSite::SaveMessage,** чтобы попросить сохранить сообщение. 
   
-Список интерфейсов, связанных с серверами форм, см. в списке [интерфейсов форм MAPI.](mapi-form-interfaces.md)
+Список интерфейсов, связанных с серверами форм, см. в [перечне интерфейсов форм MAPI.](mapi-form-interfaces.md)
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -53,7 +53,7 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SaveMessage  <br/> |MFCMAPI использует метод **IMAPIMessageSite::SaveMessage** для сохранения сообщения.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SaveMessage  <br/> |MFCMAPI использует **метод IMAPIMessageSite::SaveMessage** для сохранения сообщения.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

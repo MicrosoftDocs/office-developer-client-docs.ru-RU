@@ -1,5 +1,5 @@
 ---
-title: Отрисовка вложения в виде обычного текста
+title: Отрисовка вложения в простом тексте
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,28 +15,28 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410877"
 ---
-# <a name="rendering-an-attachment-in-plain-text"></a>Отрисовка вложения в виде обычного текста
+# <a name="rendering-an-attachment-in-plain-text"></a>Отрисовка вложения в простом тексте
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Чтобы отрисовать вложение в сообщении с простым текстом, извлекаете свойство **PR_RENDERING_POSITION вложения** [(PidTagRenderingPosition)](pidtagrenderingposition-canonical-property.md)и применяте его к данным в свойстве **PR_ATTACH_RENDERING** ([PidTagAttachRendering).](pidtagattachrendering-canonical-property.md) Существует два способа получения **PR_RENDERING_POSITION:**
+Чтобы отрисовать вложение в сообщении с простым **текстом, извлекаем** свойство [PR_RENDERING_POSITION (PidTagRenderingPosition)](pidtagrenderingposition-canonical-property.md)и применяем его к данным в **свойстве** [PR_ATTACH_RENDERING (PidTagAttachRendering).](pidtagattachrendering-canonical-property.md) Существует два способа получения **PR_RENDERING_POSITION:**
   
-- Откройте **вложение,** вызывая метод **IMessage::OpenAttach** сообщения, а затем запросив свойство PR_RENDERING_POSITION путем вызова метода **IMAPIProp::GetProps** вложения. Дополнительные сведения см. в подразделах [IMessage::OpenAttach](imessage-openattach.md) и [IMAPIProp::GetProps.](imapiprop-getprops.md)
+- Откройте **вложение,** назвав метод **IMessage::OpenAttach,** а затем попросите свойство PR_RENDERING_POSITION, назвав метод **IMAPIProp::GetProps** вложения. Дополнительные сведения см. [в странице IMessage::OpenAttach](imessage-openattach.md) и [IMAPIProp::GetProps](imapiprop-getprops.md).
     
-- Вызовите метод **IMessage::GetAttachmentTable** сообщения, чтобы получить доступ к таблице вложений и получить столбец, в PR_RENDERING_POSITION **свойства.** Этот способ всегда предпочтительный. For more information, see [IMessage::GetAttachmentTable](imessage-getattachmenttable.md).
+- Вызовите метод **IMessage::GetAttachmentTable,** чтобы получить доступ к таблице вложений и получить столбец, который содержит **свойство** PR_RENDERING_POSITION. Этот способ всегда предпочтительнее. For more information, see [IMessage::GetAttachmentTable](imessage-getattachmenttable.md).
     
-Помните, что многие хранилища сообщений с RTF не вычисляют PR_RENDERING_POSITION, пока клиент не запросит свойство **PR_BODY** [(PidTagBody)](pidtagbody-canonical-property.md)сообщения.  До этого времени **PR_RENDERING_POSITION** обычно представляет приблизительное значение. Поставщики store сообщений могут предоставить клиентам приблизительное значение для повышения производительности. 
+Имейте в виду, что многие хранилища сообщений, PR_RENDERING_POSITION RTF, не  вычисляют PR_BODY[(PidTagBody)](pidtagbody-canonical-property.md)свойства сообщения.  До этого времени **PR_RENDERING_POSITION** обычно представляет приблизительное значение. Поставщикам магазинов сообщений разрешено поставлять клиентам приблизительное значение для повышения производительности. 
   
-Отрисовка файла или двоичного вложения  хранится в PR_ATTACH_RENDERING свойстве. Вы можете получить PR_ATTACH_RENDERING так  же, как и **PR_RENDERING_POSITION:** непосредственно из вложения или из таблицы вложений. Для **PR_ATTACH_RENDERING** первая стратегия, хотя и более отнимает больше времени, является более безопасной. Так как некоторые поставщики хранимых сообщений утесируют столбцы таблицы до 255 или в некоторых  случаях — 510, сложно убедиться, что столбец PR_ATTACH_RENDERING содержит полную отрисовку. При искомом свойстве непосредственно из вложения оно всегда будет завершено. 
+Отрисовка для файла или двоичного вложения хранится в **PR_ATTACH_RENDERING** свойстве. Вы можете извлекать PR_ATTACH_RENDERING  так же, как и **PR_RENDERING_POSITION:** непосредственно из вложения или из таблицы вложений. Для **PR_ATTACH_RENDERING** первая стратегия, хотя и отнимает больше времени, является более безопасной. Так как некоторые поставщики магазинов сообщений усечены столбцы таблицы до 255 bytes или в нескольких  случаях 510 bytes, трудно быть уверенным, что столбец PR_ATTACH_RENDERING содержит полное отрисовку. При ирисовыве свойства непосредственно из вложения оно всегда будет завершено. 
   
-Ни OLE, ни вложения в сообщения не **PR_ATTACH_RENDERING.** Вместо этого данные отображения вложений OLE 1 хранятся в текстовом потоке сообщения. Вложения OLE 2 хранятся в специальном потоке объекта хранилища. Отрисовка сведений о вложениях сообщений доступна через диспетчер форм. 
+Ни OLE, ни вложения сообщений **не PR_ATTACH_RENDERING**. Вместо этого в текстовом потоке сообщения сохраняется отрисовка сведений для вложений OLE 1. Для вложений OLE 2 он хранится в специальном детском потоке объекта хранения. Отрисовка сведений для вложений сообщений доступна через диспетчер форм. 
   
- **Извлечение отображения вложения сообщения**
+ **Извлечение отрисовки для вложения сообщений**
   
-1. Используйте класс сообщения для доступа к диспетчеру форм.
+1. Чтобы получить доступ к диспетчеру форм, используйте класс сообщения сообщения.
     
-2. Доступ к свойству PR_MINI_ICON **диспетчера** форм. Дополнительные сведения **см. в PR_MINI_ICON** ([PidTagMiniIcon).](pidtagminiicon-canonical-property.md)
+2. Доступ к свойству администратора **PR_MINI_ICON** формы. Дополнительные сведения см. **в PR_MINI_ICON** [(PidTagMiniIcon).](pidtagminiicon-canonical-property.md)
     
 

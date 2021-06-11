@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251655
 localization_priority: Normal
 ms.assetid: baa05a50-97d0-3769-635e-0ea20317d59a
-description: Определяет стиль перехода по строке для переходов по динамическим соединителам.
+description: Определяет стиль перехода строки для прыжков на динамическом соединители.
 ms.openlocfilehash: ae8af4e326a6c895b3617a4869f98eaf0db68db1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,14 +18,14 @@ ms.locfileid: "33415994"
 ---
 # <a name="conlinejumpstyle-cell-shape-layout-section"></a>ConLineJumpStyle Cell (Shape Layout Section)
 
-Определяет стиль перехода по строке для переходов по динамическим соединителам.
+Определяет стиль перехода строки для прыжков на динамическом соединители.
   
-|**Значение**|**Стиль перехода по строкам**|**Константа автоматизации**|
+|**Значение**|**Стиль прыжка в строку**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-|0  <br/> |Страница по умолчанию  <br/> |**visLOJumpStyleDefault** <br/> |
-|1   <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
-|2   <br/> |Gap  <br/> |**visLOJumpStyleGap** <br/> |
-|3   <br/> |Square  <br/> |**visLOJumpStyleSquare** <br/> |
+|0  <br/> |По умолчанию страницы  <br/> |**visLOJumpStyleDefault** <br/> |
+|1  <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
+|2  <br/> |Gap  <br/> |**visLOJumpStyleGap** <br/> |
+|3  <br/> |Square  <br/> |**visLOJumpStyleSquare** <br/> |
 |4   <br/> |Треугольник  <br/> |**visLOJumpStyleTriangle** <br/> |
 |5   <br/> |3 стороны  <br/> |**visLOJumpStyle2Point** <br/> |
 |6   <br/> |4 стороны  <br/> |**visLOJumpStyle3Point** <br/> |
@@ -41,7 +41,7 @@ ms.locfileid: "33415994"
    
 ## <a name="remarks"></a>Примечания
 
-Вы также можете установить значение этой ячейки, выбрав динамический  соединитель, щелкнув "Поведение" в группе "Конструктор фигур" на вкладке "Разработчик", а затем выбрав вкладку **"Соединитель".**  [](run-in-developer-mode-display-the-developer-tab.md) 
+Вы также можете установить значение этой ячейки, выбрав динамический соединитель, щелкнув "Поведение" в группе **Shape Design** на вкладке Разработчик, а затем нажав вкладку **Соединитель.**  [](run-in-developer-mode-display-the-developer-tab.md) 
   
 Чтобы получить ссылку на ячейку ConLineJumpStyle по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте: 
   

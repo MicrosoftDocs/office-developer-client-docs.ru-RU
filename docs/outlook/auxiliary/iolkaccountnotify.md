@@ -21,19 +21,19 @@ ms.locfileid: "33412501"
 
 |||
 |:-----|:-----|
-|Наследуется от:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
+|Наследует от:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |Предоставлено:  <br/> | Клиент  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IOlkAccountNotify  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[Уведомления](iolkaccountnotify-notify.md) <br/> |Сообщает клиенту об изменениях указанной учетной записи.  <br/> |
+|[Уведомить](iolkaccountnotify-notify.md) <br/> |Сообщает клиенту об изменениях указанной учетной записи.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Этот интерфейс передается в [IOlkAccountManager::Advise](iolkaccountmanager-advise.md) при настройке уведомлений. 
+Этот интерфейс передается [в IOlkAccountManager::Advise](iolkaccountmanager-advise.md) при настройке уведомлений. 
   
 ## <a name="see-also"></a>См. также
 

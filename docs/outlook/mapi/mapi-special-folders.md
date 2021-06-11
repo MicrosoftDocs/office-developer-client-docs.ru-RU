@@ -19,7 +19,7 @@ ms.locfileid: "33410926"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 MAPI ���������� ��������� �����, ������� �������� �������, ��������� ��� ����� �������������� �������������� ������������ ���� � �������� ����� �� ��������� ��� ������������ ����� ���������. ��������� ����������� ����� ������ �� ����� ���� ������, � � ��� ����������� ������ �������������� ��������.
   
@@ -54,12 +54,12 @@ MAPI assigns special entry identifier properties for these special folders. For 
   
 |**Folder**|**�������� ��� �������**|
 |:-----|:-----|
-|���������  <br/> |**PR_IPM_APPOINTMENT_ENTRYID** ([PidTagIpmAppointmentEntryId)](pidtagipmappointmententryid-canonical-property.md)  <br/> |
-|Контакты  <br/> |**PR_IPM_CONTACT_ENTRYID** ([PidTagIpmContactEntryId)](pidtagipmcontactentryid-canonical-property.md)  <br/> |
-|Журнал  <br/> |**PR_IPM_JOURNAL_ENTRYID** ([PidTagIpmJournalEntryId)](pidtagipmjournalentryid-canonical-property.md)  <br/> |
-|Примечания  <br/> |**PR_IPM_NOTE_ENTRYID** ([PidTagIpmNoteEntryId)](pidtagipmnoteentryid-canonical-property.md)  <br/> |
-|Задачи  <br/> |**PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId)](pidtagipmtaskentryid-canonical-property.md)  <br/> |
-|Черновики  <br/> |**PR_IPM_DRAFTS_ENTRYID** ([PidTagIpmDraftsEntryId)](pidtagipmdraftsentryid-canonical-property.md)  <br/> |
+|���������  <br/> |**PR_IPM_APPOINTMENT_ENTRYID** [(PidTagIpmAppointmentEntryId)](pidtagipmappointmententryid-canonical-property.md)  <br/> |
+|Контакты  <br/> |**PR_IPM_CONTACT_ENTRYID** [(PidTagIpmContactEntryId)](pidtagipmcontactentryid-canonical-property.md)  <br/> |
+|Журнал  <br/> |**PR_IPM_JOURNAL_ENTRYID** [(PidTagIpmJournalEntryId)](pidtagipmjournalentryid-canonical-property.md)  <br/> |
+|Примечания  <br/> |**PR_IPM_NOTE_ENTRYID** [(PidTagIpmNoteEntryId)](pidtagipmnoteentryid-canonical-property.md)  <br/> |
+|Задачи  <br/> |**PR_IPM_TASK_ENTRYID** [(PidTagIpmTaskEntryId)](pidtagipmtaskentryid-canonical-property.md)  <br/> |
+|Черновики  <br/> |**PR_IPM_DRAFTS_ENTRYID** [(PidTagIpmDraftsEntryId](pidtagipmdraftsentryid-canonical-property.md))  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -1,5 +1,5 @@
 ---
-title: Операторы (пользовательское веб-приложение Access)
+title: Операторы (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417066"
 ---
-# <a name="operators-access-custom-web-app"></a>Операторы (пользовательское веб-приложение Access)
+# <a name="operators-access-custom-web-app"></a>Операторы (Доступ к настраиваемой веб-приложению)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
-- [Арифметические операторы (пользовательское веб-приложение Access)](arithmetic-operators-access-custom-web-app.md)
+- [Arithmetic Operators (Access custom web app)](arithmetic-operators-access-custom-web-app.md)
     
-- [Comparison Operators (Access custom web app)](comparison-operators-access-custom-web-app.md)
+- [Операторы сравнения (Доступ к настраиваемой веб-приложению)](comparison-operators-access-custom-web-app.md)
     
-- [Логические операторы (пользовательское веб-приложение Access)](logical-operators-access-custom-web-app.md)
+- [Логические операторы (Доступ к настраиваемой веб-приложению)](logical-operators-access-custom-web-app.md)
     
 - [String Operators (Access custom web app)](string-operators-access-custom-web-app.md)
     

@@ -23,7 +23,7 @@ ms.locfileid: "33414223"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит категорию формы. 
   
@@ -32,15 +32,15 @@ ms.locfileid: "33414223"
 |Связанные свойства:  <br/> |PR_FORM_CATEGORY, PR_FORM_CATEGORY_A, PR_FORM_CATEGORY_W  <br/> |
 |Идентификатор:  <br/> |0x3304  <br/> |
 |Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Область:  <br/> |Общие MAPI  <br/> |
+|Область:  <br/> |MAPI общие  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Имя категории определяется клиентым приложением соответствующим образом. 
+Имя категории определяется клиентской заявкой таким образом, который подходит приложению. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

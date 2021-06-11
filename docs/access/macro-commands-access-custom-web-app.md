@@ -1,5 +1,5 @@
 ---
-title: Команды макроса (пользовательское веб-приложение Access)
+title: Команды макроса (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411689"
 ---
-# <a name="macro-commands-access-custom-web-app"></a>Команды макроса (пользовательское веб-приложение Access)
+# <a name="macro-commands-access-custom-web-app"></a>Команды макроса (Доступ к настраиваемой веб-приложению)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
-- [RunDataMacro Macro Action (пользовательское веб-приложение Access)](rundatamacro-macro-action-access-custom-web-app.md)
+- [Действия Макрос RunDataMacro (Доступ к настраиваемой веб-приложению)](rundatamacro-macro-action-access-custom-web-app.md)
     
-- [RunMacro Macro Action (пользовательское веб-приложение Access)](runmacro-macro-action-access-custom-web-app.md)
+- [Действия Макрос RunMacro (Доступ к настраиваемой веб-приложению)](runmacro-macro-action-access-custom-web-app.md)
     
-- [SetVariable Macro Action (пользовательское веб-приложение Access)](setvariable-macro-action-access-custom-web-app.md)
+- [SetVariable Macro Action (Access custom web app)](setvariable-macro-action-access-custom-web-app.md)
     
 

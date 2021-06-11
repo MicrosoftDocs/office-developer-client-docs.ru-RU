@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d67bd395-d324-217d-8ddc-1d48dd724383
-description: Поддерживает переостережку встреч в папке календаря.
+description: Поддерживает повторное назначение в папке календаря.
 ms.openlocfilehash: cf4f7c790a8561f149160c83418a0d5ebd91a455
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,25 +16,25 @@ ms.locfileid: "33410072"
 ---
 # <a name="iolkapptrebaser"></a>IOlkApptRebaser
 
-Поддерживает переостережку встреч в папке календаря.
+Поддерживает повторное назначение в папке календаря.
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Наследуется от:  <br/> |**IUnknown** <br/> |
+|Наследует от:  <br/> |**IUnknown** <br/> |
 |Файл заголовка:  <br/> |tzmovelib.h  <br/> |
 |Реализовано в:  <br/> |tzmovelib.dll  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения MAPI  <br/> |
-|В:  <br/> |Объект outlook rebasing  <br/> |
+|Выставлено на:  <br/> |Outlook повторного повторного  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
 |**[BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md)** <br/> |Begins a task for appointment enumeration in a calendar folder to find the appointments that need rebasing.  <br/> |
 |**[EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md)** <br/> |Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing.  <br/> |
-|**[BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md)** <br/> |Начинает задачу по переоплате встреч с учетом списка встреч, обычно полученных из **EndEnumerateAppointments.**  <br/> |
+|**[BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md)** <br/> |Начинается задача для повторного назначения, учитывая список встреч, обычно полученных из **EndEnumerateAppointments**.  <br/> |
 |**[EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md)** <br/> |Waits for appointment rebasing to complete and retrieves the results.  <br/> |
    
 ## <a name="see-also"></a>См. также

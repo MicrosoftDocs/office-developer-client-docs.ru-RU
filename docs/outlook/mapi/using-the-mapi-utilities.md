@@ -1,5 +1,5 @@
 ---
-title: Использование utilities MAPI
+title: Использование утилит MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,16 +15,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409988"
 ---
-# <a name="using-the-mapi-utilities"></a>Использование utilities MAPI
+# <a name="using-the-mapi-utilities"></a>Использование утилит MAPI
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Utilities MAPI are made up of table data and property data objects and a variety of functions to support miscellaneous features. Клиент может нуждаться только в этих средствах и не должен входить в подсистему MAPI для установления связи с поставщиками услуг. Если клиент помещается в эту категорию, вызовите функцию API [ScInitMapiUtil,](scinitmapiutil.md) а не [функцию MAPIInitialize](mapiinitialize.md) во время инициализации. 
+Утилиты MAPI состоит из объектов данных таблицы и данных свойств и различных функций для поддержки различных функций. Клиент может нуждаться только в этих утилитах и не должен войти в подсистему MAPI, чтобы установить связь с поставщиками услуг. Если клиент подходит к этой категории, позвоните в функцию API [ScInitMapiUtil,](scinitmapiutil.md) а не на [функцию MAPIInitialize](mapiinitialize.md) во время инициализации. 
   
- **ScInitMapiUtil** позволяет клиентам использовать дополнительные функции, для которых требуются средства назначения MAPI, но которые не требуют явного назначения. Когда пора закрыть работу, вызовите [DeinitMapiUtil,](deinitmapiutil.md) чтобы освободить ресурсы, а [не MAPIUninitialize.](mapiuninitialize.md) Клиенты, которые никогда не **вызывали MAPIInitialize,** не должны **вызывать MAPIUninitialize.**
+ **ScInitMapiUtil** позволяет клиентам использовать функции утилиты, для которых требуются аллигаторы MAPI, но которые явно не требуют их. Когда пришло время закрыться, позвоните [DeinitMapiUtil,](deinitmapiutil.md) чтобы освободить ресурсы, а [не MAPIUninitialize](mapiuninitialize.md). Клиенты, которые никогда не называют **MAPIInitialize,** не должны вызывать **MAPIUninitialize.**
   
-Если вы вызвали **ScInitMapiUtil,** а не **MAPIInitialize** и используете таблицы с помощью методов **ITableData,** а не с помощью методов **IMAPITable,** следует помнить, что уведомления таблиц не будут работать. Для уведомлений необходимо использовать библиотеки MAPI и [IMAPITable : IUnknown](imapitableiunknown.md).
+Если вы вызвали **ScInitMapiUtil,** а не **MAPIInitialize** и используете таблицы с помощью методов **ITableData,** а не методов **IMAPITable,** знайте, что уведомления таблицы не будут работать. Уведомления требуют использования библиотек MAPI и [IMAPITable: IUnknown](imapitableiunknown.md).
   
 

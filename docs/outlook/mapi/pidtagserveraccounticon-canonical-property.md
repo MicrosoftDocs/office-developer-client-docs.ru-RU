@@ -19,9 +19,9 @@ ms.locfileid: "33412851"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает значок, отображаемого в **окле "Выбор учетных записей".**
+Указывает значок, отображаемый в **выборке учетных записей.**
   
 |||
 |:-----|:-----|
@@ -40,5 +40,5 @@ ms.locfileid: "33412851"
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

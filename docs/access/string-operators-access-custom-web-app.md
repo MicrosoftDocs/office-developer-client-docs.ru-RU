@@ -19,8 +19,8 @@ ms.locfileid: "33411612"
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
-- [+ (String Concatenation Operator) (Access custom web app)](plusstring-concatenation-operatoraccess-custom-web-app.md)
+- [+ (Оператор конкатуации строки) (Доступ к настраиваемой веб-приложению)](plusstring-concatenation-operatoraccess-custom-web-app.md)
     
 

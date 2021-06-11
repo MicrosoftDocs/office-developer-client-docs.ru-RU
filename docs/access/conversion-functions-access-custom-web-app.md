@@ -1,5 +1,5 @@
 ---
-title: Функции преобразования (пользовательское веб-приложение Access)
+title: Функции преобразования (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -13,23 +13,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415882"
 ---
-# <a name="conversion-functions-access-custom-web-app"></a>Функции преобразования (пользовательское веб-приложение Access)
+# <a name="conversion-functions-access-custom-web-app"></a>Функции преобразования (Доступ к настраиваемой веб-приложению)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
 
-- [Функция Cast (пользовательское веб-приложение Access)](cast-function-access-custom-web-app.md)
+- [Функция литья (Доступ к настраиваемой веб-приложению)](cast-function-access-custom-web-app.md)
     
-- [Функция Coalesce (пользовательское веб-приложение Access)](coalesce-function-access-custom-web-app.md)
+- [Функция Coalesce (Доступ к настраиваемой веб-приложению)](coalesce-function-access-custom-web-app.md)
     
-- [Функция DateWithTimeFromParts (пользовательское веб-приложение Access)](datewithtimefromparts-function-access-custom-web-app.md)
+- [Функция DateWithTimeFromParts (Доступ к пользовательскому веб-приложению)](datewithtimefromparts-function-access-custom-web-app.md)
     
 - [Функция Format (пользовательское веб-приложение для Access)](format-function-access-custom-web-app.md)
     
-- [Функция parse (пользовательское веб-приложение Access)](parse-function-access-custom-web-app.md)
+- [Функция Parse (Доступ к настраиваемой веб-приложению)](parse-function-access-custom-web-app.md)
     
-- [Функция TimeFromParts (пользовательское веб-приложение Access)](timefromparts-functionaccess-custom-web-app.md)
+- [Функция TimeFromParts (Доступ к настраиваемой веб-приложению)](timefromparts-functionaccess-custom-web-app.md)
     
-- [Try_Parse (пользовательское веб-приложение Access)](try_parse-function-access-custom-web-app.md)
+- [Try_Parse (Доступ к настраиваемой веб-приложению)](try_parse-function-access-custom-web-app.md)
     
 

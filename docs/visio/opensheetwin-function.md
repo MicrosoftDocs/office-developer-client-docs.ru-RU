@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251474
 localization_priority: Normal
 ms.assetid: b574a99d-08f4-29e4-c40a-eb0770580ed5
-description: Открывает окно shapeSheet в новом окне.
+description: Открывает окно ShapeSheet в новом окне.
 ms.openlocfilehash: c68ab1e0c9d52514dff16b7b1b4adbd8789d3e85
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,14 +18,14 @@ ms.locfileid: "33409890"
 ---
 # <a name="opensheetwin-function"></a>Функция OPENSHEETWIN
 
-Открывает окно shapeSheet в новом окне.
+Открывает окно ShapeSheet в новом окне.
   
 ## <a name="syntax"></a>Синтаксис
 
-OPENSHEETWIN( )
+OPENSHEETWIN()
   
 ## <a name="remarks"></a>Примечания
 
-В более ранних версиях Visio эта функция отображается как _OPENSHEETWIN. Visio версий 4.0 и более поздних версий принимают любой стиль. 
+В более ранних версиях Visio эта функция отображается как _OPENSHEETWIN. Visio версии 4.0 и более поздние версии принимают любой стиль. 
   
 

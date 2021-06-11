@@ -23,7 +23,7 @@ ms.locfileid: "33412529"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Отображает форму.
   
@@ -43,15 +43,15 @@ HRESULT ShowForm(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [in] Handle to the parent window of the form.
+> [in] Ручка родительского окна формы.
     
  _lpMsgStore_
   
-> [in] Указатель на хранилище сообщений, которое содержит папку, на которую указывает параметр _lpParentFolder._ 
+> [in] Указатель в хранилище сообщений, содержащий папку, указываемую параметром _lpParentFolder._ 
     
  _lpParentFolder_
   
@@ -59,11 +59,11 @@ HRESULT ShowForm(
     
  _lpInterface_
   
-> [in] Указатель на идентификатор интерфейса ( IID), который представляет интерфейс, который будет использоваться для доступа к сообщению, которое отображается в форме. Параметр  _lpInterface_ должен иметь NULL или IID_IMessage. Передача NULL приводит к использования [стандартного интерфейса IMessage.](imessageimapiprop.md) 
+> [in] Указатель на идентификатор интерфейса (IID), который представляет интерфейс, который будет использоваться для доступа к сообщению, отображаемом в форме. Параметр  _lpInterface должен_ быть NULL или IID_IMessage. Передача NULL приводит к стандартному интерфейсу [IMessage,](imessageimapiprop.md)который используется. 
     
  _ulMessageToken_
   
-> [in] Маркер, связанный с сообщением для отображения в форме. Параметр _ulMessageToken_ должен иметь содержимое параметра _lpulMessageToken_ из предыдущего вызова [IMAPISession::P repareForm.](imapisession-prepareform.md)
+> [in] Маркер, связанный с сообщением, которое будет отображаться в форме. Параметр  _ulMessageToken_ должен быть задан для содержимого  _параметра lpulMessageToken_ из предыдущего вызова [в IMAPISession::P repareForm](imapisession-prepareform.md).
     
  _lpMessageSent_
   
@@ -71,11 +71,11 @@ HRESULT ShowForm(
     
  _ulFlags_
   
-> [in] Битоваяmas флагов, которая управляет тем, как и является ли сообщение сохраненным. Можно установить следующие флаги:
+> [in] Битмаски флагов, которые контролируют, как и сохранено ли сообщение. Можно установить следующие флаги:
     
 MAPI_NEW_MESSAGE 
   
-> Сообщение никогда не было сохранено (то есть его метод [IMAPIProp::SaveChanges](imapiprop-savechanges.md) никогда не был вызван). 
+> Сообщение никогда не было сохранено (то есть его [метод IMAPIProp::SaveChanges](imapiprop-savechanges.md) никогда не был вызван). 
     
 MAPI_POST_MESSAGE 
   
@@ -83,29 +83,29 @@ MAPI_POST_MESSAGE
     
  _ulMessageStatus_
   
-> [in] Битоваяmas флагов, скопированная из свойства **PR_MSG_STATUS** ([PidTagMessageStatus)](pidtagmessagestatus-canonical-property.md)сообщения, связанного с маркером в параметре _ulMessageToken._ Флаги предоставляют сведения о состоянии сообщения. 
+> [in] Битмаска **флагов,** скопированная из свойства [PR_MSG_STATUS (PidTagMessageStatus)](pidtagmessagestatus-canonical-property.md)сообщения, связанного с маркером в параметре _ulMessageToken._ Флаги предоставляют сведения о состоянии сообщения. 
     
  _ulMessageFlags_
   
-> [in] Битоваяmas флагов, скопированная из свойства **PR_MESSAGE_FLAGS** ([PidTagMessageFlags)](pidtagmessageflags-canonical-property.md)сообщения, связанного с маркером в параметре _ulMessageToken._ Эти флаги предоставляют дополнительные сведения о состоянии сообщения. 
+> [in] Битмаска **флагов,** скопированная из свойства [PR_MESSAGE_FLAGS (PidTagMessageFlags)](pidtagmessageflags-canonical-property.md)сообщения, связанного с маркером в параметре _ulMessageToken._ Эти флаги предоставляют дополнительные сведения о состоянии сообщения. 
     
  _ulAccess_
   
-> [in] Флаг, который указывает уровень разрешений для сообщения, отображаемой в форме. Эти сведения копируются из свойства **PR_ACCESS** ([PidTagAccess)](pidtagaccess-canonical-property.md)сообщения, связанного с маркером в параметре _ulMessageToken._ 
+> [in] Флаг, который указывает уровень разрешений для сообщения, отображаемой в форме. Эти сведения копируются из **свойства PR_ACCESS** [(PidTagAccess)](pidtagaccess-canonical-property.md)сообщения, связанного с маркером в параметре _ulMessageToken._ 
     
  _lpszMessageClass_
   
-> [in] Указатель на класс сообщения, отображаемого в форме, **скопирован** из свойства PR_MESSAGE_CLASS ([PidTagMessageClass)](pidtagmessageclass-canonical-property.md)сообщения, связанного с маркером в параметре _ulMessageToken._ 
+> [in] Указатель на класс сообщения, отображаемого в форме, **скопирован** с свойства [PR_MESSAGE_CLASS (PidTagMessageClass)](pidtagmessageclass-canonical-property.md)сообщения, связанного с маркером в параметре _ulMessageToken._ 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Форма успешно отобрана.
+> Форма успешно отображалась.
     
 MAPI_E_USER_CANCEL 
   
-> Пользователь отменил операцию, обычно нажав  кнопку "Отмена" в диалоговом окне. 
+> Пользователь отменил операцию, как правило, нажав кнопку **Отмена** в диалоговом окне. 
     
 ## <a name="remarks"></a>Примечания
 
@@ -113,9 +113,9 @@ MAPI_E_USER_CANCEL
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-В параметре _lpMessage_ метода **PrepareForm** должна быть только одна ссылка на сообщение. 
+Вы должны иметь только одну ссылку на сообщение, переданное в _параметре lpMessage_ метода **PrepareForm.** 
   
-Следует помнить, что реализации форм могут возвращать значения ошибок, кроме значений, задокументированных в MAPI. Если эти значения ошибки можно использовать для более точного определения условия ошибки, сделайте это. В противном случае обработать эти ошибки так же, как и MAPI_E_CALL_FAILED. 
+Следует помнить, что реализация форм может возвращать значения ошибок, помимо значений, задокументированных MAPI. Если вы можете использовать эти значения ошибок для более точного определения состояния ошибки, сделайте это. В противном случае справься с этими ошибками так, как MAPI_E_CALL_FAILED. 
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -123,7 +123,7 @@ MAPI_E_USER_CANCEL
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI использует метод **IMAPISession::ShowForm** вместе с методом **PrepareForm** для отображения сообщения в модальной форме.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI использует **метод IMAPISession::ShowForm** вместе с методом **PrepareForm** для отображения сообщения в модальной форме.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

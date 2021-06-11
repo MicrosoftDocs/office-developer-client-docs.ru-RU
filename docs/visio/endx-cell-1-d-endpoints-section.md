@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm335
 localization_priority: Normal
 ms.assetid: 24261b77-e3e8-7434-a503-9f23798bdab1
-description: Представляет x-координату конечной точки 1-D фигуры относительно начала родительской фигуры.
+description: Представляет x-координату конечной точки формы 1-D по отношению к происхождению ее родителя.
 ms.openlocfilehash: 4bd3099b2c13572023b0b813b1cc69a7b211546b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33411570"
 ---
 # <a name="endx-cell-1-d-endpoints-section"></a>EndX Cell (1-D Endpoints Section)
 
-Представляет  *x-координату*  конечной точки 1-D фигуры относительно начала родительской фигуры. 
+Представляет  *x-координату*  конечной точки формы 1-D по отношению к происхождению ее родителя. 
   
 ## <a name="remarks"></a>Примечания
 

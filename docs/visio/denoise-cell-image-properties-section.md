@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm225
 localization_priority: Normal
 ms.assetid: e305585f-f0d8-0494-91d4-0c76929dc170
-description: Удаляет шум (пиксели с случайно распределенными уровнями цвета) из точеченого изображения. Значение по умолчанию — 0%.
+description: Удаляет шум (пиксели со случайным распределением цветов) с изображения bitmap. Значение по умолчанию — 0%.
 ms.openlocfilehash: f970fde22e864239ea3f3f9bcb704e7f4692e9cc
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33415806"
 ---
 # <a name="denoise-cell-image-properties-section"></a>Denoise Cell (Image Properties Section)
 
-Удаляет шум (пиксели с случайно распределенными уровнями цвета) из точеченого изображения. Значение по умолчанию — 0%.
+Удаляет шум (пиксели со случайным распределением цветов) с изображения bitmap. Значение по умолчанию — 0%.
   
 ## <a name="remarks"></a>Примечания
 

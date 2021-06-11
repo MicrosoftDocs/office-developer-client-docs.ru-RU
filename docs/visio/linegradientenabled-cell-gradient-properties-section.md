@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 276a661f-d14e-404a-a494-ae36601a8ce3
-description: Определяет, включен ли градиент линии для линии или границы фигуры.
+description: Определяет, включен ли градиент строки для линии или границы фигуры.
 ms.openlocfilehash: 1d2b33275d26bb0c8e5550bcb7cf282c64d34544
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33416379"
 ---
 # <a name="linegradientenabled-cell-gradient-properties-section"></a>LineGradientEnabled Cell (Gradient Properties Section)
 
-Определяет, включен ли градиент линии для линии или границы фигуры. 
+Определяет, включен ли градиент строки для линии или границы фигуры. 
   
 |**Значение**|**Описание**|
 |:-----|:-----|
@@ -25,13 +25,13 @@ ms.locfileid: "33416379"
    
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **LineGradientEnabled** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
+Чтобы получить ссылку на **ячейку LineGradientEnabled** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы с использованием свойства **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
 | Имя ячейки:  <br/> | LineGradientEnabled  <br/> |
    
-Чтобы получить ссылку на ячейку **LineGradientEnabled** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
+Чтобы получить ссылку на **ячейку LineGradientEnabled** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: Replicate Function (Access custom web app)
+title: Функция репликации (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411066"
 ---
-# <a name="replicate-function-access-custom-web-app"></a>Replicate Function (Access custom web app)
+# <a name="replicate-function-access-custom-web-app"></a>Функция репликации (Доступ к настраиваемой веб-приложению)
 
 Повторяет текстовое значение заданное количество раз.
   
@@ -23,13 +23,13 @@ ms.locfileid: "33411066"
   
 ## <a name="syntax"></a>Синтаксис
 
- **Replicate** (*TextExpression*, *NumberOfTimes*) 
+ **Репликация** *(TextExpression*, *NumberOfTimes*) 
   
-Функция **"Репликация"** содержит следующие аргументы. 
+Функция **Replicate** содержит следующие аргументы. 
   
 |**Имя аргумента**|**Описание**|
 |:-----|:-----|
 | *TextExpression*  <br/> |Текстовое выражение.  <br/> |
-| *NumberOfTimes*  <br/> |Число, указыва которое указывает количество повторей *TextExpression.*  <br/> |
+| *NumberOfTimes*  <br/> |Integer, который указывает количество раз, чтобы повторить  *TextExpression*  .  <br/> |
    
 

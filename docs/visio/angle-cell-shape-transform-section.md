@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251196
 localization_priority: Normal
 ms.assetid: d05a001c-9001-90d9-5028-f38b90acc53e
-description: 'Представляет текущий угол поворота фигуры относительно родительского. Формула по умолчанию для определения угла поворота 1-D фигуры: =ATAN2(EndY-BeginY,EndX-BeginX).'
+description: 'Представляет текущий угол вращения фигуры по отношению к родительскому. Формула по умолчанию для определения угла вращения фигуры 1-D: =ATAN2 (EndY-BeginY, EndX-BeginX).'
 ms.openlocfilehash: 85f64c6111b492940d278a5558508a2dea6b1e1a
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33414552"
 ---
 # <a name="angle-cell-shape-transform-section"></a>Angle Cell (Shape Transform Section)
 
-Представляет текущий угол поворота фигуры относительно родительского. Формула по умолчанию для определения угла поворота 1-D фигуры: =ATAN2(EndY-BeginY,EndX-BeginX).
+Представляет текущий угол вращения фигуры по отношению к родительскому. Формула по умолчанию для определения угла вращения фигуры 1-D: =ATAN2 (EndY-BeginY, EndX-BeginX).
   
 ## <a name="remarks"></a>Примечания
 

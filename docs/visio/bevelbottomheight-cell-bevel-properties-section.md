@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ff681afd-c058-4fce-855f-5075b8c680c2
-description: Определяет высоту нижней волны фигуры в точках.
+description: Определяет высоту нижней части фигуры в точках.
 ms.openlocfilehash: f0bed55f5ddeb8676b2b2bc2bf0cddad779b011c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,17 +16,17 @@ ms.locfileid: "33417527"
 ---
 # <a name="bevelbottomheight-cell-bevel-properties-section"></a>BevelBottomHeight Cell (Bevel Properties Section)
 
-Определяет высоту нижней волны фигуры в точках. 
+Определяет высоту нижней части фигуры в точках. 
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **BevelBottomHeight** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
+Чтобы получить ссылку на **ячейку BevelBottomHeight** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы с использованием свойства **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
 | Имя ячейки:  <br/> | BevelBottomHeight  <br/> |
    
-Чтобы получить ссылку на ячейку **BevelBottomHeight** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
+Чтобы получить ссылку на **ячейку BevelBottomHeight** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|

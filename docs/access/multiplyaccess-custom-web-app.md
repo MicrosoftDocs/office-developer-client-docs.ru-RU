@@ -1,5 +1,5 @@
 ---
-title: Multiply (Access custom web app)
+title: Умножение (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412165"
 ---
-# <a name="multiply-access-custom-web-app"></a>Multiply (Access custom web app)
+# <a name="multiply-access-custom-web-app"></a>Умножение (Доступ к настраиваемой веб-приложению)
 
 Умножает два выражения.
   

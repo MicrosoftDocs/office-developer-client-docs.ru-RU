@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm975
 localization_priority: Normal
 ms.assetid: b03b4415-0b1a-eb03-2b5e-373b39a0f07a
-description: Определяет, форматирован ли текст в виде загона.
+description: Определяет, форматирован ли текст в виде strikethrough.
 ms.openlocfilehash: 4a58123814a4782c279a36d202e1293ec222ef93
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,16 +18,16 @@ ms.locfileid: "33412431"
 ---
 # <a name="strikethru-cell-character-section"></a>Strikethru Cell (Character Section)
 
-Определяет, форматирован ли текст в виде загона.
+Определяет, форматирован ли текст в виде strikethrough.
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-|TRUE  <br/> |Текст отформатирован в виде загона.  <br/> |
-|FALSE  <br/> |Текст не отформатирован в виде загона.  <br/> |
+|TRUE  <br/> |Текст форматирован как strikethrough.  <br/> |
+|FALSE  <br/> |Текст не форматирован как strikethrough.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Значение этой ячейки также можно установить с помощью диалогового  окна **"Текст"** (на вкладке "Главная" щелкните стрелку **шрифта).** 
+Вы также можете установить значение этой ячейки с помощью диалогового окна **Text** (на вкладке **Главная** щелкните **стрелку Шрифта).** 
   
 Чтобы получить ссылку на ячейку Strikethru по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте: 
   
@@ -40,7 +40,7 @@ ms.locfileid: "33412431"
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionCharacter** <br/> |
-|Индекс строки:  <br/> |**visRowCharacter**  +   *i* где *i* = 0, 1, 2...  <br/> |
+|Индекс строки:  <br/> |**visRowCharacter**  +   *i,* *где i* = 0, 1, 2 ...  <br/> |
 |Индекс ячейки:  <br/> |**visCharacterStrikethru** <br/> |
    
 

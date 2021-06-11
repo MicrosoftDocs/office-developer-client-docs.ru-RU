@@ -23,23 +23,23 @@ ms.locfileid: "33411416"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Позволяет Microsoft Outlook 2010, русская версия и решения Microsoft Outlook 2013, чтобы узнать, считается ли вложение небезопасным и заблокировано для просмотра и индексации.
+Позволяет Microsoft Outlook 2010, русская версия и Microsoft Outlook 2013, чтобы узнать, считается ли вложение небезопасным и заблокировано для просмотра и индексации.
   
 |||
 |:-----|:-----|
 |Идентификатор интерфейса:  <br/> |IID_IAttachmentSecurity  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) <br/> |Проверяет, заблокировано ли указанное вложение в Outlook 2010 или Outlook 2013 для просмотра и индексации.  <br/> |
+|[IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) <br/> |Проверяет, блокируется ли указанное вложение Outlook 2010 или Outlook 2013 г. для просмотра и индексации.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Решения Outlook 2010 и Outlook 2013 могут запрашивать этот интерфейс, чтобы узнать, заблокировано ли вложение. Вложения, заблокированные Outlook 2010 или Outlook 2013, зависят от настройки Outlook 2010 или Outlook 2013 и примененных администратором политик.
+Outlook 2010 и Outlook 2013 года решения могут запрашивать этот интерфейс, чтобы узнать, заблокировано ли вложение. Вложения, заблокированные Outlook 2010 или Outlook 2013 г., различаются в зависимости от настройки Outlook 2010 или Outlook 2013 г. и политик, примененных администратором.
   
 ## <a name="see-also"></a>См. также
 

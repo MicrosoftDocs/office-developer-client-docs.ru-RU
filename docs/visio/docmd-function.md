@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm60100
 localization_priority: Normal
 ms.assetid: 6574edeb-eb6f-afd9-89c4-eb5996dffa30
-description: Выполняет обнаруженную команду.
+description: Выполняет установленную команду.
 ms.openlocfilehash: 9e5c02c9a90f3aab66c5d582c83d7d9d892f964c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,26 +18,26 @@ ms.locfileid: "33413075"
 ---
 # <a name="docmd-function"></a>Функция DOCMD
 
-Выполняет обнаруженную команду.
+Выполняет установленную команду.
   
 ## <a name="syntax"></a>Синтаксис
 
- **DOCMD**( _commandID)_
+ **DOCMD** _(commandID)_
   
 ### <a name="parameters"></a>Параметры
 
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _commandID_ <br/> |Обязательна  <br/> |**Number** <br/> | Команда для выполнения.  <br/> |
+| _commandID_ <br/> |Обязательный  <br/> |**Number** <br/> | Команда для выполнения.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Список команд, поддерживаемых функцией DOCMD, см. в разделе "Команды DoCmd/DOCMD" справочника по автоматизации Microsoft Visio 2013. 
+Список команд, поддерживаемых функцией DOCMD, см. в разделе "Команды DoCmd/DOCMD" в справке по автоматизации Microsoft Visio 2013 г. 
   
 ## <a name="example"></a>Пример
 
  `DOCMD (1312)`
   
-Приводит к **отобразить** диалоговое окно "Данные фигуры" в пользовательском интерфейсе. 
+Вызывает, **что диалоговое** окно Shape Data появится в пользовательском интерфейсе. 
   
 

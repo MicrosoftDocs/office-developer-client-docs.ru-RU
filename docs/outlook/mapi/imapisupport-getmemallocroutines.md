@@ -23,9 +23,9 @@ ms.locfileid: "33415539"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Извлекает адреса функций выделения памяти и распределения MAPI ([MAPIAllocateBuffer,](mapiallocatebuffer.md) [MAPIAllocateMore](mapiallocatemore.md)и [MAPIFreeBuffer).](mapifreebuffer.md)
+Извлекает адреса функций распределения и распределения памяти MAPI[(MAPIAllocateBuffer,](mapiallocatebuffer.md) [MAPIAllocateMore](mapiallocatemore.md)и [MAPIFreeBuffer).](mapifreebuffer.md)
   
 ```cpp
 HRESULT GetMemAllocRoutines(
@@ -35,19 +35,19 @@ HRESULT GetMemAllocRoutines(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _lppAllocateBuffer_
   
-> [out] Указатель на указатель на функцию **MAPIAllocateBuffer.** **MAPIAllocateBuffer выделяет** память. 
+> [вышел] Указатель на указатель на функцию **MAPIAllocateBuffer.** **MAPIAllocateBuffer выделяет** память. 
     
  _lppAllocateMore_
   
-> [out] Указатель на указатель на функцию **MAPIAllocateMore.** **MAPIAllocateMore** выделяет дополнительную память для памяти, изначально выделенной с помощью **MAPIAllocateBuffer.**
+> [вышел] Указатель на указатель на функцию **MAPIAllocateMore.** **MAPIAllocateMore** выделяет дополнительную память для памяти, первоначально выделенной с помощью **MAPIAllocateBuffer.**
     
  _lppFreeBuffer_
   
-> [out] Указатель на указатель на функцию **MAPIFreeBuffer.** **MAPIFreeBuffer** освободит память. 
+> [вышел] Указатель на указатель на **функцию MAPIFreeBuffer.** **MAPIFreeBuffer** освободит память. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -57,7 +57,7 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Метод **IMAPISupport::GetMemAllocRoutines** реализован для всех объектов поддержки. Поставщики услуг звонят **GetMemAllocRoutines,** чтобы получить адреса трех функций выделения памяти, которые передаются в функцию инициализации [(ABProviderInit,](abproviderinit.md) [MSProviderInit](msproviderinit.md)или [XPProviderInit).](xpproviderinit.md) 
+Метод **IMAPISupport::GetMemAllocRoutines** реализован для всех объектов поддержки. Поставщики услуг звонят **GetMemAllocRoutines,** чтобы получить адреса трех функций распределения памяти, которые передаются в функцию инициализации [(ABProviderInit,](abproviderinit.md) [MSProviderInit](msproviderinit.md)или [XPProviderInit).](xpproviderinit.md) 
   
 ## <a name="see-also"></a>См. также
 

@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm340
 localization_priority: Normal
 ms.assetid: 3fbfa4bc-7792-b6d9-d549-4602d252c293
-description: Представляет Y-координату конечной точки 1-D фигуры относительно начала родительской фигуры.
+description: Представляет y-координату конечной точки формы 1-D по отношению к происхождению ее родителя.
 ms.openlocfilehash: e75355ad333b7f6398618c974f7c49e5c26c41d6
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33414195"
 ---
 # <a name="endy-cell-1-d-endpoints-section"></a>EndY Cell (1-D Endpoints Section)
 
-Представляет  *Y-координату*  конечной точки 1-D фигуры относительно начала родительской фигуры. 
+Представляет  *y-координату*  конечной точки формы 1-D по отношению к происхождению ее родителя. 
   
 ## <a name="remarks"></a>Примечания
 

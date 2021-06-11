@@ -1,5 +1,5 @@
 ---
-title: Rows (Visio ShapeSheet Reference)
+title: Строки (Visio ShapeSheet Reference)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,9 +13,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413019"
 ---
-# <a name="rows-visio-shapesheet-reference"></a>Rows (Visio ShapeSheet Reference)
+# <a name="rows-visio-shapesheet-reference"></a>Строки (Visio ShapeSheet Reference)
 
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 - [Actions Row (Actions Section)](actions-row-actions-section.md)
     

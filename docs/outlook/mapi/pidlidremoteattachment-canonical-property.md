@@ -23,15 +23,15 @@ ms.locfileid: "33417114"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает, есть ли с удаленным элементом связанное с ним вложение.
+Указывает, имеет ли удаленный элемент связанное с ним вложение.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidRemoteAttachment  <br/> |
 |Набор свойств:  <br/> |PSETID_Remote  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008F07  <br/> |
+|Long ID (LID):  <br/> |0x00008F07  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Удаленное сообщение  <br/> |
    
@@ -41,9 +41,9 @@ ms.locfileid: "33417114"
 
 [[MS-OXPROPS]] 
   
-> Предоставляет определения наборов свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -59,5 +59,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

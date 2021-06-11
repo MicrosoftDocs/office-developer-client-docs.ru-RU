@@ -23,7 +23,7 @@ ms.locfileid: "33414979"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Получает расширенные сведения о последней ошибке.
   
@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _hResult_
   
@@ -47,7 +47,7 @@ HRESULT GetLastError(
     
  _lppMAPIError_
   
->  [out] Указатель на **структуру MAPIERROR,** которая содержит расширенные сведения об ошибке. Определение типа **LPMAPIERROR** см. в mapidefs.h. 
+>  [вышел] Указатель на **структуру MAPIERROR,** которая содержит расширенные сведения об ошибке. См. mapidefs.h для определения типа **LPMAPIERROR**. 
     
 ## <a name="see-also"></a>См. также
 

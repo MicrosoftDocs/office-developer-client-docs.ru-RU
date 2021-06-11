@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f0baa310-7a53-07ee-0a7d-33dd1fb465c2
-description: Возвращает для каждого указанного пользователя интерфейс для enumerating free/busy blocks of data within a time range.
+description: Возвращает для каждого указанного пользователя интерфейс для записи бесплатных и загруженных блоков данных в диапазоне времени.
 ms.openlocfilehash: e55f902117a20bfefaa5d9a2f3a067cb78ec86cb
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33411234"
 ---
 # <a name="ifreebusysupportloadfreebusydata"></a>IFreeBusySupport::LoadFreeBusyData
 
-Возвращает для каждого указанного пользователя интерфейс для enumerating free/busy blocks of data within a time range. 
+Возвращает для каждого указанного пользователя интерфейс для записи бесплатных и загруженных блоков данных в диапазоне времени. 
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IFreeBusySupport.](ifreebusysupport.md)
+См. [в программе IFreeBusySupport](ifreebusysupport.md).
   
 ```cpp
 HRESULT LoadFreeBusyData( 
@@ -32,30 +32,30 @@ HRESULT LoadFreeBusyData(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _cMax_
   
-> [in] Количество [возвращаемого интерфейса IFreeBusyData.](ifreebusydata.md) 
+> [in] Количество возвращаемого [интерфейса IFreeBusyData.](ifreebusydata.md) 
     
 _rgfbuser_
   
-> [in] Массив пользователей со сведениями о занятости, для получения данных.
+> [in] Массив бесплатных и занятых пользователей для получения данных.
     
 _prgfbdata_
   
-> [in] [out] Массив интерфейсов **IFreeBusyData,** соответствующий _массиву rgfbuser_ структур [FBUser.](fbuser.md) 
+> [in] [вышел] Массив интерфейсов **IFreeBusyData,** соответствующих массиву _rgfbuser_ структур [FBUser.](fbuser.md) 
     
    > [!NOTE]
-   > Этот массив указателей выделяется вызываемой и освобожден вызываемой. Фактические интерфейсы, на которые указывает вызываемая, отпущены, когда вызываемая из них делает это. 
+   > Этот массив указателей выделяется вызываемой и освобожден вызываемой. Фактические интерфейсы, на которые указывается, выпускаются, когда вызываемая с ними работа. 
   
 _phrStatus_
   
-> [out] Массив результатов **HRESULT** для каждого соответствующего интерфейса **IFreeBusyData.** Значением может быть NULL. Результат будет иметь S_OK, если соответствующие  _prgfbdata_ допустимы. 
+> [вышел] Массив результатов **HRESULT** для поиска каждого соответствующего **интерфейса IFreeBusyData.** Значение может быть NULL. Результат задан для S_OK, если  _соответствующая prgfbdata_ действительна. 
     
 _pcRead_
   
->  [out] Фактическое количество пользователей, для которых найден интерфейс **IFreeBusyData.** 
+>  [вышел] Фактическое число пользователей, для которых найден **интерфейс IFreeBusyData.** 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -63,5 +63,5 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## <a name="see-also"></a>См. также
 
-- [Constants (Free/busy API)](constants-free-busy-api.md)
+- [Константы (API free/busy)](constants-free-busy-api.md)
 

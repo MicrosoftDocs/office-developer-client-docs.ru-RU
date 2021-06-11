@@ -23,9 +23,9 @@ ms.locfileid: "33415693"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет количество ветвей в существующей [структуре SSortOrderSet.](ssortorderset.md) 
+Вычисляет количество bytes в существующей [структуре SSortOrderSet.](ssortorderset.md) 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "33415693"
 CbSSortOrderSet (_lpset)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ _lpset_
   

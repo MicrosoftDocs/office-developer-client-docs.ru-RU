@@ -23,9 +23,9 @@ ms.locfileid: "33411556"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Кодирует идентификатор записи в строку ASCII. 
+Кодирует идентификатор входа в строку ASCII. 
   
 |||
 |:-----|:-----|
@@ -41,19 +41,19 @@ HrSzFromEntryID(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _cb_
   
-> [in] Размер идентификатора записи, на который указывает параметр pentry (в _bytes)._ 
+> [in] Размер в bytes идентификатора записи, на который указывает параметр _pentry._ 
     
  _pentry_
   
-> [in] Указатель на [структуру ENTRYID,](entryid.md) которая содержит кодируемый идентификатор записи. 
+> [in] Указатель на [структуру ENTRYID,](entryid.md) которая содержит кодируемый идентификатор входа. 
     
  _psz_
   
-> [out] Указатель на возвращенную строку ASCII.
+> [вышел] Указатель на возвращенную строку ASCII.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -61,10 +61,10 @@ HrSzFromEntryID(
   
 ## <a name="remarks"></a>Примечания
 
-Функции [HrEntryIDFromSz](hrentryidfromsz.md) и **HrSzFromEntryID** обеспечивают преобразование между строками и двоичными форматами идентификаторов записей. С помощью MAPI следует использовать структуры с двоичными данными. 
+Функции [HrEntryIDFromSz](hrentryidfromsz.md) и **HrSzFromEntryID** обеспечивают преобразование между строками и двоичными форматами идентификаторов записи. С MAPI необходимо использовать структуры с двоичными данными. 
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-Функция **HrSzFromEntryID** выделяет память для строки ASCII с помощью функции [MAPIAllocateBuffer.](mapiallocatebuffer.md) 
+Функция **HrSzFromEntryID** выделяет память для строки ASCII с помощью [функции MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 

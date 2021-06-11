@@ -1,5 +1,5 @@
 ---
-title: Создать сообщение с помощью формы
+title: Сочинение нового сообщения с помощью формы
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,25 +15,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412802"
 ---
-# <a name="composing-a-new-message-by-using-a-form"></a>Создать сообщение с помощью формы
+# <a name="composing-a-new-message-by-using-a-form"></a>Сочинение нового сообщения с помощью формы
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Чтобы использовать форму для создания нового сообщения, сначала создайте новый пользовательский объект сообщения.
+Чтобы использовать форму для создания нового сообщения, сначала создайте новый настраиваемый объект сообщения.
   
- **Чтобы создать новое сообщение с помощью формы**
+ **Для составить новое сообщение с помощью формы**
   
-1. Вызовите метод [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) диспетчера форм, чтобы получить указатель на информационный объект формы — объект, который реализует [интерфейс IMAPIFormInfo : IMAPIProp.](imapiforminfoimapiprop.md) 
+1. Вызов метода [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) для получения указателя для информационного объекта формы — объекта, реализуемого [интерфейсом IMAPIFormInfo : IMAPIProp.](imapiforminfoimapiprop.md) 
     
-2. Передайте указатель в информационный объект формы в вызове [IMAPIFormMgr::CreateForm.](imapiformmgr-createform.md) **CreateForm** загружает соответствующий сервер форм. Кроме того, передайте идентификатор интерфейса **в CreateForm,** чтобы указать интерфейс, который будет использоваться для доступа к новому сообщению. Обычно [IPersistMessage : IUnknown](ipersistmessageiunknown.md) запрашивается путем передачи IID_IPersistMessage **в CreateForm.**
+2. Передай указатель на информационный объект формы в [вызове в IMAPIFormMgr::CreateForm](imapiformmgr-createform.md). **CreateForm** загружает соответствующий сервер форм. Кроме того, передайте идентификатор интерфейса **в CreateForm,** чтобы указать интерфейс, который будет использоваться для доступа к новому сообщению. Как правило, вы [запрашиваете IPersistMessage : IUnknown,](ipersistmessageiunknown.md) передав IID_IPersistMessage **CreateForm**.
     
-3. Сохраните новое сообщение, вызывая метод [IPersistMessage::Save.](ipersistmessage-save.md) Сервер форм должен устанавливать значения для необходимых свойств сообщения при его создании. 
+3. Сохраните новое сообщение, назвав метод [IPersistMessage::Save.](ipersistmessage-save.md) Сервер формы должен устанавливать значения для необходимых свойств сообщения при создании сообщения. 
     
-4. Загрузив сообщение с помощью одной из двух стратегий: [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) или [IMAPISession::P repareForm,](imapisession-prepareform.md) за которым следует [IMAPISession::ShowForm.](imapisession-showform.md) Дополнительные сведения об этих стратегиях см. в [загружаемом сообщении в форму.](loading-a-message-into-a-form.md)
+4. Загрузив сообщение с помощью одной из двух стратегий: [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) или [IMAPISession::P repareForm,](imapisession-prepareform.md) а затем [IMAPISession::ShowForm](imapisession-showform.md). Дополнительные сведения об этих стратегиях см. в сообщении [Loading a Message into a Form.](loading-a-message-into-a-form.md)
     
 > [!NOTE]
-> При загрузке нового настраиваемого сообщения на сервер форм существуют возможности для увеличения производительности, так как у вас уже будет возможность получить некоторые сведения о сообщении ( например, его класс) во время обработки, необходимой для вызовов **ResolveMessageClass** и **CreateForm.** По этой причине вы сможете упростить обработку, необходимую перед вызовом LoadForm над темой **LoadForm,** описанной в разделе "Загрузка сообщения [в форму".](loading-a-message-into-a-form.md) 
+> Есть возможности для увеличения производительности при загрузке нового настраиваемого сообщения на сервер формы, так как у вас уже будет возможность получить некоторую информацию о сообщении , например класс сообщения, во время обработки, необходимой для вызовов **ResolveMessageClass** и **CreateForm.** Из-за этого вы сможете упростить обработку, необходимую перед вызовом **LoadForm** по тому, что описано в разделе [Загрузка](loading-a-message-into-a-form.md)сообщения в форму . 
   
 

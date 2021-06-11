@@ -17,13 +17,13 @@ ms.locfileid: "33414391"
 ---
 # <a name="hrcreateofflineobj"></a>HrCreateOfflineObj
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
- Создает автономный объект MAPI, используемый поставщиком и хранилищем для уведомления MAPI при подавке объекта в автономный режим и в автономном режиме. 
+ Создает автономный объект MAPI, который используется поставщиком и хранилищем для уведомления MAPI, когда объект выходит в интернет и в автономном режиме, 
   
 |||
 |:-----|:-----|
-|Экспортируется по:  <br/> |Msmapi32.dll  <br/> |
+|Экспортируемая по:  <br/> |Msmapi32.dll  <br/> |
 |Реализовано в:  <br/> |Outlook  <br/> |
 |Вызывающая сторона:  <br/> |Клиент  <br/> |
    
@@ -35,7 +35,7 @@ IMAPIOfflineMgr** ppOffline
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _ulFlags_
   
@@ -47,7 +47,7 @@ _pCreateInfo_
     
 _ppOffline_
   
-> [out] Указатель на **интерфейс IMAPIOfflineMgr.** 
+> [вышел] Указатель на **интерфейс IMAPIOfflineMgr.** 
     
 ## <a name="return-value"></a>Возвращаемое значение
 

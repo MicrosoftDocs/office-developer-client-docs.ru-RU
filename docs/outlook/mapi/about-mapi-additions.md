@@ -15,11 +15,11 @@ ms.locfileid: "33415294"
 ---
 # <a name="about-mapi-additions"></a>Сведения о дополнениях для MAPI
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Добавления MAPI — это API, которые относятся к интерфейсу MAPI, например к типам данных, функциям и свойствам, которые ранее не были раскрыта и задокументированы в справочнике программиста MAPI. Они включают следующие определения и свойства.
+Дополнения MAPI — это API, которые относятся к интерфейсу программирования приложений для обмена сообщениями (MAPI), например типам данных, функциям и свойствам, которые ранее не были выставлены и задокументированы в качестве части ссылки программиста MAPI. В них содержатся следующие определения и свойства.
   
-## <a name="constant-definitions"></a>Определения констант
+## <a name="constant-definitions"></a>Постоянные определения
 
 - **[Дополнительные константы MAPI](mapi-constants.md)**
   
@@ -33,13 +33,13 @@ ms.locfileid: "33415294"
     
 - **[OlFlagIcon](olflagicon.md)**
     
-## <a name="functions"></a>Функции
+## <a name="functions"></a>Functions
 
 - **[FixMAPI](fixmapi.md)**
     
 ## <a name="properties"></a>Свойства
 
-Следующие свойства обычно личные объекты сообщений.
+Следующие свойства обычно подвергаются объектам сообщений.
   
 - **[PR_BODY_W](pidtagbody-canonical-property.md)**
     
@@ -79,11 +79,11 @@ ms.locfileid: "33415294"
     
 - **[PR_SUBJECT_W](pidtagsubject-canonical-property.md)**
     
-Следующие свойства могут быть открыты объектами таблицы содержимого адресной книги.
+Следующие свойства подвергаются воздействию объектов таблицы содержимого адресной книги.
   
 - **[PR_DISPLAY_TYPE_EX](pidtagdisplaytypeex-canonical-property.md)**
     
-Следующие свойства могут быть открыты объектами контейнера адресной книги.
+Следующие свойства подвергаются воздействию объектов контейнера адресной книги.
   
 - **[PR_EMS_AB_SERVER](pidtagemsabserver-canonical-property.md)**
     
@@ -91,13 +91,13 @@ ms.locfileid: "33415294"
     
 - **[PR_EMS_AB_SERVER_W](pidtagemsabserver-canonical-property.md)**
     
-Следующие свойства могут быть открыты объектами папок.
+Следующие свойства подвергаются воздействию объектов папок.
   
 - **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**
     
 - **[PR_AGING_PERIOD](pidtagagingperiod-canonical-property.md)**
     
-Следующие свойства могут быть выявимы объектами пользователей системы обмена сообщениями.
+Следующие свойства подвергаются воздействию объектов пользователей сообщений.
   
 - **[PR_ASSISTANT_TELEPHONE_NUMBER_W](pidtagassistanttelephonenumber-canonical-property.md)**
     
@@ -189,7 +189,7 @@ ms.locfileid: "33415294"
     
 - **[PR_WEDDING_ANNIVERSARY](pidtagweddinganniversary-canonical-property.md)**
     
-Следующие свойства могут быть открыты объектами разделов профилей.
+Следующие свойства подвергаются воздействию объектов раздела профилей.
   
 - **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**
     
@@ -207,7 +207,7 @@ ms.locfileid: "33415294"
     
 - **[PR_ROH_PROXY_SERVER](pidtagrpcoverhttpproxyserver-canonical-property.md)**
     
-Следующие свойства могут быть выявимы объектами хранения.
+Следующие свойства подвергаются воздействию объектов магазина.
   
 - **[PR_IPM_APPOINTMENT_ENTRYID](pidtagipmappointmententryid-canonical-property.md)**
     
@@ -221,7 +221,7 @@ ms.locfileid: "33415294"
     
 - **[PR_IPM_TASK_ENTRYID](pidtagipmtaskentryid-canonical-property.md)**
     
-Следующие свойства огощаются объектами магазина и используются для поиска определенных элементов электронной почты в хранилище.
+Следующие свойства подвергаются воздействию объектов магазина и используются для поиска определенных элементов электронной почты в магазине.
   
 - **[PR_SEARCH_ATTACHMENTS_W](pidtagsearchattachments-canonical-property.md)**
     

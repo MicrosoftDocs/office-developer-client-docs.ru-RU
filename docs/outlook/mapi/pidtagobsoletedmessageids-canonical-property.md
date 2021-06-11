@@ -23,9 +23,9 @@ ms.locfileid: "33416113"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификаторы сообщений, которые это сообщение замещение.
+Содержит идентификаторы сообщений, которые это сообщение совмещение.
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ ms.locfileid: "33416113"
    
 ## <a name="remarks"></a>Примечания
 
-Идентификаторы, содержащиеся в этом свойстве, являются стандартными ключами поиска в формате PR_SEARCH_KEY **(** [PidTagSearchKey).](pidtagsearchkey-canonical-property.md)
+Идентификаторы, содержащиеся в этом свойстве, являются стандартными ключами поиска с **использованием формата свойства PR_SEARCH_KEY** [(PidTagSearchKey).](pidtagsearchkey-canonical-property.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

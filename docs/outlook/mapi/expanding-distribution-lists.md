@@ -19,11 +19,11 @@ ms.locfileid: "33414139"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
- **Запрос MAPI на расширение списка рассылки**
+ **Чтобы побудить MAPI расширить список рассылки**
   
-- Установите **для свойства PR_ADDRTYPE** [(PidTagAddressType)](pidtagaddresstype-canonical-property.md)свойство MAPIPDL.
+- Установите **свойство PR_ADDRTYPE** [(PidTagAddressType)](pidtagaddresstype-canonical-property.md)в MAPIPDL.
     
     MAPI расширяет адреса этого типа перед отправкой сообщения поставщику транспорта.
     

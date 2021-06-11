@@ -1,5 +1,5 @@
 ---
-title: Функции даты и времени (пользовательское веб-приложение Access)
+title: Функции date/time (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -13,30 +13,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411486"
 ---
-# <a name="datetime-functions-access-custom-web-app"></a>Функции даты и времени (пользовательское веб-приложение Access)
+# <a name="datetime-functions-access-custom-web-app"></a>Функции date/time (Доступ к настраиваемой веб-приложению)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
 
 
-- [Функция DateAdd (пользовательское веб-приложение Access)](dateadd-function-access-custom-web-app.md)
+- [Функция DateAdd (Доступ к настраиваемой веб-приложению)](dateadd-function-access-custom-web-app.md)
     
-- [Функция DateDiff (пользовательское веб-приложение Access)](datediff-function-access-custom-web-app.md)
+- [Функция DateDiff (Доступ к пользовательскому веб-приложению)](datediff-function-access-custom-web-app.md)
     
-- [Функция DateFromParts (пользовательское веб-приложение Access)](datefromparts-function-access-custom-web-app.md)
+- [Функция DateFromParts (Доступ к пользовательскому веб-приложению)](datefromparts-function-access-custom-web-app.md)
     
-- [Функция DatePart (пользовательское веб-приложение Access)](datepart-function-access-custom-web-app.md)
+- [Функция DatePart (Доступ к настраиваемой веб-приложению)](datepart-function-access-custom-web-app.md)
     
-- [Функция Day (пользовательское веб-приложение Access)](day-function-access-custom-web-app.md)
+- [Функция Day (Доступ к настраиваемой веб-приложению)](day-function-access-custom-web-app.md)
     
-- [Функция EOMonth (пользовательское веб-приложение Access)](eomonth-function-access-custom-web-app.md)
+- [Функция EOMonth (Доступ к пользовательскому веб-приложению)](eomonth-function-access-custom-web-app.md)
     
-- [Функция Month (пользовательское веб-приложение Access)](month-function-access-custom-web-app.md)
+- [Функция month (Доступ к настраиваемой веб-приложению)](month-function-access-custom-web-app.md)
     
-- [Функция Now (пользовательское веб-приложение Access)](now-function-access-custom-web-app.md)
+- [Теперь функция (Доступ к настраиваемой веб-приложению)](now-function-access-custom-web-app.md)
     
-- [Функция Today (пользовательское веб-приложение Access)](today-function-access-custom-web-app.md)
+- [Функция Today (Доступ к настраиваемой веб-приложению)](today-function-access-custom-web-app.md)
     
-- [Функция Year (пользовательское веб-приложение Access)](year-function-access-custom-web-app.md)
+- [Функция год (Доступ к настраиваемой веб-приложению)](year-function-access-custom-web-app.md)
     
 

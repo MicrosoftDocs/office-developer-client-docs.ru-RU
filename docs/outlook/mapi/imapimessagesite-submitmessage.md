@@ -23,7 +23,7 @@ ms.locfileid: "33417030"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Запрашивает, чтобы текущее сообщение было в очереди для доставки.
   
@@ -33,15 +33,15 @@ HRESULT SubmitMessage(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [in] Битоваяmas флагов, которая управляет отправкой сообщения. Можно установить следующий флаг:
+> [in] Немного флагов, которые контролируют отправку сообщения. Можно установить следующий флаг:
     
 FORCE_SUBMIT 
   
-> MAPI должен отправить сообщение, даже если оно может быть отправлено не сразу.
+> MAPI должна отправить сообщение, даже если оно может быть отправлено не сразу.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -51,9 +51,9 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Объекты форм вызовите метод **IMAPIMessageSite::SubmitMessage,** чтобы запросить доставку сообщения в очереди. Перед отправкой сообщения сайт сообщения должен вызвать метод [IPersistMessage::HandsOffMessage.](ipersistmessage-handsoffmessage.md) Сообщение не требуется ранее сохранено, так как **SubmitMessage** должен привести к его сэкономлению, если сообщение было изменено. После возврата **SubmitMessage** форма должна проверить текущее сообщение и затем отклоняться, если нет. 
+Объекты формы звонят **по методу IMAPIMessageSite::SubmitMessage** для запроса очереди на доставку сообщения. Перед отправкой сообщения на сайт сообщения следует вызвать [метод IPersistMessage::HandsOffMessage.](ipersistmessage-handsoffmessage.md) Сообщение не должно быть сохранено ранее, так как **SubmitMessage** должна привести к тому, что сообщение будет сохранено, если сообщение было изменено. После возвращения **SubmitMessage** форма должна проверить текущее сообщение, а затем отклоняться, если его нет. 
   
-Список интерфейсов, связанных с серверами форм, см. в списке [интерфейсов форм MAPI.](mapi-form-interfaces.md)
+Список интерфейсов, связанных с серверами форм, см. в [перечне интерфейсов форм MAPI.](mapi-form-interfaces.md)
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -61,7 +61,7 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SubmitMessage  <br/> |MFCMAPI использует метод **IMAPIMessageSite::SubmitMessage** для сохранения сообщения. Сначала вызывается метод **IPersistMessage::HandsOffMessage,** а затем **— SubmitMessage.**  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SubmitMessage  <br/> |MFCMAPI использует **метод IMAPIMessageSite::SubmitMessage** для сохранения сообщения. Сначала он вызывает **метод IPersistMessage::HandsOffMessage,** а затем **вызывает SubmitMessage.**  <br/> |
    
 ## <a name="see-also"></a>См. также
 
