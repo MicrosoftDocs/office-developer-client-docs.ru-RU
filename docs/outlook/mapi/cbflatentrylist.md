@@ -19,35 +19,35 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408441"
 ---
-# <a name="cbflatentrylist"></a><span data-ttu-id="25907-103">CbFLATENTRYLIST</span><span class="sxs-lookup"><span data-stu-id="25907-103">CbFLATENTRYLIST</span></span>
+# <a name="cbflatentrylist"></a><span data-ttu-id="10e96-103">CbFLATENTRYLIST</span><span class="sxs-lookup"><span data-stu-id="10e96-103">CbFLATENTRYLIST</span></span>
 
   
   
-<span data-ttu-id="25907-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="25907-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="10e96-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="10e96-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="25907-105">Вычисляет количество ветвей в существующей структуре [FLATENTRYLIST.](flatentrylist.md)</span><span class="sxs-lookup"><span data-stu-id="25907-105">Computes the number of bytes in an existing [FLATENTRYLIST](flatentrylist.md) structure.</span></span> 
+<span data-ttu-id="10e96-105">Вычисляет количество bytes в существующей структуре [FLATENTRYLIST.](flatentrylist.md)</span><span class="sxs-lookup"><span data-stu-id="10e96-105">Computes the number of bytes in an existing [FLATENTRYLIST](flatentrylist.md) structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="25907-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="25907-106">Header file:</span></span>  <br/> |<span data-ttu-id="25907-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="25907-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="25907-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="25907-108">Related structure:</span></span>  <br/> |<span data-ttu-id="25907-109">**FLATENTRYLIST**</span><span class="sxs-lookup"><span data-stu-id="25907-109">**FLATENTRYLIST**</span></span> <br/> |
+|<span data-ttu-id="10e96-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="10e96-106">Header file:</span></span>  <br/> |<span data-ttu-id="10e96-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="10e96-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="10e96-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="10e96-108">Related structure:</span></span>  <br/> |<span data-ttu-id="10e96-109">**FLATENTRYLIST**</span><span class="sxs-lookup"><span data-stu-id="10e96-109">**FLATENTRYLIST**</span></span> <br/> |
    
 ```cpp
 CbFLATENTRYLIST(_lplist)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="25907-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="25907-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="10e96-110">Parameters</span><span class="sxs-lookup"><span data-stu-id="10e96-110">Parameters</span></span>
 
- <span data-ttu-id="25907-111">_ _lplist_</span><span class="sxs-lookup"><span data-stu-id="25907-111">_ _lplist_</span></span>
+ <span data-ttu-id="10e96-111">_ _lplist_</span><span class="sxs-lookup"><span data-stu-id="10e96-111">_ _lplist_</span></span>
   
-> <span data-ttu-id="25907-112">Указатель на **структуру FLATENTRYLIST,** о чем идет речь.</span><span class="sxs-lookup"><span data-stu-id="25907-112">Pointer to the **FLATENTRYLIST** structure in question.</span></span> 
+> <span data-ttu-id="10e96-112">Указатель на **структуру FLATENTRYLIST,** о чем идет речь.</span><span class="sxs-lookup"><span data-stu-id="10e96-112">Pointer to the **FLATENTRYLIST** structure in question.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="25907-113">См. также</span><span class="sxs-lookup"><span data-stu-id="25907-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="10e96-113">См. также</span><span class="sxs-lookup"><span data-stu-id="10e96-113">See also</span></span>
 
 
 
-[<span data-ttu-id="25907-114">FLATENTRYLIST</span><span class="sxs-lookup"><span data-stu-id="25907-114">FLATENTRYLIST</span></span>](flatentrylist.md)
+[<span data-ttu-id="10e96-114">FLATENTRYLIST</span><span class="sxs-lookup"><span data-stu-id="10e96-114">FLATENTRYLIST</span></span>](flatentrylist.md)
 
 
-[<span data-ttu-id="25907-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="25907-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="10e96-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="10e96-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

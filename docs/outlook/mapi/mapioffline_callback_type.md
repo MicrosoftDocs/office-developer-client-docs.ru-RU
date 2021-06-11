@@ -15,15 +15,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407783"
 ---
-# <a name="mapioffline_callback_type"></a><span data-ttu-id="23a76-103">MAPIOFFLINE_CALLBACK_TYPE</span><span class="sxs-lookup"><span data-stu-id="23a76-103">MAPIOFFLINE_CALLBACK_TYPE</span></span>
+# <a name="mapioffline_callback_type"></a><span data-ttu-id="e6d9e-103">MAPIOFFLINE_CALLBACK_TYPE</span><span class="sxs-lookup"><span data-stu-id="e6d9e-103">MAPIOFFLINE_CALLBACK_TYPE</span></span>
 
   
   
-<span data-ttu-id="23a76-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="23a76-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e6d9e-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e6d9e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="23a76-105">Enumeration of supported types of callbacks.</span><span class="sxs-lookup"><span data-stu-id="23a76-105">Enumeration of supported types of callbacks.</span></span>
+<span data-ttu-id="e6d9e-105">Переумеление поддерживаемых типов вызовов.</span><span class="sxs-lookup"><span data-stu-id="e6d9e-105">Enumeration of supported types of callbacks.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="23a76-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="23a76-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="e6d9e-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="e6d9e-106">Quick info</span></span>
 
 ```cpp
 typedef enum  
@@ -33,13 +33,13 @@ typedef enum
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="23a76-107">См. также</span><span class="sxs-lookup"><span data-stu-id="23a76-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e6d9e-107">См. также</span><span class="sxs-lookup"><span data-stu-id="e6d9e-107">See also</span></span>
 
 
 
-[<span data-ttu-id="23a76-108">Об API автономного режима</span><span class="sxs-lookup"><span data-stu-id="23a76-108">About the Offline State API</span></span>](about-the-offline-state-api.md)
+[<span data-ttu-id="e6d9e-108">Об API автономного режима</span><span class="sxs-lookup"><span data-stu-id="e6d9e-108">About the Offline State API</span></span>](about-the-offline-state-api.md)
   
-[<span data-ttu-id="23a76-109">��������� MAPI</span><span class="sxs-lookup"><span data-stu-id="23a76-109">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="e6d9e-109">��������� MAPI</span><span class="sxs-lookup"><span data-stu-id="e6d9e-109">MAPI Constants</span></span>](mapi-constants.md)
   
-[<span data-ttu-id="23a76-110">MAPIOFFLINE_ADVISEINFO</span><span class="sxs-lookup"><span data-stu-id="23a76-110">MAPIOFFLINE_ADVISEINFO</span></span>](mapioffline_adviseinfo.md)
+[<span data-ttu-id="e6d9e-110">MAPIOFFLINE_ADVISEINFO</span><span class="sxs-lookup"><span data-stu-id="e6d9e-110">MAPIOFFLINE_ADVISEINFO</span></span>](mapioffline_adviseinfo.md)
 

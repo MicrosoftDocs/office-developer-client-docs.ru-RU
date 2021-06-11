@@ -19,58 +19,58 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32278732"
 ---
-# <a name="pidtagstorerecordkey-canonical-property"></a><span data-ttu-id="874e3-103">Каноническое свойство PidTagStoreRecordKey</span><span class="sxs-lookup"><span data-stu-id="874e3-103">PidTagStoreRecordKey Canonical Property</span></span>
+# <a name="pidtagstorerecordkey-canonical-property"></a><span data-ttu-id="c846b-103">Каноническое свойство PidTagStoreRecordKey</span><span class="sxs-lookup"><span data-stu-id="c846b-103">PidTagStoreRecordKey Canonical Property</span></span>
 
   
   
-<span data-ttu-id="874e3-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="874e3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c846b-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c846b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="874e3-105">Содержит уникальный двоичный сравнимый идентификатор (ключ записи) в хранилище сообщений, в котором находится объект.</span><span class="sxs-lookup"><span data-stu-id="874e3-105">Contains the unique binary-comparable identifier (record key) of the message store in which an object resides.</span></span>
+<span data-ttu-id="c846b-105">Содержит уникальный двоичный идентификатор (ключ записи) магазина сообщений, в котором находится объект.</span><span class="sxs-lookup"><span data-stu-id="c846b-105">Contains the unique binary-comparable identifier (record key) of the message store in which an object resides.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="874e3-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="874e3-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="874e3-107">PR_STORE_RECORD_KEY</span><span class="sxs-lookup"><span data-stu-id="874e3-107">PR_STORE_RECORD_KEY</span></span>  <br/> |
-|<span data-ttu-id="874e3-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="874e3-108">Identifier:</span></span>  <br/> |<span data-ttu-id="874e3-109">0x0FFA</span><span class="sxs-lookup"><span data-stu-id="874e3-109">0x0FFA</span></span>  <br/> |
-|<span data-ttu-id="874e3-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="874e3-110">Data type:</span></span>  <br/> |<span data-ttu-id="874e3-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="874e3-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="874e3-112">Область:</span><span class="sxs-lookup"><span data-stu-id="874e3-112">Area:</span></span>  <br/> |<span data-ttu-id="874e3-113">Свойства ID</span><span class="sxs-lookup"><span data-stu-id="874e3-113">ID properties</span></span>  <br/> |
+|<span data-ttu-id="c846b-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="c846b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c846b-107">PR_STORE_RECORD_KEY</span><span class="sxs-lookup"><span data-stu-id="c846b-107">PR_STORE_RECORD_KEY</span></span>  <br/> |
+|<span data-ttu-id="c846b-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="c846b-108">Identifier:</span></span>  <br/> |<span data-ttu-id="c846b-109">0x0FFA</span><span class="sxs-lookup"><span data-stu-id="c846b-109">0x0FFA</span></span>  <br/> |
+|<span data-ttu-id="c846b-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="c846b-110">Data type:</span></span>  <br/> |<span data-ttu-id="c846b-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="c846b-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="c846b-112">Область:</span><span class="sxs-lookup"><span data-stu-id="c846b-112">Area:</span></span>  <br/> |<span data-ttu-id="c846b-113">Свойства ID</span><span class="sxs-lookup"><span data-stu-id="c846b-113">ID properties</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="874e3-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="874e3-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c846b-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="c846b-114">Remarks</span></span>
 
-<span data-ttu-id="874e3-115">Для хранения сообщений это свойство идентично свойству PR_RECORD_KEY[(PidTagRecordKey).](pidtagrecordkey-canonical-property.md) </span><span class="sxs-lookup"><span data-stu-id="874e3-115">For a message store, this property is identical to the store's own **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) property.</span></span>
+<span data-ttu-id="c846b-115">Для магазина сообщений это свойство идентично свойству **PR_RECORD_KEY** [(PidTagRecordKey).](pidtagrecordkey-canonical-property.md)</span><span class="sxs-lookup"><span data-stu-id="c846b-115">For a message store, this property is identical to the store's own **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) property.</span></span>
   
-<span data-ttu-id="874e3-116">Отношения между этим свойством **и** PR_RECORD_KEY такие же, как и отношения между **PR_STORE_ENTRYID** ([PidTagStoreEntryId)](pidtagstoreentryid-canonical-property.md)и **PR_ENTRYID** ([PidTagEntryId).](pidtagentryid-canonical-property.md)</span><span class="sxs-lookup"><span data-stu-id="874e3-116">The relationship between this property and **PR_RECORD_KEY** is the same as the relationship between **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) and **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).</span></span>
+<span data-ttu-id="c846b-116">Связь между этим  свойством и PR_RECORD_KEY такая же, как и связь **между PR_STORE_ENTRYID**  [(PidTagStoreEntryId)](pidtagstoreentryid-canonical-property.md)и PR_ENTRYID [(PidTagEntryId).](pidtagentryid-canonical-property.md)</span><span class="sxs-lookup"><span data-stu-id="c846b-116">The relationship between this property and **PR_RECORD_KEY** is the same as the relationship between **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) and **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="874e3-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="874e3-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="c846b-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="c846b-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="874e3-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="874e3-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="c846b-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="c846b-118">Protocol specifications</span></span>
 
-<span data-ttu-id="874e3-119">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="874e3-119">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="c846b-119">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c846b-119">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="874e3-120">Обрабатывает объекты сообщений и вложений.</span><span class="sxs-lookup"><span data-stu-id="874e3-120">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="c846b-120">Обрабатывает объекты сообщений и вложений.</span><span class="sxs-lookup"><span data-stu-id="c846b-120">Handles message and attachment objects.</span></span>
     
-<span data-ttu-id="874e3-121">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="874e3-121">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="c846b-121">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c846b-121">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="874e3-122">Преобразуется между IETF RFC2445, RFC2446 и RFC2447, а также объектами встреч и собраний.</span><span class="sxs-lookup"><span data-stu-id="874e3-122">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
+> <span data-ttu-id="c846b-122">Преобразования между объектами IETF RFC2445, RFC2446 и RFC2447, а также объектами назначения и собраний.</span><span class="sxs-lookup"><span data-stu-id="c846b-122">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="874e3-123">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="874e3-123">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="c846b-123">Файлы заголовки</span><span class="sxs-lookup"><span data-stu-id="c846b-123">Header files</span></span>
 
-<span data-ttu-id="874e3-124">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="874e3-124">Mapidefs.h</span></span>
+<span data-ttu-id="c846b-124">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c846b-124">Mapidefs.h</span></span>
   
-> <span data-ttu-id="874e3-125">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="874e3-125">Provides data type definitions.</span></span>
+> <span data-ttu-id="c846b-125">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="c846b-125">Provides data type definitions.</span></span>
     
-<span data-ttu-id="874e3-126">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="874e3-126">Mapitags.h</span></span>
+<span data-ttu-id="c846b-126">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="c846b-126">Mapitags.h</span></span>
   
-> <span data-ttu-id="874e3-127">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="874e3-127">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="c846b-127">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="c846b-127">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="874e3-128">См. также</span><span class="sxs-lookup"><span data-stu-id="874e3-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c846b-128">См. также</span><span class="sxs-lookup"><span data-stu-id="c846b-128">See also</span></span>
 
 
 
-[<span data-ttu-id="874e3-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="874e3-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="c846b-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="c846b-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="874e3-130">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="874e3-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="c846b-130">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="c846b-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="874e3-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="874e3-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="c846b-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="c846b-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="874e3-132">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="874e3-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="c846b-132">Сопоставление имен MAPI с каноническими именами свойств</span><span class="sxs-lookup"><span data-stu-id="c846b-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

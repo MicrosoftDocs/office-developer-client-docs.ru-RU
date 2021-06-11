@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6356f7bf-e3a1-4294-ad6e-df77bdd0356c
-description: Инициализирует поставщика Outlook Social Connector (OSC).
+description: Инициализирует поставщик Outlook social Connector (OSC).
 ms.openlocfilehash: 73d14f66785417e80448f622256d0b9cb059b83c
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -15,29 +15,29 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32285762"
 ---
-# <a name="isocialproviderload"></a><span data-ttu-id="e227f-103">ISocialProvider::Load</span><span class="sxs-lookup"><span data-stu-id="e227f-103">ISocialProvider::Load</span></span>
+# <a name="isocialproviderload"></a><span data-ttu-id="6e54c-103">ISocialProvider::Load</span><span class="sxs-lookup"><span data-stu-id="6e54c-103">ISocialProvider::Load</span></span>
 
-<span data-ttu-id="e227f-104">Инициализирует поставщика Outlook Social Connector (OSC).</span><span class="sxs-lookup"><span data-stu-id="e227f-104">Initializes the Outlook Social Connector (OSC) provider.</span></span>
+<span data-ttu-id="6e54c-104">Инициализирует поставщик Outlook social Connector (OSC).</span><span class="sxs-lookup"><span data-stu-id="6e54c-104">Initializes the Outlook Social Connector (OSC) provider.</span></span>
   
 ```cpp
 HRESULT _stdcall Load([in] BSTR socialProviderInterfaceVersion, [in] BSTR languageTag);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e227f-105">Параметры</span><span class="sxs-lookup"><span data-stu-id="e227f-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6e54c-105">Parameters</span><span class="sxs-lookup"><span data-stu-id="6e54c-105">Parameters</span></span>
 
-<span data-ttu-id="e227f-106">_socialProviderInterfaceVersion_</span><span class="sxs-lookup"><span data-stu-id="e227f-106">_socialProviderInterfaceVersion_</span></span>
+<span data-ttu-id="6e54c-106">_socialProviderInterfaceVersion_</span><span class="sxs-lookup"><span data-stu-id="6e54c-106">_socialProviderInterfaceVersion_</span></span>
   
-> <span data-ttu-id="e227f-107">[in] Версия интерфейсов поставщика OSC, ожидаемых osC.</span><span class="sxs-lookup"><span data-stu-id="e227f-107">[in] The version of the OSC provider interfaces expected by the OSC.</span></span>
+> <span data-ttu-id="6e54c-107">[in] Версия интерфейсов поставщика OSC, ожидаемых osc.</span><span class="sxs-lookup"><span data-stu-id="6e54c-107">[in] The version of the OSC provider interfaces expected by the OSC.</span></span>
     
-<span data-ttu-id="e227f-108">_languageTag_</span><span class="sxs-lookup"><span data-stu-id="e227f-108">_languageTag_</span></span>
+<span data-ttu-id="6e54c-108">_LanguageTag_</span><span class="sxs-lookup"><span data-stu-id="6e54c-108">_languageTag_</span></span>
   
-> <span data-ttu-id="e227f-109">[in] Тег языка IETF, определенный [[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt) и [[RFC4647],](https://www.ietf.org/rfc/rfc4647.txt)который представляет текущий язык пользовательского интерфейса Outlook.</span><span class="sxs-lookup"><span data-stu-id="e227f-109">[in] The Internet Engineering Task Force (IETF) language tag, defined by [[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt) and [[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt), that represents the current Outlook user-interface language.</span></span>
+> <span data-ttu-id="6e54c-109">[in] Языковой тег Целевой группы интернет-инженерии (IETF), определенный [[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt) и [[RFC4647],](https://www.ietf.org/rfc/rfc4647.txt)представляет текущий язык Outlook пользовательского интерфейса.</span><span class="sxs-lookup"><span data-stu-id="6e54c-109">[in] The Internet Engineering Task Force (IETF) language tag, defined by [[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt) and [[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt), that represents the current Outlook user-interface language.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="e227f-110">Примечания</span><span class="sxs-lookup"><span data-stu-id="e227f-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6e54c-110">Примечания</span><span class="sxs-lookup"><span data-stu-id="6e54c-110">Remarks</span></span>
 
-<span data-ttu-id="e227f-111">Формат версии параметра  _socialProviderInterfaceVersion_  _— X_. _xxxx_, где  _X_ является основной версией, а  _xxxx_ — второстепенной версией OSC.</span><span class="sxs-lookup"><span data-stu-id="e227f-111">The version format for the  _socialProviderInterfaceVersion_ parameter is  _X_. _xxxx_, where  _X_ is the major version and  _xxxx_ is the minor version of the OSC.</span></span> <span data-ttu-id="e227f-112">Для Office 2013 проверьте, является ли основная версия 15.</span><span class="sxs-lookup"><span data-stu-id="e227f-112">For Office 2013, check for the major version being 15.</span></span> 
+<span data-ttu-id="6e54c-111">Формат версии для  _параметра socialProviderInterfaceVersion_  _— X_. _xxxx_, где  _X_ является основной версией,  _а xxxx_ — второстепенной версией OSC.</span><span class="sxs-lookup"><span data-stu-id="6e54c-111">The version format for the  _socialProviderInterfaceVersion_ parameter is  _X_. _xxxx_, where  _X_ is the major version and  _xxxx_ is the minor version of the OSC.</span></span> <span data-ttu-id="6e54c-112">В Office 2013 г. проверьте, является ли основная версия 15.</span><span class="sxs-lookup"><span data-stu-id="6e54c-112">For Office 2013, check for the major version being 15.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="e227f-113">См. также</span><span class="sxs-lookup"><span data-stu-id="e227f-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6e54c-113">См. также</span><span class="sxs-lookup"><span data-stu-id="6e54c-113">See also</span></span>
 
-- [<span data-ttu-id="e227f-114">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="e227f-114">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
+- [<span data-ttu-id="6e54c-114">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="6e54c-114">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
 

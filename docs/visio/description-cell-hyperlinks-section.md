@@ -16,28 +16,28 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32360244"
 ---
-# <a name="description-cell-hyperlinks-section"></a><span data-ttu-id="4f0c8-103">Description Cell (Hyperlinks Section)</span><span class="sxs-lookup"><span data-stu-id="4f0c8-103">Description Cell (Hyperlinks Section)</span></span>
+# <a name="description-cell-hyperlinks-section"></a><span data-ttu-id="b5cab-103">Description Cell (Hyperlinks Section)</span><span class="sxs-lookup"><span data-stu-id="b5cab-103">Description Cell (Hyperlinks Section)</span></span>
 
-<span data-ttu-id="4f0c8-104">Представляет текстовую строку для гиперссылки.</span><span class="sxs-lookup"><span data-stu-id="4f0c8-104">Represents a descriptive text string for a hyperlink.</span></span> 
+<span data-ttu-id="b5cab-104">Представляет текстовую строку для гиперссылки.</span><span class="sxs-lookup"><span data-stu-id="b5cab-104">Represents a descriptive text string for a hyperlink.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="4f0c8-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="4f0c8-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b5cab-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="b5cab-105">Remarks</span></span>
 
-<span data-ttu-id="4f0c8-106">Используйте эту ячейку для хранения комментариев о гиперссылке; например, "Ссылка на наш веб-сайт цен".</span><span class="sxs-lookup"><span data-stu-id="4f0c8-106">Use this cell to store comments about the hyperlink; for example, "Link to our pricing website."</span></span>
+<span data-ttu-id="b5cab-106">Используйте эту ячейку для хранения комментариев по гиперссылке; например, "Ссылка на наш сайт ценообразования".</span><span class="sxs-lookup"><span data-stu-id="b5cab-106">Use this cell to store comments about the hyperlink; for example, "Link to our pricing website."</span></span>
   
-<span data-ttu-id="4f0c8-107">Вы также можете установить значение этой  ячейки в диалоговом окне "Гиперссылки" (щелкните **"Гиперссылка"** на вкладке **"Вставка").**</span><span class="sxs-lookup"><span data-stu-id="4f0c8-107">You can also set the value of this cell in the **Hyperlinks** dialog box (click **Hyperlink** on the **Insert** tab).</span></span> 
+<span data-ttu-id="b5cab-107">Вы также можете установить значение этой  ячейки в диалоговом окне Гиперссылки (щелкните **Гиперссылку** на вкладке **Вставка).**</span><span class="sxs-lookup"><span data-stu-id="b5cab-107">You can also set the value of this cell in the **Hyperlinks** dialog box (click **Hyperlink** on the **Insert** tab).</span></span> 
   
-<span data-ttu-id="4f0c8-108">Чтобы получить ссылку на ячейку Description по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте:</span><span class="sxs-lookup"><span data-stu-id="4f0c8-108">To get a reference to the Description cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="b5cab-108">Чтобы получить ссылку на ячейку Description по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте:</span><span class="sxs-lookup"><span data-stu-id="b5cab-108">To get a reference to the Description cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="4f0c8-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="4f0c8-109">Cell name:</span></span>  <br/> | <span data-ttu-id="4f0c8-110">Гиперссылка.</span><span class="sxs-lookup"><span data-stu-id="4f0c8-110">Hyperlink.</span></span>  <span data-ttu-id="4f0c8-111">*Name*  . Описание гиперссылки.</span><span class="sxs-lookup"><span data-stu-id="4f0c8-111">*Name*  .Description where Hyperlink.</span></span>  <span data-ttu-id="4f0c8-112">*Имя*  — имя строки гиперссылки</span><span class="sxs-lookup"><span data-stu-id="4f0c8-112">*Name*  is the name of the hyperlink row</span></span>  <br/> |
+| <span data-ttu-id="b5cab-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="b5cab-109">Cell name:</span></span>  <br/> | <span data-ttu-id="b5cab-110">Гиперссылка.</span><span class="sxs-lookup"><span data-stu-id="b5cab-110">Hyperlink.</span></span>  <span data-ttu-id="b5cab-111">*Имя*  . Описание, где гиперссылка.</span><span class="sxs-lookup"><span data-stu-id="b5cab-111">*Name*  .Description where Hyperlink.</span></span>  <span data-ttu-id="b5cab-112">*Имя*  — это имя строки гиперссылки</span><span class="sxs-lookup"><span data-stu-id="b5cab-112">*Name*  is the name of the hyperlink row</span></span>  <br/> |
    
-<span data-ttu-id="4f0c8-113">Чтобы получить ссылку на ячейку Description по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="4f0c8-113">To get a reference to the Description cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="b5cab-113">Чтобы получить ссылку на ячейку Description по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="b5cab-113">To get a reference to the Description cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="4f0c8-114">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="4f0c8-114">Section index:</span></span>  <br/> |<span data-ttu-id="4f0c8-115">**visSectionHyperlink**</span><span class="sxs-lookup"><span data-stu-id="4f0c8-115">**visSectionHyperlink**</span></span> <br/> |
-| <span data-ttu-id="4f0c8-116">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="4f0c8-116">Row index:</span></span>  <br/> |<span data-ttu-id="4f0c8-117">**visRow1stHyperlink**  +   *i* где *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="4f0c8-117">**visRow1stHyperlink** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="4f0c8-118">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="4f0c8-118">Cell index:</span></span>  <br/> |<span data-ttu-id="4f0c8-119">**visHLinkDescription**</span><span class="sxs-lookup"><span data-stu-id="4f0c8-119">**visHLinkDescription**</span></span> <br/> |
+| <span data-ttu-id="b5cab-114">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="b5cab-114">Section index:</span></span>  <br/> |<span data-ttu-id="b5cab-115">**visSectionHyperlink**</span><span class="sxs-lookup"><span data-stu-id="b5cab-115">**visSectionHyperlink**</span></span> <br/> |
+| <span data-ttu-id="b5cab-116">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="b5cab-116">Row index:</span></span>  <br/> |<span data-ttu-id="b5cab-117">**visRow1stHyperlink**  +   *i,* *где i* = 0, 1, 2 ...</span><span class="sxs-lookup"><span data-stu-id="b5cab-117">**visRow1stHyperlink** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="b5cab-118">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="b5cab-118">Cell index:</span></span>  <br/> |<span data-ttu-id="b5cab-119">**visHLinkDescription**</span><span class="sxs-lookup"><span data-stu-id="b5cab-119">**visHLinkDescription**</span></span> <br/> |
    
 

@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407517"
 ---
-# <a name="ipstx2setspoolsuspendstate"></a><span data-ttu-id="5e1a5-103">IPSTX2::SetSpoolSuspendState</span><span class="sxs-lookup"><span data-stu-id="5e1a5-103">IPSTX2::SetSpoolSuspendState</span></span>
+# <a name="ipstx2setspoolsuspendstate"></a><span data-ttu-id="9dc5f-103">IPSTX2::SetSpoolSuspendState</span><span class="sxs-lookup"><span data-stu-id="9dc5f-103">IPSTX2::SetSpoolSuspendState</span></span>
 
   
   
-<span data-ttu-id="5e1a5-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5e1a5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="9dc5f-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9dc5f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5e1a5-105">Задает состояние приостановки для пула.</span><span class="sxs-lookup"><span data-stu-id="5e1a5-105">Sets the suspended state on the spooler.</span></span>
+<span data-ttu-id="9dc5f-105">Задает приостановку состояния на шпалере.</span><span class="sxs-lookup"><span data-stu-id="9dc5f-105">Sets the suspended state on the spooler.</span></span>
   
 ```cpp
 void SetSpoolSuspendState( 
@@ -33,23 +33,23 @@ void SetSpoolSuspendState(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="5e1a5-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="5e1a5-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9dc5f-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="9dc5f-106">Parameters</span></span>
 
- <span data-ttu-id="5e1a5-107">_ulState_</span><span class="sxs-lookup"><span data-stu-id="5e1a5-107">_ulState_</span></span>
+ <span data-ttu-id="9dc5f-107">_ulState_</span><span class="sxs-lookup"><span data-stu-id="9dc5f-107">_ulState_</span></span>
   
-> <span data-ttu-id="5e1a5-108">[in] Состояние, в который устанавливается пул.</span><span class="sxs-lookup"><span data-stu-id="5e1a5-108">[in] The state to set the spooler to.</span></span> <span data-ttu-id="5e1a5-109">Это должно быть одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="5e1a5-109">It must be one of the following values:</span></span>
+> <span data-ttu-id="9dc5f-108">[in] Состояние, на который должен устанавливаться шпалер.</span><span class="sxs-lookup"><span data-stu-id="9dc5f-108">[in] The state to set the spooler to.</span></span> <span data-ttu-id="9dc5f-109">Это должно быть одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="9dc5f-109">It must be one of the following values:</span></span>
     
- <span data-ttu-id="5e1a5-110">**SS_ACTIVE**</span><span class="sxs-lookup"><span data-stu-id="5e1a5-110">**SS_ACTIVE**</span></span>
-  
-> 
-    
- <span data-ttu-id="5e1a5-111">**SS_SUSPENDED**</span><span class="sxs-lookup"><span data-stu-id="5e1a5-111">**SS_SUSPENDED**</span></span>
+ <span data-ttu-id="9dc5f-110">**SS_ACTIVE**</span><span class="sxs-lookup"><span data-stu-id="9dc5f-110">**SS_ACTIVE**</span></span>
   
 > 
     
-## <a name="see-also"></a><span data-ttu-id="5e1a5-112">См. также</span><span class="sxs-lookup"><span data-stu-id="5e1a5-112">See also</span></span>
+ <span data-ttu-id="9dc5f-111">**SS_SUSPENDED**</span><span class="sxs-lookup"><span data-stu-id="9dc5f-111">**SS_SUSPENDED**</span></span>
+  
+> 
+    
+## <a name="see-also"></a><span data-ttu-id="9dc5f-112">См. также</span><span class="sxs-lookup"><span data-stu-id="9dc5f-112">See also</span></span>
 
 
 
-[<span data-ttu-id="5e1a5-113">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="5e1a5-113">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="9dc5f-113">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="9dc5f-113">MAPI Constants</span></span>](mapi-constants.md)
 

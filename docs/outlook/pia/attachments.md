@@ -14,19 +14,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32359131"
 ---
-# <a name="attachments"></a><span data-ttu-id="77d7f-102">Attachments</span><span class="sxs-lookup"><span data-stu-id="77d7f-102">Attachments</span></span>
+# <a name="attachments"></a><span data-ttu-id="1ab84-102">Attachments</span><span class="sxs-lookup"><span data-stu-id="1ab84-102">Attachments</span></span>
 
-<span data-ttu-id="77d7f-103">В этом разделе представлен пример задачи, связанный с вложениями электронной почты.</span><span class="sxs-lookup"><span data-stu-id="77d7f-103">This section provides a sample task that involves email attachments.</span></span>
+<span data-ttu-id="1ab84-103">В этом разделе представлен пример задачи, связанный с вложениями электронной почты.</span><span class="sxs-lookup"><span data-stu-id="1ab84-103">This section provides a sample task that involves email attachments.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="77d7f-104">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="77d7f-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1ab84-104">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="1ab84-104">In this section</span></span>
 
-|<span data-ttu-id="77d7f-105">Статья</span><span class="sxs-lookup"><span data-stu-id="77d7f-105">Topic</span></span>|<span data-ttu-id="77d7f-106">Описание</span><span class="sxs-lookup"><span data-stu-id="77d7f-106">Description</span></span>|
+|<span data-ttu-id="1ab84-105">Статья</span><span class="sxs-lookup"><span data-stu-id="1ab84-105">Topic</span></span>|<span data-ttu-id="1ab84-106">Описание</span><span class="sxs-lookup"><span data-stu-id="1ab84-106">Description</span></span>|
 |:----|:----------|
-|[<span data-ttu-id="77d7f-107">Программное удаление вложений уровня безопасности 2 из сообщений и сохранение их на диске</span><span class="sxs-lookup"><span data-stu-id="77d7f-107">Programmatically remove security level 2 attachments from messages and save them to disk</span></span>](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)  |<span data-ttu-id="77d7f-108">В этой статье рассказано, как удалить вложения с уровнем безопасности 2 из электронных писем и сохранить их на диск, на котором их можно будет открыть.</span><span class="sxs-lookup"><span data-stu-id="77d7f-108">Removes security Level 2 attachments from email messages and saves them to a disk, from where they can be opened.</span></span>|
+|[<span data-ttu-id="1ab84-107">Программное удаление вложений уровня безопасности 2 из сообщений и сохранение их на диске</span><span class="sxs-lookup"><span data-stu-id="1ab84-107">Programmatically remove security level 2 attachments from messages and save them to disk</span></span>](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)  |<span data-ttu-id="1ab84-108">В этой статье рассказано, как удалить вложения с уровнем безопасности 2 из электронных писем и сохранить их на диск, на котором их можно будет открыть.</span><span class="sxs-lookup"><span data-stu-id="1ab84-108">Removes security Level 2 attachments from email messages and saves them to a disk, from where they can be opened.</span></span>|
 
-## <a name="see-also"></a><span data-ttu-id="77d7f-109">См. также</span><span class="sxs-lookup"><span data-stu-id="77d7f-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1ab84-109">См. также</span><span class="sxs-lookup"><span data-stu-id="1ab84-109">See also</span></span>
 
-- [<span data-ttu-id="77d7f-110">Почта</span><span class="sxs-lookup"><span data-stu-id="77d7f-110">Mail</span></span>](mail.md)
-- [<span data-ttu-id="77d7f-111">Поиск и фильтрация</span><span class="sxs-lookup"><span data-stu-id="77d7f-111">Search and filter</span></span>](search-and-filter.md)
-- [<span data-ttu-id="77d7f-112">Инструкции (справочник по основной сборке взаимодействия для Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="77d7f-112">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
+- [<span data-ttu-id="1ab84-110">Почта</span><span class="sxs-lookup"><span data-stu-id="1ab84-110">Mail</span></span>](mail.md)
+- [<span data-ttu-id="1ab84-111">Поиск и фильтрация</span><span class="sxs-lookup"><span data-stu-id="1ab84-111">Search and filter</span></span>](search-and-filter.md)
+- [<span data-ttu-id="1ab84-112">Инструкции (справочник по основной сборке взаимодействия для Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="1ab84-112">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
 

@@ -17,56 +17,56 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282322"
 ---
-# <a name="pidtagsearchfoldertag-canonical-property"></a><span data-ttu-id="e5002-103">Каноническое свойство PidTagSearchFolderTag</span><span class="sxs-lookup"><span data-stu-id="e5002-103">PidTagSearchFolderTag Canonical Property</span></span>
+# <a name="pidtagsearchfoldertag-canonical-property"></a><span data-ttu-id="ffe9b-103">Каноническое свойство PidTagSearchFolderTag</span><span class="sxs-lookup"><span data-stu-id="ffe9b-103">PidTagSearchFolderTag Canonical Property</span></span>
 
   
   
-<span data-ttu-id="e5002-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e5002-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ffe9b-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ffe9b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e5002-105">Содержит значение, используемное для синхронизации этого сообщения определения с контейнером папки поиска.</span><span class="sxs-lookup"><span data-stu-id="e5002-105">Contains the value used to synchronize this definition message with the matching search folder container.</span></span>
+<span data-ttu-id="ffe9b-105">Содержит значение, используемее для синхронизации этого сообщения определения с контейнером папки поиска.</span><span class="sxs-lookup"><span data-stu-id="ffe9b-105">Contains the value used to synchronize this definition message with the matching search folder container.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="e5002-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="e5002-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="e5002-107">PR_WB_SF_TAG</span><span class="sxs-lookup"><span data-stu-id="e5002-107">PR_WB_SF_TAG</span></span>  <br/> |
-|<span data-ttu-id="e5002-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="e5002-108">Identifier:</span></span>  <br/> |<span data-ttu-id="e5002-109">0x6847</span><span class="sxs-lookup"><span data-stu-id="e5002-109">0x6847</span></span>  <br/> |
-|<span data-ttu-id="e5002-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="e5002-110">Data type:</span></span>  <br/> |<span data-ttu-id="e5002-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="e5002-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="e5002-112">Область:</span><span class="sxs-lookup"><span data-stu-id="e5002-112">Area:</span></span>  <br/> |<span data-ttu-id="e5002-113">Поиск</span><span class="sxs-lookup"><span data-stu-id="e5002-113">Search</span></span>  <br/> |
+|<span data-ttu-id="ffe9b-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="ffe9b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ffe9b-107">PR_WB_SF_TAG</span><span class="sxs-lookup"><span data-stu-id="ffe9b-107">PR_WB_SF_TAG</span></span>  <br/> |
+|<span data-ttu-id="ffe9b-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="ffe9b-108">Identifier:</span></span>  <br/> |<span data-ttu-id="ffe9b-109">0x6847</span><span class="sxs-lookup"><span data-stu-id="ffe9b-109">0x6847</span></span>  <br/> |
+|<span data-ttu-id="ffe9b-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="ffe9b-110">Data type:</span></span>  <br/> |<span data-ttu-id="ffe9b-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="ffe9b-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="ffe9b-112">Область:</span><span class="sxs-lookup"><span data-stu-id="ffe9b-112">Area:</span></span>  <br/> |<span data-ttu-id="ffe9b-113">Поиск</span><span class="sxs-lookup"><span data-stu-id="ffe9b-113">Search</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="e5002-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="e5002-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ffe9b-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="ffe9b-114">Remarks</span></span>
 
-<span data-ttu-id="e5002-115">Это свойство меняется при смене сообщения определения.</span><span class="sxs-lookup"><span data-stu-id="e5002-115">This property is changed when the definition message is changed.</span></span> <span data-ttu-id="e5002-116">Она должна изменять каждую итерацию, но может быть не уникальной.</span><span class="sxs-lookup"><span data-stu-id="e5002-116">It must change each iteration, but it may not be unique.</span></span>
+<span data-ttu-id="ffe9b-115">Это свойство меняется при смене сообщения определения.</span><span class="sxs-lookup"><span data-stu-id="ffe9b-115">This property is changed when the definition message is changed.</span></span> <span data-ttu-id="ffe9b-116">Она должна изменять каждую итерацию, но она не может быть уникальной.</span><span class="sxs-lookup"><span data-stu-id="ffe9b-116">It must change each iteration, but it may not be unique.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="e5002-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="e5002-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="ffe9b-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="ffe9b-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="e5002-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="e5002-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="ffe9b-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="ffe9b-118">Protocol specifications</span></span>
 
-<span data-ttu-id="e5002-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e5002-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ffe9b-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ffe9b-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="e5002-120">Содержит ссылки на связанные Exchange Server протоколы.</span><span class="sxs-lookup"><span data-stu-id="e5002-120">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="ffe9b-120">Содержит ссылки на связанные Exchange Server протоколы.</span><span class="sxs-lookup"><span data-stu-id="ffe9b-120">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="e5002-121">[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e5002-121">[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ffe9b-121">[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ffe9b-121">[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="e5002-122">Указывает свойства и операции для управления конфигурацией списка папок поиска.</span><span class="sxs-lookup"><span data-stu-id="e5002-122">Specifies the properties and operations for manipulating a search folder list configuration.</span></span>
+> <span data-ttu-id="ffe9b-122">Указывает свойства и операции для управления конфигурацией списка папки поиска.</span><span class="sxs-lookup"><span data-stu-id="ffe9b-122">Specifies the properties and operations for manipulating a search folder list configuration.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="e5002-123">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="e5002-123">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="ffe9b-123">Файлы заголовки</span><span class="sxs-lookup"><span data-stu-id="ffe9b-123">Header files</span></span>
 
-<span data-ttu-id="e5002-124">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e5002-124">Mapidefs.h</span></span>
+<span data-ttu-id="ffe9b-124">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ffe9b-124">Mapidefs.h</span></span>
   
-> <span data-ttu-id="e5002-125">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="e5002-125">Provides data type definitions.</span></span>
+> <span data-ttu-id="ffe9b-125">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="ffe9b-125">Provides data type definitions.</span></span>
     
-<span data-ttu-id="e5002-126">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="e5002-126">Mapitags.h</span></span>
+<span data-ttu-id="ffe9b-126">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="ffe9b-126">Mapitags.h</span></span>
   
-> <span data-ttu-id="e5002-127">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="e5002-127">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="ffe9b-127">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="ffe9b-127">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="e5002-128">См. также</span><span class="sxs-lookup"><span data-stu-id="e5002-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ffe9b-128">См. также</span><span class="sxs-lookup"><span data-stu-id="ffe9b-128">See also</span></span>
 
 
 
-[<span data-ttu-id="e5002-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="e5002-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="ffe9b-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="ffe9b-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="e5002-130">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="e5002-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="ffe9b-130">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="ffe9b-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="e5002-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="e5002-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="ffe9b-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="ffe9b-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="e5002-132">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="e5002-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="ffe9b-132">Сопоставление имен MAPI с каноническими именами свойств</span><span class="sxs-lookup"><span data-stu-id="ffe9b-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

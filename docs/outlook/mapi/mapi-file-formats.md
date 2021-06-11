@@ -15,23 +15,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406481"
 ---
-# <a name="mapi-file-formats"></a><span data-ttu-id="1c745-103">Форматы файлов MAPI</span><span class="sxs-lookup"><span data-stu-id="1c745-103">MAPI File Formats</span></span>
+# <a name="mapi-file-formats"></a><span data-ttu-id="a9e72-103">Форматы файлов MAPI</span><span class="sxs-lookup"><span data-stu-id="a9e72-103">MAPI File Formats</span></span>
 
   
   
-<span data-ttu-id="1c745-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1c745-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a9e72-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a9e72-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1c745-105">MAPI публикует форматы различных файлов конфигурации, которые клиенты и поставщики услуг используют для описания служб сообщений, их поставщиков и форм.</span><span class="sxs-lookup"><span data-stu-id="1c745-105">MAPI publishes the formats of various configuration files that clients and service providers use to describe message services and their service providers and forms.</span></span>
+<span data-ttu-id="a9e72-105">MAPI публикует форматы различных файлов конфигурации, которые клиенты и поставщики услуг используют для описания служб сообщений и их поставщиков и форм.</span><span class="sxs-lookup"><span data-stu-id="a9e72-105">MAPI publishes the formats of various configuration files that clients and service providers use to describe message services and their service providers and forms.</span></span>
   
-<span data-ttu-id="1c745-106">В следующей таблице описаны эти файлы по имени или типу:</span><span class="sxs-lookup"><span data-stu-id="1c745-106">The following table describes these files by name or type:</span></span>
+<span data-ttu-id="a9e72-106">В следующей таблице описываются эти файлы по имени или типу:</span><span class="sxs-lookup"><span data-stu-id="a9e72-106">The following table describes these files by name or type:</span></span>
   
-|<span data-ttu-id="1c745-107">**Файл конфигурации**</span><span class="sxs-lookup"><span data-stu-id="1c745-107">**Configuration file**</span></span>|<span data-ttu-id="1c745-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="1c745-108">**Description**</span></span>|
+|<span data-ttu-id="a9e72-107">**Файл конфигурации**</span><span class="sxs-lookup"><span data-stu-id="a9e72-107">**Configuration file**</span></span>|<span data-ttu-id="a9e72-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="a9e72-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="1c745-109">MapiSvc.inf</span><span class="sxs-lookup"><span data-stu-id="1c745-109">MapiSvc.inf</span></span>  <br/> |<span data-ttu-id="1c745-110">Содержит сведения о конфигурации для подсистемы MAPI, служб сообщений и поставщиков услуг.</span><span class="sxs-lookup"><span data-stu-id="1c745-110">Contains configuration information for the MAPI subsystem, message services, and service providers.</span></span>  <br/> |
-|<span data-ttu-id="1c745-111">Файлы с расширением CFG</span><span class="sxs-lookup"><span data-stu-id="1c745-111">Files with the .cfg extension</span></span>  <br/> |<span data-ttu-id="1c745-112">Содержит сведения о конфигурации формы.</span><span class="sxs-lookup"><span data-stu-id="1c745-112">Contains configuration information for a form.</span></span>  <br/> |
+|<span data-ttu-id="a9e72-109">MapiSvc.inf</span><span class="sxs-lookup"><span data-stu-id="a9e72-109">MapiSvc.inf</span></span>  <br/> |<span data-ttu-id="a9e72-110">Содержит сведения о конфигурации подсистемы MAPI, служб сообщений и поставщиков услуг.</span><span class="sxs-lookup"><span data-stu-id="a9e72-110">Contains configuration information for the MAPI subsystem, message services, and service providers.</span></span>  <br/> |
+|<span data-ttu-id="a9e72-111">Файлы с расширением .cfg</span><span class="sxs-lookup"><span data-stu-id="a9e72-111">Files with the .cfg extension</span></span>  <br/> |<span data-ttu-id="a9e72-112">Содержит сведения о конфигурации для формы.</span><span class="sxs-lookup"><span data-stu-id="a9e72-112">Contains configuration information for a form.</span></span>  <br/> |
    
-<span data-ttu-id="1c745-113">Подробные сведения о формате файла MapiSvc.inf см. в описании формата файла [MapiSvc.inf.](file-format-of-mapisvc-inf.md)</span><span class="sxs-lookup"><span data-stu-id="1c745-113">For detailed information about the file format of MapiSvc.inf, see [File Format of MapiSvc.inf](file-format-of-mapisvc-inf.md).</span></span> 
+<span data-ttu-id="a9e72-113">Подробные сведения о формате файлов MapiSvc.inf см. в файловом формате [MapiSvc.inf.](file-format-of-mapisvc-inf.md)</span><span class="sxs-lookup"><span data-stu-id="a9e72-113">For detailed information about the file format of MapiSvc.inf, see [File Format of MapiSvc.inf](file-format-of-mapisvc-inf.md).</span></span> 
   
-<span data-ttu-id="1c745-114">Подробные сведения о формате файла конфигурации формы см. в описании [формата файлов конфигурации формы.](file-format-of-form-configuration-files.md)</span><span class="sxs-lookup"><span data-stu-id="1c745-114">For detailed information about the file format of a form configuration file, see [File Format of Form Configuration Files](file-format-of-form-configuration-files.md).</span></span> 
+<span data-ttu-id="a9e72-114">Подробные сведения о формате файла файла конфигурации формы см. в материалах [File Format of Form Configuration Files.](file-format-of-form-configuration-files.md)</span><span class="sxs-lookup"><span data-stu-id="a9e72-114">For detailed information about the file format of a form configuration file, see [File Format of Form Configuration Files](file-format-of-form-configuration-files.md).</span></span> 
   
 

@@ -15,77 +15,77 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408029"
 ---
-# <a name="display-a-progress-indicator"></a><span data-ttu-id="24647-103">Отображение индикатора хода выполнения</span><span class="sxs-lookup"><span data-stu-id="24647-103">Display a progress indicator</span></span>
+# <a name="display-a-progress-indicator"></a><span data-ttu-id="09823-103">Отображение индикатора хода выполнения</span><span class="sxs-lookup"><span data-stu-id="09823-103">Display a progress indicator</span></span>
  
-<span data-ttu-id="24647-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="24647-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="09823-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="09823-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="24647-105">Чтобы отобразить индикатор хода выполнения, вызовите [IMAPIProgress::GetFlags,](imapiprogress-getflags.md) чтобы получить текущий параметр флагов.</span><span class="sxs-lookup"><span data-stu-id="24647-105">To display a progress indicator, call [IMAPIProgress::GetFlags](imapiprogress-getflags.md) to retrieve the current flags setting.</span></span> 
+<span data-ttu-id="09823-105">Чтобы отобразить индикатор прогресса, позвоните [в IMAPIProgress::GetFlags,](imapiprogress-getflags.md) чтобы получить текущий параметр флагов.</span><span class="sxs-lookup"><span data-stu-id="09823-105">To display a progress indicator, call [IMAPIProgress::GetFlags](imapiprogress-getflags.md) to retrieve the current flags setting.</span></span> 
   
-<span data-ttu-id="24647-106">Если установлен MAPI_TOP_LEVEL флага, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="24647-106">If the MAPI_TOP_LEVEL flag is set, complete the following steps:</span></span>
+<span data-ttu-id="09823-106">Если установлен MAPI_TOP_LEVEL флаг, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="09823-106">If the MAPI_TOP_LEVEL flag is set, complete the following steps:</span></span>
   
-1. <span data-ttu-id="24647-107">Установите переменную, равную общему числу элементов, которые необходимо обработать в операции.</span><span class="sxs-lookup"><span data-stu-id="24647-107">Set a variable equal to the total number of items to process in the operation.</span></span> <span data-ttu-id="24647-108">Например, если вы копируете содержимое папки, это значение будет равно числу вложенных папок в папке и количеству сообщений.</span><span class="sxs-lookup"><span data-stu-id="24647-108">For example, if you are copying the contents of a folder, this value will be equal to the number of the subfolders in the folder plus the number of messages.</span></span> 
+1. <span data-ttu-id="09823-107">Установите переменную, равную общему количеству элементов для обработки в операции.</span><span class="sxs-lookup"><span data-stu-id="09823-107">Set a variable equal to the total number of items to process in the operation.</span></span> <span data-ttu-id="09823-108">Например, если вы копируете содержимое папки, это значение будет равно числу подмостков в папке и количеству сообщений.</span><span class="sxs-lookup"><span data-stu-id="09823-108">For example, if you are copying the contents of a folder, this value will be equal to the number of the subfolders in the folder plus the number of messages.</span></span> 
     
-2. <span data-ttu-id="24647-109">Установите переменную равной 1000, разделенной на количество элементов.</span><span class="sxs-lookup"><span data-stu-id="24647-109">Set a variable equal to 1000 divided by the number of items.</span></span> 
+2. <span data-ttu-id="09823-109">Установите переменную, равную 1000, разделенную на количество элементов.</span><span class="sxs-lookup"><span data-stu-id="09823-109">Set a variable equal to 1000 divided by the number of items.</span></span> 
     
-3. <span data-ttu-id="24647-110">Если вы показываете ход выполнения для подобектов, вызовите метод [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) объекта progress и передав следующие значения для трех параметров:</span><span class="sxs-lookup"><span data-stu-id="24647-110">If you are showing progress for subobjects, call the progress object's [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) method and pass the following values for the three parameters:</span></span> 
+3. <span data-ttu-id="09823-110">Если вы показываете прогресс для подобектов, позвоните по методу [IMAPIProgress объекта progress::SetLimits](imapiprogress-setlimits.md) и передай следующие значения для трех параметров:</span><span class="sxs-lookup"><span data-stu-id="09823-110">If you are showing progress for subobjects, call the progress object's [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) method and pass the following values for the three parameters:</span></span> 
     
-   - <span data-ttu-id="24647-111">Установите для  _параметра lpulMin_ 0.</span><span class="sxs-lookup"><span data-stu-id="24647-111">Set the  _lpulMin_ parameter to 0.</span></span> 
+   - <span data-ttu-id="09823-111">Установите  _параметр lpulMin_ до 0.</span><span class="sxs-lookup"><span data-stu-id="09823-111">Set the  _lpulMin_ parameter to 0.</span></span> 
     
-   - <span data-ttu-id="24647-112">Установите для  _параметра lpulMax_ параметр 1000.</span><span class="sxs-lookup"><span data-stu-id="24647-112">Set the  _lpulMax_ parameter to 1000.</span></span> 
+   - <span data-ttu-id="09823-112">Установите  _параметр lpulMax_ до 1000.</span><span class="sxs-lookup"><span data-stu-id="09823-112">Set the  _lpulMax_ parameter to 1000.</span></span> 
     
-   - <span data-ttu-id="24647-113">Установите для  _параметра lpulFlags_ MAPI_TOP_LEVEL.</span><span class="sxs-lookup"><span data-stu-id="24647-113">Set the  _lpulFlags_ parameter to MAPI_TOP_LEVEL.</span></span> 
+   - <span data-ttu-id="09823-113">Установите  _параметр lpulFlags_ для MAPI_TOP_LEVEL.</span><span class="sxs-lookup"><span data-stu-id="09823-113">Set the  _lpulFlags_ parameter to MAPI_TOP_LEVEL.</span></span> 
     
-4. <span data-ttu-id="24647-114">Для обработки каждого объекта выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="24647-114">For each object to be processed, complete the following steps:</span></span>
+4. <span data-ttu-id="09823-114">Чтобы каждый объект был обработан, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="09823-114">For each object to be processed, complete the following steps:</span></span>
     
-   1. <span data-ttu-id="24647-115">Вызовите **IMAPIProgress::SetLimits и передав** следующие значения для трех параметров:</span><span class="sxs-lookup"><span data-stu-id="24647-115">Call **IMAPIProgress::SetLimits** and pass the following values for the three parameters:</span></span> 
+   1. <span data-ttu-id="09823-115">**Вызывай IMAPIProgress::SetLimits и передай** следующие значения для трех параметров:</span><span class="sxs-lookup"><span data-stu-id="09823-115">Call **IMAPIProgress::SetLimits** and pass the following values for the three parameters:</span></span> 
       
-     - <span data-ttu-id="24647-116">Установите для  _параметра lpulMin_ переменную, заданную на шаге 2, умноженную на текущий элемент минус 1.</span><span class="sxs-lookup"><span data-stu-id="24647-116">Set the  _lpulMin_ parameter to the variable set in step 2 multiplied by the current item minus 1.</span></span> 
+     - <span data-ttu-id="09823-116">Установите  _параметр lpulMin к_ переменной, заданной на шаге 2, умноженной на текущий элемент минус 1.</span><span class="sxs-lookup"><span data-stu-id="09823-116">Set the  _lpulMin_ parameter to the variable set in step 2 multiplied by the current item minus 1.</span></span> 
       
-     - <span data-ttu-id="24647-117">Установите для  _параметра lpulMax переменную,_ заданную на шаге 2, умноженную на текущий объект.</span><span class="sxs-lookup"><span data-stu-id="24647-117">Set the  _lpulMax_ parameter to the variable set in step 2 multiplied by the current object.</span></span> 
+     - <span data-ttu-id="09823-117">Установите  _параметр lpulMax к_ переменной, заданной на шаге 2, умноженной на текущий объект.</span><span class="sxs-lookup"><span data-stu-id="09823-117">Set the  _lpulMax_ parameter to the variable set in step 2 multiplied by the current object.</span></span> 
       
-     - <span data-ttu-id="24647-118">Установите для  _параметра lpulFlags_ 0.</span><span class="sxs-lookup"><span data-stu-id="24647-118">Set the  _lpulFlags_ parameter to 0.</span></span> 
+     - <span data-ttu-id="09823-118">Установите  _параметр lpulFlags до_ 0.</span><span class="sxs-lookup"><span data-stu-id="09823-118">Set the  _lpulFlags_ parameter to 0.</span></span> 
       
-   2. <span data-ttu-id="24647-119">Выполните любую обработку, которая должна быть выполнена для этого объекта.</span><span class="sxs-lookup"><span data-stu-id="24647-119">Perform whatever processing should be done on this object.</span></span> <span data-ttu-id="24647-120">Если это подобект и вы хотите отобразить ход выполнения в подобектах, передав указатель на объект хода выполнения в параметре  _lpProgress_ в метод.</span><span class="sxs-lookup"><span data-stu-id="24647-120">If this is a subobject and you want to display progress on subobjects, pass a pointer to the progress object in the  _lpProgress_ parameter to the method.</span></span> 
+   2. <span data-ttu-id="09823-119">Выполните любую обработку, которая должна быть выполнена на этом объекте.</span><span class="sxs-lookup"><span data-stu-id="09823-119">Perform whatever processing should be done on this object.</span></span> <span data-ttu-id="09823-120">Если это подобект, и необходимо отобразить прогресс в подобектах, передай указатель объекту прогресса в  _параметре lpProgress_ методу.</span><span class="sxs-lookup"><span data-stu-id="09823-120">If this is a subobject and you want to display progress on subobjects, pass a pointer to the progress object in the  _lpProgress_ parameter to the method.</span></span> 
       
-   3. <span data-ttu-id="24647-121">Вызовите [IMAPIProgress::P и](imapiprogress-progress.md) передав следующие значения для трех параметров:</span><span class="sxs-lookup"><span data-stu-id="24647-121">Call [IMAPIProgress::Progress](imapiprogress-progress.md) and pass the following values for the three parameters:</span></span> 
+   3. <span data-ttu-id="09823-121">[Вызывай IMAPIProgress::P и](imapiprogress-progress.md) передай следующие значения для трех параметров:</span><span class="sxs-lookup"><span data-stu-id="09823-121">Call [IMAPIProgress::Progress](imapiprogress-progress.md) and pass the following values for the three parameters:</span></span> 
       
-     - <span data-ttu-id="24647-122">Установите для  _параметра ulValue переменную,_ заданную на шаге 2, умноженную на текущий объект.</span><span class="sxs-lookup"><span data-stu-id="24647-122">Set the  _ulValue_ parameter to the variable set in step 2 multiplied by the current object.</span></span> 
+     - <span data-ttu-id="09823-122">Установите  _параметр ulValue переменной,_ заданной на шаге 2, умноженной на текущий объект.</span><span class="sxs-lookup"><span data-stu-id="09823-122">Set the  _ulValue_ parameter to the variable set in step 2 multiplied by the current object.</span></span> 
       
-     - <span data-ttu-id="24647-123">Установите для  _параметра ulCount_ текущий объект.</span><span class="sxs-lookup"><span data-stu-id="24647-123">Set the  _ulCount_ parameter to the current object.</span></span> 
+     - <span data-ttu-id="09823-123">Установите  _параметр ulCount_ текущему объекту.</span><span class="sxs-lookup"><span data-stu-id="09823-123">Set the  _ulCount_ parameter to the current object.</span></span> 
       
-     - <span data-ttu-id="24647-124">Установите для  _параметра ulTotal_ переменную, заданную на шаге 1, общее количество объектов.</span><span class="sxs-lookup"><span data-stu-id="24647-124">Set the  _ulTotal_ parameter to the variable set in step 1, the total number of objects.</span></span> 
+     - <span data-ttu-id="09823-124">Установите  _параметр ulTotal к_ переменной, заданной на шаге 1, общему числу объектов.</span><span class="sxs-lookup"><span data-stu-id="09823-124">Set the  _ulTotal_ parameter to the variable set in step 1, the total number of objects.</span></span> 
     
-<span data-ttu-id="24647-125">Если флаг MAPI_TOP_LEVEL не установлен, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="24647-125">If the MAPI_TOP_LEVEL flag is not set, complete the following steps:</span></span>
+<span data-ttu-id="09823-125">Если флаг MAPI_TOP_LEVEL не установлен, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="09823-125">If the MAPI_TOP_LEVEL flag is not set, complete the following steps:</span></span>
   
-1. <span data-ttu-id="24647-126">Вызовите метод [IMAPIProgress::GetMin](imapiprogress-getmin.md) объекта progress, чтобы получить минимальное значение для дисплея.</span><span class="sxs-lookup"><span data-stu-id="24647-126">Call the progress object's [IMAPIProgress::GetMin](imapiprogress-getmin.md) method to retrieve the minimum value for the display.</span></span> 
+1. <span data-ttu-id="09823-126">Чтобы получить минимальное значение для отображения, позвоните по методу [IMAPIProgress::GetMin](imapiprogress-getmin.md) объекта прогресса.</span><span class="sxs-lookup"><span data-stu-id="09823-126">Call the progress object's [IMAPIProgress::GetMin](imapiprogress-getmin.md) method to retrieve the minimum value for the display.</span></span> 
     
-2. <span data-ttu-id="24647-127">Вызовите [IMAPIProgress::GetMax,](imapiprogress-getmax.md) чтобы получить максимальное значение для дисплея.</span><span class="sxs-lookup"><span data-stu-id="24647-127">Call [IMAPIProgress::GetMax](imapiprogress-getmax.md) to retrieve the maximum value for the display.</span></span> 
+2. <span data-ttu-id="09823-127">Вызов [IMAPIProgress::GetMax,](imapiprogress-getmax.md) чтобы получить максимальное значение для отображения.</span><span class="sxs-lookup"><span data-stu-id="09823-127">Call [IMAPIProgress::GetMax](imapiprogress-getmax.md) to retrieve the maximum value for the display.</span></span> 
     
-3. <span data-ttu-id="24647-128">Установите переменную, равную общему числу обрабатываемых объектов.</span><span class="sxs-lookup"><span data-stu-id="24647-128">Set a variable equal to the total number of objects to be processed.</span></span> 
+3. <span data-ttu-id="09823-128">Установите переменную, равную общему количеству обрабатываемых объектов.</span><span class="sxs-lookup"><span data-stu-id="09823-128">Set a variable equal to the total number of objects to be processed.</span></span> 
     
-4. <span data-ttu-id="24647-129">Установите переменную, равную результату вычитания минимального значения из максимального значения и деления на общее число объектов.</span><span class="sxs-lookup"><span data-stu-id="24647-129">Set a variable equal to the result of subtracting the minimum value from the maximum value and then dividing by the total number of objects.</span></span>
+4. <span data-ttu-id="09823-129">Установите переменную, равную результату вычитания минимального значения из максимального значения и деления на общее количество объектов.</span><span class="sxs-lookup"><span data-stu-id="09823-129">Set a variable equal to the result of subtracting the minimum value from the maximum value and then dividing by the total number of objects.</span></span>
     
-5. <span data-ttu-id="24647-130">Для обработки каждого объекта выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="24647-130">For each object to be processed, complete the following steps:</span></span>
+5. <span data-ttu-id="09823-130">Чтобы каждый объект был обработан, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="09823-130">For each object to be processed, complete the following steps:</span></span>
     
-   1. <span data-ttu-id="24647-131">Если поставщик показывает ход выполнения для подобектов, вызовите **IMAPIProgress::SetLimits и передайте** следующие значения для трех параметров:</span><span class="sxs-lookup"><span data-stu-id="24647-131">If your provider is showing progress for subobjects, call **IMAPIProgress::SetLimits** and pass the following values for the three parameters:</span></span> 
+   1. <span data-ttu-id="09823-131">Если поставщик показывает прогресс в подобектах, позвоните **в службу IMAPIProgress::SetLimits** и передайте следующие значения для трех параметров:</span><span class="sxs-lookup"><span data-stu-id="09823-131">If your provider is showing progress for subobjects, call **IMAPIProgress::SetLimits** and pass the following values for the three parameters:</span></span> 
       
-     - <span data-ttu-id="24647-132">Установите для  _параметра lpulMin_ минимальное значение плюс текущий элемент минус 1, умноженный на переменную, заданную на шаге 4.</span><span class="sxs-lookup"><span data-stu-id="24647-132">Set the  _lpulMin_ parameter to the minimum value plus the current item minus 1 multiplied by the variable set in step 4.</span></span> 
+     - <span data-ttu-id="09823-132">Установите  _параметр lpulMin к_ минимальному значению плюс текущий элемент минус 1, умноженный на переменную, заданную на шаге 4.</span><span class="sxs-lookup"><span data-stu-id="09823-132">Set the  _lpulMin_ parameter to the minimum value plus the current item minus 1 multiplied by the variable set in step 4.</span></span> 
       
-     - <span data-ttu-id="24647-133">Установите для  _параметра lpulMax минимальное_ значение плюс текущую единицу, умноженную на переменную, установленную на шаге 4.</span><span class="sxs-lookup"><span data-stu-id="24647-133">Set the  _lpulMax_ parameter to the minimum value plus the current unit multiplied by the variable set in step 4.</span></span> 
+     - <span data-ttu-id="09823-133">Установите параметр  _lpulMax к_ минимальному значению плюс текущее устройство, умноженное на переменную, заданную в шаге 4.</span><span class="sxs-lookup"><span data-stu-id="09823-133">Set the  _lpulMax_ parameter to the minimum value plus the current unit multiplied by the variable set in step 4.</span></span> 
       
-     - <span data-ttu-id="24647-134">Установите для  _параметра lpulFlags_ 0.</span><span class="sxs-lookup"><span data-stu-id="24647-134">Set the  _lpulFlags_ parameter to 0.</span></span> 
+     - <span data-ttu-id="09823-134">Установите  _параметр lpulFlags до_ 0.</span><span class="sxs-lookup"><span data-stu-id="09823-134">Set the  _lpulFlags_ parameter to 0.</span></span> 
       
-   2. <span data-ttu-id="24647-135">Выполните любую обработку, которая должна быть выполнена для этого объекта.</span><span class="sxs-lookup"><span data-stu-id="24647-135">Perform whatever processing should be done on this object.</span></span> <span data-ttu-id="24647-136">Если объект является подобектом и поставщик отображает ход выполнения для подобектов, передайте указатель на объект progress в параметре  _lpProgress_ методу.</span><span class="sxs-lookup"><span data-stu-id="24647-136">If the object is a subobject, and your provider displays progress for subobjects, pass a pointer to the progress object in the  _lpProgress_ parameter to the method.</span></span> 
+   2. <span data-ttu-id="09823-135">Выполните любую обработку, которая должна быть выполнена на этом объекте.</span><span class="sxs-lookup"><span data-stu-id="09823-135">Perform whatever processing should be done on this object.</span></span> <span data-ttu-id="09823-136">Если объект — это подобект, а поставщик отображает прогресс для подобектов, передайте указатель объекту progress в  _параметре lpProgress_ методу.</span><span class="sxs-lookup"><span data-stu-id="09823-136">If the object is a subobject, and your provider displays progress for subobjects, pass a pointer to the progress object in the  _lpProgress_ parameter to the method.</span></span> 
       
-   3. <span data-ttu-id="24647-137">Вызовите [IMAPIProgress::P и](imapiprogress-progress.md) передав следующие значения для трех параметров:</span><span class="sxs-lookup"><span data-stu-id="24647-137">Call [IMAPIProgress::Progress](imapiprogress-progress.md) and pass the following values for the three parameters:</span></span> 
+   3. <span data-ttu-id="09823-137">[Вызывай IMAPIProgress::P и](imapiprogress-progress.md) передай следующие значения для трех параметров:</span><span class="sxs-lookup"><span data-stu-id="09823-137">Call [IMAPIProgress::Progress](imapiprogress-progress.md) and pass the following values for the three parameters:</span></span> 
       
-     - <span data-ttu-id="24647-138">Установите для  _параметра ulValue переменную,_ заданную на шаге 2, умноженную на текущий объект.</span><span class="sxs-lookup"><span data-stu-id="24647-138">Set the  _ulValue_ parameter to variable set in step 2 multiplied by the current object.</span></span> 
+     - <span data-ttu-id="09823-138">Установите  _параметр ulValue для_ переменной, заданной в шаге 2, умноженной на текущий объект.</span><span class="sxs-lookup"><span data-stu-id="09823-138">Set the  _ulValue_ parameter to variable set in step 2 multiplied by the current object.</span></span> 
       
-     - <span data-ttu-id="24647-139">Установите для  _параметра ulCount_ 0.</span><span class="sxs-lookup"><span data-stu-id="24647-139">Set the  _ulCount_ parameter to 0.</span></span> 
+     - <span data-ttu-id="09823-139">Установите  _параметр ulCount_ до 0.</span><span class="sxs-lookup"><span data-stu-id="09823-139">Set the  _ulCount_ parameter to 0.</span></span> 
       
-     - <span data-ttu-id="24647-140">Установите  _для параметра ulTotal_ 0.</span><span class="sxs-lookup"><span data-stu-id="24647-140">Set the  _ulTotal_ parameter to 0.</span></span> 
+     - <span data-ttu-id="09823-140">Установите  _параметр ulTotal_ до 0.</span><span class="sxs-lookup"><span data-stu-id="09823-140">Set the  _ulTotal_ parameter to 0.</span></span> 
     
-<span data-ttu-id="24647-141">В следующем примере кода иллюстрируется логика, необходимая для демонстрации хода выполнения на всех уровнях операции, копирующие содержимое папки, которая содержит пять вложенных папок.</span><span class="sxs-lookup"><span data-stu-id="24647-141">The following code example illustrates the logic required to show progress at all levels of an operation that copies the contents of a folder that contains five subfolders.</span></span> 
+<span data-ttu-id="09823-141">В следующем примере кода иллюстрируется логика, необходимая для демонстрации прогресса на всех уровнях операции, копирующих содержимое папки, содержаной пять подвещений.</span><span class="sxs-lookup"><span data-stu-id="09823-141">The following code example illustrates the logic required to show progress at all levels of an operation that copies the contents of a folder that contains five subfolders.</span></span> 
   
 ```cpp
 lpProgress->GetFlags (lpulFlags);
@@ -123,7 +123,7 @@ else
  
 ```
 
-## <a name="see-also"></a><span data-ttu-id="24647-142">См. также</span><span class="sxs-lookup"><span data-stu-id="24647-142">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="09823-142">См. также</span><span class="sxs-lookup"><span data-stu-id="09823-142">See also</span></span>
 
-- [<span data-ttu-id="24647-143">Индикаторы хода выполнения MAPI</span><span class="sxs-lookup"><span data-stu-id="24647-143">MAPI Progress Indicators</span></span>](mapi-progress-indicators.md)
+- [<span data-ttu-id="09823-143">Индикаторы прогресса MAPI</span><span class="sxs-lookup"><span data-stu-id="09823-143">MAPI Progress Indicators</span></span>](mapi-progress-indicators.md)
 
