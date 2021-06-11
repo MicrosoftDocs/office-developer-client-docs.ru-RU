@@ -19,53 +19,53 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32351150"
 ---
-# <a name="pidlidtimezonedescription-canonical-property"></a><span data-ttu-id="ea9e3-103">Каноническое свойство PidLidTimeZoneDescription</span><span class="sxs-lookup"><span data-stu-id="ea9e3-103">PidLidTimeZoneDescription Canonical Property</span></span>
+# <a name="pidlidtimezonedescription-canonical-property"></a><span data-ttu-id="07a84-103">Каноническое свойство PidLidTimeZoneDescription</span><span class="sxs-lookup"><span data-stu-id="07a84-103">PidLidTimeZoneDescription Canonical Property</span></span>
 
   
   
-<span data-ttu-id="ea9e3-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ea9e3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="07a84-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="07a84-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ea9e3-105">Указывает строку описания часового пояса.</span><span class="sxs-lookup"><span data-stu-id="ea9e3-105">Specifies a string description of the time zone.</span></span>
+<span data-ttu-id="07a84-105">Указывает строковую характеристику часового пояса.</span><span class="sxs-lookup"><span data-stu-id="07a84-105">Specifies a string description of the time zone.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ea9e3-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="ea9e3-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ea9e3-107">dispidTimeZoneDesc</span><span class="sxs-lookup"><span data-stu-id="ea9e3-107">dispidTimeZoneDesc</span></span>  <br/> |
-|<span data-ttu-id="ea9e3-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="ea9e3-108">Property set:</span></span>  <br/> |<span data-ttu-id="ea9e3-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="ea9e3-109">PSETID_Appointment</span></span>  <br/> |
-|<span data-ttu-id="ea9e3-110">Длинный ИД (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="ea9e3-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="ea9e3-111">0x00008234</span><span class="sxs-lookup"><span data-stu-id="ea9e3-111">0x00008234</span></span>  <br/> |
-|<span data-ttu-id="ea9e3-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="ea9e3-112">Data type:</span></span>  <br/> |<span data-ttu-id="ea9e3-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="ea9e3-113">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="ea9e3-114">Область:</span><span class="sxs-lookup"><span data-stu-id="ea9e3-114">Area:</span></span>  <br/> |<span data-ttu-id="ea9e3-115">Календарь</span><span class="sxs-lookup"><span data-stu-id="ea9e3-115">Calendar</span></span>  <br/> |
+|<span data-ttu-id="07a84-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="07a84-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="07a84-107">dispidTimeZoneDesc</span><span class="sxs-lookup"><span data-stu-id="07a84-107">dispidTimeZoneDesc</span></span>  <br/> |
+|<span data-ttu-id="07a84-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="07a84-108">Property set:</span></span>  <br/> |<span data-ttu-id="07a84-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="07a84-109">PSETID_Appointment</span></span>  <br/> |
+|<span data-ttu-id="07a84-110">Long ID (LID):</span><span class="sxs-lookup"><span data-stu-id="07a84-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="07a84-111">0x00008234</span><span class="sxs-lookup"><span data-stu-id="07a84-111">0x00008234</span></span>  <br/> |
+|<span data-ttu-id="07a84-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="07a84-112">Data type:</span></span>  <br/> |<span data-ttu-id="07a84-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="07a84-113">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="07a84-114">Область:</span><span class="sxs-lookup"><span data-stu-id="07a84-114">Area:</span></span>  <br/> |<span data-ttu-id="07a84-115">Календарь</span><span class="sxs-lookup"><span data-stu-id="07a84-115">Calendar</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="ea9e3-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="ea9e3-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="07a84-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="07a84-116">Remarks</span></span>
 
-<span data-ttu-id="ea9e3-117">Это свойство указывает понятное для человека описание часового пояса, представленного данными в свойстве **dispidTimeZoneStruct** [(PidLidTimeZoneStruct).](pidlidtimezonestruct-canonical-property.md)</span><span class="sxs-lookup"><span data-stu-id="ea9e3-117">This property specifies a human-readable description of the time zone that is represented by the data in the **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)) property.</span></span>
+<span data-ttu-id="07a84-117">Это свойство указывает читаемое для человека описание часового пояса, которое представлено данными в свойстве **dispidTimeZoneStruct** [(PidLidTimeZoneStruct).](pidlidtimezonestruct-canonical-property.md)</span><span class="sxs-lookup"><span data-stu-id="07a84-117">This property specifies a human-readable description of the time zone that is represented by the data in the **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)) property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="ea9e3-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="ea9e3-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="07a84-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="07a84-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="ea9e3-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="ea9e3-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="07a84-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="07a84-119">Protocol specifications</span></span>
 
-<span data-ttu-id="ea9e3-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ea9e3-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="07a84-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="07a84-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="ea9e3-121">Предоставляет определения наборов свойств и ссылки на связанные Exchange Server спецификации протокола.</span><span class="sxs-lookup"><span data-stu-id="ea9e3-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="07a84-121">Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.</span><span class="sxs-lookup"><span data-stu-id="07a84-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="ea9e3-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ea9e3-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="07a84-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="07a84-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="ea9e3-123">Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.</span><span class="sxs-lookup"><span data-stu-id="ea9e3-123">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="07a84-123">Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.</span><span class="sxs-lookup"><span data-stu-id="07a84-123">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="ea9e3-124">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="ea9e3-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="07a84-124">Файлы заголовки</span><span class="sxs-lookup"><span data-stu-id="07a84-124">Header files</span></span>
 
-<span data-ttu-id="ea9e3-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ea9e3-125">Mapidefs.h</span></span>
+<span data-ttu-id="07a84-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="07a84-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="ea9e3-126">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="ea9e3-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="07a84-126">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="07a84-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="ea9e3-127">См. также</span><span class="sxs-lookup"><span data-stu-id="ea9e3-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="07a84-127">См. также</span><span class="sxs-lookup"><span data-stu-id="07a84-127">See also</span></span>
 
 
 
-[<span data-ttu-id="ea9e3-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="ea9e3-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="07a84-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="07a84-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="ea9e3-129">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="ea9e3-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="07a84-129">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="07a84-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="ea9e3-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="ea9e3-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="07a84-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="07a84-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="ea9e3-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="ea9e3-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="07a84-131">Сопоставление имен MAPI с каноническими именами свойств</span><span class="sxs-lookup"><span data-stu-id="07a84-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

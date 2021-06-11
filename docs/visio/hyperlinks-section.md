@@ -16,14 +16,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32344802"
 ---
-# <a name="hyperlinks-section"></a><span data-ttu-id="648cf-103">Hyperlinks Section</span><span class="sxs-lookup"><span data-stu-id="648cf-103">Hyperlinks Section</span></span>
+# <a name="hyperlinks-section"></a><span data-ttu-id="e1d5c-103">Hyperlinks Section</span><span class="sxs-lookup"><span data-stu-id="e1d5c-103">Hyperlinks Section</span></span>
 
-<span data-ttu-id="648cf-104">Содержит ячейки для создания нескольких переходов между фигурой или страницей рисования и другой страницей рисования, другим файлом или веб-сайтом.</span><span class="sxs-lookup"><span data-stu-id="648cf-104">Contains cells for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a website.</span></span>
+<span data-ttu-id="e1d5c-104">Содержит ячейки для создания нескольких переходов между фигурой или страницей рисования и другой страницей рисования, другим файлом или веб-сайтом.</span><span class="sxs-lookup"><span data-stu-id="e1d5c-104">Contains cells for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a website.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="648cf-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="648cf-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e1d5c-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="e1d5c-105">Remarks</span></span>
 
-<span data-ttu-id="648cf-106">Чтобы определить гиперссылку, введите значения в ячейках  этого раздела или используйте диалоговое окно "Гиперссылки" (щелкните **"Гиперссылка"** на вкладке **"Вставка").**</span><span class="sxs-lookup"><span data-stu-id="648cf-106">To define a hyperlink, enter values in the cells of this section, or use the **Hyperlinks** dialog box (click **Hyperlink** on the **Insert** tab).</span></span> 
+<span data-ttu-id="e1d5c-106">Чтобы определить гиперссылку, введите значения в ячейках этого раздела или используйте диалоговое окно **Hyperlinks** (щелкните **Hyperlink** на вкладке **Insert).**</span><span class="sxs-lookup"><span data-stu-id="e1d5c-106">To define a hyperlink, enter values in the cells of this section, or use the **Hyperlinks** dialog box (click **Hyperlink** on the **Insert** tab).</span></span> 
   
-<span data-ttu-id="648cf-107">Вы можете добавить раздел "Гиперссылки" в фигуру, группу, страницу или иной объект в окне таблицы фигур.</span><span class="sxs-lookup"><span data-stu-id="648cf-107">You can add the Hyperlinks section to a shape, group, page, or foreign object in a ShapeSheet window.</span></span>
+<span data-ttu-id="e1d5c-107">Раздел Гиперссылки можно добавить в форму, группу, страницу или иностранный объект в окне ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="e1d5c-107">You can add the Hyperlinks section to a shape, group, page, or foreign object in a ShapeSheet window.</span></span>
   
 

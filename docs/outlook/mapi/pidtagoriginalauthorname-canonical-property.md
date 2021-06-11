@@ -19,61 +19,61 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32355778"
 ---
-# <a name="pidtagoriginalauthorname-canonical-property"></a><span data-ttu-id="0ef04-103">Каноническое свойство PidTagOriginalAuthorName</span><span class="sxs-lookup"><span data-stu-id="0ef04-103">PidTagOriginalAuthorName Canonical Property</span></span>
+# <a name="pidtagoriginalauthorname-canonical-property"></a><span data-ttu-id="e3c0f-103">Каноническое свойство PidTagOriginalAuthorName</span><span class="sxs-lookup"><span data-stu-id="e3c0f-103">PidTagOriginalAuthorName Canonical Property</span></span>
 
   
   
-<span data-ttu-id="0ef04-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0ef04-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e3c0f-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e3c0f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0ef04-105">Содержит отображаемую имя автора первой версии сообщения, то есть сообщение перед переадащением или ответом.</span><span class="sxs-lookup"><span data-stu-id="0ef04-105">Contains the display name of the author of the first version of a message, that is, the message before being forwarded or replied to.</span></span>
+<span data-ttu-id="e3c0f-105">Содержит отображаемую именем автора первой версии сообщения, то есть сообщение перед его переададрением или ответом.</span><span class="sxs-lookup"><span data-stu-id="e3c0f-105">Contains the display name of the author of the first version of a message, that is, the message before being forwarded or replied to.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="0ef04-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="0ef04-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="0ef04-107">PR_ORIGINAL_AUTHOR_NAME, PR_ORIGINAL_AUTHOR_NAME_A, PR_ORIGINAL_AUTHOR_NAME_W</span><span class="sxs-lookup"><span data-stu-id="0ef04-107">PR_ORIGINAL_AUTHOR_NAME, PR_ORIGINAL_AUTHOR_NAME_A, PR_ORIGINAL_AUTHOR_NAME_W</span></span>  <br/> |
-|<span data-ttu-id="0ef04-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="0ef04-108">Identifier:</span></span>  <br/> |<span data-ttu-id="0ef04-109">0x004D</span><span class="sxs-lookup"><span data-stu-id="0ef04-109">0x004D</span></span>  <br/> |
-|<span data-ttu-id="0ef04-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="0ef04-110">Data type:</span></span>  <br/> |<span data-ttu-id="0ef04-111">PT_UNICODE, PT_STRING8</span><span class="sxs-lookup"><span data-stu-id="0ef04-111">PT_UNICODE, PT_STRING8</span></span>  <br/> |
-|<span data-ttu-id="0ef04-112">Область:</span><span class="sxs-lookup"><span data-stu-id="0ef04-112">Area:</span></span>  <br/> |<span data-ttu-id="0ef04-113">Электронная почта</span><span class="sxs-lookup"><span data-stu-id="0ef04-113">Email</span></span>  <br/> |
+|<span data-ttu-id="e3c0f-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="e3c0f-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="e3c0f-107">PR_ORIGINAL_AUTHOR_NAME, PR_ORIGINAL_AUTHOR_NAME_A, PR_ORIGINAL_AUTHOR_NAME_W</span><span class="sxs-lookup"><span data-stu-id="e3c0f-107">PR_ORIGINAL_AUTHOR_NAME, PR_ORIGINAL_AUTHOR_NAME_A, PR_ORIGINAL_AUTHOR_NAME_W</span></span>  <br/> |
+|<span data-ttu-id="e3c0f-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="e3c0f-108">Identifier:</span></span>  <br/> |<span data-ttu-id="e3c0f-109">0x004D</span><span class="sxs-lookup"><span data-stu-id="e3c0f-109">0x004D</span></span>  <br/> |
+|<span data-ttu-id="e3c0f-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="e3c0f-110">Data type:</span></span>  <br/> |<span data-ttu-id="e3c0f-111">PT_UNICODE, PT_STRING8</span><span class="sxs-lookup"><span data-stu-id="e3c0f-111">PT_UNICODE, PT_STRING8</span></span>  <br/> |
+|<span data-ttu-id="e3c0f-112">Область:</span><span class="sxs-lookup"><span data-stu-id="e3c0f-112">Area:</span></span>  <br/> |<span data-ttu-id="e3c0f-113">Электронная почта</span><span class="sxs-lookup"><span data-stu-id="e3c0f-113">Email</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="0ef04-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="0ef04-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e3c0f-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="e3c0f-114">Remarks</span></span>
 
-<span data-ttu-id="0ef04-115">Эти свойства являются примерами свойств адреса для автора сообщения.</span><span class="sxs-lookup"><span data-stu-id="0ef04-115">These properties are examples of the address properties for the author of a message.</span></span> <span data-ttu-id="0ef04-116">При первой отправке сообщения клиентский приложение должно установить для этих свойств значение **PR_SENDER_NAME** ([PidTagSenderName).](pidtagsendername-canonical-property.md)</span><span class="sxs-lookup"><span data-stu-id="0ef04-116">At first submission of the message, the client application should set these properties to the value of **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)).</span></span> <span data-ttu-id="0ef04-117">Оно никогда не меняется, когда сообщение переадовыно или отвечает на него.</span><span class="sxs-lookup"><span data-stu-id="0ef04-117">It is never changed when the message is forwarded or replied to.</span></span>
+<span data-ttu-id="e3c0f-115">Эти свойства являются примерами свойств адресов для автора сообщения.</span><span class="sxs-lookup"><span data-stu-id="e3c0f-115">These properties are examples of the address properties for the author of a message.</span></span> <span data-ttu-id="e3c0f-116">При первой отправке сообщения клиентская заявка должна установить **эти свойства** к значению PR_SENDER_NAME [(PidTagSenderName).](pidtagsendername-canonical-property.md)</span><span class="sxs-lookup"><span data-stu-id="e3c0f-116">At first submission of the message, the client application should set these properties to the value of **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)).</span></span> <span data-ttu-id="e3c0f-117">Он никогда не меняется, когда сообщение переададовыв или отвечает на него.</span><span class="sxs-lookup"><span data-stu-id="e3c0f-117">It is never changed when the message is forwarded or replied to.</span></span>
   
-<span data-ttu-id="0ef04-118">Исходные свойства автора позволяют сохранить информацию из-за пределов локального домена обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="0ef04-118">The original author properties allow for preservation of information from outside the local messaging domain.</span></span> <span data-ttu-id="0ef04-119">Когда сообщение поступает из другого домена обмена сообщениями, например из Интернета, эти свойства обеспечивают способ обеспечения того, чтобы исходная информация не была потеряна.</span><span class="sxs-lookup"><span data-stu-id="0ef04-119">When a message arrives from another messaging domain, such as from the Internet, these properties provide a way to ensure that original information is not lost.</span></span>
+<span data-ttu-id="e3c0f-118">Исходные свойства автора позволяют сохранить сведения из локального домена обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="e3c0f-118">The original author properties allow for preservation of information from outside the local messaging domain.</span></span> <span data-ttu-id="e3c0f-119">Когда сообщение поступает из другого домена обмена сообщениями, например из Интернета, эти свойства предоставляют способ убедиться, что исходные сведения не будут потеряны.</span><span class="sxs-lookup"><span data-stu-id="e3c0f-119">When a message arrives from another messaging domain, such as from the Internet, these properties provide a way to ensure that original information is not lost.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="0ef04-120">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="0ef04-120">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="e3c0f-120">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="e3c0f-120">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="0ef04-121">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="0ef04-121">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="e3c0f-121">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="e3c0f-121">Protocol specifications</span></span>
 
-<span data-ttu-id="0ef04-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0ef04-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="e3c0f-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e3c0f-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="0ef04-123">Содержит ссылки на связанные Exchange Server протоколы.</span><span class="sxs-lookup"><span data-stu-id="0ef04-123">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="e3c0f-123">Содержит ссылки на связанные Exchange Server протоколы.</span><span class="sxs-lookup"><span data-stu-id="e3c0f-123">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="0ef04-124">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0ef04-124">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="e3c0f-124">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e3c0f-124">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="0ef04-125">Преобразуется между IETF RFC2445, RFC2446 и RFC2447, а также объектами встреч и собраний.</span><span class="sxs-lookup"><span data-stu-id="0ef04-125">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
+> <span data-ttu-id="e3c0f-125">Преобразования между объектами IETF RFC2445, RFC2446 и RFC2447, а также объектами назначения и собраний.</span><span class="sxs-lookup"><span data-stu-id="e3c0f-125">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="0ef04-126">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="0ef04-126">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="e3c0f-126">Файлы заголовки</span><span class="sxs-lookup"><span data-stu-id="e3c0f-126">Header files</span></span>
 
-<span data-ttu-id="0ef04-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="0ef04-127">Mapidefs.h</span></span>
+<span data-ttu-id="e3c0f-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e3c0f-127">Mapidefs.h</span></span>
   
-> <span data-ttu-id="0ef04-128">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="0ef04-128">Provides data type definitions.</span></span>
+> <span data-ttu-id="e3c0f-128">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="e3c0f-128">Provides data type definitions.</span></span>
     
-<span data-ttu-id="0ef04-129">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="0ef04-129">Mapitags.h</span></span>
+<span data-ttu-id="e3c0f-129">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="e3c0f-129">Mapitags.h</span></span>
   
-> <span data-ttu-id="0ef04-130">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="0ef04-130">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="e3c0f-130">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="e3c0f-130">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="0ef04-131">См. также</span><span class="sxs-lookup"><span data-stu-id="0ef04-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e3c0f-131">См. также</span><span class="sxs-lookup"><span data-stu-id="e3c0f-131">See also</span></span>
 
 
 
-[<span data-ttu-id="0ef04-132">Каноническое свойство PidTagDisplayName</span><span class="sxs-lookup"><span data-stu-id="0ef04-132">PidTagDisplayName Canonical Property</span></span>](pidtagdisplayname-canonical-property.md)
+[<span data-ttu-id="e3c0f-132">Каноническое свойство PidTagDisplayName</span><span class="sxs-lookup"><span data-stu-id="e3c0f-132">PidTagDisplayName Canonical Property</span></span>](pidtagdisplayname-canonical-property.md)
 
 
-[<span data-ttu-id="0ef04-133">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="0ef04-133">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="e3c0f-133">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="e3c0f-133">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="0ef04-134">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="0ef04-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="e3c0f-134">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="e3c0f-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="0ef04-135">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="0ef04-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="e3c0f-135">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="e3c0f-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="0ef04-136">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="0ef04-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="e3c0f-136">Сопоставление имен MAPI с каноническими именами свойств</span><span class="sxs-lookup"><span data-stu-id="e3c0f-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
