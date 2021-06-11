@@ -23,29 +23,29 @@ ms.locfileid: "33406033"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Управляет формой в представлении форм клиентского приложения. 
+Управляет формой в клиентских приложениях для просмотра форм. 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapiform.h  <br/> |
-|Выставим:  <br/> |Просмотр объектов контекста  <br/> |
+|Подвергается:  <br/> |Просмотр объектов контекста  <br/> |
 |Реализовано в:  <br/> |Просмотр форм  <br/> |
 |Вызывающая сторона:  <br/> |Объекты форм  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIViewContext  <br/> |
 |Тип указателя:  <br/> |LPMAPIVIEWCONTEXT  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Управляет регистрацией формы для получения уведомлений об изменениях в средстве просмотра.  <br/> |
-|[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Активирует следующее или предыдущее сообщение в представлении формы.  <br/> |
+|[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Управляет регистрацией формы для получения уведомлений об изменениях в зрителье.  <br/> |
+|[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Активирует следующее или предыдущее сообщение в виде просмотра формы.  <br/> |
 |[GetPrintSetup](imapiviewcontext-getprintsetup.md) <br/> |Извлекает текущие сведения о печати.  <br/> |
 |[GetSaveStream](imapiviewcontext-getsavestream.md) <br/> |Извлекает поток, который будет использоваться для сохранения текущего сообщения.  <br/> |
 |[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Извлекает текущее состояние просмотра.  <br/> |
-|[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR, которая](mapierror.md) содержит сведения о предыдущей ошибке, которая произошла в объекте контекста представления.  <br/> |
+|[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR, которая](mapierror.md) содержит сведения о предыдущей ошибке, произошедшей в объекте контекста представления.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

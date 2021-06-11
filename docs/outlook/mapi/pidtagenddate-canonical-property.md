@@ -23,7 +23,7 @@ ms.locfileid: "32361063"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит конечную дату и время встречи, управляемые приложением планирования. 
   
@@ -36,7 +36,7 @@ ms.locfileid: "32361063"
    
 ## <a name="remarks"></a>Примечания
 
-Приложения планирования должны устанавливать как PR_START_DATE **(** [PidTagStartDate),](pidtagstartdate-canonical-property.md)так и это свойство при отправке запросов на собрание. 
+Приложения планирования должны устанавливать как **PR_START_DATE** [(PidTagStartDate),](pidtagstartdate-canonical-property.md)так и это свойство при отправке запросов на собрания. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,9 +48,9 @@ ms.locfileid: "32361063"
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

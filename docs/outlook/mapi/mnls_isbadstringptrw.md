@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 293a0700-b950-4fc2-a2e5-148d6c846384
-description: 'Last modified: February 20, 2012'
+description: 'Последнее изменение: 20 февраля 2012 г.'
 ms.openlocfilehash: 0e64df38afdb8ecce35eb0151d36dde3da35f0a4
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.locfileid: "32356856"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Проверяет, является ли указатель на широкую строку допустимым.
+Проверяет, допустима ли указатель на широкую строку.
   
 ```cpp
 BOOL MNLS_IsBadStringPtrW(
@@ -29,7 +29,7 @@ BOOL MNLS_IsBadStringPtrW(
   UINT ucchMax);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _lpsz_
   
@@ -41,10 +41,10 @@ BOOL MNLS_IsBadStringPtrW(
     
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает boolean, который имеет true, если строка является плохой.
+Возвращает boolean, который является верным, если строка плоха.
   
 ## <a name="remarks"></a>Примечания
 
-Эта функция [обтекает isBadStringPtr.](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx) Дополнительные сведения см. в [isBadStringPtr.](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx)
+Эта функция [обертывания IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx). Дополнительные сведения см. [в полосе IsBadStringPtr.](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx)
   
 

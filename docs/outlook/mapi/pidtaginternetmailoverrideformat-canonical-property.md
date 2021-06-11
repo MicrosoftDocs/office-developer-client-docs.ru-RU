@@ -23,9 +23,9 @@ ms.locfileid: "32358606"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает метод кодирония и включение HTML для вложений, которые необходимо настроить для исходяной почты.
+Указывает метод кодизания и включение HTML для вложений, которые следует установить на исходячей почте.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "32358606"
    
 ## <a name="remarks"></a>Примечания
 
-Сведения о подгруппах, в которые разбивается это свойство, см. [в [MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx). 
+Сведения о подгруппах, в которые разбито это свойство, см. [в рублях [MS-OXOMSG].](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -52,9 +52,9 @@ ms.locfileid: "32358606"
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразуется из стандартных интернет-соглашений электронной почты в объекты сообщений.
+> Преобразуется из стандартных конвенций электронной почты в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -74,5 +74,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

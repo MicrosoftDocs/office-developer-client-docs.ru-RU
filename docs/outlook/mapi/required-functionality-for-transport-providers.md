@@ -1,5 +1,5 @@
 ---
-title: Необходимые функции для поставщиков транспорта
+title: Необходимые функциональные возможности для поставщиков транспорта
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,22 +15,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404444"
 ---
-# <a name="required-functionality-for-transport-providers"></a>Необходимые функции для поставщиков транспорта
+# <a name="required-functionality-for-transport-providers"></a>Необходимые функциональные возможности для поставщиков транспорта
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Каждый поставщик транспорта MAPI должен:
   
-- Следуйте общим рекомендациям по работе с MAPI и другими поставщиками услуг. Дополнительные сведения см. в сведениях о [разработке приложений MAPI](mapi-application-development.md) и [поставщиках услуг MAPI.](mapi-service-providers.md)
+- Следуйте общим рекомендациям по работе с MAPI и другими поставщиками услуг. Дополнительные сведения см. в [приложении MAPI Development](mapi-application-development.md) и [MAPI Service Providers.](mapi-service-providers.md)
     
-- DLL поставщика транспорта предоставляет MAPI функцию инициализации [XPProviderInit.](xpproviderinit.md) 
+- Чтобы поставщик транспорта DLL выставил MAPI функцию инициализации [XPProviderInit.](xpproviderinit.md) 
     
-- Доступ к MAPI его реализации [IXPProvider : IUnknown](ixpprovideriunknown.md) и [IXPLogon : интерфейсы IUnknown.](ixplogoniunknown.md) 
+- Подвергайте MAPI реализации [интерфейсов IXPProvider : IUnknown](ixpprovideriunknown.md) и [IXPLogon: IUnknown.](ixplogoniunknown.md) 
     
-- Доступ к интерфейсу MAPI и клиентских приложений с реализацией [интерфейса IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) Дополнительные сведения о реализации **IMAPIStatus** см. в реализации [объекта status.](status-object-implementation.md) 
+- Подвергайте MAPI и клиентские приложения реализации [интерфейса IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) Дополнительные сведения о реализации **IMAPIStatus** см. в дополнительных сведениях [о реализации объектов status.](status-object-implementation.md) 
     
-- Реализуйте диалоговое окно таблицы свойств для настройки. Дополнительные сведения о реализации листов свойств см. в [реализации листа свойств.](property-sheet-implementation.md)
+- Реализация диалоговое окно листа свойств для настройки. Дополнительные сведения о реализации листов свойств см. в см. [в рубке Реализация листов свойств.](property-sheet-implementation.md)
     
 

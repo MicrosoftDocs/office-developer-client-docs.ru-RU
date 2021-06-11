@@ -23,9 +23,9 @@ ms.locfileid: "32361091"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит сумму (в bytes) размеров всех свойств вложения. 
+Содержит сумму в bytes размеров всех свойств на вложении. 
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ ms.locfileid: "32361091"
    
 ## <a name="remarks"></a>Примечания
 
-Рекомендуется, чтобы вложенные объекты вложения PR_ATTACH_SIZE **свойства.** Сумма, содержаная  в PR_ATTACH_SIZE, включает размер свойства **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary)](pidtagattachdatabinary-canonical-property.md)или **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject).](pidtagattachdataobject-canonical-property.md) Соответственно, **PR_ATTACH_SIZE** обычно больше, чем содержимое вложения. 
+Рекомендуется, чтобы подобекты вложения подвергали **PR_ATTACH_SIZE** свойству. В сумму,  PR_ATTACH_SIZE, входит размер свойства  [PR_ATTACH_DATA_BIN (PidTagAttachDataBinary)](pidtagattachdatabinary-canonical-property.md)или **PR_ATTACH_DATA_OBJ** [(PidTagAttachDataObject).](pidtagattachdataobject-canonical-property.md) Соответственно, **PR_ATTACH_SIZE** обычно больше, чем содержимое только вложения. 
   
-Это свойство можно использовать для проверки приблизительного размера вложения перед выполнением удаленной передачи с помощью модема и для отображения индикаторов хода выполнения при сохранении вложения на диск. Это особенно полезно при присоединении объектов OLE. 
+Это свойство можно использовать для проверки приблизительного размера вложения перед выполнением удаленной передачи с помощью модема и отображения индикаторов прогресса при сохранении вложения на диске. Это особенно полезно с присоединенными объектами OLE. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,7 +48,7 @@ ms.locfileid: "32361091"
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -71,5 +71,5 @@ mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

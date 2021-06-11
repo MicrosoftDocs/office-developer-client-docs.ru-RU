@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm3025
 localization_priority: Normal
 ms.assetid: 6b385a9a-9294-1703-9d6f-628a11498669
-description: Содержит координаты x и y конечной вершины сегмента прямой линии.
+description: Содержит x -и y-координаты конечной вершины сегмента прямой линии.
 ms.openlocfilehash: 570ee677aff07d54fcee22ebba2faa210831fb10
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,13 +18,13 @@ ms.locfileid: "33404731"
 ---
 # <a name="lineto-row-geometry-section"></a>LineTo Row (Geometry Section)
 
-Содержит  *координаты*  x и  *y*  конечной вершины сегмента прямой линии. 
+Содержит  *x*  -и  *y-координаты*  конечной вершины сегмента прямой линии. 
   
 Строка LineTo содержит следующие ячейки.
   
 |**Cell**|**Описание**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |Координата *X* последней вершины сегмента прямой линии.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |Координата *Y* последней вершины сегмента прямой линии.  <br/> |
+|[Да](y-cell-geometry-section.md) <br/> |Координата *Y* последней вершины сегмента прямой линии.  <br/> |
    
 

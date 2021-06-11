@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm300
 localization_priority: Normal
 ms.assetid: 2b3334de-588c-6cf3-bc88-be03ae71b1a6
-description: Определяет, включает ли стиль свойства заливки.
+description: Определяет, включает ли стиль свойства заполнения.
 ms.openlocfilehash: 55191cb28d5777f7fb65a3a1e4be890e6dda4e8b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,12 +18,12 @@ ms.locfileid: "33406012"
 ---
 # <a name="enablefillprops-cell-style-properties-section"></a>EnableFillProps Cell (Style Properties Section)
 
-Определяет, включает ли стиль свойства заливки.
+Определяет, включает ли стиль свойства заполнения.
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-|TRUE  <br/> |Включите свойства заливки.  <br/> |
-|FALSE  <br/> |Исключить свойства заливки.  <br/> |
+|TRUE  <br/> |Включите свойства заполнения.  <br/> |
+|FALSE  <br/> |Исключить свойства заполнения.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

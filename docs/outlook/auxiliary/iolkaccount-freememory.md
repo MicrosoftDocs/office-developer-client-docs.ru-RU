@@ -16,11 +16,11 @@ ms.locfileid: "33406201"
 ---
 # <a name="iolkaccountfreememory"></a>IOlkAccount::FreeMemory
 
-Освободить память, выделенную интерфейсом [IOlkAccount.](iolkaccount.md) 
+Освободит память, выделенную [интерфейсом IOlkAccount.](iolkaccount.md) 
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IOlkAccount](iolkaccount.md).
+См. [iOlkAccount](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::FreeMemory (  
@@ -29,11 +29,11 @@ HRESULT IOlkAccount::FreeMemory (
 
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _pv_
   
-> [in] Указатель на память, которая должна быть освобождена.
+> [in] Указатель на память, который необходимо освободить.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -41,7 +41,7 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## <a name="remarks"></a>Примечания
 
-Используйте этот метод, чтобы освободить память, выделенную [IOlkAccount::GetProp](iolkaccount-getprop.md) (если значение указанного свойства учетной записи двоичное или строковый тип) и [IOlkAccount::GetAccountInfo](iolkaccount-getaccountinfo.md).
+Используйте этот метод для бесплатной памяти, выделенной [IOlkAccount::GetProp](iolkaccount-getprop.md) (если значение указанного свойства учетной записи двоично или строкового типа) и [IOlkAccount::GetAccountInfo](iolkaccount-getaccountinfo.md).
   
 ## <a name="see-also"></a>См. также
 

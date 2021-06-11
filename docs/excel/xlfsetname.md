@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlfSetName
 keywords:
-- Функция xlfsetname [excel 2007]
+- функция xlfsetname [Excel 2007]
 localization_priority: Normal
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -28,29 +28,29 @@ ms.locfileid: "33404262"
 Excel12(xlfSetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxNameDefinition);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
-_pxNameText_ (**xltypeStr)**
+_pxNameText_ **(xltypeStr)**
   
-Имя диапазона, которое должно соответствовать обычным ограничениям в Microsoft Excel для допустимого имени.
+Имя диапазона, которое должно соответствовать обычным ограничениям в Microsoft Excel допустимые имена.
   
-_pxNameDefinition_ (**xltypeStr,** **xltypeNum,** **xltypeBool,** **xltypeErr,** **xltypeMulti,** **xltypeSRef,** **xltypeRef** или **xltypeInt)**
+_pxNameDefinition_ (**xltypeStr , xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeSRef**,  **xltypeRef**, или **xltypeInt**)
   
-(Необязательно). Значение, набор значений, ячейка или диапазон ячеек, как определено _в pxNameText._ Если опущен, имя удаляется. 
+(Необязательный). Значение, набор значений, ячейки или диапазон ячеек, которые  _pxNameText_ определяется как. Если имя опущено, имя удаляется. 
   
 ## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-_pxRes_ (**xltypeBool** или **xltypeErr)**
+_pxRes_ **(xltypeBool** или **xltypeErr)**
   
-ИМЕЕТ true, если операция была успешной, или FALSE, если имя не удалось создать или удалить. Возвращает #VALUE! если один или несколько аргументов недействительны.
+TRUE, если операция была успешной или FALSE, если имя не удалось создать или удалить. Возвращает #VALUE! если один или несколько аргументов недействительны.
   
 ## <a name="remarks"></a>Примечания
 
-При регистрации функции или команды с помощью **xlfRegister** с допустимым аргументом  _pxFunctionText_ Excel создает имя, связанное с ресурсом DLL. При выгрузке DLL такие имена следует удалять с помощью функции [xlfSetName.](xlfsetname.md) Однако из-за известной проблемы в Excel операция удаления не удаться. Дополнительные сведения см. в статье [Известные проблемы, возникающие при разработке XLL для Excel](known-issues-in-excel-xll-development.md).
+Когда функция или команда регистрируется с помощью **xlfRegister** с допустимым аргументом _pxFunctionText,_ Excel создает имя, связанное с ресурсом DLL. При разгрузке DLL такие имена следует удалять с помощью [функции xlfSetName.](xlfsetname.md) Однако из-за известной проблемы в Excel операция удаления не удается. Дополнительные сведения см. в статье [Известные проблемы, возникающие при разработке XLL для Excel](known-issues-in-excel-xll-development.md).
   
 ### <a name="example"></a>Пример
 
-См. код функции **xlAutoClose** в  `\SAMPLES\GENERIC\GENERIC.C` .
+См. код функции **xlAutoClose**  `\SAMPLES\GENERIC\GENERIC.C` в .
   
 ## <a name="see-also"></a>См. также
 

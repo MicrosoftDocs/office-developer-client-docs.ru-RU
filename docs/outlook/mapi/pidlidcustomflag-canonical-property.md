@@ -23,21 +23,21 @@ ms.locfileid: "32357619"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Битоваяmas, которая указывает, как настраивается, например, сообщение с пользовательскими свойствами.
+Битмаска, которая указывает, как настраивается сообщение, например, сохранено с помощью настраиваемых свойств.
   
 ## 
 
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidCustomFlag  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008251  <br/> |
+|Long ID (LID):  <br/> |0x00008251  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить значение этого свойства, сначала используйте **[IMAPIProp::GetIDsFromNames,](imapiprop-getidsfromnames.md)** чтобы получить тег свойства, а затем укажите этот тег свойства в **[IMAPIProp::GetProps,](imapiprop-getprops.md)** чтобы получить значение. 
+Чтобы получить значение этого свойства, сначала используйте **[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)** для получения тега свойства, а затем укажите этот тег свойства в **[IMAPIProp::GetProps,](imapiprop-getprops.md)** чтобы получить значение. 
   
 Возможные флаги:
   
@@ -48,7 +48,7 @@ ms.locfileid: "32357619"
 |INSP_ONEOFFFLAGS  <br/> |0x0D000000  <br/> |
 |INSP_PROPDEFINITION  <br/> |0x02000000  <br/> |
    
-При вызове **IMAPIProp::GetIDsFromNames** укажите следующие значения для структуры **[MAPINAMEID,](mapinameid.md)** на который указывает входной параметр *lppPropNames.* 
+При вызове **IMAPIProp::GetIDsFromNames** укажите следующие значения для структуры **[MAPINAMEID,](mapinameid.md)** на которые указывает параметр *ввода lppPropNames.* 
   
 ****
 
@@ -66,7 +66,7 @@ ms.locfileid: "32357619"
   
 > Предоставляет определения набора свойств.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -86,5 +86,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

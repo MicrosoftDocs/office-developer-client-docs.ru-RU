@@ -23,21 +23,21 @@ ms.locfileid: "32360944"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит значение поля Accept-Language [RFC3282].
   
 |||
 |:-----|:-----|
-|Дружелюбные имена:  <br/> |AcceptLanguage  <br/> |
+|Дружественные имена:  <br/> |AcceptLanguage  <br/> |
 |Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|Имя свойства:  <br/> |Accept-Language  <br/> |
+|Имя свойства:  <br/> |Принять-Язык  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Электронная почта  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Чтобы установить значение этого свойства, клиенты MIME должны написать поле Accept-Language с нужным значением. Вместо этого клиенты MIME могут написать поле загона X-Accept-Language. Читатели MIME должны скопировать значение любого поля в поле загона в значение этого свойства. Если присутствуют оба поля, читатели MIME должны использовать Accept-Language поля.
+Чтобы задать значение этого свойства, клиенты multipurpose Internet Message Extensions (MIME) должны написать поле Accept-Language с нужным значением. Вместо этого клиенты MIME могут написать заглавное поле X-Accept-Language. Считыватели MIME должны скопировать значение поля заглавных заглавок к значению этого свойства. Если оба поля загона присутствуют, читатели MIME должны использовать Accept-Language загона.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32360944"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразуется из стандартных интернет-соглашений электронной почты в объекты сообщений.
+> Преобразуется из стандартных конвенций электронной почты в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

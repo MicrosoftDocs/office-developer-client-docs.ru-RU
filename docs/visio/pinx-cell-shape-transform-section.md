@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm790
 localization_priority: Normal
 ms.assetid: dd88fb8d-3ec3-476a-870d-6642b191496f
-description: Представляет x-координату закрепления фигуры (центра поворота) относительно начала родительского.
+description: Представляет x-координату пин-кода фигуры (центр вращения) по отношению к происхождению ее родителя.
 ms.openlocfilehash: de12b379d5f345209a468298174634ff4f9cd639
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33404822"
 ---
 # <a name="pinx-cell-shape-transform-section"></a>PinX Cell (Shape Transform Section)
 
-Представляет  *x-координату*  закрепления фигуры (центра поворота) относительно начала родительского. 
+Представляет  *x-координату*  пин-кода фигуры (центр вращения) по отношению к происхождению ее родителя. 
   
 ## <a name="remarks"></a>Примечания
 

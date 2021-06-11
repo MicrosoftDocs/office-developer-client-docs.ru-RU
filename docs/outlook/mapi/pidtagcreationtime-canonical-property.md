@@ -23,9 +23,9 @@ ms.locfileid: "32357899"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит дату и время создания сообщения. 
+Содержит дату создания и время сообщения. 
   
 |||
 |:-----|:-----|
@@ -50,7 +50,7 @@ ms.locfileid: "32357899"
   
 > Указывает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

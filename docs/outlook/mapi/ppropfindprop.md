@@ -23,9 +23,9 @@ ms.locfileid: "33406341"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Выполняет поиск указанного свойства в наборе свойств.
+Поиск указанного свойства в наборе свойств.
   
 |||
 |:-----|:-----|
@@ -41,11 +41,11 @@ LPSPropValue PpropFindProp(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _rgprop_
   
-> [in] Массив структур [SPropValue,](spropvalue.md) которые определяют свойства для поиска. 
+> [in] Массив [структур SPropValue,](spropvalue.md) которые определяют свойства, которые необходимо искать. 
     
  _cprop_
   
@@ -53,11 +53,11 @@ LPSPropValue PpropFindProp(
     
  _ulPropTag_
   
-> [in] Тег свойства для свойства, который требуется найти в наборе свойств, указанных _параметром rgprop._ 
+> [in] Тег свойства для свойства для поиска в наборе свойств, указанных _параметром rgprop._ 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
- **PpropFindProp** возвращает [структуру SPropValue,](spropvalue.md) определяя свойство, которое соответствует тегу входного свойства, или NULL, если совпадений нет. 
+ **PpropFindProp** возвращает структуру [SPropValue,](spropvalue.md) определяя свойство, которое соответствует тегу свойств ввода, или NULL, если нет совпадения. 
   
 ## <a name="remarks"></a>Примечания
 
@@ -69,7 +69,7 @@ LPSPropValue PpropFindProp(
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::BuildDataItem  <br/> |MFCMAPI использует метод **PpropFindProp** для поиска свойств в наборе свойств, добавляемом в список.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::BuildDataItem  <br/> |MFCMAPI использует **метод PpropFindProp** для поиска свойств в наборе свойств, добавляемом в список.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

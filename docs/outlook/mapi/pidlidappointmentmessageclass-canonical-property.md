@@ -23,21 +23,21 @@ ms.locfileid: "32358102"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает **PR_MESSAGE_CLASS** ([PidTagMessageClass)](pidtagmessageclass-canonical-property.md)собрания, которое должно быть сформировано из запроса на собрание.
+Указывает свойство **PR_MESSAGE_CLASS** [(PidTagMessageClass)](pidtagmessageclass-canonical-property.md)собрания, которое должно быть сформировано из запроса собрания.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidApptMessageClass  <br/> |
 |Набор свойств:  <br/> |PSETID_Meeting  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00000024  <br/> |
+|Long ID (LID):  <br/> |0x00000024  <br/> |
 |Тип данных:  <br/> |PT_TSTRING  <br/> |
 |Область:  <br/> |Собрания  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Значение этого свойства должно быть либо "IPM. Встреча" или с префиксом "IPM. Встреча.". Это свойство не требуется.
+Значение этого свойства должно быть "IPM. Назначение" или префикс с помощью "IPM. Назначение.". Это свойство не требуется.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32358102"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Поиск значка сообщения
+title: Поиск значка для сообщения
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,20 +15,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409155"
 ---
-# <a name="finding-the-icon-for-a-message"></a>Поиск значка сообщения
+# <a name="finding-the-icon-for-a-message"></a>Поиск значка для сообщения
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
  **Поиск значка, связанного с сообщением**
   
-1. Вызовите метод [IMAPIProp::GetProps](imapiprop-getprops.md) сообщения, чтобы получить его **PR_MESSAGE_CLASS** ([PidTagMessageClass)](pidtagmessageclass-canonical-property.md).
+1. Вызовите метод [IMAPIProp::GetProps](imapiprop-getprops.md) **для** получения свойства PR_MESSAGE_CLASS [(PidTagMessageClass).](pidtagmessageclass-canonical-property.md)
     
-2. Вызовите [MAPIOpenFormMgr, чтобы](mapiopenformmgr.md) получить указатель интерфейса **IMAPIFormMgr.** **Передайте указатель IMAPISession** в _параметре pSession._ 
+2. Вызов [MAPIOpenFormMgr для](mapiopenformmgr.md) получения **указателя интерфейса IMAPIFormMgr.** **Передай указатель IMAPISession** в _параметре pSession._ 
     
-3. Вызовите [IMAPIFormMgr::ResolveMessageClass,](imapiformmgr-resolvemessageclass.md) чтобы получить указатель интерфейса **IMAPIFormInfo.** 
+3. Вызов [IMAPIFormMgr::ResolveMessageClass,](imapiformmgr-resolvemessageclass.md) чтобы получить **указатель интерфейса IMAPIFormInfo.** 
     
-4. Используйте **указатель IMAPIFormInfo,** чтобы вызвать [IMAPIProp::GetProps](imapiprop-getprops.md) и получить свойства **PR_ICON** ([PidTagIcon)](pidtagicon-canonical-property.md)и/или **PR_MINI_ICON** ([PidTagMiniIcon).](pidtagminiicon-canonical-property.md) 
+4. Используйте указатель **IMAPIFormInfo** для вызова [свойств IMAPIProp::GetProps](imapiprop-getprops.md) и получения свойств PR_ICON [(PidTagIcon)](pidtagicon-canonical-property.md)и/или **PR_MINI_ICON** [(PidTagMiniIcon).](pidtagminiicon-canonical-property.md)  
     
 

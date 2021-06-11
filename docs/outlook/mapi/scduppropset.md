@@ -23,9 +23,9 @@ ms.locfileid: "33406019"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Дублирует массив значений свойств в одном блоке памяти MAPI, объединяющем операции функций [ScCopyProps](sccopyprops.md) и [ScCountProps.](sccountprops.md) 
+Дублирует массив значений свойств в одном блоке памяти MAPI, сочетающий операции функций [ScCopyProps](sccopyprops.md) и [ScCountProps.](sccountprops.md) 
   
 |||
 |:-----|:-----|
@@ -42,7 +42,7 @@ SCODE ScDupPropset(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _cprop_
   
@@ -50,15 +50,15 @@ SCODE ScDupPropset(
     
  _rgprop_
   
-> [in] Указатель на массив структур [SPropValue,](spropvalue.md) определяющих повторяющиеся значения свойств. 
+> [in] Указатель на массив [структур SPropValue,](spropvalue.md) определяющих повторяющиеся значения свойств. 
     
  _lpAllocateBuffer_
   
-> [in] Указатель на [функцию MAPIAllocateBuffer,](mapiallocatebuffer.md) которая используется для выделения памяти для дубликата массива. 
+> [in] Указатель на функцию [MAPIAllocateBuffer,](mapiallocatebuffer.md) которая будет использоваться для выделения памяти для дубликатного массива. 
     
  _prgprop_
   
-> [out] Указатель на начальное положение в памяти, где хранится возвращенный дубликат массива **структур SPropValue.** 
+> [вышел] Указатель на исходное положение в памяти, где хранится возвращаемая дублированная массива структур **SPropValue.** 
     
 ## <a name="return-value"></a>Возвращаемое значение
 

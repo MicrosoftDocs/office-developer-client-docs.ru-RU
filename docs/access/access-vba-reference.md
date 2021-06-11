@@ -1,5 +1,5 @@
 ---
-title: '[Справочник по VBA для Access]'
+title: '[Ссылка на VBA]'
 ms.date: 01/01/1900
 ms.audience: Developer
 localization_priority: Normal
@@ -12,7 +12,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406355"
 ---
-# <a name="access-vba-reference"></a>[Справочник по VBA для Access]
+# <a name="access-vba-reference"></a>[Ссылка на VBA]
 
 {вставьте сводку}
   

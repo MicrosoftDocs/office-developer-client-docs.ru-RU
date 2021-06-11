@@ -19,9 +19,9 @@ ms.locfileid: "32360741"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит имя, тип данных и другие сведения о пользовательском поле.
+Содержит имя, тип данных и другие сведения о поле, определенном пользователем.
   
 |||
 |:-----|:-----|
@@ -32,14 +32,14 @@ ms.locfileid: "32360741"
    
 ## <a name="remarks"></a>Примечания
 
-Для каждого элемента Outlook сохраняет определения всех пользовательских полей в свойстве [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) соответствующего **объекта IMessage.** Свойство **PidLidPropertyDefinitionStream** содержит двоичный поток, известный как [PropertyDefinition,](propertydefinition-stream-structure.md)который содержит определения полей. Дополнительные сведения о структурах потоков для определений полей см. в [подстройки Stream.](stream-structures.md)
+Для каждого элемента Outlook определения всех пользовательских полей в свойстве [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) соответствующего **объекта IMessage.** Свойство **PidLidPropertyDefinitionStream** содержит двоичный поток, известный как [PropertyDefinition,](propertydefinition-stream-structure.md)который содержит определения полей. Дополнительные сведения о структурах потоков для определений полей см. в [руб.](stream-structures.md)
   
-Для каждой папки Outlook сохраняет определения всех пользовательских полей в этой папке в свойстве **PidTagUserFields** связанного сообщения класса IPC.MS. REN. USERFIELDS — каждая папка, которая, как предполагается, содержит не более одного сообщения этого класса в связанной с ней таблицей содержимого. 
+Для каждой папки Outlook определения всех определенных пользователем полей в этой папке в свойстве **PidTagUserFields** связанного сообщения класса IPC.MS. REN. USERFIELDS — каждая папка, как предполагается, содержит не более одного сообщения этого класса в связанной таблице содержимого. 
   
 > [!NOTE]
-> Набор пользовательских полей в папке может не обязательно совпадать с наборами пользовательских полей в каждом из элементов. 
+> Набор пользовательских полей в папке не обязательно совпадает с наборами определенных пользователем полей в каждом из элементов. 
   
-Набор пользовательских полей в папке отображается в различных местах пользовательского интерфейса Outlook, таких как выбор полей папки. Свойство **PidTagUserFields** сообщения содержит двоичный поток **FolderUserFields,** который содержит определения полей папки. Дополнительные сведения о структурах потоков для определений полей папок см. в примере структуры потока полей папок и пример потока [FolderUserFields.](folderuserfields-stream-sample.md) [](folder-fields-stream-structures.md)
+Набор пользовательских полей в папке отображается в разных Outlook пользовательского интерфейса, например в поле выбора папки. Свойство **PidTagUserFields** сообщения содержит двоичный поток **FolderUserFields,** содержащий определения полей папок. Дополнительные сведения о структурах потока для определений полей папок см. в примере [Folder Fields Stream Structures](folder-fields-stream-structures.md) и [folderUserFields Stream Sample.](folderuserfields-stream-sample.md)
   
 ## <a name="section-heading"></a>Заголовок раздела
 
@@ -47,9 +47,9 @@ ms.locfileid: "32360741"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -59,9 +59,9 @@ Mapidefs.h
 
 
 
-[Элементы и поля Outlook](outlook-items-and-fields.md)
+[Outlook Элементы и поля](outlook-items-and-fields.md)
   
-[Добавление определения для нового поля User-Defined](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Добавление определения для нового User-Defined поля](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [Пример потока PropertyDefinition](propertydefinition-stream-sample.md)
   
@@ -71,5 +71,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -23,9 +23,9 @@ ms.locfileid: "32357738"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит число, которое можно использовать для вычисления отсрочки отправки сообщения.
+Содержит номер, который можно использовать для вычисления отсрочки отправки сообщения.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ ms.locfileid: "32357738"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство используется для вычисления свойства **PR_DEFERRED_SEND_TIME** [(PidTagDeferredSendTime),](pidtagdeferredsendtime-canonical-property.md)если оно не существует. При отложении отправки сообщения следует установить свойство **PR_DEFERRED_SEND_NUMBER** вместе со свойством **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits),](pidtagdeferredsendunits-canonical-property.md)если свойство **PR_DEFERRED_SEND_TIME** отсутствует. 
+Это свойство используется для вычисления **свойства PR_DEFERRED_SEND_TIME** [(PidTagDeferredSendTime),](pidtagdeferredsendtime-canonical-property.md)когда оно не присутствует. При отложении отправки  сообщения свойство PR_DEFERRED_SEND_NUMBER должно быть задано вместе с свойством **PR_DEFERRED_SEND_UNITS** [(PidTagDeferredSendUnits),](pidtagdeferredsendunits-canonical-property.md)если свойство PR_DEFERRED_SEND_TIME отсутствует.  
   
-Значение **PR_DEFERRED_SEND_NUMBER** должно быть от 0 до 999. 
+Значение **PR_DEFERRED_SEND_NUMBER** должно быть установлено между 0 и 999. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -46,9 +46,9 @@ ms.locfileid: "32357738"
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
+> Указывает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -68,5 +68,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

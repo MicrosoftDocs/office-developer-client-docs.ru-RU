@@ -23,7 +23,7 @@ ms.locfileid: "33404857"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Отменяет вызовы для автономного объекта.
   
@@ -34,7 +34,7 @@ HRESULT COfflineObj::Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -42,17 +42,17 @@ HRESULT COfflineObj::Unadvise(
     
  _ulAdviseToken_
   
-> [in] Маркер консультации, определяя отменяемую регистрацию вызова. 
+> [in] Маркер рекомендации, идентифицирует отменяемую регистрацию вызова. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK
   
-> Вызов был успешным. Этот вызов должен возвращать S_OK.
+> Вызов был успешным. Этот вызов должен вернуться S_OK.
     
 ## <a name="remarks"></a>Примечания
 
-Удаляет регистрацию обратного вызова, связанного с *ulAdviseToken,* возвращенного при предыдущем вызове **[IMAPIOfflineMgr::Advise.](imapiofflinemgr-advise.md)** Заставляет объект **IMAPIOfflineMgr** освободить ссылку на объект **[IMAPIOfflineNotify,](imapiofflinenotifyiunknown.md)** связанный с *ulAdviseToken.* 
+Удаляет регистрацию обратного вызова, связанного с  *ulAdviseToken,*  возвращаемого по предварительному вызову **[в IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Вызывает **объект IMAPIOfflineMgr** для выпуска ссылки на **[объект IMAPIOfflineNotify,](imapiofflinenotifyiunknown.md)** связанный с *ulAdviseToken.* 
   
 ## <a name="see-also"></a>См. также
 

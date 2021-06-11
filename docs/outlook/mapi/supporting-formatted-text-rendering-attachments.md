@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405298"
 ---
-# <a name="supporting-formatted-text-rendering-attachments"></a>Поддержка форматированный текст: отрисовка вложений
+# <a name="supporting-formatted-text-rendering-attachments"></a>Поддержка форматного текста: отрисовка вложений
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Клиентские приложения, для которых важно, где в сообщении отрисовка вложений, устанавливают свойство **PR_RENDERING_POSITION** ([PidTagRenderingPosition)](pidtagrenderingposition-canonical-property.md)для этих вложений во время композиции сообщения. ��� ������, ������� �� ����� ��������, � ���������� ������������ �������� ��� �������� ����������.
+Клиентская заявка, которая заботится о том, где в сообщении отрисовываны **его вложения,** задает свойство [PR_RENDERING_POSITION (PidTagRenderingPosition)](pidtagrenderingposition-canonical-property.md)для этих вложений во время композиции сообщений. ��� ������, ������� �� ����� ��������, � ���������� ������������ �������� ��� �������� ����������.
   
 ������ �������� ��������� � ����������, ��� �������� �������� �������� **PR_RENDERING_POSITION** ������� ��������, ����� ����������, ��� � �������� ������ ���������, � ������� ������ ������������ ��������. ��� ��������� **PR_RENDERING_POSITION**������ ����� ������������ ���� �� ��������� �������:
   
@@ -33,7 +33,7 @@ ms.locfileid: "33405298"
   
 �������� ������� �� �������� RTF ��������� ������� ���������� �� ��������������� ��������, ����������� �� ��������, ����������� �������, ������������� �� �������� ��������. �������� �� ��, ��� ��� ������� ������ ���������� **PR_RENDERING_POSITION**, ����� ����������� ��������� ����������� ����������� �� ���������� ����������� ��������� ���������. ���� ������ �� **PR_RENDERING_POSITION**, ��������� ��������� ����� ������ �������� -1, ����� �������, ��� ��������� �� � ������ ���������. �������� � ���������� ���������-1 ����� ������������ � ����� ����� ������ ��������� � ����������� �� �������. ���������� �������� ��������� ��� ���� �������� � ������� ����� ���������.
   
-Степень точности свойства **PR_RENDERING_POSITION** зависит от того, сохраняет ли хранилище сообщений свойства **PR_BODY** ([PidTagBody)](pidtagbody-canonical-property.md)и **PR_RTF_COMPRESSED** [(PidTagRtfCompressed)](pidtagrtfcompressed-canonical-property.md) **или только** PR_RTF_COMPRESSED. ���� ������ ������� **PR_BODY** � ��������� ��� � ��������� ��������� ������ � ���������������� ������, ��������� ������������ ����� �������. ��� �� ����� ���� ��������� ��������� ���������� ������� ����������� ������ **PR_BODY**, ��� ��� �� ��������� ������ **PR_RTF_COMPRESSED**, ��������, ��� ����� ������� �������� ��������� ������������. ��� ��-�� ��������, ��� ������� � ���������� ��������� ��������� ������� �������� **PR_BODY**, ���. 
+Степень точности свойств **PR_RENDERING_POSITION** зависит от того, сохраняет ли хранилище сообщений свойства PR_BODY  [(PidTagBody)](pidtagbody-canonical-property.md)и **PR_RTF_COMPRESSED** [(PidTagRtfCompressed)](pidtagrtfcompressed-canonical-property.md)или **только PR_RTF_COMPRESSED.** ���� ������ ������� **PR_BODY** � ��������� ��� � ��������� ��������� ������ � ���������������� ������, ��������� ������������ ����� �������. ��� �� ����� ���� ��������� ��������� ���������� ������� ����������� ������ **PR_BODY**, ��� ��� �� ��������� ������ **PR_RTF_COMPRESSED**, ��������, ��� ����� ������� �������� ��������� ������������. ��� ��-�� ��������, ��� ������� � ���������� ��������� ��������� ������� �������� **PR_BODY**, ���. 
   
 To calculate an accurate **PR_RENDERING_POSITION** value, an RTF-aware store uses a tag embedded in the formatted text. The utility function **RTFSync** can be called to perform this calculation and update an attachment's rendering position. Depending on the amount of state information available, the message store can pass either RTF_SYNC_BODY_CHANGED, RTF_SYNC_RTF_CHANGED, or both values to [RTFSync](rtfsync.md).
   

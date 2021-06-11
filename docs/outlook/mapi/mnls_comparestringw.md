@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f8d0b7b9-2798-4d29-99e4-17da99039361
-description: 'Last modified: February 20, 2012'
+description: 'Последнее изменение: 20 февраля 2012 г.'
 ms.openlocfilehash: dbb18ce712d7900106f2c8dd18404e47d8bdbdb7
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.locfileid: "32356849"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Сравнивает две строки Юникода.
+Сравнивает две строки Юникод.
   
 ```cpp
 int MNLS_CompareStringW (
@@ -33,7 +33,7 @@ int MNLS_CompareStringW (
   int cch2);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _lcid_
   
@@ -41,23 +41,23 @@ int MNLS_CompareStringW (
     
  _dwFlags_
   
-> [in] Флаги для игнорирования диакритических и диакритических диакритических диакритических пометок. Подробные определения см. в параметре _dwCmpFlags_ [compareStringEx.](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)
+> [in] Флаги для игнорирования дела и диакритики. Подробные определения см. в _параметре dwCmpFlags_ [compareStringEx.](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)
     
  _pstr1_
   
-> [in] Указатель на первую строку Юникода для сравнения.
+> [in] Указатель на первую строку Юникод для сравнения.
     
  _cch1_
   
-> [in] Длина символов первой строки Юникода, за исключением завершающих символов null. Приложение может предоставить отрицательное значение, если строка о конце null. В этом случае **MNLS_CompareStringW** определяет длину автоматически. 
+> [in] Длина символов первой строки Юникод, за исключением завершаемого null-символа. Приложение может предоставить отрицательное значение, если строка не завершена. В этом случае функция **MNLS_CompareStringW** определяет длину автоматически. 
     
  _pstr2_
   
-> [in] Указатель на вторую строку Юникода для сравнения.
+> [in] Указатель на вторую строку Юникод для сравнения.
     
  _cch2_
   
-> [in] Длина символов второй строки Юникода, за исключением завершающих символов null. Приложение может предоставить отрицательное значение, если строка о конце null. В этом случае функция определяет длину автоматически.
+> [in] Длина символов второй строки Юникод, за исключением завершаемого null-символа. Приложение может предоставить отрицательное значение, если строка не завершена. В этом случае функция определяет длину автоматически.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -65,7 +65,7 @@ int MNLS_CompareStringW (
   
 ## <a name="remarks"></a>Примечания
 
-Эта функция [обтекает compareStringW.](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx) **MNLS_CompareStringW** принимает те же параметры и поведение, что [и CompareStringW.](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)
+Эта функция [обертывания CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx). **MNLS_CompareStringW** принимает те же параметры и имеет такое же поведение, как [CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
   
 ## <a name="see-also"></a>См. также
 

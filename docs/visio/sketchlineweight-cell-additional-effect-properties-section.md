@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6cb838be-1d6d-48e1-8e9e-bd126f0c2385
-description: Определяет дополнительную толщину, добавленную в вес линии в результате наброска в пунктах от 0 до 50. Толщина линии фигуры увеличивается по мере увеличения значения ячейки SketchLineWeight.
+description: Определяет дополнительную толщину, добавленную к весу строки в результате эффекта эскиза, в точках от 0 до 50. Толщина линии фигуры увеличивается по мере увеличения значения ячейки SketchLineWeight.
 ms.openlocfilehash: 0ee71bbaec59f5c79b72314b08478f8028b4e0ba
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33404514"
 ---
 # <a name="sketchlineweight-cell-additional-effect-properties-section"></a>SketchLineWeight Cell (Additional Effect Properties Section)
 
-Определяет дополнительную толщину, добавленную в вес линии в результате наброска в пунктах от 0 до 50. Толщина линии фигуры увеличивается по мере увеличения значения ячейки **SketchLineWeight.** 
+Определяет дополнительную толщину, добавленную к весу строки в результате эффекта эскиза, в точках от 0 до 50. Толщина линии фигуры увеличивается по мере увеличения значения ячейки **SketchLineWeight.** 
   
 ## <a name="remarks"></a>Примечания
 
@@ -26,7 +26,7 @@ ms.locfileid: "33404514"
 |:-----|:-----|
 | Имя ячейки:  <br/> | SketchLineWeight  <br/> |
    
-Чтобы получить ссылку на ячейку **SketchLineWeight** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
+Чтобы получить ссылку на **ячейку SketchLineWeight** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|

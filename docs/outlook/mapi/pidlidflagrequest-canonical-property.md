@@ -23,7 +23,7 @@ ms.locfileid: "32357808"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Представляет состояние запроса на собрание.
   
@@ -31,15 +31,15 @@ ms.locfileid: "32357808"
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidRequest  <br/> |
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008530  <br/> |
+|Long ID (LID):  <br/> |0x00008530  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Пометь  <br/> |
+|Область:  <br/> |Флажки  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-В Microsoft Office Outlook запрос на собрание является элементом встречи.
+В Microsoft Office Outlook запрос на собрание — это элемент встречи.
   
-Это свойство содержит заданный пользователем текст, который должен быть связан с флагом и должен устанавливаться, если объект сообщения помечен или завершен, но не должен существовать для объекта, связанного с собранием. Клиенты могут не поддерживать это свойство и всегда писать "Follow up" (при необходимости переведено на язык пользователя) в качестве значения строки, когда это свойство должно быть установлено. Это свойство должно быть условным образом проигнорировано на основе значений свойств **dispidFlagStringEnum** ([PidLidFlagString)](pidlidflagstring-canonical-property.md)и **dispidValidFlagStringProof** ([PidLidValidFlagStringProof).](pidlidvalidflagstringproof-canonical-property.md)
+Это свойство содержит указанный пользователем текст, связанный с флагом, и должно быть задано, если объект сообщения помечен или завершен, но не должен существовать для объекта, связанного с собранием. Клиенты могут не поддерживать это свойство и всегда писать "Follow up" (при необходимости переведено на язык пользователя) в качестве значения строки, когда это свойство должно быть заданной. Это свойство должно быть условно проигнорировано в зависимости от значений свойств **dispidFlagStringEnum** [(PidLidFlagString)](pidlidflagstring-canonical-property.md)и **dispidValidFlagStringProof** [(PidLidValidFlagStringProof).](pidlidvalidflagstringproof-canonical-property.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -47,13 +47,13 @@ ms.locfileid: "32357808"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Указывает свойства и операции, связанные с помезданием.
+> Указывает свойства и операции, связанные с маркировкой.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -69,5 +69,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

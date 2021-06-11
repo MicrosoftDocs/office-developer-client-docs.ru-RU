@@ -23,35 +23,35 @@ ms.locfileid: "33406124"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Управляет высокоуровневой операцией с объектами контейнеров, такими как адресные книги, списки рассылки и папки. [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md), [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md), and [IDistList : IMAPIContainer](idistlistimapicontainer.md) interfaces are derived from **IMAPIContainer**.
+Управление высокоуровневой операцией на контейнерных объектах, таких как адресные книги, списки рассылки и папки. ИнтерфейсЫ [IMAPIFolder : IMAPIContainer,](imapifolderimapicontainer.md) [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)и [IDistList: интерфейсы IMAPIContainer](idistlistimapicontainer.md) получены из **интерфейсов IMAPIContainer**.
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Выставим:  <br/> |Папка, контейнер адресной книги и объекты списка рассылки  <br/> |
-|Реализовано в:  <br/> |Хранилище сообщений, адресная книга и поставщики удаленных транспортных услуг  <br/> |
+|Подвергается:  <br/> |Папка, контейнер адресной книги и объекты списка рассылки  <br/> |
+|Реализовано в:  <br/> |Хранилище сообщений, адресная книга и поставщики удаленных транспортных средств  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIContainer  <br/> |
 |Тип указателя:  <br/> |LPMAPICONTAINER  <br/> |
-|Модель транзакций:  <br/> |Абстрактный класс, никогда не реализованный  <br/> |
+|Модель транзакции:  <br/> |Абстрактный класс, никогда не реализованный  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[GetContentsTable](imapicontainer-getcontentstable.md) <br/> |Возвращает указатель на таблицу содержимого контейнера.  <br/> |
-|[GetHierarchyTable](imapicontainer-gethierarchytable.md) <br/> |Возвращает указатель на таблицу иерархии контейнера.  <br/> |
+|[GetContentsTable](imapicontainer-getcontentstable.md) <br/> |Возвращает указатель в таблицу содержимого контейнера.  <br/> |
+|[GetHierarchyTable](imapicontainer-gethierarchytable.md) <br/> |Возвращает указатель в таблицу иерархии контейнера.  <br/> |
 |[OpenEntry](imapicontainer-openentry.md) <br/> |Открывает объект в контейнере, возвращая указатель интерфейса для дальнейшего доступа.  <br/> |
-|[SetSearchCriteria](imapicontainer-setsearchcriteria.md) <br/> |Устанавливает условия поиска для контейнера.  <br/> |
-|[GetSearchCriteria](imapicontainer-getsearchcriteria.md) <br/> |Получает условия поиска для контейнера.  <br/> |
+|[SetSearchCriteria](imapicontainer-setsearchcriteria.md) <br/> |Устанавливает критерии поиска для контейнера.  <br/> |
+|[GetSearchCriteria](imapicontainer-getsearchcriteria.md) <br/> |Получает критерии поиска для контейнера.  <br/> |
    
 |**Обязательные свойства**|**Access**|
 |:-----|:-----|
-|**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy)](pidtagcontainerhierarchy-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_CONTAINER_CONTENTS** ([PidTagContainerContents)](pidtagcontainercontents-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_CONTAINER_FLAGS** ([PidTagContainerFlags)](pidtagcontainerflags-canonical-property.md)  <br/> |Чтение и запись  <br/> |
+|**PR_CONTAINER_HIERARCHY** [(PidTagContainerHierarchy)](pidtagcontainerhierarchy-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_CONTAINER_CONTENTS** [(PidTagContainerContents)](pidtagcontainercontents-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_CONTAINER_FLAGS** [(PidTagContainerFlags)](pidtagcontainerflags-canonical-property.md)  <br/> |Чтение и запись  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -23,28 +23,28 @@ ms.locfileid: "33404843"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит true, если отчет о ненастроений применяется только к дискретным членам списка рассылки, а не ко всему списку. 
+Содержит TRUE, если отчет о неделивстве применяется только к дискретным участникам списка рассылки, а не ко всему списку. 
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_DISCRETE_VALUES  <br/> |
 |Идентификатор:  <br/> |0x0E0E  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |MAPI, не передаваемый  <br/> |
+|Область:  <br/> |MAPI, не передаваемая  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство используется в отчете о ненастройстве, если сообщение не может быть доставлено одному или более членам списка рассылки. Его цель — ограничить попытки повторной передачи только отдельными участниками, а не списком рассылки в целом. 
+Это свойство используется в отчете о несделательности, когда сообщение не может быть доставлено одному или более участникам списка рассылки. Его цель состоит в том, чтобы ограничить попытки ретрансмиссии только для этих отдельных участников, а не для списка рассылки в целом. 
   
-Таблица получателей отчета о ненастройстве содержит записи для всех получателей, которым не удалось доставить сообщение, а также для списков рассылки, если таково, к которым они принадлежат. Поставщик транспорта должен установить для этого свойства true для каждой записи списка рассылки. и он должен скопировать **свойства PR_DISPLAY_NAME** [(PidTagDisplayName),](pidtagdisplayname-canonical-property.md) **PR_ENTRYID** ([PidTagEntryId)](pidtagentryid-canonical-property.md)и **PR_SEARCH_KEY** ([PidTagSearchKey)](pidtagsearchkey-canonical-property.md)из списка рассылки в свойства **PR_ORIGINAL_DISPLAY_NAME** ([PidTagOriginalDisplayName),](pidtagoriginaldisplayname-canonical-property.md) **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId)](pidtagoriginalentryid-canonical-property.md)и **PR_ORIGINAL_SEARCH_KEY** ([PidTagOriginalSearchKey)](pidtagoriginalsearchkey-canonical-property.md)для каждого члена этого списка рассылки. 
+В таблице получателей отчета о несделательности содержатся записи для всех получателей, которым сообщение не удалось доставить, а также списки рассылки, если таково, к которым они принадлежат. Поставщик транспорта должен установить это свойство true для каждой записи списка рассылки, и она должна скопировать **PR_DISPLAY_NAME** [(PidTagDisplayName),](pidtagdisplayname-canonical-property.md) **PR_ENTRYID** [(PidTagEntryId)](pidtagentryid-canonical-property.md)и **PR_SEARCH_KEY** [(PidTagSearchKey)](pidtagsearchkey-canonical-property.md)из списка рассылки в PR_ORIGINAL_DISPLAY_NAME [(PidTagOriginalDisplayName),](pidtagoriginaldisplayname-canonical-property.md) **PR_ORIGINAL_ENTRYID** [(PidTagOriginalEntryId)](pidtagoriginalentryid-canonical-property.md)и **PR_ORIGINAL_SEARCH_KEY** [(PidTagOriginalSearchKey)](pidtagoriginalsearchkey-canonical-property.md)для каждого члена этого списка рассылки.  
   
- **PR_DISCRETE_VALUES** не следует устанавливать для записи получателя отчетов о ненастроений, кроме списка рассылки. 
+ **PR_DISCRETE_VALUES** не следует устанавливать для любой записи получателя отчетов о несделаний, кроме списка рассылки. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -52,7 +52,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -64,5 +64,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

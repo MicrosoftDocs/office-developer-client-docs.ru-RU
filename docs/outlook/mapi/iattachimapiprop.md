@@ -23,29 +23,29 @@ ms.locfileid: "33409092"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Поддерживает и предоставляет доступ к свойствам вложений в сообщениях. Интерфейс **IAttach** не имеет собственных уникальных методов. Дополнительные сведения об использовании вложений см. в таблицах вложений и [вложений](attachment-tables.md) [MAPI.](mapi-attachments.md) 
+Поддерживает и предоставляет доступ к свойствам вложений в сообщениях. Интерфейс **IAttach** не имеет уникальных методов. Дополнительные сведения об использовании вложений см. в [таблице MAPI Attachments](mapi-attachments.md) and [Attachment Tables.](attachment-tables.md) 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Выставим:  <br/> |Объекты вложений  <br/> |
-|Реализовано в:  <br/> |Поставщики store сообщений  <br/> |
+|Подвергается:  <br/> |Объекты вложения  <br/> |
+|Реализовано в:  <br/> |Поставщики магазинов сообщений  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IAttachment  <br/> |
 |Тип указателя:  <br/> |LPATTACH  <br/> |
-|Модель транзакций:  <br/> |Transacted  <br/> |
+|Модель транзакции:  <br/> |Transacted  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 Этот интерфейс не имеет уникальных методов.
   
 |**Обязательные свойства**|**Access**|
 |:-----|:-----|
-|**PR_OBJECT_TYPE** ([PidTagObjectType)](pidtagobjecttype-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_ATTACH_METHOD** ([PidTagAttachMethod)](pidtagattachmethod-canonical-property.md)  <br/> |Чтение и запись  <br/> |
-|**PR_RENDERING_POSITION** ([PidTagRenderingPosition)](pidtagrenderingposition-canonical-property.md)  <br/> |Чтение и запись  <br/> |
+|**PR_OBJECT_TYPE** [(PidTagObjectType)](pidtagobjecttype-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_ATTACH_METHOD** [(PidTagAttachMethod)](pidtagattachmethod-canonical-property.md)  <br/> |Чтение и запись  <br/> |
+|**PR_RENDERING_POSITION** [(PidTagRenderingPosition)](pidtagrenderingposition-canonical-property.md)  <br/> |Чтение и запись  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -23,17 +23,17 @@ ms.locfileid: "32357990"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает отображаемую фамилию другого факс-адреса контакта.
+Указывает имя отображения другого факса контакта.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidFax3DisplayName  <br/> |
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x000080D0  <br/> |
+|Long ID (LID):  <br/> |0x000080D0  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -41,13 +41,13 @@ ms.locfileid: "32357990"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения определений наборов свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для контактов и личных списков рассылки.
+> Указывает свойства и операции, допустимые для контактов и личных списков рассылки.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

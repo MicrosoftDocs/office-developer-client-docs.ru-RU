@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm625
 localization_priority: Normal
 ms.assetid: e9a640f4-0af0-317c-b77b-f32c651e87b4
-description: Блокирует форматирование фигуры, поэтому ее нельзя изменить.
+description: Блокирует форматирование фигуры, поэтому ее невозможно изменить.
 ms.openlocfilehash: e0d1bb8a65b8087136e57bb46ad9f5363da30030
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33409680"
 ---
 # <a name="lockformat-cell-protection-section"></a>LockFormat Cell (Protection Section)
 
-Блокирует форматирование фигуры, поэтому ее нельзя изменить.
+Блокирует форматирование фигуры, поэтому ее невозможно изменить.
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Форматирование нельзя изменить.  <br/> |
+| TRUE  <br/> | Форматирование не может быть изменено.  <br/> |
 | FALSE  <br/> | Форматирование можно изменить.  <br/> |
    
 ## <a name="remarks"></a>Примечания

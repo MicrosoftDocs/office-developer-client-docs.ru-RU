@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251227
 localization_priority: Normal
 ms.assetid: 04b0fa5b-1680-cfe2-6aaf-0502ad196027
-description: Блокирует группу, чтобы ее нельзя было отгруппировать.
+description: Блокирует группу так, чтобы ее нельзя было разгруппировать.
 ms.openlocfilehash: 0cb2c0653780dcb653e5903faaaa0ebf30ea9d69
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33404311"
 ---
 # <a name="lockgroup-cell-protection-section"></a>LockGroup Cell (Protection Section)
 
-Блокирует группу, чтобы ее нельзя было отгруппировать.
+Блокирует группу так, чтобы ее нельзя было разгруппировать.
   
 |**Значение**|**Описание**|
 |:-----|:-----|
@@ -27,7 +27,7 @@ ms.locfileid: "33404311"
    
 ## <a name="remarks"></a>Примечания
 
-Установка значения TRUE для LockGroupCell также предотвращает удаление всех фигур, которые являются членами группы.
+Установка значения LockGroupCell true также предотвращает удаление фигур, входящего в группу.
   
 Чтобы получить ссылку на ячейку LockGroup по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте: 
   

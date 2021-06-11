@@ -23,14 +23,14 @@ ms.locfileid: "33405515"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит список атрибутов для свойств объекта. 
+Содержит список атрибутов свойств объекта. 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Imessage.h  <br/> |
-|Связанные макросы:  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md) <br/> |
+|Связанные макрос:  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -61,7 +61,7 @@ typedef struct
     
 ## <a name="remarks"></a>Примечания
 
-Структура **SPropAttrArray** используется объектами данных свойств, которые реализуют [интерфейс IPropData : IMAPIProp.](ipropdataimapiprop.md) Он также используется реализацией [IMAPIMessageSite в MAPI : IUnknown,](imapimessagesiteiunknown.md) основанной на структурированном хранилище. 
+Структура **SPropAttrArray** используется объектами данных свойств, реализуя [интерфейс IPropData : IMAPIProp.](ipropdataimapiprop.md) Он также используется в реализации [MAPI IMAPIMessageSite: IUnknown,](imapimessagesiteiunknown.md) который основан на структурированном хранилище. 
   
 ## <a name="see-also"></a>См. также
 

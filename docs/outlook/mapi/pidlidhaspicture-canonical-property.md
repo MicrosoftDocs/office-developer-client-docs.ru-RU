@@ -23,7 +23,7 @@ ms.locfileid: "32357752"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Указывает, существует ли вложение фотографии для контакта.
   
@@ -31,13 +31,13 @@ ms.locfileid: "32357752"
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidHasPicture  <br/> |
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008015  <br/> |
+|Long ID (LID):  <br/> |0x00008015  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если это свойство существует и имеет свойство TRUE, таблица вложений контакта содержит **вложение** со свойством PR_ATTACHMENT_CONTACTPHOTO ([PidTagAttachmentContactPhoto),](pidtagattachmentcontactphoto-canonical-property.md)задаваемой true.
+Если это свойство существует и задавалось true, таблица вложений контакта содержит вложение с **свойством PR_ATTACHMENT_CONTACTPHOTO** [(PidTagAttachmentContactPhoto),](pidtagattachmentcontactphoto-canonical-property.md)задаваемой true.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32357752"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения наборов свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для контактов и личных списков рассылки.
+> Указывает свойства и операции, допустимые для контактов и личных списков рассылки.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

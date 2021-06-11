@@ -23,15 +23,15 @@ ms.locfileid: "32357626"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит строку, которая указывает основной и дополнительный номер версии приложения Outlook для элемента.
+Содержит строку, которая указывает основной и незначительный номер версии Outlook приложения для элемента.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidCurrentVersionName  <br/> |
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008554  <br/> |
+|Long ID (LID):  <br/> |0x00008554  <br/> |
 |Тип данных:  <br/> |Подлежит уточнению.  <br/> |
 |Область:  <br/> |Общие сообщения  <br/> |
    
@@ -41,7 +41,7 @@ ms.locfileid: "32357626"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения наборов свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
@@ -49,13 +49,13 @@ ms.locfileid: "32357626"
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Преобразуется между IETF RFC2445, RFC2446 и RFC2447, а также объектами встреч и собраний.
+> Преобразования между объектами IETF RFC2445, RFC2446 и RFC2447, а также объектами назначения и собраний.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
 > Кодирует и декодирует объекты сообщений и вложений в эффективное представление потока.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -71,5 +71,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

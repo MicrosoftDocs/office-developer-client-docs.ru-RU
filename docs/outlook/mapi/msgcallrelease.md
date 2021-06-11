@@ -23,15 +23,15 @@ ms.locfileid: "33405914"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Определяет функцию вызова, которая может освободить **интерфейс IStorage** после окончательного выпуска объекта **IMessage,** построенного поверх него с помощью функции [OpenIMsgOnIStg.](openimsgonistg.md) 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Imessage.h  <br/> |
-|Определяемая функция, реализованная в:  <br/> |Клиентские приложения и поставщики услуг  <br/> |
-|Определяемая функция, вызванная:  <br/> |MAPI  <br/> |
+|Определенные функции, реализованные в:  <br/> |Клиентские приложения и поставщики услуг  <br/> |
+|Определенная функция, вызванная:  <br/> |MAPI  <br/> |
    
 ```cpp
 typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
@@ -39,11 +39,11 @@ typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
   LPMESSAGE  lpMessage );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulCallerData_
   
-> [in] Содержит сведения о вызываемом приложении об **интерфейсе IMessage.** 
+> [in] Содержит сведения о вызываемом приложении **об интерфейсе IMessage.** 
     
  _lpMessage_
   
