@@ -1,5 +1,5 @@
 ---
-title: Алгоритм кодирования ИД записей и вложений
+title: Алгоритм кодирования ИД входа и Вложений
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,13 +13,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420138"
 ---
-# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a><span data-ttu-id="756d9-103">Алгоритм кодирования ИД записей и вложений</span><span class="sxs-lookup"><span data-stu-id="756d9-103">Algorithm to Encode Entry IDs and Attachment IDs</span></span>
+# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a><span data-ttu-id="5c37e-103">Алгоритм кодирования ИД входа и Вложений</span><span class="sxs-lookup"><span data-stu-id="5c37e-103">Algorithm to Encode Entry IDs and Attachment IDs</span></span>
 
   
   
-<span data-ttu-id="756d9-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="756d9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5c37e-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5c37e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="756d9-105">Поставщик магазина может отправить в качестве части URL-адреса (MAPI) ИД записи и ид вложения в обработчик протокола MAPI, чтобы определить объект, готовый к индексации.</span><span class="sxs-lookup"><span data-stu-id="756d9-105">A store provider can send as part of a MAPI Uniform Resource Locator (URL) an entry ID and an attachment ID to the MAPI Protocol Handler to identify an object that is ready for indexing.</span></span> <span data-ttu-id="756d9-106">Поставщик магазина кодирует ИД записи и код вложения в виде строк Юникода.</span><span class="sxs-lookup"><span data-stu-id="756d9-106">The store provider encodes the entry ID and attachment ID as Unicode strings.</span></span> <span data-ttu-id="756d9-107">В этом разделе показан алгоритм, который создает компактное представление ИД записи или ид вложения.</span><span class="sxs-lookup"><span data-stu-id="756d9-107">This topic shows an algorithm that generates a compact representation of the entry ID or attachment ID.</span></span>
+<span data-ttu-id="5c37e-105">Поставщик магазина может отправить в рамках единого локатора ресурсов MAPI (URL-адрес) ID записи и ID вложения в обработчик протокола MAPI, чтобы определить объект, готовый к индексации.</span><span class="sxs-lookup"><span data-stu-id="5c37e-105">A store provider can send as part of a MAPI Uniform Resource Locator (URL) an entry ID and an attachment ID to the MAPI Protocol Handler to identify an object that is ready for indexing.</span></span> <span data-ttu-id="5c37e-106">Поставщик магазина кодирует ID записи и код вложения как строки Юникод.</span><span class="sxs-lookup"><span data-stu-id="5c37e-106">The store provider encodes the entry ID and attachment ID as Unicode strings.</span></span> <span data-ttu-id="5c37e-107">В этом разделе показан алгоритм, который создает компактное представление ID или ID вложения.</span><span class="sxs-lookup"><span data-stu-id="5c37e-107">This topic shows an algorithm that generates a compact representation of the entry ID or attachment ID.</span></span>
   
 ```cpp
 const WORD kwBaseOffset = 0xAC00;  // Hangul char range (AC00-D7AF) 
@@ -52,11 +52,11 @@ LPWSTR EncodeID(ULONG cbEID, LPENTRYID rgbID)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="756d9-108">См. также</span><span class="sxs-lookup"><span data-stu-id="756d9-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5c37e-108">См. также</span><span class="sxs-lookup"><span data-stu-id="5c37e-108">See also</span></span>
 
 
 
-[<span data-ttu-id="756d9-109">Об Notification-Based Store</span><span class="sxs-lookup"><span data-stu-id="756d9-109">About Notification-Based Store Indexing</span></span>](about-notification-based-store-indexing.md)
+[<span data-ttu-id="5c37e-109">Индексация Notification-Based магазина</span><span class="sxs-lookup"><span data-stu-id="5c37e-109">About Notification-Based Store Indexing</span></span>](about-notification-based-store-indexing.md)
   
-[<span data-ttu-id="756d9-110">Url-адреса MAPI для Notification-Based индексации</span><span class="sxs-lookup"><span data-stu-id="756d9-110">About MAPI URLs for Notification-Based Indexing</span></span>](about-mapi-urls-for-notification-based-indexing.md)
+[<span data-ttu-id="5c37e-110">О URL-адресах MAPI для Notification-Based индексации</span><span class="sxs-lookup"><span data-stu-id="5c37e-110">About MAPI URLs for Notification-Based Indexing</span></span>](about-mapi-urls-for-notification-based-indexing.md)
 

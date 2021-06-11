@@ -19,42 +19,42 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422721"
 ---
-# <a name="pidtagphysicaldeliverybureaufaxdelivery-canonical-property"></a><span data-ttu-id="8c5aa-103">Каноническое свойство PidTagPhysicalDeliveryBureauFaxDelivery</span><span class="sxs-lookup"><span data-stu-id="8c5aa-103">PidTagPhysicalDeliveryBureauFaxDelivery Canonical Property</span></span>
+# <a name="pidtagphysicaldeliverybureaufaxdelivery-canonical-property"></a><span data-ttu-id="854a4-103">Каноническое свойство PidTagPhysicalDeliveryBureauFaxDelivery</span><span class="sxs-lookup"><span data-stu-id="854a4-103">PidTagPhysicalDeliveryBureauFaxDelivery Canonical Property</span></span>
 
   
   
-<span data-ttu-id="8c5aa-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8c5aa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="854a4-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="854a4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8c5aa-105">Содержит true, если система обмена сообщениями должна использовать факсимили для физической доставки этого сообщения.</span><span class="sxs-lookup"><span data-stu-id="8c5aa-105">Contains TRUE if the messaging system should use a fax bureau for physical delivery of this message.</span></span>
+<span data-ttu-id="854a4-105">Содержит TRUE, если система обмена сообщениями должна использовать бюро факсов для физической доставки этого сообщения.</span><span class="sxs-lookup"><span data-stu-id="854a4-105">Contains TRUE if the messaging system should use a fax bureau for physical delivery of this message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8c5aa-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="8c5aa-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="8c5aa-107">PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY</span><span class="sxs-lookup"><span data-stu-id="8c5aa-107">PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY</span></span>  <br/> |
-|<span data-ttu-id="8c5aa-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="8c5aa-108">Identifier:</span></span>  <br/> |<span data-ttu-id="8c5aa-109">0x0C0A</span><span class="sxs-lookup"><span data-stu-id="8c5aa-109">0x0C0A</span></span>  <br/> |
-|<span data-ttu-id="8c5aa-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="8c5aa-110">Data type:</span></span>  <br/> |<span data-ttu-id="8c5aa-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="8c5aa-111">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="8c5aa-112">Область:</span><span class="sxs-lookup"><span data-stu-id="8c5aa-112">Area:</span></span>  <br/> |<span data-ttu-id="8c5aa-113">Получатель MAPI</span><span class="sxs-lookup"><span data-stu-id="8c5aa-113">MAPI recipient</span></span>  <br/> |
+|<span data-ttu-id="854a4-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="854a4-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="854a4-107">PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY</span><span class="sxs-lookup"><span data-stu-id="854a4-107">PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY</span></span>  <br/> |
+|<span data-ttu-id="854a4-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="854a4-108">Identifier:</span></span>  <br/> |<span data-ttu-id="854a4-109">0x0C0A</span><span class="sxs-lookup"><span data-stu-id="854a4-109">0x0C0A</span></span>  <br/> |
+|<span data-ttu-id="854a4-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="854a4-110">Data type:</span></span>  <br/> |<span data-ttu-id="854a4-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="854a4-111">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="854a4-112">Область:</span><span class="sxs-lookup"><span data-stu-id="854a4-112">Area:</span></span>  <br/> |<span data-ttu-id="854a4-113">Получатель MAPI</span><span class="sxs-lookup"><span data-stu-id="854a4-113">MAPI recipient</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="8c5aa-114">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="8c5aa-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="854a4-114">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="854a4-114">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="8c5aa-115">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="8c5aa-115">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="854a4-115">Файлы заголовки</span><span class="sxs-lookup"><span data-stu-id="854a4-115">Header files</span></span>
 
-<span data-ttu-id="8c5aa-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="8c5aa-116">Mapidefs.h</span></span>
+<span data-ttu-id="854a4-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="854a4-116">Mapidefs.h</span></span>
   
-> <span data-ttu-id="8c5aa-117">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="8c5aa-117">Provides data type definitions.</span></span>
+> <span data-ttu-id="854a4-117">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="854a4-117">Provides data type definitions.</span></span>
     
-<span data-ttu-id="8c5aa-118">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="8c5aa-118">Mapitags.h</span></span>
+<span data-ttu-id="854a4-118">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="854a4-118">Mapitags.h</span></span>
   
-> <span data-ttu-id="8c5aa-119">Содержит определения свойств, перечисленных как связанные свойства.</span><span class="sxs-lookup"><span data-stu-id="8c5aa-119">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="854a4-119">Содержит определения свойств, перечисленных в качестве связанных свойств.</span><span class="sxs-lookup"><span data-stu-id="854a4-119">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="8c5aa-120">См. также</span><span class="sxs-lookup"><span data-stu-id="8c5aa-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="854a4-120">См. также</span><span class="sxs-lookup"><span data-stu-id="854a4-120">See also</span></span>
 
 
 
-[<span data-ttu-id="8c5aa-121">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="8c5aa-121">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="854a4-121">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="854a4-121">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="8c5aa-122">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="8c5aa-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="854a4-122">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="854a4-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="8c5aa-123">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="8c5aa-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="854a4-123">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="854a4-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="8c5aa-124">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="8c5aa-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="854a4-124">Сопоставление имен MAPI с каноническими именами свойств</span><span class="sxs-lookup"><span data-stu-id="854a4-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

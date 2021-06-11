@@ -15,12 +15,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417611"
 ---
-# <a name="mapi-application-development"></a><span data-ttu-id="fcc2f-103">���������� ���������� MAPI</span><span class="sxs-lookup"><span data-stu-id="fcc2f-103">MAPI Application Development</span></span>
+# <a name="mapi-application-development"></a><span data-ttu-id="4f835-103">���������� ���������� MAPI</span><span class="sxs-lookup"><span data-stu-id="4f835-103">MAPI Application Development</span></span>
 
   
   
-<span data-ttu-id="fcc2f-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fcc2f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="4f835-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4f835-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="fcc2f-105">Разделы этого раздела относятся к разработчикам клиентских приложений и поставщиков услуг.</span><span class="sxs-lookup"><span data-stu-id="fcc2f-105">The topics in this section apply to developers of client applications and service providers.</span></span> <span data-ttu-id="fcc2f-106">Эти разделы упорядочены по важности.</span><span class="sxs-lookup"><span data-stu-id="fcc2f-106">These topics are arranged in order of importance.</span></span> <span data-ttu-id="fcc2f-107">То есть темы, критически важные для всех программистов, отображаются первыми, а темы, которые имеют минимальную важность или не применимы к всем программистам, отображаются последними.</span><span class="sxs-lookup"><span data-stu-id="fcc2f-107">That is, topics that are critical to all programmers appear first and topics that are either of minimal importance or do not apply to all programmers appear last.</span></span>
+<span data-ttu-id="4f835-105">Темы в этом разделе применимы к разработчикам клиентских приложений и поставщиков услуг.</span><span class="sxs-lookup"><span data-stu-id="4f835-105">The topics in this section apply to developers of client applications and service providers.</span></span> <span data-ttu-id="4f835-106">Эти темы расположены в порядке важности.</span><span class="sxs-lookup"><span data-stu-id="4f835-106">These topics are arranged in order of importance.</span></span> <span data-ttu-id="4f835-107">То есть темы, критически важные для всех программистов, отображаются первыми, а темы, которые имеют минимальное значение или не применяются к всем программистам, отображаются последними.</span><span class="sxs-lookup"><span data-stu-id="4f835-107">That is, topics that are critical to all programmers appear first and topics that are either of minimal importance or do not apply to all programmers appear last.</span></span>
   
 

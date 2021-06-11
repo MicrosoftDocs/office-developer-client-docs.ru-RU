@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422602"
 ---
-# <a name="data-types-account-management-api"></a><span data-ttu-id="a1a7e-103">Типы данных (API управления учетной записью)</span><span class="sxs-lookup"><span data-stu-id="a1a7e-103">Data types (Account management API)</span></span>
+# <a name="data-types-account-management-api"></a><span data-ttu-id="b9223-103">Типы данных (API управления учетной записью)</span><span class="sxs-lookup"><span data-stu-id="b9223-103">Data types (Account management API)</span></span>
 
-<span data-ttu-id="a1a7e-104">В этом разделе описываются типы данных в API управления учетной записью.</span><span class="sxs-lookup"><span data-stu-id="a1a7e-104">This section describes the data types in the Account Management API.</span></span>
+<span data-ttu-id="b9223-104">В этом разделе описываются типы данных в API управления учетной записью.</span><span class="sxs-lookup"><span data-stu-id="b9223-104">This section describes the data types in the Account Management API.</span></span>
   
-|<span data-ttu-id="a1a7e-105">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="a1a7e-105">**Data type**</span></span>|<span data-ttu-id="a1a7e-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="a1a7e-106">**Description**</span></span>|
+|<span data-ttu-id="b9223-105">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="b9223-105">**Data type**</span></span>|<span data-ttu-id="b9223-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b9223-106">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="a1a7e-107">ACCT_BIN</span><span class="sxs-lookup"><span data-stu-id="a1a7e-107">ACCT_BIN</span></span>](acct_bin.md) <br/> |<span data-ttu-id="a1a7e-108">Переменная этого типа данных содержит двоичное значение.</span><span class="sxs-lookup"><span data-stu-id="a1a7e-108">A variable of this data type holds a binary value.</span></span>  <br/> |
-|[<span data-ttu-id="a1a7e-109">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="a1a7e-109">ACCT_VARIANT</span></span>](acct_variant.md) <br/> |<span data-ttu-id="a1a7e-110">Переменная этого типа данных содержит значение свойства, которое имеет тип данных variant.</span><span class="sxs-lookup"><span data-stu-id="a1a7e-110">A variable of this data type holds the value of a property, which is of a variant data type.</span></span>  <br/> |
+|[<span data-ttu-id="b9223-107">ACCT_BIN</span><span class="sxs-lookup"><span data-stu-id="b9223-107">ACCT_BIN</span></span>](acct_bin.md) <br/> |<span data-ttu-id="b9223-108">Переменная этого типа данных имеет двоичное значение.</span><span class="sxs-lookup"><span data-stu-id="b9223-108">A variable of this data type holds a binary value.</span></span>  <br/> |
+|[<span data-ttu-id="b9223-109">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="b9223-109">ACCT_VARIANT</span></span>](acct_variant.md) <br/> |<span data-ttu-id="b9223-110">Переменная этого типа данных содержит значение свойства, которое имеет тип данных варианта.</span><span class="sxs-lookup"><span data-stu-id="b9223-110">A variable of this data type holds the value of a property, which is of a variant data type.</span></span>  <br/> |
    
 

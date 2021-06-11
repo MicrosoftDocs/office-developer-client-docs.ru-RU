@@ -15,15 +15,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419886"
 ---
-# <a name="upread"></a><span data-ttu-id="76620-103">UPREAD</span><span class="sxs-lookup"><span data-stu-id="76620-103">UPREAD</span></span>
+# <a name="upread"></a><span data-ttu-id="2118f-103">UPREAD</span><span class="sxs-lookup"><span data-stu-id="2118f-103">UPREAD</span></span>
 
   
   
-<span data-ttu-id="76620-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="76620-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2118f-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2118f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="76620-105">Сведения о загрузке состояния чтения элементов во время [отправки состояния чтения.](upload-read-status-state.md)</span><span class="sxs-lookup"><span data-stu-id="76620-105">Information for uploading the read state of items during the [upload read status state](upload-read-status-state.md).</span></span>
+<span data-ttu-id="2118f-105">Сведения о загрузке состояния чтения элементов во время [состояния состояния чтения.](upload-read-status-state.md)</span><span class="sxs-lookup"><span data-stu-id="2118f-105">Information for uploading the read state of items during the [upload read status state](upload-read-status-state.md).</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="76620-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="76620-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="2118f-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="2118f-106">Quick info</span></span>
 
 ```cpp
 struct UPREAD 
@@ -33,25 +33,25 @@ struct UPREAD
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="76620-107">Элементы</span><span class="sxs-lookup"><span data-stu-id="76620-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="2118f-107">Элементы</span><span class="sxs-lookup"><span data-stu-id="2118f-107">Members</span></span>
 
- <span data-ttu-id="76620-108">_pupre_</span><span class="sxs-lookup"><span data-stu-id="76620-108">_pupre_</span></span>
+ <span data-ttu-id="2118f-108">_pupre_</span><span class="sxs-lookup"><span data-stu-id="2118f-108">_pupre_</span></span>
   
->  <span data-ttu-id="76620-109">[out] Вектор **[записей UPREADE.](upreade.md)**</span><span class="sxs-lookup"><span data-stu-id="76620-109">[out] Vector of **[UPREADE](upreade.md)** entries.</span></span> 
+>  <span data-ttu-id="2118f-109">[вышел] Вектор **[записей UPREADE.](upreade.md)**</span><span class="sxs-lookup"><span data-stu-id="2118f-109">[out] Vector of **[UPREADE](upreade.md)** entries.</span></span> 
     
- <span data-ttu-id="76620-110">_cEnt_</span><span class="sxs-lookup"><span data-stu-id="76620-110">_cEnt_</span></span>
+ <span data-ttu-id="2118f-110">_cEnt_</span><span class="sxs-lookup"><span data-stu-id="2118f-110">_cEnt_</span></span>
   
->  <span data-ttu-id="76620-111">[out] Количество **записей UPREADE.**</span><span class="sxs-lookup"><span data-stu-id="76620-111">[out] Number of **UPREADE** entries.</span></span> 
+>  <span data-ttu-id="2118f-111">[вышел] Количество **записей UPREADE.**</span><span class="sxs-lookup"><span data-stu-id="2118f-111">[out] Number of **UPREADE** entries.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="76620-112">См. также</span><span class="sxs-lookup"><span data-stu-id="76620-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2118f-112">См. также</span><span class="sxs-lookup"><span data-stu-id="2118f-112">See also</span></span>
 
 
 
-[<span data-ttu-id="76620-113">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="76620-113">About the Replication API</span></span>](about-the-replication-api.md)
+[<span data-ttu-id="2118f-113">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="2118f-113">About the Replication API</span></span>](about-the-replication-api.md)
   
-[<span data-ttu-id="76620-114">Сведения о конечном автомате репликации</span><span class="sxs-lookup"><span data-stu-id="76620-114">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+[<span data-ttu-id="2118f-114">Сведения о конечном автомате репликации</span><span class="sxs-lookup"><span data-stu-id="2118f-114">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
   
-[<span data-ttu-id="76620-115">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="76620-115">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="2118f-115">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="2118f-115">MAPI Constants</span></span>](mapi-constants.md)
   
-[<span data-ttu-id="76620-116">UPREADE</span><span class="sxs-lookup"><span data-stu-id="76620-116">UPREADE</span></span>](upreade.md)
+[<span data-ttu-id="2118f-116">UPREADE</span><span class="sxs-lookup"><span data-stu-id="2118f-116">UPREADE</span></span>](upreade.md)
 
