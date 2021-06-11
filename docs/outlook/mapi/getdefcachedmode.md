@@ -15,46 +15,46 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412746"
 ---
-# <a name="getdefcachedmode"></a><span data-ttu-id="386cb-103">GetDefCachedMode</span><span class="sxs-lookup"><span data-stu-id="386cb-103">GetDefCachedMode</span></span>
+# <a name="getdefcachedmode"></a><span data-ttu-id="4cbbd-103">GetDefCachedMode</span><span class="sxs-lookup"><span data-stu-id="4cbbd-103">GetDefCachedMode</span></span>
 
   
   
-<span data-ttu-id="386cb-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="386cb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="4cbbd-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4cbbd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="386cb-105">Указывает, включен ли режим кэшации Exchange для частного магазина Exchange и является ли этот режим принудительно применен политикой.</span><span class="sxs-lookup"><span data-stu-id="386cb-105">Indicates whether Cached Exchange Mode for the private Exchange store is enabled, and whether this is enforced by policy.</span></span>
+<span data-ttu-id="4cbbd-105">Указывает, включен ли кэш Exchange режим для частного Exchange магазина, и выполняется ли это политикой.</span><span class="sxs-lookup"><span data-stu-id="4cbbd-105">Indicates whether Cached Exchange Mode for the private Exchange store is enabled, and whether this is enforced by policy.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="386cb-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="386cb-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="4cbbd-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="4cbbd-106">Quick info</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="386cb-107">Экспортируется по:</span><span class="sxs-lookup"><span data-stu-id="386cb-107">Exported by:</span></span>  <br/> |<span data-ttu-id="386cb-108">msmapi32.dll</span><span class="sxs-lookup"><span data-stu-id="386cb-108">msmapi32.dll</span></span>  <br/> |
-|<span data-ttu-id="386cb-109">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="386cb-109">Called by:</span></span>  <br/> |<span data-ttu-id="386cb-110">Клиент</span><span class="sxs-lookup"><span data-stu-id="386cb-110">Client</span></span>  <br/> |
-|<span data-ttu-id="386cb-111">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="386cb-111">Implemented by:</span></span>  <br/> |<span data-ttu-id="386cb-112">Outlook</span><span class="sxs-lookup"><span data-stu-id="386cb-112">Outlook</span></span>  <br/> |
+|<span data-ttu-id="4cbbd-107">Экспортируемая по:</span><span class="sxs-lookup"><span data-stu-id="4cbbd-107">Exported by:</span></span>  <br/> |<span data-ttu-id="4cbbd-108">msmapi32.dll</span><span class="sxs-lookup"><span data-stu-id="4cbbd-108">msmapi32.dll</span></span>  <br/> |
+|<span data-ttu-id="4cbbd-109">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="4cbbd-109">Called by:</span></span>  <br/> |<span data-ttu-id="4cbbd-110">Клиент</span><span class="sxs-lookup"><span data-stu-id="4cbbd-110">Client</span></span>  <br/> |
+|<span data-ttu-id="4cbbd-111">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="4cbbd-111">Implemented by:</span></span>  <br/> |<span data-ttu-id="4cbbd-112">Outlook</span><span class="sxs-lookup"><span data-stu-id="4cbbd-112">Outlook</span></span>  <br/> |
    
 ```cpp
 BOOL GetDefCachedMode(BOOL *pfPolicy); 
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="386cb-113">Параметры</span><span class="sxs-lookup"><span data-stu-id="386cb-113">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="4cbbd-113">Parameters</span><span class="sxs-lookup"><span data-stu-id="4cbbd-113">Parameters</span></span>
 
- <span data-ttu-id="386cb-114">_pfPolicy_</span><span class="sxs-lookup"><span data-stu-id="386cb-114">_pfPolicy_</span></span>
+ <span data-ttu-id="4cbbd-114">_pfPolicy_</span><span class="sxs-lookup"><span data-stu-id="4cbbd-114">_pfPolicy_</span></span>
   
-> <span data-ttu-id="386cb-115">[out] имеет значение **true,** если возвращаемого значения принудительно политики, **false,** если это не так.</span><span class="sxs-lookup"><span data-stu-id="386cb-115">[out] **true** if the return value is enforced by policy, **false** if it is not.</span></span> 
+> <span data-ttu-id="4cbbd-115">[вышел] **значение true,** если возвращаемая величина обеспечивается политикой, **ложной,** если это не так.</span><span class="sxs-lookup"><span data-stu-id="4cbbd-115">[out] **true** if the return value is enforced by policy, **false** if it is not.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="386cb-116">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="386cb-116">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="4cbbd-116">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="4cbbd-116">Return values</span></span>
 
- <span data-ttu-id="386cb-117">**true**</span><span class="sxs-lookup"><span data-stu-id="386cb-117">**true**</span></span>
+ <span data-ttu-id="4cbbd-117">**true**</span><span class="sxs-lookup"><span data-stu-id="4cbbd-117">**true**</span></span>
   
-- <span data-ttu-id="386cb-118">Кэшинг включен.</span><span class="sxs-lookup"><span data-stu-id="386cb-118">Caching is enabled.</span></span>
+- <span data-ttu-id="4cbbd-118">Кэшинг включен.</span><span class="sxs-lookup"><span data-stu-id="4cbbd-118">Caching is enabled.</span></span>
     
- <span data-ttu-id="386cb-119">**false**</span><span class="sxs-lookup"><span data-stu-id="386cb-119">**false**</span></span>
+ <span data-ttu-id="4cbbd-119">**false**</span><span class="sxs-lookup"><span data-stu-id="4cbbd-119">**false**</span></span>
   
-- <span data-ttu-id="386cb-120">Кэшинг отключен.</span><span class="sxs-lookup"><span data-stu-id="386cb-120">Caching is disabled.</span></span>
+- <span data-ttu-id="4cbbd-120">Кэшинг отключен.</span><span class="sxs-lookup"><span data-stu-id="4cbbd-120">Caching is disabled.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="386cb-121">См. также</span><span class="sxs-lookup"><span data-stu-id="386cb-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4cbbd-121">См. также</span><span class="sxs-lookup"><span data-stu-id="4cbbd-121">See also</span></span>
 
 
 
-[<span data-ttu-id="386cb-122">GetDefCachedModeDownloadPubFoldFavs</span><span class="sxs-lookup"><span data-stu-id="386cb-122">GetDefCachedModeDownloadPubFoldFavs</span></span>](getdefcachedmodedownloadpubfoldfavs.md)
+[<span data-ttu-id="4cbbd-122">GetDefCachedModeDownloadPubFoldFavs</span><span class="sxs-lookup"><span data-stu-id="4cbbd-122">GetDefCachedModeDownloadPubFoldFavs</span></span>](getdefcachedmodedownloadpubfoldfavs.md)
 

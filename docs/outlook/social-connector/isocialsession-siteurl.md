@@ -15,19 +15,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416064"
 ---
-# <a name="isocialsessionsiteurl"></a><span data-ttu-id="3065e-103">ISocialSession::SiteUrl</span><span class="sxs-lookup"><span data-stu-id="3065e-103">ISocialSession::SiteUrl</span></span>
+# <a name="isocialsessionsiteurl"></a><span data-ttu-id="2bbf7-103">ISocialSession::SiteUrl</span><span class="sxs-lookup"><span data-stu-id="2bbf7-103">ISocialSession::SiteUrl</span></span>
 
-<span data-ttu-id="3065e-104">Задает URL-адрес сайта социальной сети.</span><span class="sxs-lookup"><span data-stu-id="3065e-104">Sets the social network site URL.</span></span> 
+<span data-ttu-id="2bbf7-104">Задает URL-адрес сайта социальной сети.</span><span class="sxs-lookup"><span data-stu-id="2bbf7-104">Sets the social network site URL.</span></span> 
   
 ```cpp
 [propput] HRESULT _stdcall siteUrl([in] BSTR rhs);
 ```
 
-## <a name="property-value"></a><span data-ttu-id="3065e-105">Значение свойства</span><span class="sxs-lookup"><span data-stu-id="3065e-105">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="2bbf7-105">Значение свойства</span><span class="sxs-lookup"><span data-stu-id="2bbf7-105">Property value</span></span>
 
-<span data-ttu-id="3065e-106">Строка, представляюная URL-адрес сайта социальной сети.</span><span class="sxs-lookup"><span data-stu-id="3065e-106">A string that represents a social network site URL.</span></span>
+<span data-ttu-id="2bbf7-106">Строка, представляюная URL-адрес сайта социальной сети.</span><span class="sxs-lookup"><span data-stu-id="2bbf7-106">A string that represents a social network site URL.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="3065e-107">См. также</span><span class="sxs-lookup"><span data-stu-id="3065e-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2bbf7-107">См. также</span><span class="sxs-lookup"><span data-stu-id="2bbf7-107">See also</span></span>
 
-- [<span data-ttu-id="3065e-108">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3065e-108">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
+- [<span data-ttu-id="2bbf7-108">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="2bbf7-108">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
 

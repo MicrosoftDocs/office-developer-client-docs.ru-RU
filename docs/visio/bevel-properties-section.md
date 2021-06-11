@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417240"
 ---
-# <a name="bevel-properties-section"></a><span data-ttu-id="6f519-103">Bevel Properties Section</span><span class="sxs-lookup"><span data-stu-id="6f519-103">Bevel Properties Section</span></span>
+# <a name="bevel-properties-section"></a><span data-ttu-id="875fe-103">Bevel Properties Section</span><span class="sxs-lookup"><span data-stu-id="875fe-103">Bevel Properties Section</span></span>
 
-<span data-ttu-id="6f519-104">Показывает атрибуты для любых эффектов bevel, примененных к фигуре.</span><span class="sxs-lookup"><span data-stu-id="6f519-104">Shows the attributes for any bevel effects applied to the shape.</span></span> 
+<span data-ttu-id="875fe-104">Показывает атрибуты для любых эффектов bevel, примененных к фигуре.</span><span class="sxs-lookup"><span data-stu-id="875fe-104">Shows the attributes for any bevel effects applied to the shape.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="6f519-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="6f519-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="875fe-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="875fe-105">Remarks</span></span>
 
-<span data-ttu-id="6f519-106">Вы можете применить багетную к  фигуре в области "Фигура формата" (параметры  >    >    >  **3D**  Bevel для стилей домашней фигуры) или внести изменения в ячейки в разделе "Свойства багетной области" таблицы свойств фигуры.</span><span class="sxs-lookup"><span data-stu-id="6f519-106">You can apply a bevel to a shape in the **Format Shape** pane (**Home** > **Shape Styles** > **Bevel** > **3-D Options**, or by making changes to the cells in the **Bevel Properties** section of the ShapeSheet.</span></span> 
+<span data-ttu-id="875fe-106">Вы можете применить к фигуре фигуру в области **Формы** формата (Стили домашней формы  >    >  **Bevel**  >  **3-D Options)** или внести изменения в ячейки в разделе **Bevel Properties** в ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="875fe-106">You can apply a bevel to a shape in the **Format Shape** pane (**Home** > **Shape Styles** > **Bevel** > **3-D Options**, or by making changes to the cells in the **Bevel Properties** section of the ShapeSheet.</span></span> 
   
 

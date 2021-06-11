@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414538"
 ---
-# <a name="scuncfromlocalpath"></a><span data-ttu-id="26778-103">ScUNCFromLocalPath</span><span class="sxs-lookup"><span data-stu-id="26778-103">ScUNCFromLocalPath</span></span>
+# <a name="scuncfromlocalpath"></a><span data-ttu-id="0cf4c-103">ScUNCFromLocalPath</span><span class="sxs-lookup"><span data-stu-id="0cf4c-103">ScUNCFromLocalPath</span></span>
 
   
   
-<span data-ttu-id="26778-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="26778-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="0cf4c-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0cf4c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="26778-105">Находит аналог UNC-пути для данного локального пути.</span><span class="sxs-lookup"><span data-stu-id="26778-105">Locates a universal naming convention (UNC) path counterpart to the given local path.</span></span>
+<span data-ttu-id="0cf4c-105">Находит аналог пути универсальной конвенции имен (UNC) для данного локального пути.</span><span class="sxs-lookup"><span data-stu-id="0cf4c-105">Locates a universal naming convention (UNC) path counterpart to the given local path.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="26778-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="26778-106">Header file:</span></span>  <br/> |<span data-ttu-id="26778-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="26778-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="26778-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="26778-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="26778-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="26778-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="26778-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="26778-110">Called by:</span></span>  <br/> |<span data-ttu-id="26778-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="26778-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="0cf4c-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="0cf4c-106">Header file:</span></span>  <br/> |<span data-ttu-id="0cf4c-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="0cf4c-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="0cf4c-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="0cf4c-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="0cf4c-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="0cf4c-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="0cf4c-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="0cf4c-110">Called by:</span></span>  <br/> |<span data-ttu-id="0cf4c-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="0cf4c-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 SCODE ScUNCFromLocalPath(
@@ -41,41 +41,41 @@ SCODE ScUNCFromLocalPath(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="26778-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="26778-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0cf4c-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="0cf4c-112">Parameters</span></span>
 
- <span data-ttu-id="26778-113">_szLocal_</span><span class="sxs-lookup"><span data-stu-id="26778-113">_szLocal_</span></span>
+ <span data-ttu-id="0cf4c-113">_szLocal_</span><span class="sxs-lookup"><span data-stu-id="0cf4c-113">_szLocal_</span></span>
   
-> <span data-ttu-id="26778-114">[in] Путь в формате [ _диск:_ путь ] файла \[ или каталога.</span><span class="sxs-lookup"><span data-stu-id="26778-114">[in] A path in the format [ _drive:_]\[ _path_] of a file or directory.</span></span>
+> <span data-ttu-id="0cf4c-114">[in] Путь в формате _[диск:_] путь ] файла \[ или каталога.</span><span class="sxs-lookup"><span data-stu-id="0cf4c-114">[in] A path in the format [ _drive:_]\[ _path_] of a file or directory.</span></span>
     
- <span data-ttu-id="26778-115">_szUNC_</span><span class="sxs-lookup"><span data-stu-id="26778-115">_szUNC_</span></span>
+ <span data-ttu-id="0cf4c-115">_szUNC_</span><span class="sxs-lookup"><span data-stu-id="0cf4c-115">_szUNC_</span></span>
   
-> <span data-ttu-id="26778-116">[out] Путь в формате [ сервер ] путь ] того же файла или каталога, что и для \\  \[  \[  _параметра szLocal._</span><span class="sxs-lookup"><span data-stu-id="26778-116">[out] A path in the format \\[ _server_]\[ _share_]\[ _path_] of the same file or directory as for the  _szLocal_ parameter.</span></span> 
+> <span data-ttu-id="0cf4c-116">[вышел] Путь в формате [server ] share ] путь ] того же файла или каталога, что и для \\  \[  \[  _параметра szLocal._</span><span class="sxs-lookup"><span data-stu-id="0cf4c-116">[out] A path in the format \\[ _server_]\[ _share_]\[ _path_] of the same file or directory as for the  _szLocal_ parameter.</span></span> 
     
- <span data-ttu-id="26778-117">_cchUNC_</span><span class="sxs-lookup"><span data-stu-id="26778-117">_cchUNC_</span></span>
+ <span data-ttu-id="0cf4c-117">_cchUNC_</span><span class="sxs-lookup"><span data-stu-id="0cf4c-117">_cchUNC_</span></span>
   
-> <span data-ttu-id="26778-118">[in] Размер буфера для строки вывода.</span><span class="sxs-lookup"><span data-stu-id="26778-118">[in] Size of the buffer for the output string.</span></span>
+> <span data-ttu-id="0cf4c-118">[in] Размер буфера для строки вывода.</span><span class="sxs-lookup"><span data-stu-id="0cf4c-118">[in] Size of the buffer for the output string.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="26778-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="26778-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0cf4c-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0cf4c-119">Return value</span></span>
 
-<span data-ttu-id="26778-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="26778-120">S_OK</span></span>
+<span data-ttu-id="0cf4c-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="0cf4c-120">S_OK</span></span>
   
-> <span data-ttu-id="26778-121">Аналог UNC-пути успешно расположен.</span><span class="sxs-lookup"><span data-stu-id="26778-121">The UNC path counterpart was successfully located.</span></span>
+> <span data-ttu-id="0cf4c-121">Успешно расположен аналог пути UNC.</span><span class="sxs-lookup"><span data-stu-id="0cf4c-121">The UNC path counterpart was successfully located.</span></span>
     
-<span data-ttu-id="26778-122">MAPI_E_INVALID_PARAMETER</span><span class="sxs-lookup"><span data-stu-id="26778-122">MAPI_E_INVALID_PARAMETER</span></span>
+<span data-ttu-id="0cf4c-122">MAPI_E_INVALID_PARAMETER</span><span class="sxs-lookup"><span data-stu-id="0cf4c-122">MAPI_E_INVALID_PARAMETER</span></span>
   
-> <span data-ttu-id="26778-123">Один или несколько параметров недопустимы.</span><span class="sxs-lookup"><span data-stu-id="26778-123">One or more parameters are invalid.</span></span>
+> <span data-ttu-id="0cf4c-123">Один или несколько параметров являются недействительными.</span><span class="sxs-lookup"><span data-stu-id="0cf4c-123">One or more parameters are invalid.</span></span>
     
-<span data-ttu-id="26778-124">MAPI_E_TOO_BIG</span><span class="sxs-lookup"><span data-stu-id="26778-124">MAPI_E_TOO_BIG</span></span>
+<span data-ttu-id="0cf4c-124">MAPI_E_TOO_BIG</span><span class="sxs-lookup"><span data-stu-id="0cf4c-124">MAPI_E_TOO_BIG</span></span>
   
->  <span data-ttu-id="26778-125">_SzUNC_ не был достаточно большим для удержания результата.</span><span class="sxs-lookup"><span data-stu-id="26778-125">_szUNC_ was not large enough to hold the result.</span></span> 
+>  <span data-ttu-id="0cf4c-125">_szUNC_ не был достаточно большим, чтобы удерживать результат.</span><span class="sxs-lookup"><span data-stu-id="0cf4c-125">_szUNC_ was not large enough to hold the result.</span></span> 
     
-<span data-ttu-id="26778-126">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="26778-126">S_FALSE</span></span>
+<span data-ttu-id="0cf4c-126">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="0cf4c-126">S_FALSE</span></span>
   
-> <span data-ttu-id="26778-127">Локальный путь уже был строкой UNC.</span><span class="sxs-lookup"><span data-stu-id="26778-127">The local path was already a UNC string.</span></span>
+> <span data-ttu-id="0cf4c-127">Локальный путь уже был строкой UNC.</span><span class="sxs-lookup"><span data-stu-id="0cf4c-127">The local path was already a UNC string.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="26778-128">См. также</span><span class="sxs-lookup"><span data-stu-id="26778-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0cf4c-128">См. также</span><span class="sxs-lookup"><span data-stu-id="0cf4c-128">See also</span></span>
 
 
 
-[<span data-ttu-id="26778-129">ScLocalPathFromUNC</span><span class="sxs-lookup"><span data-stu-id="26778-129">ScLocalPathFromUNC</span></span>](sclocalpathfromunc.md)
+[<span data-ttu-id="0cf4c-129">ScLocalPathFromUNC</span><span class="sxs-lookup"><span data-stu-id="0cf4c-129">ScLocalPathFromUNC</span></span>](sclocalpathfromunc.md)
 

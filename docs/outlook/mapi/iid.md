@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411598"
 ---
-# <a name="iid"></a><span data-ttu-id="e1673-103">IID</span><span class="sxs-lookup"><span data-stu-id="e1673-103">IID</span></span>
+# <a name="iid"></a><span data-ttu-id="04d41-103">IID</span><span class="sxs-lookup"><span data-stu-id="04d41-103">IID</span></span>
 
   
   
-<span data-ttu-id="e1673-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e1673-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="04d41-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="04d41-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e1673-105">Описывает структуру [GUID,](guid.md) используемую для описания идентификатора интерфейса MAPI.</span><span class="sxs-lookup"><span data-stu-id="e1673-105">Describes a [GUID](guid.md) structure used to describe an identifier for a MAPI interface.</span></span> 
+<span data-ttu-id="04d41-105">Описывает структуру [GUID,](guid.md) используемую для описания идентификатора интерфейса MAPI.</span><span class="sxs-lookup"><span data-stu-id="04d41-105">Describes a [GUID](guid.md) structure used to describe an identifier for a MAPI interface.</span></span> 
   
 ```cpp
 typedef struct _GUID
@@ -38,22 +38,22 @@ typedef struct _GUID
 
 ```
 
-## <a name="members"></a><span data-ttu-id="e1673-106">"Участники"</span><span class="sxs-lookup"><span data-stu-id="e1673-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="04d41-106">"Участники"</span><span class="sxs-lookup"><span data-stu-id="04d41-106">Members</span></span>
 
-<span data-ttu-id="e1673-107">См. **структуру GUID.**</span><span class="sxs-lookup"><span data-stu-id="e1673-107">See the **GUID** structure.</span></span> 
+<span data-ttu-id="04d41-107">См. **структуру GUID.**</span><span class="sxs-lookup"><span data-stu-id="04d41-107">See the **GUID** structure.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="e1673-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="e1673-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="04d41-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="04d41-108">Remarks</span></span>
 
-<span data-ttu-id="e1673-109">Структура **IID** используется для уникальной идентификации интерфейса MAPI и связываия определенного интерфейса с объектом.</span><span class="sxs-lookup"><span data-stu-id="e1673-109">An **IID** structure is used to uniquely identify a MAPI interface and to associate a particular interface with an object.</span></span> <span data-ttu-id="e1673-110">Например, когда клиент вызывает [IMAPISession::OpenEntry](imapisession-openentry.md) для открытия папки, клиент задает параметр _lpInterface,_ чтобы указать **на IID,** представляющий интерфейс [IMAPIFolder.](imapifolderimapicontainer.md)</span><span class="sxs-lookup"><span data-stu-id="e1673-110">For example, when a client calls [IMAPISession::OpenEntry](imapisession-openentry.md) to open a folder, the client sets the  _lpInterface_ parameter to point to an **IID** representing the [IMAPIFolder](imapifolderimapicontainer.md) interface.</span></span> <span data-ttu-id="e1673-111">MAPI определяет **IMAPIFolderIID** для IID_IMAPIFolder.</span><span class="sxs-lookup"><span data-stu-id="e1673-111">MAPI defines the **IMAPIFolderIID** to be IID_IMAPIFolder.</span></span> <span data-ttu-id="e1673-112">**Структуры IID** также используются для уникальной идентификации интерфейсов OLE.</span><span class="sxs-lookup"><span data-stu-id="e1673-112">**IID** structures are also used to uniquely identify OLE interfaces.</span></span> 
+<span data-ttu-id="04d41-109">Структура **IID** используется для уникальной идентификации интерфейса MAPI и связывать определенный интерфейс с объектом.</span><span class="sxs-lookup"><span data-stu-id="04d41-109">An **IID** structure is used to uniquely identify a MAPI interface and to associate a particular interface with an object.</span></span> <span data-ttu-id="04d41-110">Например, когда клиент вызывает [IMAPISession::OpenEntry](imapisession-openentry.md) для открытия папки, клиент задает параметр _lpInterface,_ чтобы указать на **IID,** представляющий интерфейс [IMAPIFolder.](imapifolderimapicontainer.md)</span><span class="sxs-lookup"><span data-stu-id="04d41-110">For example, when a client calls [IMAPISession::OpenEntry](imapisession-openentry.md) to open a folder, the client sets the  _lpInterface_ parameter to point to an **IID** representing the [IMAPIFolder](imapifolderimapicontainer.md) interface.</span></span> <span data-ttu-id="04d41-111">MAPI определяет **IMAPIFolderIID** для IID_IMAPIFolder.</span><span class="sxs-lookup"><span data-stu-id="04d41-111">MAPI defines the **IMAPIFolderIID** to be IID_IMAPIFolder.</span></span> <span data-ttu-id="04d41-112">**Структуры IID** также используются для уникальной идентификации интерфейсов OLE.</span><span class="sxs-lookup"><span data-stu-id="04d41-112">**IID** structures are also used to uniquely identify OLE interfaces.</span></span> 
   
-<span data-ttu-id="e1673-113">Все конкретные **структуры IID** для интерфейсов MAPI определены в файле загона Mapiguid.h.</span><span class="sxs-lookup"><span data-stu-id="e1673-113">All of the specific **IID** structures for the MAPI interfaces are defined in the Mapiguid.h header file.</span></span> 
+<span data-ttu-id="04d41-113">Все конкретные **структуры IID** для интерфейсов MAPI определяются в заглавной папке Mapiguid.h.</span><span class="sxs-lookup"><span data-stu-id="04d41-113">All of the specific **IID** structures for the MAPI interfaces are defined in the Mapiguid.h header file.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="e1673-114">См. также</span><span class="sxs-lookup"><span data-stu-id="e1673-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="04d41-114">См. также</span><span class="sxs-lookup"><span data-stu-id="04d41-114">See also</span></span>
 
 
 
-[<span data-ttu-id="e1673-115">GUID</span><span class="sxs-lookup"><span data-stu-id="e1673-115">GUID</span></span>](guid.md)
+[<span data-ttu-id="04d41-115">GUID</span><span class="sxs-lookup"><span data-stu-id="04d41-115">GUID</span></span>](guid.md)
 
 
-[<span data-ttu-id="e1673-116">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="e1673-116">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="04d41-116">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="04d41-116">MAPI Structures</span></span>](mapi-structures.md)
 

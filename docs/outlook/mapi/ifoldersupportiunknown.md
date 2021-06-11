@@ -19,29 +19,29 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415777"
 ---
-# <a name="ifoldersupport--iunknown"></a><span data-ttu-id="c5080-103">IFolderSupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c5080-103">IFolderSupport : IUnknown</span></span>
+# <a name="ifoldersupport--iunknown"></a><span data-ttu-id="58671-103">IFolderSupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="58671-103">IFolderSupport : IUnknown</span></span>
 
   
   
-<span data-ttu-id="c5080-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c5080-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="58671-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="58671-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c5080-105">Предоставляет сведения о поддержке общего доступа к папке.</span><span class="sxs-lookup"><span data-stu-id="c5080-105">Provides information about a folder's support for sharing.</span></span>
+<span data-ttu-id="58671-105">Предоставляет сведения о поддержке папки для общего доступа.</span><span class="sxs-lookup"><span data-stu-id="58671-105">Provides information about a folder's support for sharing.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c5080-106">Предоставлено:</span><span class="sxs-lookup"><span data-stu-id="c5080-106">Provided by:</span></span>  <br/> |<span data-ttu-id="c5080-107">Поставщик службы хранения сообщений</span><span class="sxs-lookup"><span data-stu-id="c5080-107">Message store provider</span></span>  <br/> |
-|<span data-ttu-id="c5080-108">Идентификатор интерфейса:</span><span class="sxs-lookup"><span data-stu-id="c5080-108">Interface identifier:</span></span>  <br/> |<span data-ttu-id="c5080-109">IID_IFolderSupport</span><span class="sxs-lookup"><span data-stu-id="c5080-109">IID_IFolderSupport</span></span>  <br/> |
+|<span data-ttu-id="58671-106">Предоставлено:</span><span class="sxs-lookup"><span data-stu-id="58671-106">Provided by:</span></span>  <br/> |<span data-ttu-id="58671-107">Поставщик магазина сообщений</span><span class="sxs-lookup"><span data-stu-id="58671-107">Message store provider</span></span>  <br/> |
+|<span data-ttu-id="58671-108">Идентификатор интерфейса:</span><span class="sxs-lookup"><span data-stu-id="58671-108">Interface identifier:</span></span>  <br/> |<span data-ttu-id="58671-109">IID_IFolderSupport</span><span class="sxs-lookup"><span data-stu-id="58671-109">IID_IFolderSupport</span></span>  <br/> |
    
-## <a name="vtable-order"></a><span data-ttu-id="c5080-110">Порядок ветвей</span><span class="sxs-lookup"><span data-stu-id="c5080-110">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="58671-110">Заказ Vtable</span><span class="sxs-lookup"><span data-stu-id="58671-110">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="c5080-111">**[GetSupportMask](ifoldersupport-getsupportmask.md)**</span><span class="sxs-lookup"><span data-stu-id="c5080-111">**[GetSupportMask](ifoldersupport-getsupportmask.md)**</span></span> <br/> |<span data-ttu-id="c5080-112">Получает сведения о поддержке общего доступа к папке.</span><span class="sxs-lookup"><span data-stu-id="c5080-112">Gets information about a folder's support for sharing.</span></span>  <br/> |
+|<span data-ttu-id="58671-111">**[GetSupportMask](ifoldersupport-getsupportmask.md)**</span><span class="sxs-lookup"><span data-stu-id="58671-111">**[GetSupportMask](ifoldersupport-getsupportmask.md)**</span></span> <br/> |<span data-ttu-id="58671-112">Получает сведения о поддержке папки для общего доступа.</span><span class="sxs-lookup"><span data-stu-id="58671-112">Gets information about a folder's support for sharing.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="c5080-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="c5080-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="58671-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="58671-113">Remarks</span></span>
 
-<span data-ttu-id="c5080-114">Как правило Microsoft Office Outlook для реализации этого интерфейса требуется поставщик магазина MAPI, если поставщик хочет поделиться папкой.</span><span class="sxs-lookup"><span data-stu-id="c5080-114">Generally, Microsoft Office Outlook requires a MAPI store provider to implement this interface if the provider wants to share a folder.</span></span> <span data-ttu-id="c5080-115">Исключением является поставщик Exchange Server, который может совместно использовать папки без реализации этого интерфейса.</span><span class="sxs-lookup"><span data-stu-id="c5080-115">The exception is the Exchange Server store provider, which can share folders without implementing this interface.</span></span>
+<span data-ttu-id="58671-114">Как правило, Microsoft Office Outlook поставщик магазина MAPI должен реализовать этот интерфейс, если поставщик хочет поделиться папкой.</span><span class="sxs-lookup"><span data-stu-id="58671-114">Generally, Microsoft Office Outlook requires a MAPI store provider to implement this interface if the provider wants to share a folder.</span></span> <span data-ttu-id="58671-115">Исключением является поставщик Exchange Server, который может обмениваться папками без реализации этого интерфейса.</span><span class="sxs-lookup"><span data-stu-id="58671-115">The exception is the Exchange Server store provider, which can share folders without implementing this interface.</span></span>
   
-<span data-ttu-id="c5080-116">Клиент может запросить **[IMAPIFolder](imapifolderimapicontainer.md)** для **IFolderSupport.**</span><span class="sxs-lookup"><span data-stu-id="c5080-116">A client can query an **[IMAPIFolder](imapifolderimapicontainer.md)** for **IFolderSupport**.</span></span> <span data-ttu-id="c5080-117">Если это успешно, вызовите **IFolderSupport::GetSupportMask** и проверьте, FS_SUPPORTS_SHARING ли бит, который необходимо установить. </span><span class="sxs-lookup"><span data-stu-id="c5080-117">If that succeeds, call **IFolderSupport::GetSupportMask** and check for the **FS_SUPPORTS_SHARING** bit to be set.</span></span> 
+<span data-ttu-id="58671-116">Клиент может запрашивать **[IMAPIFolder](imapifolderimapicontainer.md)** для **IFolderSupport**.</span><span class="sxs-lookup"><span data-stu-id="58671-116">A client can query an **[IMAPIFolder](imapifolderimapicontainer.md)** for **IFolderSupport**.</span></span> <span data-ttu-id="58671-117">Если это удастся, **позвоните** **в IFolderSupport::GetSupportMask** и проверьте, FS_SUPPORTS_SHARING необходимо установить бит.</span><span class="sxs-lookup"><span data-stu-id="58671-117">If that succeeds, call **IFolderSupport::GetSupportMask** and check for the **FS_SUPPORTS_SHARING** bit to be set.</span></span> 
   
 

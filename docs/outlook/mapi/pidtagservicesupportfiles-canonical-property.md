@@ -19,48 +19,48 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417044"
 ---
-# <a name="pidtagservicesupportfiles-canonical-property"></a><span data-ttu-id="54c9d-103">Каноническое свойство PidTagServiceSupportFiles</span><span class="sxs-lookup"><span data-stu-id="54c9d-103">PidTagServiceSupportFiles Canonical Property</span></span>
+# <a name="pidtagservicesupportfiles-canonical-property"></a><span data-ttu-id="53631-103">Каноническое свойство PidTagServiceSupportFiles</span><span class="sxs-lookup"><span data-stu-id="53631-103">PidTagServiceSupportFiles Canonical Property</span></span>
 
   
   
-<span data-ttu-id="54c9d-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="54c9d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="53631-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="53631-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="54c9d-105">Содержит список файлов, принадлежащих службе сообщений.</span><span class="sxs-lookup"><span data-stu-id="54c9d-105">Contains a list of the files that belong to the message service.</span></span>
+<span data-ttu-id="53631-105">Содержит список файлов, принадлежащих службе сообщений.</span><span class="sxs-lookup"><span data-stu-id="53631-105">Contains a list of the files that belong to the message service.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="54c9d-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="54c9d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="54c9d-107">PR_SERVICE_SUPPORT_FILES, PR_SERVICE_SUPPORT_FILES_A, PR_SERVICE_SUPPORT_FILES_W</span><span class="sxs-lookup"><span data-stu-id="54c9d-107">PR_SERVICE_SUPPORT_FILES, PR_SERVICE_SUPPORT_FILES_A, PR_SERVICE_SUPPORT_FILES_W</span></span>  <br/> |
-|<span data-ttu-id="54c9d-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="54c9d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="54c9d-109">0x3D0F</span><span class="sxs-lookup"><span data-stu-id="54c9d-109">0x3D0F</span></span>  <br/> |
-|<span data-ttu-id="54c9d-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="54c9d-110">Data type:</span></span>  <br/> |<span data-ttu-id="54c9d-111">PT_MV_STRING8, PT_MV_UNICODE</span><span class="sxs-lookup"><span data-stu-id="54c9d-111">PT_MV_STRING8, PT_MV_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="54c9d-112">Область:</span><span class="sxs-lookup"><span data-stu-id="54c9d-112">Area:</span></span>  <br/> |<span data-ttu-id="54c9d-113">Профиль MAPI</span><span class="sxs-lookup"><span data-stu-id="54c9d-113">MAPI profile</span></span>  <br/> |
+|<span data-ttu-id="53631-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="53631-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="53631-107">PR_SERVICE_SUPPORT_FILES, PR_SERVICE_SUPPORT_FILES_A, PR_SERVICE_SUPPORT_FILES_W</span><span class="sxs-lookup"><span data-stu-id="53631-107">PR_SERVICE_SUPPORT_FILES, PR_SERVICE_SUPPORT_FILES_A, PR_SERVICE_SUPPORT_FILES_W</span></span>  <br/> |
+|<span data-ttu-id="53631-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="53631-108">Identifier:</span></span>  <br/> |<span data-ttu-id="53631-109">0x3D0F</span><span class="sxs-lookup"><span data-stu-id="53631-109">0x3D0F</span></span>  <br/> |
+|<span data-ttu-id="53631-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="53631-110">Data type:</span></span>  <br/> |<span data-ttu-id="53631-111">PT_MV_STRING8, PT_MV_UNICODE</span><span class="sxs-lookup"><span data-stu-id="53631-111">PT_MV_STRING8, PT_MV_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="53631-112">Область:</span><span class="sxs-lookup"><span data-stu-id="53631-112">Area:</span></span>  <br/> |<span data-ttu-id="53631-113">Профиль MAPI</span><span class="sxs-lookup"><span data-stu-id="53631-113">MAPI profile</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="54c9d-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="54c9d-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="53631-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="53631-114">Remarks</span></span>
 
-<span data-ttu-id="54c9d-115">Используя диалоговое окно в applet панели управления, пользователь может получить список файлов, принадлежащих службе сообщений.</span><span class="sxs-lookup"><span data-stu-id="54c9d-115">Using a dialog box in the control panel applet, a user can obtain the list of files that belong to the message service.</span></span> <span data-ttu-id="54c9d-116">Например, пользователь может получить имена всех библиотек динамической ссылки, принадлежащих службе.</span><span class="sxs-lookup"><span data-stu-id="54c9d-116">For example, the user can obtain the names of all dynamic-link libraries (DLLs) that belong to the service.</span></span> <span data-ttu-id="54c9d-117">Затем пользователь может получить дополнительные сведения об указанных файлах, например имена и номера версий всех DLL.</span><span class="sxs-lookup"><span data-stu-id="54c9d-117">The user can then seek additional details about the specified files, such as the names and version numbers of all the DLLs.</span></span> <span data-ttu-id="54c9d-118">MAPI использует эти свойства для создания списка файлов поддержки в диалоговом окне для выбора пользователя сообщений.</span><span class="sxs-lookup"><span data-stu-id="54c9d-118">MAPI uses the these properties to create a support file list in a dialog box for messaging user selection.</span></span>
+<span data-ttu-id="53631-115">Используя диалоговое окно в applet панели управления, пользователь может получить список файлов, принадлежащих службе сообщений.</span><span class="sxs-lookup"><span data-stu-id="53631-115">Using a dialog box in the control panel applet, a user can obtain the list of files that belong to the message service.</span></span> <span data-ttu-id="53631-116">Например, пользователь может получить имена всех библиотек динамических ссылок (DLLs), принадлежащих службе.</span><span class="sxs-lookup"><span data-stu-id="53631-116">For example, the user can obtain the names of all dynamic-link libraries (DLLs) that belong to the service.</span></span> <span data-ttu-id="53631-117">Затем пользователь может получить дополнительные сведения о указанных файлах, например имена и номера версий всех DLLs.</span><span class="sxs-lookup"><span data-stu-id="53631-117">The user can then seek additional details about the specified files, such as the names and version numbers of all the DLLs.</span></span> <span data-ttu-id="53631-118">MAPI использует эти свойства для создания списка файлов поддержки в диалоговом окне для выбора пользователей сообщений.</span><span class="sxs-lookup"><span data-stu-id="53631-118">MAPI uses the these properties to create a support file list in a dialog box for messaging user selection.</span></span>
   
-<span data-ttu-id="54c9d-119">MAPI работает только с именами файлов и другими переданными ему строками в наборе символов интерфейсов службы Active Directory (ANSI).</span><span class="sxs-lookup"><span data-stu-id="54c9d-119">MAPI works only with filenames, and other strings passed to it, in the Active Directory Service Interfaces (ANSI) character set.</span></span> <span data-ttu-id="54c9d-120">Клиентские приложения, которые используют имена файлов в наборе символов изготовителя оборудования (OEM), должны преобразовывать их в ANSI, прежде чем вызывать MAPI.</span><span class="sxs-lookup"><span data-stu-id="54c9d-120">Client applications that use filenames in an original equipment manufacturer (OEM) character set must convert them to ANSI before calling MAPI.</span></span>
+<span data-ttu-id="53631-119">MAPI работает только с именами файлов и другими строками, переданными ему, в наборе символов Active Directory Service Interfaces (ANSI).</span><span class="sxs-lookup"><span data-stu-id="53631-119">MAPI works only with filenames, and other strings passed to it, in the Active Directory Service Interfaces (ANSI) character set.</span></span> <span data-ttu-id="53631-120">Клиентские приложения, которые используют имена файлов в исходном наборе символов производителя оборудования (OEM), перед вызовом MAPI должны преобразовать их в ANSI.</span><span class="sxs-lookup"><span data-stu-id="53631-120">Client applications that use filenames in an original equipment manufacturer (OEM) character set must convert them to ANSI before calling MAPI.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="54c9d-121">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="54c9d-121">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="53631-121">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="53631-121">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="54c9d-122">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="54c9d-122">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="53631-122">Файлы заголовки</span><span class="sxs-lookup"><span data-stu-id="53631-122">Header files</span></span>
 
-<span data-ttu-id="54c9d-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="54c9d-123">Mapidefs.h</span></span>
+<span data-ttu-id="53631-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="53631-123">Mapidefs.h</span></span>
   
-> <span data-ttu-id="54c9d-124">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="54c9d-124">Provides data type definitions.</span></span>
+> <span data-ttu-id="53631-124">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="53631-124">Provides data type definitions.</span></span>
     
-<span data-ttu-id="54c9d-125">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="54c9d-125">Mapitags.h</span></span>
+<span data-ttu-id="53631-125">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="53631-125">Mapitags.h</span></span>
   
-> <span data-ttu-id="54c9d-126">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="54c9d-126">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="53631-126">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="53631-126">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="54c9d-127">См. также</span><span class="sxs-lookup"><span data-stu-id="54c9d-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="53631-127">См. также</span><span class="sxs-lookup"><span data-stu-id="53631-127">See also</span></span>
 
 
 
-[<span data-ttu-id="54c9d-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="54c9d-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="53631-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="53631-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="54c9d-129">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="54c9d-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="53631-129">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="53631-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="54c9d-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="54c9d-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="53631-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="53631-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="54c9d-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="54c9d-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="53631-131">Сопоставление имен MAPI с каноническими именами свойств</span><span class="sxs-lookup"><span data-stu-id="53631-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

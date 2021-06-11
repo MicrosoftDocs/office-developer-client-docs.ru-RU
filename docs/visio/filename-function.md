@@ -16,16 +16,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412767"
 ---
-# <a name="filename-function"></a><span data-ttu-id="99589-103">Функция FILENAME</span><span class="sxs-lookup"><span data-stu-id="99589-103">FILENAME Function</span></span>
+# <a name="filename-function"></a><span data-ttu-id="87fc8-103">Функция FILENAME</span><span class="sxs-lookup"><span data-stu-id="87fc8-103">FILENAME Function</span></span>
 
-<span data-ttu-id="99589-104">Возвращает имя файла документа в качестве строки.</span><span class="sxs-lookup"><span data-stu-id="99589-104">Returns a document's file name as a string.</span></span>
+<span data-ttu-id="87fc8-104">Возвращает имя файла документа в качестве строки.</span><span class="sxs-lookup"><span data-stu-id="87fc8-104">Returns a document's file name as a string.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="99589-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="99589-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="87fc8-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="87fc8-105">Syntax</span></span>
 
-<span data-ttu-id="99589-106">FILENAME ()</span><span class="sxs-lookup"><span data-stu-id="99589-106">FILENAME ()</span></span>
+<span data-ttu-id="87fc8-106">FILENAME ()</span><span class="sxs-lookup"><span data-stu-id="87fc8-106">FILENAME ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="99589-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="99589-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="87fc8-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="87fc8-107">Return value</span></span>
 
-<span data-ttu-id="99589-108">String</span><span class="sxs-lookup"><span data-stu-id="99589-108">String</span></span>
+<span data-ttu-id="87fc8-108">String</span><span class="sxs-lookup"><span data-stu-id="87fc8-108">String</span></span>
   
 
