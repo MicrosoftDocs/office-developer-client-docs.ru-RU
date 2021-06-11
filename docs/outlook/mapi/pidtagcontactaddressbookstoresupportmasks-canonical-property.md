@@ -19,46 +19,46 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427803"
 ---
-# <a name="pidtagcontactaddressbookstoresupportmasks-canonical-property"></a><span data-ttu-id="9efdc-103">Каноническое свойство PidTagContactAddressBookStoreSupportMasks</span><span class="sxs-lookup"><span data-stu-id="9efdc-103">PidTagContactAddressBookStoreSupportMasks Canonical Property</span></span>
+# <a name="pidtagcontactaddressbookstoresupportmasks-canonical-property"></a><span data-ttu-id="c092e-103">Каноническое свойство PidTagContactAddressBookStoreSupportMasks</span><span class="sxs-lookup"><span data-stu-id="c092e-103">PidTagContactAddressBookStoreSupportMasks Canonical Property</span></span>
 
   
   
-<span data-ttu-id="9efdc-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9efdc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c092e-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c092e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9efdc-105">Содержит флаги, указывающие поддерживаемые функции магазина.</span><span class="sxs-lookup"><span data-stu-id="9efdc-105">Contains flags indicating the store's supported features.</span></span>
+<span data-ttu-id="c092e-105">Содержит флаги, указывающие поддерживаемые функции магазина.</span><span class="sxs-lookup"><span data-stu-id="c092e-105">Contains flags indicating the store's supported features.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9efdc-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="9efdc-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="9efdc-107">PR_CONTAB_STORE_SUPPORT_MASKS</span><span class="sxs-lookup"><span data-stu-id="9efdc-107">PR_CONTAB_STORE_SUPPORT_MASKS</span></span>  <br/> |
-|<span data-ttu-id="9efdc-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="9efdc-108">Identifier:</span></span>  <br/> |<span data-ttu-id="9efdc-109">0x6621</span><span class="sxs-lookup"><span data-stu-id="9efdc-109">0x6621</span></span>  <br/> |
-|<span data-ttu-id="9efdc-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="9efdc-110">Data type:</span></span>  <br/> |<span data-ttu-id="9efdc-111">PT_MV_LONG</span><span class="sxs-lookup"><span data-stu-id="9efdc-111">PT_MV_LONG</span></span>  <br/> |
-|<span data-ttu-id="9efdc-112">Область:</span><span class="sxs-lookup"><span data-stu-id="9efdc-112">Area:</span></span>  <br/> |<span data-ttu-id="9efdc-113">Адресная книга контакта</span><span class="sxs-lookup"><span data-stu-id="9efdc-113">Contact address book</span></span>  <br/> |
+|<span data-ttu-id="c092e-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="c092e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c092e-107">PR_CONTAB_STORE_SUPPORT_MASKS</span><span class="sxs-lookup"><span data-stu-id="c092e-107">PR_CONTAB_STORE_SUPPORT_MASKS</span></span>  <br/> |
+|<span data-ttu-id="c092e-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="c092e-108">Identifier:</span></span>  <br/> |<span data-ttu-id="c092e-109">0x6621</span><span class="sxs-lookup"><span data-stu-id="c092e-109">0x6621</span></span>  <br/> |
+|<span data-ttu-id="c092e-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="c092e-110">Data type:</span></span>  <br/> |<span data-ttu-id="c092e-111">PT_MV_LONG</span><span class="sxs-lookup"><span data-stu-id="c092e-111">PT_MV_LONG</span></span>  <br/> |
+|<span data-ttu-id="c092e-112">Область:</span><span class="sxs-lookup"><span data-stu-id="c092e-112">Area:</span></span>  <br/> |<span data-ttu-id="c092e-113">Адресная книга контактов</span><span class="sxs-lookup"><span data-stu-id="c092e-113">Contact address book</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="9efdc-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="9efdc-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c092e-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="c092e-114">Remarks</span></span>
 
-<span data-ttu-id="9efdc-115">Это свойство получено из хранилищ, которые содержат папки "Контакты".</span><span class="sxs-lookup"><span data-stu-id="9efdc-115">This property is obtained from the stores which contains the Contacts folders.</span></span> <span data-ttu-id="9efdc-116">Поставщик адресной книги контактов использует ее для оценки адекватности поддерживаемых функций магазина.</span><span class="sxs-lookup"><span data-stu-id="9efdc-116">The Contact Address Book provider uses it to evaluate the adequacy of the store's supported features.</span></span> <span data-ttu-id="9efdc-117">Это свойство в разделе профиля адресной книги контактов.</span><span class="sxs-lookup"><span data-stu-id="9efdc-117">It is a property on a Contact Address Book profile section.</span></span> 
+<span data-ttu-id="c092e-115">Это свойство получается из магазинов, которые содержат папки Contacts.</span><span class="sxs-lookup"><span data-stu-id="c092e-115">This property is obtained from the stores which contains the Contacts folders.</span></span> <span data-ttu-id="c092e-116">Поставщик адресной книги контактов использует его для оценки адекватности поддерживаемых функций магазина.</span><span class="sxs-lookup"><span data-stu-id="c092e-116">The Contact Address Book provider uses it to evaluate the adequacy of the store's supported features.</span></span> <span data-ttu-id="c092e-117">Это свойство в разделе Профиль адресной книги контактов.</span><span class="sxs-lookup"><span data-stu-id="c092e-117">It is a property on a Contact Address Book profile section.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="9efdc-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="9efdc-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="c092e-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="c092e-118">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="9efdc-119">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="9efdc-119">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="c092e-119">Файлы заголовки</span><span class="sxs-lookup"><span data-stu-id="c092e-119">Header files</span></span>
 
-<span data-ttu-id="9efdc-120">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="9efdc-120">Mapidefs.h</span></span>
+<span data-ttu-id="c092e-120">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c092e-120">Mapidefs.h</span></span>
   
-> <span data-ttu-id="9efdc-121">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="9efdc-121">Provides data type definitions.</span></span>
+> <span data-ttu-id="c092e-121">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="c092e-121">Provides data type definitions.</span></span>
     
-<span data-ttu-id="9efdc-122">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="9efdc-122">Mapitags.h</span></span>
+<span data-ttu-id="c092e-122">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="c092e-122">Mapitags.h</span></span>
   
-> <span data-ttu-id="9efdc-123">Содержит определения свойств, перечисленных как связанные свойства.</span><span class="sxs-lookup"><span data-stu-id="9efdc-123">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="c092e-123">Содержит определения свойств, перечисленных в качестве связанных свойств.</span><span class="sxs-lookup"><span data-stu-id="c092e-123">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="9efdc-124">См. также</span><span class="sxs-lookup"><span data-stu-id="9efdc-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c092e-124">См. также</span><span class="sxs-lookup"><span data-stu-id="c092e-124">See also</span></span>
 
 
 
-[<span data-ttu-id="9efdc-125">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="9efdc-125">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="c092e-125">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="c092e-125">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="9efdc-126">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="9efdc-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="c092e-126">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="c092e-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="9efdc-127">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="9efdc-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="c092e-127">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="c092e-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="9efdc-128">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="9efdc-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="c092e-128">Сопоставление имен MAPI с каноническими именами свойств</span><span class="sxs-lookup"><span data-stu-id="c092e-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251574
 localization_priority: Normal
 ms.assetid: 94c640d8-99e9-9d15-8ada-d9abeb3d66f7
-description: Возвращает текст из поля "Заголовок" свойств документа.
+description: Возвращает текст из поля Title свойств документа.
 ms.openlocfilehash: 395356fcffddfaf8d796708acc31db297ef01b35
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,16 +16,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424415"
 ---
-# <a name="title-function"></a><span data-ttu-id="5155b-103">Функция TITLE</span><span class="sxs-lookup"><span data-stu-id="5155b-103">TITLE Function</span></span>
+# <a name="title-function"></a><span data-ttu-id="124b3-103">Функция TITLE</span><span class="sxs-lookup"><span data-stu-id="124b3-103">TITLE Function</span></span>
 
-<span data-ttu-id="5155b-104">Возвращает текст из поля **"Заголовок"** свойств документа.</span><span class="sxs-lookup"><span data-stu-id="5155b-104">Returns the text from the **Title** field of a document's properties.</span></span> 
+<span data-ttu-id="124b3-104">Возвращает текст из поля **Title** свойств документа.</span><span class="sxs-lookup"><span data-stu-id="124b3-104">Returns the text from the **Title** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="5155b-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="5155b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="124b3-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="124b3-105">Syntax</span></span>
 
-<span data-ttu-id="5155b-106">TITLE ()</span><span class="sxs-lookup"><span data-stu-id="5155b-106">TITLE ()</span></span>
+<span data-ttu-id="124b3-106">TITLE ()</span><span class="sxs-lookup"><span data-stu-id="124b3-106">TITLE ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="5155b-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5155b-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="124b3-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="124b3-107">Return value</span></span>
 
-<span data-ttu-id="5155b-108">String</span><span class="sxs-lookup"><span data-stu-id="5155b-108">String</span></span>
+<span data-ttu-id="124b3-108">String</span><span class="sxs-lookup"><span data-stu-id="124b3-108">String</span></span>
   
 
