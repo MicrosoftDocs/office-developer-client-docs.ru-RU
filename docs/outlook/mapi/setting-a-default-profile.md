@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439816"
 ---
-# <a name="setting-a-default-profile"></a><span data-ttu-id="759ad-103">Настройка профиля по умолчанию</span><span class="sxs-lookup"><span data-stu-id="759ad-103">Setting a Default Profile</span></span>
+# <a name="setting-a-default-profile"></a><span data-ttu-id="5582e-103">Настройка профиля по умолчанию</span><span class="sxs-lookup"><span data-stu-id="5582e-103">Setting a Default Profile</span></span>
 
   
   
-<span data-ttu-id="759ad-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="759ad-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5582e-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5582e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="759ad-105">Профиль по умолчанию — это профиль, который используется, если в вызове [MAPILogonEx](mapilogonex.md)явно не указан профиль, задав вместо него MAPI_USE_DEFAULT флага.</span><span class="sxs-lookup"><span data-stu-id="759ad-105">The default profile is the profile that is used if you do not explicitly specify one in the call to [MAPILogonEx](mapilogonex.md), setting instead the MAPI_USE_DEFAULT flag.</span></span>
+<span data-ttu-id="5582e-105">Профиль по умолчанию — это профиль, который используется, если в вызове [MAPILogonEx](mapilogonex.md)явно не указан профиль, задав вместо него MAPI_USE_DEFAULT флага.</span><span class="sxs-lookup"><span data-stu-id="5582e-105">The default profile is the profile that is used if you do not explicitly specify one in the call to [MAPILogonEx](mapilogonex.md), setting instead the MAPI_USE_DEFAULT flag.</span></span>
   
- <span data-ttu-id="759ad-106">**Создание профиля по умолчанию**</span><span class="sxs-lookup"><span data-stu-id="759ad-106">**To establish a default profile**</span></span>
+ <span data-ttu-id="5582e-106">**Создание профиля по умолчанию**</span><span class="sxs-lookup"><span data-stu-id="5582e-106">**To establish a default profile**</span></span>
   
-1. <span data-ttu-id="759ad-107">Вызовите [функцию MAPIAdminProfiles,](mapiadminprofiles.md) чтобы получить указатель интерфейса **IProfAdmin.**</span><span class="sxs-lookup"><span data-stu-id="759ad-107">Call the [MAPIAdminProfiles](mapiadminprofiles.md) function to retrieve an **IProfAdmin** interface pointer.</span></span> 
+1. <span data-ttu-id="5582e-107">Вызов [функции MAPIAdminProfiles](mapiadminprofiles.md) для получения указателя интерфейса **IProfAdmin.**</span><span class="sxs-lookup"><span data-stu-id="5582e-107">Call the [MAPIAdminProfiles](mapiadminprofiles.md) function to retrieve an **IProfAdmin** interface pointer.</span></span> 
     
-2. <span data-ttu-id="759ad-108">Вызовите [IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md).</span><span class="sxs-lookup"><span data-stu-id="759ad-108">Call [IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md).</span></span> <span data-ttu-id="759ad-109">**SetDefaultProfile** задает **свойство PR_DEFAULT_PROFILE** ([PidTagDefaultProfile)](pidtagdefaultprofile-canonical-property.md)для нового профиля по умолчанию и удаляет параметр для предыдущего профиля по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="759ad-109">**SetDefaultProfile** sets the **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) property for the new default profile and removes the setting for the previous default profile.</span></span>
+2. <span data-ttu-id="5582e-108">Call [IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md).</span><span class="sxs-lookup"><span data-stu-id="5582e-108">Call [IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md).</span></span> <span data-ttu-id="5582e-109">**SetDefaultProfile** задает **свойство PR_DEFAULT_PROFILE** [(PidTagDefaultProfile)](pidtagdefaultprofile-canonical-property.md)для нового профиля по умолчанию и удаляет параметр для предыдущего профиля по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="5582e-109">**SetDefaultProfile** sets the **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) property for the new default profile and removes the setting for the previous default profile.</span></span>
     
 

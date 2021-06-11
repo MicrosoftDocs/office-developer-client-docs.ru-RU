@@ -16,25 +16,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439788"
 ---
-# <a name="defaultevent-function"></a><span data-ttu-id="7ee27-103">Функция DEFAULTEVENT</span><span class="sxs-lookup"><span data-stu-id="7ee27-103">DEFAULTEVENT Function</span></span>
+# <a name="defaultevent-function"></a><span data-ttu-id="aaa00-103">Функция DEFAULTEVENT</span><span class="sxs-lookup"><span data-stu-id="aaa00-103">DEFAULTEVENT Function</span></span>
 
-<span data-ttu-id="7ee27-104">Выполняет событие по умолчанию, связанное с объектом.</span><span class="sxs-lookup"><span data-stu-id="7ee27-104">Performs the default event associated with the object.</span></span>
+<span data-ttu-id="aaa00-104">Выполняет событие по умолчанию, связанное с объектом.</span><span class="sxs-lookup"><span data-stu-id="aaa00-104">Performs the default event associated with the object.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="7ee27-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="7ee27-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="aaa00-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="aaa00-105">Syntax</span></span>
 
-<span data-ttu-id="7ee27-106">DEFAULTEVENT( )</span><span class="sxs-lookup"><span data-stu-id="7ee27-106">DEFAULTEVENT( )</span></span>
+<span data-ttu-id="aaa00-106">DEFAULTEVENT()</span><span class="sxs-lookup"><span data-stu-id="aaa00-106">DEFAULTEVENT( )</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="7ee27-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="7ee27-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="aaa00-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="aaa00-107">Remarks</span></span>
 
-<span data-ttu-id="7ee27-108">В следующей таблице перечислены события по умолчанию, связанные с несколькими объектами.</span><span class="sxs-lookup"><span data-stu-id="7ee27-108">The following table lists the default event associated with several objects.</span></span>
+<span data-ttu-id="aaa00-108">В следующей таблице перечислены события по умолчанию, связанные с несколькими объектами.</span><span class="sxs-lookup"><span data-stu-id="aaa00-108">The following table lists the default event associated with several objects.</span></span>
   
-|<span data-ttu-id="7ee27-109">**Object**</span><span class="sxs-lookup"><span data-stu-id="7ee27-109">**Object**</span></span>|<span data-ttu-id="7ee27-110">**Событие по умолчанию**</span><span class="sxs-lookup"><span data-stu-id="7ee27-110">**Default event**</span></span>|
+|<span data-ttu-id="aaa00-109">**Object**</span><span class="sxs-lookup"><span data-stu-id="aaa00-109">**Object**</span></span>|<span data-ttu-id="aaa00-110">**Событие по умолчанию**</span><span class="sxs-lookup"><span data-stu-id="aaa00-110">**Default event**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="7ee27-111">Shape</span><span class="sxs-lookup"><span data-stu-id="7ee27-111">Shape</span></span>  <br/> |<span data-ttu-id="7ee27-112">Редактирование текста.</span><span class="sxs-lookup"><span data-stu-id="7ee27-112">Edit text.</span></span>  <br/> |
-|<span data-ttu-id="7ee27-113">Group</span><span class="sxs-lookup"><span data-stu-id="7ee27-113">Group</span></span>  <br/> |<span data-ttu-id="7ee27-114">Ничего не предпринимать.</span><span class="sxs-lookup"><span data-stu-id="7ee27-114">Do nothing.</span></span>  <br/> |
-|<span data-ttu-id="7ee27-115">OLE</span><span class="sxs-lookup"><span data-stu-id="7ee27-115">OLE</span></span>  <br/> |<span data-ttu-id="7ee27-116">Сделайте основную глагол.</span><span class="sxs-lookup"><span data-stu-id="7ee27-116">Do primary verb.</span></span>  <br/> |
-|<span data-ttu-id="7ee27-117">Другое</span><span class="sxs-lookup"><span data-stu-id="7ee27-117">Other</span></span>  <br/> |<span data-ttu-id="7ee27-118">Ничего не предпринимать.</span><span class="sxs-lookup"><span data-stu-id="7ee27-118">Do nothing.</span></span>  <br/> |
+|<span data-ttu-id="aaa00-111">Shape</span><span class="sxs-lookup"><span data-stu-id="aaa00-111">Shape</span></span>  <br/> |<span data-ttu-id="aaa00-112">Изменение текста.</span><span class="sxs-lookup"><span data-stu-id="aaa00-112">Edit text.</span></span>  <br/> |
+|<span data-ttu-id="aaa00-113">Group</span><span class="sxs-lookup"><span data-stu-id="aaa00-113">Group</span></span>  <br/> |<span data-ttu-id="aaa00-114">Ничего не предпринимать.</span><span class="sxs-lookup"><span data-stu-id="aaa00-114">Do nothing.</span></span>  <br/> |
+|<span data-ttu-id="aaa00-115">OLE</span><span class="sxs-lookup"><span data-stu-id="aaa00-115">OLE</span></span>  <br/> |<span data-ttu-id="aaa00-116">Сделайте основной глагол.</span><span class="sxs-lookup"><span data-stu-id="aaa00-116">Do primary verb.</span></span>  <br/> |
+|<span data-ttu-id="aaa00-117">Другое</span><span class="sxs-lookup"><span data-stu-id="aaa00-117">Other</span></span>  <br/> |<span data-ttu-id="aaa00-118">Ничего не предпринимать.</span><span class="sxs-lookup"><span data-stu-id="aaa00-118">Do nothing.</span></span>  <br/> |
    
-<span data-ttu-id="7ee27-119">В более ранних версиях Visio эта функция отображается как _DEFAULTEVENT и событие по умолчанию для группы — открытие окна группы.</span><span class="sxs-lookup"><span data-stu-id="7ee27-119">In earlier versions of Visio, this function appears as _DEFAULTEVENT and the default event for a group is to open a group window.</span></span> 
+<span data-ttu-id="aaa00-119">В более ранних версиях Visio эта функция отображается как _DEFAULTEVENT и событие по умолчанию для группы состоит в том, чтобы открыть групповое окно.</span><span class="sxs-lookup"><span data-stu-id="aaa00-119">In earlier versions of Visio, this function appears as _DEFAULTEVENT and the default event for a group is to open a group window.</span></span> 
   
 

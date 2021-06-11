@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439221"
 ---
-# <a name="flatmtsidlist"></a><span data-ttu-id="f7637-103">FLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="f7637-103">FLATMTSIDLIST</span></span>
+# <a name="flatmtsidlist"></a><span data-ttu-id="07f10-103">FLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="07f10-103">FLATMTSIDLIST</span></span>
 
   
   
-<span data-ttu-id="f7637-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f7637-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="07f10-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="07f10-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f7637-105">Содержит массив структур [MTSID,](mtsid.md) каждая из которых содержит идентификатор записи транспортной системы сообщений X.400 (MTS).</span><span class="sxs-lookup"><span data-stu-id="f7637-105">Contains an array of [MTSID](mtsid.md) structures, each of which contains an X.400 message transport system (MTS) entry identifier.</span></span> 
+<span data-ttu-id="07f10-105">Содержит массив структур [MTSID,](mtsid.md) каждая из которых содержит идентификатор входа ВТС X.400.</span><span class="sxs-lookup"><span data-stu-id="07f10-105">Contains an array of [MTSID](mtsid.md) structures, each of which contains an X.400 message transport system (MTS) entry identifier.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f7637-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="f7637-106">Header file:</span></span>  <br/> |<span data-ttu-id="f7637-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="f7637-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="f7637-108">Связанные макросы:</span><span class="sxs-lookup"><span data-stu-id="f7637-108">Related macros:</span></span>  <br/> |<span data-ttu-id="f7637-109">[CbFLATMTSIDLIST](cbflatmtsidlist.md), [CbNewFLATMTSIDLIST](cbnewflatmtsidlist.md)</span><span class="sxs-lookup"><span data-stu-id="f7637-109">[CbFLATMTSIDLIST](cbflatmtsidlist.md), [CbNewFLATMTSIDLIST](cbnewflatmtsidlist.md)</span></span> <br/> |
+|<span data-ttu-id="07f10-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="07f10-106">Header file:</span></span>  <br/> |<span data-ttu-id="07f10-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="07f10-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="07f10-108">Связанные макрос:</span><span class="sxs-lookup"><span data-stu-id="07f10-108">Related macros:</span></span>  <br/> |<span data-ttu-id="07f10-109">[CbFLATMTSIDLIST,](cbflatmtsidlist.md) [CbNewFLATMTSIDLIST](cbnewflatmtsidlist.md)</span><span class="sxs-lookup"><span data-stu-id="07f10-109">[CbFLATMTSIDLIST](cbflatmtsidlist.md), [CbNewFLATMTSIDLIST](cbnewflatmtsidlist.md)</span></span> <br/> |
    
 ```cpp
 typedef struct
@@ -42,36 +42,36 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="f7637-110">"Участники"</span><span class="sxs-lookup"><span data-stu-id="f7637-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="07f10-110">"Участники"</span><span class="sxs-lookup"><span data-stu-id="07f10-110">Members</span></span>
 
- <span data-ttu-id="f7637-111">**cMTSIDs**</span><span class="sxs-lookup"><span data-stu-id="f7637-111">**cMTSIDs**</span></span>
+ <span data-ttu-id="07f10-111">**cMTSIDs**</span><span class="sxs-lookup"><span data-stu-id="07f10-111">**cMTSIDs**</span></span>
   
-> <span data-ttu-id="f7637-112">Количество структур **MTSID** в массиве, описанного членом **abMTSIDs.**</span><span class="sxs-lookup"><span data-stu-id="f7637-112">Count of **MTSID** structures in the array described by the **abMTSIDs** member.</span></span> 
+> <span data-ttu-id="07f10-112">Count of **MTSID** structures in the array described by the **abMTSIDs** member.</span><span class="sxs-lookup"><span data-stu-id="07f10-112">Count of **MTSID** structures in the array described by the **abMTSIDs** member.</span></span> 
     
- <span data-ttu-id="f7637-113">**cbMTSIDs**</span><span class="sxs-lookup"><span data-stu-id="f7637-113">**cbMTSIDs**</span></span>
+ <span data-ttu-id="07f10-113">**cbMTSIDs**</span><span class="sxs-lookup"><span data-stu-id="07f10-113">**cbMTSIDs**</span></span>
   
-> <span data-ttu-id="f7637-114">Количество в массиве, описываемом **abMTSIDs.**</span><span class="sxs-lookup"><span data-stu-id="f7637-114">Count of bytes in the array described by **abMTSIDs**.</span></span>
+> <span data-ttu-id="07f10-114">Количество bytes в массиве, описанного **abMTSIDs**.</span><span class="sxs-lookup"><span data-stu-id="07f10-114">Count of bytes in the array described by **abMTSIDs**.</span></span>
     
- <span data-ttu-id="f7637-115">**abMTSIDs**</span><span class="sxs-lookup"><span data-stu-id="f7637-115">**abMTSIDs**</span></span>
+ <span data-ttu-id="07f10-115">**abMTSIDs**</span><span class="sxs-lookup"><span data-stu-id="07f10-115">**abMTSIDs**</span></span>
   
-> <span data-ttu-id="f7637-116">Массив byte, содержащий одну или несколько **структур MTSID.**</span><span class="sxs-lookup"><span data-stu-id="f7637-116">Byte array that contains one or more **MTSID** structures.</span></span> 
+> <span data-ttu-id="07f10-116">Массив Byte, содержащий одну или несколько **структур MTSID.**</span><span class="sxs-lookup"><span data-stu-id="07f10-116">Byte array that contains one or more **MTSID** structures.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="f7637-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="f7637-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="07f10-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="07f10-117">Remarks</span></span>
 
-<span data-ttu-id="f7637-118">Использование **структуры FLATMTSIDLIST** в сообщениях X.400 соответствует использованию структуры [FLATENTRYLIST](flatentrylist.md) в сообщениях MAPI.</span><span class="sxs-lookup"><span data-stu-id="f7637-118">The **FLATMTSIDLIST** structure's use in X.400 messaging corresponds to the [FLATENTRYLIST](flatentrylist.md) structure's use in MAPI messaging.</span></span> <span data-ttu-id="f7637-119">MAPI использует **структуры FLATMTSIDLIST** для обслуживания свойств X.400 во время обработки сообщений.</span><span class="sxs-lookup"><span data-stu-id="f7637-119">MAPI uses **FLATMTSIDLIST** structures to maintain X.400 properties during message handling.</span></span> <span data-ttu-id="f7637-120">Поставщики услуг используют **структуры FLATMTSIDLIST** при обработке входящих и исходяющих сообщений X.400.</span><span class="sxs-lookup"><span data-stu-id="f7637-120">Service providers use **FLATMTSIDLIST** structures when handling incoming and outgoing X.400 messages.</span></span> 
+<span data-ttu-id="07f10-118">Использование **структуры FLATMTSIDLIST** в сообщении X.400 соответствует использованию структуры [FLATENTRYLIST](flatentrylist.md) в сообщении MAPI.</span><span class="sxs-lookup"><span data-stu-id="07f10-118">The **FLATMTSIDLIST** structure's use in X.400 messaging corresponds to the [FLATENTRYLIST](flatentrylist.md) structure's use in MAPI messaging.</span></span> <span data-ttu-id="07f10-119">MapI использует **структуры FLATMTSIDLIST** для поддержания свойств X.400 во время обработки сообщений.</span><span class="sxs-lookup"><span data-stu-id="07f10-119">MAPI uses **FLATMTSIDLIST** structures to maintain X.400 properties during message handling.</span></span> <span data-ttu-id="07f10-120">Поставщики служб используют **структуры FLATMTSIDLIST** при обработке входящих и исходяющих сообщений X.400.</span><span class="sxs-lookup"><span data-stu-id="07f10-120">Service providers use **FLATMTSIDLIST** structures when handling incoming and outgoing X.400 messages.</span></span> 
   
-<span data-ttu-id="f7637-121">В **массиве abMTSIDs** каждая структура **MTSID** выравнивается по границам, естественно выровненным.</span><span class="sxs-lookup"><span data-stu-id="f7637-121">In the **abMTSIDs** array, each **MTSID** structure is aligned on a naturally aligned boundary.</span></span> <span data-ttu-id="f7637-122">Дополнительные байты включаются в качестве заполнения, чтобы убедиться в естественном выравнивании между двумя **структурами MTSID.**</span><span class="sxs-lookup"><span data-stu-id="f7637-122">Extra bytes are included as padding to make sure natural alignment between any two **MTSID** structures.</span></span> <span data-ttu-id="f7637-123">Первая структура **MTSID** в массиве всегда выравнивается правильно, так как смещение члена **abMTSIDs** составляет 8.</span><span class="sxs-lookup"><span data-stu-id="f7637-123">The first **MTSID** structure in the array is always aligned correctly because the offset of the **abMTSIDs** member is 8.</span></span> <span data-ttu-id="f7637-124">Чтобы вычислить смещение следующей структуры, используйте размер первой записи, округленной до следующего кратного 4.</span><span class="sxs-lookup"><span data-stu-id="f7637-124">To compute the offset of the next structure, use the size of the first entry rounded up to the next multiple of 4.</span></span> <span data-ttu-id="f7637-125">Используйте [макрос CbNewMTSID](cbnewmtsid.md) для вычисления размера структуры **MTSID.**</span><span class="sxs-lookup"><span data-stu-id="f7637-125">Use the [CbNewMTSID](cbnewmtsid.md) macro to compute the size of an **MTSID** structure.</span></span> 
+<span data-ttu-id="07f10-121">В **массиве abMTSIDs** каждая **структура MTSID** выравнивается на естественно выровненной границе.</span><span class="sxs-lookup"><span data-stu-id="07f10-121">In the **abMTSIDs** array, each **MTSID** structure is aligned on a naturally aligned boundary.</span></span> <span data-ttu-id="07f10-122">Дополнительные байты включены в качестве обивки, чтобы убедиться в естественном выравнивании между двумя **структурами MTSID.**</span><span class="sxs-lookup"><span data-stu-id="07f10-122">Extra bytes are included as padding to make sure natural alignment between any two **MTSID** structures.</span></span> <span data-ttu-id="07f10-123">Первая структура **MTSID** в массиве всегда выравнивается правильно, так как смещение члена **abMTSIDs** — 8.</span><span class="sxs-lookup"><span data-stu-id="07f10-123">The first **MTSID** structure in the array is always aligned correctly because the offset of the **abMTSIDs** member is 8.</span></span> <span data-ttu-id="07f10-124">Чтобы вычислить смещение следующей структуры, используйте размер первой записи, округленной до следующей несколько из 4.</span><span class="sxs-lookup"><span data-stu-id="07f10-124">To compute the offset of the next structure, use the size of the first entry rounded up to the next multiple of 4.</span></span> <span data-ttu-id="07f10-125">Используйте [макрос CbNewMTSID](cbnewmtsid.md) для вычисления размера структуры **MTSID.**</span><span class="sxs-lookup"><span data-stu-id="07f10-125">Use the [CbNewMTSID](cbnewmtsid.md) macro to compute the size of an **MTSID** structure.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="f7637-126">См. также</span><span class="sxs-lookup"><span data-stu-id="f7637-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="07f10-126">См. также</span><span class="sxs-lookup"><span data-stu-id="07f10-126">See also</span></span>
 
 
 
-[<span data-ttu-id="f7637-127">CbNewFLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="f7637-127">CbNewFLATMTSIDLIST</span></span>](cbnewflatmtsidlist.md)
+[<span data-ttu-id="07f10-127">CbNewFLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="07f10-127">CbNewFLATMTSIDLIST</span></span>](cbnewflatmtsidlist.md)
   
-[<span data-ttu-id="f7637-128">FLATENTRYLIST</span><span class="sxs-lookup"><span data-stu-id="f7637-128">FLATENTRYLIST</span></span>](flatentrylist.md)
+[<span data-ttu-id="07f10-128">FLATENTRYLIST</span><span class="sxs-lookup"><span data-stu-id="07f10-128">FLATENTRYLIST</span></span>](flatentrylist.md)
   
-[<span data-ttu-id="f7637-129">MTSID</span><span class="sxs-lookup"><span data-stu-id="f7637-129">MTSID</span></span>](mtsid.md)
+[<span data-ttu-id="07f10-129">MTSID</span><span class="sxs-lookup"><span data-stu-id="07f10-129">MTSID</span></span>](mtsid.md)
 
 
-[<span data-ttu-id="f7637-130">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="f7637-130">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="07f10-130">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="07f10-130">MAPI Structures</span></span>](mapi-structures.md)
 

@@ -19,49 +19,49 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439445"
 ---
-# <a name="pidlidremotetransport-canonical-property"></a><span data-ttu-id="68ddf-103">Каноническое свойство PidLidRemoteTransport</span><span class="sxs-lookup"><span data-stu-id="68ddf-103">PidLidRemoteTransport Canonical Property</span></span>
+# <a name="pidlidremotetransport-canonical-property"></a><span data-ttu-id="c8f5e-103">Каноническое свойство PidLidRemoteTransport</span><span class="sxs-lookup"><span data-stu-id="c8f5e-103">PidLidRemoteTransport Canonical Property</span></span>
 
   
   
-<span data-ttu-id="68ddf-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="68ddf-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c8f5e-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c8f5e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="68ddf-105">Определяет, с какой учетной записью связан элемент загона, в основном для реализации функции pop Leave on Server.</span><span class="sxs-lookup"><span data-stu-id="68ddf-105">Identifies what account the header item is associated with, primarily to implement the POP Leave on Server functionality.</span></span> 
+<span data-ttu-id="c8f5e-105">Определяет, с какой учетной записью связан элемент загона, в первую очередь для реализации функции POP Leave on Server.</span><span class="sxs-lookup"><span data-stu-id="c8f5e-105">Identifies what account the header item is associated with, primarily to implement the POP Leave on Server functionality.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="68ddf-106">Связанные свойства</span><span class="sxs-lookup"><span data-stu-id="68ddf-106">Associated Properties</span></span>  <br/> |<span data-ttu-id="68ddf-107">dispidRemoteXP</span><span class="sxs-lookup"><span data-stu-id="68ddf-107">dispidRemoteXP</span></span>  <br/> |
-|<span data-ttu-id="68ddf-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="68ddf-108">Property set:</span></span>  <br/> |<span data-ttu-id="68ddf-109">PSETID_Remote</span><span class="sxs-lookup"><span data-stu-id="68ddf-109">PSETID_Remote</span></span>  <br/> |
-|<span data-ttu-id="68ddf-110">Длинный ИД (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="68ddf-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="68ddf-111">0x00008F03</span><span class="sxs-lookup"><span data-stu-id="68ddf-111">0x00008F03</span></span>  <br/> |
-|<span data-ttu-id="68ddf-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="68ddf-112">Data type:</span></span>  <br/> |<span data-ttu-id="68ddf-113">PT_STRING8</span><span class="sxs-lookup"><span data-stu-id="68ddf-113">PT_STRING8</span></span>  <br/> |
-|<span data-ttu-id="68ddf-114">Область:</span><span class="sxs-lookup"><span data-stu-id="68ddf-114">Area:</span></span>  <br/> |<span data-ttu-id="68ddf-115">Удаленное сообщение</span><span class="sxs-lookup"><span data-stu-id="68ddf-115">Remote message</span></span>  <br/> |
+|<span data-ttu-id="c8f5e-106">Связанные свойства</span><span class="sxs-lookup"><span data-stu-id="c8f5e-106">Associated Properties</span></span>  <br/> |<span data-ttu-id="c8f5e-107">dispidRemoteXP</span><span class="sxs-lookup"><span data-stu-id="c8f5e-107">dispidRemoteXP</span></span>  <br/> |
+|<span data-ttu-id="c8f5e-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="c8f5e-108">Property set:</span></span>  <br/> |<span data-ttu-id="c8f5e-109">PSETID_Remote</span><span class="sxs-lookup"><span data-stu-id="c8f5e-109">PSETID_Remote</span></span>  <br/> |
+|<span data-ttu-id="c8f5e-110">Long ID (LID):</span><span class="sxs-lookup"><span data-stu-id="c8f5e-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="c8f5e-111">0x00008F03</span><span class="sxs-lookup"><span data-stu-id="c8f5e-111">0x00008F03</span></span>  <br/> |
+|<span data-ttu-id="c8f5e-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="c8f5e-112">Data type:</span></span>  <br/> |<span data-ttu-id="c8f5e-113">PT_STRING8</span><span class="sxs-lookup"><span data-stu-id="c8f5e-113">PT_STRING8</span></span>  <br/> |
+|<span data-ttu-id="c8f5e-114">Область:</span><span class="sxs-lookup"><span data-stu-id="c8f5e-114">Area:</span></span>  <br/> |<span data-ttu-id="c8f5e-115">Удаленное сообщение</span><span class="sxs-lookup"><span data-stu-id="c8f5e-115">Remote message</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="68ddf-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="68ddf-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c8f5e-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="c8f5e-116">Remarks</span></span>
 
-<span data-ttu-id="68ddf-117">Это свойство относится только к тем сообщениям, которые имеют класс сообщений IPM. Удаленный доступ.</span><span class="sxs-lookup"><span data-stu-id="68ddf-117">This property is relevant only on messages that have a message class of IPM.Remote.</span></span> <span data-ttu-id="68ddf-118">Microsoft Outlook сохраняет сопоставление различных учетных записей, скачиваемых в заданное хранилище, в сообщении FAI, но также может хранить эти сведения в реестре.</span><span class="sxs-lookup"><span data-stu-id="68ddf-118">Microsoft Outlook keeps a mapping of various accounts that are downloading to a given store in a Folder Associated Information (FAI) message, but it could also keep this information in the registry.</span></span>
+<span data-ttu-id="c8f5e-117">Это свойство актуально только для сообщений, которые имеют класс сообщений IPM. Удаленный.</span><span class="sxs-lookup"><span data-stu-id="c8f5e-117">This property is relevant only on messages that have a message class of IPM.Remote.</span></span> <span data-ttu-id="c8f5e-118">Корпорация Outlook сохраняет сопоставление различных учетных записей, скачиваемых в данный магазин, в сообщении о связанных с папками сведениях (FAI), но может также хранить эти сведения в реестре.</span><span class="sxs-lookup"><span data-stu-id="c8f5e-118">Microsoft Outlook keeps a mapping of various accounts that are downloading to a given store in a Folder Associated Information (FAI) message, but it could also keep this information in the registry.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="68ddf-119">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="68ddf-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="c8f5e-119">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="c8f5e-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="68ddf-120">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="68ddf-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="c8f5e-120">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="c8f5e-120">Protocol specifications</span></span>
 
-<span data-ttu-id="68ddf-121">[[MS-OXPROPS]]</span><span class="sxs-lookup"><span data-stu-id="68ddf-121">[[MS-OXPROPS]]</span></span> 
+<span data-ttu-id="c8f5e-121">[[MS-OXPROPS]]</span><span class="sxs-lookup"><span data-stu-id="c8f5e-121">[[MS-OXPROPS]]</span></span> 
   
-> <span data-ttu-id="68ddf-122">Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.</span><span class="sxs-lookup"><span data-stu-id="68ddf-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="c8f5e-122">Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.</span><span class="sxs-lookup"><span data-stu-id="c8f5e-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="68ddf-123">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="68ddf-123">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="c8f5e-123">Файлы заголовки</span><span class="sxs-lookup"><span data-stu-id="c8f5e-123">Header files</span></span>
 
-<span data-ttu-id="68ddf-124">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="68ddf-124">Mapidefs.h</span></span>
+<span data-ttu-id="c8f5e-124">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c8f5e-124">Mapidefs.h</span></span>
   
-> <span data-ttu-id="68ddf-125">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="68ddf-125">Provides data type definitions.</span></span>
+> <span data-ttu-id="c8f5e-125">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="c8f5e-125">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="68ddf-126">См. также</span><span class="sxs-lookup"><span data-stu-id="68ddf-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c8f5e-126">См. также</span><span class="sxs-lookup"><span data-stu-id="c8f5e-126">See also</span></span>
 
 
 
-[<span data-ttu-id="68ddf-127">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="68ddf-127">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="c8f5e-127">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="c8f5e-127">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="68ddf-128">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="68ddf-128">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="c8f5e-128">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="c8f5e-128">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="68ddf-129">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="68ddf-129">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="c8f5e-129">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="c8f5e-129">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="68ddf-130">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="68ddf-130">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="c8f5e-130">Сопоставление имен MAPI с каноническими именами свойств</span><span class="sxs-lookup"><span data-stu-id="c8f5e-130">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

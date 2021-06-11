@@ -1,5 +1,5 @@
 ---
-title: RuleSets_Type complexType (Visio XML)
+title: RuleSets_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541563"
 ---
-# <a name="rulesets_type-complextype-visio-xml"></a><span data-ttu-id="58814-102">RuleSets_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="58814-102">RuleSets_Type complexType (Visio XML)</span></span>
+# <a name="rulesets_type-complextype-visio-xml"></a><span data-ttu-id="bd3b7-102">RuleSets_Type ComplexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="bd3b7-102">RuleSets_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="58814-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="58814-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="bd3b7-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="bd3b7-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="58814-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="58814-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="58814-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="58814-105">**Schema file**</span></span> <br/> |<span data-ttu-id="58814-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="58814-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="58814-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="58814-107">**Extension base**</span></span> <br/> |<span data-ttu-id="58814-108">Отсутствует</span><span class="sxs-lookup"><span data-stu-id="58814-108">None</span></span>  <br/> |
+|<span data-ttu-id="bd3b7-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="bd3b7-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="bd3b7-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="bd3b7-105">**Schema file**</span></span> <br/> |<span data-ttu-id="bd3b7-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="bd3b7-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="bd3b7-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="bd3b7-107">**Extension base**</span></span> <br/> |<span data-ttu-id="bd3b7-108">Отсутствует</span><span class="sxs-lookup"><span data-stu-id="bd3b7-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="58814-109">Определение</span><span class="sxs-lookup"><span data-stu-id="58814-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="bd3b7-109">Определение</span><span class="sxs-lookup"><span data-stu-id="bd3b7-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="RuleSets_Type">
@@ -40,18 +40,18 @@ ms.locfileid: "34541563"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="58814-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="58814-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="bd3b7-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="bd3b7-110">Elements and attributes</span></span>
 
-<span data-ttu-id="58814-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="58814-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="bd3b7-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="bd3b7-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="58814-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="58814-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="bd3b7-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="bd3b7-112">Child elements</span></span>
 
-|<span data-ttu-id="58814-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="58814-113">**Element**</span></span>|<span data-ttu-id="58814-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="58814-114">**Type**</span></span>|<span data-ttu-id="58814-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="58814-115">**Description**</span></span>|
+|<span data-ttu-id="bd3b7-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="bd3b7-113">**Element**</span></span>|<span data-ttu-id="bd3b7-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="bd3b7-114">**Type**</span></span>|<span data-ttu-id="bd3b7-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="bd3b7-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="58814-116">RuleSet</span><span class="sxs-lookup"><span data-stu-id="58814-116">RuleSet</span></span>](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="58814-117">RuleSet_Type</span><span class="sxs-lookup"><span data-stu-id="58814-117">RuleSet_Type</span></span>](ruleset_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="bd3b7-116">RuleSet</span><span class="sxs-lookup"><span data-stu-id="bd3b7-116">RuleSet</span></span>](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="bd3b7-117">RuleSet_Type</span><span class="sxs-lookup"><span data-stu-id="bd3b7-117">RuleSet_Type</span></span>](ruleset_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="58814-118">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="58814-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="bd3b7-118">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="bd3b7-118">Attributes</span></span>
 
-<span data-ttu-id="58814-119">Нет.</span><span class="sxs-lookup"><span data-stu-id="58814-119">None.</span></span>
+<span data-ttu-id="bd3b7-119">Нет.</span><span class="sxs-lookup"><span data-stu-id="bd3b7-119">None.</span></span>
   
 

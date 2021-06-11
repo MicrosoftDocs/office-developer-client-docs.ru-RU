@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/27/2021
 ms.locfileid: "52061337"
 ---
-# <a name="acct_bin"></a><span data-ttu-id="8d5d6-103">ACCT_BIN</span><span class="sxs-lookup"><span data-stu-id="8d5d6-103">ACCT_BIN</span></span>
+# <a name="acct_bin"></a><span data-ttu-id="c3aac-103">ACCT_BIN</span><span class="sxs-lookup"><span data-stu-id="c3aac-103">ACCT_BIN</span></span>
 
-<span data-ttu-id="8d5d6-104">Переменная этого типа данных имеет двоичное значение.</span><span class="sxs-lookup"><span data-stu-id="8d5d6-104">A variable of this data type holds a binary value.</span></span>
+<span data-ttu-id="c3aac-104">Переменная этого типа данных имеет двоичное значение.</span><span class="sxs-lookup"><span data-stu-id="c3aac-104">A variable of this data type holds a binary value.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="8d5d6-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="8d5d6-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="c3aac-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="c3aac-105">Quick info</span></span>
 
 ```cpp
 typedef struct { 
@@ -28,14 +28,14 @@ typedef struct {
 
 ```
 
-## <a name="members"></a><span data-ttu-id="8d5d6-106">Элементы</span><span class="sxs-lookup"><span data-stu-id="8d5d6-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="c3aac-106">Элементы</span><span class="sxs-lookup"><span data-stu-id="c3aac-106">Members</span></span>
 
-<span data-ttu-id="8d5d6-107">_cb_</span><span class="sxs-lookup"><span data-stu-id="8d5d6-107">_cb_</span></span>
+<span data-ttu-id="c3aac-107">_cb_</span><span class="sxs-lookup"><span data-stu-id="c3aac-107">_cb_</span></span>
   
-> <span data-ttu-id="8d5d6-108">Количество bytes, на которое _указывает pb._</span><span class="sxs-lookup"><span data-stu-id="8d5d6-108">Number of bytes that  _pb_ points to.</span></span> 
+> <span data-ttu-id="c3aac-108">Количество bytes, на которое _указывает pb._</span><span class="sxs-lookup"><span data-stu-id="c3aac-108">Number of bytes that  _pb_ points to.</span></span> 
     
-<span data-ttu-id="8d5d6-109">_pb_</span><span class="sxs-lookup"><span data-stu-id="8d5d6-109">_pb_</span></span>
+<span data-ttu-id="c3aac-109">_pb_</span><span class="sxs-lookup"><span data-stu-id="c3aac-109">_pb_</span></span>
   
-> <span data-ttu-id="8d5d6-110">Указатель на двоичные сведения.</span><span class="sxs-lookup"><span data-stu-id="8d5d6-110">Pointer to binary information.</span></span>
+> <span data-ttu-id="c3aac-110">Указатель на двоичные сведения.</span><span class="sxs-lookup"><span data-stu-id="c3aac-110">Pointer to binary information.</span></span>
     
 

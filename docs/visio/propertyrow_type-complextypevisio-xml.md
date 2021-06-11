@@ -1,5 +1,5 @@
 ---
-title: PropertyRow_Type complexType (Visio XML)
+title: PropertyRow_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540730"
 ---
-# <a name="propertyrow_type-complextype-visio-xml"></a><span data-ttu-id="d7c96-102">PropertyRow_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="d7c96-102">PropertyRow_Type complexType (Visio XML)</span></span>
+# <a name="propertyrow_type-complextype-visio-xml"></a><span data-ttu-id="ebd8e-102">PropertyRow_Type ComplexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="ebd8e-102">PropertyRow_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="d7c96-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="d7c96-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="ebd8e-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="ebd8e-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="d7c96-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="d7c96-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="d7c96-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="d7c96-105">**Schema file**</span></span> <br/> |<span data-ttu-id="d7c96-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="d7c96-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="d7c96-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="d7c96-107">**Extension base**</span></span> <br/> |<span data-ttu-id="d7c96-108">NamedRow_Type</span><span class="sxs-lookup"><span data-stu-id="d7c96-108">NamedRow_Type</span></span>  <br/> |
+|<span data-ttu-id="ebd8e-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="ebd8e-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="ebd8e-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="ebd8e-105">**Schema file**</span></span> <br/> |<span data-ttu-id="ebd8e-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="ebd8e-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="ebd8e-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="ebd8e-107">**Extension base**</span></span> <br/> |<span data-ttu-id="ebd8e-108">NamedRow_Type</span><span class="sxs-lookup"><span data-stu-id="ebd8e-108">NamedRow_Type</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="d7c96-109">Определение</span><span class="sxs-lookup"><span data-stu-id="d7c96-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="ebd8e-109">Определение</span><span class="sxs-lookup"><span data-stu-id="ebd8e-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="PropertyRow_Type">
@@ -44,18 +44,18 @@ ms.locfileid: "34540730"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="d7c96-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="d7c96-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="ebd8e-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="ebd8e-110">Elements and attributes</span></span>
 
-<span data-ttu-id="d7c96-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="d7c96-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="ebd8e-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="ebd8e-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="d7c96-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="d7c96-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="ebd8e-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="ebd8e-112">Child elements</span></span>
 
-|<span data-ttu-id="d7c96-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="d7c96-113">**Element**</span></span>|<span data-ttu-id="d7c96-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="d7c96-114">**Type**</span></span>|<span data-ttu-id="d7c96-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d7c96-115">**Description**</span></span>|
+|<span data-ttu-id="ebd8e-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="ebd8e-113">**Element**</span></span>|<span data-ttu-id="ebd8e-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="ebd8e-114">**Type**</span></span>|<span data-ttu-id="ebd8e-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="ebd8e-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="d7c96-116">Cell</span><span class="sxs-lookup"><span data-stu-id="d7c96-116">Cell</span></span>](cell-element-shape-data-sectionvisio-xml.md) <br/> |[<span data-ttu-id="d7c96-117">Cell_Type</span><span class="sxs-lookup"><span data-stu-id="d7c96-117">Cell_Type</span></span>](cell_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="ebd8e-116">Cell</span><span class="sxs-lookup"><span data-stu-id="ebd8e-116">Cell</span></span>](cell-element-shape-data-sectionvisio-xml.md) <br/> |[<span data-ttu-id="ebd8e-117">Cell_Type</span><span class="sxs-lookup"><span data-stu-id="ebd8e-117">Cell_Type</span></span>](cell_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="d7c96-118">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="d7c96-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="ebd8e-118">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="ebd8e-118">Attributes</span></span>
 
-<span data-ttu-id="d7c96-119">Нет.</span><span class="sxs-lookup"><span data-stu-id="d7c96-119">None.</span></span>
+<span data-ttu-id="ebd8e-119">Нет.</span><span class="sxs-lookup"><span data-stu-id="ebd8e-119">None.</span></span>
   
 

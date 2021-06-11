@@ -1,5 +1,5 @@
 ---
-title: Запуск в режиме разработчика (вкладка "Отображение разработчика")
+title: Запуск в режиме разработчика (Отображение вкладки разработчика)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,12 +15,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438794"
 ---
-# <a name="run-in-developer-mode-display-the-developer-tab"></a><span data-ttu-id="06c62-102">Запуск в режиме разработчика (вкладка "Отображение разработчика")</span><span class="sxs-lookup"><span data-stu-id="06c62-102">Run in Developer Mode (Display the Developer Tab)</span></span>
+# <a name="run-in-developer-mode-display-the-developer-tab"></a><span data-ttu-id="11994-102">Запуск в режиме разработчика (Отображение вкладки разработчика)</span><span class="sxs-lookup"><span data-stu-id="11994-102">Run in Developer Mode (Display the Developer Tab)</span></span>
 
-- <span data-ttu-id="06c62-103">Щелкните **вкладку "Файл"** и выберите **"Параметры".**</span><span class="sxs-lookup"><span data-stu-id="06c62-103">Click the **File** tab and then click **Options**.</span></span>
+- <span data-ttu-id="11994-103">Щелкните **вкладку File** и нажмите кнопку **Параметры**.</span><span class="sxs-lookup"><span data-stu-id="11994-103">Click the **File** tab and then click **Options**.</span></span>
     
-- <span data-ttu-id="06c62-104">В **диалоговом окне "Параметры Visio"** нажмите кнопку **"Дополнительные",** а затем в области "Общие" выберите "Выполнить **в режиме разработчика".** </span><span class="sxs-lookup"><span data-stu-id="06c62-104">In the **Visio Options** dialog box, click **Advanced**, and then under **General**, select **Run in developer mode**.</span></span>
+- <span data-ttu-id="11994-104">В **диалоговом окне Visio Параметры** нажмите **кнопку Advanced,** а затем в **general** выберите **Выполнить в режиме разработчика.**</span><span class="sxs-lookup"><span data-stu-id="11994-104">In the **Visio Options** dialog box, click **Advanced**, and then under **General**, select **Run in developer mode**.</span></span>
     
-<span data-ttu-id="06c62-105">Затем можно выбрать объект и щелкнуть **"Показать таблицу фигур",** чтобы быстрее получить доступ к окну ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="06c62-105">You then can select an object and click **Show ShapeSheet** for quicker access to the ShapeSheet window.</span></span> 
+<span data-ttu-id="11994-105">Затем можно выбрать объект и щелкнуть **Show ShapeSheet** для более быстрого доступа к окну ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="11994-105">You then can select an object and click **Show ShapeSheet** for quicker access to the ShapeSheet window.</span></span> 
   
 

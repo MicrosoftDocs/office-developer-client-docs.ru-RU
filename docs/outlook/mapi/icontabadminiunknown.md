@@ -19,27 +19,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439333"
 ---
-# <a name="icontabadmin--iunknown"></a><span data-ttu-id="84fe2-103">IContabAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="84fe2-103">IContabAdmin : IUnknown</span></span>
+# <a name="icontabadmin--iunknown"></a><span data-ttu-id="87004-103">IContabAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="87004-103">IContabAdmin : IUnknown</span></span>
 
   
   
-<span data-ttu-id="84fe2-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="84fe2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="87004-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="87004-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="84fe2-105">Удаляет папки контактов из Microsoft Outlook 2010, русская версия и адресной книги Microsoft Outlook 2013.</span><span class="sxs-lookup"><span data-stu-id="84fe2-105">Removes contact folders from the Microsoft Outlook 2010 and Microsoft Outlook 2013 address book.</span></span>
+<span data-ttu-id="87004-105">Удаляет папки контактов из Microsoft Outlook 2010, русская версия и Microsoft Outlook 2013 адресной книги.</span><span class="sxs-lookup"><span data-stu-id="87004-105">Removes contact folders from the Microsoft Outlook 2010 and Microsoft Outlook 2013 address book.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="84fe2-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="84fe2-106">Header file:</span></span>  <br/> |<span data-ttu-id="84fe2-107">cabadmin.h</span><span class="sxs-lookup"><span data-stu-id="84fe2-107">cabadmin.h</span></span>  <br/> |
-|<span data-ttu-id="84fe2-108">Выставим:</span><span class="sxs-lookup"><span data-stu-id="84fe2-108">Exposed by:</span></span>  <br/> ||
-|<span data-ttu-id="84fe2-109">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="84fe2-109">Implemented by:</span></span>  <br/> |[<span data-ttu-id="84fe2-110">IABContainer : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="84fe2-110">IABContainer : IMAPIContainer</span></span>](iabcontainerimapicontainer.md) <br/> |
-|<span data-ttu-id="84fe2-111">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="84fe2-111">Called by:</span></span>  <br/> |<span data-ttu-id="84fe2-112">CRM</span><span class="sxs-lookup"><span data-stu-id="84fe2-112">CRM</span></span>  <br/> |
-|<span data-ttu-id="84fe2-113">Идентификатор интерфейса:</span><span class="sxs-lookup"><span data-stu-id="84fe2-113">Interface identifier:</span></span>  <br/> |<span data-ttu-id="84fe2-114">IID_IContabAdmin</span><span class="sxs-lookup"><span data-stu-id="84fe2-114">IID_IContabAdmin</span></span>  <br/> |
-|<span data-ttu-id="84fe2-115">Тип указателя:</span><span class="sxs-lookup"><span data-stu-id="84fe2-115">Pointer type:</span></span>  <br/> ||
+|<span data-ttu-id="87004-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="87004-106">Header file:</span></span>  <br/> |<span data-ttu-id="87004-107">cabadmin.h</span><span class="sxs-lookup"><span data-stu-id="87004-107">cabadmin.h</span></span>  <br/> |
+|<span data-ttu-id="87004-108">Подвергается:</span><span class="sxs-lookup"><span data-stu-id="87004-108">Exposed by:</span></span>  <br/> ||
+|<span data-ttu-id="87004-109">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="87004-109">Implemented by:</span></span>  <br/> |[<span data-ttu-id="87004-110">IABContainer : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="87004-110">IABContainer : IMAPIContainer</span></span>](iabcontainerimapicontainer.md) <br/> |
+|<span data-ttu-id="87004-111">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="87004-111">Called by:</span></span>  <br/> |<span data-ttu-id="87004-112">CRM</span><span class="sxs-lookup"><span data-stu-id="87004-112">CRM</span></span>  <br/> |
+|<span data-ttu-id="87004-113">Идентификатор интерфейса:</span><span class="sxs-lookup"><span data-stu-id="87004-113">Interface identifier:</span></span>  <br/> |<span data-ttu-id="87004-114">IID_IContabAdmin</span><span class="sxs-lookup"><span data-stu-id="87004-114">IID_IContabAdmin</span></span>  <br/> |
+|<span data-ttu-id="87004-115">Тип указателя:</span><span class="sxs-lookup"><span data-stu-id="87004-115">Pointer type:</span></span>  <br/> ||
    
-## <a name="vtable-order"></a><span data-ttu-id="84fe2-116">Порядок ветвей</span><span class="sxs-lookup"><span data-stu-id="84fe2-116">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="87004-116">Заказ Vtable</span><span class="sxs-lookup"><span data-stu-id="87004-116">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|[<span data-ttu-id="84fe2-117">IContabAdmin::RemoveStore</span><span class="sxs-lookup"><span data-stu-id="84fe2-117">IContabAdmin::RemoveStore</span></span>](icontabadmin-removestore.md) <br/> |<span data-ttu-id="84fe2-118">Удаляет из иерархии адресной книги адресную книгу контактов, указанную с помощью указанного ИД записи.</span><span class="sxs-lookup"><span data-stu-id="84fe2-118">Removes the Contact Address Book (CAB) specified by the given entry ID from the address book hierarchy.</span></span>  <br/> |
+|[<span data-ttu-id="87004-117">IContabAdmin::RemoveStore</span><span class="sxs-lookup"><span data-stu-id="87004-117">IContabAdmin::RemoveStore</span></span>](icontabadmin-removestore.md) <br/> |<span data-ttu-id="87004-118">Удаляет контактную адресную книгу (CAB), заданную указанным ИД записи из иерархии адресной книги.</span><span class="sxs-lookup"><span data-stu-id="87004-118">Removes the Contact Address Book (CAB) specified by the given entry ID from the address book hierarchy.</span></span>  <br/> |
    
 

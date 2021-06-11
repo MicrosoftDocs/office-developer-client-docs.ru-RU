@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439613"
 ---
-# <a name="imapigetsessiongetmapisession"></a><span data-ttu-id="5c038-103">IMAPIGetSession::GetMAPISession</span><span class="sxs-lookup"><span data-stu-id="5c038-103">IMAPIGetSession::GetMAPISession</span></span>
+# <a name="imapigetsessiongetmapisession"></a><span data-ttu-id="7b122-103">IMAPIGetSession::GetMAPISession</span><span class="sxs-lookup"><span data-stu-id="7b122-103">IMAPIGetSession::GetMAPISession</span></span>
 
   
   
-<span data-ttu-id="5c038-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5c038-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7b122-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7b122-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5c038-105">Возвращает указатель на сеанс MAPI, связанный с объектом поддержки MAPI.</span><span class="sxs-lookup"><span data-stu-id="5c038-105">Returns a pointer to the MAPI session associated with the MAPI support object.</span></span>
+<span data-ttu-id="7b122-105">Возвращает указатель на сеанс MAPI, связанный с объектом поддержки MAPI.</span><span class="sxs-lookup"><span data-stu-id="7b122-105">Returns a pointer to the MAPI session associated with the MAPI support object.</span></span>
   
 ```cpp
 HRESULT GetMAPISession(
@@ -33,18 +33,18 @@ HRESULT GetMAPISession(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="5c038-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="5c038-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7b122-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="7b122-106">Parameters</span></span>
 
- <span data-ttu-id="5c038-107">_lppSession_</span><span class="sxs-lookup"><span data-stu-id="5c038-107">_lppSession_</span></span>
+ <span data-ttu-id="7b122-107">_lppSession_</span><span class="sxs-lookup"><span data-stu-id="7b122-107">_lppSession_</span></span>
   
-> <span data-ttu-id="5c038-108">[out] Указатель на текущий сеанс MAPI.</span><span class="sxs-lookup"><span data-stu-id="5c038-108">[out] A pointer to the current MAPI session.</span></span>
+> <span data-ttu-id="7b122-108">[вышел] Указатель на текущий сеанс MAPI.</span><span class="sxs-lookup"><span data-stu-id="7b122-108">[out] A pointer to the current MAPI session.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="5c038-109">См. также</span><span class="sxs-lookup"><span data-stu-id="5c038-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7b122-109">См. также</span><span class="sxs-lookup"><span data-stu-id="7b122-109">See also</span></span>
 
 
 
-[<span data-ttu-id="5c038-110">IMAPIGetSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="5c038-110">IMAPIGetSession : IUnknown</span></span>](imapigetsessioniunknown.md)
+[<span data-ttu-id="7b122-110">IMAPIGetSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="7b122-110">IMAPIGetSession : IUnknown</span></span>](imapigetsessioniunknown.md)
 
 
-[<span data-ttu-id="5c038-111">Обзор объектов поддержки</span><span class="sxs-lookup"><span data-stu-id="5c038-111">Support Object Overview</span></span>](support-object-overview.md)
+[<span data-ttu-id="7b122-111">Обзор объектов поддержки</span><span class="sxs-lookup"><span data-stu-id="7b122-111">Support Object Overview</span></span>](support-object-overview.md)
 

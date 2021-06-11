@@ -15,29 +15,29 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439823"
 ---
-# <a name="isocialsessiongetperson"></a><span data-ttu-id="c9544-103">ISocialSession::GetPerson</span><span class="sxs-lookup"><span data-stu-id="c9544-103">ISocialSession::GetPerson</span></span>
+# <a name="isocialsessiongetperson"></a><span data-ttu-id="16936-103">ISocialSession::GetPerson</span><span class="sxs-lookup"><span data-stu-id="16936-103">ISocialSession::GetPerson</span></span>
 
-<span data-ttu-id="c9544-104">Получает интерфейс [ISocialPerson](isocialpersoniunknown.md) на основе _параметра userID._</span><span class="sxs-lookup"><span data-stu-id="c9544-104">Gets an [ISocialPerson](isocialpersoniunknown.md) interface based on the  _userID_ parameter.</span></span> 
+<span data-ttu-id="16936-104">Получает интерфейс [ISocialPerson](isocialpersoniunknown.md) на основе _параметра userID._</span><span class="sxs-lookup"><span data-stu-id="16936-104">Gets an [ISocialPerson](isocialpersoniunknown.md) interface based on the  _userID_ parameter.</span></span> 
   
 ```cpp
 HRESULT _stdcall GetPerson([in] BSTR userId, [out, retval] ISocialPerson** result);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c9544-105">Параметры</span><span class="sxs-lookup"><span data-stu-id="c9544-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="16936-105">Parameters</span><span class="sxs-lookup"><span data-stu-id="16936-105">Parameters</span></span>
 
-<span data-ttu-id="c9544-106">_userId_</span><span class="sxs-lookup"><span data-stu-id="c9544-106">_userId_</span></span>
+<span data-ttu-id="16936-106">_userId_</span><span class="sxs-lookup"><span data-stu-id="16936-106">_userId_</span></span>
   
-> <span data-ttu-id="c9544-107">[in] Строка, которая содержит ИД пользователя или SMTP-адрес пользователя.</span><span class="sxs-lookup"><span data-stu-id="c9544-107">[in] A string that contains a user ID or SMTP address of a person.</span></span>
+> <span data-ttu-id="16936-107">[in] Строка, которая содержит пользовательский ID или SMTP-адрес пользователя.</span><span class="sxs-lookup"><span data-stu-id="16936-107">[in] A string that contains a user ID or SMTP address of a person.</span></span>
     
-<span data-ttu-id="c9544-108">_result_</span><span class="sxs-lookup"><span data-stu-id="c9544-108">_result_</span></span>
+<span data-ttu-id="16936-108">_result_</span><span class="sxs-lookup"><span data-stu-id="16936-108">_result_</span></span>
   
-> <span data-ttu-id="c9544-109">[out] Интерфейс **ISocialPerson.**</span><span class="sxs-lookup"><span data-stu-id="c9544-109">[out] An **ISocialPerson** interface.</span></span> 
+> <span data-ttu-id="16936-109">[вышел] Интерфейс **ISocialPerson.**</span><span class="sxs-lookup"><span data-stu-id="16936-109">[out] An **ISocialPerson** interface.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="c9544-110">Примечания</span><span class="sxs-lookup"><span data-stu-id="c9544-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="16936-110">Примечания</span><span class="sxs-lookup"><span data-stu-id="16936-110">Remarks</span></span>
 
-<span data-ttu-id="c9544-111">Параметр  _userID_ должен быть ид пользователя или SMTP-адрес.</span><span class="sxs-lookup"><span data-stu-id="c9544-111">The  _userID_ parameter must be a user ID or SMTP address.</span></span> 
+<span data-ttu-id="16936-111">Параметр  _userID_ должен быть пользовательским ИД или SMTP-адресом.</span><span class="sxs-lookup"><span data-stu-id="16936-111">The  _userID_ parameter must be a user ID or SMTP address.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="c9544-112">См. также</span><span class="sxs-lookup"><span data-stu-id="c9544-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="16936-112">См. также</span><span class="sxs-lookup"><span data-stu-id="16936-112">See also</span></span>
 
-- [<span data-ttu-id="c9544-113">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c9544-113">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
+- [<span data-ttu-id="16936-113">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="16936-113">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
 

@@ -1,5 +1,5 @@
 ---
-title: DynamicGridEnabled_Type complexType (Visio XML)
+title: DynamicGridEnabled_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539958"
 ---
-# <a name="dynamicgridenabled_type-complextype-visio-xml"></a><span data-ttu-id="8db65-102">DynamicGridEnabled_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="8db65-102">DynamicGridEnabled_Type complexType (Visio XML)</span></span>
+# <a name="dynamicgridenabled_type-complextype-visio-xml"></a><span data-ttu-id="03a14-102">DynamicGridEnabled_Type ComplexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="03a14-102">DynamicGridEnabled_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="8db65-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="8db65-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="03a14-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="03a14-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="8db65-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="8db65-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="8db65-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="8db65-105">**Schema file**</span></span> <br/> |<span data-ttu-id="8db65-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="8db65-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="8db65-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="8db65-107">**Extension base**</span></span> <br/> |<span data-ttu-id="8db65-108">xsd:boolean</span><span class="sxs-lookup"><span data-stu-id="8db65-108">xsd:boolean</span></span>  <br/> |
+|<span data-ttu-id="03a14-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="03a14-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="03a14-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="03a14-105">**Schema file**</span></span> <br/> |<span data-ttu-id="03a14-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="03a14-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="03a14-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="03a14-107">**Extension base**</span></span> <br/> |<span data-ttu-id="03a14-108">xsd:boolean</span><span class="sxs-lookup"><span data-stu-id="03a14-108">xsd:boolean</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="8db65-109">Определение</span><span class="sxs-lookup"><span data-stu-id="8db65-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="03a14-109">Определение</span><span class="sxs-lookup"><span data-stu-id="03a14-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="DynamicGridEnabled_Type">
@@ -31,16 +31,16 @@ ms.locfileid: "34539958"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="8db65-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="8db65-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="03a14-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="03a14-110">Elements and attributes</span></span>
 
-<span data-ttu-id="8db65-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="8db65-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="03a14-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="03a14-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="8db65-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="8db65-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="03a14-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="03a14-112">Child elements</span></span>
 
-<span data-ttu-id="8db65-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="8db65-113">None.</span></span>
+<span data-ttu-id="03a14-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="03a14-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="8db65-114">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="8db65-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="03a14-114">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="03a14-114">Attributes</span></span>
 
-<span data-ttu-id="8db65-115">Нет.</span><span class="sxs-lookup"><span data-stu-id="8db65-115">None.</span></span>
+<span data-ttu-id="03a14-115">Нет.</span><span class="sxs-lookup"><span data-stu-id="03a14-115">None.</span></span>
   
 

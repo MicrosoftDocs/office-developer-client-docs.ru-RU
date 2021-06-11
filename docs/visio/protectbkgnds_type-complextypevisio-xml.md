@@ -1,5 +1,5 @@
 ---
-title: ProtectBkgnds_Type complexType (Visio XML)
+title: ProtectBkgnds_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540716"
 ---
-# <a name="protectbkgnds_type-complextype-visio-xml"></a><span data-ttu-id="be8fe-102">ProtectBkgnds_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="be8fe-102">ProtectBkgnds_Type complexType (Visio XML)</span></span>
+# <a name="protectbkgnds_type-complextype-visio-xml"></a><span data-ttu-id="80a6b-102">ProtectBkgnds_Type ComplexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="80a6b-102">ProtectBkgnds_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="be8fe-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="be8fe-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="80a6b-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="80a6b-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="be8fe-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="be8fe-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="be8fe-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="be8fe-105">**Schema file**</span></span> <br/> |<span data-ttu-id="be8fe-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="be8fe-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="be8fe-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="be8fe-107">**Extension base**</span></span> <br/> |<span data-ttu-id="be8fe-108">xsd:boolean</span><span class="sxs-lookup"><span data-stu-id="be8fe-108">xsd:boolean</span></span>  <br/> |
+|<span data-ttu-id="80a6b-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="80a6b-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="80a6b-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="80a6b-105">**Schema file**</span></span> <br/> |<span data-ttu-id="80a6b-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="80a6b-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="80a6b-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="80a6b-107">**Extension base**</span></span> <br/> |<span data-ttu-id="80a6b-108">xsd:boolean</span><span class="sxs-lookup"><span data-stu-id="80a6b-108">xsd:boolean</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="be8fe-109">Определение</span><span class="sxs-lookup"><span data-stu-id="be8fe-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="80a6b-109">Определение</span><span class="sxs-lookup"><span data-stu-id="80a6b-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="ProtectBkgnds_Type">
@@ -31,16 +31,16 @@ ms.locfileid: "34540716"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="be8fe-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="be8fe-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="80a6b-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="80a6b-110">Elements and attributes</span></span>
 
-<span data-ttu-id="be8fe-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="be8fe-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="80a6b-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="80a6b-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="be8fe-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="be8fe-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="80a6b-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="80a6b-112">Child elements</span></span>
 
-<span data-ttu-id="be8fe-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="be8fe-113">None.</span></span>
+<span data-ttu-id="80a6b-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="80a6b-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="be8fe-114">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="be8fe-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="80a6b-114">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="80a6b-114">Attributes</span></span>
 
-<span data-ttu-id="be8fe-115">Нет.</span><span class="sxs-lookup"><span data-stu-id="be8fe-115">None.</span></span>
+<span data-ttu-id="80a6b-115">Нет.</span><span class="sxs-lookup"><span data-stu-id="80a6b-115">None.</span></span>
   
 
