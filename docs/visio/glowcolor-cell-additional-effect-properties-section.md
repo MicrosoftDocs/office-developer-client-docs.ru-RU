@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 640d18c0-5b6a-4a2f-9c81-f74de5ba9eb1
-description: Определяет цвет, используемый для росчерка внешнего свечения, примененного к фигуре, в виде значения RGB или темы.
+description: Определяет цвет, используемый для штриха внешнего свечения, примененного к фигуре, как RGB или значение темы.
 ms.openlocfilehash: 726dbef7ae006af1a6ff9956d16eb73cfdd02974
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33422637"
 ---
 # <a name="glowcolor-cell-additional-effect-properties-section"></a>GlowColor Cell (Additional Effect Properties Section)
 
-Определяет цвет, используемый для росчерка внешнего свечения, примененного к фигуре, в виде значения RGB или темы.
+Определяет цвет, используемый для штриха внешнего свечения, примененного к фигуре, как RGB или значение темы.
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **GlowColor** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
+Чтобы получить ссылку на ячейку **GlowColor** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы с использованием свойства **CellsU,** используйте: 
   
 |||
 |:-----|:-----|

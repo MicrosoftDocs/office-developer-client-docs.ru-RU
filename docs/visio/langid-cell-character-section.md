@@ -22,20 +22,20 @@ ms.locfileid: "33419284"
   
 ## <a name="remarks"></a>Примечания
 
-Список языков, поддерживаемых Microsoft Office, см. в разделе [DocLangID](doclangid-cell-document-properties-section.md) Cell (Document Properties Section). 
+Список языков, поддерживаемых Microsoft Office приложениями, см. в разделе [DocLangID](doclangid-cell-document-properties-section.md) Cell (Document Properties Section). 
   
 Чтобы получить ссылку на ячейку LangID по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки:  <br/> | Char.LangID[  *i*  ] где  *i*  = <1>, 2, 3...  <br/> |
+| Имя ячейки:  <br/> | Char.LangID[  *i*  ] где  *i*  = <1>, 2, 3 ...  <br/> |
    
 Чтобы получить ссылку на ячейку LangID по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionCharacter** <br/> |
-| Индекс строки:  <br/> |**visRowCharacter**  +   *i,* *где i* = 0, 1, 2...  <br/> |
+| Индекс строки:  <br/> |**visRowCharacter**  +   *i,* *где i* = 0, 1, 2 ...  <br/> |
 | Индекс ячейки:  <br/> |**visCharacterLangID** <br/> |
    
 

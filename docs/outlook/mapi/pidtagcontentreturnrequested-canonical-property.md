@@ -23,9 +23,9 @@ ms.locfileid: "33419774"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит true, если сообщение должно быть возвращено с отчетом о ненастройстве. 
+Содержит TRUE, если сообщение должно быть возвращено с отчетом о неделивстве. 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ ms.locfileid: "33419774"
    
 ## <a name="remarks"></a>Примечания
 
-Если это свойство не установлено, MAPI обрабатывает его как значение TRUE. 
+Если это свойство не установлено, MAPI рассматривает его как значение TRUE. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

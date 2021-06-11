@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dd7a7e62-4cf2-bdd3-8a00-4fff5ac575d3
-description: Получает количество учетных записей в этом коде.
+description: Получает количество учетных записей в этом переуметоре.
 ms.openlocfilehash: 8571d5ff01501d980c8b6543607a658ad99085ca
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33421825"
 ---
 # <a name="iolkenumgetcount"></a>IOlkEnum::GetCount
 
-Получает количество учетных записей в этом коде.
+Получает количество учетных записей в этом переуметоре.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IOlkEnum](iolkenum.md).
+См. [iOlkEnum](iolkenum.md).
   
 ```cpp
 HRESULT IOlkEnum::GetCount ( 
@@ -29,11 +29,11 @@ HRESULT IOlkEnum::GetCount (
 
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _pulCount_
   
-> [out] Указатель на количество объектов, которые необходимо мимить.
+> [вышел] Указатель на количество объектов, которые будут засвещены.
     
 ## <a name="return-values"></a>Возвращаемые значения
 

@@ -1,5 +1,5 @@
 ---
-title: EditRecord Data Block (Access custom web app)
+title: Блок данных EditRecord (Доступ к пользовательскому веб-приложению)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418346"
 ---
-# <a name="editrecord-data-block-access-custom-web-app"></a>EditRecord Data Block (Access custom web app)
+# <a name="editrecord-data-block-access-custom-web-app"></a>Блок данных EditRecord (Доступ к пользовательскому веб-приложению)
 
 Блок данных **EditRecord можно** использовать для изменения значений, содержащихся в существующей записи. 
   
@@ -29,28 +29,28 @@ ms.locfileid: "33418346"
   
 |**Аргумент**|**Описание**|
 |:-----|:-----|
-|**Alias** <br/> |Строка, идентифицирует запись, которую необходимо изменить. Если  *аргумент Alias*  не указан, то текущая запись будет изменена.  <br/> |
+|**Alias** <br/> |Строка, идентифицируемая для редактирования записи. Если аргумент  *Alias*  не указан, то текущая запись редактирована.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-После выполнения **команды EditRecord** можно вставить блок команд, которые будут выполняться до того, как будут зафиксированы изменения записи. В блоке данных **EditRecord** доступны следующие действия. 
+После утверждения **EditRecord** можно вставить блок команд, которые будут выполняться до внесения изменений в запись. Следующие действия доступны в блоке **данных EditRecord.** 
   
 ||
 |:-----|
 |[CancelRecordChange Macro Action](cancelrecordchange-macro-action-access-custom-web-app.md) <br/> |
 |[Comment Macro Statement](comment-macro-block-access-custom-web-app.md) <br/> |
 |[Group Macro Statement](group-macro-block-access-custom-web-app.md) <br/> |
-|[If... Затем... Else Macro Statement](ifthenelse-macro-block-access-custom-web-app.md) <br/> |
+|[Если... Затем... Else Macro Statement](ifthenelse-macro-block-access-custom-web-app.md) <br/> |
 |[SetField Macro Action](setfield-macro-action-access-custom-web-app.md) <br/> |
 |[SetLocalVar Macro Action](setlocalvar-macro-action-access-custom-web-app.md) <br/> |
    
-Используйте действие **SetField,** чтобы указать новые значения поля в измененной записи. 
+Используйте действие **SetField,** чтобы указать новые значения поля в отредактируемой записи. 
   
-Вы можете использовать **if... Затем... Заявление Else** для выполнения операций на основе условия. 
+Вы можете использовать **if... Затем... Другое** заявление для выполнения операций на основе условия. 
   
-Чтобы отменить редактирование записи, используйте действие **CancelRecordChange.** Это предотвращает зафиксирование изменений и выход из блока данных **EditRecord.** 
+Чтобы отменить редактирование записи, используйте **действие CancelRecordChange.** Это предотвращает совершение изменений и выход из блока **данных EditRecord.** 
   
-Локализованную переменную **LastCreateRecordIdentity** можно использовать для работы с последней записью, созданной в блоке данных **CreateRecord.** Например, используйте следующий синтаксис для ссылки на поле AssignedTo последней созданной записи: 
+Для работы с последней записью, созданной в блоке данных CreateRecord, можно использовать локализованную переменную **LastCreateRecordIdentity.**  Например, используйте следующий синтаксис для ссылки на поле AssignedTo последней созданной записи: 
   
 `[LastCreateRecordIdentity].[AssignedTo]`
 

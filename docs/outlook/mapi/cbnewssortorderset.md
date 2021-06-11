@@ -23,9 +23,9 @@ ms.locfileid: "33423715"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет количество ветвей, выделяемого для новой структуры [SizedSSortOrderSet,](sizedssortorderset.md) которая содержит указанное число заказов сортировки, представленных структурами [SSortOrder.](ssortorder.md) 
+Вычисляет количество bytes, которые будут выделены для новой структуры [SizedSSortOrderSet,](sizedssortorderset.md) которая содержит определенное количество заказов сортировки, представленных [структурами SSortOrder.](ssortorder.md) 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ ms.locfileid: "33423715"
 CbNewSSortOrderSet (_csort)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ _csort_
   
-> Количество структур **SSortOrder,** которые необходимо включить в **структуру SSortOrderSet.** 
+> Количество **структур SSortOrder,** которые будут включены в **структуру SSortOrderSet.** 
     
 ## <a name="see-also"></a>См. также
 

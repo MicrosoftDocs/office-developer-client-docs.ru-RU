@@ -1,5 +1,5 @@
 ---
-title: Макрокод DeleteRecord (пользовательское веб-приложение Access)
+title: DeleteRecord Macro action (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420992"
 ---
-# <a name="deleterecord-macro-action-access-custom-web-app"></a>Макрокод DeleteRecord (пользовательское веб-приложение Access)
+# <a name="deleterecord-macro-action-access-custom-web-app"></a>DeleteRecord Macro action (Access custom web app)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
@@ -22,6 +22,6 @@ ms.locfileid: "33420992"
   
 ## <a name="setting"></a>Setting
 
-Действие **DeleteRecord** не содержит аргументов, используемых в макросе пользовательского интерфейса. 
+Действие **DeleteRecord** не содержит аргументов, используемых в макросе пользовательского интерфейса (пользовательского интерфейса). 
   
 

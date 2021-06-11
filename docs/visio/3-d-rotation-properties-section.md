@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6f2520c0-d2e2-470a-90b5-c4bca789bb73
-description: Показывает текущие значения угла поворота фигуры вдоль осей X, Y и Z.
+description: Отображает текущие значения угла вращения фигуры вдоль x-, y-и z-axes.
 ms.openlocfilehash: 03ecf92de66324157dc6a9003e943dbb33cb8aa5
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,13 +16,13 @@ ms.locfileid: "33421104"
 ---
 # <a name="3-d-rotation-properties-section"></a>3-D Rotation Properties Section
 
-Показывает текущие значения угла поворота фигуры вдоль осей X, Y и Z.
+Отображает текущие значения угла вращения фигуры вдоль x-, y-и z-axes.
   
 > [!NOTE]
-> Раздел "Свойства поворота 3 D" не содержит ячеек, которые контролируют эффекты фигуры. Чтобы установить эффект bevel, измените значения ячеек в разделе ["Свойства bevel".](bevel-properties-section.md) 
+> В разделе 3-D Rotation Properties не содержатся ячейки, которые контролируют эффекты окуличения фигуры. Чтобы установить эффект bevel, измените значения ячеек в разделе [Свойства Bevel.](bevel-properties-section.md) 
   
 ## <a name="remarks"></a>Примечания
 
-Вы можете изменить значения 3D-поворота в диалоговом окне "Формат фигуры"**(** Эффекты   >    >    >  **3D-поворота** стилей домашней фигуры или внося изменения в одну из ячеек в разделе **"Свойства** поворота в формате". 
+В диалоговом окне **Форма** формата **(Home**  >  **Shape Styles** Effects 3-D Rotation) можно изменить значения 3-D вращения или изменить одну из ячеек в разделе Свойства  >    >  **3-D** rotation. 
   
 

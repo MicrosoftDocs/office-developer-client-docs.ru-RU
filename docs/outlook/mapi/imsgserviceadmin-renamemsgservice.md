@@ -23,7 +23,7 @@ ms.locfileid: "33422105"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Устарело. Назначает новое имя службе сообщений. 
   
@@ -35,11 +35,11 @@ HRESULT RenameMsgService(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _lpUID_
   
-> [in] Указатель на структуру [MAPIUID,](mapiuid.md) которая содержит уникальный идентификатор службы сообщений, которую требуется переименовать. 
+> [in] Указатель на структуру [MAPIUID,](mapiuid.md) которая содержит уникальный идентификатор для службы сообщений для переименования. 
     
  _ulFlags_
   
@@ -53,11 +53,11 @@ HRESULT RenameMsgService(
 
 MAPI_E_NO_SUPPORT 
   
-> MAPI не поддерживает переименование этой службы сообщений. **RenameMsgService** всегда возвращает это значение. 
+> MAPI не поддерживает переименование этой службы сообщений. **ПереименованиеMsgService** всегда возвращает это значение. 
     
 ## <a name="remarks"></a>Примечания
 
-Чтобы назначить новое имя службе сообщений, клиенты должны использовать свойство **PR_SERVICE_NAME** ([PidTagServiceName)](pidtagservicename-canonical-property.md)службы сообщений. Имена поставщиков услуг в службе сообщений хранятся в их свойствах PR_DISPLAY_NAME **(** [PidTagDisplayName).](pidtagdisplayname-canonical-property.md) 
+Чтобы назначить новое имя службе сообщений, клиенты должны использовать **свойство** [PR_SERVICE_NAME (PidTagServiceName)](pidtagservicename-canonical-property.md)службы сообщений. Имена поставщиков услуг в службе сообщений хранятся в **свойствах PR_DISPLAY_NAME** [(PidTagDisplayName).](pidtagdisplayname-canonical-property.md) 
   
 ## <a name="see-also"></a>См. также
 

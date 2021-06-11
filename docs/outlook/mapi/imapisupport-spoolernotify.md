@@ -23,9 +23,9 @@ ms.locfileid: "33423771"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Сообщает пулу MAPI об изменении состояния или запросе на обслуживание. 
+Сообщает шпалеру MAPI об изменении состояния или запросе на обслуживание. 
   
 ```cpp
 HRESULT SpoolerNotify(
@@ -34,11 +34,11 @@ LPVOID lpvData
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [in] Битоваяmas флагов, которая указывает тип уведомления. Поставщики транспорта могут устанавливать все флаги, кроме NOTIFY_NEWMAIL_RECEIVED; только NOTIFY_NEWMAIL_RECEIVED и NOTIFY_READTOSEND допустимы для поставщиков store сообщений. Для параметра  _ulFlags_ допустимы следующие флаги: 
+> [in] Битмашка флагов, которая указывает тип уведомления. Поставщики транспорта могут устанавливать все флаги, за исключением NOTIFY_NEWMAIL_RECEIVED; только NOTIFY_NEWMAIL_RECEIVED и NOTIFY_READTOSEND допустимы для поставщиков хранения сообщений. Для параметра  _ulFlags_ допустимы следующие флаги: 
     
 NOTIFY_CONFIG_CHANGE 
   
@@ -46,75 +46,75 @@ NOTIFY_CONFIG_CHANGE
     
 NOTIFY_CRITICAL_ERROR 
   
-> Произошла неу обнаруженная ошибка для поставщика транспорта. Так как NOTIFY_SENTDEFERRED и NOTIFY_CRITICAL_ERROR использовать параметр  _lpvData_ для вызовов поставщика транспорта, эти флаги являются взаимоисключающими. 
+> В поставщике транспорта произошла невозвратная ошибка. Так как NOTIFY_SENTDEFERRED и NOTIFY_CRITICAL_ERROR для вызовов поставщика транспорта используется параметр  _lpvData,_ эти флаги являются взаимоисключающими. 
     
 NOTIFY_CRITSEC 
   
-> Запрашивает критический раздел для поставщика транспорта. Параметр  _lpvData_ не задан и должен иметь NULL. 
+> Запрашивает критически важный раздел для поставщика транспорта. Параметр  _lpvData_ неопределяем и должен быть NULL. 
     
 NOTIFY_NEWMAIL 
   
-> The MAPI spooler should download any newly received messages at the next available time. Параметр  _lpvData_ не задан и должен иметь NULL. 
+> Шпалер MAPI должен скачать все вновь полученные сообщения в следующее доступное время. Параметр  _lpvData_ не установлен и должен быть задан в NULL. 
     
 NOTIFY_NEWMAIL_RECEIVED 
   
-> В хранилище сообщений получено новое сообщение. Параметр  _lpvData указывает_ на [NEWMAIL_NOTIFICATION,](newmail_notification.md) которая описывает сообщение. Этот флаг используется для поставщиков хранения сообщений, которые тесно совмещение с поставщиками транспорта, и игнорируется, если поставщик магазина вошел в систему с установленным MAPI_NO_MAIL флагом. 
+> В хранилище сообщений получено новое сообщение. Параметр  _lpvData_ указывает на структуру [NEWMAIL_NOTIFICATION,](newmail_notification.md) описываемую сообщение. Этот флаг используется для поставщиков магазинов сообщений, тесно соединых с поставщиками транспорта, и игнорируется, если поставщик магазина вошел в систему с MAPI_NO_MAIL флагом. 
     
 NOTIFY_NONCRIT 
   
-> Освобождает критический раздел, полученный при предыдущем вызове **SpoolerNotify,** для  _ulFlags_ установлено значение NOTIFY_CRITSEC. Параметр  _lpvData_ не задан и должен иметь NULL. 
+> Выпускает критический раздел, полученный при предыдущем вызове **в SpoolerNotify** с  _набором ulFlags_ для NOTIFY_CRITSEC. Параметр  _lpvData_ не установлен и должен быть задан в NULL. 
     
 NOTIFY_READYTOSEND 
   
-> Поставщик транспорта или хранения сообщений готов к отправке сообщений. Параметр  _lpvData_ не задан и должен иметь NULL. 
+> Поставщик транспорта или магазина сообщений готов отправлять сообщения. Параметр  _lpvData_ не установлен и должен быть задан в NULL. 
     
 NOTIFY_SENTDEFERRED 
   
-> Теперь необходимо отправить ранее отложенное сообщение, и поставщик транспорта должен быть уведомлен о готовности сообщения к доставке с помощью вызова метода [IXPLogon::SubmitMessage.](ixplogon-submitmessage.md) Идентификатор записи отложенного сообщения содержится в структуре [SBinary,](sbinary.md) на который указывает _lpvData._ Так как NOTIFY_SENTDEFERRED и NOTIFY_CRITICAL_ERROR использовать параметр  _lpvData,_ эти флаги являются взаимоисключающими. 
+> Ранее отложенное сообщение должно быть отправлено, и поставщик транспорта должен быть уведомлен, когда сообщение будет готово к отправке с помощью вызова метода [IXPLogon::SubmitMessage.](ixplogon-submitmessage.md) Идентификатор входа отложенного сообщения содержится в [структуре SBinary,](sbinary.md) на которые указывает _lpvData._ Так как NOTIFY_SENTDEFERRED и NOTIFY_CRITICAL_ERROR используют параметр  _lpvData,_ эти флаги являются взаимоисключающими. 
     
  _lpvData_
   
-> [in] Указатель на связанные данные, применимые к уведомлению. Параметр  _lpvData_ указывает на допустимые данные, только если заданы следующие флаги (_lpvData_ имеет NULL, если  _для ulFlags_ заданы другие типы уведомлений): 
+> [in] Указатель на связанные данные, применимые к уведомлению. Параметр  _lpvData_ указывает на допустимые данные только при задании следующих флагов _(lpvData_ является NULL, когда  _ulFlags_ задан для других типов уведомлений): 
     
-|**_Параметр ulFlags_**|**_Значение lpvData_**|
+|**_Параметр ulFlags_**|**_значение lpvData_**|
 |:-----|:-----|
 |NOTIFY_CRITICAL_ERROR  <br/> |Сведения об ошибке.  <br/> |
-|NOTIFY_NEWMAIL_RECEIVED  <br/> |Структура **NEWMAIL_NOTIFICATION,** которая содержит сведения о только что доставленном сообщении.  <br/> |
-|NOTIFY_SENTDEFERRED  <br/> |Структура **SBinary,** которая содержит идентификатор записи отложенного сообщения.  <br/> |
+|NOTIFY_NEWMAIL_RECEIVED  <br/> |Структура **NEWMAIL_NOTIFICATION,** которая содержит сведения о вновь доставленном сообщении.  <br/> |
+|NOTIFY_SENTDEFERRED  <br/> |Структура **SBinary,** которая содержит идентификатор входа отложенного сообщения.  <br/> |
    
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Уведомление успешно.
+> Уведомление было успешным.
     
 ## <a name="remarks"></a>Примечания
 
-Метод **IMAPISupport::SpoolerNotify реализован** для объектов поддержки службы хранения сообщений и поставщика транспорта. Эти поставщики **вызывали SpoolerNotify,** чтобы уведомить пультер MAPI об изменении состояния или запросе на обслуживание. **SpoolerNotify** в основном вызван поставщиками транспорта и может быть вызван в любое время во время сеанса. 
+Метод **IMAPISupport::SpoolerNotify** реализован для объектов хранения сообщений и поставщиков транспорта. Эти поставщики **звонят в SpoolerNotify,** чтобы уведомить шпалер MAPI об изменении состояния или запросе на обслуживание. **SpoolerNotify** называется главным образом поставщиками транспорта и может быть вызвана в любое время во время сеанса. 
   
-## <a name="notes-to-transport-providers"></a>Примечания для поставщиков транспорта
+## <a name="notes-to-transport-providers"></a>Заметки поставщикам транспорта
 
-Если вы изменили конфигурацию поставщика транспорта, вызовите **SpoolerNotify** и установите  _для ulFlags_ NOTIFY_CONFIG_CHANGED. **В ответ SpoolerNotify** вызывает метод [IXPLogon::AddressTypes](ixplogon-addresstypes.md) для запроса на изменение поддерживаемых типов адресов. 
+Если вы изменили конфигурацию поставщика транспорта, позвоните **в SpoolerNotify** и установите  _ulFlags_ для NOTIFY_CONFIG_CHANGED. **SpoolerNotify** отвечает, вызывая [метод IXPLogon::AddressTypes](ixplogon-addresstypes.md) для запроса на изменение поддерживаемых типов адресов. 
   
-Если требуется критический раздел для непрерывной обработки, вызовите **SpoolerNotify** с  _ulFlags,_ установленным NOTIFY_CRITSEC. Установка этого флага сообщает пулу MAPI о том, что он не должен вызывать методы [IXPLogon::Idle](ixplogon-idle.md) и [IXPLogon::P oll.](ixplogon-poll.md) При открытом критическом разделе MAPI_E_BUSY каждый раз, когда будет вызван метод [IMAPIStatus::ValidateState.](imapistatus-validatestate.md) Завершив критический раздел, еще раз вызовите **SpoolerNotify,** где для  _ulFlags_ установлено значение NOTIFY_NONCRIT. 
+Если вам нужен критический раздел для обеспечения непрерывной обработки, позвоните **в SpoolerNotify** с  _набором ulFlags_ для NOTIFY_CRITSEC. Настройка этого флага информирует шпалер MAPI о том, что он не должен вызывать методы [IXPLogon::Idle](ixplogon-idle.md) и [IXPLogon::P oll.](ixplogon-poll.md) Хотя у вас открыт критический раздел, MAPI_E_BUSY, когда называется метод [IMAPIStatus::ValidateState.](imapistatus-validatestate.md) После завершения критического раздела сделайте еще один вызов **в SpoolerNotify** с  _набором ulFlags_ для NOTIFY_NONCRIT. 
   
-Например, если ваш удаленный поставщик транспорта загружает сообщения, может потребоваться разрешить пользователю вводить телефонный номер, чтобы установить удаленное подключение. Перед циклом процедуры в диалоговом окне объявите критический раздел. Когда пользователь закрывает диалоговое окно, завершая процедуру диалоговых окна, необходимо освободить критический раздел.
+Например, если поставщик удаленного транспорта находится в процессе отправки сообщений, может потребоваться разрешить пользователю ввести номер телефона для установления удаленного подключения. Перед циклом в диалоговом окне необходимо объявить критический раздел. Когда пользователь закрывает диалоговое окно, завершая процедуру диалогового окна, необходимо освободить критический раздел.
   
-Если вы установите  _для ulFlags_ NOTIFY_CRITICAL_ERROR, пулер MAPI не будет больше звонить поставщику, кроме как освободить его. If you call **SpoolerNotify** with NOTIFY_CRITICAL_ERROR set from the [IXPLogon::StartMessage](ixplogon-startmessage.md) or [IXPLogon::SubmitMessage](ixplogon-submitmessage.md) methods, return with an appropriate error value from the **StartMessage** or ** SubmitMessage ** call immediately after the **SpoolerNotify** call. 
+При задаче  _ulFlags_ NOTIFY_CRITICAL_ERROR, пуллер MAPI не вызывает поставщика, кроме как освободить его. Если вы вызываете **SpoolerNotify** с набором NOTIFY_CRITICAL_ERROR из [IXPLogon::StartMessage](ixplogon-startmessage.md) или [IXPLogon::SubmitMessage,](ixplogon-submitmessage.md) вернись с соответствующим значением ошибки из **startMessage** или ** SubmitMessage ** call immediately after the **SpoolerNotify** call. 
   
-Если ваш поставщик транспорта восстановился после условия, которое ранее вызывло сбой, вызовите **SpoolerNotify,** для  _ulFlags_ установлено NOTIFY_READYTOSEND. Этот флаг указывает, что поставщик снова готов к обработке сообщений. 
+Если поставщик транспорта оправился от условия, которое ранее привело к сбойу, позвоните **в SpoolerNotify** с  _набором ulFlags_ для NOTIFY_READYTOSEND. Этот флаг указывает, что поставщик снова готов обрабатывать сообщения. 
   
-## <a name="notes-to-message-store-providers"></a>Примечания для поставщиков store сообщений
+## <a name="notes-to-message-store-providers"></a>Заметки поставщикам магазина сообщений
 
-Вызовите **SpoolerNotify,** передав флаг NOTIFY_READYTOSEND в _ulFlags_ перед первым вызовом [IMAPISupport::P repareSubmit](imapisupport-preparesubmit.md) в **IMessage::SubmitMessage.** Этот вызов **SpoolerNotify** должен быть выполнен только один раз для каждого сеанса. 
+Вызывай **SpoolerNotify** NOTIFY_READYTOSEND, перед тем как сделать первый звонок в [IMAPISupport::P repareSubmit](imapisupport-preparesubmit.md) в **IMessage::SubmitMessage.** Этот вызов **в SpoolerNotify** должен быть выполнен только один раз за сеанс. 
   
-Если поставщик службы хранения сообщений тесно совмещение с поставщиком транспорта и вызовите **SpoolerNotify** с  _ulFlags,_ задав для него NOTIFY_NEWMAIL_RECEIVED, пулер MAPI откроет новое сообщение и начнет обработку новой функции обработки сообщения. После завершения обработки пулер MAPI вызывает метод [IMsgStore::NotifyNewMail,](imsgstore-notifynewmail.md) чтобы сообщить вам о новом сообщении. 
+Если поставщик магазина сообщений тесно соединимся с поставщиком транспорта, и вы звоните **в SpoolerNotify** с набором  _ulFlags_ NOTIFY_NEWMAIL_RECEIVED, пульпер MAPI открывает новое сообщение и начинает обработку новой функции крюка сообщения. После завершения обработки шпалер MAPI вызывает [метод IMsgStore::NotifyNewMail,](imsgstore-notifynewmail.md) чтобы сообщить вам о новом сообщении. 
   
 Дополнительные сведения о вызове **SpoolerNotify** см. в следующих темах:
   
 - [Реализация метода FlushQueues](implementing-the-flushqueues-method.md)
     
-- [Взаимодействие с пулером MAPI](interacting-with-the-mapi-spooler.md)
+- [Взаимодействие со Spooler MAPI](interacting-with-the-mapi-spooler.md)
     
 - [Модель приема сообщений](message-reception-model.md)
     

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c67cfd32-5911-d8e9-dd51-fd4885dd2b0d
-description: Возвращает ссылку на лист целевой фигуры фигуры вызовите.
+description: Возвращает ссылку листа на целевую форму формы вызова.
 ms.openlocfilehash: aeeb919fb2efc175d8e5ce23f464503c13331249
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33423015"
 ---
 # <a name="callouttargetref-function"></a>Функция CALLOUTTARGETREF
 
-Возвращает ссылку на лист целевой фигуры фигуры вызовите.
+Возвращает ссылку листа на целевую форму формы вызова.
   
 ## <a name="version-information"></a>Сведения о версии
 
@@ -29,16 +29,16 @@ CALLOUTTARGETREF()!
   
 ### <a name="return-value"></a>Возвращаемое значение
 
-Справка по shapeSheet
+Ссылка ShapeSheet
   
 ## <a name="remarks"></a>Примечания
 
-Если фигура не является фигурой вызовите или не связана с целевой фигурой, CALLOUTTARGETREF возвращает #REF.
+Если фигура не является фигурой вызова или не связана с целевой фигурой, CALLOUTTARGETREF возвращает #REF.
   
 ## <a name="example"></a>Пример
 
-CALLOUTTARGETREF()! Height 
+CALLOUTTARGETREF()! Высота 
   
-Возвращает значение в ячейке Height фигуры, связанной с вызовом. 
+Возвращает значение в ячейке Height формы, связанной с вызовом. 
   
 

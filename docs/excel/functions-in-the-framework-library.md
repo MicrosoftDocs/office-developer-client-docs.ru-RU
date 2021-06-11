@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- функции библиотеки framework [excel 2007],functions [Excel 2007], библиотека Framework
+- функции библиотеки framework [Excel 2007], функции [Excel 2007], библиотека Framework
 localization_priority: Normal
 ms.assetid: 7d9a13fd-9a4c-423e-bb08-4a5be57c7905
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -20,9 +20,9 @@ ms.locfileid: "33417548"
 
 **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Библиотека Framework была создана для упростить написание XLL. Он включает простые функции для управления памятью  /  **XLOPER XLOPER12,** создания временных **XLOPER** XLOPER12, надежного вызова функций вызова /  Microsoft Excel (**Excel4**, **Excel4v**, ** Excel12 **, ** Excel12v **) и печати строк отладки на подключенный терминал.
+Библиотека Framework была создана для упростить написание XLLs. Он включает простые функции для управления памятью **XLOPER XLOPER12,** создания временного XLOPER XLOPER12, надежного вызова функций вызова Microsoft Excel /    /  **(Excel4,** **Excel4v,**** Excel12 **, ** Excel12v **) и печати строк отладки на присоединенный терминал.
   
-Функции, включенные в эту библиотеку, помогают упростить фрагмент кода, который выглядит следующим образом.
+Функции, включенные в эту библиотеку, помогают упростить часть кода, которая выглядит следующим образом.
   
 ```cs
 XLOPER12 xMissing, xBool;
@@ -32,7 +32,7 @@ xBool.val.xbool = 0;
 Excel12(xlcDisplay, 0, 2, (LPXLOPER12) &xMissing, (LPXLOPER12) &xBool);
 ```
 
-Упрощенный код выглядит, как в следующем примере.
+Упрощенный код выглядит как следующий пример.
   
 ```cs
 Excel12f(xlcDisplay, 0, 2, TempMissing12(), TempBool12(0));
@@ -48,7 +48,7 @@ Excel12f(xlcDisplay, 0, 2, TempMissing12(), TempBool12(0));
 |[InitFramework](initframework.md) <br/> |
 |[QuitFramework](quitframework.md) <br/> |
    
-|**Функции, используемые с XLOPERs**|**Функции, используемые с XLOPER12**|
+|**Функции, используемые в XLOPERs**|**Функции, используемые в XLOPER12**|
 |:-----|:-----|
 |[Excel](excel-excel12f.md) <br/> |[Excel12f](excel-excel12f.md) <br/> |
 |[TempNum](tempnum-tempnum12.md) <br/> |[TempNum12](tempnum-tempnum12.md) <br/> |
@@ -63,11 +63,11 @@ Excel12f(xlcDisplay, 0, 2, TempMissing12(), TempBool12(0));
 |[TempActiveColumn](tempactivecolumn-tempactivecolumn12.md) <br/> |[TempActiveColumn12](tempactivecolumn-tempactivecolumn12.md) <br/> |
 |[TempMissing](tempmissing-tempmissing12.md) <br/> |[TempMissing12](tempmissing-tempmissing12.md) <br/> |
    
-Использование этих функций сокращает время, необходимое для записи DLL или XLL. Запуск разработки из примера приложения GENERIC также сокращает время разработки. Используйте универсальный. C в качестве шаблона, который поможет настроить структуру XLL, а затем заменить существующий код на собственный.
+Использование этих функций сокращает время, необходимое для записи DLL или XLL. Запуск разработки из примера приложения GENERIC также сокращает время разработки. Используйте GENERIC. C в качестве шаблона, который поможет настроить рамки XLL, а затем заменить существующий код на собственный.
   
-Временные **функции** /  **XLOPER XLOPER12** создают значения **XLOPER** /  **XLOPER12** с помощью памяти из локальной кучи, управляемой библиотекой Framework. Значения **XLOPER** XLOPER12 остаются действительными до вызова функции /   **FreeAllTempMemory** или функций **Excel** или **Excel12f.** **(Функции Excel** **и Excel12f** освободит всю временную память перед возвратом.) 
+Временные **функции XLOPER** /  **XLOPER12** создают значения **XLOPER** /  **XLOPER12** с помощью памяти из локальной кучи, управляемой библиотекой Framework. Значения **XLOPER** XLOPER12 остаются действительными до тех пор, пока вы не назовете функцию /   **FreeAllTempMemory** или функции Excel **Excel12f.**  **(Функции Excel** **и Excel12f** освободит всю временную память перед возвращением.) 
   
-Чтобы использовать функции библиотеки Framework, необходимо включить FRAMEWRK. H-файл в коде C и добавьте FRAMEWRK. C или FRMWRK32. ФАЙЛЫ LIB в проект кода.
+Чтобы использовать функции библиотеки Framework, необходимо включить FRAMEWRK. H-файл в коде C и добавьте FRAMEWRK. C или FRMWRK32. LIB-файлы для проекта кода.
   
 ## <a name="see-also"></a>См. также
 

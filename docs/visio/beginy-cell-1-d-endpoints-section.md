@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm95
 localization_priority: Normal
 ms.assetid: b2518a70-5755-a15a-a238-bac2ae64a75a
-description: Представляет координату Y точки начала 1-D фигуры относительно начала родительской фигуры.
+description: Представляет y-координату точки начала формы 1-D по отношению к происхождению ее родителя.
 ms.openlocfilehash: dbe1cca3a3b969b14b62cb613359d014c7933bd9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33419214"
 ---
 # <a name="beginy-cell-1-d-endpoints-section"></a>BeginY Cell (1-D Endpoints Section)
 
-Представляет  *координату Y*  точки начала 1-D фигуры относительно начала родительской фигуры. 
+Представляет  *y-координату*  точки начала формы 1-D по отношению к происхождению ее родителя. 
   
 ## <a name="remarks"></a>Примечания
 

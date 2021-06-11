@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251482
 localization_priority: Normal
 ms.assetid: 8436cbe6-e0f6-ddbb-9489-21027e31bd51
-description: Возвращает Y-координату точки.
+description: Возвращает y-координату точки.
 ms.openlocfilehash: 39f71dccd95602fe9578d09e941f360c82c48a3e
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,21 +18,21 @@ ms.locfileid: "33423316"
 ---
 # <a name="pnty-function"></a>Функция PNTY
 
-Возвращает  _координату y_ точки.
+Возвращает  _y-координату_ точки.
   
 ## <a name="syntax"></a>Синтаксис
 
-PNTX(** *point* ** ) 
+PNTX(** *точка* ** ) 
   
 ### <a name="parameters"></a>Параметры
 
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _point_ <br/> |Обязательна  <br/> |**Number** <br/> |Y-координата точки.   <br/> |
+| _точка_ <br/> |Обязательный  <br/> |**Number** <br/> |_Y-координата_ точки.  <br/> |
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Числовой
+Номер
   
 ## <a name="example"></a>Пример
 

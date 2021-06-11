@@ -23,9 +23,9 @@ ms.locfileid: "33424506"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит таблицу, состоящую из всех системных списков управления доступом (SACL), применяемых к папке.
+Содержит таблицу, состоящую из всех списков управления доступом к системе (SACL), применяемых к папке.
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ ms.locfileid: "33424506"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство присутствует во всех объектах папок на Exchange Server. Значения, включенные в это свойство, используются для чтения и изменения списков управления доступом (ALS) для папок. Вы можете использовать метод [IMAPIProp::OpenProperty](imapiprop-openproperty.md) с **идентификатором интерфейса IID_IExchangeModifyTable** для получения интерфейса [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) в таблице ACL в папке. Этот интерфейс можно использовать для чтения и изменения этих ALS. 
+Это свойство присутствует во всех объектах папки на Exchange Server. Значения, включенные в это свойство, используются для чтения и изменения списков управления доступом (ACLs) в папках. Вы можете использовать метод [IMAPIProp::OpenProperty](imapiprop-openproperty.md) с идентификатором **IID_IExchangeModifyTable** интерфейса для получения [интерфейса IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md) в таблице ACL в папке. Этот интерфейс можно использовать для чтения и изменения этих acLs. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

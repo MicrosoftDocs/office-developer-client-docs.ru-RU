@@ -23,24 +23,24 @@ ms.locfileid: "33421594"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит определенное поставщиком отображаемого имени поставщика услуг.
+Содержит имя отображения, определенное поставщиком, для поставщика услуг.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_PROVIDER_DISPLAY, PR_PROVIDER_DISPLAY_A, PR_PROVIDER_DISPLAY_W  <br/> |
 |Идентификатор:  <br/> |0x3006  <br/> |
 |Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Область:  <br/> |Общие mapI  <br/> |
+|Область:  <br/> |MAPI общие  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства **и** PR_PROVIDER_DLL_NAME ([PidTagProviderDllName)](pidtagproviderdllname-canonical-property.md)определяются только в разделах профиля, принадлежащих поставщикам услуг. Они должны присутствовать в MAPISVC.INF.
+Эти свойства и **PR_PROVIDER_DLL_NAME** [(PidTagProviderDllName)](pidtagproviderdllname-canonical-property.md)определяются только в разделах профилей, принадлежащих поставщикам услуг. Они должны присутствовать в MAPISVC.INF.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

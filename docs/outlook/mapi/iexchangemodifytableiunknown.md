@@ -23,50 +23,50 @@ ms.locfileid: "33418108"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Поддерживает доступ к объектам Microsoft Exchange Server таблиц, в частности объектам таблицы списка управления доступом системы (SACL) и объектам таблиц правил в Microsoft Exchange Server папок. Этот интерфейс похож на интерфейс [IMAPITable : IUnknown,](imapitableiunknown.md) но он добавляет поддержку Microsoft Exchange Server структур, используемых для управления SACLs и правилами. 
+Поддерживает доступ к Microsoft Exchange Server, в частности к объектам таблицы управления доступом системы (SACL) и объектам таблицы правил в Microsoft Exchange Server папках. Этот интерфейс похож на интерфейс [IMAPITable : IUnknown,](imapitableiunknown.md) но он добавляет поддержку Microsoft Exchange Server структур, используемых для управления SACLs и правилами. 
   
 |||
 |:-----|:-----|
-|Выставим:  <br/> |Нет  <br/> |
-|Реализовано в:  <br/> |Объекты таблиц серверов  <br/> |
+|Подвергается:  <br/> |Нет  <br/> |
+|Реализовано в:  <br/> |Объекты таблицы сервера  <br/> |
 |Вызывающая сторона:  <br/> |MAPI и клиентские приложения  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IExchangeModifyTable  <br/> |
 |Тип указателя:  <br/> |LPEXCHANGEMODIFYTABLE  <br/> |
-|Модель транзакций:  <br/> |Transacted  <br/> |
+|Модель транзакции:  <br/> |Transacted  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
 |[GetLastError](iexchangemodifytable-getlasterror.md) <br/> |Возвращает сведения о последней ошибке, которая произошла в объекте таблицы.  <br/> |
-|[GetTable](iexchangemodifytable-gettable.md) <br/> |Возвращает указатель на интерфейс для объекта таблицы MAPI.  <br/> |
+|[GetTable](iexchangemodifytable-gettable.md) <br/> |Возвращает указатель в интерфейс для объекта таблицы MAPI.  <br/> |
 |[ModifyTable](iexchangemodifytable-modifytable.md) <br/> |Обновляет объект таблицы MAPI.  <br/> |
    
 |**Свойства, используемые для изменения таблицы правил**|**Access**|
 |:-----|:-----|
-|**PR_RULE_ACTIONS** ([PidTagRuleActions)](pidtagruleactions-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_RULE_ID** ([PidTagRuleId)](pidtagruleid-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_RULE_LEVEL** ([PidTagRuleLevel)](pidtagrulelevel-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_RULE_NAME** ([PidTagRuleName](pidtagrulename-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_RULE_PROVIDER** ([PidTagRuleProvider)](pidtagruleprovider-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_RULE_PROVIDER_DATA** ([PidTagRuleProviderData)](pidtagruleproviderdata-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_RULE_SEQUENCE** ([PidTagRuleSequence)](pidtagrulesequence-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_RULE_STATE** ([PidTagRuleState](pidtagrulestate-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_RULE_USER_FLAGS** ([PidTagRuleUserFlags)](pidtagruleuserflags-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_RULE_ACTIONS** [(PidTagRuleActions)](pidtagruleactions-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_RULE_CONDITION** [(PidTagRuleCondition)](pidtagrulecondition-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_RULE_ID** [(PidTagRuleId)](pidtagruleid-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_RULE_LEVEL** [(PidTagRuleLevel)](pidtagrulelevel-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_RULE_NAME** [(PidTagRuleName)](pidtagrulename-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_RULE_PROVIDER** [(PidTagRuleProvider)](pidtagruleprovider-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_RULE_PROVIDER_DATA** [(PidTagRuleProviderData)](pidtagruleproviderdata-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_RULE_SEQUENCE** [(PidTagRuleSequence)](pidtagrulesequence-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_RULE_STATE** [(PidTagRuleState)](pidtagrulestate-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_RULE_USER_FLAGS** [(PidTagRuleUserFlags)](pidtagruleuserflags-canonical-property.md)  <br/> |Только для чтения  <br/> |
    
 |**Свойства, используемые для изменения таблицы SACL**|**Access**|
 |:-----|:-----|
-|**PR_MEMBER_ENTRYID** ([PidTagMemberEntryId)](pidtagmemberentryid-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_MEMBER_ID** ([PidTagMemberId)](pidtagmemberid-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_MEMBER_NAME** ([PidTagMemberName](pidtagmembername-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_MEMBER_RIGHTS** ([PidTagMemberRights)](pidtagmemberrights-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_MEMBER_ENTRYID** [(PidTagMemberEntryId)](pidtagmemberentryid-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_MEMBER_ID** [(PidTagMemberId)](pidtagmemberid-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_MEMBER_NAME** [(PidTagMemberName)](pidtagmembername-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_MEMBER_RIGHTS** [(PidTagMemberRights)](pidtagmemberrights-canonical-property.md)  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить интерфейс **IExchangeModifyTable,** вызовите метод MAPI [IMAPIProp::OpenProperty](imapiprop-openproperty.md) в свойстве типа PT_OBJECT объекте папки. При вызове метода **OpenProperty** передав значение IID_IExchangeModifyTable _параметру lpiid._  
+Чтобы получить **интерфейс IExchangeModifyTable,** позвоните в метод MAPI [IMAPIProp::OpenProperty](imapiprop-openproperty.md) с свойством типа PT_OBJECT на объекте папки. При вызове **метода OpenProperty** передай **значение** IID_IExchangeModifyTable в _параметре lpiid._ 
   
 ## <a name="see-also"></a>См. также
 

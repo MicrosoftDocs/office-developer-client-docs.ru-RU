@@ -1,5 +1,5 @@
 ---
-title: EditRecord Macro Action (пользовательское веб-приложение Access)
+title: EditRecord Macro Action (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421748"
 ---
-# <a name="editrecord-macro-action-access-custom-web-app"></a>EditRecord Macro Action (пользовательское веб-приложение Access)
+# <a name="editrecord-macro-action-access-custom-web-app"></a>EditRecord Macro Action (Access custom web app)
 
 Помещает текущую запись в режим редактирования.
   
@@ -26,8 +26,8 @@ ms.locfileid: "33421748"
   
 ## <a name="remarks"></a>Примечания
 
-Используйте действие **SaveRecord** для сохранения изменений, внесенных в запись, или действие **UndoRecord,** чтобы отменить изменения. 
+Используйте **действие SaveRecord,** чтобы сохранить изменения, внесенные в запись, или действие **UndoRecord,** чтобы отменить изменения. 
   
-Действие **EditRecord** эквивалентно нажатию кнопки **"Изменить"** на панели действий. 
+Действие **EditRecord** эквивалентно выбору кнопки **Редактирование** на панели действий. 
   
 

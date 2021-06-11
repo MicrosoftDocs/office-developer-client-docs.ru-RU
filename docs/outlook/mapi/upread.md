@@ -19,9 +19,9 @@ ms.locfileid: "33419886"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Сведения о загрузке состояния чтения элементов во время [отправки состояния чтения.](upload-read-status-state.md)
+Сведения о загрузке состояния чтения элементов во время [состояния состояния чтения.](upload-read-status-state.md)
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -37,11 +37,11 @@ struct UPREAD
 
  _pupre_
   
->  [out] Вектор **[записей UPREADE.](upreade.md)** 
+>  [вышел] Вектор **[записей UPREADE.](upreade.md)** 
     
  _cEnt_
   
->  [out] Количество **записей UPREADE.** 
+>  [вышел] Количество **записей UPREADE.** 
     
 ## <a name="see-also"></a>См. также
 

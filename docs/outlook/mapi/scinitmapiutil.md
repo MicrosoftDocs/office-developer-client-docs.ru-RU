@@ -23,9 +23,9 @@ ms.locfileid: "33420593"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Заменяет [MAPIInitialize,](mapiinitialize.md) если используются только выбранные функции. 
+Заменяет [MAPIInitialize при](mapiinitialize.md) только выборе полезных функций. 
   
 |||
 |:-----|:-----|
@@ -39,7 +39,7 @@ SCODE ScInitMapiUtil(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -53,9 +53,9 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Функции **ScInitMapiUtil** и [DeinitMapiUtil](deinitmapiutil.md) взаимодействуют для вызова и выпуска функций выбора, в отличие от [MAPIInitialize,](mapiinitialize.md)который вызывает основные, а также сканальные функции. Когда **ScInitMapiUtil** вызывает функции с программами, он также инициализирует необходимую память. 
+Функции **ScInitMapiUtil** и [DeinitMapiUtil](deinitmapiutil.md) взаимодействуют для вызова и выпуска функций выбора полезных функций, в отличие от [MAPIInitialize,](mapiinitialize.md)которая вызывает основные и полезные функции. Когда **ScInitMapiUtil** вызывает функции утилиты, он также инициализирует необходимую память. 
   
-После завершения использования функций, которые **scInitMapiUtil** вызвал, необходимо явно **вызвано DeinitMapiUtil,** чтобы освободить их. С другой **стороны, MAPIInitialize** неявно вызывает **DeinitMapiUtil.** 
+Когда использование функций, которые **вызвал ScInitMapiUtil,** завершено, для их освобождения необходимо явно присвоть **DeinitMapiUtil.** Напротив, **MAPIInitialize** неявно вызывает **DeinitMapiUtil**. 
   
 ## <a name="see-also"></a>См. также
 

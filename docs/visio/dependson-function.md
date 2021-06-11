@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251420
 localization_priority: Normal
 ms.assetid: 8fcfcfdd-69e2-b061-fdb6-d29389d14403
-description: Создает зависимость ссылки на ячейки.
+description: Создает зависимость от ссылок на ячейки.
 ms.openlocfilehash: 26e7f5fb0620a5f1812d878f02d5bedd43afe524
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33423470"
 ---
 # <a name="dependson-function"></a>Функция DEPENDSON
 
-Создает зависимость ссылки на ячейки.
+Создает зависимость от ссылок на ячейки.
   
 ## <a name="syntax"></a>Синтаксис
 
@@ -28,17 +28,17 @@ DEPENDSON(** *cellref* ** [, ** *cellref2* **,...])
 
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _cellref_ <br/> |Обязательно  <br/> |**Строка** <br/> |Первая ссылка на ячейку.  <br/> |
-| _cellref2_ <br/> |Необязательна  <br/> |**Строка** <br/> |Ссылка на вторую ячейку.  <br/> |
+| _cellref_ <br/> |Обязательный  <br/> |**String** <br/> |Первая ссылка ячейки.  <br/> |
+| _cellref2_ <br/> |Необязательный  <br/> |**String** <br/> |Вторая ссылка ячейки.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эта функция всегда возвращает false. Он не влияет на строку event или ячейку Action. 
+Эта функция всегда возвращает FALSE. Это не влияет при его использования в строке Event или ячейке Action. 
   
 ## <a name="example"></a>Пример
 
-OPENTEXTWIN() + DEPENDSON(PinX,PinY) 
+OPENTEXTWIN() + DEPENDSON (PinX,PinY) 
   
-Открывает блок текста для фигуры при изменении ячеек PinX или PinY фигуры. 
+Открывает текстовый блок для фигуры всякий раз, когда меняются ячейки PinX или PinY формы. 
   
 

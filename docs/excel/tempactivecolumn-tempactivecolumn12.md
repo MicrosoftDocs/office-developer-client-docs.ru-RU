@@ -8,7 +8,7 @@ f1_keywords:
 - TempActiveColumn
 - TempActiveColumn12
 keywords:
-- функция tempactivecolumn12 [excel 2007],Функция TempActiveColumn [Excel 2007]
+- функция tempactivecolumn12 [Excel 2007], функция TempActiveColumn [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4b1f34c4-e7fa-4a0b-8fc5-c9d465ebb70c
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,18 +23,18 @@ ms.locfileid: "33417877"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Функции библиотеки framework, которые создают временную **XLOPER12** /  **XLOPER12,** содержащую внешнюю ссылку на весь столбец активного листа. 
+Функции библиотеки Framework, создав временную **XLOPER XLOPER12,** содержащую внешнюю ссылку на весь столбец /   на активном листе. 
   
 ```cs
 LPXLOPER TempActiveColumn(BYTE col);
 LPXLOPER12 TempActiveColumn12(COL col);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
- _col_ (**BYTE)**
+ _col_ **(BYTE)**
   
-Столбец, на который следует ссылаться. Это значение основано на нуле, поэтому столбец A передается как 0. В Microsoft Office Excel 2003 и более ранних версий, а начиная с Excel 2007, в котором книга работает в режиме совместимости, максимальное значение — 255 = 2^8 - 1 и это максимальное значение, которое может приниматься с помощью byTE-inte. Начиная с Excel 2007, где запущена книга, максимальное значение — 16 383 = 2^14 - 1. COL определяется как 32-битное подписанное в XLCALL.H.
+Столбец, на который следует ссылаться. Это нулевое значение, поэтому столбец A передается в качестве 0. В Microsoft Office Excel 2003 г. и более ранних версиях и начиная с Excel 2007 г. при запуске книги в режиме совместимости максимальное значение — 255 = 2^8 — 1 и является максимальным значением, которое может приниматься в integer BYTE. Начиная с Excel 2007 года при запуске книги максимальное значение — 16 383 = 2^14 — 1. COL определяется как 32-битный подписанный в XLCALL.H.
   
 ## <a name="return-value"></a>Возвращаемое значение
 

@@ -23,9 +23,9 @@ ms.locfileid: "33420257"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет количество ветвей в существующей структуре [SMAPIFormPropArray,](smapiformproparray.md) которая содержит указанное число структур [SMAPIFormProp.](smapiformprop.md) 
+Вычисляет количество bytes в существующей структуре [SMAPIFormPropArray,](smapiformproparray.md) которая содержит определенное количество [структур SMAPIFormProp.](smapiformprop.md) 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ ms.locfileid: "33420257"
 CbMAPIFormPropArray (_c)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ _c_
   
-> Количество структур **SMAPIFormProp** в структуре **SMAPIFormPropArray.** 
+> Количество структур **SMAPIFormProp** в **структуре SMAPIFormPropArray.** 
     
 ## <a name="see-also"></a>См. также
 

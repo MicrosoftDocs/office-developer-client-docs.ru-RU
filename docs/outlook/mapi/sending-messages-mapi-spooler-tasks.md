@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420201"
 ---
-# <a name="sending-messages-mapi-spooler-tasks"></a>Отправка сообщений: задачи пула MAPI
+# <a name="sending-messages-mapi-spooler-tasks"></a>Отправка сообщений: задачи пульпера MAPI
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 ��������� ������� MAPI ��������� � �������� �������� ��������� ��� ��������� ��������� �� �������� ����� ��������� � ������� ���������� ���������� ����� ��������� ��������� � ���������� �� ������� ���������� ���������� � ��� ��������� ������� ��������������� ���������.
   
@@ -27,14 +27,14 @@ ms.locfileid: "33420201"
   
 1. If the message is not locked, locks the message by using the [IMsgStore::SetLockState](imsgstore-setlockstate.md) method. 
     
-2. Отправляет сообщение всем получателям, у PR_RESPONSIBILITY  [(PidTagResponsibility)](pidtagresponsibility-canonical-property.md)имеется свойство FALSE. 
+2. Имеет поставщик транспорта отправить сообщение всем **получателям,** у PR_RESPONSIBILITY [(PidTagResponsibility)](pidtagresponsibility-canonical-property.md)свойство false. 
     
-3. Вызывает соответствующую функцию ([RemovePreprocessInfo)](removepreprocessinfo.md)для очистки любых дополнительных сведений, добавленных в сообщение, для использования во время предварительной очистки, если свойство **PR_PREPROCESS** ([PidTagPreprocess)](pidtagpreprocess-canonical-property.md)было установлено. This function is specified when the transport provider registers its preprocessor function. 
+3. Вызывает соответствующую функцию [(RemovePreprocessInfo)](removepreprocessinfo.md)для очистки любых дополнительных сведений, которые были добавлены в сообщение для использования во время предварительной подготовки, если **свойство PR_PREPROCESS** [(PidTagPreprocess)](pidtagpreprocess-canonical-property.md)было установлено. This function is specified when the transport provider registers its preprocessor function. 
     
 4. Calls [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md) method. In **FinishedMsg**, the message store provider:
     
   - ������������ ���������.
     
-  - Calls the [IMAPISupport::DoSentMail](imapisupport-dosentmail.md) method to perform outbound hook processing if a messaging hook provider exists. Затем сообщение копируется в папку, идентифицируемую идентификатором записи в свойстве **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId),](pidtagsentmailentryid-canonical-property.md)если оно не замещается отправленной обработкой сообщений поставщиком обработчиком сообщений. Наконец, оно удаляет сообщение, если свойству **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit)](pidtagdeleteaftersubmit-canonical-property.md)задано true. 
+  - Calls the [IMAPISupport::DoSentMail](imapisupport-dosentmail.md) method to perform outbound hook processing if a messaging hook provider exists. Затем оно копирует сообщение в папку, определяемую идентификатором записи в свойстве **PR_SENTMAIL_ENTRYID** [(PidTagSentMailEntryId),](pidtagsentmailentryid-canonical-property.md)если оно не замещается отправленной обработкой сообщений поставщика сообщений. Наконец, оно удаляет сообщение, **если свойство** [PR_DELETE_AFTER_SUBMIT (PidTagDeleteAfterSubmit)](pidtagdeleteaftersubmit-canonical-property.md)было задано true. 
     
 

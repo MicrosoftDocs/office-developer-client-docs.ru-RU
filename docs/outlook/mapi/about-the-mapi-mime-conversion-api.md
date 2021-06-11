@@ -17,8 +17,8 @@ ms.locfileid: "33420439"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-API преобразования MAPI-MIME позволяет поставщикам почты преобразовывать сообщения MIME между объектами MIME и MAPI. Он предоставляет постоянные определения, идентификаторы классов и идентификаторы интерфейса, как показано в [mapI Constants.](mapi-constants.md) Поставщики почты должны совмещение экземпляра **[IConverterSession](iconvertersessioniunknown.md)** путем вызова функции **CoCreateInstance.** 
+API преобразования MAPI-MIME позволяет поставщикам почты преобразовывать между объектами MIME и сообщениями MAPI. Он предоставляет постоянные определения, идентификаторы классов и идентификаторы интерфейса, как показано в [MAPI Constants.](mapi-constants.md) Поставщики почты должны сооружать экземпляр **[IConverterSession,](iconvertersessioniunknown.md)** вызывая функцию **CoCreateInstance.** 
   
 

@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 98f08432-e86c-cba6-45fd-5a6c94d50aaf
-description: 'Last modified: July 03, 2012'
+description: 'Последнее изменение: 03 июля 2012 г.'
 ms.openlocfilehash: b7c651044ab7f4cad7032db69e157c9a3589bde9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -15,19 +15,19 @@ ms.locfileid: "33420824"
 ---
 # <a name="using-a-wrapped-pst-store-provider"></a>Использование поставщика упакованного PST-хранилища
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Перед использованием поставщика упакованного PST-файла необходимо инициализировать и настроить поставщика упакованного PST-магазина. После настройки поставщика упакованного PST-магазина необходимо реализовать функции, чтобы MAPI и пулер MAPI могли войти в систему поставщика store сообщений. Дополнительные сведения об инициализации и входе в систему для поставщика упакованного PST-магазина см. в инициализации поставщика упакованного [PST-магазина](initializing-a-wrapped-pst-store-provider.md) и входе в систему для поставщика упакованного [PST-магазина.](logging-on-to-a-wrapped-pst-store-provider.md)
+Прежде чем использовать поставщика хранения файлов персональных папок (PST), необходимо инициализировать и настроить поставщика магазина PST. После настройки поставщика магазина PST необходимо реализовать функции, чтобы MAPI и spooler MAPI могли войти в систему поставщика магазина сообщений. Дополнительные сведения о инициализации и входе в систему поставщика магазина PST см. в инициализации поставщика магазина [PST](initializing-a-wrapped-pst-store-provider.md) и ведения журнала в поставщике упакованных магазинов [PST.](logging-on-to-a-wrapped-pst-store-provider.md)
   
-Интерфейс **[IMAPISupport::IUnknown](imapisupportiunknown.md)** предоставляет реализации задач, которые обычно выполняются поставщиками store сообщений. Этот интерфейс должен быть оболочкой для работы примера поставщика упакованного PST-магазина. Функция **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** требует особой реализации. Все остальные функции могут передавать свои параметры в объект-оболочку. 
+Интерфейс **[IMAPISupport::IUnknown](imapisupportiunknown.md)** обеспечивает реализацию задач, которые обычно выполняются поставщиками магазинов сообщений. Этот интерфейс должен быть завернут для работы поставщика магазина PST с пакетом образца. Функция **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** требует особой реализации. Все остальные функции могут передавать свои параметры в завернутый объект. 
   
-В этом разделе функция **IMAPISupport::OpenProfileSection** демонстрируется с помощью примера кода из примера поставщика упакованного PST-магазина. В примере реализован упакованный поставщик PST,который предназначен для использования в сочетании с API репликации. Дополнительные сведения о загрузке и установке примера поставщика упакованного PST-магазина см. в установке примера поставщика упакованного [PST-магазина.](installing-the-sample-wrapped-pst-store-provider.md) Дополнительные сведения об API репликации см. в сведениях [об API репликации.](about-the-replication-api.md)
+В этом разделе функция **IMAPISupport::OpenProfileSection** демонстрируется с помощью примера кода поставщика магазина ПСД sample Wrapped. В примере реализован завернутый поставщик PST, который предназначен для использования в сочетании с API репликации. Дополнительные сведения о загрузке и установке поставщика магазинов PST sample wrapped см. в примере Установки поставщика упаковки [PST Store.](installing-the-sample-wrapped-pst-store-provider.md) Дополнительные сведения об API репликации см. в [иллюстрации API репликации.](about-the-replication-api.md)
   
-После завершения работы с поставщиком упакованного PST-магазина необходимо завершить работу поставщика упакованного PST-магазина. Дополнительные сведения см. в подстроке "Завершение работы поставщика упакованного [PST-магазина".](shutting-down-a-wrapped-pst-store-provider.md)
+Когда вы закончите использовать поставщика магазина PST, необходимо должным образом закрыть поставщика магазинов PST. Дополнительные сведения см. в [переключениях](shutting-down-a-wrapped-pst-store-provider.md)с поставщиком магазина PST.
   
-## <a name="open-profile-section-routine"></a>Процедура открытия раздела профилей
+## <a name="open-profile-section-routine"></a>Режим раздела "Открытый профиль"
 
-Функция **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** открывает раздел текущего профиля. Функция требует специальной обработки в реализации поставщика упакованного PST-магазина. При запросе функция возвращает кэшный раздел  `pgNSTGlobalProfileSectionGuid` профиля. 
+Функция **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** открывает раздел текущего профиля. Функция требует специальной обработки в реализации поставщика магазина PST. При запросе функции возвращается кэшный раздел  `pgNSTGlobalProfileSectionGuid` профиля. 
   
 ### <a name="csupportopenprofilesection-example"></a>Пример CSupport::OpenProfileSection()
 
@@ -56,9 +56,9 @@ STDMETHODIMP CSupport::OpenProfileSection(
 
 ## <a name="see-also"></a>См. также
 
-- [Пример поставщика упакованного PST-магазина](about-the-sample-wrapped-pst-store-provider.md)
-- [Установка примера поставщика упакованного PST-магазина](installing-the-sample-wrapped-pst-store-provider.md)
-- [Инициализация поставщика упакованного PST-магазина](initializing-a-wrapped-pst-store-provider.md)
-- [Вход в систему поставщика упакованного PST-магазина](logging-on-to-a-wrapped-pst-store-provider.md)
-- [Завершение работы поставщика упакованного PST-магазина](shutting-down-a-wrapped-pst-store-provider.md)
+- [О поставщике пакетных пакетов PST Store](about-the-sample-wrapped-pst-store-provider.md)
+- [Установка поставщика пакетных пакетов PST](installing-the-sample-wrapped-pst-store-provider.md)
+- [Инициализация поставщика упакованных магазинов PST](initializing-a-wrapped-pst-store-provider.md)
+- [Ведение журнала в поставщике упакованных магазинов PST](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Отключение поставщика упакованных магазинов PST](shutting-down-a-wrapped-pst-store-provider.md)
 

@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm1045
 localization_priority: Normal
 ms.assetid: 88ddf4b5-8248-8c1a-c387-09a607639d26
-description: 'Определяет координату Y центра вращения текстового блока относительно начала фигуры. Формула по умолчанию:'
+description: 'Определяет y-координату центра вращения текстового блока по отношению к происхождению фигуры. Формула по умолчанию:'
 ms.openlocfilehash: fc62ac76aa24a698d956690df6e5d1e7cff3fb5f
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33418493"
 ---
 # <a name="txtpiny-cell-text-transform-section"></a>TxtPinY Cell (Text Transform Section)
 
-Определяет  *координату Y*  центра вращения текстового блока относительно начала фигуры. Формула по умолчанию: 
+Определяет  *y-координату*  центра вращения текстового блока по отношению к происхождению фигуры. Формула по умолчанию: 
   
 = Высота \* 0,5
   

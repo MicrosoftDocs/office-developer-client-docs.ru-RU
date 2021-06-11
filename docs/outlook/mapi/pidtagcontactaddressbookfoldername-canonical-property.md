@@ -23,7 +23,7 @@ ms.locfileid: "33419249"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит имя папки, используемой для записей адресной книги.
   
@@ -32,7 +32,7 @@ ms.locfileid: "33419249"
 |Связанные свойства:  <br/> |PR_CONTAB_FOLDER_NAME, PR_CONTAB_FOLDER_NAME_W  <br/> |
 |Идентификатор:  <br/> |0x6613  <br/> |
 |Тип данных:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Область:  <br/> |Адресная книга контакта  <br/> |
+|Область:  <br/> |Адресная книга контактов  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -42,7 +42,7 @@ ms.locfileid: "33419249"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -50,7 +50,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -62,5 +62,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

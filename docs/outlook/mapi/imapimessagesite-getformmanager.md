@@ -23,9 +23,9 @@ ms.locfileid: "33419459"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Возвращает интерфейс диспетчера форм, который сервер форм может использовать для открытия другого сервера форм.
+Возвращает интерфейс диспетчера форм, который сервер формы может использовать для открытия другого сервера форм.
   
 ```cpp
 HRESULT GetFormManager(
@@ -33,11 +33,11 @@ HRESULT GetFormManager(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ppFormMgr_
   
-> [out] Указатель на указатель на возвращенный интерфейс диспетчера форм.
+> [вышел] Указатель на указатель на возвращенный интерфейс диспетчера форм.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -47,7 +47,7 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Список интерфейсов, связанных с серверами форм, см. в списке [интерфейсов форм MAPI.](mapi-form-interfaces.md)
+Список интерфейсов, связанных с серверами форм, см. в [перечне интерфейсов форм MAPI.](mapi-form-interfaces.md)
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -55,7 +55,7 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetFormManager  <br/> |MFCMAPI использует метод **IMAPIMessageSite::GetFormManager** для вызова [MAPIOpenFormMgr](mapiopenformmgr.md) и возврата результатов этого вызова.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetFormManager  <br/> |MFCMAPI использует **метод IMAPIMessageSite::GetFormManager** для вызова [MAPIOpenFormMgr](mapiopenformmgr.md) и возврата результатов этого вызова.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

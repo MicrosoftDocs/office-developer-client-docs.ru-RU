@@ -23,9 +23,9 @@ ms.locfileid: "33420670"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит true, если агенту передачи сообщений запрещено неявное преобразование текста сообщения.
+Содержит TRUE, если агенту передачи сообщений (MTA) запрещено делать неявные преобразования текста сообщения.
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ ms.locfileid: "33420670"
    
 ## <a name="remarks"></a>Примечания
 
-Если это свойство имеет true, система обмена сообщениями не должна выполнять преобразование содержимого сообщения, если оно не запрашивается явным образом для каждого получателя с помощью свойства **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion).](pidtagexplicitconversion-canonical-property.md)
+Если это свойство true, система обмена сообщениями не должна выполнять преобразования контента в сообщении, если оно явно не запрашивается на основе каждого получателя с свойством **PR_EXPLICIT_CONVERSION** [(PidTagExplicitConversion).](pidtagexplicitconversion-canonical-property.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

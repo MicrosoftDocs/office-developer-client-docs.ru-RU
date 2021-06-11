@@ -23,9 +23,9 @@ ms.locfileid: "33418696"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет количество ветвей в существующей структуре [SMAPIVerbArray,](smapiverbarray.md) которая содержит указанное число структур [SMAPIVerb.](smapiverb.md) 
+Вычисляет количество bytes в существующей [структуре SMAPIVerbArray,](smapiverbarray.md) которая содержит определенное количество [структур SMAPIVerb.](smapiverb.md) 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ ms.locfileid: "33418696"
 int CbMAPIVerbArray (_c)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ _c_
   
-> Количество структур **SMAPIVerb** в существующей структуре **SMAPIVerbArray.** 
+> Количество структур **SMAPIVerb** в существующей **структуре SMAPIVerbArray.** 
     
 ## <a name="see-also"></a>См. также
 

@@ -25,7 +25,7 @@ ms.locfileid: "33422259"
   
 ## <a name="remarks"></a>Замечания
 
-Это значение является кодом языка, активного на языковой панели при введении комментария. Список языков, поддерживаемых Microsoft Office, см. в разделе [DocLangID](doclangid-cell-document-properties-section.md) Cell (Document Properties Section). 
+Это значение — локальный ID (LCID) языка, который активен в языковой панели при входе комментария. Список языков, поддерживаемых Microsoft Office приложениями, см. в разделе [DocLangID](doclangid-cell-document-properties-section.md) Cell (Document Properties Section). 
   
 Чтобы получить ссылку на ячейку LangID по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте: 
   

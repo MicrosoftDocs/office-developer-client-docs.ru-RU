@@ -17,9 +17,9 @@ ms.locfileid: "33420026"
 ---
 # <a name="mapioffline_adviseinfo"></a>MAPIOFFLINE_ADVISEINFO
  
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Предоставляет сведения **[для IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)** для регистрации вызова для автономного объекта. 
+Предоставляет сведения **[iMAPIOfflineMgr:::Advise](imapiofflinemgr-advise.md)** для регистрации вызова для автономного объекта. 
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -39,21 +39,21 @@ typedef struct
 
 ## <a name="members"></a>"Участники"
 
-_ulSize_: размер **MAPIOFFLINE_ADVISEINFO**. 
+_ulSize_: Размер **MAPIOFFLINE_ADVISEINFO**. 
     
-_ulClientToken_: маркер, определенный клиентом о вызове. Это член *ulClientToken* структуры **[](mapioffline_notify.md)** MAPIOFFLINE_NOTIFY, переданной **[IMAPIOfflineNotify::Notify.](imapiofflinenotify-notify.md)** 
+_ulClientToken:_ маркер, определенный клиентом о вызове. Это член *ulClientToken* структуры **[](mapioffline_notify.md)** MAPIOFFLINE_NOTIFY **[IMAPIOfflineNotify::Notify.](imapiofflinenotify-notify.md)** 
     
-_CallbackType_: тип вызываемого вызова.
+_CallbackType._ Тип вызова.
     
    -  MAPIOFFLINE_CALLBACK_TYPE_NOTIFY 
     
-   - Тип вызова по уведомлению. Это единственный поддерживаемый тип вызова.  *pCallback* должен указывать интерфейс **[IMAPIOfflineNotify.](imapiofflinenotifyiunknown.md)** 
+   - Тип вызова по уведомлению. Это единственный поддерживаемый тип вызова.  *pCallback должен*  указывать интерфейс **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
     
-_pCallback_: интерфейс для использования для вызова. Это реализация **[IMAPIOfflineNotify клиента.](imapiofflinenotifyiunknown.md)** 
+_pCallback:_ интерфейс, который можно использовать для вызова. Это реализация **[IMAPIOfflineNotify клиента.](imapiofflinenotifyiunknown.md)** 
     
-_ulAdviseTypes_: типы консультаций, определенные условием для рекомендации. Единственный поддерживаемый тип — MAPIOFFLINE_ADVISE_TYPE_STATECHANGE.
+_ulAdviseTypes_: Типы консультирования, как определено условием для консультирования. Единственный поддерживаемый тип — MAPIOFFLINE_ADVISE_TYPE_STATECHANGE.
     
-_ulStateMask_: единственным поддерживаемым состоянием является MAPIOFFLINE_STATE_ALL.
+_ulStateMask._ Единственным поддерживаемым состоянием является MAPIOFFLINE_STATE_ALL.
     
 ## <a name="see-also"></a>См. также
 

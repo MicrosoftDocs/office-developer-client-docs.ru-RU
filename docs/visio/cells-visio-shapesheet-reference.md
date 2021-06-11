@@ -1,5 +1,5 @@
 ---
-title: Cells (Visio ShapeSheet Reference)
+title: Ячейки (Visio ShapeSheet Reference)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,9 +13,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420229"
 ---
-# <a name="cells-visio-shapesheet-reference"></a>Cells (Visio ShapeSheet Reference)
+# <a name="cells-visio-shapesheet-reference"></a>Ячейки (Visio ShapeSheet Reference)
 
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 - [A Cell (Geometry Section)](a-cell-geometry-section.md)
     
@@ -821,15 +821,15 @@ ms.locfileid: "33420229"
     
 - [X Justify Cell (Action Tags Section)](x-justify-cell-action-tags-section.md)
     
-- [Ячейка XGridDensity (раздел &amp; "Линейка сетки")](xgriddensity-cell-rulergrid-section.md)
+- [Ячейка XGridDensity (Раздел &amp; сетки линейки)](xgriddensity-cell-rulergrid-section.md)
     
-- [Ячейка XGridOrigin (раздел &amp; "Сетка линейки")](xgridorigin-cell-rulergrid-section.md)
+- [Ячейка XGridOrigin (Раздел &amp; сетки линейки)](xgridorigin-cell-rulergrid-section.md)
     
-- [Ячейка XGridSpacing (раздел &amp; "Сетка линейки")](xgridspacing-cell-rulergrid-section.md)
+- [Ячейка XGridSpacing (Раздел &amp; сетки линейки)](xgridspacing-cell-rulergrid-section.md)
     
-- [Ячейка XRulerDensity (раздел &amp; "Сетка линейки")](xrulerdensity-cell-rulergrid-section.md)
+- [XRulerDensity Cell (Раздел &amp; сетки линейки)](xrulerdensity-cell-rulergrid-section.md)
     
-- [Ячейка XRulerOrigin (раздел &amp; "Сетка линейки")](xrulerorigin-cell-rulergrid-section.md)
+- [XRulerOrigin Cell (Раздел &amp; линейки сетки)](xrulerorigin-cell-rulergrid-section.md)
     
 - [Y Behavior Cell (Controls Section)](y-behavior-cell-controls-section.md)
     
@@ -847,14 +847,14 @@ ms.locfileid: "33420229"
     
 - [Y Justify Cell (Action Tags Section)](y-justify-cell-action-tags-section.md)
     
-- [YGridDensity Cell (Ruler &amp; Grid Section)](ygriddensity-cell-rulergrid-section.md)
+- [Ячейка YGridDensity (Раздел &amp; сетки линейки)](ygriddensity-cell-rulergrid-section.md)
     
-- [YGridOrigin Cell (Ruler &amp; Grid Section)](ygridorigin-cell-rulergrid-section.md)
+- [Ячейка YGridOrigin (Раздел &amp; сетки линейки)](ygridorigin-cell-rulergrid-section.md)
     
-- [YGridSpacing Cell (Ruler &amp; Grid Section)](ygridspacing-cell-rulergrid-section.md)
+- [Ячейка YGridSpacing (Раздел &amp; сетки линейки)](ygridspacing-cell-rulergrid-section.md)
     
-- [Ячейка YRulerDensity (раздел &amp; "Линейка сетки")](yrulerdensity-cell-rulergrid-section.md)
+- [Ячейка YRulerDensity (Раздел &amp; сетки линейки)](yrulerdensity-cell-rulergrid-section.md)
     
-- [Ячейка YRulerOrigin (раздел &amp; "Линейка сетки")](yrulerorigin-cell-rulergrid-section.md)
+- [Ячейка YRulerOrigin (Раздел &amp; сетки линейки)](yrulerorigin-cell-rulergrid-section.md)
     
 

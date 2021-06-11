@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ffe48267-d6c7-c1d0-9298-272b31fd8102
-description: Возвращает или задает отображаемую имя пользователя.
+description: Возвращает или задает имя отображения пользователя.
 ms.openlocfilehash: 2fb42a6f6ae9a72bc31c103af6314fcfd098439c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,18 +16,18 @@ ms.locfileid: "33419473"
 ---
 # <a name="prop_acct_user_display_name"></a>PROP_ACCT_USER_DISPLAY_NAME
 
-Возвращает или задает отображаемую имя пользователя.
+Возвращает или задает имя отображения пользователя.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IOlkAccount](iolkaccount.md).
+См. [iOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x000B  <br/> |
 |Тип свойства:  <br/> |PT_UNICODE  <br/> |
 |Тег свойства:  <br/> |0x000B001F  <br/> |
-|Access:  <br/> |Чтение и запись  <br/> |
+|Доступ:  <br/> |Чтение и запись  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

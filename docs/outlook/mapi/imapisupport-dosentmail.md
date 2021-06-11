@@ -23,7 +23,7 @@ ms.locfileid: "33423953"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 ������������ ������������ ���������.
   
@@ -34,7 +34,7 @@ HRESULT DoSentMail(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -56,7 +56,7 @@ The **IMAPISupport::DoSentMail** method is implemented for message store provide
   
  **DoSentMail** ��������� ��������� ������: 
   
-- Проверяет сообщение на наличие **свойства PR_DELETE_AFTER_SUBMIT** [(PidTagDeleteAfterSubmit),](pidtagdeleteaftersubmit-canonical-property.md)чтобы определить, следует ли удалять сообщение после отправки.
+- Проверяет сообщение для **свойства PR_DELETE_AFTER_SUBMIT** [(PidTagDeleteAfterSubmit),](pidtagdeleteaftersubmit-canonical-property.md)чтобы определить, следует ли удалять сообщение после отправки.
     
 - ���������� ������������ ����� �������������.
     

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c472ce02-4ef4-40a9-51de-12b37f092342
-description: Этот член является местоимящиком и не поддерживается. Он всегда должен возвращать E_NOTIMPL.
+description: Этот член является задатщиком и не поддерживается. Он должен всегда возвращать E_NOTIMPL.
 ms.openlocfilehash: 0c263039ed562763cef2ab5e5e3f3a3e5ca90ab2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33418892"
 ---
 # <a name="iolkaccounthelperplaceholder1"></a>IOlkAccountHelper::Placeholder1
 
-Этот член является местоимящиком и не поддерживается. Он всегда должен возвращать E_NOTIMPL.
+Этот член является задатщиком и не поддерживается. Он должен всегда возвращать E_NOTIMPL.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -28,7 +28,7 @@ HRESULT IOlkAccountHelper::Placeholder1 (
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Всегда E_NOTIMPL, так как этот член является замесом [в IOlkAccountHelper](iolkaccounthelper.md) и не поддерживается. 
+Всегда E_NOTIMPL, так как этот член является задатчиком [в IOlkAccountHelper](iolkaccounthelper.md) и не поддерживается. 
   
 ## <a name="remarks"></a>Примечания
 

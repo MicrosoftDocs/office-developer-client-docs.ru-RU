@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4e7147ea-0eb0-324a-80d8-4f0eef654c32
-description: Задает диапазон времени для enumeration of free/busy blocks of data for a user.
+description: Задает диапазон времени для переумерия бесплатных и загруженных блоков данных для пользователя.
 ms.openlocfilehash: 4647453acb0e530521aa808f7f017e3e311644bb
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33421664"
 ---
 # <a name="ifreebusydatasetfbrange"></a>IFreeBusyData::SetFBRange
 
-Задает диапазон времени для enumeration of free/busy blocks of data for a user.
+Задает диапазон времени для переумерия бесплатных и загруженных блоков данных для пользователя.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IFreeBusyData.](ifreebusydata.md)
+См. [iFreeBusyData](ifreebusydata.md).
   
 ```cpp
 HRESULT SetFBRange(
@@ -29,15 +29,15 @@ HRESULT SetFBRange(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _rtmStart_
   
-> [in] Относительное значение времени начала сведений о занятости. Это значение является числом минут с 1 января 1601 г.
+> [in] Относительное значение времени для начала получения бесплатных и загруженных сведений. Это число минут с 1 января 1601 г.
     
 _rtmEnd_
   
-> [in] Относительное значение времени для окончания сведений о занятости. Это значение является числом минут с 1 января 1601 г.
+> [in] Относительное значение времени для окончания бесплатных и загруженных сведений. Это число минут с 1 января 1601 г.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -45,7 +45,7 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## <a name="remarks"></a>Примечания
 
-Этот метод используется для указать диапазон времени элементов календаря, для которых необходимо получить сведения. Значения *ftmStart* и *ftmEnd* кэшются и возвращаются при последующем вызове [IFreeBusyData::GetFBPublishRange.](ifreebusydata-getfbpublishrange.md)
+Этот метод используется для указать диапазон времени элементов календаря, для которых можно получить сведения. Значения  *ftmStart*  и  *ftmEnd*  кэшировать и возвращать в последующем вызове [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
   
 ## <a name="see-also"></a>См. также
 

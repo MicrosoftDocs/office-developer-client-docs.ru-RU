@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm1040
 localization_priority: Normal
 ms.assetid: d0c0fe52-6a9e-e40e-394e-83a851db55a4
-description: 'Определяет x-координату центра вращения текстового блока относительно начала фигуры. Формула по умолчанию:'
+description: 'Определяет x-координату центра вращения текстового блока по отношению к происхождению фигуры. Формула по умолчанию:'
 ms.openlocfilehash: 836f5c807d0c0e53efc825f62f60429274282165
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33423498"
 ---
 # <a name="txtpinx-cell-text-transform-section"></a>TxtPinX Cell (Text Transform Section)
 
-Определяет  *x-координату*  центра вращения текстового блока относительно начала фигуры. Формула по умолчанию: 
+Определяет  *x-координату*  центра вращения текстового блока по отношению к происхождению фигуры. Формула по умолчанию: 
   
 = \* Ширина 0,5
   

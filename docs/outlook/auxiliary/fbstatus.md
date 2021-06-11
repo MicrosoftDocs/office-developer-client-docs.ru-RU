@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: f2d6a11e-847d-6bbe-cd77-e78ee961cb12
-description: Enumeration for the free/busy status of free/busy blocks.
+description: Переумеление для свободного/занятого состояния бесплатных/занятых блоков.
 ms.openlocfilehash: 2a08ef142f9baddd453166c0ebcb989e69a51ceb
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33424093"
 ---
 # <a name="fbstatus"></a>FBStatus
 
-Enumeration for the free/busy status of free/busy blocks.
+Переумеление для свободного/занятого состояния бесплатных/занятых блоков.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -33,7 +33,7 @@ enum
 
 ## <a name="remarks"></a>Примечания
 
-Состояние занятости блока времени определяет, как он отображается в **календаре:**"Свободен", "Занят", "Под вопросом" или "Нет на **офисе".**  
+Состояние свободного или занятого блока времени определяет, как он отображается в календаре: **Free,** **Busy,** **Tentative** или **Out of Office.** 
   
 ## <a name="see-also"></a>См. также
 

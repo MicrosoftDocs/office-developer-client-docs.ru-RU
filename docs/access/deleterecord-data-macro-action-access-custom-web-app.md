@@ -1,5 +1,5 @@
 ---
-title: Макрокод DeleteRecord Data Macro (пользовательское веб-приложение Access)
+title: DeleteRecord Data Macro action (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,9 +13,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423155"
 ---
-# <a name="deleterecord-data-macro-action-access-custom-web-app"></a>Макрокод DeleteRecord Data Macro (пользовательское веб-приложение Access)
+# <a name="deleterecord-data-macro-action-access-custom-web-app"></a>DeleteRecord Data Macro action (Access custom web app)
 
-Для удаления **записи можно использовать действие DeleteRecord.** 
+Для удаления записи можно использовать действие **DeleteRecord.** 
   
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
@@ -26,11 +26,11 @@ ms.locfileid: "33423155"
   
 |**Аргумент**|**Описание**|
 |:-----|:-----|
-|**Запись псевдонима** <br/> |Строка, идентифицирует запись, которую необходимо удалить. Если  *аргумент Alias*  не указан, текущая запись удаляется.  <br/> |
+|**Запись псевдонима** <br/> |Строка, идентифицируемая для удаления записи. Если аргумент  *Alias*  не указан, текущая запись удаляется.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Локализованную переменную **LastCreateRecordIdentity** можно использовать для работы с последней записью, созданной в блоке данных **CreateRecord.** Например, используйте следующий синтаксис для ссылки на недавно созданную запись: 
+Для работы с последней записью, созданной в блоке данных CreateRecord, можно использовать локализованную переменную **LastCreateRecordIdentity.**  Например, используйте следующий синтаксис для ссылки на недавно созданную запись: 
   
 `[LastCreateRecordIdentity]`
 

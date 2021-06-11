@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b09b48d0-9008-4e43-9506-93a830ad9452
-description: Определяет высоту верхнего верха фигуры в точках.
+description: Определяет высоту верхнего окантовки фигуры в точках.
 ms.openlocfilehash: 4da2fd1d61b530450f9020b12d5016015fd59dba
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33421867"
 ---
 # <a name="beveltopheight-cell-bevel-properties-section"></a>BevelTopHeight Cell (Bevel Properties Section)
 
-Определяет высоту верхнего верха фигуры в точках. 
+Определяет высоту верхнего окантовки фигуры в точках. 
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **BevelTopHeight** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
+Чтобы получить ссылку на ячейку **BevelTopHeight** по имени из другой формулы, по значению **атрибута N** элемента **Cell** или из программы с использованием свойства **CellsU,** используйте: 
   
 |||
 |:-----|:-----|

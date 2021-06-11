@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b832d75b-dac2-495f-b86e-d7fc5a484cab
-description: Определяет схему шрифтов темы, применяемой к фигуре, в виде integer.
+description: Определяет схему шрифта темы, применяемой к фигуре, в виде integer.
 ms.openlocfilehash: 3a527b93b95f86dc1b9b92c931f3877ef28523ec
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33420502"
 ---
 # <a name="fontschemeindex-cell-theme-properties-section"></a>FontSchemeIndex Cell (Theme Properties Section)
 
-Определяет схему шрифтов темы, применяемой к фигуре, в виде integer. 
+Определяет схему шрифта темы, применяемой к фигуре, в виде integer. 
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **FontSchemeIndex** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
+Чтобы получить ссылку на ячейку **FontSchemeIndex** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы с использованием свойства **CellsU,** используйте: 
   
 |||
 |:-----|:-----|

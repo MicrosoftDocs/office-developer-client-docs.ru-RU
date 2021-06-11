@@ -23,9 +23,9 @@ ms.locfileid: "33419186"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит массив структур [ROWENTRY,](rowentry.md) представляющих строки, и операции, выполняемые с этими строками в таблице с помощью интерфейса [IExchangeModifyTable.](iexchangemodifytableiunknown.md) 
+Содержит массив структур [ROWENTRY,](rowentry.md) представляющих строки, и операций, выполняемых на этих строках в таблице с помощью [интерфейса IExchangeModifyTable.](iexchangemodifytableiunknown.md) 
   
 ```cpp
 typedef struct
@@ -40,11 +40,11 @@ typedef struct
 
  **cEntries**
   
-> Количество записей в массиве, указанном членом **aEntries.** 
+> Количество записей в массиве, указанном участником **aEntries.** 
     
  **aEntries[MAPI_DIM]**
   
-> Массив структур **ROWENTRY,** содержащий строки и операции, выполняемые с этими строками в таблице. 
+> Массив структур **ROWENTRY,** содержащий строки и операции, выполняемые на этих строках в таблице. 
     
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -52,7 +52,7 @@ typedef struct
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Используется для создания списка выбранных правил для последующих действий **ModifyTable.**  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Используется для создания списка выбранных правил для последующих **действий ModifyTable.**  <br/> |
    
 ## <a name="see-also"></a>См. также
 

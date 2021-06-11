@@ -1,5 +1,5 @@
 ---
-title: Алгоритм кодирования ИД записей и вложений
+title: Алгоритм кодирования ИД входа и Вложений
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,13 +13,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420138"
 ---
-# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>Алгоритм кодирования ИД записей и вложений
+# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>Алгоритм кодирования ИД входа и Вложений
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Поставщик магазина может отправить в качестве части URL-адреса (MAPI) ИД записи и ид вложения в обработчик протокола MAPI, чтобы определить объект, готовый к индексации. Поставщик магазина кодирует ИД записи и код вложения в виде строк Юникода. В этом разделе показан алгоритм, который создает компактное представление ИД записи или ид вложения.
+Поставщик магазина может отправить в рамках единого локатора ресурсов MAPI (URL-адрес) ID записи и ID вложения в обработчик протокола MAPI, чтобы определить объект, готовый к индексации. Поставщик магазина кодирует ID записи и код вложения как строки Юникод. В этом разделе показан алгоритм, который создает компактное представление ID или ID вложения.
   
 ```cpp
 const WORD kwBaseOffset = 0xAC00;  // Hangul char range (AC00-D7AF) 
@@ -56,7 +56,7 @@ LPWSTR EncodeID(ULONG cbEID, LPENTRYID rgbID)
 
 
 
-[Об Notification-Based Store](about-notification-based-store-indexing.md)
+[Индексация Notification-Based магазина](about-notification-based-store-indexing.md)
   
-[Url-адреса MAPI для Notification-Based индексации](about-mapi-urls-for-notification-based-indexing.md)
+[О URL-адресах MAPI для Notification-Based индексации](about-mapi-urls-for-notification-based-indexing.md)
 

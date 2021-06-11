@@ -20,7 +20,7 @@ ms.locfileid: "33424569"
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IOlkAccountNotify.](iolkaccountnotify.md)
+См. [iOlkAccountNotify](iolkaccountnotify.md).
   
 ```cpp
 HRESULT IOlkAccount::Notify(  
@@ -31,7 +31,7 @@ HRESULT IOlkAccount::Notify(
 
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _dwNotify_
   
@@ -49,11 +49,11 @@ _dwNotify_
     
  _dwAcctID_
   
-> [in] ИД учетной записи, которая была создана, изменена, удалена или предварительно удалена.
+> [in] ID учетной записи учетной записи, которая была создана, изменена, удалена или удалена заранее.
     
  _dwFlags_
   
->  [in] Не используется. OLK_ACCOUNT_NO_FLAGS это единственное поддерживаемые значения. 
+>  [in] Не используется. OLK_ACCOUNT_NO_FLAGS является единственным поддерживаемым значением. 
     
 ## <a name="return-values"></a>Возвращаемые значения
 

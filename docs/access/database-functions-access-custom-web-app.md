@@ -1,5 +1,5 @@
 ---
-title: Функции базы данных (пользовательское веб-приложение Access)
+title: Функции базы данных (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -13,16 +13,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418913"
 ---
-# <a name="database-functions-access-custom-web-app"></a>Функции базы данных (пользовательское веб-приложение Access)
+# <a name="database-functions-access-custom-web-app"></a>Функции базы данных (Доступ к настраиваемой веб-приложению)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
 
-- [Функция UserDisplayName (пользовательское веб-приложение Access)](userdisplayname-function-access-custom-web-app.md)
+- [Функция UserDisplayName (Доступ к пользовательскому веб-приложению)](userdisplayname-function-access-custom-web-app.md)
     
-- [Функция UserEmailAddress (пользовательское веб-приложение Access)](useremailaddress-function-access-custom-web-app.md)
+- [Функция UserEmailAddress (Доступ к настраиваемой веб-приложению)](useremailaddress-function-access-custom-web-app.md)
     
-- [Функция обновления (пользовательское веб-приложение Access)](update-function-access-custom-web-app.md)
+- [Функция обновления (Доступ к настраиваемой веб-приложению)](update-function-access-custom-web-app.md)
     
 

@@ -23,7 +23,7 @@ ms.locfileid: "33418178"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Обновляет объект таблицы MAPI.
   
@@ -35,7 +35,7 @@ HRESULT ModifyTable(
 
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -43,7 +43,7 @@ HRESULT ModifyTable(
     
 0 (ноль)
   
-> Используйте значение члена **ulRowFlags** структуры [ROWENTRY.](rowentry.md) 
+> Используйте значение **члена ulRowFlags** структуры [ROWENTRY.](rowentry.md) 
     
 ACLTABLE_FREEBUSY
   
@@ -51,11 +51,11 @@ ACLTABLE_FREEBUSY
     
 frightsFreeBusyDetailed
   
-> При ACLTABLE_FREEBUSY предоставляет подробные сведения о новых правах на сведения о занятости.
+> При ACLTABLE_FREEBUSY вы можете подробно отображать новые права на свободный и занятый доступ.
     
 frightsFreeBusySimple
   
-> При ACLTABLE_FREEBUSY данные отображаются новые права занятости.
+> При ACLTABLE_FREEBUSY вы можете просто отображать новые свободные и занятые права.
     
 ROWLIST_REPLACE
   
@@ -71,7 +71,7 @@ ROWLIST_REPLACE
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::OnModifySelectedItem  <br/> |MFCMAPI использует метод **IExchangeModifyTable::ModifyTable** для записи измененного правила обратно в таблицу правил.  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg::OnModifySelectedItem  <br/> |MFCMAPI использует **метод IExchangeModifyTable::ModifyTable** для записи измененного правила обратно в таблицу правил.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

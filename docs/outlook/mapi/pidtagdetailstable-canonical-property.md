@@ -23,7 +23,7 @@ ms.locfileid: "33419256"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит встроенный объект таблицы отображения.
   
@@ -36,11 +36,11 @@ ms.locfileid: "33419256"
    
 ## <a name="remarks"></a>Примечания
 
-Передача этого свойства методу [IMAPIProp::OpenProperty](imapiprop-openproperty.md) для объекта возвращает [интерфейс IMAPITable,](imapitableiunknown.md) который позволяет создать таблицу отображения. MAPI использует эту таблицу для отображения таблиц свойств для объекта адресной книги в ответ на вызов [IAddrBook::D etails.](iaddrbook-details.md) 
+Передача этого свойства методу [IMAPIProp::OpenProperty](imapiprop-openproperty.md) для объекта возвращает [интерфейс IMAPITable,](imapitableiunknown.md) который позволяет создавать таблицу отображения. MAPI использует эту таблицу для отображения листов свойств объекта адресной книги в ответ на вызов [IAddrBook::D etails.](iaddrbook-details.md) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -65,5 +65,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

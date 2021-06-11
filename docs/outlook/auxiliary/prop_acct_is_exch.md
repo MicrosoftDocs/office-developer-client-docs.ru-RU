@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 599bfc7d-7b62-7cc1-69ff-6db04c96a49b
-description: Имеет true, если учетная запись является учетной записью Exchange.
+description: True, если учетная запись является Exchange учетной записью.
 ms.openlocfilehash: 2df750b208ff9d2a18cb0d7c22ec6b32b658c7b4
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,22 +16,22 @@ ms.locfileid: "33418234"
 ---
 # <a name="prop_acct_is_exch"></a>PROP_ACCT_IS_EXCH
 
-Имеет true, если учетная запись является учетной записью Exchange.
+True, если учетная запись является Exchange учетной записью.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IOlkAccount](iolkaccount.md).
+См. [iOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0014  <br/> |
 |Тип свойства:  <br/> |PT_LONG  <br/> |
 |Тег свойства:  <br/> |0x00140003  <br/> |
-|Access:  <br/> |Только для чтения  <br/> |
+|Доступ:  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Получите это свойство с помощью [IOlkAccount::GetProp](iolkaccount-getprop.md). Если клиент пытается установить это свойство, это свойство возвращает E_OLK_PROP_READ_ONLY **.** 
+Получите это свойство с помощью [IOlkAccount::GetProp](iolkaccount-getprop.md). Если клиент пытается установить это свойство, это свойство возвращает **E_OLK_PROP_READ_ONLY.** 
   
 ## <a name="see-also"></a>См. также
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251224
 localization_priority: Normal
 ms.assetid: 966cde5c-f04e-7149-3660-720ffa4f7079
-description: Блокирует вершины фигуры, чтобы их нельзя было редактировать.
+description: Блокирует вершины фигуры таким образом, чтобы они не могли быть изменены.
 ms.openlocfilehash: 1703769fe54171a14f7052f0f6686e1eb5ec92fc
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,12 +18,12 @@ ms.locfileid: "33417668"
 ---
 # <a name="lockvtxedit-cell-protection-section"></a>LockVtxEdit Cell (Protection Section)
 
-Блокирует вершины фигуры, чтобы их нельзя было редактировать.
+Блокирует вершины фигуры таким образом, чтобы они не могли быть изменены.
   
 |**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Вершины не могут быть изменены.  <br/> |
-|FALSE  <br/> |Вершины можно редактировать.  <br/> |
+|FALSE  <br/> |Вершины можно изменить.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

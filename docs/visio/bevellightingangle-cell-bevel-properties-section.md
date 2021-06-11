@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 537f5100-a8cf-4e29-81a5-bb71a80a7178
-description: Определяет угол вспышки по отношению к градусам.
+description: Определяет угол молнии по отношению к степеням.
 ms.openlocfilehash: 984cae54d8a688b96642552355e9e1d011f4f9b9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,17 +16,17 @@ ms.locfileid: "33423330"
 ---
 # <a name="bevellightingangle-cell-bevel-properties-section"></a>BevelLightingAngle Cell (Bevel Properties Section)
 
-Определяет угол вспышки по отношению к градусам. 
+Определяет угол молнии по отношению к степеням. 
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **BevelLightingAngle** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
+Чтобы получить ссылку на **ячейку BevelLightingAngle** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы с использованием свойства **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
 | Имя ячейки:  <br/> | BevelLightingAngle  <br/> |
    
-Чтобы получить ссылку на ячейку **BevelLightingAngle** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
+Чтобы получить ссылку на **ячейку BevelLightingAngle** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|

@@ -23,9 +23,9 @@ ms.locfileid: "33423589"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Задает ширину обтекания текстом для потока MIME, который преобразователь вернет в [IConverterSession::MAPIToMIMEStm.](iconvertersession-mapitomimestm.md)
+Задает ширину текстовой упаковки для потока MIME, который преобразовщик возвращает в [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   
 ```cpp
 HRESULT IConverterSession::SetTextWrapping ( 
@@ -34,15 +34,15 @@ HRESULT IConverterSession::SetTextWrapping (
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  *fWrapText* 
   
-> [in] Следует ли обтекать текст.
+> [in] Нужно ли завернуть текст или нет.
     
  *ulWrapWidth* 
   
-> [in] Ширина обтекаемого текста.
+> [in] Ширина текстовой упаковки.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -56,8 +56,8 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI использует MimeToMAPI для преобразования EML-файла в сообщение MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI использует MAPIToMIMEStm для преобразования сообщения MAPI в EML-файл.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI использует MimeToMAPI для преобразования файла EML в сообщение MAPI.  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI использует MAPIToMIMEStm для преобразования сообщения MAPI в файл EML.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

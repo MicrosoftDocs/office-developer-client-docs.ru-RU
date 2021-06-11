@@ -19,17 +19,17 @@ ms.locfileid: "33417352"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Таблица папок получения содержит сведения обо всех папках, назначенных в качестве папок получения для хранения сообщений. Папка получения — это папка, в которой размещаются входящие сообщения определенного класса сообщений. Поставщики хранилищ сообщений реализуют таблицы папок получения, а клиентские приложения используют их, вызовите метод [IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) 
+Таблица папки получения содержит сведения для всех папок, назначенных в качестве папки получения для магазина сообщений. Папка получения — это папка, в которой размещаются входящие сообщения определенного класса сообщений. Поставщики магазинов сообщений реализуют таблицы приемных папок, а клиентские приложения используют их, звоня по [методу IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) 
   
-Следующие свойства составляют необходимый набор столбцов в таблицах папок получения:
+Следующие свойства составляют необходимый столбец, установленный в таблицах приемных папок:
   
- **PR_ENTRYID** ([PidTagEntryId)](pidtagentryid-canonical-property.md) 
+ **PR_ENTRYID** [(PidTagEntryId)](pidtagentryid-canonical-property.md) 
   
- **PR_MESSAGE_CLASS** ([PidTagMessageClass)](pidtagmessageclass-canonical-property.md) 
+ **PR_MESSAGE_CLASS** [(PidTagMessageClass)](pidtagmessageclass-canonical-property.md) 
   
- **PR_RECORD_KEY** ([PidTagRecordKey)](pidtagrecordkey-canonical-property.md) 
+ **PR_RECORD_KEY** [(PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 
   
 ## <a name="see-also"></a>См. также
 

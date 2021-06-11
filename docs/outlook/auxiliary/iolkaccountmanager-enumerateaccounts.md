@@ -32,7 +32,7 @@ HRESULT IOlkAccountManager::EnumerateAccounts (
 
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _pclsidCategory_
   
@@ -77,7 +77,7 @@ _ppEnum_
 
 Specifying NULL for category returns an enumerator of all accounts of the specified type. Similarly, specifying NULL for type returns an enumerator of all accounts of the specified category.
   
- **IOlkAccountManager::EnumerateAccounts** does not support the address book category for an Exchange account. Если учетная запись является учетной записью Exchange *(pclsidType* имеет тип **CLSID_OlkMAPIAccount),** и вы пытаетесь нумеровать учетные записи, которые реализуют адресную книгу (*prgclsidCategory* — **CLSID_OlkAddressBook),** вызов **IOlkAccountManager::EnumerateAccounts** не возвратит учетную запись Exchange в enumerator *ppEnum.* 
+ **IOlkAccountManager::EnumerateAccounts** does not support the address book category for an Exchange account. Если учетная запись является учетной записью Exchange *(pclsidType* — **CLSID_OlkMAPIAccount),** и вы пытаетесь учесть учетные записи, реализуя адресную книгу *(prgclsidCategory* — **CLSID_OlkAddressBook),** вызов **IOlkAccountManager::EnumerateAccounts** не возвращает учетную запись Exchange в переучете *счетов ppEnum* . 
   
 ## <a name="see-also"></a>См. также
 

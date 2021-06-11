@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3e29af0d-4183-41d1-8b0f-96450089f882
-description: Определяет тип верхней границы фигуры.
+description: Определяет тип окантовки на верхнем краю фигуры.
 ms.openlocfilehash: 225600a3e39ec58622bcd8597e1115a52cb62a3f
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,23 +16,23 @@ ms.locfileid: "33421496"
 ---
 # <a name="beveltoptype-cell-bevel-properties-section"></a>BevelTopType Cell (Bevel Properties Section)
 
-Определяет тип верхней границы фигуры. 
+Определяет тип окантовки на верхнем краю фигуры. 
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-|0  <br/> |Без ногой  <br/> |
-|1   <br/> |Круг с оголтой  <br/> |
-|2   <br/> |Непринужденная ветвь  <br/> |
-|3   <br/> |Межуровневый  <br/> |
+|0  <br/> |Без bevel  <br/> |
+|1  <br/> |Круг bevel  <br/> |
+|2  <br/> |Relaxed Inset bevel  <br/> |
+|3  <br/> |Cross bevel  <br/> |
 |4   <br/> |Cool Slant bevel  <br/> |
-|5   <br/> |Угловая гепка  <br/> |
+|5   <br/> |Угловая гоголевка  <br/> |
 |6   <br/> |Soft Round bevel  <br/> |
-|7   <br/> |Convex bevel  <br/> |
-|8   <br/> |Подавная ковка  <br/> |
+|7   <br/> |Выпукшная гоголевка  <br/> |
+|8   <br/> |Спусковая пусковая дорожка  <br/> |
 |9   <br/> |Divot bevel  <br/> |
-|10   <br/> |Клетовая гемуля  <br/> |
-|11  <br/> |Граница жесткого края  <br/> |
-|12   <br/> |Объект Art Deco bevel  <br/> |
+|10   <br/> |Риблет-букель  <br/> |
+|11  <br/> |Hard Edge bevel  <br/> |
+|12   <br/> |Ар-деко bevel  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

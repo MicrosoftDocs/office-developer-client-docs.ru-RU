@@ -23,9 +23,9 @@ ms.locfileid: "33422350"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
- Сообщает Microsoft Outlook о том, что синхронизация завершена. 
+ Сообщает корпорации Майкрософт Outlook, что синхронизация завершена. 
   
 ```cpp
 HRESULT Done(
@@ -34,15 +34,15 @@ HRESULT Done(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  **hThreadDoneEvent**
   
-> Событие, которое передается обратно, чтобы позволить Microsoft Outlook закрыть handle. Это может быть NULL.
+> Событие, которое передается обратно, чтобы Outlook Майкрософт закрыть ручку. Это может быть NULL.
     
  **hResult**
   
-> HRESULT, указывающий конечное состояние хода выполнения.
+> HRESULT с указанием окончательного состояния прогресса.
     
 ## <a name="return-value"></a>Возвращаемое значение
 

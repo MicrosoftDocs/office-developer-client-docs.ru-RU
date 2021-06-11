@@ -1,5 +1,5 @@
 ---
-title: Today Function (Access custom web app)
+title: Функция Today (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422126"
 ---
-# <a name="today-function-access-custom-web-app"></a>Today Function (Access custom web app)
+# <a name="today-function-access-custom-web-app"></a>Функция Today (Доступ к настраиваемой веб-приложению)
 
 Возвращает текущее значение даты в часовом поясе, определенном приложением
   
@@ -27,6 +27,6 @@ ms.locfileid: "33422126"
   
 ## <a name="remarks"></a>Примечания
 
-Функция **Now** аналогична, но возвращает точное время, тогда как **Сегодня** возвращает значение времени 12:00:00 PM для всех дат. 
+Функция **Now** аналогична, но возвращает точное время, в то время как **Сегодня** возвращает значение времени 12:00:00 вечера для всех дат. 
   
 

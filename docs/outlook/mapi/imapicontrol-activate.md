@@ -23,7 +23,7 @@ ms.locfileid: "33418017"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Выполняет такую задачу, как отображение диалогового окна или запуск программной операции, когда пользователь клиентского приложения нажимает кнопку управления.
   
@@ -34,7 +34,7 @@ HRESULT Activate(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -42,19 +42,19 @@ HRESULT Activate(
     
  _ulUIParam_
   
-> [in] Handle to the parent window of the dialog box on which the button control appears.
+> [in] Ручка родительского окна диалоговое окно, на котором отображается кнопка управления.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Кнопка управления успешно активирована.
+> Управление кнопками было успешно активировано.
     
 ## <a name="remarks"></a>Примечания
 
-Метод **IMAPIControl::Activate** выполняет задачи после нажатия пользователем кнопки. После нажатия в рамках обработки таблицы отображения MAPI вызывает  активацию после первого вызова [IMAPIControl::GetState,](imapicontrol-getstate.md) чтобы определить, включена ли кнопка. 
+Метод **IMAPIControl::Activate** выполняет задачи после нажатия пользователем кнопки управления. После щелчка мыши в рамках обработки таблицы отображения MAPI  вызывает активацию после первого вызова [IMAPIControl::GetState,](imapicontrol-getstate.md) чтобы определить, включена ли кнопка. 
   
-Дополнительные сведения о реализации **метода Activate** и других методов [IMAPIControl : IUnknown](imapicontroliunknown.md) см. в реализации [объекта control.](control-object-implementation.md)
+Дополнительные сведения о том, как реализовать **Активировать** и другие [методы IMAPIControl: IUnknown,](imapicontroliunknown.md) [см](control-object-implementation.md).
   
 ## <a name="see-also"></a>См. также
 

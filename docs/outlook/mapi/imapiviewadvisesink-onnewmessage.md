@@ -23,9 +23,9 @@ ms.locfileid: "33419606"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Сообщает просмотру формы о том, что новое или существующее сообщение загружено в форме.
+Сообщает зрителю формы, что новое или существующее сообщение загружено в форме.
   
 ```cpp
 HRESULT OnNewMessage( void );
@@ -43,13 +43,13 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Объекты форм вызывали метод **IMAPIViewAdviseSink::OnNewMessage** при загрузке сообщения в форме с помощью метода [IPersistMessage::InitNew](ipersistmessage-initnew.md) или [IPersistMessage::Load.](ipersistmessage-load.md) 
+Объекты форм называют метод **IMAPIViewAdviseSink::OnNewMessage** всякий раз, когда сообщение загружается в форме с помощью метода [IPersistMessage::InitNew](ipersistmessage-initnew.md) или [IPersistMessage::Load.](ipersistmessage-load.md) 
   
 ## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-Освободите активный указатель на объект формы, так как он больше не указывает на сообщение, которое ранее просматривал ваш просмотр. 
+Отпустите активный указатель к объекту формы, так как он больше не указывает на сообщение, которое ранее просматривал зритель. 
   
-Дополнительные сведения об уведомлениях о формах см. в сведениях об отправке и [получении уведомлений о формах.](sending-and-receiving-form-notifications.md)
+Дополнительные сведения об уведомлениях формы см. в рублях [Отправка и получение уведомлений о форме.](sending-and-receiving-form-notifications.md)
   
 ## <a name="see-also"></a>См. также
 

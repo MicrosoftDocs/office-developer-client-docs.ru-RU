@@ -21,9 +21,9 @@ ms.locfileid: "33418115"
 ---
 # <a name="sizedspropproblemarray"></a>SizedSPropProblemArray
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Создает именоваемую [структуру SPropProblemArray,](spropproblemarray.md) которая содержит указанное число [структур SPropProblem.](spropproblem.md) 
+Создает структуру [SPropProblemArray](spropproblemarray.md) с заданным числом [структур SPropProblem.](spropproblem.md) 
   
 |||
 |:-----|:-----|
@@ -34,19 +34,19 @@ ms.locfileid: "33418115"
 SizedSPropProblemArray(_cprob, _name)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _ _cprob_
   
-> Количество **структур SPropProblem,** которые необходимо включить в новую структуру. 
+> Количество **структур SPropProblem,** которые будут включены в новую структуру. 
     
-_ _name_
+_ _имя_
   
 > Имя новой структуры.
     
 ## <a name="remarks"></a>Примечания
 
-Используйте **макрос SizedSPropProblemArray** для создания массива проблем свойств с явными границами. Чтобы использовать новую структуру, которая является результатом макроса **SizedSPropProblemArray** в качестве указателя на структуру **SPropProblemArray,** выполните следующую cast: 
+Используйте **макрос SizedSPropProblemArray** для создания массива проблем свойств с явными границами. Чтобы использовать новую структуру, которая является результатом макроса **SizedSPropProblemArray** в качестве указателя на структуру **SPropProblemArray,** выполните следующий бросок: 
   
 ```cpp
 lpPropProbArray = (LPSPropProblemArray) &SizedSPropProblemArray;

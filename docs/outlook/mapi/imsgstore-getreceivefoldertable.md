@@ -23,9 +23,9 @@ ms.locfileid: "33421356"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Предоставляет доступ к таблице папок получения, которая содержит сведения обо всех папках получения для хранения сообщений.
+Предоставляет доступ к таблице приемных папок, которая содержит сведения обо всех папках получения для магазина сообщений.
   
 ```cpp
 HRESULT GetReceiveFolderTable(
@@ -33,23 +33,23 @@ HRESULT GetReceiveFolderTable(
   LPMAPITABLE FAR * lppTable );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [in] Битоваяmas флагов, которая управляет доступом к таблице. Можно установить следующие флаги:
+> [in] Битмаска флагов, которые контролируют доступ к таблице. Можно установить следующие флаги:
     
 MAPI_DEFERRED_ERRORS 
   
-> Позволяет **getReceiveFolderTable успешно** возвращаться, возможно, до того, как таблица будет полностью доступна вызываемой. Если таблица не полностью доступна, последующий вызов таблицы может вызвать ошибку. 
+> Позволяет **GetReceiveFolderTable** успешно вернуться, возможно, до того, как таблица будет полностью доступна вызываемой. Если таблица недоступна полностью, последующий вызов таблицы может привести к ошибке. 
     
 MAPI_UNICODE 
   
-> Возвращенные строки имеют формат Юникод. Если флаг MAPI_UNICODE не установлен, строки будут в формате ANSI.
+> Возвращенные строки находятся в формате Unicode. Если флаг MAPI_UNICODE не установлен, строки находятся в формате ANSI.
     
  _lppTable_
   
-> [out] Указатель на указатель на таблицу папки получения.
+> [вышел] Указатель на указатель на таблицу папки получения.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -59,17 +59,17 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Метод **IMsgStore::GetReceiveFolderTable** предоставляет доступ к таблице, которая отображает параметры свойств для всех папок получения в хранилище сообщений. 
+Метод **IMsgStore::GetReceiveFolderTable** предоставляет доступ к таблице, в которую показаны параметры свойств для всех папок в хранилище сообщений. 
   
 ## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-Список необходимых столбцов в таблице папок получения см. в статье ["Таблицы папок получения".](receive-folder-tables.md) 
+Список необходимых столбцов в таблице папки получения см. в [статье Получение таблиц папок.](receive-folder-tables.md) 
   
-Реализуйте таблицы папок получения для поддержки настройки ограничений свойств **для свойства PR_RECORD_KEY** ([PidTagRecordKey).](pidtagrecordkey-canonical-property.md) Это обеспечивает простой доступ к определенным папок получения.
+Реализуйте таблицы папки получения для поддержки установки ограничений свойств **для свойства PR_RECORD_KEY** [(PidTagRecordKey).](pidtagrecordkey-canonical-property.md) Это позволяет легко получить доступ к определенным папкам получения.
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-Установка флага MAPI_UNICODE в параметре _ulFlags_ влияет на формат столбцов, возвращаемых методами [IMAPITable::QueryColumns](imapitable-querycolumns.md) и [IMAPITable::QueryRows.](imapitable-queryrows.md) Этот флаг также управляет типами свойств в порядке сортировки, возвращаемом методом [IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
+Установка флага MAPI_UNICODE в параметре _ulFlags_ влияет на формат столбцов, возвращаемых из методов [IMAPITable::QueryColumns](imapitable-querycolumns.md) и [IMAPITable::QueryRows.](imapitable-queryrows.md) Этот флаг также управляет типами свойств в порядке сортировки, возвращаемом методом [IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -77,7 +77,7 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDisplayReceiveFolderTable  <br/> |MFCMAPI использует метод **IMsgStore::GetReceiveFolderTable** для отображения таблицы папок получения.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDisplayReceiveFolderTable  <br/> |MFCMAPI использует **метод IMsgStore::GetReceiveFolderTable** для отображения таблицы папки получения.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

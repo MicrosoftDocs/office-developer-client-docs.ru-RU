@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9b46358c-bcab-f097-8746-fabfd4722b3c
-description: Получает следующее указанное количество блоков данных о занятости в этом перенамеровке.
+description: Получает следующее указанное количество блоков бесплатных и загруженных данных в переумериях.
 ms.openlocfilehash: f6ec49a9bac6bcf4fff67991d55c7656f6c8cce2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33422140"
 ---
 # <a name="ienumfbblocknext"></a>IEnumFBBlock::Next
 
-Возвращает следующее указанное количество блоков данных о занятости в этом перенамеровке.
+Получает следующее указанное количество блоков бесплатных и загруженных данных в переумериях.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IEnumFBBlock](ienumfbblock.md).
+См. [iEnumFBBlock](ienumfbblock.md).
   
 ```cpp
 HRESULT Next(  
@@ -30,19 +30,19 @@ HRESULT Next(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
-_celt_
+_кельт_
   
-> [in] Количество блоков данных о занятости в  *pblk*  для извлечения. 
+> [in] Количество бесплатных и загруженных блоков данных  *в pblk*  для получения. 
     
 _pblk_
   
-> [in] Указатель на массив блоков занятости. Для массива выделяется  *размером 3,5*  г. В этом массиве возвращаются запрашиваемые блоки занятости. 
+> [in] Указатель на массив бесплатных и занятых блоков. Массиву выделяется размер *кельта.* Запрашиваемая бесплатная/занятая блоки возвращаются в этом массиве. 
     
 _pcfetch_
   
-> [out] Количество блоков занятости, фактически возвращаемого *в pblk.* 
+> [вышел] Количество бесплатных и занятых блоков фактически возвращается  *в pblk*  . 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -53,7 +53,7 @@ _pcfetch_
    
 ## <a name="see-also"></a>См. также
 
-- [Константы (API занятости)](constants-free-busy-api.md)  
+- [Константы (API free/busy)](constants-free-busy-api.md)  
 - [FBBlock_1](fbblock_1.md)  
 - [IEnumFBBlock::Clone](ienumfbblock-clone.md)  
 - [IEnumFBBlock::Reset](ienumfbblock-reset.md)  

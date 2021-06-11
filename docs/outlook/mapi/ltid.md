@@ -19,9 +19,9 @@ ms.locfileid: "33419438"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Универсальный долгосрочный ИД объекта в хранилище Outlook.
+Общий долгосрочный ID объекта в Outlook магазине.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -38,15 +38,15 @@ struct LTID
 
  _guid_
   
-- [out] GUID сервера, создав объект.
+- [вышел] GUID сервера, создав объект.
     
  _globcnt_
   
-- [out] 6-byte unique number that identifies the object within the Outlook store.
+- [вышел] Уникальный номер 6-byte, который идентифицирует объект в Outlook магазине.
     
  _wLevel_
   
-- [out] Уровень иерархии ИД записи для папки "Избранное" в Exchange.
+- [вышел] Уровень иерархии ID записи для Exchange избранной публичной папки.
     
 ## <a name="see-also"></a>См. также
 

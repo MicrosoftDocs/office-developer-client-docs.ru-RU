@@ -24,15 +24,15 @@ ms.locfileid: "33422539"
 int CloseSession(int SessionId)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _SessionId_
   
-> ИД сеанса, который необходимо закрыть. Это значение должно соответствовать значению, возвращаемом [OpenSession.](opensession.md)
+> ID сеанса, который необходимо закрыть. Это значение должно соответствовать значению, возвращенным [OpenSession.](opensession.md)
     
 ## <a name="return-value"></a>Возвращаемое значение
 
-**xlHpcRetSuccess,** если сеанс закрыт; **xlHpcRetInvalidSessionId,** если аргумент  _SessionId_ является недопустимым; **xlHpcRetCallFailed при** других сбоях. 
+**xlHpcRetSuccess,** если сеанс закрыт; **xlHpcRetInvalidSessionId,** если аргумент  _SessionId_ недействителен; **xlHpcRetCallFailed для** других сбоев. 
   
 ## <a name="see-also"></a>См. также
 

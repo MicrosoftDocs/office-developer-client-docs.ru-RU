@@ -19,7 +19,7 @@ ms.locfileid: "33421846"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 ����� � ��� ������� MAPI, ������� ������������ � �������� ��������� ����� ����������� ��� ���������. ������������ ������������ ����� ����� ��������� ��������� � ������ �����. ����� ��������� ��� ����������� � ������ � �����������.
   
@@ -39,19 +39,19 @@ ms.locfileid: "33421846"
   
 ����� ������ �������� ������ �� ���������, ������� ������������� ������ �������������� �������� �������. ��� ��� ����� ������ �������� ������, � �� ����������� ���������, ��� �������� ���������� ������ ��� ������. ��� �� ����� ��������� ������ ����� ��� ��������� ��� ����� ����������� ��� ����������� � ���. ��� �� ����� ����� ����� ���������, ��������� � ���; � ��� ���� ������ ����������, ����������� ��� ������������. ��������� ������� �� ����� ������, ���������� ��������� �� �����, ���������� ���������.
   
-Тип папки хранится в свойстве **PR_FOLDER_TYPE** ([PidTagFolderType).](pidtagfoldertype-canonical-property.md) ������ ����� ��� �������� ����� �������� FOLDER_GENERIC, FOLDER_ROOT ��� FOLDER_SEARCH, � ����������� �� ����.
+Тип папки хранится в **свойстве PR_FOLDER_TYPE** [(PidTagFolderType).](pidtagfoldertype-canonical-property.md) ������ ����� ��� �������� ����� �������� FOLDER_GENERIC, FOLDER_ROOT ��� FOLDER_SEARCH, � ����������� �� ����.
   
-������ ����� ���� ���� ������ �������������� � ���� ���� ������. Идентификатор записи, **PR_ENTRYID** ([PidTagEntryId),](pidtagentryid-canonical-property.md)используется клиентами и поставщиками услуг для открытия папки. Ключ записи, **PR_RECORD_KEY** ([PidTagRecordKey),](pidtagrecordkey-canonical-property.md)— это двоичное значение, которое используется для сравнения папки с другими папками. 
+������ ����� ���� ���� ������ �������������� � ���� ���� ������. Идентификатор входа, **PR_ENTRYID** [(PidTagEntryId),](pidtagentryid-canonical-property.md)используется клиентами и поставщиками услуг для открытия папки. Клавиша записи **PR_RECORD_KEY** [(PidTagRecordKey)](pidtagrecordkey-canonical-property.md)— это двоичное значение, которое используется для сравнения папки с другими папками. 
   
 ����� ����� ������ �������� ��� ������������� ��������� � ���� ����� � ��������� ���������. ���������� ��������� ��������:
   
-- **PR_PARENT_ENTRYID** ([PidTagParentEntryId)](pidtagparententryid-canonical-property.md)
+- **PR_PARENT_ENTRYID** [(PidTagParentEntryId)](pidtagparententryid-canonical-property.md)
     
-- **PR_STORE_ENTRYID** ([PidTagStoreEntryId)](pidtagstoreentryid-canonical-property.md)
+- **PR_STORE_ENTRYID** [(PidTagStoreEntryId)](pidtagstoreentryid-canonical-property.md)
     
-- **PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))
+- **PR_STORE_RECORD_KEY** [(PidTagStoreRecordKey)](pidtagstorerecordkey-canonical-property.md)
     
-Некоторые папки поддерживают **PR_ACCESS** ([PidTagAccess),](pidtagaccess-canonical-property.md)которое описывает тип операций, которые может выполнять пользователь. �������� ���� �� ���������� �������� **PR_ACCESS** � MAPI_ACCESS_DELETE, ��� ��������, ��� ����� ����� ���� �������. ���� ��������, MAPI_ACCESS_MODIFY, ���������, ��� ����� ������ ���� ����� ��������. 
+Некоторые папки поддерживают **свойство PR_ACCESS** [(PidTagAccess),](pidtagaccess-canonical-property.md)которое описывает тип операций, которые может выполнять пользователь. �������� ���� �� ���������� �������� **PR_ACCESS** � MAPI_ACCESS_DELETE, ��� ��������, ��� ����� ����� ���� �������. ���� ��������, MAPI_ACCESS_MODIFY, ���������, ��� ����� ������ ���� ����� ��������. 
   
 ������ ������ �������� ����������� ����� � ������� ��������� [IMAPIFolder](imapifolderimapicontainer.md) . 
   

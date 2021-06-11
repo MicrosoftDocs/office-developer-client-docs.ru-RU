@@ -1,5 +1,5 @@
 ---
-title: Отображение элементов управления таблицы
+title: Отображение элементов управления таблицами
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,30 +15,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422693"
 ---
-# <a name="displaying-table-controls"></a>Отображение элементов управления таблицы
+# <a name="displaying-table-controls"></a>Отображение элементов управления таблицами
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Существует множество различных типов элементов управления, не уникальных для MAPI. Однако MAPI определяет собственные структуры, которые используются в сочетании с [BuildDisplayTable](builddisplaytable.md) для описания уникального набора данных, используемых для каждого из них. 
+Существует множество различных типов элементов управления, которые не являются уникальными для MAPI. Однако MAPI определяет собственные структуры, которые используются совместно с [BuildDisplayTable](builddisplaytable.md) для описания уникального набора данных, участвующих в каждом контроле. 
   
 В следующей таблице перечислены структуры, описывая каждый тип управления. 
   
 |**Структура управления**|**Описание**|
 |:-----|:-----|
-|[DTBLBUTTON](dtblbutton.md) <br/> |Описывает кнопку управления.  <br/> |
-|[DTBLCHECKBOX](dtblcheckbox.md) <br/> |Описание контрольного окна.  <br/> |
-|[DTBLCOMBOBOX](dtblcombobox.md) <br/> |Описание управления полем со combo.  <br/> |
-|[DTBLDDLBX](dtblddlbx.md) <br/> |Описание выпадаемого списка.  <br/> |
-|[DTBLEDIT](dtbledit.md) <br/> |Описывает изменение.  <br/> |
-|[DTBLGROUPBOX](dtblgroupbox.md) <br/> |Описывает групповую групповую группу.  <br/> |
-|[DTBLLABEL](dtbllabel.md) <br/> |Описывает метку.  <br/> |
-|[DTBLLBX](dtbllbx.md) <br/> |Описание списка.  <br/> |
-|[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |Описание выпадаемого списка с несколькими значениями.  <br/> |
-|[DTBLMVLISTBOX](dtblmvlistbox.md) <br/> |Описывает список с несколькими значениями.  <br/> |
-|[DTBLPAGE](dtblpage.md) <br/> |Описывает вкладку управления страницей.  <br/> |
-|[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |Описывает параметр управления кнопкой.  <br/> |
+|[DTBLBUTTON](dtblbutton.md) <br/> |Описывает управление кнопками.  <br/> |
+|[DTBLCHECKBOX](dtblcheckbox.md) <br/> |Описывает управление контрольным окном.  <br/> |
+|[DTBLCOMBOBOX](dtblcombobox.md) <br/> |Описывает управление комбо-полем.  <br/> |
+|[DTBLDDLBX](dtblddlbx.md) <br/> |Описывает выпадаемую коробку списка.  <br/> |
+|[DTBLEDIT](dtbledit.md) <br/> |Описывает управление изменением.  <br/> |
+|[DTBLGROUPBOX](dtblgroupbox.md) <br/> |Описывает управление групповым полем.  <br/> |
+|[DTBLLABEL](dtbllabel.md) <br/> |Описывает управление меткой.  <br/> |
+|[DTBLLBX](dtbllbx.md) <br/> |Описывает управление полем списка.  <br/> |
+|[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |Описывает управление полем списка с несколькими значениями.  <br/> |
+|[DTBLMVLISTBOX](dtblmvlistbox.md) <br/> |Описывает управление полем списка с несколькими значениями.  <br/> |
+|[DTBLPAGE](dtblpage.md) <br/> |Описывает управление страницей на вкладке.  <br/> |
+|[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |Описывает управление кнопкой параметра.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

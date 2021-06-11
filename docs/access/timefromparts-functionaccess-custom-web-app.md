@@ -1,5 +1,5 @@
 ---
-title: TimeFromParts Function (Access custom web app)
+title: Функция TimeFromParts (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417996"
 ---
-# <a name="timefromparts-function-access-custom-web-app"></a>TimeFromParts Function (Access custom web app)
+# <a name="timefromparts-function-access-custom-web-app"></a>Функция TimeFromParts (Доступ к настраиваемой веб-приложению)
 
 Возвращает значение времени на основе указанных частей.
   
@@ -23,7 +23,7 @@ ms.locfileid: "33417996"
   
 ## <a name="syntax"></a>Синтаксис
 
- **TimeFromParts** (*Hour*, *Minute*, *Second*) 
+ **TimeFromParts** *(час,* *минута,* *секунда)* 
   
 Функция **TimeFromParts** содержит следующие аргументы. 
   
@@ -35,6 +35,6 @@ ms.locfileid: "33417996"
    
 ## <a name="see-also"></a>См. также
 
- **TimeFromParts** возвращает полностью инициализированное значение времени. Если аргументы недопустимы, вызывается ошибка. Если какой-либо из параметров имеет null, возвращается null. 
+ **TimeFromParts** возвращает полностью инициализированное значение времени. Если аргументы недействительны, то вызывается ошибка. Если любой из параметров является null, null возвращается. 
   
 

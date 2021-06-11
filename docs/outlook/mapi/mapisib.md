@@ -19,9 +19,9 @@ ms.locfileid: "33418710"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Эта структура используется с [IMAPISync::SynchronizeInBackground.](imapisyncsynchronizeinbackground.md)
+Эта структура используется с [IMAPISync::SynchronizeInBackground](imapisyncsynchronizeinbackground.md).
   
 ```cpp
 typedef struct _MAPISIB
@@ -46,25 +46,25 @@ HANDLE          *phSyncDoneEvent;
     
 ||||
 |:-----|:-----|:-----|
-|SYNC_OUTGOING_MAIL  <br/> |0x00000200  <br/> |Отправьте сообщение на сервер (в настоящее время не используется).  <br/> |
-|SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |Изменение иерархии push-данных на сервере.  <br/> |
+|SYNC_OUTGOING_MAIL  <br/> |0x00000200  <br/> |Отправка сообщения на сервер (в настоящее время не используется).  <br/> |
+|SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |Нажмите изменения иерархии на сервер.  <br/> |
 |SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |Извлеките изменения иерархии с сервера.  <br/> |
-|SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |Изменение push-сообщений на сервер.  <br/> |
+|SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |Нажмите изменения сообщения на сервер.  <br/> |
 |SYNC_DOWNLOAD_CONTENTS  <br/> |0x00000080  <br/> |Извлеките изменения сообщений с сервера.  <br/> |
-|SYNC_ON_DEMAND  <br/> |0x20000000  <br/> |Синхронизация была инициирована пользователем и должна иметь более высокий приоритет.  <br/> |
-|SYNC_GLOBAL_HEADERS  <br/> |0x02000000  <br/> |Следует синхронизировать только заглавные и не полные тексты.  <br/> |
+|SYNC_ON_DEMAND  <br/> |0x20000000  <br/> |Синхронизация была инициирована пользователем и должна быть более приоритетной.  <br/> |
+|SYNC_GLOBAL_HEADERS  <br/> |0x02000000  <br/> |Следует синхронизировать только заготки, а не полные органы.  <br/> |
    
  **psesSync**
   
 > [IN] Указатель на сеанс MAPI.
     
- **аcallBack**
+ **punkCallBack**
   
-> [IN] Указатель на интерфейс, по которому необходимо обеспечить ход выполнения. Его можно использовать для запроса интерфейса [для IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md).
+> [IN] Указатель на интерфейс, по которому необходимо обеспечить прогресс. Он может использоваться для запроса интерфейса [для IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md).
     
  **\*phSyncDoneEvent**
   
-> [OUT] Событие, которое будет происходить после создания только что созданного потока, завершается. Указатель должен быть действительным, так как он будет содержать событие.
+> [OUT] Событие, которое произойдет, когда только что созданный поток завершится. Указатель должен быть допустимым, так как он будет содержать событие.
     
 ## <a name="see-also"></a>См. также
 

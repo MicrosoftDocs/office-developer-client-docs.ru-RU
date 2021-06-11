@@ -1,5 +1,5 @@
 ---
-title: Инициализация utilities MAPI
+title: Инициализация утилит MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,16 +15,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420950"
 ---
-# <a name="initializing-the-mapi-utilities"></a>Инициализация utilities MAPI
+# <a name="initializing-the-mapi-utilities"></a>Инициализация утилит MAPI
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Если необходимо использовать только программы MAPI, интерфейсы и функции, объявленные в MAPI MAPI MAPI. Файл H-загона, например **IPropData** и **ITableData,** не требуется вызывать **MAPIInitialize** для инициализации. Дополнительные сведения см. в [IPropData : IMAPIProp](ipropdataimapiprop.md), [ITableData : IUnknown](itabledataiunknown.md)и [MAPIInitialize](mapiinitialize.md). Вместо этого вызовите **функцию ScInitMapiUtil.** Дополнительные сведения [см. в подразделе ScInitMapiUtil.](scinitmapiutil.md) **ScInitMapiUtil** позволяет клиентские приложения использовать функции и методы, для которых требуются средства назначения MAPI, но которые не требуют их явно. 
+Если единственной частью MAPI, которую необходимо использовать, являются утилиты — интерфейсы и функции, объявленные в MAPI MAPI. H заглавной файл, такие как **IPropData** и **ITableData** — вам не нужно вызывать **MAPIInitialize** для инициализации. Дополнительные сведения см. в [iPropData : IMAPIProp,](ipropdataimapiprop.md) [ITableData : IUnknown](itabledataiunknown.md)и [MAPIInitialize](mapiinitialize.md). Вместо этого позвоните **в функцию ScInitMapiUtil.** Дополнительные сведения см. [в ст. ScInitMapiUtil](scinitmapiutil.md). **ScInitMapiUtil** позволяет клиентские приложения использовать полезные функции и методы, для которых требуются аллигаторы MAPI, но которые не требуют их явно. 
   
-Во время завершения работы вызовите **DeinitMapiUtil,** чтобы освободить ресурсы, подключенные к средствам. Не **вызывай MAPIUninitialize.** Дополнительные сведения [см. в подразделах DeinitMapiUtil](deinitmapiutil.md) и [MAPIUninitialize.](mapiuninitialize.md)
+Во время остановки позвоните **в DeinitMapiUtil,** чтобы освободить ресурсы, подключенные к утилитам. Не **вызывай MAPIUninitialize**. Дополнительные сведения см. [в deinitMapiUtil](deinitmapiutil.md) и [MAPIUninitialize.](mapiuninitialize.md)
   
-Следует помнить, что интерфейс **ITableData** не поддерживает уведомления таблиц для клиентов, которые вызвали **ScInitMapiUtil,** а **не MAPIInitialize**. 
+Следует помнить, что интерфейс **ITableData** не поддерживает таблицы уведомлений для клиентов, которые вызвали **ScInitMapiUtil,** а **не MAPIInitialize**. 
   
 

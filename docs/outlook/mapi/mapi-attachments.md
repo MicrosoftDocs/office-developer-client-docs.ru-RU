@@ -19,9 +19,9 @@ ms.locfileid: "33417835"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-��������� ���������� ��������� ��������� �������������� �������� ��� ����� � ����������� ��������� ���������� � ���� ������, ������� OLE, ��������� ��� �������� ������. ��� �������������� ��������, ���������� �������� ���������. ��� ��� �������� ���������, ������������ � �������� ������ ����� ���� ���������, ��� ��������������� ��������� ���������. ������ ����, ������������� ������ ��� �������, �������� ����� ���������������� �����, ��������� ��� ����� ��������. ��� ����� ���������� ���������� �������� � ���������, �� �� ����������� � ��������� ���������. ��� ������ ��������� ����� ��������� ��������� �������� � ���������� ������� ��������. Номера вложений действительны, только если сообщение открыто и **хранится в** свойстве PR_ATTACH_NUM ([PidTagAttachNumber).](pidtagattachnumber-canonical-property.md)
+��������� ���������� ��������� ��������� �������������� �������� ��� ����� � ����������� ��������� ���������� � ���� ������, ������� OLE, ��������� ��� �������� ������. ��� �������������� ��������, ���������� �������� ���������. ��� ��� �������� ���������, ������������ � �������� ������ ����� ���� ���������, ��� ��������������� ��������� ���������. ������ ����, ������������� ������ ��� �������, �������� ����� ���������������� �����, ��������� ��� ����� ��������. ��� ����� ���������� ���������� �������� � ���������, �� �� ����������� � ��������� ���������. ��� ������ ��������� ����� ��������� ��������� �������� � ���������� ������� ��������. Номера вложений действительны только до тех пор, пока сообщение открыто и **хранится в свойстве PR_ATTACH_NUM** [(PidTagAttachNumber).](pidtagattachnumber-canonical-property.md)
   
 ��� ������� � ������� ���������� ��� ���� �������� ���������, ������� �������� ��� �������� � �������. � ������� �������� �������� ��������, ������� ������� ����� ������������ ��� ������� � �������� ��������, ����� ��� ���� ����� �������� � ���� ������. ������� ����� ��������� ������� �������� �:
   
@@ -29,7 +29,7 @@ ms.locfileid: "33417835"
     
 - Calling **IMAPIProp::OpenProperty**. For more information, see [IMAPIProp::OpenProperty](imapiprop-openproperty.md).
     
-Message store providers are expected to support both of these approaches. Подход **OpenProperty** требует, чтобы вызываемая IID_IMAPITable в качестве идентификатора интерфейса **и PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments)](pidtagmessageattachments-canonical-property.md)в качестве тега свойства. **PR_MESSAGE_ATTACHMENTS** is a table object property that represents a message's attachment table. Message store providers are required to set **PR_MESSAGE_ATTACHMENTS** for each message and include it in the array of property tags returned from the **IMAPIProp::GetPropList** method. For more information, see [IMAPIProp::GetPropList](imapiprop-getproplist.md).
+Message store providers are expected to support both of these approaches. Подход **OpenProperty** требует, чтобы вызываемая IID_IMAPITable в качестве идентификатора **интерфейса и PR_MESSAGE_ATTACHMENTS** [(PidTagMessageAttachments)](pidtagmessageattachments-canonical-property.md)в качестве тега свойства. **PR_MESSAGE_ATTACHMENTS** is a table object property that represents a message's attachment table. Message store providers are required to set **PR_MESSAGE_ATTACHMENTS** for each message and include it in the array of property tags returned from the **IMAPIProp::GetPropList** method. For more information, see [IMAPIProp::GetPropList](imapiprop-getproplist.md).
   
  ����� ������������ **PR_MESSAGE_ATTACHMENTS**: 
   

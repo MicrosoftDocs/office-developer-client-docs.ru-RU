@@ -23,9 +23,9 @@ ms.locfileid: "33420096"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Задает порядок, в котором будут вызваны поставщики транспорта для доставки сообщения.
+Задает порядок, в котором операторы транспорта вызваны для доставки сообщения.
   
 ```cpp
 HRESULT MsgServiceTransportOrder(
@@ -35,7 +35,7 @@ HRESULT MsgServiceTransportOrder(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _cUID_
   
@@ -43,7 +43,7 @@ HRESULT MsgServiceTransportOrder(
     
  _lpUIDList_
   
-> [in] Указатель на массив уникальных идентификаторов, которые представляют поставщиков транспорта. Массив содержит один идентификатор для каждого поставщика транспорта, настроенного в текущем профиле.
+> [in] Указатель на массив уникальных идентификаторов, которые представляют поставщиков транспорта. Массив содержит один идентификатор для каждого поставщика транспорта, настроенный в текущем профиле.
     
  _ulFlags_
   
@@ -53,7 +53,7 @@ HRESULT MsgServiceTransportOrder(
 
 S_OK 
   
-> Порядок транспорта успешно установлен.
+> Порядок транспортировки был установлен успешно.
     
 MAPI_E_BUSY 
   
@@ -61,13 +61,13 @@ MAPI_E_BUSY
     
 MAPI_E_NOT_FOUND 
   
-> Одна или несколько структур [MAPIUID,](mapiuid.md) переданных в  _параметре lpUIDList,_ не ссылаются на поставщика транспорта, который в данный момент находится в профиле. 
+> Одна или несколько структур [MAPIUID,](mapiuid.md) переданных в  _параметре lpUIDList,_ не относятся к поставщику транспорта в настоящее время в профиле. 
     
 ## <a name="remarks"></a>Примечания
 
-Метод **IMsgServiceAdmin::MsgServiceTransportOrder** задает порядок доставки поставщиков транспорта в профиле. Параметр _lpUIDList_ должен содержать отсортируемый список идентификаторов записей поставщика транспорта, полученных из свойства **PR_PROVIDER_UID** ([PidTagProviderUid)](pidtagprovideruid-canonical-property.md)таблицы, возвращаемой методом [IMsgServiceAdmin::GetProviderTable.](imsgserviceadmin-getprovidertable.md) Клиентские приложения должны передавать полный список  _в lpUIDList_.
+Метод **IMsgServiceAdmin::MsgServiceTransportOrder** задает порядок доставки поставщиков транспорта в профиле. Параметр _lpUIDList_ должен содержать отсортируемый список идентификаторов записей транспортного **поставщика,** полученных из свойства [PR_PROVIDER_UID (PidTagProviderUid)](pidtagprovideruid-canonical-property.md)таблицы, возвращаемой из метода [IMsgServiceAdmin::GetProviderTable.](imsgserviceadmin-getprovidertable.md) Клиентская заявка должна передать полный список в  _lpUIDList_.
   
- **SetTransportOrder** переопределяет параметры поставщика транспорта, такие как флаг STATUS_XP_PREFER_LAST, установленный в свойстве **PR_RESOURCE_FLAGS** ([PidTagResourceFlags).](pidtagresourceflags-canonical-property.md) 
+ **SetTransportOrder** переопределяет параметры поставщика транспорта, такие  как флаг STATUS_XP_PREFER_LAST в свойстве [PR_RESOURCE_FLAGS (PidTagResourceFlags).](pidtagresourceflags-canonical-property.md) 
   
 ## <a name="see-also"></a>См. также
 

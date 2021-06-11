@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm70007
 localization_priority: Normal
 ms.assetid: 29bfe8ec-ca12-8fbf-b62b-ece3710dfe2e
-description: Указывает, как фигуры помещаются на страницу, когда фигуры размещаются в диалоговом окне "Настройка макета" (на вкладке "Конструктор" в группе "Макет" щелкните Re-Layout "Страница" и выберите "Дополнительные параметры макета"). Хранит значения стиля макета и выравнивания из VisCellIndices.
+description: Указывает, как фигуры размещаются на странице, когда фигуры размещаются в диалоговом окне Настройка макета (на вкладке Дизайн, в группе Макет, щелкните Re-Layout страницу, а затем нажмите кнопку Дополнительные параметры макета). Сохраняет стиль макета и значения выравнивания из VisCellIndices.
 ms.openlocfilehash: 381f74912b64395f33a2dc55c0bad24d36a16286
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33418577"
 ---
 # <a name="shapeplacestyle-cell-shape-layout-section"></a>ShapePlaceStyle Cell (Shape Layout Section)
 
-Указывает, как фигуры помещаются на страницу  при размещении фигур в  диалоговом  окне "Настройка макета" (на вкладке "Конструктор" в группе "Макет" щелкните "Страница повторного макета" **и** выберите "Дополнительные параметры макета").  Хранит значения стиля макета и выравнивания **из VisCellIndices.** 
+Указывает, как фигуры размещаются на странице, когда фигуры выложены  в диалоговом окне **Настройка** макета (на вкладке Дизайн, в группе **Макет,** щелкните Страницу повторного макета, а затем нажмите кнопку Дополнительные параметры **макета).** Сохраняет стиль макета и значения выравнивания **из VisCellIndices.** 
   
 |**Константа**|**Значение**|
 |:-----|:-----|
@@ -26,7 +26,7 @@ ms.locfileid: "33418577"
 |**visLOPlaceCircular** <br/> |6   <br/> |
 |**visLOPlaceCompactDownLeft** <br/> |14   <br/> |
 |**visLOPlaceCompactDownRight** <br/> |7   <br/> |
-|**visLOPlaceCompactLeftDown** <br/> |13   <br/> |
+|**visLOPlaceCompactLeftDown** <br/> |13  <br/> |
 |**visLOPlaceCompactLeftUp** <br/> |12   <br/> |
 |**visLOPlaceCompactRightDown** <br/> |8   <br/> |
 |**visLOPlaceCompactRightUp** <br/> |9   <br/> |
@@ -45,13 +45,13 @@ ms.locfileid: "33418577"
 |**visLOPlaceHierarchyTopToBottomCenter** <br/> |17   <br/> |
 |**visLOPlaceHierarchyTopToBottomLeft** <br/> |16   <br/> |
 |**visLOPlaceHierarchyTopToBottomRight** <br/> |18   <br/> |
-|**visLOPlaceLeftToRight** <br/> |2   <br/> |
-|**visLOPlaceParentDefault** <br/> |15   <br/> |
-|**visLOPlaceRadial** <br/> |3   <br/> |
+|**visLOPlaceLeftToRight** <br/> |2  <br/> |
+|**visLOPlaceParentDefault** <br/> |15  <br/> |
+|**visLOPlaceRadial** <br/> |3  <br/> |
 |**visLOPlaceRightToLeft** <br/> |5   <br/> |
-|**visLOPlaceTopToBottom** <br/> |1   <br/> |
+|**visLOPlaceTopToBottom** <br/> |1  <br/> |
    
-Чтобы сослаться на ячейку ShapePlaceStyle по имени из другой формулы или из программы, использующей свойство **CellsU,** используйте: 
+Чтобы сослаться на ячейку ShapePlaceStyle по имени из другой формулы или из программы с использованием свойства **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
