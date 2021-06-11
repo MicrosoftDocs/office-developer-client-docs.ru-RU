@@ -19,18 +19,18 @@ ms.locfileid: "33406607"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Состояние HandsOffAfterSave является частью процесса сохранения содержимого формы в постоянное хранилище. В этом состоянии объект формы должен отказаться от внесения изменений в копии значений свойств сообщения в памяти, так как может не быть другой возможности сохранить эти изменения. В следующей таблице описаны разрешенные переходы из состояния HandsOffAfterSave.
+Состояние HandsOffAfterSave является частью процесса сохранения содержимого формы в постоянное хранилище. Когда в этом состоянии объект формы должен воздерживаться от внесения изменений в копии значений свойств сообщения в памяти, так как не может быть другой возможности сохранить эти изменения. В следующей таблице описываются разрешенные переходы из состояния HandsOffAfterSave.
   
 |**Метод IPersistMessage**|**Действие**|**Новое состояние**|
 |:-----|:-----|:-----|
-|[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)(_pMessage !=_ NULL)  <br/> |Откройте все внедренные объекты. Данные в сообщении, хранимые в _pMessage,_ гарантированно будут такие же, как и в предыдущем вызове [IPersistMessage::Save.](ipersistmessage-save.md) Если вызов **SaveCompleted** был успешным, введите обычное состояние. В противном случае установите для последней ошибки E_OUTOFMEMORY состояние HandsOffAfterSave.  <br/> |[Normal](normal-state.md) или HandsOffAfterSave  <br/> |
-|**IPersistMessage::SaveCompleted**(_pMessage ==_ NULL)  <br/> |Установите для последней ошибки E_INVALIDARG или E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
-|[IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md), **Save**, or [IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |Установите последнюю ошибку и E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
-|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Загрузка объекта формы с данными из целевого сообщения. Этот вызов может происходить, когда объект формы идет к следующему или предыдущему сообщению в папке.  <br/> |Normal  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Возвращает последнюю ошибку.  <br/> |HandsOffAfterSave  <br/> |
-|Другие [методы IPersistMessage : методы или методы IUnknown](ipersistmessageiunknown.md) из других интерфейсов  <br/> |Установите последнюю ошибку и E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
+|[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)_(pMessage!=_ NULL)  <br/> |Откройте все встроенные объекты. Данные в сообщении, хранимом _в pMessage,_ гарантированно будут одинаковыми с данными предыдущего вызова [IPersistMessage:::Save.](ipersistmessage-save.md) Если вызов **SaveCompleted** удался, введите нормальное состояние. В противном случае установите последнюю ошибку E_OUTOFMEMORY и оставайтесь в состоянии HandsOffAfterSave.  <br/> |[Нормальный](normal-state.md) или HandsOffAfterSave  <br/> |
+|**IPersistMessage::SaveCompleted**_(pMessage ==_ NULL)  <br/> |Установите последнюю ошибку для E_INVALIDARG или E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
+|[IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md), **Save**, [или IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |Установите последнюю ошибку и верни E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
+|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Загрузить объект формы данными из целевого сообщения. Этот вызов может произойти, когда объект формы будет отправляться к следующему или предыдущему сообщению в папке.  <br/> |Normal  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Возвращаем последнюю ошибку.  <br/> |HandsOffAfterSave  <br/> |
+|Другие [методы IPersistMessage: методы или методы IUnknown](ipersistmessageiunknown.md) из других интерфейсов  <br/> |Установите последнюю ошибку и верни E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
    
 ## <a name="see-also"></a>См. также
 

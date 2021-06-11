@@ -23,21 +23,21 @@ ms.locfileid: "32303040"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает точность свойства **dispidTaskOwner** ([PidLidTaskOwner).](pidlidtaskowner-canonical-property.md)
+Указывает точность свойства **dispidTaskOwner** [(PidLidTaskOwner).](pidlidtaskowner-canonical-property.md)
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidTaskFFixOffline  <br/> |
 |Набор свойств:  <br/> |PSETID_Task  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x0000812C  <br/> |
+|Long ID (LID):  <br/> |0x0000812C  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Task  <br/> |
+|Область:  <br/> |Задача  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если свойство **dispidTaskFFixOffline** имеет значение FALSE или не замечено, значение свойства **dispidTaskOwner** является правильным. Если **для dispidTaskFFixOffline** установлено значение TRUE, клиент не может определить точное значение **для dispidTaskOwner.** В этом случае клиент может установить **для dispidTaskOwner** универсальное имя владельца, например "Unknown". Однако если клиент сталкивается со значением **dispidTaskFFixOffline** true и может определить точное имя владельца, клиент должен обновить **dispidTaskOwner** и установить **для dispidTaskFFixOffline** значение FALSE. 
+Если свойство **dispidTaskFFixOffline** настроено как FALSE или не установлено, значение для свойства **dispidTaskOwner** правильное. Если значение true установлено в **dispidTaskFFixOffline,** клиент не может определить точное значение **для dispidTaskOwner.** В этом случае клиент может настроить **dispidTaskOwner** к общему имени владельца, например "Unknown". Однако если клиент сталкивается с неутешимым значением **TRUETaskFFixOffline** и может определить точное имя владельца, клиент должен обновить **dispidTaskOwner** и установить **dispidTaskFFixOffline** для FALSE. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32303040"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения наборов свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Определяет несколько объектов, которые моделируют электронный эквивалент задач, назначений задач и обновлений задач. 
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

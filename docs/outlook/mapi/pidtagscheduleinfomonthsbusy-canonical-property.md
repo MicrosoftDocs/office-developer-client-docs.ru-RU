@@ -21,20 +21,20 @@ ms.locfileid: "32359795"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит месяцы, в течение которых данные о занятости типа занятости присутствуют в сообщении о занятости.
+Содержит месяцы, за которые в свободном/занятом сообщении присутствуют бесплатные и загруженные данные типа.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_SCHDINFO_MONTHS_BUSY  <br/> |
 |Идентификатор:  <br/> |0x6853  <br/> |
 |Тип данных:  <br/> |PT_MV_LONG  <br/> |
-|Область:  <br/> |Free/Busy  <br/> |
+|Область:  <br/> |Бесплатный/занятый  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Формат, вычисления и ограничения этого свойства такие же, как и формат **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative),](pidtagscheduleinfomonthstentative-canonical-property.md)но ссылаются на встречи, помеченные как занятые в связанном объекте календаря.
+Формат, вычисления и ограничения этого свойства такие же, как и у **PR_SCHDINFO_MONTHS_TENTATIVE** [(PidTagScheduleInfoMonthsTentative),](pidtagscheduleinfomonthstentative-canonical-property.md)но ссылаются на встречи, отмеченные занятыми на связанном объекте календаря.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,7 +48,7 @@ ms.locfileid: "32359795"
   
 > Публикует доступность пользователя или ресурса.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -68,5 +68,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm90
 localization_priority: Normal
 ms.assetid: 59d92820-3ff6-a73d-ffb7-d33096e904f7
-description: Представляет x-координату точки начала 1-D фигуры относительно начала родительской фигуры.
+description: Представляет x-координату точки начала формы 1-D по отношению к происхождению ее родителя.
 ms.openlocfilehash: 34c1ef1b2500c78791fb4822851eb6d485d77f81
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33407601"
 ---
 # <a name="beginx-cell-1-d-endpoints-section"></a>BeginX Cell (1-D Endpoints Section)
 
-Представляет  *x-координату*  точки начала 1-D фигуры относительно начала родительской фигуры. 
+Представляет  *x-координату*  точки начала формы 1-D по отношению к происхождению ее родителя. 
   
 ## <a name="remarks"></a>Примечания
 

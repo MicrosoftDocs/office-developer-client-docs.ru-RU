@@ -23,9 +23,9 @@ ms.locfileid: "33407104"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит двоичное значение, скопированные из сообщения, для которого создается отчет. 
+Содержит двоичное значение, копируется из сообщения, для которого создается отчет. 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ ms.locfileid: "33407104"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство, как **и свойство PR_REPORT_TAG** ([PidTagReportTag),](pidtagreporttag-canonical-property.md)можно использовать для сопоставления отчета с исходным сообщением. 
+Это свойство, **как и PR_REPORT_TAG** [(PidTagReportTag),](pidtagreporttag-canonical-property.md)может использоваться для сопоставления отчета с исходным сообщением. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -23,7 +23,7 @@ ms.locfileid: "32359509"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Условие, используемое при оценке правила.
   
@@ -32,11 +32,11 @@ ms.locfileid: "32359509"
 |Связанные свойства:  <br/> |PR_RULE_CONDITION  <br/> |
 |Идентификатор:  <br/> |0x6679  <br/> |
 |Тип данных:  <br/> |PT_SRESTRICTION  <br/> |
-|Область:  <br/> |Правила на стороне сервера  <br/> |
+|Область:  <br/> |Правила стороне сервера  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Условие выражается как  ограничение, а буфер **PropertyValue** содержит структуру ограничений, упакованную в пакет, как указано [в [MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx). 
+Это условие выражается как **ограничение,** а буфер  **PropertyValue** содержит структуру ограничения, упакованную как указано [в [MS-OXCDATA].](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -44,7 +44,7 @@ ms.locfileid: "32359509"
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|ImportProcs.cpp  <br/> |PropCopyMore, HrCopyRestriction  <br/> |Эти функции демонстрируют, как PT_SRESTRICTION **для** копирования в другое свойство.  <br/> |
+|ImportProcs.cpp  <br/> |PropCopyMore, HrCopyRestriction  <br/> |Эти функции демонстрируют, как  PT_SRESTRICTION свойства для копирования другого свойства.  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -56,13 +56,13 @@ ms.locfileid: "32359509"
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> Управляет входящие сообщения электронной почты на сервере.
+> Манипулирует входящие сообщения электронной почты на сервере.
     
 [[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
 > Определяет основные структуры данных, используемые в удаленных операциях.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -82,5 +82,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -4,10 +4,10 @@ manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
 keywords:
-- класс xpathnodeiterator [infopath 2007],XPathNavigator class [InfoPath 2007],form XML data [InfoPath 2007], accessing,XML DOM [InfoPath 2007],converting MSXML5 script [InfoPath 2007],MSXML5 script [InfoPath 2007], converting
+- класс xpathnodeiterator [infopath 2007], класс XPathNavigator [InfoPath 2007], форма XML-данных [InfoPath 2007], доступ, XML DOM [InfoPath 2007], преобразование скрипта MSXML5 [InfoPath 2007],MSXML5 скрипт [InfoPath 2007], преобразование
 localization_priority: Normal
 ms.assetid: 72fb3ee5-f18e-4f9c-adc6-698ac037b79d
-description: Для доступа к XML-данным в источниках данных шаблона формы многие члены объектной модели управляемого кода, предоставляемой пространством имен Microsoft.Office.InfoPath, либо создают, либо могут передавать экземпляр класса XPathNavigator System.Xml. Пространство имен XPath. После получения доступа к объекту XPathNavigator, возвращенному элементом объектной модели InfoPath, можно использовать свойства и методы класса XPathNavigator для работы с данными.
+description: Чтобы получить доступ к XML-данным в источниках данных шаблона форм, многие члены объектной модели управляемого кода, предоставляемой Корпорацией Майкрософт. Office. Пространство имен InfoPath создается или может быть передано экземпляру класса XPathNavigator System.Xml. Пространство имен XPath. После получения доступа к объекту XPathNavigator, возвращенному элементом объектной модели InfoPath, можно использовать свойства и методы класса XPathNavigator для работы с данными.
 ms.openlocfilehash: f34f2e1a1cbdb8d9e389c864a9b979be20726e6b
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,16 +17,16 @@ ms.locfileid: "32303551"
 ---
 # <a name="work-with-the-xpathnavigator-and-xpathnodeiterator-classes"></a>Работа с классами XPathNavigator и XPathNodeIterator
 
-Для доступа к XML-данным в источниках данных шаблона формы многие члены объектной модели управляемого кода, предоставляемой пространством имен [Microsoft.Office.InfoPath,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) либо создают, либо могут передавать экземпляр класса **XPathNavigator** **System.Xml. Пространство имен XPath.** После получения доступа к объекту **XPathNavigator**, возвращенному элементом объектной модели InfoPath, можно использовать свойства и методы класса **XPathNavigator** для работы с данными. 
+Для доступа и управления данными XML в источниках данных шаблона форм многие члены объектной модели управляемого кода, [предоставляемой Корпорацией Майкрософт.Office. Пространство](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) имен InfoPath создается или может быть передано экземпляру **класса XPathNavigator** **System.Xml. Пространство имен XPath.** После получения доступа к объекту **XPathNavigator**, возвращенному элементом объектной модели InfoPath, можно использовать свойства и методы класса **XPathNavigator** для работы с данными. 
   
-Наиболее часто используемым членом пространства имен **Microsoft.Office.InfoPath,** использующим класс **XPathNavigator,** является метод [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) класса [DataSource,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) который позволяет работать с сохраненными данными, представленными объектом **DataSource.** Метод **CreateNavigator** создает объект **XPathNavigator**, располагающийся в корне источника данных, представленного объектом **DataSource**. 
+Наиболее часто используемый член **Microsoft.Office. Пространство имен InfoPath,** использующее **класс XPathNavigator,** — это метод [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) класса [DataSource,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) который позволяет работать с сохраненными данными, представленными объектом **DataSource.** Метод **CreateNavigator** создает объект **XPathNavigator**, располагающийся в корне источника данных, представленного объектом **DataSource**. 
   
 > [!TIP]
 > При наличии опыта использования MSXML5 из скрипта для работы с данными в Microsoft InfoPath 2003 можно рассмотреть вариант применения метода **CreateNavigator** в качестве замены свойства **DOM** для **DataObject**. 
   
 ## <a name="using-the-xpathnavigator-class-to-access-the-main-data-source-of-the-form"></a>Использование класса XPathNavigator для доступа к основному источнику данных формы
 
-Чтобы получить доступ к основному источнику данных формы, вызовите метод [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) непосредственно из этого **ключевого** слова (C#) или **Me** (Visual Basic). В следующем примере создается объект **XPathNavigator**, расположенный в корне основного источника данных, с помощью метода **CreateNavigator**, после чего используется свойство **OuterXml** класса **XPathNavigator** для отображения XML-данных, возвращаемых в окне сообщения. 
+Чтобы получить доступ к основному источнику данных формы, позвоните  по методу [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) непосредственно из этого (C#) или ключевых слов **Me** (Visual Basic). В следующем примере создается объект **XPathNavigator**, расположенный в корне основного источника данных, с помощью метода **CreateNavigator**, после чего используется свойство **OuterXml** класса **XPathNavigator** для отображения XML-данных, возвращаемых в окне сообщения. 
   
 ```cs
 XPathNavigator myNavigator = 
@@ -43,21 +43,21 @@ MessageBox.Show("Main data source XML: " &amp; _
 ```
 
 > [!NOTE]
-> Вызов метода [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) непосредственно из ключевого слова this **or** **Me** эквивалентен вызову метода [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) с помощью свойства [MainDataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx) ( ) или путем передачи пустой строки в свойство  `this.MainDataSource.CreateNavigator()` [DataSources](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) (  `this.DataSources[""].CreateNavigator()` ). 
+> Вызов метода [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) непосредственно  из  этого или ключевого слова Me эквивалентен вызову [метода CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) с помощью свойства [MainDataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx) () или путем передачи пустой строки свойству `this.MainDataSource.CreateNavigator()` [DataSources](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) ( `this.DataSources[""].CreateNavigator()` ). 
   
 ## <a name="selecting-and-setting-the-xml-nodes-for-fields-in-the-main-data-source"></a>Выбор и установка XML-узлов для полей в основном источнике данных
 <a name="InfoPath2007XPathNavigatorClassFormTemplates_SelectingXMLNodes"> </a>
 
-Чтобы выбрать один узел XML для поля в источнике данных, используйте метод **SelectSingleNode(String,IXmlNamespaceResolver)** класса **XPathNavigator.** Если вы хотите работать с набором повторяюющихся полей или повторяюющихся групп, используйте метод **Select(String,IXmlNamespaceResolver)** класса **XPathNavigator.** Этот метод возвращает **объект XPathNodeIterator,** который представляет коллекцию узлов. 
+Чтобы выбрать один узел XML для поля в источнике данных, используйте метод **SelectSingleNode (String, IXmlNamespaceResolver)** класса **XPathNavigator.** Если вы хотите работать с набором повторяюющихся полей или повторяюющихся групп, используйте метод **Select(String,IXmlNamespaceResolver)** класса **XPathNavigator.** Этот метод возвращает **объект XPathNodeIterator,** который представляет коллекцию узлов. 
   
 ### <a name="selecting-and-setting-the-value-of-a-single-node"></a>Выбор и установка значения для отдельного узла
 
-Перегруженный метод **SelectSingleNode,** который необходимо использовать, имеет параметр  _xpath,_ который принимает выражение XPath в качестве строки, и параметр  _resolver,_ который принимает объект **XmlNamespaceManager** для разрешения префиксов пространства имен. Чтобы выбрать один узел в основном источнике данных формы, передав выражение XPath, которое указывает поле или группу для параметра _xpath,_ вместе с объектом **XmlNamespaceManager,** который возвращается свойством [NamespaceManager](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.NamespaceManager.aspx) объекта **XmlForm.** Возвращаемый объект **XmlNamespaceManager** инициализируется во время загрузки с использованием всех пространств имен, определенных в файле определения шаблона формы (XSF). 
+Перегруженный метод **SelectSingleNode,** который необходимо использовать, имеет параметр _xpath,_ который принимает  выражение XPath в качестве строки, и параметр разрешения, который принимает объект **XmlNamespaceManager** для решения префиксов пространства имен. Чтобы выбрать один узел в основном источнике данных формы, передай выражение XPath, которое указывает поле или группу для параметра _xpath,_ вместе с объектом **XmlNamespaceManager,** возвращаемым свойством [NamespaceManager](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.NamespaceManager.aspx) объекта **XmlForm.** Возвращаемый объект **XmlNamespaceManager** инициализируется во время загрузки с использованием всех пространств имен, определенных в файле определения шаблона формы (XSF). 
   
 > [!TIP]
 > Чтобы наиболее быстро создать выражение XPath для выбора узла в источнике данных формы, щелкните правой кнопкой мыши поле или группу в области задач **Поля** и выберите пункт **Копировать XPath**. Чтобы создать и проверить созданные вручную выражения XPath для доступа к узлам в сложной схеме XML или схеме XML с большим числом уровней вложения, добавьте в форму элемент управления **Поле выражения**, укажите в нем выражение XPath и выполните предварительный просмотр формы для отображения результатов. 
   
-В следующем примере метод **SelectSingleNode** используется для выбора одного узла  `EmailAlias` для поля. Затем он использует метод **SetValue** класса **XPathNavigator** и свойство [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) класса [User,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx) чтобы установить значение поля для псевдонима текущего пользователя. 
+В следующем примере **метод SelectSingleNode** используется для выбора единого узла  `EmailAlias` для поля. Затем он использует метод **SetValue** класса **XPathNavigator** и свойство [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) класса [User,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx) чтобы задать значение поля псевдониму текущего пользователя. 
   
 ```cs
 XPathNavigator emailAlias = 
@@ -73,21 +73,21 @@ Dim emailAlias As XPathNavigator = _
 emailAlias.SetValue(Me.Application.User.UserName.ToString())
 ```
 
-Сведения о создании выражений XPath см. в справочнике по XPath на сайте MSDN и рекомендации [по языку пути XML (XPath) версии 1.0 W3C.](https://www.w3.org/TR/xpath)
+Сведения о создании выражений XPath см. в справке XPath на MSDN и [xML Path Language (XPath) Версии 1.0 W3C.](https://www.w3.org/TR/xpath)
   
 ### <a name="setting-the-value-of-a-node-that-has-the-xsinil-attribute"></a>Установка значения для узла с атрибутом xsi:nil
 
-Для определенных типов данных при попытке установить значение пустого поля программным способом возникает ошибка "При проверке схемы обнаружены ошибки, не связанные с типами данных". Обычно причиной этой ошибки является то, что для атрибута [xsi:nil](https://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#xsi_nil) **установлено** true . Этот параметр можно обнаружить при проверке базового XML-элемента для пустого поля формы. Например, атрибуту **xsi:nil** XML-фрагмента для следующего пустого поля даты присвоено значение **true**.
+Для определенных типов данных при попытке установить значение пустого поля программным способом возникает ошибка "При проверке схемы обнаружены ошибки, не связанные с типами данных". Как правило, причина этой ошибки в том, что элемент имеет [атрибут xsi:nil,](https://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#xsi_nil) задаваемый **true.** Этот параметр можно обнаружить при проверке базового XML-элемента для пустого поля формы. Например, атрибуту **xsi:nil** XML-фрагмента для следующего пустого поля даты присвоено значение **true**.
   
 ```XML
 <my:myDate xsi:nil="true"></my:myDate>
 ```
 
-Если атрибут **xsi:nil** имеет значение **true,** это означает, что элемент присутствует, но не имеет значения или, другими словами, имеет значение NULL. Если попытаться программным образом установить значение такого узла, InfoPath отображает сообщение "Проверка схемы обнаружила ошибки, не относяшиеся к типу данных", так как элемент в настоящее время помечен как null. В InfoPath атрибуту **xsi:nil** присваивается значение **true** для полей null следующих типов данных: 
+Если **атрибут xsi:nil** настроен на значение **true,** он указывает на то, что элемент присутствует, но не имеет значения, или, другими словами, является null . Если вы пытаетесь программным образом установить значение такого узла, InfoPath отображает сообщение "Проверка схемы, обнаруженная без ошибок типа данных", так как элемент в настоящее время помечен как null . В InfoPath атрибуту **xsi:nil** присваивается значение **true** для полей null следующих типов данных: 
   
 - **Целое число (целое число)**
     
-- **Decimal (double)**
+- **Десятичной (двойной)**
     
 - **Дата (дата)**
     
@@ -95,7 +95,7 @@ emailAlias.SetValue(Me.Application.User.UserName.ToString())
     
 - **Дата и время (dateTime)**
     
-Чтобы избежать этой ошибки, код должен проверить атрибут **xsi:nil** и, если он присутствует, удалить его перед установкой значения узла. Следующая подстрока принимает объект **XpathNavigator,** который находится на узле, который требуется установить, проверяет атрибут **nil** и удаляет его, если он существует. 
+Чтобы предотвратить возникновение этой ошибки, в коде необходимо реализовать проверку наличия атрибута **xsi:nil**. Если этот атрибут присутствует, следует удалить его перед установкой значения узла. В следующей подпрограмме принимается объект **XpathNavigator**, расположенный в узле, который требуется установить, выполняется проверка наличия атрибута **nil**, после чего, в случае обнаружения этого атрибута, он удаляется. 
   
 ```cs
 public void DeleteNil(XPathNavigator node)
@@ -147,13 +147,13 @@ myDate.SetValue(strCurDate)
 ```
 
 > [!NOTE]
-> Хотя реализация объекта **XPathNavigator** в InfoPath предоставляет метод **SetTypedValue,** который используется для того, чтобы установить узел, используя значение определенного типа, InfoPath не реализует этот метод. Вместо него необходимо использовать метод **SetValue**, в который передается строковое значение в формате, соответствующем типу данных узла. 
+> Хотя реализация объекта **XPathNavigator** в InfoPath предоставляет метод **SetTypedValue,** который используется для набора узла с использованием значения определенного типа, InfoPath не реализует этот метод. Вместо него необходимо использовать метод **SetValue**, в который передается строковое значение в формате, соответствующем типу данных узла. 
   
 ### <a name="selecting-and-setting-a-set-of-repeating-nodes"></a>Выбор и установка набора повторяющихся узлов
 
-Чтобы указать набор повторяюющихся полей или групп с неопределенным числом, используйте метод **Select** класса **XPathNavigator.** Этот метод возвращает объект XPathNodeIterator, который можно использовать для итерации по указанной коллекции узлов. 
+Чтобы указать набор повторяюющихся полей или групп с неопределяемым числом, используйте метод **Select** класса **XPathNavigator.** Этот метод возвращает объект XPathNodeIterator, который можно использовать для итерации над указанной коллекцией узлов. 
   
-В следующем примере предполагается, что шаблон формы содержит **bulleted List** или аналогичный повторяюющийся элемент управления, привязанный к повторяю следующий элемент с именем  `field1` . XPath поля передается методу **Select,** а возвращенный **XPathNodeIterator** назначен  `nodes` переменной. Метод MoveNext используется для итерации по коллекции узлов, а свойство Current используется для возврата объекта **XPathNavigator,** расположенного на текущем узле. Наконец, используйте свойство **Value,** чтобы получить и отобразить значение каждого повторяютого поля. 
+В следующем примере предполагается, что шаблон формы содержит список **с** пулями или аналогичный элемент управления повтором, который привязан к элементу с именем повторяемой  `field1` формы. XPath поля передается методу **Select,** а возвращенный **XPathNodeIterator** назначен  `nodes` переменной. Метод MoveNext используется для итерации коллекции узлов и свойства Current для возврата объекта **XPathNavigator,** расположенного на текущем узле. Наконец, используйте свойство **Value** для получения и отображения значения каждого повторяют поле. 
   
 ```cs
 string message = String.Empty;
@@ -242,24 +242,24 @@ MessageBox.Show("External data source XML: " &amp; _
 |[DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) <br/> |[Метод CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx)  <br/> |
 ||[Метод GetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.GetNamedNodeProperty.aspx)  <br/> |
 ||[Метод SetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.SetNamedNodeProperty.aspx)  <br/> |
-|[EmailSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.aspx) <br/> |[Метод Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.Execute.aspx)  <br/> |
-|[FileQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileQueryConnection.aspx) <br/> |[Метод Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileQueryConnection.Execute.aspx)  <br/> |
-|[FileSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileSubmitConnection.aspx) <br/> |[Метод Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileSubmitConnection.Execute.aspx)  <br/> |
-|[FormError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.aspx) <br/> |[Свойство](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Site.aspx) site  <br/> |
+|[EmailSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.aspx) <br/> |[Метод выполнения](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.Execute.aspx)  <br/> |
+|[FileQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileQueryConnection.aspx) <br/> |[Метод выполнения](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileQueryConnection.Execute.aspx)  <br/> |
+|[FileSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileSubmitConnection.aspx) <br/> |[Метод выполнения](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileSubmitConnection.Execute.aspx)  <br/> |
+|[FormError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.aspx) <br/> |[Свойство site](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Site.aspx)  <br/> |
 |[FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) <br/> |[Добавление](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) методов  <br/> |
 |[FormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.aspx) <br/> |[Свойство Manifest](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.Manifest.aspx)  <br/> |
 |[MergeEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.aspx) <br/> |[Свойство Xml](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Xml.aspx)  <br/> |
-|[SharepointListQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharepointListQueryConnection.aspx) <br/> |[Метод Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharepointListQueryConnection.Execute.aspx)  <br/> |
+|[SharepointListQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharepointListQueryConnection.aspx) <br/> |[Метод выполнения](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharepointListQueryConnection.Execute.aspx)  <br/> |
 |[Подпись](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |[Свойство SignatureBlockXmlNode](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.SignatureBlockXmlNode.aspx)  <br/> |
 |[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) <br/> |[Свойство SignatureContainer](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.SignatureContainer.aspx)  <br/> |
 |[View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) <br/> |[Методы GetContextNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx)  <br/> |
 ||[Методы SelectNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx)  <br/> |
 ||[Методы SelectText](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx)  <br/> |
-|[WebServiceConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.aspx) <br/> |[Метод Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.Execute.aspx)  <br/> |
+|[WebServiceConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.aspx) <br/> |[Метод выполнения](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.Execute.aspx)  <br/> |
 ||[Метод GenerateDataSetDiffGram](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.GenerateDataSetDiffGram.aspx)  <br/> |
 |[XmlEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEventArgs.aspx) <br/> |[Свойство OldParent](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEventArgs.OldParent.aspx)  <br/> |
-||[Свойство](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEventArgs.Site.aspx) site  <br/> |
-|[XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) <br/> |Свойство [MainDataSource,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx) которое возвращает объект **DataSource,** который, в свою очередь, предоставляет метод **CreateNavigator** для создания объекта **XPathNavigator,** расположенного в корне основного XML-документа формы (основного источника данных).  <br/> |
+||[Свойство site](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEventArgs.Site.aspx)  <br/> |
+|[XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) <br/> |[Свойство MainDataSource,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx) которое возвращает объект **DataSource,** который, в свою очередь, предоставляет метод **CreateNavigator** для создания объекта **XPathNavigator,** расположенного в корне основного XML-документа формы (основного источника данных).  <br/> |
 ||[Метод MergeForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MergeForm.aspx)  <br/> |
 |[XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.aspx) <br/> |[Метод NewFromFormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx)  <br/> |
 |[XmlValidatingEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlValidatingEventArgs.aspx) <br/> |[Методы ReportError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlValidatingEventArgs.ReportError.aspx)  <br/> |
@@ -276,15 +276,15 @@ MessageBox.Show("External data source XML: " &amp; _
 
 В следующем примере используются элементы обоих классов **XPathNavigator** и **XPathNodeIterator** для работы с данными форм в следующей последовательности: 
   
-1. Метод **CreateNavigator** класса **DataSource** используется для создания объектной переменной **XPathNavigator** с именем repeatingTableRow1, которая по умолчанию находится в корне основного XML-документа формы (основного источника данных).
+1. Метод **CreateNavigator** класса **DataSource** используется для создания переменной объекта **XPathNavigator** с именем repeatingTableRow1, которая по умолчанию находится в корне основного XML-документа формы (основного источника данных).
     
-2. Метод **SelectSingleNode** класса **XPathNavigator** используется для перемещения положения объекта **XPathNavigator** в первую строку управления "Повторяютая таблица", привязанного к группе 2 в источнике данных.  
+2. Метод **SelectSingleNode** класса **XPathNavigator** используется для перемещения положения объекта **XPathNavigator** в первую строку управления повторяемой таблицой, связанной с group2 в источнике данных.  
     
 3. Объектная переменная repeatingTableRow1 передается методу **SelectNodes** класса **View** для выбора узлов в этой строке. 
     
-4. Объявляется объектная переменная **XPathNodeIterator** с именем selectedNodes, а метод **GetSelectedNodes** класса **View** заполняет объект **XPathNodeIterator** выбранными узлами. 
+4. Объявлена переменная объекта **XPathNodeIterator** с именем **selectedNodes, а метод GetSelectedNodes** класса **View** используется для заполнения объекта **XPathNodeIterator** выбранными узлами. 
     
-5. Свойство **Count** класса **XPathNodeIterator** используется для отображения количества узлов, содержащихся в объектной переменной selectedNodes. 
+5. Свойство **Count** класса **XPathNodeIterator** используется для отображения количества узлов, содержащихся в переменной объекта selectedNodes. 
     
 6. Цикл For/Each используется для прохода по узлам объектной переменной selectedNodes и отображения сведений о каждом узле с помощью свойств **Name**, **InnerXml** и **Value** класса **XPathNavigator**. 
     
@@ -330,6 +330,6 @@ For Each selectedNode In selectedNodes
 Next
 ```
 
-Дополнительные сведения о работе с XML-данными из шаблонов форм InfoPath см. в работе с XML-данными с помощью класса XPathNavigator в шаблонах форм InfoPath 2007.
+Дополнительные сведения о работе с XML-данными из шаблонов форм InfoPath см. в рублях Работа с XML Data Using the XPathNavigator Class in InfoPath 2007 Form Templates.
   
 

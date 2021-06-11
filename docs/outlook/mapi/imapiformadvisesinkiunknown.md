@@ -23,31 +23,31 @@ ms.locfileid: "32286606"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Позволяет серверам форм получать уведомления от посетителей форм. 
+Позволяет серверам форм получать уведомления от зрителей форм. 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapiform.h  <br/> |
-|Выставим:  <br/> |Объекты-токонвители с консультацией по формам  <br/> |
+|Подвергается:  <br/> |Form advise sink objects  <br/> |
 |Реализовано в:  <br/> |Серверы форм  <br/> |
 |Вызывающая сторона:  <br/> |Просмотр форм  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIFormAdviseSink  <br/> |
 |Тип указателя:  <br/> |LPMAPIFORMADVISESINK  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[OnChange](imapiformadvisesink-onchange.md) <br/> |Указывает, что в состоянии просмотра формы произошло изменение.  <br/> |
-|[OnActivateNext](imapiformadvisesink-onactivatenext.md) <br/> |Указывает, может ли форма обрабатывать класс сообщения следующего сообщения для отображения.  <br/> |
+|[OnChange](imapiformadvisesink-onchange.md) <br/> |Указывает, что в состоянии просмотра формы произошли изменения.  <br/> |
+|[OnActivateNext](imapiformadvisesink-onactivatenext.md) <br/> |Указывает, может ли форма обрабатывать класс сообщений следующего отображаемого сообщения.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Серверы форм используют объект-замещений формы для реализации **IMAPIFormAdviseSink** вместо того, чтобы включать его в объект формы. Таким образом, просмотр форм должен ожидать, что неудачный вызов метода [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) формы получит указатель на этот интерфейс. 
+Серверы форм используют объект раковины формы для реализации **объекта IMAPIFormAdviseSink** вместо того, чтобы включать его в объект формы. Поэтому для просмотра форм следует ожидать неудаваемого вызова метода [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) для получения указателя на этот интерфейс. 
   
-Серверы форм звонят [методу IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) для просмотра уведомлений. Указатель на реализацию **IMAPIFormAdviseSink** включен в качестве параметра. 
+Серверы форм звонят по методу [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) для регистрации уведомлений. В качестве параметра включен указатель на реализацию **IMAPIFormAdviseSink.** 
   
 ## <a name="see-also"></a>См. также
 

@@ -23,7 +23,7 @@ ms.locfileid: "33409029"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Возвращает текущее сообщение.
   
@@ -33,11 +33,11 @@ HRESULT GetMessage(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ppmsg_
   
-> [out] Указатель на указатель на возвращенный интерфейс сообщения.
+> [вышел] Указатель на указатель на возвращенный интерфейс для сообщения.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -47,15 +47,15 @@ S_OK
     
 S_FALSE 
   
-> В настоящее время для вызываемой формы сообщение не существует.
+> В настоящее время для формы вызова не существует сообщения.
     
 ## <a name="remarks"></a>Примечания
 
-Формы вызвать **метод IMAPIMessageSite::GetMessage,** чтобы получить интерфейс для текущего сообщения. Текущее сообщение это то же сообщение, что и ранее переданное в методе [IPersistMessage::InitNew,](ipersistmessage-initnew.md) [IPersistMessage::Load](ipersistmessage-load.md)или [IPersistMessage::SaveCompleted.](ipersistmessage-savecompleted.md) 
+Формы называют **метод IMAPIMessageSite::GetMessage** для получения интерфейса сообщения для текущего сообщения. Текущее сообщение — это то же сообщение, которое ранее было передано в методе [IPersistMessage::InitNew,](ipersistmessage-initnew.md) [IPersistMessage::Load](ipersistmessage-load.md)или [IPersistMessage::SaveCompleted.](ipersistmessage-savecompleted.md) 
   
- **GetMessage** возвращает S_FALSE, если сообщение в настоящее время не существует. Это состояние может возникать после вызова метода [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) или до следующего вызова **IPersistMessage::Load** или **IPersistMessage::SaveCompleted.** 
+ **GetMessage** возвращает S_FALSE, если сообщение в настоящее время не существует. Это состояние может возникать после звонков в [метод IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) или до следующего вызова **в IPersistMessage::Load** или **IPersistMessage::SaveCompleted.** 
   
-Список интерфейсов, связанных с серверами форм, см. в списке [интерфейсов форм MAPI.](mapi-form-interfaces.md)
+Список интерфейсов, связанных с серверами форм, см. в [перечне интерфейсов форм MAPI.](mapi-form-interfaces.md)
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -63,7 +63,7 @@ S_FALSE
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |MFCMAPI использует метод **IMAPIMessageSite::GetMessage** для возврата кэшного указателя сообщения, если он доступен.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |MFCMAPI использует **метод IMAPIMessageSite::GetMessage** для возврата кэшного указателя сообщения, если он доступен.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

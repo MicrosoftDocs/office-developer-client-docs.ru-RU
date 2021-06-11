@@ -23,7 +23,7 @@ ms.locfileid: "33408189"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит маркер безопасности ASN.1 для сообщения.
   
@@ -32,15 +32,15 @@ ms.locfileid: "33408189"
 |Связанные свойства:  <br/> |PR_MESSAGE_TOKEN  <br/> |
 |Идентификатор:  <br/> |0x0C03  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Свойства безопасной системы обмена сообщениями  <br/> |
+|Область:  <br/> |Безопасные свойства обмена сообщениями  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство передает информацию, связанную с безопасностью, от источника до получателя. Вместе со **свойством PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel)](pidtagmessagesecuritylabel-canonical-property.md)она гарантирует связь метки с содержимым сообщения. Вместе со свойством **PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck)](pidtagcontentintegritycheck-canonical-property.md)оно проверяет, не изменилось ли содержимое сообщения.
+Это свойство передает защищенные сведения, связанные с безопасностью, от его источника до получателя. В сочетании с **свойством PR_MESSAGE_SECURITY_LABEL** [(PidTagMessageSecurityLabel)](pidtagmessagesecuritylabel-canonical-property.md)он гарантирует связь метки с содержимым сообщения. В сочетании с **свойством PR_CONTENT_INTEGRITY_CHECK** [(PidTagContentIntegrityCheck)](pidtagcontentintegritycheck-canonical-property.md)оно проверяет, что содержимое сообщения остается неизменным.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

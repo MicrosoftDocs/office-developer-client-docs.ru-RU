@@ -1,5 +1,5 @@
 ---
-title: FooterLeft_Type complexType (Visio XML)
+title: FooterLeft_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542970"
 ---
-# <a name="footerleft_type-complextype-visio-xml"></a>FooterLeft_Type complexType (Visio XML)
+# <a name="footerleft_type-complextype-visio-xml"></a>FooterLeft_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 

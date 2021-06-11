@@ -19,22 +19,22 @@ ms.locfileid: "33408413"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Объект состояния поставщика транспорта можно использовать для изменения некоторых свойств поставщика. Диапазон свойств, которые можно изменить, зависит от свойств, включенных в таблицу свойств поставщика, и их определения. 
+Вы можете использовать объект состояния поставщика транспорта, чтобы изменить некоторые свойства поставщика. Диапазон свойств, которые можно изменить, зависит от свойств, включенных в лист свойств поставщика, и от определения этих свойств. 
   
  **Перенастройка активного поставщика транспорта**
   
-1. Вызов [IMAPISession::GetStatusTable для](imapisession-getstatustable.md) доступа к таблице состояния. 
+1. Вызов [IMAPISession::GetStatusTable,](imapisession-getstatustable.md) чтобы получить доступ к таблице состояния. 
     
-2. Найдите строку для перенастройки поставщика транспорта, создав ограничение **свойства,** которое соответствует PR_DISPLAY_NAME ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)с именем целевого поставщика. 
+2. Найдите строку для перенастройки поставщика транспорта, **создав** ограничение свойств, которое соответствует PR_DISPLAY_NAME [(PidTagDisplayName)](pidtagdisplayname-canonical-property.md)с именем целевого поставщика. 
     
-3. Вызовите [IMAPITable::FindRow,](imapitable-findrow.md) чтобы получить соответствующую строку. 
+3. Вызов [IMAPITable::FindRow,](imapitable-findrow.md) чтобы получить соответствующую строку. 
     
-4. Убедитесь, что STATUS_SETTINGS_DIALOG и STATUS_VALIDATE_STATE установлены в свойстве PR_RESOURCE_METHODS поставщика транспорта **(** [PidTagResourceMethods).](pidtagresourcemethods-canonical-property.md) Если STATUS_SETTINGS_DIALOG не заданная, поставщик транспорта не отображает таблицу свойств конфигурации. Если STATUS_VALIDATE_STATE не установлен, динамическую перенастройку выполнять нельзя.
+4. Убедитесь, что STATUS_SETTINGS_DIALOG и STATUS_VALIDATE_STATE в свойстве целевого поставщика транспорта **PR_RESOURCE_METHODS** [(PidTagResourceMethods).](pidtagresourcemethods-canonical-property.md) Если STATUS_SETTINGS_DIALOG не установлен, поставщик транспорта не отображает лист свойства конфигурации. Если STATUS_VALIDATE_STATE не установлено, динамическая перенастройка не выполняется.
     
-5. Если STATUS_SETTINGS_DIALOG, вызовите [IMAPIStatus::SettingsDialog,](imapistatus-settingsdialog.md) чтобы отобразить лист свойств поставщика транспорта и разрешить пользователю вносить изменения. 
+5. Если STATUS_SETTINGS_DIALOG установлено, позвоните [в IMAPIStatus::SettingsDialog,](imapistatus-settingsdialog.md) чтобы отобразить лист свойств поставщика транспорта и разрешить пользователю вносить изменения. 
     
-6. После завершения перенастройки пользователем вызовите [IMAPIStatus::ValidateState,](imapistatus-validatestate.md) если STATUS_VALIDATE_STATE настроен, передав CONFIG_CHANGED. 
+6. После завершения перенастройки пользователем позвоните [в IMAPIStatus::ValidateState,](imapistatus-validatestate.md) если STATUS_VALIDATE_STATE установлено, CONFIG_CHANGED. 
     
 

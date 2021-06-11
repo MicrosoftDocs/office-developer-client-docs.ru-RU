@@ -23,21 +23,21 @@ ms.locfileid: "32360559"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает параметр голосования, выбранный выбранным человеком.
+Указывает параметр голосования, выбранный респондентом.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidVerbResponse  <br/> |
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008524  <br/> |
+|Long ID (LID):  <br/> |0x00008524  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Общие сообщения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Обычно этому свойству задается одно из значений, которые находятся в свойстве **dispidVerbStream** [(PidLidVerbStream),](pidlidverbstream-canonical-property.md)по которому голосует замещенный ответ.
+Это свойство обычно задалось одному из делимитативных значений, содержащихся в свойстве **dispidVerbStream** [(PidLidVerbStream),](pidlidverbstream-canonical-property.md)на котором голосует респондент.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32360559"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определение набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определение набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
+> Указывает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

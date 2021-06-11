@@ -19,24 +19,24 @@ ms.locfileid: "33407237"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
  **Добавление новой службы сообщений в профиль и доступ к новой службе сообщений**
   
-Вызовите [IMsgServiceAdmin2::CreateMsgServiceEx.](imsgserviceadmin2-createmsgserviceex.md) **CreateMsgServiceEx выполняет** следующие задачи: 
+Вызов [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md). **CreateMsgServiceEx выполняет** следующие задачи: 
   
-1. Копирует все необходимые сведения для службы сообщений, которая находится в MAPISVC. INF-файл, создав раздел профиля для каждого раздела поставщика.
+1. Копирует всю соответствующую информацию для службы сообщений, которая находится в MAPISVC. Файл INF, создав раздел профилей для каждого раздела поставщика.
     
-2. Вызывает функцию точки входа службы сообщений **MSGSERVICEENTRY,** для параметра  _ulContext_ установлено MSG_SERVICE_CREATE. 
+2. Вызывает функцию точки входа службы сообщений **MSGSERVICEENTRY** с параметром  _ulContext,_ заданным MSG_SERVICE_CREATE. 
     
-3. Задает и извлекает свойство PR_SERVICE_UID **службы** сообщений ([PidTagServiceUid).](pidtagserviceuid-canonical-property.md)
+3. Задает и извлекает свойство PR_SERVICE_UID **службы** сообщений [(PidTagServiceUid).](pidtagserviceuid-canonical-property.md)
     
  **Доступ к новой службе сообщений**
   
-1. Вызовите [IMsgServiceAdmin::GetMsgServiceTable,](imsgserviceadmin-getmsgservicetable.md) чтобы получить таблицу службы сообщений. 
+1. Позвоните [в службу IMsgServiceAdmin::GetMsgServiceTable,](imsgserviceadmin-getmsgservicetable.md) чтобы получить таблицу службы сообщений. 
     
-2. Вызовите метод [IMAPITable::Advise](imapitable-advise.md) таблицы службы сообщений, чтобы зарегистрировать уведомления таблицы. 
+2. Вызов метода [IMAPITable::Advise](imapitable-advise.md) таблицы службы сообщений для регистрации уведомлений таблицы. 
     
-3. Когда MAPI отправляет TABLE_ROW_ADDED уведомления, найдите идентификатор записи добавленной службы сообщений в структуре [SRow,](srow.md) включенной [в TABLE_NOTIFICATION](table_notification.md) структуре. 
+3. При отправке уведомления TABLE_ROW_ADDED MAPI найдите идентификатор записи недавно добавленной службы сообщений в структуре [SRow,](srow.md) [включенной в структуру TABLE_NOTIFICATION.](table_notification.md) 
     
 

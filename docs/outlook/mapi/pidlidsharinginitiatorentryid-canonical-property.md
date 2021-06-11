@@ -23,7 +23,7 @@ ms.locfileid: "32309529"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Обозначается как свойство общего сообщения.
   
@@ -31,13 +31,13 @@ ms.locfileid: "32309529"
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidSharingInitiatorEid  <br/> |
 |Набор свойств:  <br/> |PSETID_Sharing  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008A09  <br/> |
+|Long ID (LID):  <br/> |0x00008A09  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Общий доступ  <br/> |
+|Область:  <br/> |Доступ  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Этому свойству должно быть задано значение свойства **PR_ENTRYID** ([PidTagEntryId)](pidtagentryid-canonical-property.md)для адресной книги во время входа пользователя (см. [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)). 
+Это свойство должно быть задано значению **свойства PR_ENTRYID** [(PidTagEntryId)](pidtagentryid-canonical-property.md)для адресной книги зарегистрированного пользователя (см. [[MS-OXOABK]).](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32309529"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Папки почтовых ящиков разделяются между клиентами.
+> Делит папки почтовых ящиков между клиентами.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

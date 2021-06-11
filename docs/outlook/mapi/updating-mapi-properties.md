@@ -17,19 +17,19 @@ ms.locfileid: "33407524"
 ---
 # <a name="updating-mapi-properties"></a>Обновление свойств MAPI
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Клиенты и поставщики услуг могут обновлять значение свойства, вызывая:
+Клиенты и поставщики услуг могут обновить значение свойства, позвонив:
   
-- Метод [IMAPIProp::SetProps](imapiprop-setprops.md) объекта для обновления значения одного или более свойств объекта. 
+- Метод [IMAPIProp::SetProps](imapiprop-setprops.md) для обновления значения одного или более свойств объекта. 
     
-- Функция [HrSetOneProp](hrsetoneprop.md) для одновременного обновления только одного свойства. Используйте **HrSetOneProp только** в том случае, если целевой объект является локальным; Эта функция может привести к снижению производительности при работе с удаленными объектами. 
+- Функция [HrSetOneProp](hrsetoneprop.md) обновляет только одно свойство одновременно. Используйте **HrSetOneProp только** в том случае, если целевой объект является локальным; эта функция может привести к снижению производительности при работе с удаленными объектами. 
     
-В следующей процедуре показано, как использовать **SetProps** для обновления класса сообщения или PR_MESSAGE_CLASS_A ([PidTagMessageClass)](pidtagmessageclass-canonical-property.md)сообщения. 
+Следующая процедура иллюстрирует использование **SetProps** для обновления класса сообщения или свойства [PR_MESSAGE_CLASS_A (PidTagMessageClass)](pidtagmessageclass-canonical-property.md)сообщения. 
   
-### <a name="to-update-the-message-class-of-a-message"></a>Обновление класса сообщения 
+### <a name="to-update-the-message-class-of-a-message"></a>Обновление класса сообщений сообщения 
   
-1. Выделите [структуру SPropValue](spropvalue.md) для класса сообщений и установите соответствующие члены. 
+1. [Разместим структуру SPropValue](spropvalue.md) для класса сообщений и установите ее члены в соответствующих настройках. 
     
   ```cpp
     SPropValue spvMsgClass;
@@ -38,7 +38,7 @@ ms.locfileid: "33407524"
     
   ```
 
-2. Вызовите метод **IMAPIProp::SetProps** сообщения, чтобы установить новый класс сообщения. 
+2. Чтобы установить новый класс сообщений, позвоните по методу **IMAPIProp::SetProps.** 
     
   ```cpp
     hRes = lpMessage->SetProps(1, (LPSPropValue) &spvMsgClass, NULL);

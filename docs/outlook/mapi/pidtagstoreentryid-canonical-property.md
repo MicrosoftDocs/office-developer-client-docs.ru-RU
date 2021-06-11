@@ -23,9 +23,9 @@ ms.locfileid: "32278752"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит уникальный идентификатор записи в хранилище сообщений, в котором находится объект.
+Содержит уникальный идентификатор входа в хранилище сообщений, в котором находится объект.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ ms.locfileid: "32278752"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство используется для открытия хранилищ сообщений с помощью метода [IMAPISession::OpenMsgStore.](imapisession-openmsgstore.md) Он также используется для открытия любого объекта, который принадлежит хранилищем сообщений. 
+Это свойство используется для открытия магазина сообщений с помощью [метода IMAPISession::OpenMsgStore.](imapisession-openmsgstore.md) Он также используется для открытия любого объекта, который принадлежит магазину сообщений. 
   
-Для хранения сообщений это свойство идентично свойству PR_ENTRYID **(** [PidTagEntryId).](pidtagentryid-canonical-property.md) Клиентские приложения могут сравнить два свойства с помощью метода [IMAPISession::CompareEntryIDs.](imapisession-compareentryids.md) 
+Для магазина сообщений это свойство идентично свойству **PR_ENTRYID** [(PidTagEntryId).](pidtagentryid-canonical-property.md) Клиентские приложения могут сравнить эти два свойства с помощью [метода IMAPISession::CompareEntryIDs.](imapisession-compareentryids.md) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -54,17 +54,17 @@ ms.locfileid: "32278752"
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Преобразуется между IETF RFC2445, RFC2446 и RFC2447, а также объектами встреч и собраний.
+> Преобразования между объектами IETF RFC2445, RFC2446 и RFC2447, а также объектами назначения и собраний.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Указывает свойства и операции, связанные с помезданием.
+> Указывает свойства и операции, связанные с маркировкой.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Папки почтовых ящиков разделяются между клиентами.
+> Делит папки почтовых ящиков между клиентами.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -84,5 +84,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "34542998"
 |**Тип элемента** <br/> |[ShowGrid_Type](showgrid_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |windows.xml  <br/> |
+|**Части документов** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 

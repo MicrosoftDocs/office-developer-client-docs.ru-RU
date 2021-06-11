@@ -23,7 +23,7 @@ ms.locfileid: "32283130"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит встроенный объект таблицы содержимого, который предоставляет сведения о контейнере.
   
@@ -36,19 +36,19 @@ ms.locfileid: "32283130"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство можно исключить в операциях [IMAPIProp::CopyTo](imapiprop-copyto.md) или включить в операции [IMAPIProp::CopyProps.](imapiprop-copyprops.md) Свойство типа PT_OBJECT не может быть успешно извлечено методом [IMAPIProp::GetProps;](imapiprop-getprops.md) Доступ к его содержимому должен получить метод [IMAPIProp::OpenProperty,](imapiprop-openproperty.md) запрашивающий идентификатор IID_IMAPITable интерфейса. Поставщики служб должны сообщить о нем методу [IMAPIProp::GetPropList,](imapiprop-getproplist.md) если он установлен, но при желании может сообщить о нем или нет, если он не за установлен. 
+Это свойство можно исключить в [операциях IMAPIProp::CopyTo](imapiprop-copyto.md) или включить в [операции IMAPIProp::CopyProps.](imapiprop-copyprops.md) Как свойство типа PT_OBJECT, его невозможно успешно получить [методом IMAPIProp::GetProps;](imapiprop-getprops.md) Его содержимое должно быть доступны [методом IMAPIProp::OpenProperty,](imapiprop-openproperty.md) запрашивая идентификатор IID_IMAPITable интерфейса. Поставщики услуг должны сообщить об этом [методу IMAPIProp::GetPropList,](imapiprop-getproplist.md) если он за установлен, но может сообщить об этом или нет, если он не установлен. 
   
-Чтобы получить содержимое таблицы, клиентские приложения должны вызвать [метод IMAPIContainer::GetContentsTable.](imapicontainer-getcontentstable.md) For more information, see [���������� �������](contents-tables.md). 
+Чтобы получить содержимое таблицы, клиентская заявка должна вызвать [метод IMAPIContainer::GetContentsTable.](imapicontainer-getcontentstable.md) For more information, see [���������� �������](contents-tables.md). 
   
-Это **свойство, PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) и **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents)](pidtagfolderassociatedcontents-canonical-property.md)похожи в использовании. Доступ к таблицам предоставляется несколькими свойствами MAPI: 
+Это свойство **PR_CONTAINER_HIERARCHY** [(PidTagContainerHierarchy)](pidtagcontainerhierarchy-canonical-property.md)и **PR_FOLDER_ASSOCIATED_CONTENTS** [(PidTagFolderAssociatedContents)](pidtagfolderassociatedcontents-canonical-property.md)похожи по использованию. Несколько свойств MAPI предоставляют доступ к таблицам: 
   
 |**Property**|**Table**|
 |:-----|:-----|
-|PidTagContainerContents  <br/> |Таблица Contents  <br/> |
-|**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy)](pidtagcontainerhierarchy-canonical-property.md)  <br/> |Таблица Hierarchy  <br/> |
-|**PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents)](pidtagfolderassociatedcontents-canonical-property.md)  <br/> |Связанная таблица содержимого  <br/> |
-|**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments)](pidtagmessageattachments-canonical-property.md)  <br/> |Таблица Attachment  <br/> |
-|**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients)](pidtagmessagerecipients-canonical-property.md)  <br/> |Таблица Recipient  <br/> |
+|PidTagContainerContents  <br/> |Таблица контента  <br/> |
+|**PR_CONTAINER_HIERARCHY** [(PidTagContainerHierarchy)](pidtagcontainerhierarchy-canonical-property.md)  <br/> |Таблица иерархии  <br/> |
+|**PR_FOLDER_ASSOCIATED_CONTENTS** [(PidTagFolderAssociatedContents)](pidtagfolderassociatedcontents-canonical-property.md)  <br/> |Связанная таблица контента  <br/> |
+|**PR_MESSAGE_ATTACHMENTS** [(PidTagMessageAttachments)](pidtagmessageattachments-canonical-property.md)  <br/> |Таблица вложений  <br/> |
+|**PR_MESSAGE_RECIPIENTS** [(PidTagMessageRecipients)](pidtagmessagerecipients-canonical-property.md)  <br/> |Таблица получателей  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -62,7 +62,7 @@ ms.locfileid: "32283130"
   
 > Указывает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -82,5 +82,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

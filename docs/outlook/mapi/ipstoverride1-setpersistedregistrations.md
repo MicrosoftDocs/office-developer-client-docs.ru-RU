@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f4b62db-a759-41a2-9bea-29fc04b2962b
-description: 'Last modified: November 08, 2011'
+description: 'Последнее изменение: 08 ноября 2011 г.'
 ms.openlocfilehash: 6583765d4df7c7bfae9e7a62606beaa857874954
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -21,9 +21,9 @@ ms.locfileid: "33408350"
 ---
 # <a name="ipstoverride1setpersistedregistrations"></a>IPSTOVERRIDE1::SetPersistedRegistrations
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Регистрирует файлы личных папок (PST) для автоматической разблокировки, избегая дальнейших вызовов hrTrustedPSTOverrideHandlerCallback.
+Регистрирует файлы личных папок (PST) для автоматической разблокировки, избегая дополнительных вызовов в HrTrustedPSTOverrideHandlerCallback.
   
 ```cpp
 HRESULT SetPersistedRegistrations(
@@ -31,15 +31,15 @@ HRESULT SetPersistedRegistrations(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _pmval_
   
-> [in] Структура [SPropValue,](spropvalue.md) которая содержит указатель на путь к динамической библиотеке ссылок (DLL) для регистрации. Структура имеет следующие характеристики: 
+> [in] Структура [SPropValue,](spropvalue.md) содержающая указатель пути для регистрации библиотеки динамических ссылок (DLL). Структура имеет следующие характеристики: 
     
    - A ulPropTag of [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL).
     
-   - Свойство значения MVSzW, задаваемого для массива строк символов Юникода, осекаемого нулью. Дополнительные сведения [см. в разделе SWStringArray.](swstringarray.md) 
+   - Свойство значения MVszW, задаваемого массиву null-terminated строк символов Юникод. Дополнительные сведения см. в [разделе SWStringArray.](swstringarray.md) 
     
 > [!NOTE]
 > SPropValue хранится в свойстве MAPI во внутреннем диапазоне PST. Это свойство недоступно для обычных приложений MAPI. 
@@ -52,10 +52,10 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Сохраняемая регистрация может отрицательно сказаться на производительности приложений, таких как Outlook и windows Desktop Search, которые открывают PTS. Учитывайте влияние производительности при использовании или расширении использования сохраняемой регистрации.
+Сохраняемая регистрация может отрицательно повлиять на производительность приложений, таких как Outlook и Windows настольный поиск, которые открывают PSTs. Рассмотрите эффект производительности при использовании или расширении использования сохраняющихся регистраций.
   
 > [!IMPORTANT]
-> Этот метод реализован только для Юникод. Кроме того, он будет предварительно неудачным, если ни один из путей в массиве не имеет расширения DLL-файла. 
+> Этот метод реализуется только для Unicode. Кроме того, он будет предосудительно сбой, если любой из путей в массиве не имеет расширения имени файла .dll. 
   
 ## <a name="see-also"></a>См. также
 

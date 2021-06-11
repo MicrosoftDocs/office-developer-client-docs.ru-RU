@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4aaf7417-0a03-42a4-a282-599327ec5381
-description: Этот метод больше не используется в Outlook Social Connector 2013.
+description: Этот метод был обесценлен в Outlook Social Connector 2013.
 ms.openlocfilehash: c02cf0e8a6d2da3f9fb7704c92e10e0409042393
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "33406894"
 ---
 # <a name="isocialprofilegetactivitiesoffriendsandcolleagues"></a>ISocialProfile::GetActivitiesOfFriendsAndColleagues
 
-Этот метод больше не используется в Outlook Social Connector 2013.
+Этот метод был обесценлен в Outlook Social Connector 2013.
   
 ```cpp
 HRESULT _stdcall GetActivitiesOfFriendsAndColleagues([in] DATE startTime, [out, retval] BSTR* activitiesCollection);
@@ -25,9 +25,9 @@ HRESULT _stdcall GetActivitiesOfFriendsAndColleagues([in] DATE startTime, [out, 
 
 ## <a name="remarks"></a>Примечания
 
-Начиная с Outlook Social Connector 2013, OSC поддерживает только синхронизацию действий по требованию, а не кэширование или гибридную синхронизацию действий. OSC игнорирует параметр **cacheActivities** в XML возможностей и больше не вызывает этот метод. Для поддержки динамического искомого действия реализуем метод [ISocialSession2::GetActivitiesEx.](isocialsession2-getactivitiesex.md) Установите **для getActivities** и **dynamicActivitiesLookupEx** **true,** что позволит OSC вызвать **ISocialSession2::GetActivitiesEx.** 
+Начиная с Outlook Social Connector 2013, OSC поддерживает только синхронизацию действий по запросу, а не кэширование или гибридную синхронизацию действий. OsC игнорирует параметр **cacheActivities** в XML-возможностях и больше не вызывает этот метод. Чтобы поддерживать динамические действия, реализуем [метод ISocialSession2::GetActivitiesEx.](isocialsession2-getactivitiesex.md) Установите **getActivities** и **dynamicActivitiesLookupEx** как истинные, что будет побуждать OSC вызывать **ISocialSession2::GetActivitiesEx** вместо этого. 
   
-Дополнительные сведения о том, как OSC получает действия друзей, см. в [подсети "Синхронизация друзей и действий".](synchronizing-friends-and-activities.md) 
+Дополнительные сведения о том, как OSC получает действия друзей, см. в [интернете.](synchronizing-friends-and-activities.md) 
   
 ## <a name="see-also"></a>См. также
 

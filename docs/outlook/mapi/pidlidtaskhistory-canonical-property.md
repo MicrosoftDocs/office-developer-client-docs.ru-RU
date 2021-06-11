@@ -23,29 +23,29 @@ ms.locfileid: "32303012"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает тип последнего изменения задачи.
+Указывает тип изменений, которые в последний раз были сделаны в задачу.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidTaskHistory  <br/> |
 |Набор свойств:  <br/> |PSETID_Task  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x0000811A  <br/> |
+|Long ID (LID):  <br/> |0x0000811A  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Task  <br/> |
+|Область:  <br/> |Задача  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если значение этого свойства установлено, свойство **dispidTaskLastUpdate** [(PidLidTaskLastUpdate)](pidlidtasklastupdate-canonical-property.md)также должно быть установлено в текущее время. В следующей таблице показаны значения свойств **dispidTaskHistory,** перечисленные в порядке уменьшения приоритета. 
+Когда значение этого свойства заданной, свойство **dispidTaskLastUpdate** [(PidLidTaskLastUpdate)](pidlidtasklastupdate-canonical-property.md)также должно быть задавано текущему времени. В следующей таблице показаны **значения свойств dispidTaskHistory,** перечисленные в порядке уменьшения приоритета. 
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-|0x00000004  <br/> |Свойство **dispidTaskDueDate** ([PidLidTaskDueDate)](pidlidtaskduedate-canonical-property.md)изменено.  <br/> |
+|0x00000004  <br/> |Изменено **свойство dispidTaskDueDate** [(PidLidTaskDueDate).](pidlidtaskduedate-canonical-property.md)  <br/> |
 |0x00000003  <br/> |Другое свойство было изменено.  <br/> |
-|0x00000001  <br/> |Эту задачу принял и его назначение.  <br/> |
-|0x00000002  <br/> |Эта задача отклонена.  <br/> |
-|0x00000005  <br/> |Задача назначена назначенной задаче.  <br/> |
+|0x00000001  <br/> |Назначение задачи согласилось с этой задачей.  <br/> |
+|0x00000002  <br/> |Назначение задачи отклоняет эту задачу.  <br/> |
+|0x00000005  <br/> |Задача была назначена назначено назначить задачу.  <br/> |
 |0x00000000  <br/> |Изменения не были внесены.  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
@@ -54,13 +54,13 @@ ms.locfileid: "32303012"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Определяет несколько объектов, которые моделируют электронный эквивалент задач, назначений задач и обновлений задач.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -76,5 +76,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

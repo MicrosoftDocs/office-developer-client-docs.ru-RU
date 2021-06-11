@@ -21,13 +21,13 @@ ms.locfileid: "33408798"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Следующие записи в алфавитном порядке содержат документацию по типам данных, используемым в методах, функциях и структурах MAPI. 
   
 ||
 |:-----|
-|[Закладка](bookmark.md) <br/> |
+|[BOOKMARK](bookmark.md) <br/> |
 |[DNHIER](dnhier.md) <br/> |
 |[DNTBL](dntbl.md) <br/> |
 |[DNTBLE](dntble.md) <br/> |

@@ -23,9 +23,9 @@ ms.locfileid: "32279711"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит дату и время последнего изменения объекта или подпроекта. 
+Содержит дату и время последнего изменения объекта или субобпроекта. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "32279711"
    
 ## <a name="remarks"></a>Примечания
 
-Изначально этому свойству задается то же **значение, что** и для свойства PR_CREATION_TIME ([PidTagCreationTime).](pidtagcreationtime-canonical-property.md) Вложенные вложения могут обновлять его по мере необходимости, копируя время последнего изменения, поддерживаемые файловой системой. Клиентские приложения могут установить это свойство до первого вызова метода [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) С этого времени поставщик должен обновлять **PR_LAST_MODIFICATION_TIME** во время каждого вызова **IMAPIProp::SaveChanges.** 
+Это свойство изначально задалось для того же значения, что **и PR_CREATION_TIME** [(PidTagCreationTime).](pidtagcreationtime-canonical-property.md) Подпроекты вложений могут обновлять его по мере необходимости, копируя последнее время изменения, поддерживаемые родной файловой системой. Клиентские приложения могут установить это свойство до первого вызова метода [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) С этого времени поставщик должен обновлять **PR_LAST_MODIFICATION_TIME** во время каждого вызова **IMAPIProp::SaveChanges.** 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -54,7 +54,7 @@ ms.locfileid: "32279711"
   
 > Указывает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -74,5 +74,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

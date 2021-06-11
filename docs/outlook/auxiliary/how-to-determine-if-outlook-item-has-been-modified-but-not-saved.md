@@ -1,5 +1,5 @@
 ---
-title: Определение того, был ли элемент Outlook изменен, но не сохранен (вспомогательная справка по Outlook)
+title: Определите, Outlook элемент был изменен, но не сохранен (Outlook вспомогательной ссылки)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/02/2020
 ms.locfileid: "43102949"
 ---
-# <a name="determine-if-an-outlook-item-has-been-modified-but-not-saved-outlook-auxiliary-reference"></a>Определение того, был ли элемент Outlook изменен, но не сохранен (вспомогательная справка по Outlook)
+# <a name="determine-if-an-outlook-item-has-been-modified-but-not-saved-outlook-auxiliary-reference"></a>Определите, Outlook элемент был изменен, но не сохранен (Outlook вспомогательной ссылки)
 
 This topic shows how to use the **dispidFDirty** dispatch ID to invoke the corresponding property on an Outlook item, to see whether the item has been modified and has not been saved. 
   
-Given an item object, you can use the [IUnknown::QueryInterface](https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) method to obtain an [IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) interface pointer. Функция в разделе принимает указатель `FIsItemDirty` **IDispatch,**  _pdisp_ в качестве входного параметра.  `FIsItemDirty` calls the [IDispatch::Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) method, specifying **dispidFDirty** as the argument for the  _dispIdMember_ parameter, and the flags  `DISPATCH_METHOD | DISPATCH_PROPERTYGET` for  _wFlags_, to verify whether the item has been modified.  `FIsItemDirty` возвращает boolean значение (**True,** чтобы указать, что элемент имеет несъемные изменения; в противном случае **False**).
+Given an item object, you can use the [IUnknown::QueryInterface](https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) method to obtain an [IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) interface pointer. Функция в этой теме `FIsItemDirty` принимает **указатель IDispatch,**  _pdisp,_ в качестве параметра ввода.  `FIsItemDirty` calls the [IDispatch::Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) method, specifying **dispidFDirty** as the argument for the  _dispIdMember_ parameter, and the flags  `DISPATCH_METHOD | DISPATCH_PROPERTYGET` for  _wFlags_, to verify whether the item has been modified.  `FIsItemDirty`возвращает значение Boolean **(True,** чтобы указать, что элемент имеет неопроверганные изменения; в противном случае **false).**
   
 ```cpp
 bool FIsItemDirty(IDispatch *pdisp)

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b81bc46b-6eff-c11f-f583-85959a47c313
-description: Указывает, следует ли показывать руководства в окне рисования.
+description: Указывает, показаны ли руководства в окне рисования.
 ms.openlocfilehash: 9f747568c664f86dd88a68b9a6e6e2f6df723f67
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34542984"
 ---
 # <a name="showguides-element-window_type-complextype-visio-xml"></a>Элемент ShowGuides (Window_Type complexType) (Visio XML)
 
-Указывает, следует ли показывать руководства в окне рисования.
+Указывает, показаны ли руководства в окне рисования.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34542984"
 |**Тип элемента** <br/> |[ShowGuides_Type](showguides_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |windows.xml  <br/> |
+|**Части документов** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 

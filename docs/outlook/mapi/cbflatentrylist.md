@@ -23,9 +23,9 @@ ms.locfileid: "33408441"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет количество ветвей в существующей структуре [FLATENTRYLIST.](flatentrylist.md) 
+Вычисляет количество bytes в существующей структуре [FLATENTRYLIST.](flatentrylist.md) 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "33408441"
 CbFLATENTRYLIST(_lplist)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ _lplist_
   

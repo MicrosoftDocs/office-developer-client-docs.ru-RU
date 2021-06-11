@@ -23,28 +23,28 @@ ms.locfileid: "33406873"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Вносит изменения в службу сообщений в профиле.
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapiaux.h  <br/> |
-|Выставим:  <br/> |Объекты администрирования службы сообщений  <br/> |
+|Подвергается:  <br/> |Объекты администрирования службы сообщений  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMsgServiceAdmin2  <br/> |
 |Тип указателя:  <br/> |LPSERVICEADMIN2  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |Добавляет службу сообщений в текущий профиль и возвращает новый UID службы.  <br/> |
+|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |Добавляет службу сообщений в текущий профиль и возвращает недавно добавленный UID службы.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Интерфейс **IMsgServiceAdmin2** предоставляется тем же объектом, что и интерфейс [IMsgServiceAdmin,](imsgserviceadminiunknown.md) и был доступен с помощью реализации подсистемы MAPI в Outlook, начиная с Microsoft Outlook 2003. 
+Интерфейс **IMsgServiceAdmin2** подвергается воздействию тех же объектов, которые раскрывают интерфейс [IMsgServiceAdmin,](imsgserviceadminiunknown.md) и был доступен с Outlook реализации подсистемы MAPI с 2003 г. Outlook Microsoft. 
   
 ## <a name="see-also"></a>См. также
 

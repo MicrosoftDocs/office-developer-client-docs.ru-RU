@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm600
 localization_priority: Normal
 ms.assetid: cce34aba-caae-51ee-992e-92a490b68ea5
-description: Блокирует точки начала (BeginX, BeginY) размерной фигуры в определенном расположении.
+description: Блокирует точку начала (BeginX, BeginY) формы 1-D в определенное расположение.
 ms.openlocfilehash: 2e6c6284ff82a88677eb46bb13b8ab8afa986584
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,12 +18,12 @@ ms.locfileid: "33407762"
 ---
 # <a name="lockbegin-cell-protection-section"></a>LockBegin Cell (Protection Section)
 
-Блокирует точки начала (BeginX, BeginY) размерной фигуры в определенном расположении.
+Блокирует точку начала (BeginX, BeginY) формы 1-D в определенное расположение.
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Началая точка заблокирована.  <br/> |
-| FALSE  <br/> | Начало работы не заблокировано.  <br/> |
+| TRUE  <br/> | Точка начала заблокирована.  <br/> |
+| FALSE  <br/> | Начало не заблокировано.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 13661393-adf6-4870-86c4-303262317675
-description: Outlook Social Connector 2013 предоставляет центр связи для личных и профессиональных коммуникаций.
+description: Центр Outlook Social Connector 2013 предоставляет центр связи для личных и профессиональных коммуникаций.
 ms.openlocfilehash: e570fe69cbbe0e8d472e712fb3b8592c97fe43c0
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,37 +17,37 @@ ms.locfileid: "32359838"
 ---
 # <a name="outlook-social-connector-provider-reference"></a>Справочник по поставщикам Outlook Social Connector
 
-Outlook Social Connector 2013 предоставляет центр связи для личных и профессиональных коммуникаций. Outlook Social Connector (OSC) работает с SharePoint Server, SharePoint Workspace, клиентом Lync и всеми клиентские приложения Office, которые поддерживают сведения о присутствии и карточку контакта, поддерживают OSC. 
+Центр Outlook Social Connector 2013 предоставляет центр связи для личных и профессиональных коммуникаций. Социальный соединитатель Outlook (OSC) работает с SharePoint Server, SharePoint Workspace, клиентом Lync и всеми Office-приложениями, которые поддерживают сведения о присутствии и поддерживают контактную карту OSC. 
 
-В outlook, в частности, просто выбрав элемент Outlook, например сообщение электронной почты или запрос на собрание, и щелкнув отправитель или получателя в этом элементе, не выходя из Outlook, пользователи могут видеть в действиях области людей, фотографии и обновлениях состояния этого пользователя в избранных социальных сетях. Пользователи могут легко видеть все сообщения электронной почты, вложения и собрания Outlook, полученные от этого человека. В среде организации пользователи сайта SharePoint также могут видеть обновления документов области людей и другие действия этого пользователя на сайте SharePoint.
+В Outlook частности, просто выбрав элемент Outlook, например запрос электронной почты или собрания и щелкнув отправитель или получатель в этом элементе, не покидая Outlook, пользователи могут видеть в действиях, фотографиях и обновлениях состояния этого человека в своих любимых социальных сетях. Пользователи могут удобно видеть все электронные Outlook, вложения и собрания, полученные от этого человека. В организационной среде пользователи SharePoint сайта также могут видеть обновления документов в области людей и другие действия этого пользователя на SharePoint сайте.
   
-Социальная сеть может разработать поставщика для OSC для синхронизации и создания обновлений социальных сетей на вспомогательных серверах и в приложениях. Популярные социальные сети, такие как LinkedIn, Facebook и Windows Live, предлагают поставщиков для OSC. 
+Социальная сеть может разработать поставщика для osC для синхронизации и поверхностных обновлений социальных сетей в поддержке серверов и приложений. Популярные социальные сети, такие как LinkedIn, Facebook и Windows Live, предлагают поставщиков для OSC. 
   
-В справочнике по поставщикам Outlook Social Connector 2013 описывается разработка поставщика OSC с использованием возможности extensibility поставщика OSC. 
+В Outlook Social Connector 2013 Provider Reference описывается, как разработать поставщика OSC с помощью extensibility поставщика OSC. 
   
 Если у вас нет опыта разработки решений для Outlook, см. статью [Выбор API или технологии разработки решений для Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md), чтобы выбрать API-интерфейсы и технологии, наиболее соответствующие вашим потребностям. 
   
 ## <a name="in-this-section"></a>В этом разделе:
 
-- Начало работы с разработкой поставщика [Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md): обзор OSC, в том числе: как поставщик OSC может быть полезным, быстрые шаги для изучения разработки поставщика, технические требования, советы и новые возможности в этом выпуске.
+- Начало работы с разработкой [Outlook](getting-started-with-developing-an-outlook-social-connector-provider.md)поставщика социальных соединители: предоставляет обзор OSC, в том числе следующие: как поставщик OSC может быть полезным, быстрые шаги для обучения разработке поставщика, технические требования, лучшие практики для разработки поставщика, и что нового в этом выпуске.
     
-- [Примеры шаблонов OSC](osc-sample-templates.md): описание Visual Studio шаблонов для разработки поставщика.
+- [Шаблоны образцов OSC:](osc-sample-templates.md)описывает несколько Visual Studio шаблонов для разработки поставщика.
     
-- Типичные последовательности [вызовов OSC](osc-typical-calling-sequences.md): описывает несколько типичных последовательностей вызовов osC членов в интерфейсах extensibility поставщика OSC. Это позволит лучше понять, как реализовать эти интерфейсы.
+- [Типичные последовательности](osc-typical-calling-sequences.md)вызовов OSC: Описывает несколько типичных последовательностей вызовов, которые osC членов в интерфейсах extensibility поставщика OSC. Это позволит вам лучше понять, как реализовать эти интерфейсы.
     
-- Разработка поставщика с помощью схемы [OSC XML](developing-a-provider-with-the-osc-xml-schema.md): описывает, как интерфейсы extensibility поставщика OSC и схема OSC XML предназначены для поддержки поставщика OSC.
+- Разработка поставщика с помощью [схемы XML OSC](developing-a-provider-with-the-osc-xml-schema.md): Описывает, как интерфейсы extensibility поставщика OSC и схема XML OSC предназначены для поддержки поставщика OSC.
     
-- [Отладка поставщика:](debugging-a-provider.md)предлагает несколько способов отладки поставщика OSC.
+- [Отладка поставщика:](debugging-a-provider.md)предлагает несколько способов помочь отладке поставщика OSC.
     
-- [Развертывание поставщика](deploying-a-provider.md): описывает требования к регистрации для поставщика OSC и предоставляет контрольный список для установки поставщика.
+- [Развертывание поставщика:](deploying-a-provider.md)описывает требования к регистрации для поставщика OSC и предоставляет контрольный список для установки поставщика.
     
-- [Getting Ready to Release an OSC Provider](getting-ready-to-release-an-osc-provider.md): Suggests tests you can do before releaseing an OSC provider.
+- [Получение готовности к выпуску поставщика OSC:](getting-ready-to-release-an-osc-provider.md)предлагает тесты, которые можно сделать перед выпуском поставщика OSC.
     
-- [Outlook Social Connector Provider Reference](outlook-social-connector-provider-reference-0.md): Provides reference information for the OSC provider extensibility interfaces and OSC XML schema, and lists possible error codes.
+- [Outlook](outlook-social-connector-provider-reference-0.md)поставщика социальных соединителем: предоставляет справочные сведения для интерфейсов extensibility поставщика OSC и схемы XML OSC, а также перечисляет возможные коды ошибок.
     
 ## <a name="see-also"></a>См. также
 
-- [Уведомление об авторских правах для поставщика Outlook Social Connector 2013](outlook-social-connector-2013-provider-reference-copyright-notice.md) 
+- [Outlook Уведомление об авторском праве поставщика social Connector 2013](outlook-social-connector-2013-provider-reference-copyright-notice.md) 
 - [Условные обозначения в документах (Возможно, на английском языке)](https://msdn.microsoft.com/office/aa905365.aspx)   
 - [Специальные возможности в продуктах Майкрософт (Возможно, на английском языке)](https://www.microsoft.com/enable/products/default.aspx)  
 - [Уведомление о конфиденциальности (Майкрософт), доступное в Интернете](https://privacy.microsoft.com/en-us/privacystatement)

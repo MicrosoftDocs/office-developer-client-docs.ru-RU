@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ece15159-6a33-4abd-8775-6fbe1cc43793
-description: Определяет количество размытия для отражения фигуры в точках от 0,0 до 100,0.
+description: Определяет количество размытия для отражения фигуры в точках от 0.0 до 100.0.
 ms.openlocfilehash: 67ed06d764b90afbc47895c4c714fefadbe6f062
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33408014"
 ---
 # <a name="reflectionblur-cell-additional-effect-properties-section"></a>ReflectionBlur Cell (Additional Effect Properties Section)
 
-Определяет количество размытия для отражения фигуры в точках от 0,0 до 100,0.
+Определяет количество размытия для отражения фигуры в точках от 0.0 до 100.0.
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **ReflectionBlur** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
+Чтобы получить ссылку на ячейку **ReflectionBlur** по имени из другой формулы, по значению **атрибута N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|

@@ -23,9 +23,9 @@ ms.locfileid: "33408525"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Убирает количество ссылок, очищает и удаляет глобальные данные для DLL MAPI для каждого экземпляра. 
+Decrements the reference count, cleans up and deletes per-instance global data for the MAPI DLL. 
   
 |||
 |:-----|:-----|
@@ -47,11 +47,11 @@ void MAPIUninitialize ( void );
   
 ## <a name="remarks"></a>Примечания
 
-Клиентские приложения вызывает функцию **MAPIUninitialize** для окончания взаимодействия с MAPI, начинается с вызова функции [MAPIInitialize.](mapiinitialize.md) После **вызова MAPIUninitialize** никакие другие вызовы MAPI не могут быть выполнены клиентом. 
+Клиентская заявка вызывает **функцию MAPIUninitialize,** чтобы прекратить взаимодействие с MAPI, начатое с вызова функции [MAPIInitialize.](mapiinitialize.md) После **вызова MAPIUninitialize** клиент не может делать другие вызовы MAPI. 
   
- **MAPIUninitialize** понижет количество ссылок, а соответствующая функция **MAPIInitialize** добавит количество ссылок. Таким образом, число вызовов одной функции должно равняться числу вызовов другой. 
+ **MAPIUninitialize** отнимет количество ссылок, а соответствующая функция **MAPIInitialize** прибавляет количество ссылок. Таким образом, количество вызовов одной функции должно равняться количеству вызовов другой. 
   
 > [!NOTE]
-> Невозможно вызвать **MAPIInitialize** или **MAPIUninitialize** из функции **Win32 DllMain** или любой другой функции, которая создает или завершает потоки. Дополнительные сведения см. в [Thread-Safe".](using-thread-safe-objects.md) 
+> Вы не можете вызвать **MAPIInitialize** или **MAPIUninitialize** из функции **Win32 DllMain** или любой другой функции, которая создает или прекращает потоки. Дополнительные сведения см. в [Thread-Safe".](using-thread-safe-objects.md) 
   
 

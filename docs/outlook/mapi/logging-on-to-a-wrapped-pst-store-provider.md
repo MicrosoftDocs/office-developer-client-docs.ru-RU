@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 364bc5fd-2199-0bb2-142b-9b3b686b2268
-description: 'Last modified: July 02, 2012'
+description: 'Последнее изменение: 02 июля 2012 г.'
 ms.openlocfilehash: 96f472d67f144a451046ff61a3ed6c6ff2ff9acf
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -15,19 +15,19 @@ ms.locfileid: "33408988"
 ---
 # <a name="logging-on-to-a-wrapped-pst-store-provider"></a>Вход в систему поставщика упакованного PST-хранилища
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Прежде чем войти в MAPI у поставщика упакованного PST-магазина, необходимо инициализировать и настроить поставщика упакованного файла личных папок (PST). Дополнительные сведения см. в [инициализации поставщика упакованного PST-магазина.](initializing-a-wrapped-pst-store-provider.md)
+Прежде чем войти в MAPI к поставщику магазинов PST, необходимо инициализировать и настроить поставщика магазина файлов персональных папок (PST). Дополнительные сведения см. в [инициализации поставщика магазинов PST.](initializing-a-wrapped-pst-store-provider.md)
   
-После инициализации и настройки поставщика упакованного PST-магазина необходимо реализовать две процедуры. Функция **[IMSProvider::Logon](imsprovider-logon.md)** занося в mapI в журнал поставщика упакованного PST-магазина. Функция **[IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)** занося в пул MAPI поставщика упакованного PST-магазина. 
+После инициализации и настройки поставщика магазина PST необходимо реализовать две процедуры логона. Журнал **[функции IMSProvider::Logon](imsprovider-logon.md)** в MAPI поставщику магазина PST. Функции **[IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)** войдите в spooler MAPI поставщику магазина PST. 
   
-В этом разделе функции **IMSProvider::Logon** и **IMSProvider::SpoolerLogon** демонстрируются с помощью примеров кода из примера поставщика упакованного PST-магазина. В примере реализован упакованный поставщик PST,который предназначен для использования в сочетании с API репликации. Дополнительные сведения о загрузке и установке примера поставщика упакованного PST-магазина см. в примере установки поставщика упакованного [PST-магазина.](installing-the-sample-wrapped-pst-store-provider.md) Дополнительные сведения об API репликации см. в сведениях об [API репликации.](about-the-replication-api.md)
+В этом разделе функция **IMSProvider::Logon** и **функция IMSProvider::SpoolerLogon** демонстрируются с помощью примеров кода из поставщика магазина PST Sample Wrapped. В примере реализован завернутый поставщик PST, который предназначен для использования в сочетании с API репликации. Дополнительные сведения о загрузке и установке поставщика магазинов PST sample wrapped см. в примере Установки поставщика упаковки [PST Store.](installing-the-sample-wrapped-pst-store-provider.md) Дополнительные сведения об API репликации см. в [иллюстрации API репликации.](about-the-replication-api.md)
   
-После входа MAPI и пула MAPI к поставщику упакованного PST-магазина его можно использовать. Дополнительные сведения см. в сведениях об использовании поставщика упакованного [PST-магазина.](using-a-wrapped-pst-store-provider.md)
+После входа MAPI и пульпера MAPI в поставщик магазина PST, он готов к его использования. Дополнительные сведения см. [в дополнительных сведениях Об](using-a-wrapped-pst-store-provider.md)использовании поставщика магазина PST.
   
 ## <a name="mapi-logon-routine"></a>MapI Logon routine
 
-После инициализации поставщика упакованного PST-магазина необходимо реализовать функцию **[IMSProvider::Logon](imsprovider-logon.md)** для входа в MAPI в упакованное хранилище PST. Эта функция проверяет учетные данные пользователя и получает свойства конфигурации для поставщика. Необходимо также реализовать функцию, чтобы установить сведения об автономном `SetOLFIInOST` файле **[(OLFI).](olfi.md)** **OLFI** — это очередь структур долгосрочных ИД, которая используется поставщиком упакованного PST-магазина для назначения ИД записи для нового сообщения или папки в автономном режиме. Наконец, функция **IMSProvider::Logon** возвращает объект хранения сообщений, в который могут войти пул mapi и клиентские приложения в  `ppMDB` параметре. 
+После инициализации поставщика магазина PST необходимо реализовать функцию **[IMSProvider::Logon,](imsprovider-logon.md)** чтобы войти в MAPI в завернутый магазин PST. Эта функция проверяет учетные данные пользователей и получает свойства конфигурации для поставщика. Необходимо также реализовать функцию, чтобы установить сведения о автономных `SetOLFIInOST` файлах **[(OLFI).](olfi.md)** **OLFI** — это очередь долгосрочных структур ID, которая используется поставщиком магазина PST для назначения ID входа для нового сообщения или папки в автономном режиме. Наконец, функция **IMSProvider::Logon** возвращает объект магазина сообщений, в который могут войти пуллер MAPI и клиентские приложения в  `ppMDB` параметре. 
   
 ### <a name="cmsproviderlogon-example"></a>Пример CMSProvider::Logon()
 
@@ -103,9 +103,9 @@ STDMETHODIMP CMSProvider::Logon(
 
 ## <a name="mapi-spooler-logon-routine"></a>MapI Spooler Logon routine
 
-Как и **в IMSProvider::Logon,** необходимо реализовать функцию **[IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)** для входа в пульер MAPI в упакованное хранилище PST. В параметре возвращается объект хранения сообщений, в который может войти пул MAPI и клиентские  `ppMDB` приложения. 
+Как и **в IMSProvider::Logon,** необходимо реализовать функцию **[IMSProvider::SpoolerLogon,](imsprovider-spoolerlogon.md)** чтобы войти в пульпер MAPI в завернутый магазин PST. В параметре возвращается объект хранения сообщений, в который могут войти шпалер MAPI и клиентские  `ppMDB` приложения. 
   
-### <a name="cmsproviderspoolerlogon-example"></a>Пример CMSProvider::SpoolerLogon()
+### <a name="cmsproviderspoolerlogon-example"></a>ПРИМЕР CMSProvider::SpoolerLogon()
 
 ```cpp
 STDMETHODIMP CMSProvider::SpoolerLogon ( 
@@ -159,9 +159,9 @@ STDMETHODIMP CMSProvider::SpoolerLogon (
 
 ## <a name="see-also"></a>См. также
 
-- [Пример поставщика упакованного PST-магазина](about-the-sample-wrapped-pst-store-provider.md) 
-- [Установка примера поставщика упакованного PST-магазина](installing-the-sample-wrapped-pst-store-provider.md) 
-- [Инициализация поставщика упакованного PST-магазина](initializing-a-wrapped-pst-store-provider.md)
-- [Использование поставщика упакованного PST-магазина](using-a-wrapped-pst-store-provider.md)
-- [Завершение работы поставщика упакованного PST-магазина](shutting-down-a-wrapped-pst-store-provider.md)
+- [О поставщике пакетных пакетов PST Store](about-the-sample-wrapped-pst-store-provider.md) 
+- [Установка поставщика пакетных пакетов PST](installing-the-sample-wrapped-pst-store-provider.md) 
+- [Инициализация поставщика упакованных магазинов PST](initializing-a-wrapped-pst-store-provider.md)
+- [Использование поставщика упакованных магазинов PST](using-a-wrapped-pst-store-provider.md)
+- [Отключение поставщика упакованных магазинов PST](shutting-down-a-wrapped-pst-store-provider.md)
 

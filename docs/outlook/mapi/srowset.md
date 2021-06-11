@@ -23,14 +23,14 @@ ms.locfileid: "33407258"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит массив структур [SRow.](srow.md) Каждая **структура SRow** описывает строку из таблицы. 
+Содержит массив [структур SRow.](srow.md) Каждая **структура SRow** описывает строку из таблицы. 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные макросы:  <br/> |[CbNewSRowSet](cbnewsrowset.md), [CbSRowSet](cbsrowset.md), [SizedSRowSet](sizedsrowset.md) <br/> |
+|Связанные макрос:  <br/> |[CbNewSRowSet](cbnewsrowset.md), [CbSRowSet](cbsrowset.md), [SizedSRowSet](sizedsrowset.md) <br/> |
    
 ```cpp
 typedef struct _SRowSet
@@ -45,15 +45,15 @@ typedef struct _SRowSet
 
  **cRows**
   
-> Количество структур **SRow** в **члене aRow.** 
+> Количество **структур SRow** в **члене aRow.** 
     
  **aRow**
   
-> Массив **структур SRow.** Каждая строка таблицы имеет одну структуру. 
+> Массив **структур SRow.** Каждая строка в таблице имеет одну структуру. 
     
 ## <a name="remarks"></a>Примечания
 
-Структура **SRowSet** используется для описания нескольких строк данных из таблицы. **Структуры SRowSet** используются в методах [интерфейса IAddrBook,](iaddrbookimapiprop.md) [ITableData](itabledataiunknown.md)и [IMAPITable](imapitableiunknown.md) в дополнение к следующим функциям: 
+Структура **SRowSet** используется для описания нескольких строк данных из таблицы. **Структуры SRowSet** используются в [методах интерфейса IAddrBook,](iaddrbookimapiprop.md) [ITableData](itabledataiunknown.md)и [IMAPITable,](imapitableiunknown.md) а также в следующих функциях: 
   
 - [HrQueryAllRows](hrqueryallrows.md)
     
@@ -61,11 +61,11 @@ typedef struct _SRowSet
     
 - [FreeProws](freeprows.md)
     
- **Структуры SRowSet** определяются так же, как структуры [ADRLIST,](adrlist.md) чтобы строки таблицы получателей и записи в списке адресов обрабатывались одинаково. Структуры **SRowSet** и **ADRLIST** можно передавать в такие методы, как [IMessage::ModifyRecipients](imessage-modifyrecipients.md) и [IAddrBook::Address.](iaddrbook-address.md) 
+ **Структуры SRowSet** определяются так же, как структуры [ADRLIST,](adrlist.md) что позволяет рассматривать строки таблицы получателей и записи в списке адресов. Как **структуры SRowSet,** так и **структуры ADRLIST** можно передать таким методам, как [IMessage::ModifyRecipients](imessage-modifyrecipients.md) и [IAddrBook::Address.](iaddrbook-address.md) 
   
-Кроме того, правила выделения памяти для структур **SRowSet** такие же, как и для структур **ADRLIST.** Подведем итог, каждая структура [SPropValue](spropvalue.md) в массиве, на который указывает член **lpProps** каждой строки в наборе строк, должна быть выделена отдельно с помощью [MAPIAllocateBuffer.](mapiallocatebuffer.md) Каждая структура значений свойств также должна располагаться с помощью [MAPIFreeBuffer](mapifreebuffer.md) до перераспределения структуры **SRowSet,** чтобы указатели на выделенные **структуры SPropValue** не были потеряны. После этого выделенная память строки может быть сохранена и повторно использоваться вне контекста **структуры SRowSet.** 
+Кроме того, правила распределения памяти для **структур SRowSet** такие же, как и для **структур ADRLIST.** Чтобы резюмировать, каждая структура [SPropValue](spropvalue.md) в массиве, на который указывает член **lpProps** каждой строки в наборе строк, должна быть выделена отдельно с помощью [MAPIAllocateBuffer](mapiallocatebuffer.md). Каждая структура значения свойств также должна быть расположена с помощью [MAPIFreeBuffer](mapifreebuffer.md) перед сделкой структуры **SRowSet,** чтобы не потерять указатели на выделенные **структуры SPropValue.** Выделенная память строки может быть сохранена и повторно использоваться вне контекста **структуры SRowSet.** 
   
-Дополнительные сведения о выделении памяти для структур **SRowSet** см. в под управлением памятью [для структур ADRLIST и SRowSet.](managing-memory-for-adrlist-and-srowset-structures.md) 
+Дополнительные сведения о выделении памяти для структур **SRowSet** см. в статью Управление памятью [для структур ADRLIST и SRowSet.](managing-memory-for-adrlist-and-srowset-structures.md) 
   
 ## <a name="see-also"></a>См. также
 

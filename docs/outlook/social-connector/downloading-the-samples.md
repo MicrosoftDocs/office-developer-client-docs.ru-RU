@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bf0d3edc-3280-4500-8fae-bb7f338bb7dd
-description: В этом разделе описывается, как скачать примеры кода, сопровождающие эту документацию.
+description: В этом разделе описывается, как скачать образцы кода, сопровождающие эту документацию.
 ms.openlocfilehash: 19145077d8048ad7117160ffc693fb90827f8fc2
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,24 +17,24 @@ ms.locfileid: "32281006"
 ---
 # <a name="downloading-the-samples"></a>Скачивание примеров
 
-В этом разделе описывается, как скачать примеры кода, сопровождающие эту документацию.
+В этом разделе описывается, как скачать образцы кода, сопровождающие эту документацию.
   
-### <a name="to-download-the-sample-code-installation-package"></a>Загрузка примера пакета установки кода
+### <a name="to-download-the-sample-code-installation-package"></a>Загрузка пакета установки примера кода
 
-1. Скачайте OSCProviderSamples.zip outlook [Social Connector 2013: шаблоны поставщиков.](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
+1. Скачайте файл OSCProviderSamples.zip из [Outlook Social Connector 2013: шаблоны поставщиков](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
     
-2. Извлеките ZIP-файл в папку по вашему выбору. В Windows 7 путь по умолчанию для Visual Studio 2010: C:\Users\ _user_\Documents\Visual Studio 2010\Projects.
+2. Извлеките .zip в папку по вашему выбору. В Windows 7 по умолчанию для Visual Studio 2010 г. значение C:\Users\ _user_\Documents\Visual Studio 2010\Projects.
     
-3. После извлечения ZIP-файла в папке проектов находятся следующие проекты:
+3. После извлечения .zip вы найдете следующие проекты в папке проектов:
     
-   - OSCProvider_CPP содержит шаблон поставщика C++.
+   - OSCProvider_CPP—Содержит шаблон поставщика C++.
     
-   - OSCProvider_CS содержит шаблон поставщика C#.
+   - OSCProvider_CS— содержит шаблон C# поставщика.
     
-   - OSCProvider_VB содержит шаблон Visual Basic поставщика.
+   - OSCProvider_VB— содержит шаблон Visual Basic поставщика.
     
 ## <a name="see-also"></a>См. также
 
-- [Применение шаблона образца поставщика](applying-a-sample-provider-template.md)
-- [Примеры шаблонов OSC](osc-sample-templates.md)
+- [Применение шаблона поставщика образцов](applying-a-sample-provider-template.md)
+- [Шаблоны образцов OSC](osc-sample-templates.md)
 

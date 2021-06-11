@@ -23,7 +23,7 @@ ms.locfileid: "32358900"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Представляет дату и время окончания встречи.
   
@@ -31,7 +31,7 @@ ms.locfileid: "32358900"
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidApptEndWhole  <br/> |
 |Набор свойств:  <br/> |PSETID_Appointment  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x0000820E  <br/> |
+|Long ID (LID):  <br/> |0x0000820E  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Календарь  <br/> |
    
@@ -39,7 +39,7 @@ ms.locfileid: "32358900"
 
 Это свойство соответствует свойству **dispidApptEndWhole** встречи в Microsoft Office Outlook объектной модели. 
   
-Указывает дату и время окончания события; Оно должно быть в UTC и должно быть больше значения свойства **dispidApptStartWhole** ([PidLidAppointmentStartWhole).](pidlidappointmentstartwhole-canonical-property.md) Для повторяющегося ряда свойство **dispidApptEndWhole** является датой и временем окончания первого экземпляра в соответствии с шаблоном повторения. 
+Это указывает даты и время окончания события; он должен быть в согласованном универсальном времени (UTC) и должен быть больше значения свойства **dispidApptStartWhole** [(PidLidAppointmentStartWhole).](pidlidappointmentstartwhole-canonical-property.md) Для повторяющейся серии свойство **dispidApptEndWhole** является датой окончания и временем первой инстанции в соответствии с шаблоном повторения. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -47,13 +47,13 @@ ms.locfileid: "32358900"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -69,5 +69,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - Func1
 keywords:
-- функция func1 [excel 2007]
+- функция func1 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 801b14ef-0be8-4b97-919d-a9d413705d1c
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,25 +22,25 @@ ms.locfileid: "33408917"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Пример определяемой пользователем функции таблицы демонстрирует возврат статического строки. При загрузке GENERIC.xll она регистрирует эту функцию, чтобы ее можно было вызвано с помощью таблицы.
+Пример функции таблицы, определяемой пользователем, демонстрирует возвращение статического значения строки. При загрузке GENERIC.xll она регистрирует эту функцию, чтобы она была вызвана из таблицы.
   
 ```cs
 LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
- _px_ (**LPXLOPER)**
+ _px_ **(LPXLOPER)**
   
-Этот аргумент игнорируется и служит только для вызова функции в Microsoft Excel.
+Этот аргумент игнорируется и служит только для Microsoft Excel вызова функции.
   
 ## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
- **LPXLOPER12**: всегда строка "Func1"
+ **LPXLOPER12**: Всегда строка "Func1"
   
 ### <a name="example"></a>Пример
 
-См.  `\SAMPLES\GENERIC\GENERIC.C` исходный код для этой функции. 
+См.  `\SAMPLES\GENERIC\GENERIC.C` исходный код этой функции. 
   
 ## <a name="see-also"></a>См. также
 

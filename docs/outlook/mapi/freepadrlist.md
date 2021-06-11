@@ -23,7 +23,7 @@ ms.locfileid: "33408644"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Уничтожает [структуру ADRLIST](adrlist.md) и освободит связанную память, включая память, выделенную для всех массивов и структур членов. 
   
@@ -39,7 +39,7 @@ void FreePadrlist(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _padrlist_
   
@@ -51,9 +51,9 @@ void FreePadrlist(
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-В рамках реализации **FreePadrlist** MAPI вызывает функцию [MAPIFreeBuffer,](mapifreebuffer.md) чтобы освободить все записи в структуре **ADRLIST,** прежде чем освободить полную структуру. Поэтому все такие записи должны следовать правилам выделения для структуры [ADRLIST,](adrlist.md) используя отдельный вызов [MAPIAllocateBuffer](mapiallocatebuffer.md) для каждого массива и структуры членов. 
+В рамках реализации **freePadrlist** MAPI вызывает функцию [MAPIFreeBuffer,](mapifreebuffer.md) чтобы освободить каждую запись в структуре **ADRLIST** перед тем, как освободить полную структуру. Поэтому все такие записи должны следовать правилам распределения для структуры [ADRLIST,](adrlist.md) используя отдельный вызов [MAPIAllocateBuffer](mapiallocatebuffer.md) для каждого массива и структуры участников. 
   
-Дополнительные сведения о том, как напоить память для структур **ADRLIST** и **SRowSet,** см. в под управлением памятью [для структур ADRLIST и SRowSet.](managing-memory-for-adrlist-and-srowset-structures.md) 
+Дополнительные сведения о деление памяти для структур **ADRLIST** и **SRowSet** см. в рубрике Управление памятью для [структур ADRLIST и SRowSet.](managing-memory-for-adrlist-and-srowset-structures.md) 
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -61,7 +61,7 @@ void FreePadrlist(
   
 |**Файл**|**Функция**|**�����������**|
 |:-----|:-----|:-----|
-|MAPIABFunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI использует метод **FreePadrlist,** чтобы освободить структуру ADRLIST, созданную для добавления одноразового адреса в сообщение.  <br/> |
+|MAPIABFunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI использует метод **FreePadrlist,** чтобы освободить структуру ADRLIST, которая была построена для добавления разового адреса в сообщение.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

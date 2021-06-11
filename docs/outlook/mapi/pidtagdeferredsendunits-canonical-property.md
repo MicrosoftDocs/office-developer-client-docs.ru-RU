@@ -23,9 +23,9 @@ ms.locfileid: "32359908"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает единицу времени, на которое должно умножаться значение свойства **PR_DEFERRED_SEND_NUMBER** [(PidTagDeferredSendNumber).](pidtagdeferredsendnumber-canonical-property.md)
+Указывает единицу времени, на которое должно умножаться **значение свойства PR_DEFERRED_SEND_NUMBER** [(PidTagDeferredSendNumber).](pidtagdeferredsendnumber-canonical-property.md)
   
 |||
 |:-----|:-----|
@@ -36,15 +36,15 @@ ms.locfileid: "32359908"
    
 ## <a name="remarks"></a>Примечания
 
-Если за установлено, это свойство должно иметь одно из следующих значений:
+Если установлено, это свойство должно иметь одно из следующих значений:
   
 |||
 |:-----|:-----|
 |**PidTagDeferredSendUnits** <br/> |Описание  <br/> |
 |0  <br/> |Минуты, например 60 секунд  <br/> |
-|1   <br/> |Часы, например 60x60 секунд  <br/> |
-|2   <br/> |День, например 24x60x60 секунд  <br/> |
-|3   <br/> |Неделя, например 7x24x60x60 секунд  <br/> |
+|1  <br/> |Часы, например 60x60 секунд  <br/> |
+|2  <br/> |День, например 24x60x60 секунд  <br/> |
+|3  <br/> |Неделя, например 7x24x60x60 секунд  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -52,9 +52,9 @@ ms.locfileid: "32359908"
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
+> Указывает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -74,5 +74,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

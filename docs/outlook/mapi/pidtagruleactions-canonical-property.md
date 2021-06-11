@@ -23,7 +23,7 @@ ms.locfileid: "32278902"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит набор действий, связанных с правилом. 
   
@@ -32,11 +32,11 @@ ms.locfileid: "32278902"
 |Связанные свойства:  <br/> |PR_RULE_ACTIONS  <br/> |
 |Идентификатор:  <br/> |0x6680  <br/> |
 |Тип данных:  <br/> |PT_ACTIONS  <br/> |
-|Область:  <br/> |Правила на стороне сервера  <br/> |
+|Область:  <br/> |Правила стороне сервера  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Действия выражаются в качестве действия правила, а буфер значений свойств содержит структуру буфера данных действий правила, упакованную в [указанное в [MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
+Действия выражаются в качестве действия правила, а буфер значения свойства содержит структуру буфера данных действий правила, упакованную в [пакет [MS-OXORULE].](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -44,7 +44,7 @@ ms.locfileid: "32278902"
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|ImportProcs.cpp  <br/> |PropCopyMore, HrCopyActions  <br/> |Эти функции демонстрируют, как PT_ACTIONS для копирования в другое свойство.  <br/> |
+|ImportProcs.cpp  <br/> |PropCopyMore, HrCopyActions  <br/> |Эти функции демонстрируют, как PT_ACTIONS свойства для копирования другого свойства.  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -56,9 +56,9 @@ ms.locfileid: "32278902"
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> Управляет входящие сообщения электронной почты на сервере.
+> Манипулирует входящие сообщения электронной почты на сервере.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -78,5 +78,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

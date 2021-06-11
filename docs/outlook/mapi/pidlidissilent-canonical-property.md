@@ -23,7 +23,7 @@ ms.locfileid: "32315430"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Указывает, что пользователь не включил текст в текст ответа на собрание.
   
@@ -31,7 +31,7 @@ ms.locfileid: "32315430"
 |:-----|:-----|
 |Связанные свойства:  <br/> |LID_IS_SILENT  <br/> |
 |Набор свойств:  <br/> |PSETID_Meeting  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00000004  <br/> |
+|Long ID (LID):  <br/> |0x00000004  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Собрания  <br/> |
    
@@ -41,13 +41,13 @@ ms.locfileid: "32315430"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

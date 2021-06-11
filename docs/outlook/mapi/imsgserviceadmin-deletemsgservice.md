@@ -23,7 +23,7 @@ ms.locfileid: "33407384"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Удаляет службу сообщений из профиля.
   
@@ -33,11 +33,11 @@ HRESULT DeleteMsgService(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _lpuid_
   
-> [in] Указатель на структуру [MAPIUID,](mapiuid.md) которая содержит уникальный идентификатор удаляемой службы сообщений. 
+> [in] Указатель на структуру [MAPIUID,](mapiuid.md) которая содержит уникальный идентификатор для удаления службы сообщений. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -47,25 +47,25 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> **MAPIUID, на** который указывает _lpuid,_ не соответствует существующей службе сообщений. 
+> **MapIUID,** на который указывает _lpuid,_ не соответствует существующей службе сообщений. 
     
 ## <a name="remarks"></a>Примечания
 
-Метод **IMsgServiceAdmin::D eleteMsgService** удаляет службу сообщений из профиля. **DeleteMsgService** удаляет все разделы профиля, связанные со службой сообщений. 
+Метод **IMsgServiceAdmin::D eleteMsgService** удаляет службу сообщений из профиля. **DeleteMsgService** удаляет все разделы профилей, связанные со службой сообщений. 
   
- **DeleteMsgService** выполняет следующие действия для удаления службы сообщений: 
+ **DeleteMsgService** выполняет следующие действия, чтобы удалить службу сообщений: 
   
-1. Вызывает функцию точки входа службы сообщений с параметром  _ulContext MSG_SERVICE_DELETE_ перед удалением разделов профиля. Это позволяет службе выполнять любые задачи, выполняемые конкретной службой. 
+1. Вызывает функцию точки входа службы сообщений с параметром  _ulContext_ MSG_SERVICE_DELETE до удаления разделов профилей. Это позволяет службе выполнять любые задачи, определенные для службы. 
     
 2. Удаляет службу сообщений.
     
-3. Удаляет раздел профиля службы сообщений.
+3. Удаляет раздел профилей службы сообщений.
     
-Функция точки входа службы сообщений не будет повторно вызвана после удаления службы.
+Функция точки входа службы сообщений не вызвана после удаления службы.
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-Чтобы получить структуру **MAPIUID** для удаляемой службы сообщений, извлеките столбец свойства **PR_SERVICE_UID** ([PidTagServiceUid)](pidtagserviceuid-canonical-property.md)из строки службы сообщений в таблице службы сообщений. Дополнительные сведения см. в процедуре, описанной в методе [IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
+Чтобы получить структуру **MAPIUID** для удаления службы **сообщений, извлеките** столбец свойства [PR_SERVICE_UID (PidTagServiceUid)](pidtagserviceuid-canonical-property.md)из строки службы сообщений в таблице службы сообщений. Дополнительные сведения см. в процедуре, описанной в методе [IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -73,7 +73,7 @@ MAPI_E_NOT_FOUND
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDeleteSelectedItem  <br/> |MFCMAPI использует метод **IMsgServiceAdmin::D eleteMsgService** для удаления выбранной службы.  <br/> |
+|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDeleteSelectedItem  <br/> |MFCMAPI использует **метод IMsgServiceAdmin::D eleteMsgService** для удаления выбранной службы.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

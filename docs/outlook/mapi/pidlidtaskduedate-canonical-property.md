@@ -1,5 +1,5 @@
 ---
-title: Каноническое свойство PidLidTaskDueDate
+title: Каноническое свойство PidLidTaskDueDueDate
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,25 +19,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303327"
 ---
-# <a name="pidlidtaskduedate-canonical-property"></a>Каноническое свойство PidLidTaskDueDate
+# <a name="pidlidtaskduedate-canonical-property"></a>Каноническое свойство PidLidTaskDueDueDate
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Представляет дату, когда пользователь ожидает выполнения задачи.
+Представляет дату выполнения задачи пользователем.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidTaskDueDate  <br/> |
 |Набор свойств:  <br/> |PSETID_Task  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008105  <br/> |
+|Long ID (LID):  <br/> |0x00008105  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
-|Область:  <br/> |Task  <br/> |
+|Область:  <br/> |Задача  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Задача не имеет даты окончания, если это свойство не заданной или имеет 0x5AE980E0 (1 525 252 320). Однако срок действия является необязательным, только если дата начала не указана в свойстве **dispidTaskStartDate** ([PidLidTaskStartDate).](pidlidtaskstartdate-canonical-property.md) Если задача имеет дату окончания, значение должно иметь компонент времени полуночи, а также свойство **dispidCommonEnd** ([PidLidCommonEnd)](pidlidcommonend-canonical-property.md)также должно быть задано. Если **dispidTaskStartDate** имеет дату начала, значение свойства **dispidTaskDueDate** должно быть больше или равно значению **dispidTaskStartDate.**
+Задача не имеет даты, если это свойство не установлено или 0x5AE980E0 (1 525 252 320). Однако срок действия является необязательным только в том случае, если дата начала не указана в свойстве **dispidTaskStartDate** [(PidLidTaskStartDate).](pidlidtaskstartdate-canonical-property.md) Если для задачи назначена дата, значение должно иметь компонент времени в полночь, а свойство **dispidCommonEnd** [(PidLidCommonEnd)](pidlidcommonend-canonical-property.md)также должно быть задано. Если **у dispidTaskStartDate** есть дата начала, то значение свойства **dispidTaskDueDate** должно быть больше или равно значению **dispidTaskStartDate**.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,7 +45,7 @@ ms.locfileid: "32303327"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
@@ -53,9 +53,9 @@ ms.locfileid: "32303327"
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Указывает свойства и модель взаимодействия для электронной почты и других напоминаний об объектах.
+> Указывает свойства и модель взаимодействия для электронной почты и других напоминаний объектов.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -71,5 +71,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

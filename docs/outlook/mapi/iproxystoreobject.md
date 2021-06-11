@@ -23,30 +23,30 @@ ms.locfileid: "32315521"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Предоставляет объект хранения протокола IMAP, который был расхвачен и который обеспечивает доступ к элементов в файле личных папок (PST) без необходимости синхронизации и скачивания элементов.
+Предоставляет объект хранения протокола доступа к интернету (IMAP), который был растрачен и позволяет получать доступ к элементу в файле персональных папок (PST) без синхронизации и скачивания элементов.
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Наследуется от:  <br/> |[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) <br/> |
-|Предоставлено:  <br/> |Поставщик store сообщений  <br/> |
+|Унаследовано от:  <br/> |[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) <br/> |
+|Предоставлено:  <br/> |Поставщик магазина сообщений  <br/> |
 |Идентификатор интерфейса:  <br/> |**IID_IProxyStoreObject** <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
-|[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |Получает указатель на нерасхваченное хранилище IMAP.  <br/> |
-| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
+| *Член placeholder*  <br/> | *Не поддерживается или не документируется.*  <br/> |
+|[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |Получает указатель в незавербованный магазин IMAP.  <br/> |
+| *Член placeholder*  <br/> | *Не поддерживается или не документируется.*  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Вызовите [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) в хранилище исходных сообщений, чтобы получить **интерфейс IProxyStoreObject.** Затем **вызовите IProxyStoreObject::UnwrapNoRef,** чтобы получить незавершенный объект store. Если **QueryInterface** возвращает ошибку **MAPI_E_INTERFACE_NOT_SUPPORTED,** хранилище не было оболочки. 
+Вызов [IUnknown::QueryInterface в](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) хранилище исходных сообщений для получения **интерфейса IProxyStoreObject.** Затем **позвоните в IProxyStoreObject::UnwrapNoRef,** чтобы получить незавершенный объект магазина. Если **QueryInterface** возвращает **ошибку** MAPI_E_INTERFACE_NOT_SUPPORTED, магазин не был завернут. 
   
-Поскольку **UnwrapNoRef** не добавит количество ссылок для этого нового указателя на объект неподтвержденного хранения, после успешного вызова **UnwrapNoRef** необходимо вызвать [IUnknown::AddRef,](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) чтобы сохранить количество ссылок. 
+Так как **UnwrapNoRef** не добавляет количество ссылок для этого нового указателя на объект незавержденного магазина, после успешного вызова **UnwrapNoRef** необходимо вызвать [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) для поддержания эталонного подсчета. 
   
 

@@ -23,9 +23,9 @@ ms.locfileid: "32283144"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает предложенное время начала собрания.
+Указывает предлагаемое время начала собрания.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "32283144"
    
 ## <a name="remarks"></a>Примечания
 
-Если для свойства **PR_RECIPIENT_PROPOSED** ([PidTagRecipientProposed)](pidtagrecipientproposed-canonical-property.md)установлено значение TRUE, значение этого свойства указывает значение, запрошенное участником, чтобы установить в качестве значения свойства **dispidApptStartWhole** ([PidLidAppointmentStartWhole)](pidlidappointmentstartwhole-canonical-property.md)объекта собрания одного экземпляра или объекта исключения.
+Когда значение свойства **PR_RECIPIENT_PROPOSED** [(PidTagRecipientProposed)](pidtagrecipientproposed-canonical-property.md)задавалось значение TRUE, значение этого свойства указывает значение, запрашиваемое участниками, чтобы установить как значение свойства **dispidApptStartWhole** [(PidLidAppointmentStartWhole)](pidlidappointmentstartwhole-canonical-property.md)для объекта собрания одного экземпляра или объекта исключения.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,9 +48,9 @@ ms.locfileid: "32283144"
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -23,7 +23,7 @@ ms.locfileid: "32303054"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Указывает, включает ли задача шаблон повторения.
   
@@ -31,13 +31,13 @@ ms.locfileid: "32303054"
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidTaskFRecur  <br/> |
 |Набор свойств:  <br/> |PSETID_Task  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008126  <br/> |
+|Long ID (LID):  <br/> |0x00008126  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Task  <br/> |
+|Область:  <br/> |Задача  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если это свойство не заданной, по умолчанию предполагается значение FALSE. Если задано true, свойства **dispidTaskRecur** ([PidLidTaskRecurrence)](pidlidtaskrecurrence-canonical-property.md)и **dispidTaskDeadOccur** ([PidLidTaskDeadOccurrence)](pidlidtaskdeadoccurrence-canonical-property.md)также должны быть заданы в [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
+Если это свойство остается неустановленным, предполагается значение FALSE по умолчанию. Если задана true, свойства **dispidTaskRecur** [(PidLidTaskRecurrence)](pidlidtaskrecurrence-canonical-property.md)и **dispidTaskDeadOccur** [(PidLidTaskDeadOccurrence)](pidlidtaskdeadoccurrence-canonical-property.md)также должны быть заданы в [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32303054"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Определяет несколько объектов, которые моделируют электронный эквивалент задач, назначений задач и обновлений задач.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

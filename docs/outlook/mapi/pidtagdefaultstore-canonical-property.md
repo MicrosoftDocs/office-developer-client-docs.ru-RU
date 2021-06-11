@@ -23,9 +23,9 @@ ms.locfileid: "32270107"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если хранилище сообщений является хранилищем сообщений по умолчанию в таблице хранения сообщений. 
+Содержит TRUE, если хранилище сообщений является хранилищем сообщений по умолчанию в таблице хранения сообщений. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "32270107"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство отображается как столбец в таблице хранения сообщений. Значение основано на **PR_RESOURCE_FLAGS** ([PidTagResourceFlags).](pidtagresourceflags-canonical-property.md) 
+Это свойство отображается в качестве столбца в таблице хранения сообщений. Значение основано на **PR_RESOURCE_FLAGS** [(PidTagResourceFlags).](pidtagresourceflags-canonical-property.md) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -46,7 +46,7 @@ ms.locfileid: "32270107"
   
 > Содержит ссылки на связанные Exchange Server протоколы.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -66,5 +66,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

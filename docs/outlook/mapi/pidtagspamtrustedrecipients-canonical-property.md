@@ -17,14 +17,14 @@ ms.locfileid: "32359453"
 ---
 # <a name="pidtagspamtrustedrecipients-canonical-property"></a>Каноническое свойство PidTagSpamTrustedRecipients
  
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит список адресов электронной почты и доменов, которые представляют надежных получателей с замещением другого списка.
+Содержит список адресов и доменов электронной почты, которые представляют доверенных получателей.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_SPAM_TRUSTED_RECIPIENTS_W  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x0419  <br/> |
+|Long ID (LID):  <br/> |0x0419  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Спам  <br/> |
    
@@ -34,13 +34,13 @@ ms.locfileid: "32359453"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения наборов свойств и ссылки на связанные Microsoft Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Microsoft Exchange Server протоколы.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Включает обработку списков разрешающих и заблокированных сообщений, а также определение нежелательных сообщений электронной почты.
+> Включает обработку списков разрешить или блокировать и определение нежелательных сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -55,5 +55,5 @@ Mapitags.h
 - [Свойства MAPI](mapi-properties.md) 
 - [Канонические свойства MAPI](mapi-canonical-properties.md)  
 - [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)  
-- [Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+- [Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -18,21 +18,21 @@ ms.locfileid: "33408364"
 
 **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Проверяет, является ли сеанс допустимым. Эта функция обычно используется, когда Excel должен определить, активен ли ранее возвращенный ИД сеанса и можно ли его использовать.
+Проверяет, является ли сеанс допустимым. Эта функция обычно называется, Excel необходимо определить, активен ли ранее возвращенный ID сеанса и можно ли его использовать.
   
 ```cpp
 int PingSession(int SessionId)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _SessionID_
   
-> ИД сеанса для ping. Это значение должно совпадать с ИД, возвращенным предыдущим вызовом [OpenSession.](opensession.md)
+> ID сеанса для ping. Это значение должно совпадать с ИД, возвращенным предыдущим вызовом [в OpenSession.](opensession.md)
     
 ## <a name="return-value"></a>Возвращаемое значение
 
-**xlHpcRetSuccess,** если аргумент  _SessionId_ является допустимым; в **противном случае xlHpcRetInvalidSessionId**.
+**xlHpcRetSuccess,** если аргумент  _SessionId_ действителен; в **противном случае xlHpcRetInvalidSessionId**.
   
 ## <a name="see-also"></a>См. также
 

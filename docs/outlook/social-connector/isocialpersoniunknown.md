@@ -21,22 +21,22 @@ ms.locfileid: "33407013"
   
 ## <a name="members"></a>"Участники"
 
-В следующей таблице показаны члены, доступные в **интерфейсе ISocialPerson.** 
+В следующей таблице показаны участники, доступные в **интерфейсе ISocialPerson.** 
   
-|**Название**|**Тип члена**|**Описание**|
+|**Имя**|**Тип участника**|**Описание**|
 |:-----|:-----|:-----|
-|[GetActivities](isocialperson-getactivities.md) <br/> |Method  <br/> |Этот метод больше не используется, так как Outlook Social Connector 2013.  <br/> |
-|[GetDetails](isocialperson-getdetails.md) <br/> |Method  <br/> |Получает строку, представляюную сведения о человеке, например имя, фамилию и URL-адрес изображения профиля.  <br/> |
-|[GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) <br/> |Method  <br/> |Получает строку, представляюную коллекцию людей.  <br/> |
-|[GetFriendsAndColleaguesIDs](isocialperson-getfriendsandcolleaguesids.md) <br/> |Method  <br/> |Этот метод в настоящее время не поддерживается.  <br/> |
-|[GetPicture](isocialperson-getpicture.md) <br/> |Method  <br/> |Получает массив в ветвях, содержащий ресурс рисунка для человека.  <br/> |
-|[GetStatus](isocialperson-getstatus.md) <br/> |Method  <br/> |Этот метод в настоящее время не поддерживается.  <br/> |
+|[GetActivities](isocialperson-getactivities.md) <br/> |Метод  <br/> |Этот метод был обесценив с Outlook Social Connector 2013.  <br/> |
+|[GetDetails](isocialperson-getdetails.md) <br/> |Метод  <br/> |Получает строку, которая представляет сведения для пользователя, например имя, фамилию и URL-адрес к изображению профиля.  <br/> |
+|[GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) <br/> |Метод  <br/> |Получает строку, представляюную коллекцию людей.  <br/> |
+|[GetFriendsAndColleaguesIDs](isocialperson-getfriendsandcolleaguesids.md) <br/> |Метод  <br/> |Этот метод в настоящее время не поддерживается.  <br/> |
+|[GetPicture](isocialperson-getpicture.md) <br/> |Метод  <br/> |Получает массив bytes, который содержит ресурс изображения для человека.  <br/> |
+|[GetStatus](isocialperson-getstatus.md) <br/> |Метод  <br/> |Этот метод в настоящее время не поддерживается.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Поставщик Outlook Social Connector (OSC) должен реализовать этот интерфейс для связи с OSC.
+Поставщик Outlook social Connector (OSC) должен реализовать этот интерфейс для связи с OSC.
   
 ## <a name="see-also"></a>См. также
 
-- [Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
+- [Outlook Интерфейсы поставщиков социальных соединители](outlook-social-connector-provider-interfaces.md)
 

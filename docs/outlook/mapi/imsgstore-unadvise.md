@@ -23,9 +23,9 @@ ms.locfileid: "32309725"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Отменяет отправку уведомлений, которые ранее были настроены с помощью вызова метода [IMsgStore::Advise.](imsgstore-advise.md) 
+Отменяет отправку уведомлений, ранее установленных с помощью вызова в [метод IMsgStore::Advise.](imsgstore-advise.md) 
   
 ```cpp
 HRESULT Unadvise(
@@ -33,23 +33,23 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulConnection_
   
-> [in] Номер подключения, связанный с регистрацией активных уведомлений. Значение _ulConnection_ должно быть возвращено предыдущим вызовом метода **IMsgStore::Advise.** 
+> [in] Номер подключения, связанный с активной регистрацией уведомлений. Значение _ulConnection_ должно быть возвращено предыдущим вызовом в **метод IMsgStore::Advise.** 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Регистрация успешно отменена.
+> Регистрация была успешно отменена.
     
 ## <a name="remarks"></a>Примечания
 
-Метод **IMsgStore::Unadvise** отменяет регистрацию для уведомления. **Unadvise** отпускает свой указатель на замещетель консультации звонящего, который он получил в вызове **advise,** используемом для регистрации. 
+Метод **IMsgStore::Unadvise** отменяет регистрацию для уведомления. **Unadvise** выпускает указатель на раковину рекомендации вызываемой, которую он получил в вызове **Advise,** используемом для регистрации. 
   
-Как правило, **Unadvise** вызывает метод [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) приемника рекомендации во время вызова **Unadvise.** Однако если в процессе вызова метода [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) приемника рекомендации вызывается другой поток, вызов **release** откладывается до тех пор, пока не будет возвращен метод **OnNotify.** 
+Как правило, **Unadvise** вызывает метод [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) в процессе вызова **Unadvise.** Однако если другой поток вызывает метод [IMAPIAdviseSink::OnNotify,](imapiadvisesink-onnotify.md) вызов выпуска откладывается до возвращения метода **OnNotify.**  
   
 ## <a name="see-also"></a>См. также
 

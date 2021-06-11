@@ -23,9 +23,9 @@ ms.locfileid: "32278732"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит уникальный двоичный сравнимый идентификатор (ключ записи) в хранилище сообщений, в котором находится объект.
+Содержит уникальный двоичный идентификатор (ключ записи) магазина сообщений, в котором находится объект.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ ms.locfileid: "32278732"
    
 ## <a name="remarks"></a>Примечания
 
-Для хранения сообщений это свойство идентично свойству PR_RECORD_KEY[(PidTagRecordKey).](pidtagrecordkey-canonical-property.md) 
+Для магазина сообщений это свойство идентично свойству **PR_RECORD_KEY** [(PidTagRecordKey).](pidtagrecordkey-canonical-property.md)
   
-Отношения между этим свойством **и** PR_RECORD_KEY такие же, как и отношения между **PR_STORE_ENTRYID** ([PidTagStoreEntryId)](pidtagstoreentryid-canonical-property.md)и **PR_ENTRYID** ([PidTagEntryId).](pidtagentryid-canonical-property.md)
+Связь между этим  свойством и PR_RECORD_KEY такая же, как и связь **между PR_STORE_ENTRYID**  [(PidTagStoreEntryId)](pidtagstoreentryid-canonical-property.md)и PR_ENTRYID [(PidTagEntryId).](pidtagentryid-canonical-property.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,9 +50,9 @@ ms.locfileid: "32278732"
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Преобразуется между IETF RFC2445, RFC2446 и RFC2447, а также объектами встреч и собраний.
+> Преобразования между объектами IETF RFC2445, RFC2446 и RFC2447, а также объектами назначения и собраний.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -72,5 +72,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

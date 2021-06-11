@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: f46e8aa3-d2c2-45a2-93fe-1c40107fbf16
-description: Указывает, следует ли использовать протокол SSL для учетной записи SMTP.
+description: Указывает, следует ли использовать протокол Secure Socket Layer (SSL) для учетной записи SMTP.
 ms.openlocfilehash: 64856322ec0afce80777417f781c22b927ed5e2d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33407076"
 ---
 # <a name="prop_smtp_ssl"></a>PROP_SMTP_SSL
 
-Указывает, следует ли использовать протокол SSL для учетной записи SMTP.
+Указывает, следует ли использовать протокол Secure Socket Layer (SSL) для учетной записи SMTP.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -25,11 +25,11 @@ ms.locfileid: "33407076"
 |Идентификатор:  <br/> |0x0202  <br/> |
 |Тип свойства:  <br/> |PT_DWORD  <br/> |
 |Тег свойства:  <br/> |0x02020003  <br/> |
-|Access:  <br/> |Только для чтения  <br/> |
+|Доступ:  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Нулевое значение означает, что не используется SSL-шифрование, в противном случае используется SSL-шифрование.
+Нулевое значение означает, что не используйте SSL-шифрование, в противном случае используйте шифрование SSL.
   
 ## <a name="see-also"></a>См. также
 

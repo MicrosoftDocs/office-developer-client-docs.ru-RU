@@ -17,8 +17,8 @@ ms.locfileid: "32299400"
 ---
 # <a name="getting-and-setting-properties-with-getprops-and-setprops"></a>Получение и установка свойств с помощью методов GetProps и SetProps
  
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-По возможности попробуйте получить или изменить свойство с помощью методов [IMAPIProp::GetProps](imapiprop-getprops.md) и [IMAPIProp::SetProps.](imapiprop-setprops.md) Если свойство, с чем вы работаете, не слишком большое, эти методы должны быть достаточными. Другой вариант — чтение из потока или его записи в поток с помощью [интерфейса IStream.](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) Потоки могут успешно обрабатывать очень большие свойства, но они требуют больше ресурсов, так как для них требуются библиотеки COM. Используйте **интерфейс IStream** только после сбой вызова **IMAPIProp::GetProps** или **IMAPIProp::SetProps.** 
+По возможности попробуйте получить или изменить свойство с помощью методов [IMAPIProp::GetProps](imapiprop-getprops.md) и [IMAPIProp::SetProps.](imapiprop-setprops.md) Если свойство, с чем вы работаете, не является очень большим, эти методы должны быть достаточными. Другой альтернативой является чтение или записи в поток с интерфейсом [IStream.](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) Потоки могут успешно обрабатывать очень крупные свойства, но они больше истощают ресурсы, так как для них требуются библиотеки com. Используйте **интерфейс IStream** только после сбой вызова **в IMAPIProp::GetProps** или **IMAPIProp::SetProps.** 
   
 

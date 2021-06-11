@@ -19,16 +19,16 @@ ms.locfileid: "33408945"
 ---
 # <a name="pidtagpstconfigurationflags-canonical-property"></a>Каноническое свойство PidTagPstConfigurationFlags
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Флажки конфигурации для личной таблицы хранения (PST-файла).
+Specfies configuration flags for a personal storage table (.pst file).
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_PST_CONFIG_FLAGS  <br/> |
 |Идентификатор:  <br/> |0x6770  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Внутренняя таблица личных хранилищ (PST)  <br/> |
+|Область:  <br/> |Внутренняя таблица персонального хранения (PST)  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -36,31 +36,31 @@ ms.locfileid: "33408945"
   
 PST_CONFIG_UNICODE
   
-> Указывает PST-файл Юникода. 
+> Указывает файл Unicode .pst. 
     
    `#define PST_CONFIG_UNICODE 0x80000000`
     
 PST_CONFIG_CREATE_NOWARN
   
-> Если для метода [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) заданная от флагов клиента, **configureMsgService** обрабатывается как вызов [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) и пропускает предупреждение "Эта служба сведений не настроена". 
+> При задав флажки клиента методу [IMsgServiceAdmin:::ConfigureMsgService,](imsgserviceadmin-configuremsgservice.md) можно **настроитьMsgService** как вызов [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) и пропустить предупреждение "Эта информационная служба не настроена". 
     
    `#define PST_CONFIG_CREATE_NOWARN 0x00000001`
     
 PST_CONFIG_PRESERVE_DISPLAY_NAME
   
-> Сообщает **ConfigureMsgService,** чтобы не изменять значение свойства **PR_DISPLAY_NAME** ([PidTagDisplayName),](pidtagdisplayname-canonical-property.md)даже если оно было предоставлено. В этом случае она была предоставлена только для новых PST-файлов.
+> Сообщает **ConfigureMsgService,** чтобы не **изменять** значение свойства [PR_DISPLAY_NAME (PidTagDisplayName),](pidtagdisplayname-canonical-property.md)даже если оно было поставлено. В этом случае она поставлялась только для новых файлов pst.
     
    `#define PST_CONFIG_PRESERVE_DISPLAY_NAME 0x00000002`
     
 OST_CONFIG_POLICY_DELAY_IGNORE_OST
   
-> Сообщает коду конфигурации, чтобы сначала отобразить диалоговое окно, чтобы подтвердить, что файл автономной папки (OST) найден, и, в зависимости от ответа пользователя, использовать найденную папку в автономном режиме или позволить пользователю найти другую папку в автономном режиме.
+> Сообщает коду конфигурации сначала отобразить диалоговое окно, чтобы подтвердить, найден ли файл автономной папки (.ost), и в зависимости от ответа пользователя используйте найденную офлайновую папку или введите пользователю возможность просмотра другой автономной папки.
     
    `#define OST_CONFIG_POLICY_DELAY_IGNORE_OST 0x00000008`
     
 OST_CONFIG_CREATE_NEW_DEFAULT
   
-> Копирует OST-файл с новым уникальным именем и удаляет текущее имя. Существующий OST-файл остается на компьютере, но больше не используется в этом профиле. Обычно это происходит, когда Microsoft Outlook больше не разрешает определенный OST-файл, а политики реестра не позволяют пользователю переименовывать файл. 
+> Копирует файл .ost с новым уникальным именем и отбрасывается текущее имя. Существующий файл .ost остается на компьютере, но больше не используется в этом профиле. Обычно это происходит, когда microsoft Outlook больше не разрешает определенный файл .ost, а политики реестра не позволяют пользователю переименовать файл. 
     
    `#define OST_CONFIG_CREATE_NEW_DEFAULT_OST 0x00000010`
     
@@ -72,7 +72,7 @@ OST_CONFIG_CREATE_NEW_DEFAULT
   
 > Содержит ссылки на связанные Exchange Server протоколы.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -80,7 +80,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -92,5 +92,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

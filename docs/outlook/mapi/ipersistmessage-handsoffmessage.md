@@ -23,9 +23,9 @@ ms.locfileid: "32309718"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вызывает освобождение текущего сообщения в форме.
+Вызывает выпуск текущего сообщения формы.
   
 ```cpp
 HRESULT HandsOffMessage( void );
@@ -39,7 +39,7 @@ HRESULT HandsOffMessage( void );
 
 S_OK 
   
-> Сообщение успешно освобождено.
+> Сообщение было успешно выпущено.
     
 ## <a name="remarks"></a>Примечания
 
@@ -49,15 +49,15 @@ S_OK
     
 - [HandsOffFromNormal](handsofffromnormal-state.md)
     
-Когда форма находится в любом из этих состояниях, она находится в процессе постоянного хранения. 
+Когда форма находится в любом из этих штатов, она находится в процессе хранения на постоянной основе. 
   
 ## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-Когда просматривающая форма вызывает метод **IPersistMessage::HandsOffMessage,** когда форма находится в состоянии [Normal](normal-state.md) или [NoScribble,](noscribble-state.md) рекурсивно вызовите **HandsOffMessage** для каждого сообщения, внедренного в текущее сообщение, и метод [IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) для каждого объекта OLE, внедренного в текущее сообщение. Затем отпустите текущее сообщение и все внедренные сообщения и объекты OLE. Если форма была в обычном состоянии, переходите в состояние HandsOffFromNormal. Если форма была в состоянии NoScribble, переходите в состояние HandsOffAfterSave. После успешного перехода вызовите метод [IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) сообщения и S_OK. 
+Если зритель формы вызывает **метод IPersistMessage::HandsOffMessage,** пока ваша форма находится в состоянии [Normal](normal-state.md) или [NoScribble,](noscribble-state.md) повторно вызывайте **HandsOffMessage** для каждого сообщения, встроенного в текущее сообщение, и метод [IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) для каждого объекта OLE, встроенного в текущее сообщение. Затем отпустите текущее сообщение и все встроенные сообщения и объекты OLE. Если форма была в нормальном состоянии, переходите в состояние HandsOffFromNormal. Если форма была в состоянии NoScribble, переходите в состояние HandsOffAfterSave. После успешного перехода позвоните в [метод IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) и S_OK. 
   
-Когда просмотр форм вызывает **HandsOffMessage,** когда форма находится в любом из состояниях handsOff, E_UNEXPECTED. 
+Когда зритель форм вызывает **HandsOffMessage,** пока ваша форма находится в любом из состояниях HandsOff, E_UNEXPECTED. 
   
-Дополнительные сведения о различных состояниях формы см. в [сведениях о состояниях форм.](form-states.md) Дополнительные сведения о работе с состоянием handsOff объектов хранилища см. в методе [IPersistStorage::HandsOffStorage.](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) 
+Дополнительные сведения о различных состояниях формы см. в дополнительных [сведениях о состояниях форм.](form-states.md) Дополнительные сведения о работе с состоянием handsOff объектов хранения см. в методе [IPersistStorage::HandsOffStorage.](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) 
   
 ## <a name="see-also"></a>См. также
 

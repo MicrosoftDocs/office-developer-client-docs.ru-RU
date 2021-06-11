@@ -19,9 +19,9 @@ ms.locfileid: "33407783"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Enumeration of supported types of callbacks.
+Переумеление поддерживаемых типов вызовов.
   
 ## <a name="quick-info"></a>Краткие сведения
 

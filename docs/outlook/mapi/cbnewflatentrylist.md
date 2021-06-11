@@ -23,9 +23,9 @@ ms.locfileid: "33407125"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет количество ветвей, которые должны быть выделены для новой структуры [FLATENTRYLIST,](flatentrylist.md) которая содержит несколько структур [FLATENTRY](flatentry.md) указанного размера. 
+Вычисляет количество bytes, которые должны быть выделены для новой структуры [FLATENTRYLIST,](flatentrylist.md) которая содержит несколько структур [FLATENTRY](flatentry.md) указанного размера. 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ ms.locfileid: "33407125"
 CbNewFLATENTRY (_cb)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
- __cb_
+ _ _cb_
   
-> Количествобайтов в **структурах FLATENTRY,** включаемого в новую структуру **FLATENTRYLIST.** 
+> Количество bytes в **структурах FLATENTRY,** которые будут включены в новую структуру **FLATENTRYLIST.** 
     
 ## <a name="see-also"></a>См. также
 

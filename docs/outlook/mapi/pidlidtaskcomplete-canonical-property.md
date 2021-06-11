@@ -23,7 +23,7 @@ ms.locfileid: "32303362"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Указывает, что задача завершена.
   
@@ -31,9 +31,9 @@ ms.locfileid: "32303362"
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidTaskComplete  <br/> |
 |Набор свойств:  <br/> |PSETID_Task  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x0000811C  <br/> |
+|Long ID (LID):  <br/> |0x0000811C  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Task  <br/> |
+|Область:  <br/> |Задача  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -41,13 +41,13 @@ ms.locfileid: "32303362"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Определяет несколько объектов, которые моделируют электронный эквивалент задач, назначений задач и обновлений задач. 
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -23,7 +23,7 @@ ms.locfileid: "33406810"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Создает объект данных свойства, то есть [объект IPropData.](ipropdataimapiprop.md) 
   
@@ -44,23 +44,23 @@ SCODE CreateIProp(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
-> [in] Указатель на идентификатор интерфейса (IID) для объекта данных свойства. Допустимым идентификатором интерфейса является IID_IMAPIPropData. При передаче NULL в параметр  _lpInterface_ объект данных свойства, возвращенный в параметре  _lppPropData,_ также приводится к стандартному интерфейсу для объекта данных свойства. 
+> [in] Указатель на идентификатор интерфейса (IID) для объекта данных свойства. Допустимый идентификатор интерфейса IID_IMAPIPropData. Передача NULL в  _параметре lpInterface_ также вызывает отбрасывку объекта данных свойства в  _параметре lppPropData_ в стандартный интерфейс объекта данных свойства. 
     
  _lpAllocateBuffer_
   
-> [in] Указатель на [функцию MAPIAllocateBuffer,](mapiallocatebuffer.md) которая используется для выделения памяти. 
+> [in] Указатель на [функцию MAPIAllocateBuffer,](mapiallocatebuffer.md) которая будет использоваться для выделения памяти. 
     
  _lpAllocateMore_
   
-> [in] Указатель на [функцию MAPIAllocateMore,](mapiallocatemore.md) которая используется для выделения дополнительной памяти. 
+> [in] Указатель на функцию [MAPIAllocateMore,](mapiallocatemore.md) которая будет использоваться для выделения дополнительной памяти. 
     
  _lpFreeBuffer_
   
-> [in] Указатель на [функцию MAPIFreeBuffer,](mapifreebuffer.md) которая используется для освободить память. 
+> [in] Указатель на функцию [MAPIFreeBuffer,](mapifreebuffer.md) которая будет использоваться для бесплатной памяти. 
     
  _lpvReserved_
   
@@ -68,7 +68,7 @@ SCODE CreateIProp(
     
  _lppPropData_
   
-> [out] Указатель на указатель на возвращенный объект данных свойства.
+> [вышел] Указатель на указатель на возвращенный объект данных свойства.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -82,6 +82,6 @@ MAPI_E_INTERFACE_NOT_SUPPORTED
     
 ## <a name="remarks"></a>Примечания
 
-Входные параметры  _lpAllocateBuffer,_  _lpAllocateMore_ и  _lpFreeBuffer_ указывают на функции [MAPIAllocateBuffer,](mapiallocatebuffer.md) [MAPIAllocateMore](mapiallocatemore.md)и [MAPIFreeBuffer](mapifreebuffer.md) соответственно. Клиентская приложение, **вызываемая CreateIProp,** передает указатели только что именовамым функциям MAPI; поставщик услуг передает указатели на эти функции, полученные в вызове инициализации или полученные с помощью вызова метода [IMAPISupport::GetMemAllocRoutines.](imapisupport-getmemallocroutines.md) 
+Параметры  _ввода lpAllocateBuffer_,  _lpAllocateMore_ и  _lpFreeBuffer_ указывают на функции [MAPIAllocateBuffer,](mapiallocatebuffer.md) [MAPIAllocateMore](mapiallocatemore.md)и [MAPIFreeBuffer](mapifreebuffer.md) соответственно. Клиентская **заявка, вызываемая CreateIProp,** передает указатели на только что названные функции MAPI; поставщик услуг передает указатели на эти функции, полученные в вызове инициализации или полученные с помощью вызова метода [IMAPISupport::GetMemAllocRoutines.](imapisupport-getmemallocroutines.md) 
   
 

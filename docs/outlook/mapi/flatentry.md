@@ -23,14 +23,14 @@ ms.locfileid: "33407244"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Структура [ENTRYID](entryid.md) и количество byte, которое определяет размер **структуры ENTRYID.** 
+Структура [ENTRYID](entryid.md) плюс количество byte, которое указывает размер **структуры ENTRYID.** 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные макросы:  <br/> |[cbFLATENTRY](cbflatentry.md), [CbNewFLATENTRY](cbnewflatentry.md) <br/> |
+|Связанные макрос:  <br/> |[cbFLATENTRY,](cbflatentry.md) [CbNewFLATENTRY](cbnewflatentry.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,7 +45,7 @@ typedef struct
 
  **cb**
   
-> Количествобайтов в **члене abEntry.** 
+> Количество bytes в **члене abEntry.** 
     
  **abEntry**
   
@@ -55,13 +55,13 @@ typedef struct
 
 Структура **FLATENTRY** похожа на [структуру ENTRYID.](entryid.md) Однако существуют некоторые различия: 
   
-- В **структуре FLATENTRY** хранится размер идентификатора записи; **ENTRYID** этого не делает. 
+- Структура **FLATENTRY** сохраняет размер идентификатора записи; **ENTRYID** этого не делает. 
     
-- Структура **FLATENTRY** сохраняет данные флага вместе с остальным идентификатором записи; **ENTRYID** хранит их отдельно. 
+- Структура **FLATENTRY** хранит данные флага вместе с остальным идентификатором записи; **ENTRYID** хранит их отдельно. 
     
-- Структура **FLATENTRY** используется для хранения идентификатора записи в файле или передачи его в потоке в битах, тогда как структура **ENTRYID** используется методами интерфейса [IMAPIProp](imapipropiunknown.md) и следующими методами **OpenEntry:** [IABLogon::OpenEntry](iablogon-openentry.md), [IAddrBook::OpenEntry](iaddrbook-openentry.md), [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md), [IMAPISupport::OpenEntry](imapisupport-openentry.md), [IMsgStore::OpenEntry](imsgstore-openentry.md), [IMSLogon::OpenEntry](imslogon-openentry.md)
+- Структура **FLATENTRY** используется для хранения идентификатора записи в файле или передачи его в потоке bytes, в то время как структура **ENTRYID** используется методами интерфейса [IMAPIProp](imapipropiunknown.md) и следующими методами **OpenEntry:** [IABLogon::OpenEntry](iablogon-openentry.md), [IAddrBook::OpenEntry](iaddrbook-openentry.md), [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md), [IMAPISupport::OpenEntry](imapisupport-openentry.md), [IMsgStore::OpenEntry](imsgstore-openentry.md), [IMSLogon::OpenEntry](imslogon-openentry.md)
     
-- Структура **FLATENTRY** используется для хранения идентификатора записи в файле или передачи его в потоке данных. Структура **ENTRYID** используется для хранения идентификатора записи на диске. 
+- Структура **FLATENTRY** используется для хранения идентификатора записи в файле или передачи его в потоке bytes. Структура **ENTRYID** используется для хранения идентификатора записи на диске. 
     
 ## <a name="see-also"></a>См. также
 

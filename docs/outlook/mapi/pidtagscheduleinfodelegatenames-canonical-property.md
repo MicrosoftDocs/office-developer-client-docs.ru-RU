@@ -23,7 +23,7 @@ ms.locfileid: "32314940"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит имена делегатов.
   
@@ -32,11 +32,11 @@ ms.locfileid: "32314940"
 |Связанные свойства:  <br/> |PR_SCHDINFO_DELEGATE_NAMES, PR_SCHDINFO_DELEGATE_NAMES_A, PR_SCHDINFO_DELEGATE_NAMES_W  <br/> |
 |Идентификатор:  <br/> |0x6844  <br/> |
 |Тип данных:  <br/> |PT_MV_STRING8, PT_MV_UNICODE  <br/> |
-|Область:  <br/> |Free/Busy  <br/> |
+|Область:  <br/> |Бесплатный/занятый  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Каждая запись в этих свойствах должна содержать значение свойства **PR_DISPLAY_NAME** ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)адресной книги каждого делегата.
+Каждая запись в этих свойствах должна содержать значение **свойства PR_DISPLAY_NAME** [(PidTagDisplayName)](pidtagdisplayname-canonical-property.md)адресной книги каждого делегата.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,9 +48,9 @@ ms.locfileid: "32314940"
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Указывает методы подключения и настройки почтовых ящиков в качестве делегатов, а также взаимодействия с объектами сообщений и календаря, когда они действуют от имени другого пользователя.
+> Указывает методы подключения к почтовым ящикам и настройки их в качестве делегатов, а также взаимодействия с объектами сообщений и календаря, когда они действуют от имени другого пользователя.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

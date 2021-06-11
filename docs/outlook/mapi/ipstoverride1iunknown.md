@@ -23,30 +23,30 @@ ms.locfileid: "32315500"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Позволяет поставщику файлов личных папок (PST) переопределять политику PSTDisableGrow.
+Позволяет поставщику файлов персональных папок (PST) переопределять политику PSTDisableGrow.
   
 |||
 |:-----|:-----|
-|Наследуется от:  <br/> |IUnknown  <br/> |
-|Реализовано в:  <br/> |Поставщик PST-магазина  <br/> |
+|Наследует от:  <br/> |IUnknown  <br/> |
+|Реализовано в:  <br/> |Поставщик магазинов PST  <br/> |
 |Вызывающая сторона:  <br/> |Клиент  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IPSTOVERRIDE1  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[IPSTOVERRIDE1::GetPersistedRegistrations](ipstoverride1-getpersistedregistrations.md) <br/> |Извлекает список регистраций для файла личных папок (PST).  <br/> |
-|[IPSTOVERRIDE1::SetPersistedRegistrations](ipstoverride1-setpersistedregistrations.md) <br/> |Регистрирует файлы личных папок для автоматической разблокировки, избегая дальнейших вызовов hrTrustedPSTOverrideHandlerCallback.  <br/> |
-|[IPSTOVERRIDE1::OverridePSTDisableGrow](ipstoverride1-overridepstdisablegrow.md) <br/> |Разблокирует файл личных папок для роста.  <br/> |
+|[IPSTOVERRIDE1::GetPersistedRegistrations](ipstoverride1-getpersistedregistrations.md) <br/> |Извлекает список регистраций для файла "Личные папки" (PST).  <br/> |
+|[IPSTOVERRIDE1::SetPersistedRegistrations](ipstoverride1-setpersistedregistrations.md) <br/> |Регистрирует файлы личных папок для автоматической разблокировки, избегая дополнительных вызовов в HrTrustedPSTOverrideHandlerCallback.  <br/> |
+|[IPSTOVERRIDE1::OverridePSTDisableGrow](ipstoverride1-overridepstdisablegrow.md) <br/> |Открывает файл личных папок для роста.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Идентификаторы интерфейса обработчиков переопределения PST-файлов могут быть не определены в загружаемом файле заголовщика, который вы найдете в разделе "Константы [MAPI"](mapi-constants.md) и сможете копировать и добавлять их в код. Используйте макрос DEFINE_GUID, определенный в файле guiddef.h файла загона SDK, чтобы связать символьные имена глобального уникального идентификатора (GUID) с их значениями. 
+Идентификаторы интерфейса обработчиков обработчиков PST не могут быть определены в файле загружаемых заголовок, который вы сейчас имеете, и в этом случае вы найдете их в разделе [MAPI Constants](mapi-constants.md) и сможете скопировать и добавить их в код. Используйте макрос DEFINE_GUID, определенный в файле guiddef.h Windows набора разработки программного обеспечения (SDK), чтобы связать символические имена глобального уникального идентификатора (GUID) с их значениями. 
   
-Дополнительные сведения см. в реализации обработора переопределения PST-данных для обхода [политики PSTDisableGrow в Outlook 2007.](https://support.microsoft.com/kb/956070)
+Дополнительные сведения см. в рубрике Как реализовать обработник переопределения PST для обхода политики [PSTDisableGrow в Outlook 2007 г.](https://support.microsoft.com/kb/956070)
   
 ## <a name="see-also"></a>См. также
 

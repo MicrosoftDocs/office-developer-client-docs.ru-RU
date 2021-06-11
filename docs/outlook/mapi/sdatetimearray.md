@@ -23,7 +23,7 @@ ms.locfileid: "33406782"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит массив значений времени, используемых для описания свойства типа PT_MV_SYSTIME.
   
@@ -44,7 +44,7 @@ typedef struct _SDateTimeArray
 
  **cValues**
   
-> Количество значений в массиве, на который указывает **член lpft.** 
+> Количество значений в массиве, на который указывает член **lpft.** 
     
  **lpft**
   
@@ -52,7 +52,7 @@ typedef struct _SDateTimeArray
     
 ## <a name="remarks"></a>Примечания
 
-Дополнительные сведения о PT_MV_SYSTIME [см. в списке типов свойств.](property-types.md)
+Дополнительные сведения о PT_MV_SYSTIME см. [в списке типов свойств.](property-types.md)
   
 ## <a name="see-also"></a>См. также
 

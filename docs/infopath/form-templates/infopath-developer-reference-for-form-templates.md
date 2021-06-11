@@ -7,7 +7,7 @@ ms.date: 11/16/2019
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- шаблоны форм [infopath 2007],managed code form templates [InfoPath 2007],reference [InfoPath 2007],managed code [InfoPath 2007],InfoPath 2007, reference
+- шаблоны форм [infopath 2007], управляемые шаблоны форм кода [InfoPath 2007], справка [InfoPath 2007], управляемый код [InfoPath 2007], InfoPath 2007, справка
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7610acc3-f705-4a38-968c-5b3a358efc90
@@ -27,10 +27,10 @@ ms.locfileid: "43102942"
   
 ## <a name="related-links"></a>См. также
 
-[Microsoft Office Центре разработчиков: документы](https://developer.microsoft.com/en-us/office/docs)
+[Microsoft Office Центр разработчиков: документы](https://developer.microsoft.com/en-us/office/docs)
   
 
-[Microsoft Accessibility](https://www.microsoft.com/en-us/accessibility/)
+[Специальные возможности Майкрософт](https://www.microsoft.com/en-us/accessibility/)
 
   
 

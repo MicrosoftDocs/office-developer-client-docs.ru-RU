@@ -23,7 +23,7 @@ ms.locfileid: "33407846"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Описывает свойство типа PT_BINARY.
   
@@ -44,7 +44,7 @@ typedef struct _SBinary
 
  **cb**
   
-> Количество в **lpb-члене.** 
+> Количество bytes в **члене lpb.** 
     
  **lpb**
   
@@ -52,7 +52,7 @@ typedef struct _SBinary
     
 ## <a name="remarks"></a>Примечания
 
-Сведения о типах свойств см. в обзоре [типов свойств MAPI.](mapi-property-type-overview.md)
+Сведения о типах свойств см. в [обзоре типов свойств MAPI.](mapi-property-type-overview.md)
   
 ## <a name="see-also"></a>См. также
 

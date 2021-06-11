@@ -23,9 +23,9 @@ ms.locfileid: "32359047"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит версию текста сообщения в формате HTML. 
+Содержит версию языка разметки Hypertext (HTML) текста сообщения. 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ ms.locfileid: "32359047"
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства содержат тот же текст сообщения, что и **PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation),](pidtagbodycontentlocation-canonical-property.md)но в HTML. 
+Эти свойства содержат тот же текст сообщения, что **и PR_BODY_CONTENT_LOCATION** [(PidTagBodyContentLocation),](pidtagbodycontentlocation-canonical-property.md)но в HTML. 
   
-Хранилище сообщений с поддержкой HTML указывает на это, **установив** флаг STORE_HTML_OK в своем PR_STORE_SUPPORT_MASK **(** [PidTagStoreSupportMask).](pidtagstoresupportmask-canonical-property.md) 
+Хранилище сообщений, поддерживаюное HTML, указывает на это,  **установив** флаг STORE_HTML_OK в PR_STORE_SUPPORT_MASK [(PidTagStoreSupportMask).](pidtagstoresupportmask-canonical-property.md) 
   
- **Обратите** **STORE_HTML_OK** не определено в версиях Mapidefs.h, включенных в Microsoft® Exchange 2000 Server и более ранних версий. Если **STORE_HTML_OK** не задопределена, используйте значение 0x00010000. 
+ **Примечание** **STORE_HTML_OK** не определяется в версиях Mapidefs.h, включенных в Microsoft® Exchange 2000 Server и ранее. Если **STORE_HTML_OK** не определилась, используйте значение 0x00010000. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -54,7 +54,7 @@ ms.locfileid: "32359047"
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -74,5 +74,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

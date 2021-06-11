@@ -21,20 +21,20 @@ ms.locfileid: "32300457"
   
 ## <a name="developer-resources"></a>Ресурсы разработчика
 
-- **Microsoft Office Справка InfoPath**: концептуальные и процедурные сведения о разработке шаблонов форм с помощью InfoPath. Чтобы получить доступ Microsoft Office InfoPath, выберите кнопку **"Справка"** в Microsoft InfoPath. Когда вы подключены к Интернету, дополнительный контент и обновленные разделы справки интегрируются в справку с веб-сайта Microsoft Office Online. 
+- **Microsoft Office InfoPath Help**: концептуальные и процедурные сведения о разработке шаблонов форм с помощью InfoPath. Чтобы получить Microsoft Office InfoPath Help, выберите кнопку **Справка** в Microsoft InfoPath. Когда вы подключены к Интернету, дополнительный контент и обновленные разделы справки интегрируются в справку с веб-сайта Microsoft Office Online. 
     
-- [Центр разработчиков InfoPath](https://go.microsoft.com/fwlink?LinkID=11689): этот веб-сайт содержит документы, примеры форм, инструменты, статьи и сведения о разработке шаблонов форм InfoPath.
+- [Центр разработчиков InfoPath.](https://go.microsoft.com/fwlink?LinkID=11689)Этот веб-сайт содержит документы, примеры форм, инструментов, статей и сведений о разработке шаблонов форм InfoPath.
     
-- **Microsoft SharePoint Server 2010 Software Developers Kit (SDK)**: концептуальные, процедурные и программные сведения для разработчиков, работающих с InfoPath Forms Services, которые входят в состав Microsoft SharePoint Server 2010. Дополнительные сведения см. в [Центре разработчиков SharePoint.](https://msdn.microsoft.com/sharepoint/default.aspx)
+- **Microsoft SharePoint Server 2010** набор разработчиков программного обеспечения (SDK) : концептуальные, процедурные и программные сведения для разработчиков, работающих с InfoPath Forms Services, которые включены в Microsoft SharePoint Server 2010 г. Дополнительные сведения см. в [SharePoint Центре разработчиков.](https://msdn.microsoft.com/sharepoint/default.aspx)
     
-- [Центр разработчиков Office:](https://go.microsoft.com/fwlink?LinkID=27128)сведения об использовании программ в Microsoft Office как платформы разработки. 
+- [Office](https://go.microsoft.com/fwlink?LinkID=27128)центра разработчиков: сведения об использовании программ в Microsoft Office в качестве платформы разработки. 
     
-- [Microsoft Developer Network (MSDN):](https://go.microsoft.com/fwlink?LinkId=61826)сведения о различных платформах и средствах разработки Корпорации Майкрософт.
+- [Microsoft Developer Network (MSDN)](https://go.microsoft.com/fwlink?LinkId=61826): Сведения о различных платформах и средствах разработки Майкрософт.
     
-- [Центр разработчиков XML](https://go.microsoft.com/fwlink/?LinkId=61827): сведения о разработке программ и служб, которые используют XML.
+- [Центр разработчиков XML:](https://go.microsoft.com/fwlink/?LinkId=61827)сведения о разработке программ и служб, которые используют XML.
     
-- [Центр разработчиков .NET Framework](https://go.microsoft.com/fwlink/?LinkId=61829): сведения о разработке программ и служб, которые используют .NET Framework.
+- [платформа .NET Framework разработчика](https://go.microsoft.com/fwlink/?LinkId=61829): Сведения о разработке программ и служб, которые используют платформа .NET Framework.
     
-- [Центр решений InfoPath](https://support.microsoft.com/ph/11303): сведения о InfoPath, такие как статьи базы знаний, предоставляемые службами поддержки Майкрософт.
+- [Центр решений InfoPath.](https://support.microsoft.com/ph/11303)Сведения о InfoPath, например статьи базы знаний, предоставляемые службами поддержки Майкрософт.
     
 

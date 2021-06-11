@@ -29,7 +29,7 @@ ms.locfileid: "32303523"
     
 В этой теме описана объектная модель, предоставляемая через сборку взаимодействия Microsoft.Office.Interop.InfoPath.SemiTrust и используемая исключительно для написания и запуска бизнес-логики с управляемым кодом в рамках шаблонов форм InfoPath (XSN). 
   
-Сведения о сборках Microsoft.Office.Interop.InfoPath и Microsoft.Office.Interop.InfoPath.Xml см. в документации по пространствам имен [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) [иMicrosoft.Office.Interop.InfoPath.Xml.](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) 
+Сведения о Корпорации Майкрософт. Office.Interop.InfoPath и Microsoft.Office.Interop.InfoPath.Xml сборки см. документацию по пространствам имен [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) [иMicrosoft.Office.Interop.InfoPath.Xml.](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) 
   
 ## <a name="important-installation-information"></a>Важные сведения об установке
 
@@ -39,15 +39,15 @@ ms.locfileid: "32303523"
   
 Сведения о загрузке пакета .NET Framework 2.0 Redistributable см. в статье [.NET Framework 2.0 Redistributable](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5).
   
-## <a name="the-microsoftofficeinteropinfopathsemitrust-namespace"></a>Пространство имен Microsoft.Office.Interop.InfoPath.SemiTrust
+## <a name="the-microsoftofficeinteropinfopathsemitrust-namespace"></a>The Microsoft. Office.Interop.InfoPath.SemiTrust пространство имен
 
 До выпуска Microsoft Office InfoPath 2003 с пакетом обновления 1 и набора инструментов Microsoft Office InfoPath 2003 для Visual Studio® .NET вся программная логика для шаблонов форм InfoPath создавалась с помощью скриптов Microsoft JScript и Microsoft VBScript, написанных в среде разработки редактора скриптов Microsoft (MSE). Скрипт, написанный в MSE, интерпретировался во время выполнения и получал доступ к объектной модели COM, предоставляемой библиотекой динамической компоновки IPEDITOR.dll.
   
-Для поддержки создания шаблонов форм, которые используют языки управляемого кода, такие как Visual C# и Visual Basic для программирования логики, в InfoPath добавлены функциональные возможности для размещения общей языковой цепи (CLR) и сборки межпрограммного управления Microsoft.Office.Interop.InfoPath.SemiTrust, чтобы обеспечить безопасное межпрограммное использование управляемого кода с объектной моделью COM, которая обеспечивается InfoPath. Сведения о модели безопасности, применяемой к шаблонам форм InfoPath с управляемым кодом, см. в сведениях о модели безопасности для шаблонов форм [с кодом.](about-the-security-model-for-form-templates-with-code.md) 
+Для поддержки создания шаблонов форм, которые используют языки управляемого кода, такие как Visual C# и Visual Basic для логики программирования, в InfoPath были добавлены функциональные возможности для размещения общего времени запуска языка (CLR) и Microsoft. Office.Interop.InfoPath.SemiTrust была создана для обеспечения безопасной связи управляемого кода с объектной моделью COM, выставленной InfoPath. Сведения о модели безопасности, применяемой к шаблонам форм управляемых кодов InfoPath, см. в примере Модель безопасности для шаблонов форм [с кодом.](about-the-security-model-for-form-templates-with-code.md) 
   
 Хотя процедура написания управляемого кода для конкретной задачи в шаблоне формы InfoPath крайне похожа на выполнение аналогичной задачи программирования путем написания скрипта, объектная модель, совместимая с InfoPath 2003, предоставляемая при просмотре пространства имен **Microsoft.Office.Interop.InfoPath.SemiTrust** из **Обозревателя объектов** в наборе Visual Studio 2012 выглядит гораздо сложнее. Это объясняется тем, что технология взаимодействия .NET Framework, используемая для поддержки объектной модели, совместимой с InfoPath 2003, требует, чтобы COM-сервер представлял все свои открытые интерфейсы, а также некоторые дополнительные конструкции, необходимые для самой платформы .NET Framework. 
   
-### <a name="how-com-objects-are-exposed-to-the-infopath-2003-compatible-object-model"></a>Как COM-объекты могут быть открыты для объектной модели, совместимой с InfoPath 2003
+### <a name="how-com-objects-are-exposed-to-the-infopath-2003-compatible-object-model"></a>Как объекты COM подвергаются воздействию совместимой объектной модели InfoPath 2003
 
 При работе непосредственно с COM-сервером на языках высокого уровня, таких как JScript, VBScript и Visual Basic (но не версии .NET языков Visual Basic и Visual C#) представляемая объектная модель проще, чем базовые классы и интерфейсы COM. Например, при работе с этими языками объект InfoPath **UI** предоставляет набор из семи методов, например метод **Alert** для отображения пользователям окна сообщения. 
   
@@ -71,7 +71,7 @@ ms.locfileid: "32303523"
   
 Из этой схемы именования существует три исключения. К именам интерфейсов компонентных классов для COM-объектов **Application** и **XDocument** не добавляется слово "Object". Их имена идентичны именам соответствующим COM-объектов: [Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) и **XDocument**. Кроме того, к именам интерфейсов, реализованных интерфейсами компонентных классов **Application** и **XDocument**, добавляется префикс в виде символа подчеркивания (_): [_Application2](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.aspx) и [_XDocument2](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.aspx) . Третьим исключением является COM-объект **DataObject**. Интерфейс компонентного класса для этого объекта называется [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) , но, как и для других COM-объектов InfoPath, интерфейс, реализующий его, называется [DataObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.aspx) . 
   
-### <a name="how-microsoft-xml-core-services-msxml-50-for-microsoft-office-objects-are-exposed-to-the-infopath-2003-compatible-object-model"></a>Как MSXML (MSXML) 5.0 для Microsoft Office объектной модели, совместимой с InfoPath 2003
+### <a name="how-microsoft-xml-core-services-msxml-50-for-microsoft-office-objects-are-exposed-to-the-infopath-2003-compatible-object-model"></a>Как MSXML (MSXML) 5.0 для Microsoft Office объекты подвергаются воздействию совместимой объектной модели InfoPath 2003
 
 Подмножество объектов и элементов объектной модели, предоставляемых службами MSXML, которые также являются COM-сервером, реализуется интерфейсами, предоставляемыми сборкой взаимодействия Microsoft.Office.Interop.InfoPath.SemiTrust. Необходимость в этом обусловлена тем, что некоторые элементы объектной модели InfoPath COM основываются на MSXML и должны иметь возможность безопасного доступа к этим элементам. Имена интерфейсов в пространстве имен **Microsoft.Office.Interop.InfoPath.SemiTrust**, реализующем объекты и элементы объектной модели MSXML идентичны именам, предоставляемым COM-сервером MSXML. В большинстве случаев к этим именам добавляется префикс "IXMLDOM", поскольку они используются для работы с моделью XML DOM. Например, свойство [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DOM.aspx) интерфейса **XDocument**, которое используется для возвращения ссылки на базовый XML-документ формы, возвращает интерфейс [IXMLDOMDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.IXMLDOMDocument.aspx) , который реализуется сборкой взаимодействия Microsoft.Office.Interop.InfoPath.SemiTrust. Вызов и использование элементов интерфейса **IXMLDOMDocument** осуществляется в целом аналогично использованию скрипта в шаблонах форм, не использующих управляемый код. 
   
@@ -91,7 +91,7 @@ thisXDocument.UI.Alert(thisApplication.Version);
 thisXDocument.UI.Alert(thisApplication.Version)
 ```
 
-### <a name="using-the-class-library-reference-documentation"></a>Использование справочной документации по библиотеке классов
+### <a name="using-the-class-library-reference-documentation"></a>Использование справочной документации библиотеки классов
 
 Организация ссылочной документации библиотеки классов пространства имен **Microsoft.Office.Interop.InfoPath.SemiTrust** отражает взаимоотношения между интерфейсами компонентных классов и унаследованными интерфейсами, которые они реализуют. Это описано в предыдущем разделе "Представление COM-объектов для управляемого кода" этой статьи. 
   
@@ -101,7 +101,7 @@ thisXDocument.UI.Alert(thisApplication.Version)
   
 Если в редакторе кода нажать клавишу F1, то процедура будет аналогична, за исключением того, что элемент, по которому вызвана справка, будет отображен непосредственно, поскольку работа, как правило, осуществляется с элементами интерфейса. Однако тот факт, что элемент может быть реализован из интерфейса с контролем версий, может создать неопределенность при первом его появлении. Например, если ввести команду  `thisXDocument.UI.Alert`, установить курсор на  `Alert` и нажать клавишу F1, отобразится раздел "UI2.Alert Method". Это объясняется тем, что метод **Alert** является реализацией члена интерфейса **UI2**. 
   
-### <a name="passing-optional-parameters-to-infopath-object-model-members"></a>Передача необязательных параметров членам объектной модели InfoPath
+### <a name="passing-optional-parameters-to-infopath-object-model-members"></a>Передача необязательных параметров участникам объектной модели InfoPath
 
 Если элемент объектной модели, совместимой с InfoPath 2003, содержит необязательный параметр, и значение этого параметра не указано, то вместо значения необходимо передать поле **Type.Missing**. Если не произвести передачу поля **Type.Missing**, когда его фактическое значение опущено, это может привести к ошибке построения. Это действительно для кода, написанного как на Visual C#, так и на Visual Basic. Например, метод [SelectNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SelectNodes.aspx) интерфейса [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewObject.aspx) включает два необязательных параметра:  _varEndNode_ и  _varViewContext_. Строка кода, в которой не определены фактические значения для этих необязательных параметров, должна выглядеть так, как показано в следующих примерах.
   
@@ -117,14 +117,14 @@ Dim group1 As IXMLDOMNode = _
 thisXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing)
 ```
 
-### <a name="about-common-language-specification-compliance"></a>О соответствии спецификаций общих языков
+### <a name="about-common-language-specification-compliance"></a>О соответствии спецификаций общего языка
 
 С точки зрения внутренней структуры каждый интерфейс и элемент в сборке Microsoft.Office.Interop.InfoPath.SemiTrust использует атрибут **CLSCompliant** со значением **false**. Поскольку справочная документация создается с использованием, в том числе, **System.Reflection**, то к описанию каждого интерфейса и элемента добавляется строка "Этот интерфейс (метод/свойство) несовместим с CLS". Однако фактически большинство интерфейсов и элементов пространства имен [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) совместимо с CLS. 
   
 ## <a name="see-also"></a>См. также
 
 - [Типичные задачи по разработке шаблонов форм, использующих объектную модель InfoPath 2003](common-tasks-for-developing-form-templates-using-infopath-object-model.md)
-- [О модели безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
+- [О модели безопасности шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
 - [Создание шаблонов форм с помощью объектной модели InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
 - [Ознакомление с объектной моделью InfoPath 2003](understanding-the-infopath-2003-object-model.md)
 

@@ -19,7 +19,7 @@ ms.locfileid: "32359565"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит поток сообщений, связанный с подклассом **классаIPM.Configuration.** 
   
@@ -32,7 +32,7 @@ ms.locfileid: "32359565"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство содержит поток данных, связанный с сообщениемIPM.Config **uration** message. Формат потока зависит от класса сообщения. Например, сообщение типа классаIPM.Config **uration. Autocomplete** would be formatted as an [Autocomplete Stream](autocomplete-stream.md).
+Это свойство содержит поток данных, связанный с сообщением **IPM.Configкласса uration.** Формат потока зависит от класса сообщения. Например, сообщение типа классаIPM.Config **uration. Автокомплект** будет форматироваться как [поток автокомплетов.](autocomplete-stream.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -46,7 +46,7 @@ ms.locfileid: "32359565"
   
 > Указывает расположение и свойства данных конфигурации клиента и сервера, например списки общих категорий и рабочие часы.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -54,7 +54,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -66,5 +66,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

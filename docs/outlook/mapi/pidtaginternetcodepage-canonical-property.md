@@ -23,9 +23,9 @@ ms.locfileid: "32285135"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает кодовую страницу, используемую для PR_BODY **(** [PidTagBody)](pidtagbody-canonical-property.md)или PR_BODY_HTML **(** [PidTagBodyHtml).](pidtagbodyhtml-canonical-property.md)
+Указывает страницу кода, используемую для **свойств PR_BODY** [(PidTagBody)](pidtagbody-canonical-property.md)или **PR_BODY_HTML** [(PidTagBodyHtml).](pidtagbodyhtml-canonical-property.md)
   
 |||
 |:-----|:-----|
@@ -46,7 +46,7 @@ ms.locfileid: "32285135"
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -66,5 +66,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

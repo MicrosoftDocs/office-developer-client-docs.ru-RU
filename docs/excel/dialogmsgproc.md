@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - DIALOGMsgProc
 keywords:
-- dialogmsgproc function [excel 2007]
+- функция dialogmsgproc [Excel 2007]
 localization_priority: Normal
 ms.assetid: 9a538e83-ba34-4806-bb8c-7cda3beb6b66
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,35 +22,35 @@ ms.locfileid: "33406516"
 
 **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Эта процедура связана с диалоговом окне Windows, [отображаемом fShowDialog.](fshowdialog.md) Он предоставляет процедуры обслуживания, которые Windows вызвал для событий (сообщений), которые происходят, когда пользователь работает с одной из кнопок диалоговых окон, полей ввода или элементов управления. 
+Эта процедура связана с родной диалоговой Windows, отображаемой [fShowDialog.](fshowdialog.md) Он предоставляет процедуры службы, Windows для событий (сообщений), которые происходят, когда пользователь управляет одной из кнопок диалоговых окне, полей входа или элементов управления. 
   
 ```cs
 BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lParam);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
- _hWndDlg_ (**HWND)**
+ _hWndDlg_ **(HWND)**
   
-Содержит HWND-окне Windows диалоговых окон.
+Содержит ручку HWND Windows диалоговом окне.
   
- _message_ **(UINT)**
+ _сообщение_ **(UINT)**
   
-Сообщение, на которое необходимо ответить.
+Сообщение, на которое нужно ответить.
   
  _wParam_ **(WPARAM)**
   
- _lParam_ (**LPARAM)**
+ _lParam_ **(LPARAM)**
   
 Аргументы, переданные Windows.
   
 ## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
- **TRUE,** если сообщение обработано, **false,** если нет. 
+ **TRUE,** если сообщение обработано, **FALSE,** если нет. 
   
 ### <a name="example"></a>Пример
 
-См.  `\SAMPLES\GENERIC\GENERIC.C` исходный код для этой функции. 
+См.  `\SAMPLES\GENERIC\GENERIC.C` исходный код этой функции. 
   
 ## <a name="see-also"></a>См. также
 
