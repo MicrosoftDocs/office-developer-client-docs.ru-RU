@@ -23,7 +23,7 @@ ms.locfileid: "32341225"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит тип адреса пользователя обмена сообщениями, от имени которого было отправлено исходное сообщение.
   
@@ -36,9 +36,9 @@ ms.locfileid: "32341225"
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства являются типом исходного представленного отправитель сообщения. Они используются в цепочке бесед.
+Эти свойства являются типом исходного представленного отправитель сообщения. Они используются в потоке беседы.
   
-Клиентские приложения, отправляющие сообщение от имени другого клиента, должны установить для этих свойств значение **свойства PR_SENT_REPRESENTING_ADDRTYPE** ([PidTagSentRepresentingAddressType)](pidtagsentrepresentingaddresstype-canonical-property.md)при первой отправке сообщения. После этого его не следует менять.
+Клиентская заявка, отправляя сообщение от имени другого **клиента,** должна установить эти свойства к значению свойства [PR_SENT_REPRESENTING_ADDRTYPE (PidTagSentRepresentingAddressType)](pidtagsentrepresentingaddresstype-canonical-property.md)при первой отправке сообщения. После набора его не следует менять.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,9 +50,9 @@ ms.locfileid: "32341225"
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
+> Указывает свойства и операции, допустимые на объектах сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -72,5 +72,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

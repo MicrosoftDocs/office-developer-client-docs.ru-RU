@@ -23,16 +23,16 @@ ms.locfileid: "32356523"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает, прочитана ли строка таблицы.
+Указывает, была ли прочитана строка таблицы.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_READ  <br/> |
 |Идентификатор:  <br/> |0x0E69  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |MAPI, не передаваемый  <br/> |
+|Область:  <br/> |MAPI, не передаваемая  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -46,7 +46,7 @@ ms.locfileid: "32356523"
   
 > Включает допустимые операции для основных объектов таблицы.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -66,5 +66,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

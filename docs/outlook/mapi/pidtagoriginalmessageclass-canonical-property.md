@@ -23,7 +23,7 @@ ms.locfileid: "32342625"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит класс исходного сообщения для использования в отчете.
   
@@ -32,11 +32,11 @@ ms.locfileid: "32342625"
 |Связанные свойства:  <br/> |PR_ORIG_MESSAGE_CLASS, PR_ORIG_MESSAGE_CLASS_A, PR_ORIG_MESSAGE_CLASS_W  <br/> |
 |Идентификатор:  <br/> |0x004B  <br/> |
 |Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Область:  <br/> |Свойства безопасной системы обмена сообщениями  <br/> |
+|Область:  <br/> |Безопасные свойства обмена сообщениями  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства содержат копию свойства **PR_MESSAGE_CLASS** ([PidTagMessageClass)](pidtagmessageclass-canonical-property.md)сообщения, для которого создается отчет.
+Эти свойства содержат копию свойства **PR_MESSAGE_CLASS** [(PidTagMessageClass)](pidtagmessageclass-canonical-property.md)сообщения, для которого создается отчет.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "32342625"
   
 > Кодирует и декодирует объекты сообщений и вложений в эффективное представление потока.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -58,7 +58,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -23,7 +23,7 @@ ms.locfileid: "32355659"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит копию даты и времени доставки исходного сообщения в потоке. 
   
@@ -36,7 +36,7 @@ ms.locfileid: "32355659"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство копируется из исходного **свойства PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime)](pidtagmessagedeliverytime-canonical-property.md)в последующих операциях ответа или переададации и используется в отчетах о прочтенных и непрочитаных сообщениях. В отчетах о доставке используется **свойство PR_DELIVER_TIME** ([PidTagDeliverTime).](pidtagdelivertime-canonical-property.md)
+Это свойство копируется из исходного **свойства PR_MESSAGE_DELIVERY_TIME** [(PidTagMessageDeliveryTime)](pidtagmessagedeliverytime-canonical-property.md)в последующих операциях ответа или переадпортации и используется в отчетах чтения и непрочитания. Отчеты о доставке **используют свойство PR_DELIVER_TIME** [(PidTagDeliverTime).](pidtagdelivertime-canonical-property.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,9 +48,9 @@ ms.locfileid: "32355659"
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
+> Указывает свойства и операции, допустимые на объектах сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

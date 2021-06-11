@@ -23,21 +23,21 @@ ms.locfileid: "32350857"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает точку во времени, когда напоминание переходит из ожидающих сообщений в просроченные.
+Указывает время перехода напоминания из ожидающих в просрочки.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidReminderNextTime  <br/> |
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008560  <br/> |
+|Long ID (LID):  <br/> |0x00008560  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Reminder  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство должно быть установлено, если свойство **dispidReminderSet** ([PidLidReminderSet)](pidlidreminderset-canonical-property.md)имеет true. Клиенты должны установить значение в UTC.
+Это свойство должно быть установлено, если **свойство dispidReminderSet** [(PidLidReminderSet)](pidlidreminderset-canonical-property.md)является TRUE. Клиенты должны установить значение в координируется универсальное время (UTC).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32350857"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Указывает свойства и модель взаимодействия для электронной почты и других напоминаний об объектах.
+> Указывает свойства и модель взаимодействия для электронной почты и других напоминаний объектов.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Каноническое свойство PidTagMemberId
+title: Каноническое свойство PidTagMemberid
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32342639"
 ---
-# <a name="pidtagmemberid-canonical-property"></a>Каноническое свойство PidTagMemberId
+# <a name="pidtagmemberid-canonical-property"></a>Каноническое свойство PidTagMemberid
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификатор члена таблицы с описанными правами на Microsoft Exchange Server папке или почтовом ящике.
+Содержит идентификатор члена таблицы, который имеет описанные права на Microsoft Exchange Server папке или почтовом ящике.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "32342639"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство возвращает уникальный идентификатор таблицы. Идентификатор пользователя каталога связан с каждым идентификатором участника и задается этим свойством. Это свойство используется интерфейсом [IExchangeModifyTable](iexchangemodifytableiunknown.md) для получения идентификатора записи каталога члена с явными правами на папку. 
+Это свойство возвращает идентификатор, уникальный для таблицы. Идентификатор пользователя каталога связан с каждым идентификатором участника и дается этим свойством. Это свойство используется [интерфейсом IExchangeModifyTable](iexchangemodifytableiunknown.md) для получения идентификатора записи каталога участника с явными правами на папку. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,9 +48,9 @@ ms.locfileid: "32342639"
     
 [[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> Обрабатывает и получить списки разрешений папок, хранимые на сервере.
+> Обрабатывает ирисовку списков разрешений папок, хранимых на сервере.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -73,5 +73,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

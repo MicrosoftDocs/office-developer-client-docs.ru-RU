@@ -23,9 +23,9 @@ ms.locfileid: "32345719"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит дату и время отправки сообщения отправив сообщение. 
+Содержит дату и время отправки сообщения отправителю сообщения. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "32345719"
    
 ## <a name="remarks"></a>Примечания
 
-Поставщик магазина задает **PR_CLIENT_SUBMIT_TIME** время, в которое клиентский приложение называло [IMessage::SubmitMessage.](imessage-submitmessage.md) 
+Поставщик магазина задает **PR_CLIENT_SUBMIT_TIME** время, которое клиентская заявка называется [IMessage::SubmitMessage](imessage-submitmessage.md). 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -46,7 +46,7 @@ ms.locfileid: "32345719"
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -66,5 +66,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

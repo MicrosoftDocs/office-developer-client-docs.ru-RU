@@ -23,9 +23,9 @@ ms.locfileid: "32339875"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Предоставляет сведения о типе файла для вложения, не вложенного в Windows.
+Предоставляет сведения о типе файла для не Windows вложения.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "32339875"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство предоставляет метаданные о конкретном вложении на основе его кодивности. Например, если свойство **PR_ATTACH_ENCODING** ([PidTagAttachEncoding)](pidtagattachencoding-canonical-property.md)содержит MacBinary, **PR_ATTACH_ADDITIONAL_INFO** содержит строку, представляюную создателя файла Macintosh и тип файла в формате ":CREA:TYPE" для закодированного файла Macintosh. 
+Это свойство предоставляет метаданные о конкретном вложении на основе кодиза вложения. Например, если **свойство PR_ATTACH_ENCODING** [(PidTagAttachEncoding)](pidtagattachencoding-canonical-property.md)содержит MacBinary, **PR_ATTACH_ADDITIONAL_INFO** содержит строку, представляюную создателя и тип файла Macintosh, форматированную как ":CREA:TYPE" для закодированного файла Macintosh. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -46,7 +46,7 @@ ms.locfileid: "32339875"
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -66,5 +66,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

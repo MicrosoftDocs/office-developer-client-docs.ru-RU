@@ -21,52 +21,52 @@ ms.locfileid: "32348960"
 ---
 # <a name="iabcontainer--imapicontainer"></a>IABContainer : IMAPIContainer
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Предоставляет доступ к контейнерам адресной книги. MAPI и клиентские приложения вызывали методы **IABContainer** для разрешения имен и создания, копирования и удаления получателей. 
+Предоставляет доступ к контейнерам адресной книги. MAPI и клиентские приложения называют методы **IABContainer** для выполнения разрешения имен и создания, копирования и удаления получателей. 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Выставим:  <br/> |Объекты контейнеров адресной книги  <br/> |
+|Подвергается:  <br/> |Объекты контейнера адресной книги  <br/> |
 |Реализовано в:  <br/> |Поставщики адресных книг  <br/> |
 |Вызывающая сторона:  <br/> |MAPI и клиентские приложения  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IABContainer  <br/> |
 |Тип указателя:  <br/> |LPABCONT  <br/> |
-|Модель транзакций:  <br/> |Transacted  <br/> |
+|Модель транзакции:  <br/> |Transacted  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[CreateEntry](iabcontainer-createentry.md) <br/> |Создает новую запись, которая может быть пользователем системы обмена сообщениями, списком рассылки или другим контейнером.  <br/> |
-|[CopyEntries](iabcontainer-copyentries.md) <br/> |Копирует одну или несколько записей, как правило, для обмена сообщениями с пользователями или списками рассылки.  <br/> |
-|[DeleteEntries](iabcontainer-deleteentries.md) <br/> |Удаляет одну или несколько записей, обычно для обмена сообщениями пользователей, списков рассылки или других контейнеров.  <br/> |
+|[CreateEntry](iabcontainer-createentry.md) <br/> |Создает новую запись, которая может быть пользователем обмена сообщениями, списком рассылки или другим контейнером.  <br/> |
+|[CopyEntries](iabcontainer-copyentries.md) <br/> |Копирует одну или несколько записей, как правило, пользователей сообщений или списки рассылки.  <br/> |
+|[DeleteEntries](iabcontainer-deleteentries.md) <br/> |Удаляет одну или несколько записей, как правило, пользователей сообщений, списки рассылки или другие контейнеры.  <br/> |
 |[ResolveNames](iabcontainer-resolvenames.md) <br/> |Выполняет разрешение имен для одной или более записей получателей.  <br/> |
    
 |**Обязательные свойства**|**Access**|
 |:-----|:-----|
-|**PR_CONTAINER_FLAGS** ([PidTagContainerFlags)](pidtagcontainerflags-canonical-property.md)  <br/> |Чтение и запись  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)  <br/> |Чтение и запись  <br/> |
-|**PR_ENTRYID** ([PidTagEntryId)](pidtagentryid-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_OBJECT_TYPE** ([PidTagObjectType)](pidtagobjecttype-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_RECORD_KEY** ([PidTagRecordKey)](pidtagrecordkey-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_CONTAINER_FLAGS** [(PidTagContainerFlags)](pidtagcontainerflags-canonical-property.md)  <br/> |Чтение и запись  <br/> |
+|**PR_DISPLAY_NAME** [(PidTagDisplayName)](pidtagdisplayname-canonical-property.md)  <br/> |Чтение и запись  <br/> |
+|**PR_ENTRYID** [(PidTagEntryId)](pidtagentryid-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_OBJECT_TYPE** [(PidTagObjectType)](pidtagobjecttype-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_RECORD_KEY** [(PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
    
 |**Необязательные свойства**|**Access**|
 |:-----|:-----|
-|**PR_CONTAINER_CONTENTS** ([PidTagContainerContents)](pidtagcontainercontents-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy)](pidtagcontainerhierarchy-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_DEF_CREATE_MAILUSER** ([PidTagDefCreateMailuser)](pidtagdefcreatemailuser-canonical-property.md)  <br/> |Только для чтения  <br/> |
-|**PR_DISPLAY_TYPE** ([PidTagDisplayType)](pidtagdisplaytype-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_CONTAINER_CONTENTS** [(PidTagContainerContents)](pidtagcontainercontents-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_CONTAINER_HIERARCHY** [(PidTagContainerHierarchy)](pidtagcontainerhierarchy-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_DEF_CREATE_DL** [(PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_DEF_CREATE_MAILUSER** [(PidTagDefCreateMailuser)](pidtagdefcreatemailuser-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_DISPLAY_TYPE** [(PidTagDisplayType)](pidtagdisplaytype-canonical-property.md)  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Интерфейс **IABContainer** косвенно наследуется от интерфейса [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) через [интерфейс IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md) и [IMAPIProp : интерфейсы IUnknown.](imapipropiunknown.md) Поставщики адресных книг реализуют **интерфейс IABContainer.** 
+Интерфейс **IABContainer** косвенно наследуется от интерфейса IUnknown через [интерфейс IMAPIContainer: IMAPIProp и IMAPIProp:](imapicontainerimapiprop.md) интерфейсы [IUnknown.](imapipropiunknown.md) [](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) Поставщики адресных книг реализуют **интерфейс IABContainer.** 
   
-В контейнере адресной книги может существовать любое количество объектов пользователей системы обмена сообщениями, списков рассылки и других контейнеров адресной книги. Как и в случае с любым контейнером, клиенты или поставщики услуг могут использовать контейнер адресной книги для открытия одной из записей или для извлечения таблицы иерархии или таблицы содержимого. Контейнеры адресной книги также обеспечивают разрешение имен и, в зависимости от поставщика, возможность добавления, удаления или изменения записей.
+Любое количество объектов пользователей обмена сообщениями, списков рассылки и других контейнеров адресной книги может существовать в контейнере адресной книги. Как и в любом контейнере, клиенты или поставщики услуг могут использовать контейнер адресной книги для открытия одной из его записей или получения таблицы иерархии или таблицы содержимого. Контейнеры адресной книги также предоставляют разрешение имен и, в зависимости от поставщика, возможность добавлять, удалять или изменять записи.
   
-MAPI определяет специальный контейнер адресной книги под названием "личная адресная книга", который содержит записи, скопированные из других контейнеров. PAB всегда можно модификабельно. Пользователи обычно заполняют свою PAB записями, указывающими получателей, с которыми они чаще всего общаются. В PAB также могут быть разротные адреса, а новые получатели еще не являются частью контейнера адресной книги.
+MAPI определяет специальный контейнер адресной книги под названием личная адресная книга (PAB), который содержит записи, скопированные из других контейнеров. PAB всегда можно модификабельно. Обычно пользователи заполняют свои PAB записями, обозначающие получателей, с которыми они чаще всего общаются. Кроме того, PAB может держать разовую адресную часть, а новые получатели еще не являются частью контейнера адресной книги.
   
 ## <a name="see-also"></a>См. также
 

@@ -23,7 +23,7 @@ ms.locfileid: "32342513"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор записи папки, в которой сообщение должно быть перемещено после отправки.
   
@@ -32,13 +32,13 @@ ms.locfileid: "32342513"
 |Связанные свойства:  <br/> |PR_SENTMAIL_ENTRYID  <br/> |
 |Идентификатор:  <br/> |0x0E0A  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |MAPI, не передаваемый  <br/> |
+|Область:  <br/> |MAPI, не передаваемая  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство часто копируется из свойства **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId),](pidtagipmsentmailentryid-canonical-property.md)стандартной папки "Отправленные" клиентского приложения.
+Это свойство часто копируется из **свойства PR_IPM_SENTMAIL_ENTRYID** [(PidTagIpmSentMailEntryId),](pidtagipmsentmailentryid-canonical-property.md)стандартной папки отправленных элементов клиентского приложения.
   
-Клиентские приложения используют это свойство со свойством **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit)](pidtagdeleteaftersubmit-canonical-property.md)для управления тем, что происходит с сообщением после его отправки. Следует установить один или несколько из них, но не оба.
+Клиентские приложения используют это свойство с **свойством PR_DELETE_AFTER_SUBMIT** [(PidTagDeleteAfterSubmit)](pidtagdeleteaftersubmit-canonical-property.md)для управления тем, что происходит с сообщением после его отправки. Либо один, либо другой должны быть установлены, но не оба.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,13 +50,13 @@ ms.locfileid: "32342513"
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
+> Указывает свойства и операции, допустимые для объектов сообщений электронной почты.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Преобразуется между IETF RFC2445, RFC2446 и RFC2447, а также объектами встреч и собраний.
+> Преобразования между объектами IETF RFC2445, RFC2446 и RFC2447, а также объектами назначения и собраний.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -76,5 +76,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -23,7 +23,7 @@ ms.locfileid: "32344970"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит список всех отправимых участников, которые также являются необязательными участниками.
   
@@ -31,13 +31,13 @@ ms.locfileid: "32344970"
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidCCAttendeesString  <br/> |
 |Набор свойств:  <br/> |PSETID_Appointment  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x0000823C  <br/> |
+|Long ID (LID):  <br/> |0x0000823C  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Собрания  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Значением для каждого участника является **PR_DISPLAY_NAME** ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)адресной книги участника. Разделимые записи должны разделяться за осью с заосью, за которой следует пробел. Это свойство не требуется.
+Значение для каждого участника — **PR_DISPLAY_NAME** [(PidTagDisplayName)](pidtagdisplayname-canonical-property.md)адресной книги участника. Отдельные записи должны быть делимитированы полуколоном, за которым следует пробел. Это свойство не требуется.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,17 +45,17 @@ ms.locfileid: "32344970"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения наборов свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Преобразуется между IETF RFC2445, RFC2446 и RFC2447, а также объектами встреч и собраний.
+> Преобразования между объектами IETF RFC2445, RFC2446 и RFC2447, а также объектами назначения и собраний.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -71,5 +71,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -23,7 +23,7 @@ ms.locfileid: "32345376"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Представляет дату и время начала встречи.
   
@@ -31,13 +31,13 @@ ms.locfileid: "32345376"
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidApptStartWhole  <br/> |
 |Набор свойств:  <br/> |PSETID_Appointment  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x0000820D  <br/> |
+|Long ID (LID):  <br/> |0x0000820D  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Календарь  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство указывает дату и время начала события. Это свойство должно быть в UTC и должно быть меньше значения свойства **dispidApptEndWhole** ([PidLidAppointmentEndWhole).](pidlidappointmentendwhole-canonical-property.md) Для повторяющегося ряда это свойство является датой и временем начала первого экземпляра в соответствии с шаблоном повторения.
+Это свойство указывает дату начала и время события. Это свойство должно быть в согласованном универсальном времени (UTC) и должно быть меньше значения свойства **dispidApptEndWhole** [(PidLidAppointmentEndWhole).](pidlidappointmentendwhole-canonical-property.md) Для повторяющейся серии это свойство является датой начала и временем первой инстанции в соответствии с шаблоном повторения.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32345376"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определение набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определение набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

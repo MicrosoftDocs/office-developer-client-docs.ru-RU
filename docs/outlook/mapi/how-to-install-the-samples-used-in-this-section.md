@@ -17,69 +17,69 @@ ms.locfileid: "32345551"
 ---
 # <a name="install-the-samples-used-in-this-section"></a>Установка примеров, используемых в этом разделе
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Чтобы установить приложение MFCMAPI и проект CreateOutlookItemsAddin для просмотра и запуска примера кода, на который ссылается раздел в разделе "Создание элементов Outlook с помощью [MAPI",](creating-outlook-items-by-using-mapi.md) выполните следующие действия. 
+Чтобы установить приложение MFCMAPI и проект CreateOutlookItemsAddin для просмотра и запуска примера кода, на который ссылается тема в разделе Создание элементов Outlook с помощью [mapi,](creating-outlook-items-by-using-mapi.md) выполните следующие действия. 
 
 Чтобы скачать и установить примеры, используемые в разделе "Использование MAPI для создания элементов Outlook", выполните следующие действия.
 
 ### <a name="to-download-and-install-the-mfcmapi-application-and-open-createoutlookitemsaddin-project"></a>Загрузка и установка приложения MFCMAPI и открытие проекта CreateOutlookItemsAddin
 
-1. Скачайте текущую версию [исполняемого MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154) в папку в системе. 
+1. Скачайте текущую версию [MFCMAPI,](https://go.microsoft.com/fwlink/?LinkID=124154) исполняемую в папку в вашей системе. 
     
-2. Извлекать MFCMapi.exe в MFCMapi.exe. _zip_ версии в пустую папку на жестком диске.
+2. Извлечение MFCMapi.exe в MFCMapi.exe. _версия_.zip в пустую папку на жестком диске.
     
-3. Скачайте текущую версию проекта [CreateOutlookItemsAddin.](https://go.microsoft.com/fwlink/?LinkID=127828) 
+3. Скачайте текущую версию [проекта CreateOutlookItemsAddin.](https://go.microsoft.com/fwlink/?LinkID=127828) 
     
-4. Извлекаете все файлы из CreateOutlookItemsAddin.zip в папку, в которой вы извлекли MFCMapi.exe на шаге 2.
+4. Извлекать все файлы в CreateOutlookItemsAddin.zip в папку, в которой был извлечен MFCMapi.exe в шаге 2.
     
-5. Скопируйте MFCMapi.exe из папки, используемой на шаге 2, в каталог сборки для проекта CreateOutlookItemsAddin (\CreateOutlookItemsAddin\Debug).
+5. Скопируйте MFCMapi.exe из папки, используемой в шаге 2, в каталог сборки для проекта CreateOutlookItemsAddin (\CreateOutlookItemsAddin\Debug).
     
-6. Откройте проект CreateOutlookItemsAddin (\CreateOutlookItemsAddin\CreateOutlookItemsAddin.vcproj) в Visual Studio, чтобы изучить исходный код. Чтобы определить, какие исходные файлы необходимо открыть, обратитесь к темам раздела "Создание элементов Outlook с помощью [MAPI".](creating-outlook-items-by-using-mapi.md) 
+6. Откройте проект CreateOutlookItemsAddin (\CreateOutlookItemsAddin\CreateOutlookItemsAddin.vcproj) в Visual Studio изучить исходный код. Обратитесь к темам из раздела Создание элементов Outlook с помощью [раздела MAPI,](creating-outlook-items-by-using-mapi.md) чтобы определить, какие исходные файлы открыть. 
     
 ## <a name="run-mfcmapi-and-the-createoutlookitemsaddin-project"></a>Запуск MFCMAPI и проекта CreateOutlookItemsAddin
 
-В следующих шагах предполагается, что вы загрузили и установили текущую версию исполняемого MFCMAPI и проекта CreateOutlookItemsAddin, как описано в предыдущей процедуре. Эти действия позволят вам пунктов меню **Addins,** которые позволяют создавать элементы Outlook с помощью приложения MFCMAPI и проекта CreateOutlookItemsAddin. 
+Следующие действия предполагают, что вы скачали и установили текущую версию исполняемого MFCMAPI и проекта CreateOutlookItemsAddin, как описано в предыдущей процедуре. В этих действиях вы сможете найти элементы меню **Addins,** которые позволяют создавать элементы Outlook с помощью приложения MFCMAPI и проекта CreateOutlookItemsAddin. 
   
 > [!NOTE]
-> Папка, выбранная на шаге 8, и команда, выбранная на шаге 9, зависит от типа элемента, рассмотренного в одном из разделов раздела "Создание элементов Outlook с помощью [MAPI".](creating-outlook-items-by-using-mapi.md) 
+> Папка, выбранная на шаге 8, и команда, выбранная на шаге 9, зависит от типа элемента, рассмотренного в одной из тем из раздела Создание элементов Outlook с помощью [раздела MAPI.](creating-outlook-items-by-using-mapi.md) 
 
-### <a name="to-run-the-mfcmapi-application-and-addins-menu-commands"></a>Запуск команд приложения MFCMAPI и меню addins
+### <a name="to-run-the-mfcmapi-application-and-addins-menu-commands"></a>Запуск команд приложения MFCMAPI и меню Addins
 
-1. Запустите Mfcmapi.exe папку CreateOutlookItemsAddin\Debug, которая создается при соответствии с инструкциями по установке.
+1. Начните Mfcmapi.exe в папке CreateOutlookItemsAddin\Debug, которая создается при соответствии инструкциям по установке.
     
-2. Нажмите **кнопку "ОК",** чтобы отклонять экран-заставку MFCMAPI. 
+2. Нажмите **кнопку ОК,** чтобы отклонять экран всплеска MFCMAPI. 
     
-3. В меню **"Сеанс"** щелкните **"Логон" и "Таблица магазина отображения".**
+3. В меню **Сеанс** нажмите **кнопку Logon и Display Store Table**.
     
-4. В **диалоговом** окне "Выбор профиля" выберите правильный профиль и нажмите кнопку **"ОК".** 
+4. В **диалоговом** окне Выберите профиль выберите правильный профиль и нажмите **кнопку ОК.** 
     
-5. Дважды **щелкните "Почтовый ящик - _[Имя пользователя] в_** представлении списка таблицы магазина". 
+5. Дважды **щелкните почтовый ящик _[Имя пользователя]_** в представлении списка таблицы хранения. 
     
-6. В представлении дерева папок разоберем корневой узел. Имя корневого узла зависит от выбранного типа профиля. Обычно этот узел отображается в качестве **корневого почтового ящика.**
+6. В представлении дерева папки разложите корневой узел. Имя, отображаемого для корневого узла, зависит от выбранного типа профиля. Обычно этот узел отображается как **Root - Почтовый ящик.**
     
-7. В представлении дерева папок разоберем узел, содержащий хранилище данных. Имя, отображаемая для этого узла, зависит от выбранного типа профиля. Обычно этот узел отображается в IPM_SUBTREE **или** **в верхней части информационного магазина.**
+7. В представлении дерева папки разложите узел, содержащий хранилище сведений. Имя, отображаемого для этого узла, зависит от выбранного типа профиля. Обычно этот узел отображается  в IPM_SUBTREE **или в верхней части магазина информации.**
     
-8. Дважды щелкните папку для создаваемого типа элемента. Например, чтобы создать встречу,  щелкните папку "Встречи". 
+8. Дважды щелкните папку для создания типа элемента. Например, чтобы создать встречу, щелкните папку **"Встречи".** 
     
-9. В меню **"Надстройки"** щелкните соответствующую команду для создаемой позиции. 
+9. В меню **Addins** щелкните соответствующую команду для создания элемента. 
     
-## <a name="download-and-view-code-from-the-mfcmapi-application"></a>Загрузка и просмотр кода из приложения MFCMAPI
+## <a name="download-and-view-code-from-the-mfcmapi-application"></a>Скачивание и просмотр кода из приложения MFCMAPI
 
-Некоторые разделы относятся к коду из самого приложения MFCMAPI. Ниже описано, как скачать исходный код MFCMAPI и просмотреть его в Visual Studio. 
+Некоторые темы ссылаются на исходный код из самого приложения MFCMAPI. Ниже описано, как скачать исходный код MFCMAPI и просмотреть его в Visual Studio. 
 
-### <a name="to-download-and-view-the-mfcmapi-application-source-code"></a>Скачать и просмотреть исходный код приложения MFCMAPI
+### <a name="to-download-and-view-the-mfcmapi-application-source-code"></a>Загрузка и просмотр исходный код приложения MFCMAPI
 
-1. Загрузите исходный код для текущей версии [приложения MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154) в папку в системе. 
+1. Скачайте исходный код текущей версии [приложения MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154) в папку в вашей системе. 
     
-2. Извлеките файлы в _zip-файле_ MFCMAPI в пустую папку на жестком диске.
+2. Извлечение файлов в папке MFCMAPI-changeset.zip пустой папке на жестком диске. 
     
-3. Откройте проект MFCMapi (\ _foldername_\ MFCMapi.vcproj) в Visual Studio, чтобы изучить исходный код.
+3. Откройте проект MFCMapi _(\foldername_\ MFCMapi.vcproj) в Visual Studio, чтобы изучить исходный код.
     
 ## <a name="see-also"></a>См. также
 
-- [Создание простого почтового элемента](how-to-create-a-simple-mail-item.md)
-- [Создание простого элемента повторяющейся задачи](how-to-create-a-simple-recurrent-task-item.md)
-- [Создание сложного элемента повторяющейся встречи](how-to-create-a-complex-recurrent-appointment-item.md)
-- [Чтение и разбиение шаблона повторения](how-to-read-and-parse-a-recurrence-pattern.md)
+- [Создание элемента простой почты](how-to-create-a-simple-mail-item.md)
+- [Создание элемента простой повторяющейся задачи](how-to-create-a-simple-recurrent-task-item.md)
+- [Создание сложного элемента периодических встреч](how-to-create-a-complex-recurrent-appointment-item.md)
+- [Read and Parse a Recurrence Pattern](how-to-read-and-parse-a-recurrence-pattern.md)
 

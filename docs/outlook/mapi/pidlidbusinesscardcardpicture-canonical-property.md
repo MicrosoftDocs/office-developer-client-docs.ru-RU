@@ -23,21 +23,21 @@ ms.locfileid: "32342009"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит изображение визитной карточки.
+Содержит изображение, которое необходимо использовать на визитной карточке.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidBCCardPicture  <br/> |
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008041  <br/> |
+|Long ID (LID):  <br/> |0x00008041  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Значением этого свойства должен быть переносной сетевой графики (PNG) или jpEG-поток. Это свойство следует использовать в сочетании со свойством **dispidBCDisplayDefinition** ([PidLidBusinessCardDisplayDefinition)](pidlidbusinesscarddisplaydefinition-canonical-property.md)следующим образом: **dispidBCCardPicture** не должен присутствовать в контакте, если **dispidBCDisplayDefinition** не существует. Это свойство также не должно присутствовать, если данные **в dispidBCCardPicture** не требуют изображения карточки. 
+Значение этого свойства должно быть портативной сетевой графикой (PNG) или потоком JPEG. Это свойство следует использовать в сочетании с свойством **dispidBCDisplayDefinition** [(PidLidBusinessCardDisplayDefinition)](pidlidbusinesscarddisplaydefinition-canonical-property.md)следующим образом: **dispidBCCardPicture** не должно присутствовать на контакте, если нет **dispidBCDisplayDefinition.** Это свойство также не должно присутствовать, если данные в **dispidBCCardPicture** не требуют изображения карты. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32342009"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения наборов свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для контактов и личных списков рассылки.
+> Указывает свойства и операции, допустимые для контактов и личных списков рассылки.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

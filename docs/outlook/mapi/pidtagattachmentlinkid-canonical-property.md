@@ -23,9 +23,9 @@ ms.locfileid: "32345698"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает тип объекта Message, с которым связано это вложение.
+Указывает тип объекта Message, к которому связано это вложение.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "32345698"
    
 ## <a name="remarks"></a>Примечания
 
-Должно быть 0, если не переопределено другими протоколами, которые расширяют протокол message и Attachment Object Protocol, как отмечено [в [MS-OXCMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx).
+Должно быть 0, если не переопределяться другими протоколами, которые расширяют протокол объектов сообщения и вложений, как отмечено [в [MS-OXCMSG].](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -52,9 +52,9 @@ ms.locfileid: "32345698"
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Указывает свойства и модель взаимодействия для электронной почты и других напоминаний об объектах.
+> Указывает свойства и модель взаимодействия для электронной почты и других напоминаний объектов.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -74,5 +74,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

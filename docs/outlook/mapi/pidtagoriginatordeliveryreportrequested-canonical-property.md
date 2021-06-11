@@ -1,5 +1,5 @@
 ---
-title: Каноническое свойство PidTagOriginatorDeliveryReportRequested
+title: PidTagOriginatorDeliveryReportReportRequested Canonical Property
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32356303"
 ---
-# <a name="pidtagoriginatordeliveryreportrequested-canonical-property"></a>Каноническое свойство PidTagOriginatorDeliveryReportRequested
+# <a name="pidtagoriginatordeliveryreportrequested-canonical-property"></a>PidTagOriginatorDeliveryReportReportRequested Canonical Property
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если отправитель сообщения запрашивает отчет о доставке определенного получателя из системы обмена сообщениями, прежде чем сообщение будет помещено в хранилище сообщений.
+Содержит TRUE, если отправитель сообщения запрашивает отчет о доставке для определенного получателя из системы обмена сообщениями перед тем, как сообщение будет размещено в хранилище сообщений.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ ms.locfileid: "32356303"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство используется для управления системой обмена сообщениями при обработке доставленных сообщений. В этом случае в сообщении  также должно быть PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED[(PidTagOriginatorNonDeliveryReportRequested)](pidtagoriginatornondeliveryreportrequested-canonical-property.md)со свойством FALSE.
+Это свойство используется для управления системой обмена сообщениями при обработке доставленных сообщений. В этом случае в сообщении также должно быть **PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED** [(PidTagOriginatorNonDeliveryReportReportRequested)](pidtagoriginatornondeliveryreportrequested-canonical-property.md)свойство FALSE.
   
-Установка свойства **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** для сообщения — это способ запроса отчетов о состоянии доставки для всех получателей. 
+Настройка **свойства PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** в сообщении — это способ запроса отчетов о состоянии доставки для всех получателей. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -46,9 +46,9 @@ ms.locfileid: "32356303"
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
+> Указывает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -68,5 +68,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

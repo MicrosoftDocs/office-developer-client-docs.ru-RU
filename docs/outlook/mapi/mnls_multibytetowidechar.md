@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 065d78bf-4c9c-48dd-b1f1-b4e59f3f1243
-description: 'Last modified: February 21, 2012'
+description: 'Последнее изменение: 21 февраля 2012 г.'
 ms.openlocfilehash: 1f137aba40703fe84e5753ee6e370262f780f0a3
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.locfileid: "32338243"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Аналогично **MultiByteToWideChar,** который соповедет строку символов со строкой UTF-16 (широкий символ). Строка символов не обязательно из многобайтового набора символов.
+Как и **MultiByteToWideChar,** которая сопоповедет строку символов со строкой UTF-16 (широкий символ). Строка символов не обязательно из набора многобайтных символов.
   
 ```cpp
 int MNLS_MultiByteToWideChar(
@@ -33,11 +33,11 @@ int MNLS_MultiByteToWideChar(
   int cchWideChar);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _uCodePage_
   
-> [in] Кодовая страница, используемая для выполнения преобразования.
+> [in] Страница кода, используемая для выполнения преобразования.
     
  _dwFlags_
   
@@ -49,7 +49,7 @@ int MNLS_MultiByteToWideChar(
     
  _cchMultiByte_
   
-> [in] Размер строки, заданной параметром  _lpMultiByteStr , в 1,6 в 600 000 000 000 000 000 000 000 000 000 000_ 0 
+> [in] Размер в bytes строки, обозначенной параметром _lpMultiByteStr._ 
     
  _lpWideCharStr_
   
@@ -57,14 +57,14 @@ int MNLS_MultiByteToWideChar(
     
  _cchWideChar_
   
-> [in] Размер буфера в символах, указанный _lpWideCharStr._
+> [in] Размер буфера в символах, указанный  _lpWideCharStr_.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает количество символов, написанных в буфере,  _обозначенное lpWideCharStr в_ случае успешного успеха. 
+Возвращает количество символов, написанных в буфер, указанный  _lpWideCharStr_ в случае успешного сбоя. 
   
 ## <a name="remarks"></a>Примечания
 
-Эта функция обтекает функцию **MultiByteToWideChar.** Дополнительные сведения см. в [подзагоду MultiByteToWideChar.](https://msdn.microsoft.com/library/dd319072%28VS.85%29.aspx)
+Эта функция завершает функцию **MultiByteToWideChar.** Дополнительные сведения см. [в см. в фотогаракте MultiByteToWideChar.](https://msdn.microsoft.com/library/dd319072%28VS.85%29.aspx)
   
 

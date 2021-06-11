@@ -1,5 +1,5 @@
 ---
-title: Каноническое свойство PidTagScheduleInfoFreeBusyBusy
+title: Каноническое свойство PidTagScheduleInfoFreeBusyBusyBusy
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,24 +19,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32338656"
 ---
-# <a name="pidtagscheduleinfofreebusybusy-canonical-property"></a>Каноническое свойство PidTagScheduleInfoFreeBusyBusy
+# <a name="pidtagscheduleinfofreebusybusy-canonical-property"></a>Каноническое свойство PidTagScheduleInfoFreeBusyBusyBusy
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит блоки времени, в течение которого состояние занято.
+Содержит блоки времени, на которое занят состояние.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_SCHDINFO_FREEBUSY_BUSY  <br/> |
 |Идентификатор:  <br/> |0x6854  <br/> |
 |Тип данных:  <br/> |PT_MV_BINARY  <br/> |
-|Область:  <br/> |Free/Busy  <br/> |
+|Область:  <br/> |Бесплатный/занятый  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Формат, вычисления и ограничения этого свойства такие же, как и формат **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative),](pidtagscheduleinfofreebusytentative-canonical-property.md)но ссылаются на встречи, помеченные как занятые в связанном объекте календаря.
+Формат, вычисления и ограничения этого свойства такие **же,** как и у PR_SCHDINFO_FREEBUSY_TENTATIVE [(PidTagScheduleInfoFreeBusyTentative),](pidtagscheduleinfofreebusytentative-canonical-property.md)но ссылаются на встречи, отмеченные занятыми на связанном объекте календаря.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "32338656"
   
 > Публикует доступность пользователя или ресурса.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

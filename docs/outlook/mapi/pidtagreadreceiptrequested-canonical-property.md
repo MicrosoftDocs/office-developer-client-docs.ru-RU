@@ -23,9 +23,9 @@ ms.locfileid: "32356471"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит true, если отправитель сообщения хочет, чтобы система обмена сообщениями генерирула отчет о прочтение, когда получатель прочитал сообщение.
+Содержит TRUE, если отправитель сообщения хочет, чтобы система обмена сообщениями генерирула отчет о считывке, когда получатель читал сообщение.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ ms.locfileid: "32356471"
    
 ## <a name="remarks"></a>Примечания
 
-Для проверки значений в свойствах **PR_READ_RECEIPT_ENTRYID** [(PidTagReadReceiptEntryId)](pidtagreadreceiptentryid-canonical-property.md)и **PR_READ_RECEIPT_SEARCH_KEY** [(PidTagReadReceiptSearchKey)](pidtagreadreceiptsearchkey-canonical-property.md)этому свойству должно быть задано значение TRUE.
+Это свойство должно быть задано true для проверки значений в **свойствах PR_READ_RECEIPT_ENTRYID** [(PidTagReadReceiptEntryId)](pidtagreadreceiptentryid-canonical-property.md)и **PR_READ_RECEIPT_SEARCH_KEY** [(PidTagReadReceiptSearchKey).](pidtagreadreceiptsearchkey-canonical-property.md)
   
-Если сообщение с **PR_READ_RECEIPT_REQUESTED** удаляется или заканчивается до того, как система обмена сообщениями сможет создать отчет о прочтение, создается непрочитанные отчеты. 
+Если сообщение с **PR_READ_RECEIPT_REQUESTED** или истекает до того, как система обмена сообщениями сможет создать отчет о прочтение, создается непрочитанные отчеты. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,9 +50,9 @@ ms.locfileid: "32356471"
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
+> Указывает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -72,5 +72,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

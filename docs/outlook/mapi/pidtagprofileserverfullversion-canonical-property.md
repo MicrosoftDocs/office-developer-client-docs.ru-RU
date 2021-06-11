@@ -19,9 +19,9 @@ ms.locfileid: "32341603"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает полную версию и сведения о сборке Microsoft Exchange Server, к которым подключены учетные записи в профиле.
+Указывает полную версию и создает сведения о Microsoft Exchange Server, к которым подключены учетные записи в профиле.
   
 ## 
 
@@ -34,15 +34,15 @@ ms.locfileid: "32341603"
    
 ## <a name="remarks"></a>Примечания
 
-Профиль может указывать одну или несколько учетных записей, которые подключаются к Exchange Server, но они должны быть подключены к одной Exchange Server.
+Профиль может указать одну или несколько учетных записей, которые подключаются к Exchange Server, но они должны быть подключены к одному Exchange Server.
   
-Версии Outlook более ранних Microsoft Office Outlook 2007 не поддерживают это свойство. Для этих версий Outlook проверьте наличие PR_PROFILE_SERVER_VERSION **[в](pidtagprofileserverversion-canonical-property.md)** профиле. 
+Версии Outlook более ранних Microsoft Office Outlook 2007 года не поддерживают это свойство. Для этих версий Outlook проверьте наличие PR_PROFILE_SERVER_VERSION **[в](pidtagprofileserverversion-canonical-property.md)** профиле. 
   
-Как правило, если активный почтовый ящик подключен к Exchange Server, Outlook 2007 сохраняет полные сведения Exchange Server версии в свойстве **PR_PROFILE_SERVER_FULL_VERSION** в активном профиле. Outlook сохраняет сведения в структуре **EXCHANGE_STORE_VERSION_NUM,** которая содержит основные и дополнительные номера версий, а также номера основных и дополнительных номеров сборки. Например, чтобы сохранить идентификатор Exchange Server версии **8.0.685.24,** основной номер версии — 8, а номер второстепенной версии — 0, а основной номер сборки — 685, а номер второстепенной сборки — 24.
+Как правило, если активный почтовый ящик подключен к Exchange Server, Outlook 2007 г. Exchange Server  сведения о версии в свойстве PR_PROFILE_SERVER_FULL_VERSION в активном профиле. Outlook хранит сведения в структуре **EXCHANGE_STORE_VERSION_NUM,** которая содержит основные и второстепенные номера версий, а также основные и второстепенные номера сборки. Например, чтобы сохранить идентификатор Exchange Server версии **8.0.685.24,** основной номер версии — 8, а второстепенный — 0, а основной номер сборки — 685, а число сборки — 24.
   
-В профиле **PR_PROFILE_SERVER_VERSION** или **PR_PROFILE_SERVER_FULL_VERSION,** скорее всего, существует только один из них, но нет гарантии, что в профиле всегда существует любой из них. Outlook не записи в ни в один из свойств, пока не будет успешно подключен к Exchange Server. 
+Только один **PR_PROFILE_SERVER_VERSION** **или PR_PROFILE_SERVER_FULL_VERSION** может существовать в профиле, но нет никакой гарантии, что либо всегда существует в профиле. Outlook не записыву в свойство, пока оно не будет успешно подключено к Exchange Server. 
   
-В объектной модели Outlook можно использовать свойство **ExchangeMailboxServerVersion** объекта **NameSpace,** чтобы найти версию Exchange Server, в которой находится активный почтовый ящик. 
+В Outlook объектной модели можно использовать свойство **ExchangeMailboxServerVersion** объекта **NameSpace,** чтобы найти версию Exchange Server, на которой расположен активный почтовый ящик. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -52,7 +52,7 @@ ms.locfileid: "32341603"
   
 > Предоставляет определения набора свойств.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -72,5 +72,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

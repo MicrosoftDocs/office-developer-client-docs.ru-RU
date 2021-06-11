@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm695
 localization_priority: Normal
 ms.assetid: 44995137-d241-937a-c097-0f9d79203cdf
-description: Указывает, следует ли открывать гиперссылки в новом окне.
+description: Указывает, следует ли открывать гиперссылку в новом окне.
 ms.openlocfilehash: 0f9d1e4b1294dea3f211c8d0d69ffc49b6180066
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "32342233"
 ---
 # <a name="newwindow-cell-hyperlinks-section"></a>NewWindow Cell (Hyperlinks Section)
 
-Указывает, следует ли открывать гиперссылки в новом окне.
+Указывает, следует ли открывать гиперссылку в новом окне.
   
 |**Значение**|**Описание**|
 |:-----|:-----|
@@ -38,7 +38,7 @@ ms.locfileid: "32342233"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionHyperlink** <br/> |
-| Индекс строки:  <br/> |**visRow1stHyperlink**  +   *i* где *i* = 0, 1, 2, ...  <br/> |
+| Индекс строки:  <br/> |**visRow1stHyperlink**  +   *i,* *где i* = 0, 1, 2, ...  <br/> |
 | Индекс ячейки:  <br/> |**visHLinkNewWin** <br/> |
    
 

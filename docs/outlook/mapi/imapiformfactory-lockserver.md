@@ -23,9 +23,9 @@ ms.locfileid: "32342142"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Сохраняет открытый сервер форм в памяти.
+Сохраняет открытый сервер формы в памяти.
   
 ```cpp
 HRESULT LockServer(
@@ -34,7 +34,7 @@ HRESULT LockServer(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -42,7 +42,7 @@ HRESULT LockServer(
     
  _fLockServer_
   
-> [in] **имеет true,** чтобы повысьть количество блокировок; в **противном** случае false .
+> [in] **верно** для приумно-ления счета блокировки; в противном **случае, false**.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -52,11 +52,11 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-С помощью метода **IMAPIFormFactory::LockServer можно вызвать метод IMAPIFormFactory::LockServer,** чтобы сохранить открытое приложение сервера форм в памяти. Сохранение сервера форм в памяти повышает его производительность, когда формы часто создаются и выпускаются. 
+Зрители форм называют **метод IMAPIFormFactory::LockServer** для сохраняемого приложения сервера формы в памяти. Сохранение сервера форм в памяти повышает его производительность, когда формы часто создаются и выпускаются. 
   
 ## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-Метод **IMAPIFormFactory::LockServer** очень похож на метод [IClassFactory::LockServer.](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) По сути, метод **IMAPIFormFactory::LockServer** ведет подсчет, сколько раз он был вызван; Если это количество больше 0, метод предотвращает выгрузку сервера форм из памяти. Для реализации этой функции можно использовать функцию [CoLockObjectExternal.](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) 
+Метод **IMAPIFormFactory::LockServer** очень похож на [метод IClassFactory::LockServer.](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) По сути, метод **IMAPIFormFactory::LockServer** поддерживает подсчет, сколько раз он был вызван; до тех пор, пока это количество превышает 0, метод предотвращает выгрузку сервера форм из памяти. Для реализации этой функции можно использовать функцию [CoLockObjectExternal.](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) 
   
 ## <a name="see-also"></a>См. также
 

@@ -23,24 +23,24 @@ ms.locfileid: "32338642"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит адрес электронной почты пользователя для обмена сообщениями. 
+Содержит адрес электронной почты пользователя обмена сообщениями. 
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_EMAIL_ADDRESS, PR_EMAIL_ADDRESS_A, PR_EMAIL_ADDRESS_W  <br/> |
 |Идентификатор:  <br/> |0x3003  <br/> |
 |Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Область:  <br/> |Общие MAPI  <br/> |
+|Область:  <br/> |MAPI общие  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства являются примерами свойств базового адреса для всех пользователей обмена сообщениями. Это строка с нулью, формат которой имеет значение только для системы обмена сообщениями. 
+Эти свойства являются примерами свойств базовых адресов для всех пользователей обмена сообщениями. Это строка с null-terminated, формат которой имеет значение только для системы обмена сообщениями. 
   
-Эти свойства используются в сочетании со свойствами **PR_ADDRTYPE** ([PidTagAddressType)](pidtagaddresstype-canonical-property.md)и **PR_MESSAGE_CLASS** ([PidTagMessageClass)](pidtagmessageclass-canonical-property.md)в адресовке сообщений. Формат строки квалифиц **PR_ADDRTYPE.** 
+Эти свойства используются в сочетании с свойствами **PR_ADDRTYPE** [(PidTagAddressType)](pidtagaddresstype-canonical-property.md)и **PR_MESSAGE_CLASS** [(PidTagMessageClass)](pidtagmessageclass-canonical-property.md)при обращении к сообщениям. Формат строки квалифицирован **PR_ADDRTYPE**. 
   
-Допустимые значения этого свойства: 
+Допустимые значения для этого свойства: 
   
 ```cpp
 network/postoffice/user 
@@ -63,9 +63,9 @@ Bruce@XYZZY.COM
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразуется из стандартных интернет-соглашений электронной почты в объекты сообщений.
+> Преобразуется из стандартных конвенций электронной почты в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -85,5 +85,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

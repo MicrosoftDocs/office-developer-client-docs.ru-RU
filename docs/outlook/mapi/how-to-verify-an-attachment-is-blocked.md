@@ -15,11 +15,11 @@ ms.locfileid: "32345887"
 ---
 # <a name="verify-an-attachment-is-blocked"></a>Проверка блокировки вложения
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В этом примере кода на C++ показано, как использовать интерфейс [IAttachmentSecurity : IUnknown,](iattachmentsecurityiunknown.md) чтобы узнать, заблокировано ли вложение Microsoft Outlook 2010, русская версия или Microsoft Outlook 2013 для просмотра и индексации. 
+В этом примере кода в C++ показано, как использовать интерфейс [IAttachmentSecurity : IUnknown,](iattachmentsecurityiunknown.md) чтобы узнать, заблокировано ли вложение Microsoft Outlook 2010, русская версия или Microsoft Outlook 2013 для просмотра и индексации. 
   
-[IAttachmentSecurity : IUnknown](iattachmentsecurityiunknown.md) является производным от [интерфейса IUnknown.](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) Вы можете получить интерфейс [IAttachmentSecurity : IUnknown,](iattachmentsecurityiunknown.md) вызывая [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) в объекте сеанса MAPI, **запрашивая** IID_IAttachmentSecurity. [IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) возвращает  true в _pfBlocked,_ если вложение считается небезопасным в Outlook 2010 или Outlook 2013 и заблокировано для просмотра и индексации в Outlook 2010 или Outlook 2013. 
+[IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) является производным от [интерфейса IUnknown.](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) Вы можете получить [интерфейс IAttachmentSecurity : IUnknown,](iattachmentsecurityiunknown.md) позвонив [в IUnknown::RequestInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) на объекте сеанса MAPI, запросив IID_IAttachmentSecurity **.** [IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) возвращается в _pfBlocked,_ если вложение считается небезопасным к Outlook или Outlook 2013 г. и блокируется для просмотра и индексации в Outlook 2010 или Outlook 2013 г.  
   
 ```cpp
 HRESULT IsAttachmentBlocked(LPMAPISESSION lpMAPISession, LPCWSTR pwszFileName, BOOL* pfBlocked) 

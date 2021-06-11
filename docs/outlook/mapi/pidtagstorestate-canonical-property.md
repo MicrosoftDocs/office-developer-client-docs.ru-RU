@@ -23,9 +23,9 @@ ms.locfileid: "32341155"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит флаг, который описывает состояние хранения сообщений. 
+Содержит флаг, описывая состояние магазина сообщений. 
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ ms.locfileid: "32341155"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство является динамическим и может изменяться в зависимости от действий пользователя, в отличие от свойства **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask).](pidtagstoresupportmask-canonical-property.md) 
+Это свойство динамическое и может изменяться в зависимости от действий пользователя, в отличие **от свойства** [PR_STORE_SUPPORT_MASK (PidTagStoreSupportMask).](pidtagstoresupportmask-canonical-property.md) 
   
 Можно установить следующее значение:
   
 STORE_HAS_SEARCHES 
   
-> Пользователь создал один или несколько активных поисковых запросов в магазине.
+> Пользователь создал один или несколько активных поисков в магазине.
     
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -56,7 +56,7 @@ STORE_HAS_SEARCHES
   
 > Указывает допустимые операции для основных объектов хранения сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -76,5 +76,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

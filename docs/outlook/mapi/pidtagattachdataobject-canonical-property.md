@@ -23,9 +23,9 @@ ms.locfileid: "32339286"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит объект вложения, обычно доступный через интерфейс **IStorage** для связывания и встраивления объектов (OLE). 
+Содержит объект вложения, обычно доступный с помощью интерфейса **IStorage** , связывающий объект и встраив его. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ ms.locfileid: "32339286"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство содержит вложение, если значение свойства **PR_ATTACH_METHOD** ([PidTagAttachMethod)](pidtagattachmethod-canonical-property.md)ATTACH_EMBEDDED_MSG **или** **ATTACH_OLE**. Тип кодиировки OLE можно определить по PR_ATTACH_TAG **(** [PidTagAttachTag).](pidtagattachtag-canonical-property.md) 
+Это свойство содержит вложение, когда значение **свойства PR_ATTACH_METHOD**  [(PidTagAttachMethod)](pidtagattachmethod-canonical-property.md)ATTACH_EMBEDDED_MSG **или ATTACH_OLE**. Тип кодировки OLE можно определить по **PR_ATTACH_TAG** [(PidTagAttachTag).](pidtagattachtag-canonical-property.md) 
   
-Для вложения, связанного **со значением ATTACH_EMBEDDED_MSG,** интерфейс [IMessage:IMAPIProp](imessageimapiprop.md) можно использовать для ускорения доступа. 
+Для вложения, связанного **с ATTACH_EMBEDDED_MSG** значением, интерфейс [IMessage:IMAPIProp](imessageimapiprop.md) можно использовать для более быстрого доступа. 
   
-Для внедренного динамического объекта OLE свойство **PR_ATTACH_DATA_OBJ** содержит собственные сведения об отрисовке, а свойство **PR_ATTACH_RENDERING** ([PidTagAttachRendering)](pidtagattachrendering-canonical-property.md)должно быть несущестным или пустым. 
+Для встроенного динамического объекта OLE свойство **PR_ATTACH_DATA_OBJ** содержит собственные данные отрисовки, а свойство **PR_ATTACH_RENDERING** [(PidTagAttachRendering)](pidtagattachrendering-canonical-property.md)должно быть несущестным или пустым. 
   
-Для вложенного файла документа OLE поставщик хранения сообщений должен ответить на вызов [IMAPIProp::OpenProperty](imapiprop-openproperty.md) по **PR_ATTACH_DATA_OBJ** и при желании ответить на вызов PR_ATTACH_DATA_BIN **(** [PidTagAttachDataBinary).](pidtagattachdatabinary-canonical-property.md) Свойства **PR_ATTACH_DATA_BIN** и **PR_ATTACH_DATA_OBJ** имеют один и тот же идентификатор свойства и, следовательно, являются двумя вариантами одного и того же свойства. 
+Для вложения в файл OLE поставщик хранения сообщений должен отвечать на вызов [IMAPIProp::OpenProperty](imapiprop-openproperty.md) **PR_ATTACH_DATA_OBJ** и может необязательным образом отвечать на вызов PR_ATTACH_DATA_BIN [(PidTagAttachDataBinary).](pidtagattachdatabinary-canonical-property.md)  Свойства **PR_ATTACH_DATA_BIN** и **PR_ATTACH_DATA_OBJ** имеют один и тот же идентификатор свойств и, таким образом, являются двумя renditions одного и того же свойства. 
   
-Для объекта хранилища, например составного файла в формате docfile OLE 2.0, некоторые поставщики услуг позволяют открывать его с помощью интерфейса MAPI **IStreamDocfile,** **подкласса IStream** без дополнительных членов, предназначенных для оптимизации производительности. Возможного сохранения достаточно, чтобы обосновать попытки открыть PR_ATTACH_DATA_OBJ **через** **IStreamDocfile.** Если **MAPI_E_INTERFACE_NOT_SUPPORTED** возвращается, клиент может открыть  PR_ATTACH_DATA_BIN **iStream.** 
+Для объекта хранения, например сложного файла в формате docfile OLE 2.0, некоторые поставщики услуг позволяют открывать его с интерфейсом MAPI **IStreamDocfile** , **подклассом IStream** без дополнительных членов, предназначенным для оптимизации производительности. Возможной экономии достаточно, чтобы оправдать  попытку открыть PR_ATTACH_DATA_OBJ **через IStreamDocfile**. Если **MAPI_E_INTERFACE_NOT_SUPPORTED** возвращается, клиент может открыть  PR_ATTACH_DATA_BIN **iStream**. 
   
-Если клиентского приложения или поставщика службы не  удается открыть подпроект вложения с помощью PR_ATTACH_DATA_OBJ с помощью **PR_ATTACH_METHOD,** он должен **использовать PR_ATTACH_DATA_BIN**. 
+Если клиентская заявка или поставщик услуг не  могут открыть подобект вложения с помощью PR_ATTACH_DATA_OBJ с помощью **PR_ATTACH_METHOD,** он должен использовать **PR_ATTACH_DATA_BIN**. 
   
-Дополнительные сведения об интерфейсах и форматах OLE см. в [OLE и передаче данных.](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx)
+Дополнительные сведения об интерфейсах и форматах OLE см. в [OLE и Data Transfer.](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -58,7 +58,7 @@ ms.locfileid: "32339286"
   
 > Обрабатывает объекты сообщений и вложений.
     
-## <a name="header-files"></a>Файлы заголовок
+## <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -78,5 +78,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

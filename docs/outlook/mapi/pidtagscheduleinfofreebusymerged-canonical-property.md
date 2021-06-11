@@ -23,20 +23,20 @@ ms.locfileid: "32338719"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит время, в течение которого для состояния занятости установлено состояние занятости или OOF.
+Содержит время, в течение которого задарен статус свободного или занятого.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_SCHDINFO_FREEBUSY_MERGED  <br/> |
 |Идентификатор:  <br/> |0x6850  <br/> |
 |Тип данных:  <br/> |PT_MV_BINARY  <br/> |
-|Область:  <br/> |Free/Busy  <br/> |
+|Область:  <br/> |Бесплатный/занятый  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-События типа "занято" под вопросом не включаются в это свойство. Формат, вычисления и ограничения этого свойства такие же, как и формат **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative),](pidtagscheduleinfofreebusytentative-canonical-property.md)но ссылаются на встречи, помеченные как неотвечающее или занятое в связанном календаре.
+События предварительного типа free/busy не включаются в это свойство. Формат, вычисления и ограничения этого свойства такие же, как и у **PR_SCHDINFO_FREEBUSY_TENTATIVE** [(PidTagScheduleInfoFreeBusyTentative),](pidtagscheduleinfofreebusytentative-canonical-property.md)но ссылаются на встречи, отмеченные OOF или занятые в связанном календаре.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "32338719"
   
 > Публикует доступность пользователя или ресурса.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

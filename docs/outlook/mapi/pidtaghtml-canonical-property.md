@@ -23,9 +23,9 @@ ms.locfileid: "32356751"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит текст сообщения в формате HTML.
+Содержит текст тела сообщения в формате HTML.
   
 |||
 |:-----|:-----|
@@ -44,25 +44,25 @@ ms.locfileid: "32356751"
     
 [[MS-OXBBODY]](https://msdn.microsoft.com/library/98296160-746e-4b25-8d45-676dabebb57d%28Office.15%29.aspx)
   
-> Определяет свойства, связанные с текстом сообщения.
+> Определяет свойства, связанные с телом сообщения.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразуется из стандартных интернет-соглашений электронной почты в объекты сообщений.
+> Преобразуется из стандартных конвенций электронной почты в объекты сообщений.
     
 [[MS-OXOPOST]](https://msdn.microsoft.com/library/9b18fdab-aacd-4d73-9534-be9b6ba2f115%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для объектов post.
+> Указывает свойства и операции, допустимые на почтовых объектах.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Указывает свойства сообщений в кодированной кодировки с управлением правами.
+> Указывает свойства зашифрованных сообщений с управляемым правами.
     
 [[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
 > Указывает свойства и операции, которые представляют элементы RSS.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -82,5 +82,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

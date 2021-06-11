@@ -1,5 +1,5 @@
 ---
-title: Каноническое свойство PidTagOriginalDisplayTo
+title: PidTagOriginalDisplayTo Canonical Property
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32342703"
 ---
-# <a name="pidtagoriginaldisplayto-canonical-property"></a>Каноническое свойство PidTagOriginalDisplayTo
+# <a name="pidtagoriginaldisplayto-canonical-property"></a>PidTagOriginalDisplayTo Canonical Property
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит отображаемую информацию об основных получателях исходного сообщения.
+Содержит имена основных получателей исходного сообщения.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "32342703"
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства содержат список ASCII, разделенный осью с за semicolons. Он предоставлен mapI и копируется непосредственно из **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)) при составлении отчета о доставке или ненадежаности, а также чтения или непрочитанного отчета. Это свойство может присутствовать в других сообщениях в зависимости от их классов сообщений.
+Эти свойства содержат список ASCII, разделенный полуколонами. Он предоставлен MAPI **и копируется** непосредственно из PR_DISPLAY_TO [(PidTagDisplayTo)](pidtagdisplayto-canonical-property.md)при сгенерированном отчете о доставке или неделивности или отчете о прочтениях. Это свойство может присутствовать в других сообщениях, определенных классами сообщений.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,9 +48,9 @@ ms.locfileid: "32342703"
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
+> Указывает свойства и операции, допустимые на объектах сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -23,32 +23,32 @@ ms.locfileid: "32342121"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Поддерживает использование настраиваемых форм времени работы в распределенных вычислительных средах. 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapiform.h  <br/> |
-|Выставим:  <br/> |Объекты фабрики форм  <br/> |
+|Подвергается:  <br/> |Объекты фабрики форм  <br/> |
 |Реализовано в:  <br/> |Серверы форм  <br/> |
 |Вызывающая сторона:  <br/> |Просмотр форм  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIFormFactory  <br/> |
 |Тип указателя:  <br/> |LPMAPIFORMFACTORY  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[CreateClassFactory](imapiformfactory-createclassfactory.md) <br/> |Возвращает объект фабрики классов для формы.  <br/> |
-|[GetLastError](imapiformfactory-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR, которая](mapierror.md) содержит сведения о предыдущей ошибке объекта фабрики форм.  <br/> |
-|[LockServer](imapiformfactory-lockserver.md) <br/> |Сохраняет открытый сервер форм в памяти.  <br/> |
+|[CreateClassFactory](imapiformfactory-createclassfactory.md) <br/> |Возвращает объект фабрики класса для формы.  <br/> |
+|[GetLastError](imapiformfactory-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR, которая](mapierror.md) содержит сведения о предыдущей ошибке, произошедшей на объект фабрики форм.  <br/> |
+|[LockServer](imapiformfactory-lockserver.md) <br/> |Сохраняет открытый сервер формы в памяти.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
 Интерфейс **IMAPIFormFactory** основан на интерфейсе [IClassFactory,](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) а объекты, реализуют **IMAPIFormFactory,** также должны наследоваться от **IClassFactory.**
   
- **IMAPIFormFactory** — это интерфейс, который пользователи форм используют для создания новых объектов форм, когда сервер форм поддерживает несколько классов сообщений (то есть несколько типов объектов формы). 
+ **IMAPIFormFactory** — это интерфейс, который формируется для создания объектов форм, когда сервер форм поддерживает несколько классов сообщений (то есть несколько типов объекта формы). 
   
 ## <a name="see-also"></a>См. также
 

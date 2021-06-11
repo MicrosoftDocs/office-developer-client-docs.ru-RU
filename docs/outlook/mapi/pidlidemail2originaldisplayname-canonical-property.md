@@ -23,21 +23,21 @@ ms.locfileid: "32337963"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает второе отображаемого имени, соответствующее адресу электронной почты, указанному для контакта.
+Указывает второе имя отображения, соответствующее адресу электронной почты, указанному для контакта.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidEmail2OriginalDisplayName  <br/> |
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008094  <br/> |
+|Long ID (LID):  <br/> |0x00008094  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если свойство **dispidEmail2AddrType** ([PidLidEmail2AddressType)](pidlidemail2addresstype-canonical-property.md)имеет значение "SMTP", значение соответствующего свойства **PidLidEmail2OriginalDisplayName** должно быть равно значению соответствующего свойства **dispidEmail2EmailAddress** ([PidLidEmail2EmailAddress).](pidlidemail2emailaddress-canonical-property.md) Это свойство предназначено для отображения альтернативного удобного адреса, эквивалентного адресу **dispidEmail2EmailAddress.**
+Если значение свойства **dispidEmail2AddrType** [(PidLidEmail2AddressType)](pidlidemail2addresstype-canonical-property.md)является "SMTP", значение соответствующего свойства **PidLidEmail2OriginalDisplayName** должно равняться значению соответствующего свойства **dispidEmail2EmailAddress** [(PidLidEmail2EmailAddress).](pidlidemail2emailaddress-canonical-property.md) Целью этого свойства является отображение альтернативного удобного для пользователя адреса, эквивалентного адресу **dispidEmail2EmailAddress.**
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32337963"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для контактов и личных списков рассылки.
+> Указывает свойства и операции, допустимые для контактов и личных списков рассылки.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

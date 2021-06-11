@@ -17,98 +17,98 @@ ms.locfileid: "32344522"
 ---
 # <a name="choose-a-specific-version-of-mapi-to-load"></a>Выбор определенной версии MAPI для загрузки
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-При явной привязке к реализации MAPI необходимо тщательно выбирать загружаемую реализацию. 
+При прямой привязке к реализации MAPI необходимо тщательно выбрать, какую реализацию загрузить. 
   
-Существует два способа явной привязки к реализации MAPI. 
+Существует два способа прямой привязки к реализации MAPI. 
   
-1. Вы можете загрузить библиотеку загружок MAPI и указать в реестре настраиваемую библиотеку DLL для загрузки и отправки вызовов MAPI.
+1. Вы можете загрузить библиотеку загружки MAPI и указать в реестре настраиваемый DLL для загрузки и отправки звонков MAPI.
     
-2. Вы можете реализовать алгоритм поиска клиента MAPI, чтобы найти версию MAPI, используемую почтовым клиентом по умолчанию, и загрузить его.
+2. Вы можете реализовать алгоритм поиска клиента MAPI, чтобы найти версию MAPI, используемую клиентом почты по умолчанию, и загрузить его.
     
-Так как вы можете [ изменить](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx)Mapi32.dll реестра, чтобы приложение было использовать любую реализацию MAPI, рекомендуется направлять приложение на использование проверенной вами реализации MAPI. Ниже описаны оба способа явного связывания. 
+Поскольку вы можете изменитьMapi32.dll [реестра stub Параметры,](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx) чтобы направить приложение на использование любой реализации MAPI, мы рекомендуем направить приложение на использование реализации MAPI, с помощью которую вы протестировали. Ниже описаны оба метода прямой привязки. 
   
 ## <a name="reading-from-the-registry"></a>Чтение из реестра
 
 ### <a name="to-read-mapi-implementation-information-from-the-registry"></a>Чтение сведений о реализации MAPI из реестра
 
-1. Ключи реестра, которые указывают настраиваемую DLL для почтового клиента, расположены под  `HKLM\Software\Clients\Mail` ключом почтового клиента. 
+1. Ключи реестра, которые указывают настраиваемый DLL для почтового клиента, находятся под  `HKLM\Software\Clients\Mail` ключом почтового клиента. 
     
-   В следующей таблице описаны следующие ключи:
+   В следующей таблице описаны следующие клавиши:
     
    |**Клавиша**|**Описание**|
    |:-----|:-----|
-   |MSIComponentID  <br/> |Идентификатор категории (GUID) установщика Windows, который определяет DLL,который экспортирует простые вызовы MAPI или MAPI. Если этот ключ задается, он имеет приоритет над **ключом DLLPath** или **DLLPathEx.**  <br/> |
-   |MSIApplicationLCID  <br/> |Код локального идентификатора (LCID) для приложения. Первое строковая строка определяет под ключ из, а последующие строки определяют значения реестра под этим ключом, содержащие сведения  `HKLM\Software` о региональных значениях.  <br/> |
-   |MSIOfficeLCID  <br/> |LCID для Microsoft Office. Первое строка определяет под ключ, а последующие строки определяют значения реестра  `HKLM\Software` под этим ключом.  <br/> |
+   |MSIComponentID  <br/> |Идентификатор категории Windows установки PublishComponent (GUID), который определяет DLL, экспортирует простые вызовы MAPI или MAPI. Если установлено, этот ключ имеет приоритет над **ключом DLLPath** или **DLLPathEx.**  <br/> |
+   |MSIApplicationLCID  <br/> |Идентификатор locale (LCID) для приложения. Первое строковая величина определяет под ключ от и последующие значения строки определяют значения реестра под этим ключом, которые содержат  `HKLM\Software` сведения о локальном уровне.  <br/> |
+   |MSIOfficeLCID  <br/> |LCID для Microsoft Office. Первое строковая величина определяет под ключ от строки и последующие значения строки определяют значения реестра  `HKLM\Software` под этим ключом.  <br/> |
    
-   Получите информацию из этих ключей.
+   Получение сведений из этих ключей.
     
-2. Передав значения, полученные на предыдущем шаге, в функцию [FGetComponentPath.](fgetcomponentpath.md) **FGetComponentPath** — это функция, экспортируемая библиотекой заг Mapistub.dll. Он возвращает путь к пользовательской версии MAPI. 
+2. Передай значения, полученные на предыдущем шаге, в функцию [FGetComponentPath.](fgetcomponentpath.md) **FGetComponentPath** — это функция, экспортируемая библиотекой загвоздки MAPI Mapistub.dll. Возвращает путь настраиваемой версии MAPI. 
 
 
-### <a name="to-load-the-implementation-of-mapi-marked-as-default"></a>Загрузка реализации MAPI, отмеченной как стандартная
+### <a name="to-load-the-implementation-of-mapi-marked-as-default"></a>Загрузка реализации MAPI, помеченной как по умолчанию
 
 1. Прочитайте  `HKLM\Software\Clients\Mail::(default)` значение реестра. 
     
-2. Найди сведения для указанных клиентов, как описано выше.
+2. Сведения о указанных клиентах, как описано выше.
     
 > [!NOTE]
 > Обратите внимание, что почтовый клиент по умолчанию может не реализовать расширенный MAPI. 
   
 #### <a name="example"></a>Пример
 
-Чтобы загрузить MAPI, реализованные в Outlook, найди под ними ключи реестра и передайте их `HKLM\Software\Clients\Mail\Microsoft Outlook` **в FGetComponentPath.** **FGetComponentPath** вернет путь для реализации MAPI в Outlook. 
+Чтобы загрузить MAPI в соответствии с Outlook, посмотрите на клавиши реестра и передайте их `HKLM\Software\Clients\Mail\Microsoft Outlook` **в FGetComponentPath.** **FGetComponentPath** возвращает путь для Outlook реализации MAPI. 
   
-Если ключи **MSIComponentID,** **MSIApplicationLCID** и **MSIOfficeLCID** не заданы, проверьте значение **реестра DLLPathEx.** Если ключи за установлены, **FGetComponentPath** предоставляет путь реализации MAPI клиента. 
+Если ключи **MSIComponentID,** **MSIApplicationLCID** и **MSIOfficeLCID** не заданы, проверьте значение **реестра DLLPathEx.** Если задатки, **FGetComponentPath** дает путь реализации MAPI клиентом. 
   
-## <a name="implementing-the-mapi-client-lookup-algorithm"></a>Реализация алгоритма поиска клиента MAPI
+## <a name="implementing-the-mapi-client-lookup-algorithm"></a>Реализация алгоритма поиска клиентов MAPI
 
-В следующей таблице перечислены четыре функции из MFCMAPI, которые используются для искомого пути для пользовательской реализации MAPI:
+В следующей таблице перечислены четыре функции MFCMAPI, которые используются для выполнения настраиваемой реализации MAPI:
   
 |**Function**|**Описание**|
 |:-----|:-----|
-| `GetMAPIPath` <br/> |Получает путь к библиотеке MAPI.  <br/> |
+| `GetMAPIPath` <br/> |Получает путь библиотеки MAPI.  <br/> |
 | `GetMailKey` <br/> |Получает ключ реестра почты MAPI.  <br/> |
-| `GetMapiMsiIds` <br/> |Получает идентификатор установщика Windows.  <br/> |
-| `GetComponentPath` <br/> |Получает путь к компоненту с помощью [FGetComponentPath.](fgetcomponentpath.md)  <br/> |
+| `GetMapiMsiIds` <br/> |Получает идентификатор Windows установки.  <br/> |
+| `GetComponentPath` <br/> |Получает путь компонента с [помощью FGetComponentPath.](fgetcomponentpath.md)  <br/> |
    
-Так как MFCMAPI загружает стандартную реализацию MAPI по умолчанию, если вы хотите использовать другую реализацию MAPI, для этого необходимо явным образом направить ее. Это выполняется с помощью **процедуры Session\Load MAPI.** 
+Так как MFCMAPI загружает по умолчанию реализацию MAPI по умолчанию, если вы хотите использовать другую реализацию MAPI, для этого необходимо явно направить ее. Это выполняется с помощью **процедуры Session\Load MAPI.** 
   
 ### <a name="how-these-functions-work"></a>Как работают эти функции
 
-1. Вызовы MFCMAPI  `GetMAPIPath` с передачей NULL для параметра клиента для загрузки реализации MAPI по умолчанию.
+1. MFCMAPI  `GetMAPIPath` вызывает, передавая NULL для параметра клиента, для загрузки реализации MAPI по умолчанию.
     
-2.  `GetMAPIPath`вызовы для чтения значений `GetMapiMsiIds` **MSIComponentID,** **MSIApplicationLCID** и **MSIOfficeLCID.**
+2.  `GetMAPIPath` вызовы для чтения  `GetMapiMsiIds` значений **MSIComponentID,** **MSIApplicationLCID** и **MSIOfficeLCID**.
     
-3.  `GetMapiMsiIds``GetMailKey`вызовы, чтобы открыть ключ реестра для почтового клиента по умолчанию. 
+3.  `GetMapiMsiIds` вызовы  `GetMailKey` для открытия ключа реестра для почтового клиента по умолчанию. 
     
-4.  `GetMapiMsiIds`использует работку реестра, возвращаемую для возвращения значений `GetMailKey` **для MSIComponentID,** **MSIApplicationLCID** и **MSIOfficeLCID.**
+4.  `GetMapiMsiIds`использует возвращаемую обработку реестра, чтобы найти значения `GetMailKey` **для MSIComponentID,** **MSIApplicationLCID** и **MSIOfficeLCID.**
     
-5. Значения **MSIComponentID,** **MSIApplicationLCID** и **MSIOfficeLCID** возвращаются в  `GetMAPIPath` .  `GetMAPIPath` затем передает их в  `GetComponentPath` .
+5. Значения для **MSIComponentID,** **MSIApplicationLCID** и **MSIOfficeLCID** возвращаются в  `GetMAPIPath` .  `GetMAPIPath` затем передает их  `GetComponentPath` в .
     
-6.  `GetComponentPath` загружает библиотеку загона MAPI Mapi32.dll из системного каталога. 
+6.  `GetComponentPath` загружает библиотеку замеси MAPI, Mapi32.dll, из каталога системы. 
     
-7.  `GetComponentPath`затем извлекает адрес функции **FGetComponentPath** из Mapi32.dll при условии, что Mapi32.dll **экспортирует FGetComponentPath.**
+7.  `GetComponentPath` затем извлекает адрес функции **FGetComponentPath** из Mapi32.dll, предполагая, что Mapi32.dll **экспортирует FGetComponentPath**.
     
-8. Если получить адрес **FGetComponentPath** из Mapi32.dll не удается, получает адрес из  `GetComponentPath` Mapistub.dll. 
+8. Если получение адреса **FGetComponentPath** из Mapi32.dll не удается, извлекает адрес из  `GetComponentPath` Mapistub.dll. 
     
-9.  `GetComponentPath` Затем **вызывается FGetComponentPath,** который получает путь к версии MAPI по умолчанию.
+9.  `GetComponentPath` затем вызывает **FGetComponentPath,** чтобы получить путь по умолчанию версии MAPI.
     
-10.  `GetMAPIPath`затем возвращает этот путь вызываемой, которая затем загружает MAPI и явным образом ссылается на него, как описано в ссылке на [функции MAPI.](how-to-link-to-mapi-functions.md)
+10.  `GetMAPIPath`затем возвращает этот путь вызываемму, который загружает MAPI и явно ссылается на него, как описано в [Link to MAPI Functions.](how-to-link-to-mapi-functions.md)
     
 > [!NOTE] 
-> - Для поддержки локализованных копий MAPI для английского и неименизованного языка считывайте значения подкайки `GetMAPIPath` **MSIApplicationLCID** и **MSIOfficeLCID.**  `GetMAPIPath`затем вызывает **FGetComponentPath,** сначала укажите **MSIApplicationLCID** как **szQualifier,** а затем снова укажите **MSIOfficeLCID** как **szQualifier.** Дополнительные сведения о ключах реестра для почтовых клиентов, которые поддерживают не английский язык, см. в настройке [ключей MSI для вашей DLL MAPI.](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)   
-> - Если MFCMAPI не получает путь для использования MAPI, он загружает библиотеку загружки  `GetMAPIPath` MAPI из системного каталога.
-> - Значение **реестра MSMapiApps,** обсуждаемые в явном сопоставлении вызовов MAPI с [библиотеками DLL MAPI,](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx) применяется только в том случае, если используется библиотека ЗАГТ MAPI. Приложения, которые загружают определенную реализацию MAPI или загружают реализацию по умолчанию, не должны устанавливать **ключ реестра MSMapiApps.** 
+> - Для поддержки локализованных копий MAPI для английских и не-английских локалов считываю значения для `GetMAPIPath` **подкоев MSIApplicationLCID** и **MSIOfficeLCID.**  `GetMAPIPath` затем вызывает **FGetComponentPath,** сначала указывает **MSIApplicationLCID** как **szQualifier,** и снова указывает **MSIOfficeLCID** как **szQualifier**. Дополнительные сведения о ключах реестра для почтовых клиентов, которые поддерживают не-английские языки, см. в сообщении [Setting Up the MSI Keys for Your MAPI DLL.](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)   
+> - Если MFCMAPI не получает путь для использования MAPI, он загружает библиотеку заглов MAPI из  `GetMAPIPath` каталога системы.
+> - Значение **реестра MSMapiApps,** о чем говорится в явном сопоставлении звонков MAPI к [DLLs MAPI,](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx) применяется только при том, что используется библиотека STUB MAPI. Приложения, загружая определенную реализацию MAPI или загружая реализацию по умолчанию, не должны устанавливать ключ **реестра MSMapiApps.** 
     
 ## <a name="see-also"></a>См. также
 
 - [FGetComponentPath](fgetcomponentpath.md)
 - [Общие сведения о программировании MAPI](mapi-programming-overview.md)
 - [Ссылки на функции MAPI](how-to-link-to-mapi-functions.md)
-- [Mapi32.dll реестра загной](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx)
-- [Настройка ключей MSI для DLL MAPI](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)
-- [Явное сопоставление вызовов MAPI с DLL MAPI](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx)
+- [Mapi32.dll реестра Stub Параметры](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx)
+- [Настройка клавиш MSI для DLL MAPI](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)
+- [Явное сопоставление вызовов MAPI на DLLs MAPI](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx)
 

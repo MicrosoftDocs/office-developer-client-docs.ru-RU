@@ -23,7 +23,7 @@ ms.locfileid: "32341050"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит исходную дату и время отправки сообщения в отчете.
   
@@ -36,7 +36,7 @@ ms.locfileid: "32341050"
    
 ## <a name="remarks"></a>Примечания
 
-При первой отправке сообщения клиентские приложения должны установить для этого свойства значение свойства **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime).](pidtagclientsubmittime-canonical-property.md) Он не меняется при переадад говорится в сообщении. Это используется только в отчетах.
+При первом представлении сообщения клиентская заявка должна установить это свойство к значению **свойства PR_CLIENT_SUBMIT_TIME** [(PidTagClientSubmitTime).](pidtagclientsubmittime-canonical-property.md) Он не меняется при переададовыве сообщении. Это используется только в отчетах.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,9 +48,9 @@ ms.locfileid: "32341050"
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Указывает свойства и операции, допустимые для объектов сообщений электронной почты.
+> Указывает свойства и операции, допустимые на объектах сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

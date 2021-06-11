@@ -23,7 +23,7 @@ ms.locfileid: "32342569"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит таблицу вложений для сообщения. 
   
@@ -36,11 +36,11 @@ ms.locfileid: "32342569"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство можно исключить в операциях [IMAPIProp::CopyTo](imapiprop-copyto.md) или включить в операции [IMAPIProp::CopyProps.](imapiprop-copyprops.md) В качестве свойства типа PT_OBJECT его не удается получить с помощью метода [IMAPIProp::GetProps.](imapiprop-getprops.md) Доступ к его содержимому должен получить метод [IMAPIProp::OpenProperty,](imapiprop-openproperty.md) запрашивающий идентификатор IID_IMAPITable интерфейса.  Поставщики служб должны сообщить о нем методу [IMAPIProp::GetPropList,](imapiprop-getproplist.md) если он установлен, но при желании может сообщить о нем или нет, если он не за установлен. 
+Это свойство можно исключить в [операциях IMAPIProp::CopyTo](imapiprop-copyto.md) или включить в [операции IMAPIProp::CopyProps.](imapiprop-copyprops.md) Как свойство типа PT_OBJECT, его невозможно успешно получить [методом IMAPIProp::GetProps.](imapiprop-getprops.md) Его содержимое должно быть доступны [методом IMAPIProp::OpenProperty,](imapiprop-openproperty.md) запрашивая **идентификатор IID_IMAPITable** интерфейса. Поставщики услуг должны сообщить об этом [методу IMAPIProp::GetPropList,](imapiprop-getproplist.md) если он за установлен, но может сообщить об этом или нет, если он не установлен. 
   
-Чтобы получить содержимое таблицы, клиентские приложения должны вызвать [метод IMessage::GetAttachmentTable.](imessage-getattachmenttable.md) For more information, see [������� ��������](attachment-tables.md). 
+Чтобы получить содержимое таблицы, клиентская заявка должна вызвать [метод IMessage::GetAttachmentTable.](imessage-getattachmenttable.md) For more information, see [������� ��������](attachment-tables.md). 
   
-Это свойство можно использовать для ограничения подобектов, указав его в структуре [SSubRestriction.](ssubrestriction.md) Это позволяет клиенту ограничить представление контейнера сообщениями с вложениями, которые соответствуют заданным критериям. Сообщение квалификаторы для просмотра, если по крайней мере одна строка в таблице вложений, то есть одно вложение, удовлетворяет ограничению subobject. 
+Это свойство можно использовать для ограничения субобекции, указав его в [структуре SSubRestriction.](ssubrestriction.md) Это позволяет клиенту ограничить представление контейнера сообщениями с вложениями, которые соответствуют заданным критериям. Сообщение имеет право на просмотр, если хотя бы одна строка в таблице вложений, то есть одно вложение, удовлетворяет ограничению subobject. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -56,9 +56,9 @@ ms.locfileid: "32342569"
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Преобразуется между IETF RFC2445, RFC2446 и RFC2447, а также объектами встреч и собраний.
+> Преобразования между объектами IETF RFC2445, RFC2446 и RFC2447, а также объектами назначения и собраний.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -78,5 +78,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

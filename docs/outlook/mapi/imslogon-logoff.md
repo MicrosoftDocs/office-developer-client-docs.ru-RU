@@ -23,9 +23,9 @@ ms.locfileid: "32348876"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Выйдите из службы хранения сообщений. 
+Журналы поставщика магазина сообщений. 
   
 ```cpp
 HRESULT Logoff(
@@ -33,11 +33,11 @@ HRESULT Logoff(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _lpulFlags_
   
-> [in] Зарезервировано; должен быть указателем на ноль.
+> [in] Зарезервировано; должно быть указателем на ноль.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -47,11 +47,11 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Поставщики store сообщений реализуют метод **IMSLogon::Logoff** для принудительного отключения поставщика. **IMSLogon::Logoff** вызван в следующих ситуациях: 
+Поставщики магазинов сообщений реализуют **метод IMSLogon::Logoff** для принудительного отключения поставщика магазина сообщений. **IMSLogon::Logoff** вызван в следующих ситуациях: 
   
-- Хотя MAPI отключает клиент после вызова метода [IMAPISession::Logoff.](imapisession-logoff.md) 
+- Хотя MAPI отключает клиента после вызова метода [IMAPISession::Logoff.](imapisession-logoff.md) 
     
-- Хотя MAPI отключается от поставщика store сообщений. В этом случае **IMSLogon::Logoff** называется как часть обработки MAPI метода [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) объекта поддержки, создаваемого поставщиком хранилищ сообщений при обработке вызова метода [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) или **IUnknown::Release** для объекта хранилищ сообщений. 
+- В то время как MAPI отключается от поставщика магазина сообщений. В этом случае **IMSLogon::Logoff** называется частью обработки [метода MAPI IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) объекта поддержки, создаваемого поставщиком магазина сообщений при обработке [метода IMsgStore::StoreLogoff](imsgstore-storelogoff.md) или **метода IUnknown::Release** на объекте магазина сообщений. 
     
 ## <a name="see-also"></a>См. также
 

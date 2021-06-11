@@ -23,21 +23,21 @@ ms.locfileid: "32356044"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает пользователя, который последним ответил на запрос на собрание или объект обновления собрания.
+Указывает пользователя, который последний раз отвечал на запрос собрания или объект обновления собрания.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidApptReplyName  <br/> |
 |Набор свойств:  <br/> |PSETID_Appointment  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008230  <br/> |
+|Long ID (LID):  <br/> |0x00008230  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Собрания  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство устанавливается для делегатора, только когда делегат отвечает. Значение равно свойству **PR_MAILBOX_OWNER_NAME** ([PidTagMailboxOwnerName)](pidtagmailboxownername-canonical-property.md)для магазина делегата. Это свойство не имеет значения для организатора. Подробные **сведения** о PR_MAILBOX_OWNER_NAME см. в протоколе объекта store, указанном [в [MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx).
+Это свойство заданной только для делегатора, когда делегат ответил. Значение равно свойству **PR_MAILBOX_OWNER_NAME** [(PidTagMailboxOwnerName)](pidtagmailboxownername-canonical-property.md)для магазина делегата. Это свойство не имеет значения для организатора. Подробные сведения **о PR_MAILBOX_OWNER_NAME** см. в материале Store object protocol, указанном [в [MS-OXCSTOR].](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -49,13 +49,13 @@ ms.locfileid: "32356044"
     
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения наборов свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -71,5 +71,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

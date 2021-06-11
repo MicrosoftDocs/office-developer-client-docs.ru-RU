@@ -1,5 +1,5 @@
 ---
-title: Каноническое свойство PidTagRecipientReassignmentProhibited
+title: PidTagRecipientReassignmentProhibited Canonical Property
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -17,13 +17,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32341113"
 ---
-# <a name="pidtagrecipientreassignmentprohibited-canonical-property"></a>Каноническое свойство PidTagRecipientReassignmentProhibited
+# <a name="pidtagrecipientreassignmentprohibited-canonical-property"></a>PidTagRecipientReassignmentProhibited Canonical Property
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает, запрещено ли добавлять дополнительных получателей при переадад записи сообщения.
+Указывает, запрещено ли добавлять дополнительных получателей при отправке сообщения для сообщения электронной почты.
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ ms.locfileid: "32341113"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство устанавливается на основе значения PR_SENSITIVITY **сообщения** ([PidTagSensitivity).](pidtagsensitivity-canonical-property.md) Если **PR_SENSITIVITY** имеет значение "0x00000000" (обычный) или "0x00000003" (конфиденциально), это свойство должно иметь значение "0x00" или отсутствует, что добавление дополнительных или разных получателей в сообщение электронной почты разрешено. Если свойству объекта **электронной** почты PR_SENSITIVITY задают "0x00000001" (личный) или "0x00000002" (частный), этому свойству необходимо установить "0x01", чтобы запретить добавление дополнительных или разных получателей этой электронной почты посредством переадстройки. 
+Это свойство устанавливается на основе значения  PR_SENSITIVITY[(PidTagSensitivity).](pidtagsensitivity-canonical-property.md) Если **PR_SENSITIVITY** установлено значение "0x00000000" (нормальное) или "0x00000003" (конфиденциальное), это свойство должно быть заданной на значение "0x00" или отсутствовать, что допускается добавление дополнительных или разных получателей в сообщение электронной почты. Если PR_SENSITIVITY объекта  электронной почты задают "0x00000001" (личное) или "0x00000002" (частное), это свойство должно быть задано "0x01", чтобы предотвратить добавление дополнительных или разных получателей этой электронной почты путем переададки. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -46,9 +46,9 @@ ms.locfileid: "32341113"
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для сообщений электронной почты.
+> Указывает свойства и операции, допустимые в сообщениях электронной почты.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -56,7 +56,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,5 +68,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

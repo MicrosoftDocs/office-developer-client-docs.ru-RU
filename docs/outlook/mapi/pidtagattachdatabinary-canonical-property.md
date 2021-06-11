@@ -23,9 +23,9 @@ ms.locfileid: "32356548"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит двоичные данные вложений, которые обычно доступны через интерфейс **IStream** для связывания и встраивления объектов (OLE). 
+Содержит двоичные данные вложения, обычно доступные с помощью интерфейса **IStream,** связывающих объекты и встраив их. 
   
 |||
 |:-----|:-----|
@@ -36,15 +36,15 @@ ms.locfileid: "32356548"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство содержит вложение, если значение свойства **PR_ATTACH_METHOD** ([PidTagAttachMethod)](pidtagattachmethod-canonical-property.md)ATTACH_BY_VALUE, который является обычным методом вложения и единственным, который требуется поддерживать. **PR_ATTACH_DATA_BIN** также содержит вложение OLE 1.0 **OLESTREAM,** если PR_ATTACH_METHOD значение **ATTACH_OLE.** 
+Это свойство содержит вложение, когда значение **свойства PR_ATTACH_METHOD** [(PidTagAttachMethod)](pidtagattachmethod-canonical-property.md)ATTACH_BY_VALUE, которое является обычным методом вложения и единственным, которое необходимо поддерживать. **PR_ATTACH_DATA_BIN** также содержит вложение OLE 1.0 **OLESTREAM,** если значение PR_ATTACH_METHOD ATTACH_OLE.  
   
- **Вложения OLESTREAM** можно скопировать в файл, вызывая метод OLE **IStream::CopyTo.** Тип кодиировки OLE можно определить из свойства **PR_ATTACH_TAG** ([PidTagAttachTag).](pidtagattachtag-canonical-property.md) 
+ **Вложения OLESTREAM** можно скопировать в файл, позвонив по методу OLE **IStream::CopyTo.** Тип кодировки OLE можно определить из **свойства PR_ATTACH_TAG** [(PidTagAttachTag).](pidtagattachtag-canonical-property.md) 
   
-Для вложенного файла документа OLE поставщик хранения сообщений должен ответить на вызов [IMAPIProp::OpenProperty](imapiprop-openproperty.md) в **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject)](pidtagattachdataobject-canonical-property.md)и при желании ответить на вызов PR_ATTACH_DATA_BIN **.** Обратите **внимание PR_ATTACH_DATA_BIN** и **PR_ATTACH_DATA_OBJ** одно и то же идентификатор свойства и, следовательно, являются двумя его двумя. 
+Для вложения в файл OLE поставщик хранения сообщений должен отвечать на вызов [IMAPIProp::OpenProperty](imapiprop-openproperty.md) **по PR_ATTACH_DATA_OBJ** [(PidTagAttachDataObject)](pidtagattachdataobject-canonical-property.md)и может необязательно отвечать на **вызов PR_ATTACH_DATA_BIN**. Обратите **внимание, PR_ATTACH_DATA_BIN** **и PR_ATTACH_DATA_OBJ** имеют один и тот же идентификатор свойств и таким образом являются двумя renditions одного и того же свойства. 
   
-Для объекта хранилища, например составного файла в формате docfile OLE 2.0, некоторые поставщики услуг позволяют открывать его с помощью интерфейса **MAPI IStreamDocfile** для повышения производительности. Поставщик, который поддерживает **IStreamDocfile,**  должен показать его на PR_ATTACH_DATA_OBJ и при желании может выставить его **на PR_ATTACH_DATA_BIN.** 
+Для объекта хранения, например сложного файла в формате docfile OLE 2.0, некоторые поставщики услуг позволяют открывать его с интерфейсом **MAPI IStreamDocfile** для повышения производительности. Поставщик, который поддерживает **IStreamDocfile,**  должен PR_ATTACH_DATA_OBJ его на PR_ATTACH_DATA_BIN **.** 
   
-Дополнительные сведения об интерфейсах и форматах OLE см. в [OLE и передаче данных.](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx) 
+Дополнительные сведения об интерфейсах и форматах OLE см. в [OLE и Data Transfer.](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -54,7 +54,7 @@ ms.locfileid: "32356548"
   
 > Обрабатывает объекты сообщений и вложений.
     
-## <a name="header-files"></a>Файлы заголовок
+## <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -74,5 +74,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -23,21 +23,21 @@ ms.locfileid: "32340091"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
- Имя пользователя, которому была назначена последняя задача. 
+ Имена пользователя, которому в последний раз была назначена задача. 
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidTaskDelegator  <br/> |
 |Набор свойств:  <br/> |PSETID_Task  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008121  <br/> |
+|Long ID (LID):  <br/> |0x00008121  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Task  <br/> |
+|Область:  <br/> |Задача  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если задача не назначена, это свойство остается невыпученным. Так как клиент задает это свойство после получения запроса задачи, это свойство не будет установлено в копии задачи. Когда клиент добавляет или удаляет назначение задачи из списка назначения задач в свойстве **dispidTaskMyDelegators** [(PidLidTaskAssigners),](pidlidtaskassigners-canonical-property.md)свойство **dispidTaskDelegator** ([PidLidTaskAssigner)](pidlidtaskassigner-canonical-property.md)должно быть установлено для добавленного или удаленного назначения задачи.
+Если задача не назначена, это свойство остается неустановленным. Так как клиент задает это свойство после получения запроса задачи, свойство не будет заданной на копию задачи. Когда клиент добавляет или удаляет назначение задачи из списка назначителей задач в свойстве **dispidTaskMyDelegators** [(PidLidTaskAssigners),](pidlidtaskassigners-canonical-property.md)свойство **dispidTaskDelegator** [(PidLidTaskAssigner)](pidlidtaskassigner-canonical-property.md)должно быть задано добавлено или удалено.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32340091"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения наборов свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Определяет несколько объектов, которые моделируют электронный эквивалент задач, назначений задач и обновлений задач.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 
