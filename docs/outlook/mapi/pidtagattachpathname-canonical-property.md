@@ -19,67 +19,67 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32327232"
 ---
-# <a name="pidtagattachpathname-canonical-property"></a><span data-ttu-id="7474d-103">Каноническое свойство PidTagAttachPathname</span><span class="sxs-lookup"><span data-stu-id="7474d-103">PidTagAttachPathname Canonical Property</span></span>
+# <a name="pidtagattachpathname-canonical-property"></a><span data-ttu-id="8ff0e-103">Каноническое свойство PidTagAttachPathname</span><span class="sxs-lookup"><span data-stu-id="8ff0e-103">PidTagAttachPathname Canonical Property</span></span>
 
   
   
-<span data-ttu-id="7474d-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7474d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8ff0e-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8ff0e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7474d-105">Содержит полное имя и путь вложения.</span><span class="sxs-lookup"><span data-stu-id="7474d-105">Contains an attachment's fully-qualified path and filename.</span></span>
+<span data-ttu-id="8ff0e-105">Содержит полностью квалифицированный путь и имя файла вложения.</span><span class="sxs-lookup"><span data-stu-id="8ff0e-105">Contains an attachment's fully-qualified path and filename.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="7474d-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="7474d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="7474d-107">PR_ATTACH_PATHNAME, PR_ATTACH_PATHNAME_A, PR_ATTACH_PATHNAME_W</span><span class="sxs-lookup"><span data-stu-id="7474d-107">PR_ATTACH_PATHNAME, PR_ATTACH_PATHNAME_A, PR_ATTACH_PATHNAME_W</span></span>  <br/> |
-|<span data-ttu-id="7474d-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="7474d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="7474d-109">0x3708</span><span class="sxs-lookup"><span data-stu-id="7474d-109">0x3708</span></span>  <br/> |
-|<span data-ttu-id="7474d-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="7474d-110">Data type:</span></span>  <br/> |<span data-ttu-id="7474d-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="7474d-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="7474d-112">Область:</span><span class="sxs-lookup"><span data-stu-id="7474d-112">Area:</span></span>  <br/> |<span data-ttu-id="7474d-113">Вложение в сообщение</span><span class="sxs-lookup"><span data-stu-id="7474d-113">Message attachment</span></span>  <br/> |
+|<span data-ttu-id="8ff0e-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="8ff0e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="8ff0e-107">PR_ATTACH_PATHNAME, PR_ATTACH_PATHNAME_A, PR_ATTACH_PATHNAME_W</span><span class="sxs-lookup"><span data-stu-id="8ff0e-107">PR_ATTACH_PATHNAME, PR_ATTACH_PATHNAME_A, PR_ATTACH_PATHNAME_W</span></span>  <br/> |
+|<span data-ttu-id="8ff0e-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="8ff0e-108">Identifier:</span></span>  <br/> |<span data-ttu-id="8ff0e-109">0x3708</span><span class="sxs-lookup"><span data-stu-id="8ff0e-109">0x3708</span></span>  <br/> |
+|<span data-ttu-id="8ff0e-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="8ff0e-110">Data type:</span></span>  <br/> |<span data-ttu-id="8ff0e-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="8ff0e-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="8ff0e-112">Область:</span><span class="sxs-lookup"><span data-stu-id="8ff0e-112">Area:</span></span>  <br/> |<span data-ttu-id="8ff0e-113">Вложение в сообщение</span><span class="sxs-lookup"><span data-stu-id="8ff0e-113">Message attachment</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="7474d-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="7474d-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8ff0e-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="8ff0e-114">Remarks</span></span>
 
-<span data-ttu-id="7474d-115">Рекомендуется, чтобы вложенные объекты вложения выдают эти свойства.</span><span class="sxs-lookup"><span data-stu-id="7474d-115">It is recommended that attachment subobjects expose these properties.</span></span> <span data-ttu-id="7474d-116">Установка этих данных означает, что данные вложения не включены в сообщение, но доступны на общем файловом сервере.</span><span class="sxs-lookup"><span data-stu-id="7474d-116">Setting them indicates that the attachment data is not included with the message but is available on a common file server.</span></span> <span data-ttu-id="7474d-117">Эти свойства необходимы в сочетании с любым из флагов **PR_ATTACH_METHOD** ([PidTagAttachMethod),](pidtagattachmethod-canonical-property.md)которые указывают вложение по ссылке: **ATTACH_BY_REFERENCE,** **ATTACH_BY_REF_RESOLVE** или **ATTACH_BY_REF_ONLY**.</span><span class="sxs-lookup"><span data-stu-id="7474d-117">These properties are required in conjunction with any of the **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) flags that indicate attachment by reference: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**, or **ATTACH_BY_REF_ONLY**.</span></span> 
+<span data-ttu-id="8ff0e-115">Рекомендуется, чтобы подпроекты вложений выставили эти свойства.</span><span class="sxs-lookup"><span data-stu-id="8ff0e-115">It is recommended that attachment subobjects expose these properties.</span></span> <span data-ttu-id="8ff0e-116">Их настройка указывает на то, что данные вложения не включены в сообщение, но доступны на общем файловом сервере.</span><span class="sxs-lookup"><span data-stu-id="8ff0e-116">Setting them indicates that the attachment data is not included with the message but is available on a common file server.</span></span> <span data-ttu-id="8ff0e-117">Эти свойства необходимы в сочетании с **любым** из флагов PR_ATTACH_METHOD [(PidTagAttachMethod),](pidtagattachmethod-canonical-property.md)которые указывают на вложение по ссылке: **ATTACH_BY_REFERENCE,** **ATTACH_BY_REF_RESOLVE** или **ATTACH_BY_REF_ONLY**.</span><span class="sxs-lookup"><span data-stu-id="8ff0e-117">These properties are required in conjunction with any of the **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) flags that indicate attachment by reference: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE**, or **ATTACH_BY_REF_ONLY**.</span></span> 
   
-<span data-ttu-id="7474d-118">Каждый каталог или имя файла ограничено восьмибуквенным и трехбуквенным расширением.</span><span class="sxs-lookup"><span data-stu-id="7474d-118">Each directory or filename is restricted to an eight-character name plus a three-character extension.</span></span> <span data-ttu-id="7474d-119">Общий путь ограничен 256 символами.</span><span class="sxs-lookup"><span data-stu-id="7474d-119">The overall path is restricted to 256 characters.</span></span> <span data-ttu-id="7474d-120">Для платформы, поддерживаю которой поддерживаются длинные имена файлов, установите эти свойства **и PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname).](pidtagattachlongpathname-canonical-property.md)</span><span class="sxs-lookup"><span data-stu-id="7474d-120">For a platform that supports long filenames, set both these properties and **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)).</span></span> 
+<span data-ttu-id="8ff0e-118">Каждый каталог или имя файла ограничено восьмииеговным и трехликторным расширением.</span><span class="sxs-lookup"><span data-stu-id="8ff0e-118">Each directory or filename is restricted to an eight-character name plus a three-character extension.</span></span> <span data-ttu-id="8ff0e-119">Общий путь ограничен 256 символами.</span><span class="sxs-lookup"><span data-stu-id="8ff0e-119">The overall path is restricted to 256 characters.</span></span> <span data-ttu-id="8ff0e-120">Для платформы, которая поддерживает длинные имена файлов, установите эти свойства **и PR_ATTACH_LONG_PATHNAME** [(PidTagAttachLongPathname).](pidtagattachlongpathname-canonical-property.md)</span><span class="sxs-lookup"><span data-stu-id="8ff0e-120">For a platform that supports long filenames, set both these properties and **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)).</span></span> 
   
-<span data-ttu-id="7474d-121">Клиентские приложения должны использовать универсальное соглашение об именах (UNC) в большинстве случаев, когда файл является общим, и должны использовать абсолютный путь, если файл является локальным.</span><span class="sxs-lookup"><span data-stu-id="7474d-121">Client applications should use a universal naming convention (UNC) in most cases when the file is shared, and should use an absolute path when the file is local.</span></span>
+<span data-ttu-id="8ff0e-121">Клиентские приложения должны использовать универсальную конвенцию имен (UNC) в большинстве случаев, когда файл является общим, и должны использовать абсолютный путь, когда файл локальный.</span><span class="sxs-lookup"><span data-stu-id="8ff0e-121">Client applications should use a universal naming convention (UNC) in most cases when the file is shared, and should use an absolute path when the file is local.</span></span>
   
-<span data-ttu-id="7474d-122">MAPI работает только с путями и именами файлов в наборе символов ANSI.</span><span class="sxs-lookup"><span data-stu-id="7474d-122">MAPI works only with paths and filenames in the ANSI character set.</span></span> <span data-ttu-id="7474d-123">Клиенты, которые используют пути и имена файлов в наборе символов OEM, должны преобразовать их в ANSI, прежде чем вызывать MAPI.</span><span class="sxs-lookup"><span data-stu-id="7474d-123">Clients that use paths and filenames in an OEM character set must convert them to ANSI before calling MAPI.</span></span> 
+<span data-ttu-id="8ff0e-122">MAPI работает только с путями и именами файлов в наборе символов ANSI.</span><span class="sxs-lookup"><span data-stu-id="8ff0e-122">MAPI works only with paths and filenames in the ANSI character set.</span></span> <span data-ttu-id="8ff0e-123">Клиенты, которые используют пути и имена файлов в наборе символов OEM, должны преобразовать их в ANSI перед вызовом MAPI.</span><span class="sxs-lookup"><span data-stu-id="8ff0e-123">Clients that use paths and filenames in an OEM character set must convert them to ANSI before calling MAPI.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="7474d-124">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="7474d-124">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="8ff0e-124">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="8ff0e-124">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="7474d-125">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="7474d-125">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="8ff0e-125">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="8ff0e-125">Protocol specifications</span></span>
 
-<span data-ttu-id="7474d-126">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7474d-126">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="8ff0e-126">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="8ff0e-126">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="7474d-127">Обрабатывает объекты сообщений и вложений.</span><span class="sxs-lookup"><span data-stu-id="7474d-127">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="8ff0e-127">Обрабатывает объекты сообщений и вложений.</span><span class="sxs-lookup"><span data-stu-id="8ff0e-127">Handles message and attachment objects.</span></span>
     
-<span data-ttu-id="7474d-128">[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7474d-128">[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="8ff0e-128">[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="8ff0e-128">[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="7474d-129">Указывает свойства сообщений в кодированной кодировки с управлением правами.</span><span class="sxs-lookup"><span data-stu-id="7474d-129">Specifies the properties of rights-managed encoded messages.</span></span>
+> <span data-ttu-id="8ff0e-129">Указывает свойства зашифрованных сообщений с управляемым правами.</span><span class="sxs-lookup"><span data-stu-id="8ff0e-129">Specifies the properties of rights-managed encoded messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="7474d-130">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="7474d-130">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="8ff0e-130">Файлы заголовки</span><span class="sxs-lookup"><span data-stu-id="8ff0e-130">Header files</span></span>
 
-<span data-ttu-id="7474d-131">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="7474d-131">Mapidefs.h</span></span>
+<span data-ttu-id="8ff0e-131">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="8ff0e-131">Mapidefs.h</span></span>
   
-> <span data-ttu-id="7474d-132">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="7474d-132">Provides data type definitions.</span></span>
+> <span data-ttu-id="8ff0e-132">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="8ff0e-132">Provides data type definitions.</span></span>
     
-<span data-ttu-id="7474d-133">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="7474d-133">Mapitags.h</span></span>
+<span data-ttu-id="8ff0e-133">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="8ff0e-133">Mapitags.h</span></span>
   
-> <span data-ttu-id="7474d-134">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="7474d-134">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="8ff0e-134">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="8ff0e-134">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="7474d-135">См. также</span><span class="sxs-lookup"><span data-stu-id="7474d-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8ff0e-135">См. также</span><span class="sxs-lookup"><span data-stu-id="8ff0e-135">See also</span></span>
 
 
 
-[<span data-ttu-id="7474d-136">ScLocalPathFromUNC</span><span class="sxs-lookup"><span data-stu-id="7474d-136">ScLocalPathFromUNC</span></span>](sclocalpathfromunc.md)
+[<span data-ttu-id="8ff0e-136">ScLocalPathFromUNC</span><span class="sxs-lookup"><span data-stu-id="8ff0e-136">ScLocalPathFromUNC</span></span>](sclocalpathfromunc.md)
   
-[<span data-ttu-id="7474d-137">ScUNCFromLocalPath</span><span class="sxs-lookup"><span data-stu-id="7474d-137">ScUNCFromLocalPath</span></span>](scuncfromlocalpath.md)
+[<span data-ttu-id="8ff0e-137">ScUNCFromLocalPath</span><span class="sxs-lookup"><span data-stu-id="8ff0e-137">ScUNCFromLocalPath</span></span>](scuncfromlocalpath.md)
 
 
-[<span data-ttu-id="7474d-138">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="7474d-138">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="8ff0e-138">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="8ff0e-138">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="7474d-139">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="7474d-139">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="8ff0e-139">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="8ff0e-139">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="7474d-140">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="7474d-140">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="8ff0e-140">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="8ff0e-140">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="7474d-141">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="7474d-141">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="8ff0e-141">Сопоставление имен MAPI с каноническими именами свойств</span><span class="sxs-lookup"><span data-stu-id="8ff0e-141">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

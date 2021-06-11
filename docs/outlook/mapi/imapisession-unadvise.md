@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32335704"
 ---
-# <a name="imapisessionunadvise"></a><span data-ttu-id="84c9b-103">IMAPISession::Unadvise</span><span class="sxs-lookup"><span data-stu-id="84c9b-103">IMAPISession::Unadvise</span></span>
+# <a name="imapisessionunadvise"></a><span data-ttu-id="e2414-103">IMAPISession::Unadvise</span><span class="sxs-lookup"><span data-stu-id="e2414-103">IMAPISession::Unadvise</span></span>
 
   
   
-<span data-ttu-id="84c9b-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="84c9b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e2414-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e2414-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="84c9b-105">Отменяет отправку уведомлений, ранее настроив вызов метода [IMAPISession::Advise.](imapisession-advise.md)</span><span class="sxs-lookup"><span data-stu-id="84c9b-105">Cancels the sending of notifications previously set up with a call to the [IMAPISession::Advise](imapisession-advise.md) method.</span></span> 
+<span data-ttu-id="e2414-105">Отменяет отправку уведомлений, ранее настроенных с помощью вызова метода [IMAPISession::Advise.](imapisession-advise.md)</span><span class="sxs-lookup"><span data-stu-id="e2414-105">Cancels the sending of notifications previously set up with a call to the [IMAPISession::Advise](imapisession-advise.md) method.</span></span> 
   
 ```cpp
 HRESULT Unadvise(
@@ -33,31 +33,31 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="84c9b-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="84c9b-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e2414-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="e2414-106">Parameters</span></span>
 
- <span data-ttu-id="84c9b-107">_ulConnection_</span><span class="sxs-lookup"><span data-stu-id="84c9b-107">_ulConnection_</span></span>
+ <span data-ttu-id="e2414-107">_ulConnection_</span><span class="sxs-lookup"><span data-stu-id="e2414-107">_ulConnection_</span></span>
   
-> <span data-ttu-id="84c9b-108">[in] Номер подключения, связанный с регистрацией активных уведомлений.</span><span class="sxs-lookup"><span data-stu-id="84c9b-108">[in] A connection number associated with an active notification registration.</span></span> <span data-ttu-id="84c9b-109">Значение _ulConnection_ должно быть возвращено предыдущим вызовом **IMAPISession::Advise.**</span><span class="sxs-lookup"><span data-stu-id="84c9b-109">The value of  _ulConnection_ must have been returned by a previous call to **IMAPISession::Advise**.</span></span>
+> <span data-ttu-id="e2414-108">[in] Номер подключения, связанный с активной регистрацией уведомлений.</span><span class="sxs-lookup"><span data-stu-id="e2414-108">[in] A connection number associated with an active notification registration.</span></span> <span data-ttu-id="e2414-109">Значение  _ulConnection_ должно быть возвращено предыдущим вызовом **в IMAPISession::Advise**.</span><span class="sxs-lookup"><span data-stu-id="e2414-109">The value of  _ulConnection_ must have been returned by a previous call to **IMAPISession::Advise**.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="84c9b-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="84c9b-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e2414-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="e2414-110">Return value</span></span>
 
-<span data-ttu-id="84c9b-111">S_OK</span><span class="sxs-lookup"><span data-stu-id="84c9b-111">S_OK</span></span> 
+<span data-ttu-id="e2414-111">S_OK</span><span class="sxs-lookup"><span data-stu-id="e2414-111">S_OK</span></span> 
   
-> <span data-ttu-id="84c9b-112">Регистрация успешно отменена.</span><span class="sxs-lookup"><span data-stu-id="84c9b-112">The registration was successfully canceled.</span></span>
+> <span data-ttu-id="e2414-112">Регистрация была успешно отменена.</span><span class="sxs-lookup"><span data-stu-id="e2414-112">The registration was successfully canceled.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="84c9b-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="84c9b-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e2414-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="e2414-113">Remarks</span></span>
 
-<span data-ttu-id="84c9b-114">Метод **IMAPISession::Unadvise** отменяет регистрацию для уведомления.</span><span class="sxs-lookup"><span data-stu-id="84c9b-114">The **IMAPISession::Unadvise** method cancels a registration for notification.</span></span> <span data-ttu-id="84c9b-115">**Unadvise** отпускает свой указатель на замещетель консультации звонящего, который он получил в вызове **advise,** используемом для регистрации.</span><span class="sxs-lookup"><span data-stu-id="84c9b-115">**Unadvise** releases its pointer to the caller's advise sink, which it received in the **Advise** call used for registration.</span></span> 
+<span data-ttu-id="e2414-114">Метод **IMAPISession::Unadvise** отменяет регистрацию для уведомления.</span><span class="sxs-lookup"><span data-stu-id="e2414-114">The **IMAPISession::Unadvise** method cancels a registration for notification.</span></span> <span data-ttu-id="e2414-115">**Unadvise** выпускает указатель на раковину рекомендации вызываемой, которую он получил в вызове **Advise,** используемом для регистрации.</span><span class="sxs-lookup"><span data-stu-id="e2414-115">**Unadvise** releases its pointer to the caller's advise sink, which it received in the **Advise** call used for registration.</span></span> 
   
-<span data-ttu-id="84c9b-116">Как правило, **Unadvise** вызывает метод [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) приемника рекомендации во время вызова **Unadvise.**</span><span class="sxs-lookup"><span data-stu-id="84c9b-116">Generally, **Unadvise** calls the advise sink's [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method during the **Unadvise** call.</span></span> <span data-ttu-id="84c9b-117">Однако если в процессе вызова метода [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) приемника рекомендации вызывается другой поток, вызов **release** откладывается до тех пор, пока не будет возвращен метод **OnNotify.**</span><span class="sxs-lookup"><span data-stu-id="84c9b-117">However, if another thread is in the process of calling the advise sink's [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method, the **Release** call is delayed until the **OnNotify** method returns.</span></span> 
+<span data-ttu-id="e2414-116">Как правило, **Unadvise** вызывает метод [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) в процессе вызова **Unadvise.**</span><span class="sxs-lookup"><span data-stu-id="e2414-116">Generally, **Unadvise** calls the advise sink's [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method during the **Unadvise** call.</span></span> <span data-ttu-id="e2414-117">Однако если другой поток вызывает метод [IMAPIAdviseSink::OnNotify,](imapiadvisesink-onnotify.md) вызов выпуска откладывается до возвращения метода **OnNotify.** </span><span class="sxs-lookup"><span data-stu-id="e2414-117">However, if another thread is in the process of calling the advise sink's [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method, the **Release** call is delayed until the **OnNotify** method returns.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="84c9b-118">См. также</span><span class="sxs-lookup"><span data-stu-id="84c9b-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e2414-118">См. также</span><span class="sxs-lookup"><span data-stu-id="e2414-118">See also</span></span>
 
 
 
-[<span data-ttu-id="84c9b-119">IMAPIAdviseSink::OnNotify</span><span class="sxs-lookup"><span data-stu-id="84c9b-119">IMAPIAdviseSink::OnNotify</span></span>](imapiadvisesink-onnotify.md)
+[<span data-ttu-id="e2414-119">IMAPIAdviseSink::OnNotify</span><span class="sxs-lookup"><span data-stu-id="e2414-119">IMAPIAdviseSink::OnNotify</span></span>](imapiadvisesink-onnotify.md)
   
-[<span data-ttu-id="84c9b-120">IMAPISession::Advise</span><span class="sxs-lookup"><span data-stu-id="84c9b-120">IMAPISession::Advise</span></span>](imapisession-advise.md)
+[<span data-ttu-id="e2414-120">IMAPISession::Advise</span><span class="sxs-lookup"><span data-stu-id="e2414-120">IMAPISession::Advise</span></span>](imapisession-advise.md)
   
-[<span data-ttu-id="84c9b-121">IMAPISession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="84c9b-121">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
+[<span data-ttu-id="e2414-121">IMAPISession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="e2414-121">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
 

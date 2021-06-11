@@ -14,19 +14,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32319616"
 ---
-# <a name="color-categories"></a><span data-ttu-id="e0edc-102">Цветовые категории</span><span class="sxs-lookup"><span data-stu-id="e0edc-102">Color categories</span></span>
+# <a name="color-categories"></a><span data-ttu-id="84af7-102">Цветовые категории</span><span class="sxs-lookup"><span data-stu-id="84af7-102">Color categories</span></span>
 
-<span data-ttu-id="e0edc-103">В этом разделе приведены примеры задач, в которых используются цветовые категории, с помощью которых пользователи могут распределять элементы Outlook по категориям и отображать их.</span><span class="sxs-lookup"><span data-stu-id="e0edc-103">This section provides sample tasks that involve color categories, which enable users to categorize Outlook items and display them by category.</span></span>
+<span data-ttu-id="84af7-103">В этом разделе приведены примеры задач, в которых используются цветовые категории, с помощью которых пользователи могут распределять элементы Outlook по категориям и отображать их.</span><span class="sxs-lookup"><span data-stu-id="84af7-103">This section provides sample tasks that involve color categories, which enable users to categorize Outlook items and display them by category.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="e0edc-104">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="e0edc-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="84af7-104">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="84af7-104">In this section</span></span>
 
-|<span data-ttu-id="e0edc-105">Статья</span><span class="sxs-lookup"><span data-stu-id="e0edc-105">Topic</span></span>|<span data-ttu-id="e0edc-106">Описание</span><span class="sxs-lookup"><span data-stu-id="e0edc-106">Description</span></span>|
+|<span data-ttu-id="84af7-105">Статья</span><span class="sxs-lookup"><span data-stu-id="84af7-105">Topic</span></span>|<span data-ttu-id="84af7-106">Описание</span><span class="sxs-lookup"><span data-stu-id="84af7-106">Description</span></span>|
 |:----|:----------|
-|[<span data-ttu-id="e0edc-107">Перечисление и добавление категорий</span><span class="sxs-lookup"><span data-stu-id="e0edc-107">Enumerate and add categories</span></span>](how-to-enumerate-and-add-categories.md)  |<span data-ttu-id="e0edc-108">В этой статье рассказано, как выполнить перечисление категорий и добавить категорию в основной список категорий.</span><span class="sxs-lookup"><span data-stu-id="e0edc-108">Shows how to enumerate categories and add a category to the main category list.</span></span>|
-|[<span data-ttu-id="e0edc-109">Назначение категорий элементу</span><span class="sxs-lookup"><span data-stu-id="e0edc-109">Assign categories to an item</span></span>](how-to-assign-categories-to-an-item.md)  |<span data-ttu-id="e0edc-110">В этой статье рассказано, как назначить категории элементу с помощью его свойства **Categories**.</span><span class="sxs-lookup"><span data-stu-id="e0edc-110">Assigns categories to an item by using its **Categories** property.</span></span>|
+|[<span data-ttu-id="84af7-107">Перечисление и добавление категорий</span><span class="sxs-lookup"><span data-stu-id="84af7-107">Enumerate and add categories</span></span>](how-to-enumerate-and-add-categories.md)  |<span data-ttu-id="84af7-108">В этой статье рассказано, как выполнить перечисление категорий и добавить категорию в основной список категорий.</span><span class="sxs-lookup"><span data-stu-id="84af7-108">Shows how to enumerate categories and add a category to the main category list.</span></span>|
+|[<span data-ttu-id="84af7-109">Назначение категорий элементу</span><span class="sxs-lookup"><span data-stu-id="84af7-109">Assign categories to an item</span></span>](how-to-assign-categories-to-an-item.md)  |<span data-ttu-id="84af7-110">В этой статье рассказано, как назначить категории элементу с помощью его свойства **Categories**.</span><span class="sxs-lookup"><span data-stu-id="84af7-110">Assigns categories to an item by using its **Categories** property.</span></span>|
 
-## <a name="see-also"></a><span data-ttu-id="e0edc-111">См. также</span><span class="sxs-lookup"><span data-stu-id="e0edc-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="84af7-111">См. также</span><span class="sxs-lookup"><span data-stu-id="84af7-111">See also</span></span>
 
-- [<span data-ttu-id="e0edc-112">Почта</span><span class="sxs-lookup"><span data-stu-id="e0edc-112">Mail</span></span>](mail.md)
-- [<span data-ttu-id="e0edc-113">Инструкции (справочник по основной сборке взаимодействия для Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="e0edc-113">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
+- [<span data-ttu-id="84af7-112">Почта</span><span class="sxs-lookup"><span data-stu-id="84af7-112">Mail</span></span>](mail.md)
+- [<span data-ttu-id="84af7-113">Инструкции (справочник по основной сборке взаимодействия для Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="84af7-113">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
 

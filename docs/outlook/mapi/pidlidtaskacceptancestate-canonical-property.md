@@ -19,60 +19,60 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32331292"
 ---
-# <a name="pidlidtaskacceptancestate-canonical-property"></a><span data-ttu-id="c7e48-103">Каноническое свойство PidLidTaskAcceptanceState</span><span class="sxs-lookup"><span data-stu-id="c7e48-103">PidLidTaskAcceptanceState Canonical Property</span></span>
+# <a name="pidlidtaskacceptancestate-canonical-property"></a><span data-ttu-id="f4466-103">Каноническое свойство PidLidTaskAcceptanceState</span><span class="sxs-lookup"><span data-stu-id="f4466-103">PidLidTaskAcceptanceState Canonical Property</span></span>
 
   
   
-<span data-ttu-id="c7e48-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c7e48-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f4466-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f4466-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c7e48-105">Указывает состояние принятия задачи.</span><span class="sxs-lookup"><span data-stu-id="c7e48-105">Indicates the acceptance state of the task.</span></span>
+<span data-ttu-id="f4466-105">Указывает состояние принятия задачи.</span><span class="sxs-lookup"><span data-stu-id="f4466-105">Indicates the acceptance state of the task.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c7e48-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="c7e48-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c7e48-107">dispidTaskDelegValue</span><span class="sxs-lookup"><span data-stu-id="c7e48-107">dispidTaskDelegValue</span></span>  <br/> |
-|<span data-ttu-id="c7e48-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="c7e48-108">Property set:</span></span>  <br/> |<span data-ttu-id="c7e48-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="c7e48-109">PSETID_Task</span></span>  <br/> |
-|<span data-ttu-id="c7e48-110">Длинный ИД (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="c7e48-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="c7e48-111">0x0000812A</span><span class="sxs-lookup"><span data-stu-id="c7e48-111">0x0000812A</span></span>  <br/> |
-|<span data-ttu-id="c7e48-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="c7e48-112">Data type:</span></span>  <br/> |<span data-ttu-id="c7e48-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="c7e48-113">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="c7e48-114">Область:</span><span class="sxs-lookup"><span data-stu-id="c7e48-114">Area:</span></span>  <br/> |<span data-ttu-id="c7e48-115">Task</span><span class="sxs-lookup"><span data-stu-id="c7e48-115">Task</span></span>  <br/> |
+|<span data-ttu-id="f4466-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="f4466-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="f4466-107">dispidTaskDelegValue</span><span class="sxs-lookup"><span data-stu-id="f4466-107">dispidTaskDelegValue</span></span>  <br/> |
+|<span data-ttu-id="f4466-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="f4466-108">Property set:</span></span>  <br/> |<span data-ttu-id="f4466-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="f4466-109">PSETID_Task</span></span>  <br/> |
+|<span data-ttu-id="f4466-110">Long ID (LID):</span><span class="sxs-lookup"><span data-stu-id="f4466-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="f4466-111">0x0000812A</span><span class="sxs-lookup"><span data-stu-id="f4466-111">0x0000812A</span></span>  <br/> |
+|<span data-ttu-id="f4466-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="f4466-112">Data type:</span></span>  <br/> |<span data-ttu-id="f4466-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="f4466-113">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="f4466-114">Область:</span><span class="sxs-lookup"><span data-stu-id="f4466-114">Area:</span></span>  <br/> |<span data-ttu-id="f4466-115">Задача</span><span class="sxs-lookup"><span data-stu-id="f4466-115">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="c7e48-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="c7e48-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f4466-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="f4466-116">Remarks</span></span>
 
-<span data-ttu-id="c7e48-117">В следующей таблице показаны возможные значения для этого свойства.</span><span class="sxs-lookup"><span data-stu-id="c7e48-117">The following table shows the possible values for this property.</span></span>
+<span data-ttu-id="f4466-117">В следующей таблице показаны возможные значения для этого свойства.</span><span class="sxs-lookup"><span data-stu-id="f4466-117">The following table shows the possible values for this property.</span></span>
   
-|<span data-ttu-id="c7e48-118">**Значение**</span><span class="sxs-lookup"><span data-stu-id="c7e48-118">**Value**</span></span>|<span data-ttu-id="c7e48-119">**Описание**</span><span class="sxs-lookup"><span data-stu-id="c7e48-119">**Description**</span></span>|
+|<span data-ttu-id="f4466-118">**Значение**</span><span class="sxs-lookup"><span data-stu-id="f4466-118">**Value**</span></span>|<span data-ttu-id="f4466-119">**Описание**</span><span class="sxs-lookup"><span data-stu-id="f4466-119">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="c7e48-120">0x00000000</span><span class="sxs-lookup"><span data-stu-id="c7e48-120">0x00000000</span></span>  <br/> |<span data-ttu-id="c7e48-121">Задача не назначена.</span><span class="sxs-lookup"><span data-stu-id="c7e48-121">The task is not assigned.</span></span>  <br/> |
-|<span data-ttu-id="c7e48-122">0x00000001</span><span class="sxs-lookup"><span data-stu-id="c7e48-122">0x00000001</span></span>  <br/> |<span data-ttu-id="c7e48-123">Состояние принятия задачи неизвестно.</span><span class="sxs-lookup"><span data-stu-id="c7e48-123">The task's acceptance status is unknown.</span></span>  <br/> |
-|<span data-ttu-id="c7e48-124">0x00000002</span><span class="sxs-lookup"><span data-stu-id="c7e48-124">0x00000002</span></span>  <br/> |<span data-ttu-id="c7e48-125">Назначение задачи принял задачу.</span><span class="sxs-lookup"><span data-stu-id="c7e48-125">The task assignee accepted the task.</span></span> <span data-ttu-id="c7e48-126">Это значение устанавливается, когда клиент обрабатывает приемку задачи.</span><span class="sxs-lookup"><span data-stu-id="c7e48-126">This value is set when the client processes a task acceptance.</span></span>  <br/> |
-|<span data-ttu-id="c7e48-127">0x00000003</span><span class="sxs-lookup"><span data-stu-id="c7e48-127">0x00000003</span></span>  <br/> |<span data-ttu-id="c7e48-128">Назначение задачи отклоняет задачу.</span><span class="sxs-lookup"><span data-stu-id="c7e48-128">The task assignee rejected the task.</span></span> <span data-ttu-id="c7e48-129">Это значение устанавливается, когда клиент обрабатывает отклонение задачи.</span><span class="sxs-lookup"><span data-stu-id="c7e48-129">This value is set when the client processes a task rejection.</span></span>  <br/> |
+|<span data-ttu-id="f4466-120">0x00000000</span><span class="sxs-lookup"><span data-stu-id="f4466-120">0x00000000</span></span>  <br/> |<span data-ttu-id="f4466-121">Задача не назначена.</span><span class="sxs-lookup"><span data-stu-id="f4466-121">The task is not assigned.</span></span>  <br/> |
+|<span data-ttu-id="f4466-122">0x00000001</span><span class="sxs-lookup"><span data-stu-id="f4466-122">0x00000001</span></span>  <br/> |<span data-ttu-id="f4466-123">Статус принятия задачи неизвестен.</span><span class="sxs-lookup"><span data-stu-id="f4466-123">The task's acceptance status is unknown.</span></span>  <br/> |
+|<span data-ttu-id="f4466-124">0x00000002</span><span class="sxs-lookup"><span data-stu-id="f4466-124">0x00000002</span></span>  <br/> |<span data-ttu-id="f4466-125">Назначаемая задача приняла задачу.</span><span class="sxs-lookup"><span data-stu-id="f4466-125">The task assignee accepted the task.</span></span> <span data-ttu-id="f4466-126">Это значение устанавливается, когда клиент обрабатывает прием задач.</span><span class="sxs-lookup"><span data-stu-id="f4466-126">This value is set when the client processes a task acceptance.</span></span>  <br/> |
+|<span data-ttu-id="f4466-127">0x00000003</span><span class="sxs-lookup"><span data-stu-id="f4466-127">0x00000003</span></span>  <br/> |<span data-ttu-id="f4466-128">Назначение задачи отклоняет задачу.</span><span class="sxs-lookup"><span data-stu-id="f4466-128">The task assignee rejected the task.</span></span> <span data-ttu-id="f4466-129">Это значение заданной, когда клиент обрабатывает отторжение задачи.</span><span class="sxs-lookup"><span data-stu-id="f4466-129">This value is set when the client processes a task rejection.</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="c7e48-130">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="c7e48-130">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="f4466-130">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="f4466-130">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="c7e48-131">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="c7e48-131">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="f4466-131">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="f4466-131">Protocol specifications</span></span>
 
-<span data-ttu-id="c7e48-132">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c7e48-132">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="f4466-132">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="f4466-132">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c7e48-133">Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.</span><span class="sxs-lookup"><span data-stu-id="c7e48-133">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="f4466-133">Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.</span><span class="sxs-lookup"><span data-stu-id="f4466-133">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="c7e48-134">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c7e48-134">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="f4466-134">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="f4466-134">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c7e48-135">Определяет несколько объектов, которые моделируют электронный эквивалент задач, назначений задач и обновлений задач.</span><span class="sxs-lookup"><span data-stu-id="c7e48-135">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
+> <span data-ttu-id="f4466-135">Определяет несколько объектов, которые моделируют электронный эквивалент задач, назначений задач и обновлений задач.</span><span class="sxs-lookup"><span data-stu-id="f4466-135">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="c7e48-136">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="c7e48-136">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="f4466-136">Файлы заголовки</span><span class="sxs-lookup"><span data-stu-id="f4466-136">Header files</span></span>
 
-<span data-ttu-id="c7e48-137">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c7e48-137">Mapidefs.h</span></span>
+<span data-ttu-id="f4466-137">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="f4466-137">Mapidefs.h</span></span>
   
-> <span data-ttu-id="c7e48-138">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="c7e48-138">Provides data type definitions.</span></span>
+> <span data-ttu-id="f4466-138">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="f4466-138">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="c7e48-139">См. также</span><span class="sxs-lookup"><span data-stu-id="c7e48-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f4466-139">См. также</span><span class="sxs-lookup"><span data-stu-id="f4466-139">See also</span></span>
 
 
 
-[<span data-ttu-id="c7e48-140">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="c7e48-140">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="f4466-140">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="f4466-140">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="c7e48-141">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="c7e48-141">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="f4466-141">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="f4466-141">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="c7e48-142">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="c7e48-142">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="f4466-142">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="f4466-142">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="c7e48-143">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="c7e48-143">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="f4466-143">Сопоставление имен MAPI с каноническими именами свойств</span><span class="sxs-lookup"><span data-stu-id="f4466-143">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

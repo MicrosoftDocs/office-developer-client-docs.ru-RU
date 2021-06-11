@@ -19,60 +19,60 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32330088"
 ---
-# <a name="pidtagscheduleinfodisallowoverlappingappts-canonical-property"></a><span data-ttu-id="f40a8-103">Каноническое свойство PidTagScheduleInfoDisallowOverlappingAppts</span><span class="sxs-lookup"><span data-stu-id="f40a8-103">PidTagScheduleInfoDisallowOverlappingAppts Canonical Property</span></span>
+# <a name="pidtagscheduleinfodisallowoverlappingappts-canonical-property"></a><span data-ttu-id="cf04e-103">Каноническое свойство PidTagScheduleInfoDisallowOverlappingAppts</span><span class="sxs-lookup"><span data-stu-id="cf04e-103">PidTagScheduleInfoDisallowOverlappingAppts Canonical Property</span></span>
 
   
   
-<span data-ttu-id="f40a8-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f40a8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="cf04e-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cf04e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f40a8-105">Содержит true, если перекрывающиеся встречи не могут быть перекрыты.</span><span class="sxs-lookup"><span data-stu-id="f40a8-105">Contains TRUE if overlapping appointments are disallowed.</span></span>
+<span data-ttu-id="cf04e-105">Содержит TRUE, если перекрывающиеся встречи будут отсеяно.</span><span class="sxs-lookup"><span data-stu-id="cf04e-105">Contains TRUE if overlapping appointments are disallowed.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f40a8-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="f40a8-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="f40a8-107">PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS</span><span class="sxs-lookup"><span data-stu-id="f40a8-107">PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS</span></span>  <br/> |
-|<span data-ttu-id="f40a8-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="f40a8-108">Identifier:</span></span>  <br/> |<span data-ttu-id="f40a8-109">0x686F</span><span class="sxs-lookup"><span data-stu-id="f40a8-109">0x686F</span></span>  <br/> |
-|<span data-ttu-id="f40a8-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="f40a8-110">Data type:</span></span>  <br/> |<span data-ttu-id="f40a8-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="f40a8-111">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="f40a8-112">Область:</span><span class="sxs-lookup"><span data-stu-id="f40a8-112">Area:</span></span>  <br/> |<span data-ttu-id="f40a8-113">Free/Busy</span><span class="sxs-lookup"><span data-stu-id="f40a8-113">Free/Busy</span></span>  <br/> |
+|<span data-ttu-id="cf04e-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="cf04e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="cf04e-107">PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS</span><span class="sxs-lookup"><span data-stu-id="cf04e-107">PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS</span></span>  <br/> |
+|<span data-ttu-id="cf04e-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="cf04e-108">Identifier:</span></span>  <br/> |<span data-ttu-id="cf04e-109">0x686F</span><span class="sxs-lookup"><span data-stu-id="cf04e-109">0x686F</span></span>  <br/> |
+|<span data-ttu-id="cf04e-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="cf04e-110">Data type:</span></span>  <br/> |<span data-ttu-id="cf04e-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="cf04e-111">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="cf04e-112">Область:</span><span class="sxs-lookup"><span data-stu-id="cf04e-112">Area:</span></span>  <br/> |<span data-ttu-id="cf04e-113">Бесплатный/занятый</span><span class="sxs-lookup"><span data-stu-id="cf04e-113">Free/Busy</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f40a8-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="f40a8-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cf04e-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="cf04e-114">Remarks</span></span>
 
-<span data-ttu-id="f40a8-115">Это свойство имеет смысл, только если значение свойства **PR_SCHDINFO_AUTO_ACCEPT_APPTS** [(PidTagScheduleInfoAutoAcceptAppointments)](pidtagscheduleinfoautoacceptappointments-canonical-property.md)имеет значение TRUE.</span><span class="sxs-lookup"><span data-stu-id="f40a8-115">This property is only meaningful when the value of the **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) property is TRUE.</span></span> <span data-ttu-id="f40a8-116">Значение TRUE указывает, что при автоматическом ответе на запросы на собрания клиент или сервер должны отклонуть экземпляры, перекрывающие ранее запланированные события.</span><span class="sxs-lookup"><span data-stu-id="f40a8-116">A value of TRUE indicates that when automatically responding to meeting requests, a client or server must decline instances that overlap previously scheduled events.</span></span> <span data-ttu-id="f40a8-117">Значение FALSE или отсутствие этого свойства указывает на то, что необходимо принять перекрывающиеся экземпляры.</span><span class="sxs-lookup"><span data-stu-id="f40a8-117">A value of FALSE or the absence of this property indicates that overlapping instances must be accepted.</span></span> <span data-ttu-id="f40a8-118">Это свойство не является обязательной.</span><span class="sxs-lookup"><span data-stu-id="f40a8-118">This is not a required property.</span></span>
+<span data-ttu-id="cf04e-115">Это свойство имеет значение только тогда, когда **значение свойства PR_SCHDINFO_AUTO_ACCEPT_APPTS** [(PidTagScheduleInfoAutoAcceptAppointments)](pidtagscheduleinfoautoacceptappointments-canonical-property.md)является TRUE.</span><span class="sxs-lookup"><span data-stu-id="cf04e-115">This property is only meaningful when the value of the **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) property is TRUE.</span></span> <span data-ttu-id="cf04e-116">Значение TRUE указывает, что при автоматическом ответе на запросы собраний клиент или сервер должны отклонуть экземпляры, перекрывающие ранее запланированные события.</span><span class="sxs-lookup"><span data-stu-id="cf04e-116">A value of TRUE indicates that when automatically responding to meeting requests, a client or server must decline instances that overlap previously scheduled events.</span></span> <span data-ttu-id="cf04e-117">Значение FALSE или отсутствие этого свойства указывает на то, что дублирующие экземпляры должны быть приняты.</span><span class="sxs-lookup"><span data-stu-id="cf04e-117">A value of FALSE or the absence of this property indicates that overlapping instances must be accepted.</span></span> <span data-ttu-id="cf04e-118">Это свойство не обязательно.</span><span class="sxs-lookup"><span data-stu-id="cf04e-118">This is not a required property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="f40a8-119">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="f40a8-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="cf04e-119">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="cf04e-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="f40a8-120">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="f40a8-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="cf04e-120">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="cf04e-120">Protocol specifications</span></span>
 
-<span data-ttu-id="f40a8-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="f40a8-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="cf04e-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="cf04e-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="f40a8-122">Содержит ссылки на связанные Exchange Server протоколы.</span><span class="sxs-lookup"><span data-stu-id="f40a8-122">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="cf04e-122">Содержит ссылки на связанные Exchange Server протоколы.</span><span class="sxs-lookup"><span data-stu-id="cf04e-122">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="f40a8-123">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="f40a8-123">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="cf04e-123">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="cf04e-123">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="f40a8-124">Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.</span><span class="sxs-lookup"><span data-stu-id="f40a8-124">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="cf04e-124">Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.</span><span class="sxs-lookup"><span data-stu-id="cf04e-124">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-<span data-ttu-id="f40a8-125">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="f40a8-125">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="cf04e-125">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="cf04e-125">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="f40a8-126">Публикует доступность пользователя или ресурса.</span><span class="sxs-lookup"><span data-stu-id="f40a8-126">Publishes the availability of a user or resource.</span></span>
+> <span data-ttu-id="cf04e-126">Публикует доступность пользователя или ресурса.</span><span class="sxs-lookup"><span data-stu-id="cf04e-126">Publishes the availability of a user or resource.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="f40a8-127">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="f40a8-127">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="cf04e-127">Файлы заголовки</span><span class="sxs-lookup"><span data-stu-id="cf04e-127">Header files</span></span>
 
-<span data-ttu-id="f40a8-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="f40a8-128">Mapidefs.h</span></span>
+<span data-ttu-id="cf04e-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="cf04e-128">Mapidefs.h</span></span>
   
-> <span data-ttu-id="f40a8-129">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="f40a8-129">Provides data type definitions.</span></span>
+> <span data-ttu-id="cf04e-129">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="cf04e-129">Provides data type definitions.</span></span>
     
-<span data-ttu-id="f40a8-130">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="f40a8-130">Mapitags.h</span></span>
+<span data-ttu-id="cf04e-130">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="cf04e-130">Mapitags.h</span></span>
   
-> <span data-ttu-id="f40a8-131">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="f40a8-131">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="cf04e-131">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="cf04e-131">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="f40a8-132">См. также</span><span class="sxs-lookup"><span data-stu-id="f40a8-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cf04e-132">См. также</span><span class="sxs-lookup"><span data-stu-id="cf04e-132">See also</span></span>
 
 
 
-[<span data-ttu-id="f40a8-133">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="f40a8-133">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="cf04e-133">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="cf04e-133">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="f40a8-134">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="f40a8-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="cf04e-134">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="cf04e-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="f40a8-135">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="f40a8-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="cf04e-135">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="cf04e-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="f40a8-136">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="f40a8-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="cf04e-136">Сопоставление имен MAPI с каноническими именами свойств</span><span class="sxs-lookup"><span data-stu-id="cf04e-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
