@@ -19,38 +19,38 @@ ms.locfileid: "33436295"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-MAPI вызывает метод [IABLogon::GetOneOffTable](iablogon-getoneofftable.md) поставщика, когда пользователь клиентского приложения добавляет получателя в исходяное сообщение. Обычно запрашиваются уникальные типы адресов для системы обмена сообщениями. Если поставщик поддерживает создание получателей, он должен предоставить одностолевую таблицу, которая предоставляет шаблоны для каждого типа поддерживаемых адресов получателей. Если ваш поставщик не поддерживает создание получателей, MAPI_E_NO_SUPPORT из вызова **GetOneOffTable.** 
+MAPI вызывает метод [IABLogon::GetOneOffTable](iablogon-getoneofftable.md) поставщика, когда пользователь клиентского приложения добавляет получателя в исходяние сообщение. Как правило, типы запрашиваемого адреса уникальны для системы обмена сообщениями. Если поставщик поддерживает создание получателей, он должен предоставить разовую таблицу, которая предоставляет шаблоны для каждого типа поддерживаемого адреса получателя. Если поставщик не поддерживает создание получателей, MAPI_E_NO_SUPPORT из **вызова GetOneOffTable.** 
   
-КАК правило, MAPI не будет открывать одноразовую таблицу поставщика в течение всего времени сеанса, освобождая ее только в том случае, если клиент вызывает метод [IMAPIStatus::ValidateState](imapistatus-validatestate.md) подсистемы или адресной книги. MAPI регистрирует уведомления в этой таблице, чтобы при добавлении или удалении шаблонов эти изменения могли быть отражены для пользователя. 
+MapI обычно будет держать разовую таблицу поставщика открытой на весь срок действия сеанса, выпуская ее только тогда, когда клиент вызывает метод [IMAPIStatus::ValidateState](imapistatus-validatestate.md) подсистемы или адресной книги. MAPI регистрирует уведомления на этой таблице, чтобы при добавлении или удалении шаблонов эти изменения могли быть отражены пользователю. 
   
  **Реализация IABLogon::GetOneOffTable**
   
-1. Проверьте значение параметра flags _ulFlags._ Если флаг MAPI_UNICODE установлен и поставщик не поддерживает Юникод, сбой и возврат MAPI_E_BAD_CHARWIDTH. 
+1. Проверьте значение параметра флаги  _ulFlags_. Если флаг MAPI_UNICODE установлен и поставщик не поддерживает Unicode, сбой и возвращение MAPI_E_BAD_CHARWIDTH. 
     
-2. Проверьте, создана ли односеаленная таблица поставщика. Так как разовые таблицы обычно являются статическими, поставщику никогда не нужно проходить процесс создания более одного раза. Если таблица уже существует, вернетесь на нее указателем. 
+2. Проверьте, создана ли разовая таблица поставщика. Поскольку разовые таблицы обычно являются статичными, поставщику никогда не нужно проходить процесс создания более одного раза. Если таблица уже существует, верни указатель в нее. 
     
-3. Если разовая таблица еще не существует, вызовите **CreateTable,** чтобы создать ее. 
+3. Если разовая таблица еще не существует, позвоните **в CreateTable,** чтобы создать ее. 
     
 4. Установите следующие свойства для столбцов в строках таблицы:
     
-  - **PR_DISPLAY_NAME** ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)на имя типа получателя, который шаблон может создать. 
+  - **PR_DISPLAY_NAME** [(PidTagDisplayName)](pidtagdisplayname-canonical-property.md)имени типа получателя, который может создать шаблон. 
     
-  - **PR_ENTRYID** [(PidTagEntryId)](pidtagentryid-canonical-property.md)в идентификатор записи для одноразового шаблона.
+  - **PR_ENTRYID** [(PidTagEntryId)](pidtagentryid-canonical-property.md)к идентификатору записи для разового шаблона.
     
-  - **PR_DEPTH** ([PidTagDepth),](pidtagdepth-canonical-property.md)чтобы указать уровень иерархии в одноразовом табличе.
+  - **PR_DEPTH** [(PidTagDepth),](pidtagdepth-canonical-property.md)чтобы указать уровень иерархии в разовом дисплее таблицы.
     
-  - **PR_SELECTABLE** [(PidTagSelectable)](pidtagselectable-canonical-property.md)с true, чтобы указать, представляет ли строка шаблон, а false в противном случае.
+  - **PR_SELECTABLE** [(PidTagSelectable)](pidtagselectable-canonical-property.md)для TRUE, чтобы указать, представляет ли строка шаблон, а false — иначе.
     
   - **PR_ADDRTYPE** [(PidTagAddressType)](pidtagaddresstype-canonical-property.md)для типа адреса, созданного шаблоном.
     
-  - **PR_DISPLAY_TYPE** ([PidTagDisplayType)](pidtagdisplaytype-canonical-property.md)DT_MAILUSER или другое значение, которое указывает тип отображения шаблона.
+  - **PR_DISPLAY_TYPE** [(PidTagDisplayType)](pidtagdisplaytype-canonical-property.md)для DT_MAILUSER или другого значения, которое указывает тип отображения шаблона.
     
-  - **PR_INSTANCE_KEY** [(PidTagInstanceKey)](pidtaginstancekey-canonical-property.md)для уникального двоичного значения. 
+  - **PR_INSTANCE_KEY** [(PidTagInstanceKey)](pidtaginstancekey-canonical-property.md)к уникальному двоичному значению. 
     
-5. Вызовите [ITableData::HrModifyRow,](itabledata-hrmodifyrow.md) чтобы изменить таблицу напрямую. 
+5. Вызов [ITableData::HrModifyRow,](itabledata-hrmodifyrow.md) чтобы изменить таблицу напрямую. 
     
-6. Вызовите [ITableData::HrGetView,](itabledata-hrgetview.md) чтобы создать реализацию интерфейса **IMAPITable** для возврата вызываемой. 
+6. Вызов [ITableData::HrGetView](itabledata-hrgetview.md) для создания **реализации интерфейса IMAPITable,** чтобы вернуться к вызываемой. 
     
 

@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - fShowDialog
 keywords:
-- Функция fshowdialog [excel 2007]
+- функция fshowdialog [Excel 2007]
 localization_priority: Normal
 ms.assetid: 6cc01075-7221-488e-870f-433da62930e6
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,35 +22,35 @@ ms.locfileid: "33433593"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Пример пользовательской команды, которая загружает и отображает пример нативного диалоговое окно Windows. При загрузке GENERIC.xll создается пользовательское меню Generic, через которое можно получить доступ к этой команде.
+Пример команды, определяемой пользователем, которая загружает и отображает пример родного Windows диалоговое окно. При загрузке GENERIC.xll создается меню, определяемое пользователем, Generic, с помощью которого получается доступ к этой команде.
   
 ```cs
 int WINAPI fShowDialog(void);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
-Функция не принимает никаких параметров.
+Функция не принимает параметров.
   
 ## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-Функция возвращает нулевое значение, чтобы указать успешное завершение
+Нулевой возврат функции, чтобы указать успешное завершение
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы отобразить диалоговое окно Windows, выполните следующие действия.
+Действия для отображения родного Windows диалоговом окне следующие:
   
-1. Получите основной лад Windows Microsoft Excel с помощью **GetHwnd.**
+1. Получение основной Microsoft Excel Windows **с помощью GetHwnd**.
     
-2. Подключите главное окно Excel с помощью **HookExcelWindow.**
+2. Подключите Excel окно с **помощью HookExcelWindow**.
     
-3. Отобразите диалоговое окно с помощью **DialogBox.**
+3. Отображение диалоговое окно с **помощью DialogBox**.
     
-4. Отогнали главное окно Excel с помощью **UnhookExcelWindow.**
+4. Отогнали Excel окно с помощью **UnhookExcelWindow.**
     
 ### <a name="example"></a>Пример
 
-См.  `\SAMPLES\GENERIC\GENERIC.C` исходный код для этой функции. 
+См.  `\SAMPLES\GENERIC\GENERIC.C` исходный код этой функции. 
   
 ## <a name="see-also"></a>См. также
 

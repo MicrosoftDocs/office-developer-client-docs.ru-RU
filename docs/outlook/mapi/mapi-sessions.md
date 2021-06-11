@@ -17,7 +17,7 @@ ms.locfileid: "33435875"
 ---
 # <a name="mapi-sessions"></a>Сеансы MAPI
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 ������ ��� ���������� ���������� ����� �������� ������� ������ �����������, ���������� ���������� ���������� � ����������� MAPI ��� ������.
   
@@ -37,7 +37,7 @@ Sessions are initiated when a user logs on, a process that accesses a valid prof
   
 **����-����� ������ MAPI**
   
-![Flowchart mapI session flowchart](media/amapi_47.gif "MAPI session flowchart")
+![Flowchart сессии MAPI](media/amapi_47.gif "сеанса MAPI")
   
 For information about handling sessions from within a client application, see [��������� ������ MAPI](mapi-session-handling.md)
   

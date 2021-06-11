@@ -23,9 +23,9 @@ ms.locfileid: "33434832"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Проверяет массив структур, которые описывают именуемые свойства, и проверяет их выделение. 
+Проверяет массив структур, описывая названные свойства, и проверяет их распределение. 
   
 |||
 |:-----|:-----|
@@ -44,7 +44,7 @@ BOOL FBadRglpNameID(
 
  _lppNameId_
   
-> [in] Указатель на массив структур [MAPINAMEID,](mapinameid.md) описывающих именуемые свойства. 
+> [in] Указатель на массив структур [MAPINAMEID,](mapinameid.md) описывающих названные свойства. 
     
  _cNames_
   
@@ -54,14 +54,14 @@ BOOL FBadRglpNameID(
 
 TRUE 
   
-> Одна или несколько указанных структур имен свойств недопустимы. 
+> Одна или несколько указанных структур имен свойств недействительны. 
     
 FALSE 
   
-> Допустимы все указанные структуры имен свойств.
+> Указанные структуры имен свойств действительны.
     
 ## <a name="remarks"></a>Примечания
 
-Функцию **FBadRglpNameID** можно использовать при настройке вызова [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) или [IMAPIProp::GetNamesFromIDs.](imapiprop-getnamesfromids.md) 
+Функция **FBadRglpNameID** может использоваться при настройке вызова [в IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) или [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md). 
   
 

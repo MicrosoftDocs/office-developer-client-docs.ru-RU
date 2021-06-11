@@ -23,24 +23,24 @@ ms.locfileid: "33432361"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит отображаемую имя объекта, используемую для разработки формы. 
+Содержит имя отображения объекта, который используется для разработки формы. 
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_FORM_DESIGNER_NAME, PR_FORM_DESIGNER_NAME_A, PR_FORM_DESIGNER_NAME_W  <br/> |
 |Идентификатор:  <br/> |0x3308  <br/> |
 |Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Область:  <br/> |Общие MAPI  <br/> |
+|Область:  <br/> |MAPI общие  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства содержат уникальный идентификатор для объекта конструктора форм. 
+Эти свойства содержат уникальный идентификатор объекта конструктора форм. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

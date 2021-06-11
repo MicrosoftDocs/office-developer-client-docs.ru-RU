@@ -8,7 +8,7 @@ f1_keywords:
 - TempMissing
 - TempMissing12
 keywords:
-- функция tempmissing [excel 2007],TempMissing12 function [Excel 2007]
+- функция tempmissing [Excel 2007], функция TempMissing12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: d9cb6afc-1fbb-45d6-88e5-84eba3af3c60
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,24 +23,24 @@ ms.locfileid: "33435959"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Функция библиотеки Framework, которая создает временную  /  **XLOPER XLOPER12** типа **xltypeMissing.**
+Функция библиотеки framework, которая создает временную **XLOPER** /  **XLOPER12** типа **xltypeMissing.**
   
 ```cs
 LPXLOPER TempMissing(void);
 LPXLOPER12 TempMissing12(void);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 Эта функция не получает никаких параметров.
   
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает указатель на **XLtypeMissing** **XLOPER** /  **XLOPER12.**
+Возвращает указатель **xltypeMissing** **XLOPER** /  **XLOPER12.**
   
 ## <a name="example"></a>Пример
 
-В этом примере **tempMissing12** используется для предоставления **xlcWorkspace** трех отсутствующих аргументов, за которыми следует **boolean** **FALSE** для подавления отображения полос прокрутки на рабочем экране. Первые три аргумента соответствуют другим незатроченным настройкам рабочей области. 
+В этом примере **tempMissing12** предоставляет **xlcWorkspace** три отсутствующих аргумента, за которыми следует false **Boolean**  для подавления отображения столбцов прокрутки таблицы. Первые три аргумента соответствуют другим параметрам рабочего пространства, которые не имеют изменений. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

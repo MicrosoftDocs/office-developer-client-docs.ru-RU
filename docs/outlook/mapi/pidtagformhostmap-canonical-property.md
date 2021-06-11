@@ -23,24 +23,24 @@ ms.locfileid: "33433768"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит карту хоста доступных форм. 
+Содержит хост-карту доступных форм. 
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_FORM_HOST_MAP  <br/> |
 |Идентификатор:  <br/> |0x3306  <br/> |
 |Тип данных:  <br/> |PT_MV_LONG  <br/> |
-|Область:  <br/> |Общие MAPI  <br/> |
+|Область:  <br/> |MAPI общие  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Клиентские приложения должны обновить это свойство, а также свойство **PR_DISPLAY_NAME** ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)при изменении структуры в **интерфейсе IMAPIFormProp.** 
+Клиентские приложения должны обновить это свойство вместе с **свойством PR_DISPLAY_NAME** [(PidTagDisplayName)](pidtagdisplayname-canonical-property.md)при изменении структуры в интерфейсе **IMAPIFormProp.** 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

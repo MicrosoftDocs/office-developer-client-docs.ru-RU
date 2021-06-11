@@ -20,7 +20,7 @@ ms.locfileid: "33431703"
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IOlkErrorUnknown.](iolkerrorunknown.md)
+См. [iOlkErrorUnknown](iolkerrorunknown.md).
   
 ```cpp
 HRESULT IOlkErrorUnknown::GetLastError(  
@@ -30,22 +30,22 @@ HRESULT IOlkErrorUnknown::GetLastError(
 
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _hr_
   
-> [in] Код ошибки, который необходимо найти.
+> [in] Код ошибки, который нужно искать.
     
 _ppwszError_
   
-> [out] Сообщение об ошибке, соответствующее  *hr*  . 
+> [вышел] Сообщение об ошибке, соответствующее  *hr*  . 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded.  <br/> |
-|E_INVALIDARG  <br/> |Один или несколько аргументов недопустимы.  <br/> |
+|E_INVALIDARG  <br/> |Один или несколько аргументов являются недействительными.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

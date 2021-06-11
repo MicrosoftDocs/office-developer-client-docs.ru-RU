@@ -23,9 +23,9 @@ ms.locfileid: "33433915"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит массив структур [SMAPIVerb,](smapiverb.md) описывая команды MAPI. 
+Содержит массив [структур SMAPIVerb,](smapiverb.md) описывая глаголы MAPI. 
   
 |||
 |:-----|:-----|

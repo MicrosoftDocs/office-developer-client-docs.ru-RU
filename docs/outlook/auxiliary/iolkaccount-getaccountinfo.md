@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 97f08cde-d6e4-8935-1758-4018a3baf682
-description: Получает сведения о типе и категориях для указанной учетной записи.
+description: Получает сведения о типах и категориях указанной учетной записи.
 ms.openlocfilehash: 88021537cc7ff4c55759081e6f3619c2a9f10ea3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33437905"
 ---
 # <a name="iolkaccountgetaccountinfo"></a>IOlkAccount::GetAccountInfo
 
-Получает сведения о типе и категориях для указанной учетной записи.
+Получает сведения о типах и категориях указанной учетной записи.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IOlkAccount](iolkaccount.md).
+См. [iOlkAccount](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::GetAccountInfo(  
@@ -31,11 +31,11 @@ HRESULT IOlkAccount::GetAccountInfo(
 
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _pclsidType_
   
-> [out] Идентификатор класса для типа учетной записи. The value must be one of the following:
+> [вышел] Идентификатор класса для типа учетной записи. The value must be one of the following:
     
    - CLSID_OlkPOP3Account 
     
@@ -49,11 +49,11 @@ _pclsidType_
     
 _pcCategories_
   
-> [out] Количество категорий в _prgclsidCategory._
+> [вышел] Количество категорий в  _prgclsidCategory_.
     
 _prgclsidCategory_
   
-> [out] Массив категорий, с которые связана эта учетная запись. Размер массива * _pcCategories._ Значение каждой категории в массиве должно быть одним из следующих значений:
+> [вышел] Массив категорий, с которые связана эта учетная запись. Массив имеет размер * _pcCategories_. Значение каждой категории массива должно быть одним из следующих:
     
    - CLSID_OlkMail
     
@@ -67,9 +67,9 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## <a name="remarks"></a>Примечания
 
-После возврата этого метода необходимо освободить  *prgclsidCategory*  с помощью [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
+После возвращения этого метода необходимо освободить *prgclsidCategory* с помощью [IOlkAccount::FreeMemory.](iolkaccount-freememory.md)
   
-**IOlkAccount::GetAccountInfo** не поддерживает категорию адресной книги для учетной записи Exchange. Если учетная запись является учетной записью Exchange *(pclsidType* имеет **CLSID_OlkMAPIAccount),** а учетная запись реализует адресную книгу, вызов  **IOlkAccount::GetAccountInfo** не возвращает CLSID_OlkAddressBook как категорию в *prgclsidCategory.* 
+**IOlkAccount::GetAccountInfo** не поддерживает категорию адресной книги для Exchange учетной записи. Если учетная запись является учетной записью Exchange *(pclsidType* — **CLSID_OlkMAPIAccount),** а учетная запись реализует адресную книгу, вызов **IOlkAccount::GetAccountInfo** не возвращается CLSID_OlkAddressBook как категория *в prgclsidCategory* .  
   
 ## <a name="see-also"></a>См. также
 

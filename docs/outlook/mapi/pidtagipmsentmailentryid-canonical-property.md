@@ -23,9 +23,9 @@ ms.locfileid: "33437324"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификатор записи стандартной папки "Отправленные" IPM. 
+Содержит идентификатор записи стандартной папки отправленных элементов для межличностных сообщений (IPM). 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ ms.locfileid: "33437324"
    
 ## <a name="remarks"></a>Примечания
 
-После этого межличностные сообщения обычно помещаются в папку "Отправленные". Клиент может использовать это свойство, чтобы PR_SENTMAIL_ENTRYID **(** [PidTagSentMailEntryId)](pidtagsentmailentryid-canonical-property.md)для отправленного сообщения. 
+После их отослания межличностные сообщения обычно помещаются в папку Отправленные элементы. Клиент может использовать это свойство  для PR_SENTMAIL_ENTRYID[(PidTagSentMailEntryId)](pidtagsentmailentryid-canonical-property.md)в отправленное сообщение. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

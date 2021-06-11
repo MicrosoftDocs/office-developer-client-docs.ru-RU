@@ -23,9 +23,9 @@ ms.locfileid: "33436246"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Возвращает указатель на интерфейс для объекта таблицы MAPI.
+Возвращает указатель в интерфейс для объекта таблицы MAPI.
   
 ```cpp
 HRESULT GetTable( 
@@ -35,7 +35,7 @@ HRESULT GetTable(
 
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -47,15 +47,15 @@ ACLTABLE_FREEBUSY
     
 frightsFreeBusyDetailed
   
-> При ACLTABLE_FREEBUSY предоставляет подробные сведения о новых правах на сведения о занятости.
+> При ACLTABLE_FREEBUSY вы можете подробно отображать новые права на свободный и занятый доступ.
     
 frightsFreeBusySimple
   
-> При ACLTABLE_FREEBUSY данные отображаются новые права занятости.
+> При ACLTABLE_FREEBUSY вы можете просто отображать новые свободные и занятые права.
     
  _lppTable_
   
-> [out] Указывает на [интерфейс IMAPITable : IUnknown,](imapitableiunknown.md) содержащий объект таблицы. 
+> [вышел] Указывает на [интерфейс IMAPITable : IUnknown,](imapitableiunknown.md) содержащий объект таблицы. 
     
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -63,7 +63,7 @@ frightsFreeBusySimple
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::OnRefreshView  <br/> |MFCMAPI использует метод **IExchangeModifyTable::GetTable** для получения таблицы правил.  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg::OnRefreshView  <br/> |MFCMAPI использует **метод IExchangeModifyTable::GetTable** для получения таблицы правил.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

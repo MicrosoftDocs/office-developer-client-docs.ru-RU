@@ -23,7 +23,7 @@ ms.locfileid: "33434958"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит значение, которое указывает тип поставщика услуг.
   
@@ -44,11 +44,11 @@ MAPI_AB
     
 MAPI_AB_PROVIDER 
   
-> Поставщик адресной книги
+> Поставщик адресных книг
     
 MAPI_HOOK_PROVIDER 
   
-> Поставщик услуг обработки пула
+> Поставщик крючков Spooler
     
 MAPI_PROFILE_PROVIDER 
   
@@ -56,11 +56,11 @@ MAPI_PROFILE_PROVIDER
     
 MAPI_SPOOLER 
   
-> Пул сообщений
+> Spooler сообщения
     
 MAPI_STORE_PROVIDER 
   
-> Поставщик службы хранения сообщений
+> Поставщик магазина сообщений
     
 MAPI_SUBSYSTEM 
   
@@ -72,7 +72,7 @@ MAPI_TRANSPORT_PROVIDER
     
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -92,5 +92,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

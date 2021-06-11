@@ -23,7 +23,7 @@ ms.locfileid: "33432872"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Задает результат синхронизации.
   
@@ -33,7 +33,7 @@ HRESULT SetSyncResult(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _hrSync_
   
@@ -41,7 +41,7 @@ HRESULT SetSyncResult(
     
 ## <a name="remarks"></a>Примечания
 
-Вызовите **IOSTX::SetSyncResult** перед вызовом **IOSTX::SyncEnd,** чтобы сообщить локальному хранилище о результате синхронизации. 
+Позвоните **в IOSTX::SetSyncResult** перед вызовом **IOSTX::SyncEnd** для информирования локального магазина о результатах синхронизации. 
   
 ## <a name="see-also"></a>См. также
 

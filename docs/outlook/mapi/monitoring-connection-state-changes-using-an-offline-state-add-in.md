@@ -1,5 +1,5 @@
 ---
-title: Отслеживание изменений состояния подключения с помощью надстройки автономного состояния
+title: Мониторинг изменений состояния подключения с помощью надстройки автономного состояния
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,24 +13,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431304"
 ---
-# <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>Отслеживание изменений состояния подключения с помощью надстройки автономного состояния
+# <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>Мониторинг изменений состояния подключения с помощью надстройки автономного состояния
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Перед использованием надстройки автономного состояния для отслеживания изменений состояния подключения необходимо реализовать функции для ее инициализации. Дополнительные сведения см. в настройке [надстройки автономного состояния.](setting-up-an-offline-state-add-in.md)
+Прежде чем использовать надстройки автономного состояния для мониторинга изменений состояния подключения, необходимо реализовать функции, чтобы настроить и инициализировать надстройки. Дополнительные сведения см. в примере Настройка надстройки автономного [состояния.](setting-up-an-offline-state-add-in.md)
   
-После того как вы настроили надстройку автономного состояния, необходимо использовать функцию **[HrOpenOfflineObj](hropenofflineobj.md)** для получения объекта автономного режима. С помощью этого автономного объекта можно инициализировать монитор состояния, а затем получить и установить текущее состояние. 
+После настройка надстройки автономного состояния необходимо использовать функцию **[HrOpenOfflineObj](hropenofflineobj.md)** для получения автономного объекта. С помощью этого автономного объекта можно инициализировать монитор состояния, а затем получить и установить текущее состояние. 
   
-В этом разделе эти функции мониторинга состояния демонстрируются с помощью примеров кода из примера надстройки автономного состояния. Пример надстройки автономного состояния — это надстройка COM, которая добавляет в Outlook меню автономного состояния и использует API автономного состояния.  С помощью **меню "Автономное** состояние" можно включить или отключить мониторинг состояния, проверить текущее состояние и изменить текущее состояние. Дополнительные сведения о скачивании и установке надстройки, позволяющей управлять автономным состоянием, см. в статье [Установка надстройки, позволяющей управлять автономным состоянием](installing-the-sample-offline-state-add-in.md). Дополнительные сведения об API автономного режима см. в статье [Об API автономного режима](about-the-offline-state-api.md).
+В этом разделе эти функции мониторинга состояния демонстрируются с помощью примеров кода из надстройки Sample Offline State. Пример автономной надстройки состояния — это надстройка COM, которая добавляет меню автономного состояния в Outlook и использует API состояния автономного режима.  В меню **автономного состояния** можно включить или отключить мониторинг состояния, проверить текущее состояние и изменить текущее состояние. Дополнительные сведения о скачивании и установке надстройки, позволяющей управлять автономным состоянием, см. в статье [Установка надстройки, позволяющей управлять автономным состоянием](installing-the-sample-offline-state-add-in.md). Дополнительные сведения об API автономного режима см. в статье [Об API автономного режима](about-the-offline-state-api.md).
   
-Если отключить надстройку, позволяющую управлять автономном состоянии, необходимо реализовать ряд функций для корректного прекращения работы и удаления надстройки. Дополнительные сведения см. в подключении надстройки [автономного состояния.](disconnecting-an-offline-state-add-in.md)
+Если отключить надстройку, позволяющую управлять автономном состоянии, необходимо реализовать ряд функций для корректного прекращения работы и удаления надстройки. Дополнительные сведения см. в [статью Отключение надстройки автономного состояния.](disconnecting-an-offline-state-add-in.md)
   
-## <a name="open-offline-object-routine"></a>Процедура открытия автономного объекта
+## <a name="open-offline-object-routine"></a>Open Offline Object routine
 
-Чтобы клиент был уведомлен об изменении состояния подключения, необходимо вызвать функцию **[HrOpenOfflineObj.](hropenofflineobj.md)** Эта функция открывает автономный объект, который поддерживает **[IMAPIOfflineMgr.](imapiofflinemgrimapioffline.md)** Функция **HrOpenOfflineObj** определяется в файле загона ConnectionState.h. 
+Чтобы клиент был уведомлен при изменении состояния подключения, необходимо вызвать функцию **[HrOpenOfflineObj.](hropenofflineobj.md)** Эта функция открывает автономный объект, который поддерживает **[IMAPIOfflineMgr.](imapiofflinemgrimapioffline.md)** Функция **HrOpenOfflineObj** определяется в заглавном файле ConnectionState.h. 
   
 > [!NOTE]
-> Функция **HrOpenOfflineObj** объявляется в файле загона ImportProcs.h следующим  `extern HROPENOFFLINEOBJ* pfnHrOpenOfflineObj;` образом: 
+> Функция **HrOpenOfflineObj** объявляется в заглавном файле ImportProcs.h следующим образом:  `extern HROPENOFFLINEOBJ* pfnHrOpenOfflineObj;` . 
   
 ### <a name="hropenofflineobj-example"></a>Пример HrOpenOfflineObj
 
@@ -44,11 +44,11 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
 );
 ```
 
-## <a name="initialize-monitor-routine"></a>Процедура инициализации монитора
+## <a name="initialize-monitor-routine"></a>Инициализация режима Monitor
 
-Функция `InitMonitor` вызывает **функцию HrOpenOfflineObj.** Функция `InitMonitor` вызывает **[](mapioffline_adviseinfo.md)** **CMyOfflineNotify,** чтобы Outlook можно было отправлять уведомления о вызове клиенту, и регистрирует его с помощью переменной `AdviseInfo` MAPIOFFLINE_ADVISEINFO.
+Функция `InitMonitor` вызывает функцию **HrOpenOfflineObj.** Функция `InitMonitor` вызывает **CMyOfflineNotify,** чтобы Outlook клиенту могли отправлять уведомления о вызове, и регистрирует **[вызов](mapioffline_adviseinfo.md)** через переменную `AdviseInfo` MAPIOFFLINE_ADVISEINFO.
   
-### <a name="initmonitor-example"></a>Пример initMonitor()
+### <a name="initmonitor-example"></a>Пример InitMonitor()
 
 ```cpp
 void InitMonitor(LPCWSTR szProfile) 
@@ -115,9 +115,9 @@ void InitMonitor(LPCWSTR szProfile)
 }
 ```
 
-## <a name="get-current-state-routine"></a>Получить подпрограмму "Текущее состояние"
+## <a name="get-current-state-routine"></a>Get Current State routine
 
-Функция  `GetCurrentState` вызывает **функцию HrOpenOfflineObj,** а затем использует автономный объект для получения текущего состояния подключения. Текущее состояние возвращается в переменной, которая используется в функции для отображения текущего состояния  `ulCurState`  `CButtonEventHandler::Click` для пользователя. 
+Функция  `GetCurrentState` вызывает функцию **HrOpenOfflineObj,** а затем использует автономный объект для получения текущего состояния подключения. Текущее состояние возвращается в переменной, которая используется в функции для отображения текущего  `ulCurState`  `CButtonEventHandler::Click` состояния пользователю. 
   
 ### <a name="getcurrentstate-example"></a>Пример GetCurrentState()
 
@@ -172,9 +172,9 @@ ULONG (LPCWSTR szProfile)
 }
 ```
 
-## <a name="set-current-state-routine"></a>Настройка процедуры текущего состояния
+## <a name="set-current-state-routine"></a>Настройка текущего состояния
 
-Функция  `SetCurrentState` вызывает **функцию HrOpenOfflineObj,** а затем использует автономный объект, чтобы установить текущее состояние подключения. Функция  `CButtonEventHandler::Click` вызывает  `SetCurrentState` функцию, и новое состояние передается через  `ulState` переменную. 
+Функция  `SetCurrentState` вызывает функцию **HrOpenOfflineObj,** а затем использует автономный объект для задаения текущего состояния подключения. Функция вызывает функцию, и новое состояние передается через  `CButtonEventHandler::Click`  `SetCurrentState`  `ulState` переменную. 
   
 ### <a name="setcurrentstate-example"></a>Пример SetCurrentState()
 
@@ -239,11 +239,11 @@ HRESULT SetCurrentState(LPCWSTR szProfile, ULONG ulFlags, ULONG ulState)
 }
 ```
 
-## <a name="notification-routine"></a>Процедура уведомлений
+## <a name="notification-routine"></a>Режим уведомлений
 
-Функция **[IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)** используется Outlook для отправки уведомлений клиенту при внесении изменений в состояние подключения. 
+Функция **[IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)** используется Outlook для отправки уведомлений клиенту при изменениях состояния подключения. 
   
-### <a name="cmyofflinenotifynotify-example"></a>Пример CMyOfflineNotify::Notify()
+### <a name="cmyofflinenotifynotify-example"></a>Пример CMyOfflineNotify:::Notify()
 
 ```cpp
 void CMyOfflineNotify::Notify(const MAPIOFFLINE_NOTIFY *pNotifyInfo) 

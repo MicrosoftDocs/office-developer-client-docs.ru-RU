@@ -23,9 +23,9 @@ ms.locfileid: "33432893"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет количество ветвей в существующей [структуре SRowSet.](srowset.md) 
+Вычисляет количество bytes в существующей [структуре SRowSet.](srowset.md) 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "33432893"
 CbSRowSet (_lprowset)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ _lprowset_
   

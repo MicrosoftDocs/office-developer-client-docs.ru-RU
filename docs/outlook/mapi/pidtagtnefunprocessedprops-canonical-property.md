@@ -23,24 +23,24 @@ ms.locfileid: "33431325"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Сериализует свойства при фильтрации формата TNEF.
+Serializes properties when filtering Transport Neutral Encapsulation Format (TNEF).
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_TNEF_UNPROCESSED_PROPS  <br/> |
 |Идентификатор:  <br/> |0x0E9C  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |MAPI, не передаваемый  <br/> |
+|Область:  <br/> |MAPI, не передаваемая  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Используется Microsoft Outlook и Outlook Web Access (OWA) для сохранения исходного TNEF в случаях, когда TNEF содержит именуемые свойства, которые невозможно создать в магазине.
+Используется корпорацией Майкрософт Outlook и Outlook веб-доступа (OWA) для сохранения исходного TNEF в случаях, когда TNEF содержит именные свойства, которые невозможно создать в магазине.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 54bd69c3-a9fa-d2ac-9a91-67187c92fc8a
-description: Сбрасывает enumerator, устанавливая курсор в начале.
+description: Сбрасывает переустановку, установив курсор к началу.
 ms.openlocfilehash: 589f8e310cc1c0053434a9ab4fb78931b339ca46
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33433635"
 ---
 # <a name="ienumfbblockreset"></a>IEnumFBBlock::Reset
 
-Сбрасывает enumerator, устанавливая курсор в начале.
+Сбрасывает переустановку, установив курсор к началу.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IEnumFBBlock](ienumfbblock.md).
+См. [iEnumFBBlock](ienumfbblock.md).
   
 ```cpp
 HRESULT Reset();

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251630
 localization_priority: Normal
 ms.assetid: e2ecf7c0-a0e9-951f-676a-8e5857bb6544
-description: Определяет размер наконечник в конце строки.
+description: Определяет размер наконечник стрелки в конце строки.
 ms.openlocfilehash: 768a2b2adb05248049377eaee07194cdb89ed810
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,21 +18,21 @@ ms.locfileid: "33438080"
 ---
 # <a name="endarrowsize-cell-line-format-section"></a>EndArrowSize Cell (Line Format Section)
 
-Определяет размер наконечник в конце строки.
+Определяет размер наконечник стрелки в конце строки.
   
 |**Значение**|**Размер**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 |0  <br/> |Очень маленький  <br/> |**visArrowSizeVerySmall** <br/> |
-|1   <br/> |Малый  <br/> |**visArrowSizeSmall** <br/> |
-|2   <br/> |Средняя  <br/> |**visArrowSizeMedium** <br/> |
-|3   <br/> |Крупный  <br/> |**visArrowSizeLarge** <br/> |
+|1  <br/> |Малый  <br/> |**visArrowSizeSmall** <br/> |
+|2  <br/> |Средний  <br/> |**visArrowSizeMedium** <br/> |
+|3  <br/> |Крупный  <br/> |**visArrowSizeLarge** <br/> |
 |4   <br/> |Сверхбольшой  <br/> |**visArrowSizeVeryLarge** <br/> |
 |5   <br/> |Jumbo  <br/> |**visArrowSizeJumbo** <br/> |
 |6   <br/> |Colossal  <br/> |**visArrowSizeColossal** <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это значение также можно установить в диалоговом  окне  **"Строка"** (на вкладке "Главная" в группе "Фигура" щелкните **"Строка",**"Стрелки" и "Стрелки"). 
+Вы также можете установить это значение в диалоговом окне **Line** (на вкладке **Главная,** в группе **Shape** нажмите кнопку **Line,** указать стрелки, а затем нажмите кнопку **Дополнительные стрелки).**
   
 Чтобы получить ссылку на ячейку EndArrowSize по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте: 
   

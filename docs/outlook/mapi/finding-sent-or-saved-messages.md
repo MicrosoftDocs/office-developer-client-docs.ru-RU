@@ -19,28 +19,28 @@ ms.locfileid: "33437422"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
- **Поиск всех сохраненных или отправленных исходяных сообщений**
+ **Поиск всех исходяющих сообщений, сохраненных или отправленных**
   
-1. Вызовите [IMsgStore::CompareEntryIDs,](imsgstore-compareentryids.md) чтобы сравнить папку, содержащую отправленные сообщения, с папкой, содержащую входящие сообщения. 
+1. Позвоните [в IMsgStore::CompareEntryIDs,](imsgstore-compareentryids.md) чтобы сравнить папку, содержащую отправленные сообщения, с папкой, содержащую входящие сообщения. 
     
-2. Установите для параметра _lpEntryID1_ указатель на **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId),](pidtagipmsentmailentryid-canonical-property.md)а параметр _lpEntryID2_ — на **PR_PARENT_ENTRYID** ([PidTagParentEntryId).](pidtagparententryid-canonical-property.md)
+2.  Установите параметр _lpEntryID1_ для указать на **PR_IPM_SENTMAIL_ENTRYID** [(PidTagIpmSentMailEntryId)](pidtagipmsentmailentryid-canonical-property.md)и параметр _lpEntryID2,_ чтобы указать на PR_PARENT_ENTRYID [(PidTagParentEntryId).](pidtagparententryid-canonical-property.md)
     
-Следует помнить, что при удалении сообщений после их удаления или перемещении любого из отправленных сообщений в другую папку эта стратегия не будет работать. 
+Следует помнить, что если после их удаления или перенесены какие-либо из отправленных сообщений в другую папку, эта стратегия не будет работать. 
   
-Если при проверке входящих сообщений вы заметите, что свойства, которые обычно задаются поставщиком транспорта, отсутствуют, можно предположить, что сообщение никогда не обрабатывалось поставщиком транспорта. Эти свойства приведены ниже.
+Если при рассмотрении входящих сообщений вы заметите, что свойства, которые обычно задает поставщик транспорта, отсутствуют, можно предположить, что сообщение никогда не обрабатывалось поставщиком транспорта. Эти свойства приведены ниже.
   
-- **PR_RECEIVED_BY** свойств 
+- **PR_RECEIVED_BY** свойства 
     
-- **PR_MESSAGE_DOWNLOAD_TIME** ([PidTagMessageDownloadTime)](pidtagmessagedownloadtime-canonical-property.md)
+- **PR_MESSAGE_DOWNLOAD_TIME** [(PidTagMessageDownloadTime)](pidtagmessagedownloadtime-canonical-property.md)
     
-- **PR_TRANSPORT_MESSAGE_HEADERS** ([PidTagTransportMessageHeaders)](pidtagtransportmessageheaders-canonical-property.md)
+- **PR_TRANSPORT_MESSAGE_HEADERS** [(PidTagTransportMessageHeaders)](pidtagtransportmessageheaders-canonical-property.md)
     
-- **PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md))
+- **PR_MESSAGE_TO_ME** [(PidTagMessageToMe)](pidtagmessagetome-canonical-property.md)
     
-- **PR_MESSAGE_CC_ME** ([PidTagMessageCcMe)](pidtagmessageccme-canonical-property.md)
+- **PR_MESSAGE_CC_ME** [(PidTagMessageCcMe)](pidtagmessageccme-canonical-property.md)
     
-- **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe)](pidtagmessagerecipientme-canonical-property.md)
+- **PR_MESSAGE_RECIP_ME** [(PidTagMessageRecipientMe)](pidtagmessagerecipientme-canonical-property.md)
     
 

@@ -23,9 +23,9 @@ ms.locfileid: "33434909"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет количество ветвей в существующей [структуре SPropProblemArray.](spropproblemarray.md) 
+Вычисляет количество bytes в существующей [структуре SPropProblemArray.](spropproblemarray.md) 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "33434909"
 CbSPropProblemArray (_lparray)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ _lparray_
   

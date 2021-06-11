@@ -1,5 +1,5 @@
 ---
-title: Отображение диалоговых окна "Общий адрес"
+title: Отображение диалогового окна общего адреса
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,20 +15,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436905"
 ---
-# <a name="displaying-the-common-address-dialog-box"></a>Отображение диалоговых окна "Общий адрес"
+# <a name="displaying-the-common-address-dialog-box"></a>Отображение диалогового окна общего адреса
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Диалоговое окно общего адреса MAPI можно использовать для различных задач, таких как создание списка получателей. Чтобы отобразить это диалоговое окно, вызовите **IAddrBook::Address.** В зависимости от того, какой из заданных параметров и как их настроить, можно ограничить отображение записями определенного типа из определенного контейнера.
+Диалоговое окно общего адреса MAPI можно использовать для решения различных задач, таких как создание списка получателей. Чтобы отобразить диалоговое окно, позвоните **в IAddrBook::Address**. В зависимости от того, какой из множества параметров и как вы их заданы, вы можете ограничить отображение записей определенного типа из определенного контейнера.
   
- **Ограничение отображения в диалоговом окне адреса только записей личной адресной книги (PAB)**
+ **Ограничение диалоговых окне адресов только отображением записей личной адресной книги (PAB)**
   
-1. Вызовите [IAddrBook::GetPAB,](iaddrbook-getpab.md) чтобы получить идентификатор записи для PAB. 
+1. Вызов [IAddrBook::GetPAB](iaddrbook-getpab.md) для получения идентификатора записи PAB. 
     
-2. Создайте ограничение свойств, использующее  RELOP_EQ для повторного члена структуры [SPropertyRestriction](spropertyrestriction.md) и либо **PR_ENTRYID** ([PidTagEntryId),](pidtagentryid-canonical-property.md)либо **PR_AB_PROVIDER_ID** ([PidTagAbProviderId)](pidtagabproviderid-canonical-property.md)в качестве члена **ulPropTag.** Если вы используете **PR_ENTRYID,** передав идентификатор записи, полученный из **GetPAB.** Если вы используете **PR_AB_PROVIDER_ID,** передате значение, включенного в MSPAB. Файл h-загона. **PR_AB_PROVIDER_ID** это уникальный идентификатор для PAB, разработанного MAPI. 
+2. Создайте ограничение свойств, RELOP_EQ для  повторного члена [структуры SPropertyRestriction](spropertyrestriction.md)  и PR_ENTRYID [(PidTagEntryId)](pidtagentryid-canonical-property.md)или **PR_AB_PROVIDER_ID** [(PidTagAbProviderId)](pidtagabproviderid-canonical-property.md)в качестве члена **ulPropTag.** Если вы используете **PR_ENTRYID,** передай идентификатор записи, извлеченный из **GetPAB.** Если вы используете **PR_AB_PROVIDER_ID,** передай значение, включенного в MSPAB. Файл заглавной папки H. **PR_AB_PROVIDER_ID** является уникальным идентификатором для PAB, разработанного MAPI. 
     
-3. Call [IAddrBook::Address](iaddrbook-address.md) with the  _lpHierRestriction_ parameter pointing to the property restriction. 
+3. Вызов [IAddrBook::Address](iaddrbook-address.md) с параметром  _lpHierRestriction,_ указывающий на ограничение свойства. 
     
 

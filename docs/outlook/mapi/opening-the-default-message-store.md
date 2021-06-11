@@ -17,25 +17,25 @@ ms.locfileid: "33436029"
 ---
 # <a name="opening-the-default-message-store"></a>Открытие хранилища сообщений по умолчанию
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В любом конкретном сеансе одно хранилище сообщений действует как хранилище сообщений по умолчанию. Хранилище сообщений по умолчанию имеет следующие характеристики:
+В любом конкретном сеансе один магазин сообщений действует как хранилище сообщений по умолчанию. Хранилище сообщений по умолчанию имеет следующие характеристики:
   
-- Свойству **PR_DEFAULT_STORE** ([PidTagDefaultStore)](pidtagdefaultstore-canonical-property.md)задается true.
+- Свойство **PR_DEFAULT_STORE** [(PidTagDefaultStore)](pidtagdefaultstore-canonical-property.md)имеет свойство TRUE.
     
-- Флаг STATUS_DEFAULT_STORE устанавливается в свойстве **PR_RESOURCE_FLAGS** ([PidTagResourceFlags).](pidtagresourceflags-canonical-property.md)
+- Флаг STATUS_DEFAULT_STORE установлен в **свойстве PR_RESOURCE_FLAGS** [(PidTagResourceFlags).](pidtagresourceflags-canonical-property.md)
     
-- MAPI автоматически создает поддерево IPM и корневые папки для результатов поиска, общих представлений и личных представлений при открытом хранилище сообщений. Дополнительные сведения об этих папках см. в поддеревье [IPM](ipm-subtree.md) и [специальных папках MAPI.](mapi-special-folders.md) 
+- MAPI автоматически создает подтрий IPM и корневые папки для результатов поиска, общих представлений и личных представлений при открытие магазина сообщений. Дополнительные сведения об этих папках см. в специальной папке [IPM Subtree](ipm-subtree.md) и [MAPI.](mapi-special-folders.md) 
     
-Чтобы получить идентификатор записи для хранения сообщений по умолчанию, необходимо вызвать [IMAPISession::GetMsgStoresTable,](imapisession-getmsgstorestable.md) чтобы открыть таблицу хранения сообщений и применить соответствующее ограничение в вызове [HrQueryAllRows.](hrqueryallrows.md) **HrQueryAllRows** возвращает набор строк с одной строкой, которая представляет хранилище сообщений по умолчанию. Ограничение, которое вы передаете **в HrQueryAllRows,** может приниматься в одной из следующих форм: 
+Чтобы получить идентификатор записи для магазина сообщений по умолчанию, необходимо вызвать [IMAPISession::GetMsgStoresTable,](imapisession-getmsgstorestable.md) чтобы открыть таблицу хранения сообщений и применить соответствующее ограничение в вызове [в HrQueryAllRows](hrqueryallrows.md). **HrQueryAllRows** возвращает набор строк с одной строкой, представляюной хранилище сообщений по умолчанию. Ограничение, которое вы передаете **в HrQueryAllRows,** может принимать одну из следующих форм: 
   
 1. Ограничение **AND,** использующее **структуру SAndRestriction** для объединения: 
     
-   - Существует ограничение, использующее **структуру SExistRestriction** для проверки наличия PR_DEFAULT_STORE **свойства.** 
+   - Существует ограничение, использующее **структуру SExistRestriction** для проверки наличия **свойства** PR_DEFAULT_STORE. 
     
-   - Ограничение свойств, использующее [структуру SPropertyRestriction](spropertyrestriction.md) для проверки значения TRUE в PR_DEFAULT_STORE **свойства.** 
+   - Ограничение свойства, использующее [структуру SPropertyRestriction](spropertyrestriction.md) для проверки значения TRUE в **свойстве** PR_DEFAULT_STORE. 
     
-2. Ограничение битовых масок, использующее структуру [SBitMaskRestriction](sbitmaskrestriction.md) для применения  STATUS_DEFAULT_STORE к свойству PR_RESOURCE_FLAGS. 
+2. Ограничение bitmask, использующее структуру [SBitMaskRestriction](sbitmaskrestriction.md) для применения STATUS_DEFAULT_STORE в качестве маски PR_RESOURCE_FLAGS **свойства.** 
     
 ## <a name="see-also"></a>См. также
 

@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm640
 localization_priority: Normal
 ms.assetid: 48ceeeed-66ae-a81f-2aee-f0010102dfb7
-description: Блокирует горизонтальное положение фигуры, поэтому ее невозможно по горизонтали.
+description: Блокирует горизонтальное положение фигуры, чтобы она не перемещалась горизонтально.
 ms.openlocfilehash: af0cee32370a540cd8d7aaf960cc0cbc27cc8f97
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33435861"
 ---
 # <a name="lockmovex-cell-protection-section"></a>LockMoveX Cell (Protection Section)
 
-Блокирует горизонтальное положение фигуры, поэтому ее невозможно по горизонтали.
+Блокирует горизонтальное положение фигуры, чтобы она не перемещалась горизонтально.
   
 |**Значение**|**Описание**|
 |:-----|:-----|

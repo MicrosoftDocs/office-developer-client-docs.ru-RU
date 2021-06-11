@@ -23,7 +23,7 @@ ms.locfileid: "33434335"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Возвращает состояние и тип таблицы.
   
@@ -34,59 +34,59 @@ ULONG FAR * lpulTableType
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _lpulTableStatus_
   
-> [out] Указатель на значение, указывающее состояние таблицы. Может быть возвращено одно из следующих значений:
+> [вышел] Указатель на значение, указывающее состояние таблицы. Одно из следующих значений можно вернуть:
     
 TBLSTAT_COMPLETE 
   
-> Операции не находятся в процессе выполнения.
+> Нет операций в процессе.
     
 TBLSTAT_QCHANGED 
   
-> Содержимое таблицы было значительно изменено. Это значение состояния не возвращается для изменений, которые являются результатом операций сортировки или ограничений.
+> Содержимое таблицы значительно изменилось. Это значение состояния не возвращается для изменений, которые происходят в результате операций сортировки или ограничения.
     
 TBLSTAT_RESTRICT_ERROR 
   
-> Во время операции [IMAPITable::Restrict произошла](imapitable-restrict.md) ошибка. 
+> Ошибка произошла во время [операции IMAPITable::Restrict.](imapitable-restrict.md) 
     
 TBLSTAT_RESTRICTING 
   
-> Идет **операция IMAPITable::Restrict.** 
+> Операция **IMAPITable::Restrict** продолжается. 
     
 TBLSTAT_SETCOL_ERROR 
   
-> Во время операции [IMAPITable::SetColumns произошла](imapitable-setcolumns.md) ошибка. 
+> Ошибка произошла во время [операции IMAPITable::SetColumns.](imapitable-setcolumns.md) 
     
 TBLSTAT_SETTING_COLS 
   
-> Идет **операция IMAPITable::SetColumns.** 
+> Операция **IMAPITable::SetColumns** продолжается. 
     
 TBLSTAT_SORT_ERROR 
   
-> Во время операции [IMAPITable::SortTable произошла](imapitable-sorttable.md) ошибка. 
+> Ошибка произошла во время [операции IMAPITable::SortTable.](imapitable-sorttable.md) 
     
 TBLSTAT_SORTING 
   
-> Идет **операция IMAPITable::SortTable.** 
+> Операция **IMAPITable::SortTable** продолжается. 
     
  _lpulTableType_
   
-> [out] Указатель на значение, которое указывает тип таблицы. Может быть возвращен один из следующих трех типов таблиц:
+> [вышел] Указатель на значение, которое указывает тип таблицы. Один из следующих трех типов таблицы можно вернуть:
     
 TBLTYPE_DYNAMIC 
   
-> Содержимое таблицы является динамическим; значения строк и столбцов могут изменяться по мере изменения данных.
+> Содержимое таблицы динамическое; значения строк и столбцов могут изменяться по мере изменения данных.
     
 TBLTYPE_KEYSET 
   
-> Строки в таблице являются фиксированными, но значения столбцов в этих строках являются динамическими и могут изменяться по мере изменения данных.
+> Строки в таблице фиксируются, но значения столбцов в этих строках динамически и могут изменяться по мере изменения данных.
     
 TBLTYPE_SNAPSHOT 
   
-> Таблица является статической, и ее содержимое не меняется при изменении данных.
+> Таблица статична, и ее содержимое не меняется при изменении данных.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -100,9 +100,9 @@ S_OK
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-**GetStatus** можно использовать в сочетании с тремя другими методами **IMAPITable** для отслеживания состояния этих операций и определения влияния на таблицу. Вызовите **GetStatus** после одного из следующих вызовов **IMAPITable:** 
+Вы можете использовать **GetStatus** совместно с тремя другими методами **IMAPITable** для мониторинга состояния этих операций и определения эффекта на таблице. Вызов **GetStatus** после одного из следующих вызовов **IMAPITable:** 
   
-- [IMAPITable::Restrict](imapitable-restrict.md) to set a restriction. 
+- [IMAPITable:::Restrict](imapitable-restrict.md) to set a restriction. 
     
 - [IMAPITable::SortTable](imapitable-sorttable.md) для создания порядка сортировки. 
     
@@ -114,7 +114,7 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::GetStatus  <br/> |MFCMAPI использует метод **IMAPITable::GetStatus** для отчета о состоянии таблицы.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::GetStatus  <br/> |MFCMAPI использует **метод IMAPITable::GetStatus** для отчета о состоянии таблицы.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

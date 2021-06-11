@@ -23,7 +23,7 @@ ms.locfileid: "33431668"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит сертификат ASN.1 получателя сообщения для использования в отчете.
   
@@ -36,11 +36,11 @@ ms.locfileid: "33431668"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство является копией свойства PR_USER_CERTIFICATE **(** [PidTagUserCertificate)](pidtagusercertificate-canonical-property.md)для использования в отчете. Его можно использовать для того, чтобы доказать источнику, что получатель действительно получил сообщение, что в отчете о доставке не обязательно указывается.
+Это свойство является копией свойства  PR_USER_CERTIFICATE[(PidTagUserCertificate)](pidtagusercertificate-canonical-property.md)для использования в отчете. Его можно использовать для того, чтобы доказать, что получатель действительно получил сообщение, которое в отчете о доставке не обязательно указывается.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

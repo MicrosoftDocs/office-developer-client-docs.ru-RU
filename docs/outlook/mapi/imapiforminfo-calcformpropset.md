@@ -23,9 +23,9 @@ ms.locfileid: "33438073"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Возвращает указатель на полный набор свойств, которые использует форма.
+Возвращает указатель к полному набору свойств, которые использует форма.
   
 ```cpp
 HRESULT CalcFormPropSet(
@@ -34,19 +34,19 @@ HRESULT CalcFormPropSet(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [in] Битоваяmas флагов, которая управляет типом возвращаемой строки. Можно установить следующий флаг:
+> [in] Битмашка флагов, контролируемая типом возвращенных строк. Можно установить следующий флаг:
     
 MAPI_UNICODE 
   
-> Возвращенные строки имеют формат Юникод. Если флаг MAPI_UNICODE не установлен, строки будут в формате ANSI.
+> Возвращенные строки находятся в формате Unicode. Если флаг MAPI_UNICODE не установлен, строки находятся в формате ANSI.
     
  _ppFormPropArray_
   
-> [out] Указатель на указатель на возвращенную [структуру SMAPIFormPropArray.](smapiformproparray.md) 
+> [вышел] Указатель на указатель на возвращенную [структуру SMAPIFormPropArray.](smapiformproparray.md) 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -56,7 +56,7 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Либо флаг MAPI_UNICODE установлен и реализация не поддерживает Юникод, либо MAPI_UNICODE не установлен, и реализация поддерживает только Юникод.
+> Либо был MAPI_UNICODE флаг, а реализация не поддерживает Юникод, либо MAPI_UNICODE не установлена, а реализация поддерживает только Юникод.
     
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -64,7 +64,7 @@ MAPI_E_BAD_CHARWIDTH
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI использует метод **IMAPIFormInfo::CalcFormPropSet** при записи выходных данных отлаки для информационных объектов формы.  <br/> |
+|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI использует **метод IMAPIFormInfo::CalcFormPropSet** при написании вывода отлаговки для информационных объектов форм.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

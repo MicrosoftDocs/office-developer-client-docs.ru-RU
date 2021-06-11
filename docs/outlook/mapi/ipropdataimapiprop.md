@@ -23,34 +23,34 @@ ms.locfileid: "33435147"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Предоставляет возможность получать и изменять доступ к свойствам объекта. 
+Предоставляет возможность получения и изменения доступа для свойств объекта. 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapiutil.h  <br/> |
-|Выставим:  <br/> |Объект данных свойства  <br/> |
+|Подвергается:  <br/> |Объект данных свойства  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
 |Вызывающая сторона:  <br/> |Поставщики услуг и клиентские приложения  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIPropData  <br/> |
 |Тип указателя:  <br/> |LPPROPDATA  <br/> |
-|Модель транзакций:  <br/> |Nontransacted  <br/> |
+|Модель транзакции:  <br/> |Nontransacted  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
 |[HrSetObjAccess](ipropdata-hrsetobjaccess.md) <br/> |Задает уровень доступа для объекта.  <br/> |
-|[HrSetPropAccess](ipropdata-hrsetpropaccess.md) <br/> |Задает уровень доступа и состояние для одного или более свойств объекта.  <br/> |
-|[HrGetPropAccess](ipropdata-hrgetpropaccess.md) <br/> |Извлекает уровень доступа и состояние для одного или более свойств объекта.  <br/> |
-|[HrAddObjProps](ipropdata-hraddobjprops.md) <br/> |Добавляет одно или несколько свойств типа PT_OBJECT в объект.  <br/> |
+|[HrSetPropAccess](ipropdata-hrsetpropaccess.md) <br/> |Задает уровень и состояние доступа для одного или более свойств объекта.  <br/> |
+|[HrGetPropAccess](ipropdata-hrgetpropaccess.md) <br/> |Извлекает уровень и состояние доступа для одного или более свойств объекта.  <br/> |
+|[HrAddObjProps](ipropdata-hraddobjprops.md) <br/> |Добавляет одно или несколько свойств типа PT_OBJECT объекту.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Интерфейс **IPropData::IMAPIProp** реализован интерфейсом MAPI и используется главным образом поставщиками служб, которые имеют доступ к этой реализации путем вызова [функции CreateIProp.](createiprop.md) 
+Интерфейс **IPropData::IMAPIProp** реализуется MAPI и используется в основном поставщиками услуг, которые используют эту реализацию, вызывая функцию [CreateIProp.](createiprop.md) 
   
-Дополнительные сведения об уровнях доступа к объектам и свойствам см. в сведениях [о разрешениях для объектов и свойств.](permissions-for-mapi-objects-and-properties.md)
+Дополнительные сведения об уровнях доступа к объектам и свойствам см. в дополнительных сведениях [о разрешениях для объектов и свойств.](permissions-for-mapi-objects-and-properties.md)
   
 ## <a name="see-also"></a>См. также
 

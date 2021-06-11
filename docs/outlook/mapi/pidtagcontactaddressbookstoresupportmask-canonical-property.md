@@ -23,24 +23,24 @@ ms.locfileid: "33434440"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит свойство **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask),](pidtagcontactaddressbookstoresupportmask-canonical-property.md)полученное из магазина, который содержит папку "Контакты".
+Содержит **свойство PR_STORE_SUPPORT_MASK** [(PidTagStoreSupportMask),](pidtagcontactaddressbookstoresupportmask-canonical-property.md)полученное из магазина, который содержит папку Contacts.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_CONTAB_STORE_SUPPORT_MASK  <br/> |
 |Идентификатор:  <br/> |0x6611  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Адресная книга контакта  <br/> |
+|Область:  <br/> |Адресная книга контактов  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Поставщик адресной книги контактов использует это свойство для оценки адекватности поддерживаемых функций магазина. Это свойство контейнера адресной книги контактов и столбец в таблице контейнеров адресной книги контактов.
+Поставщик адресной книги контактов использует это свойство для оценки адекватности поддерживаемых функций магазина. Это свойство в контейнере адресной книги контактов и столбец в таблице контейнеров адресной книги контактов.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

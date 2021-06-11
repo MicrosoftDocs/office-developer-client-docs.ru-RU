@@ -8,7 +8,7 @@ f1_keywords:
 - TempInt
 - TempInt12
 keywords:
-- Функция tempint12 [excel 2007],TempInt function [Excel 2007]
+- функция tempint12 [Excel 2007], функция TempInt [Excel 2007]
 localization_priority: Normal
 ms.assetid: 86d690b8-caca-450d-93f7-69ca4cd1a6e0
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,26 +23,26 @@ ms.locfileid: "33438752"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Функция библиотеки Framework, которая создает временную  /  **XLOPER XLOPER12,** которая содержит одно или несколько. 
+Функция библиотеки Framework, которая создает временную **XLOPER** /  **XLOPER12** с набором. 
   
 ```cs
 LPXLOPER TempInt(short int i);
 LPXLOPER12 TempInt12(int i);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _i_
   
-Предполагаемая 10-ая величина. Обратите внимание, что это 16-битное (короткое) 16-битное (короткое) и подписанное 32-битное ([long] int) 32-битное integer.   
+Предназначенное значение в несколько раз. Обратите внимание, что integer **XLOPER** — это подписанный 16-битный (короткий int), в то время как integer **XLOPER12** — это подписанный 32-bit integer ([long] int). 
   
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает **integer xltypeInt,** содержащее переданные значения. 
+Возвращает **integer xltypeInt,** содержащий переданные значения. 
   
 ## <a name="example"></a>Пример
 
-В этом примере функция **TempInt12 используется** для передает аргумент **в xlfGetWorkspace.**
+В этом примере используется **функция TempInt12,** чтобы передать аргумент **в xlfGetWorkspace.**
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

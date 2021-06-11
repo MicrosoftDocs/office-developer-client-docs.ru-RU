@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm80002
 localization_priority: Normal
 ms.assetid: 99a5ca0e-5cb4-64cc-8af5-15ac6d02c77f
-description: Определяет, будет ли страница рисования автоматически меняться в зависимости от схемы.
+description: Определяет, будет ли страница рисования автоматически меняться, чтобы соответствовать схеме.
 ms.openlocfilehash: 6956c1e021ffffdb54f3dfa36270b9df04e892b0
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33437009"
 ---
 # <a name="drawingresizetype-cell-page-properties-section"></a>DrawingResizeType Cell (Page Properties Section)
 
-Определяет, будет ли страница рисования автоматически меняться в зависимости от схемы. 
+Определяет, будет ли страница рисования автоматически меняться, чтобы соответствовать схеме. 
   
 ## <a name="remarks"></a>Примечания
 

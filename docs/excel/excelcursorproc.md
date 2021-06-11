@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - ExcelCursorProc
 keywords:
-- функция excelcursorproc [excel 2007]
+- функция excelcursorproc [Excel 2007]
 localization_priority: Normal
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,35 +22,35 @@ ms.locfileid: "33432494"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Когда модальные диалоговые окна отображаются в окне Microsoft Excel, курсор является курсором занятости в окне Excel. Этот **WndProc** WM_SETCURSOR тип сообщений Windows и изменяет курсор на обычную стрелку. 
+Если в окне Microsoft Excel отображается модульное диалоговое окно, курсор является оживленным курсором Excel окне. Этот **WndProc** WM_SETCURSOR тип Windows сообщений и возвращает курсор на обычную стрелку. 
   
 ```cs
 LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lParam);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
- _hWndDlg_ (**HWND)**
+ _hWndDlg_ **(HWND)**
   
-Содержит HWND-окне Windows диалоговых окон.
+Содержит ручку HWND Windows диалоговом окне.
   
- _message_ **(UINT)**
+ _сообщение_ **(UINT)**
   
-Сообщение, на которое необходимо ответить.
+Сообщение, на которое нужно ответить.
   
- _wParam_ (**WPARAM)**
+ _wParam_ **(WPARAM)**
   
- _lParam_ (**LPARAM)**
+ _lParam_ **(LPARAM)**
   
 Аргументы, переданные Windows.
   
 ## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-LRESULT: 0, если сообщение было обработано, в противном случае результат возвращается **WndProc по умолчанию**.
+LRESULT: 0, если сообщение было обработано, в противном случае результат возвращается по умолчанию **WndProc**.
   
 ### <a name="example"></a>Пример
 
-См.  `\SAMPLES\GENERIC\GENERIC.C` исходный код для этой функции. 
+См.  `\SAMPLES\GENERIC\GENERIC.C` исходный код этой функции. 
   
 ## <a name="see-also"></a>См. также
 

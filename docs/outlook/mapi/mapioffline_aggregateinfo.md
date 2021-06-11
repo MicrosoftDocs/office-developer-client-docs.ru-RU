@@ -19,9 +19,9 @@ ms.locfileid: "33438164"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Структура используется с [HrCreateOfflineObj](hrcreateofflineobj.md). 
+Структура используется с [помощью HrCreateOfflineObj](hrcreateofflineobj.md). 
   
 ```cpp
 typedef struct
@@ -40,7 +40,7 @@ typedef struct
     
  **pOuterObj**
   
-> Указатель на объект IUnknown, на который агрегируется этот объект. Это позволяет всем вызовам QueryInterface передаваться созданному объекту.
+> Указатель на объект IUnknown, на который этот объект агрегируется. Это позволяет любым вызовам QueryInterface передавать созданный объект.
     
  **pRefTrackRoot**
   

@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - ConvertXLRef12ToXLRef
 keywords:
-- функция convertxlref12toxlref [excel 2007]
+- функция convertxlref12toxlref [Excel 2007]
 localization_priority: Normal
 ms.assetid: b620ed21-73ef-489b-9c00-7be12bb41214
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,29 +22,29 @@ ms.locfileid: "33432655"
 
 **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Пытается преобразовать **XLREF12 в** **XLREF.**
+Пытается преобразовать **XLREF12 в** **XLREF**.
   
 ```cs
 BOOL ConvertXLRefToXLRef12(LPXLREF12 pxRef12, LPXLREF pxRef);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
- _pxRef12_ (**LPXLREF12**)
+ _pxRef12_ **(LPXLREF12)**
   
-Указатель на структуру ссылок на источник.
+Указатель на структуру исходных ссылок.
   
- _pxRef_ (**LPXLREF)**
+ _pxRef_ **(LPXLREF)**
   
-Указатель на целевую эталонную структуру, в которую необходимо поместить преобразованные значения.
+Указатель на целевую справочную структуру, в которую должно быть помещено преобразовано значение.
   
 ## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
- **TRUE,** если преобразование успешно, в противном случае **FALSE.** 
+ **TRUE,** если преобразование удалось, **FALSE** в противном случае. 
   
 ## <a name="remarks"></a>Примечания
 
-Преобразование **из XLREF12** в **XLREF** не происходит, если предоставленная ссылка ссылается на часть листа Excel 2007, который не поддерживается в предыдущих версиях. 
+Преобразование **из XLREF12** в **XLREF** не удается, если предоставленная ссылка относится к части Excel 2007 года, которая не поддерживается в предыдущих версиях. 
   
 ## <a name="example"></a>Пример
 

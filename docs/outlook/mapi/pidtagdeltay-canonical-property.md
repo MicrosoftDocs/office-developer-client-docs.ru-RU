@@ -23,9 +23,9 @@ ms.locfileid: "33434790"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит высоту диалоговых окон в стандартных диалоговых окнах Windows. 
+Содержит высоту управления диалоговое окно в стандартных Windows диалоговых единиц. 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ ms.locfileid: "33434790"
    
 ## <a name="remarks"></a>Примечания
 
-The **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)), and this property control the position and size the dialog box control. 
+В **PR_XPOS** [(PidTagXCoordinate),](pidtagxcoordinate-canonical-property.md) **PR_YPOS** [(PidTagYCoordinate),](pidtagycoordinate-canonical-property.md) **PR_DELTAX** [(PidTagDeltaX),](pidtagdeltax-canonical-property.md)и это свойство управляет положением и размером управления диалоговое окно. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

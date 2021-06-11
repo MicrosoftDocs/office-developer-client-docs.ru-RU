@@ -17,21 +17,21 @@ ms.locfileid: "33433929"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Структура потока FirstSkipBlockContent — это содержимое первой структуры [SkipBlock](skipblock-stream-structure.md) в элементе данных SkipBlocks потока [FieldDefinition.](fielddefinition-stream-structure.md) Поток FirstSkipBlockContent — это просто один элемент данных FieldName: 
+Структура потока FirstSkipBlockContent — это содержимое первой структуры [SkipBlock](skipblock-stream-structure.md) в элементе данных SkipBlocks в [потоке FieldDefinition.](fielddefinition-stream-structure.md) Поток FirstSkipBlockContent — это просто один элемент данных FieldName: 
   
-- FieldName: [PackedUnicodeString](packedunicodestring-stream-structure.md), имя поля.
+- Имя поля: [PackedUnicodeString](packedunicodestring-stream-structure.md)— имя поля.
     
 ## <a name="see-also"></a>См. также
 
 
 
-[Элементы и поля Outlook](outlook-items-and-fields.md)
+[Outlook Элементы и поля](outlook-items-and-fields.md)
   
-[Структуры потоков](stream-structures.md)
+[Структуры потока](stream-structures.md)
   
-[Структура потока SkipBlock](skipblock-stream-structure.md)
+[Структура skipBlock Stream](skipblock-stream-structure.md)
   
 [Структура потока PackedUnicodeString](packedunicodestring-stream-structure.md)
 

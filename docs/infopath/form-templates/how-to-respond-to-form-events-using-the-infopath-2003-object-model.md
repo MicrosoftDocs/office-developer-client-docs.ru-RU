@@ -1,10 +1,10 @@
 ---
-title: Реагирование на события формы с помощью объектной модели InfoPath 2003
+title: Реагирование на события форм с помощью объектной модели InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
-- шаблоны форм [infopath 2007], реагирование на события, совместимые с InfoPath 2003 шаблоны форм, реагирование на события форм
+- шаблоны форм [infopath 2007], реагируя на события, шаблоны форм, совместимые с InfoPath 2003, реагируя на события форм
 localization_priority: Normal
 ms.assetid: 59e9c1ed-32a8-4bcd-bdfc-9aa568a34d2a
 description: Можно написать код, реагирующий на различные события, которые могут происходить при заполнении пользователем формы. Для работы с событиями в InfoPath в режиме конструктора InfoPath создаются обработчики событий.
@@ -15,19 +15,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433495"
 ---
-# <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Реагирование на события формы с помощью объектной модели InfoPath 2003
+# <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Реагирование на события форм с помощью объектной модели InfoPath 2003
 
 Можно написать код, реагирующий на различные события, которые могут происходить при заполнении пользователем формы. Для работы с событиями в InfoPath в режиме конструктора InfoPath создаются обработчики событий.
   
-Обработчики событий InfoPath должны создаваться в конструкторе InfoPath, так как при использовании объектной модели, совместимой с InfoPath 2003, InfoPath автоматически добавляет правильное объявление и применяет атрибут[(InfoPathEventHandlerAttribute)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) в файле кода формы (FormCode.cs или FormCode.vb) для идентификации и емких обработчиков событий. После создания обработчика событий не следует менять его объявление и атрибут в файле кода формы. 
+Обработчики событий InfoPath должны быть созданы в конструкторе InfoPath, поскольку при использовании объектной модели InfoPath 2003, совместимой с infoPath, InfoPath автоматически добавляет правильное объявление и применяет атрибут[(InfoPathEventHandlerAttribute)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) в кодовом файле формы (FormCode.cs или FormCode.vb) для идентификации и погружения обработчика событий. После создания обработчика событий не следует менять его объявление и атрибут в файле кода формы. 
   
-Сведения о создании обработчиков событий InfoPath см. в подразделе "Добавление обработчиков событий с помощью объектной модели [InfoPath 2003".](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+Сведения о создании обработчиков событий InfoPath см. в добавлении обработчик событий с помощью объектной модели [InfoPath 2003.](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
   
 ## <a name="overview-of-the-event-objects"></a>Обзор объектов событий
 
-Объектная модель, совместимая с InfoPath 2003, реализует девять объектов событий, которые реализации в пространстве имен [Microsoft.Office.Interop.InfoPath.SemiTrust.](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) В приведенной ниже таблице перечислены все объекты событий InfoPath, связанные с ними обработчики событий, а также приведено описание выполняемых ими функций. 
+Объектная модель, совместимая с InfoPath 2003, реализует девять объектов событий, выставленных в пространстве имен [Microsoft.Office.Interop.InfoPath.SemiTrust.](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) В приведенной ниже таблице перечислены все объекты событий InfoPath, связанные с ними обработчики событий, а также приведено описание выполняемых ими функций. 
   
-|**Название**|**обработчики событий.**|**Описание**|
+|**Имя**|**обработчики событий.**|**Описание**|
 |:-----|:-----|:-----|
 |[DataDOMEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.aspx) <br/> |[OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx) <br/> [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx) , [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx) <br/> |Возвращает ссылку на базовый XML-документ формы, состояние возврата и другие свойства, содержащие сведения о XML-узле во время изменения объектной модели XML-документа. Также включает метод выявления ошибок.  <br/> |
 |[DocActionEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocActionEvent.aspx) <br/> |[OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) <br/> |Возвращает ссылку на базовый XML-документ формы, статус возврата, а также исходный XML-узел во время нажатия кнопки в области формы.  <br/> |
@@ -64,7 +64,7 @@ Public Sub FormEvents_OnLoad(ByVal e As DocReturnEvent)
 End Sub
 ```
 
-При написании кода для обработчика событий можно воспользоваться свойствами и методами, внедренными объектом события, переданным через параметр **e**. Например, в следующем обработке событий **OnBeforeChange** свойство [NewValue](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.NewValue.aspx) объекта **события DataDOMEvent** используется для проверки значения только что измененного поля. Если оно пустое, свойство [ReturnMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.ReturnMessage.aspx) объекта **события DataDOMEvent** используется для отображения ошибки для пользователя в диалоговом окне, а для свойства [ReturnStatus](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.ReturnStatus.aspx) установлено **false,** указывающее, что внесенные пользователем изменения не должны быть приняты.
+При написании кода для обработчика событий можно воспользоваться свойствами и методами, внедренными объектом события, переданным через параметр **e**. Например, в следующем обработнике **событий OnBeforeChange** свойство [NewValue](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.NewValue.aspx) объекта **событий DataDOMEvent** используется для проверки значения только что измененного поля. Если оно пустое, свойство [ReturnMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.ReturnMessage.aspx) объекта **события DataDOMEvent** используется для отображения ошибки пользователю в диалоговом окне, а свойство [ReturnStatus](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.ReturnStatus.aspx) настроено на ложное, указав, что внесенные пользователем изменения не должны приниматься.
   
 ```cs
 [InfoPathEventHandler(MatchPath="/my:myFields/my:field1", 

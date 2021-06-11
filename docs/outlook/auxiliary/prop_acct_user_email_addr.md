@@ -20,18 +20,18 @@ ms.locfileid: "33436778"
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IOlkAccount](iolkaccount.md).
+См. [iOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x000C  <br/> |
 |Тип свойства:  <br/> |PT_UNICODE  <br/> |
 |Тег свойства:  <br/> |0x000C001F  <br/> |
-|Access:  <br/> |Чтение и запись  <br/> |
+|Доступ:  <br/> |Чтение и запись  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
- **PROP_ACCT_USER_EMAIL_ADDR** ожидается не для каждой учетной записи. Например, учетная запись [](prop_mapi_identity_entryid.md) Exchange может иметь PROP_MAPI_IDENTITY_ENTRYID, **но не** PROP_ACCT_USER_EMAIL_ADDR, тогда как для учетной записи SMTP/POP3 ситуация обратная.
+ **PROP_ACCT_USER_EMAIL_ADDR** ожидается, что на каждой учетной записи не будет существовать. Например, учетная запись Exchange может [](prop_mapi_identity_entryid.md) иметь PROP_MAPI_IDENTITY_ENTRYID, но не **PROP_ACCT_USER_EMAIL_ADDR,** в то время как для учетной записи SMTP/POP3 ситуация обратная.
   
 ## <a name="see-also"></a>См. также
 

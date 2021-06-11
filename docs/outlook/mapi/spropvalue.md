@@ -23,14 +23,14 @@ ms.locfileid: "33433530"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Описывает свойство MAPI.
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные макросы:  <br/> |[CHANGE_PROP_TYPE,](change_prop_type.md) [MVI_PROP,](mvi_prop.md) [PROP_ID,](prop_id.md) [PROP_TAG](prop_tag.md), [PROP_TYPE](prop_type.md) <br/> |
+|Связанные макрос:  <br/> |[CHANGE_PROP_TYPE](change_prop_type.md), [MVI_PROP](mvi_prop.md) [, PROP_ID](prop_id.md), [PROP_TAG](prop_tag.md), [PROP_TYPE](prop_type.md) <br/> |
    
 ```cpp
 typedef struct _SPropValue
@@ -46,17 +46,17 @@ typedef struct _SPropValue
 
  **ulPropTag**
   
-> Тег свойства для свойства. Теги свойств — это 32-битные неподписаные integers, состоящие из уникального идентификатора свойства в 16 битах высокого порядка и типа свойства в 16 битах низкого порядка.
+> Тег свойства для свойства. Теги свойств — это 32-битные неподписаные группы, состоящие из уникального идентификатора свойства в 16 битах высокого порядка и типа свойства в 16 битах низкого порядка.
     
  **dwAlignPad**
   
-> Зарезервировано для MAPI; не используйте. 
+> Зарезервировано для MAPI; не использовать. 
     
  **Значение**
   
-> Объединение значений данных, определенное значение, определенное типом свойства. В следующей таблице перечислены для каждого типа свойства, члена объединения, который должен использоваться, и связанного с ним типа данных.
+> Союз значений данных, определенное значение, продиктованное типом свойства. В следующей таблице перечислены для каждого типа свойств, члена союза, который должен использоваться, и связанного с ним типа данных.
     
-|**Тип свойства**|**Значение**|**Тип данных значения**|
+|**Тип свойства**|**Значение**|**Тип значения данных**|
 |:-----|:-----|:-----|
 |PT_I2 или PT_SHORT  <br/> |**i** <br/> |short int  <br/> |
 |PT_I4 или PT_LONG (подписан)  <br/> |**l** <br/> |LONG  <br/> |
@@ -65,10 +65,10 @@ typedef struct _SPropValue
 |PT_R8 или PT_DOUBLE  <br/> |**dbl** <br/> |double  <br/> |
 |PT_BOOLEAN  <br/> |**b** <br/> |unsigned short int  <br/> |
 |PT_CURRENCY  <br/> |**cur** <br/> |[CURRENCY](currency.md) <br/> |
-|PT_APPTIME  <br/> |**at** <br/> |double  <br/> |
-|PT_SYSTIME  <br/> |**ft** <br/> |[FILETIME](filetime.md) <br/> |
+|PT_APPTIME  <br/> |**в** <br/> |double  <br/> |
+|PT_SYSTIME  <br/> |**FT** <br/> |[FILETIME](filetime.md) <br/> |
 |PT_STRING8  <br/> |**lpszA** <br/> |LPSTR  <br/> |
-|PT_BINARY  <br/> |**bin** <br/> |BYTE [array]  <br/> |
+|PT_BINARY  <br/> |**bin** <br/> |BYTE [массив]  <br/> |
 |PT_UNICODE  <br/> |**lpszW** <br/> |LPWSTR  <br/> |
 |PT_CLSID  <br/> |**lpguid** <br/> |LPGUID  <br/> |
 |PT_I8 или PT_LONGLONG  <br/> |**li** <br/> |**LARGE_INTEGER** <br/> |
@@ -78,10 +78,10 @@ typedef struct _SPropValue
 |PT_MV_DOUBLE  <br/> |**MVdbl** <br/> |[SDoubleArray](sdoublearray.md) <br/> |
 |PT_MV_CURRENCY  <br/> |**MVcur** <br/> |[SCurrencyArray](scurrencyarray.md) <br/> |
 |PT_MV_APPTIME  <br/> |**MVat** <br/> |[SAppTimeArray](sapptimearray.md) <br/> |
-|PT_MV_SYSTIME  <br/> |**MVFT** <br/> |[SDateTimeArray](sdatetimearray.md) <br/> |
+|PT_MV_SYSTIME  <br/> |**MVft** <br/> |[SDateTimeArray](sdatetimearray.md) <br/> |
 |PT_MV_BINARY  <br/> |**MVbin** <br/> |[SBinaryArray](sbinaryarray.md) <br/> |
-|PT_MV_STRING8  <br/> |**MVSzA** <br/> |[SLPSTRArray](slpstrarray.md) <br/> |
-|PT_MV_UNICODE  <br/> |**MVSzW** <br/> |[SWStringArray](swstringarray.md) <br/> |
+|PT_MV_STRING8  <br/> |**MVszA** <br/> |[SLPSTRArray](slpstrarray.md) <br/> |
+|PT_MV_UNICODE  <br/> |**MVszW** <br/> |[SWStringArray](swstringarray.md) <br/> |
 |PT_MV_CLSID  <br/> |**MVguid** <br/> |[SGuidArray](sguidarray.md) <br/> |
 |PT_MV_I8  <br/> |**MVli** <br/> |[SLargeIntegerArray](slargeintegerarray.md) <br/> |
 |PT_ERROR  <br/> |**err** <br/> |[SCODE](scode.md) <br/> |
@@ -96,15 +96,15 @@ typedef struct _SPropValue
     
 - Тип в 16 битах низкого порядка.
     
-Идентификатор — это числовая величина в определенном диапазоне. MAPI определяет диапазоны для идентификаторов, чтобы описать, для чего используется свойство и кто несет ответственность за его обслуживание. MAPI определяет ограничения для каждого тега свойства, поддерживаемого в файле загона Mapitags.h.
+Идентификатор — это числовая величина в определенном диапазоне. MAPI определяет диапазоны для идентификаторов, чтобы описать, для чего используется свойство и кто отвечает за его обслуживание. MAPI определяет ограничения для каждого из тегов свойств, поддерживаемых в файле загона Mapitags.h.
   
-Тип указывает формат значения свойства. MAPI определяет константы для каждого из типов свойств, поддерживаемые в файле загона Mapidefs.h. 
+Тип указывает формат значения свойства. MAPI определяет константы для каждого из типов свойств, поддерживаемых в файле загона Mapidefs.h. 
   
-Полный список допустимого диапазона свойств для идентификаторов и типов свойств см. в приложении ["Идентификаторы](property-identifiers-and-types.md) и типы свойств". 
+Полный список допустимого диапазона свойств для идентификаторов и типов свойств см. в приложении Идентификаторы свойств [и типы.](property-identifiers-and-types.md) 
   
-Член **dwAlignPad** используется в качестве заполнения для правильного выравнивания на компьютерах, которые требуют выравнивания 8 байт для 8-байтовых значений. Разработчикам, которые пишут код на таких компьютерах, следует использовать процедуры выделения памяти, которые выделяют массивы **SPropValue** на границах 8-byte. 
+Член **dwAlignPad** используется в качестве обивки, чтобы убедиться в правильной выравнивании на компьютерах, которые требуют выравнивания 8 байт для значений 8 байт. Разработчикам, которые пишут код на таких компьютерах, следует использовать процедуры распределения памяти, которые выделяют массивы **SPropValue** на границах 8-byte. 
   
-Дополнительные сведения см. в обзоре [типов свойств MAPI](mapi-property-type-overview.md) и обновлении [свойств MAPI.](updating-mapi-properties.md) 
+Дополнительные сведения см. в [обзоре](mapi-property-type-overview.md) типов свойств MAPI и [обновлении свойств MAPI.](updating-mapi-properties.md) 
   
 ## <a name="see-also"></a>См. также
 

@@ -25,17 +25,17 @@ ms.locfileid: "33434643"
 |Идентификатор:  <br/> |0x0208  <br/> |
 |Тип свойства:  <br/> |PT_DWORD  <br/> |
 |Тег свойства:  <br/> |0x02080003  <br/> |
-|Access:  <br/> |Только для чтения  <br/> |
+|Доступ:  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Значением является битоваяmass следующих констант. Их значения см. в записях [Constants (API](constants-account-management-api.md) управления учетной записью). 
+Значение — битмаска следующих констант. См. [константы (API управления](constants-account-management-api.md) учетной записью) для их значений. 
   
-- **SMTP_AUTH_SAME_AS_POP** означает использование тех же учетных данных, что и [](prop_inet_user.md) для почтового сервера входящих сообщений, PROP_INET_USER и [PROP_INET_PASSWORD.](prop_inet_password.md)
+- **SMTP_AUTH_SAME_AS_POP** означает использование тех же учетных данных, что и [](prop_inet_user.md) мой входящий почтовый сервер, как PROP_INET_USER [и PROP_INET_PASSWORD.](prop_inet_password.md)
     
-- **SMTP_AUTH_USER_PASS** означает использование учетных данных, предоставленных PROP_SMTP_USER [и](prop_smtp_user.md) [PROP_SMTP_PASSWORD.](prop_smtp_password.md)
+- **SMTP_AUTH_USER_PASS** означает использование учетных данных, предоставляемых [PROP_SMTP_USER](prop_smtp_user.md) и [PROP_SMTP_PASSWORD.](prop_smtp_password.md)
     
-- **SMTP_AUTH_RECEIVE_BEFORE_SEND** означает запрос пользователя на вход на почтовый сервер входов перед отправкой почты. 
+- **SMTP_AUTH_RECEIVE_BEFORE_SEND** означает, что перед отправкой почты пользователь должен войти на входящий почтовый сервер. 
     
 ## <a name="see-also"></a>См. также
 

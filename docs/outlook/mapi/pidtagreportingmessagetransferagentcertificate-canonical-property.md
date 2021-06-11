@@ -23,7 +23,7 @@ ms.locfileid: "33436589"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор агента передачи сообщений, который создает отчет.
   
@@ -32,15 +32,15 @@ ms.locfileid: "33436589"
 |Связанные свойства:  <br/> |PR_REPORTING_MTA_CERTIFICATE  <br/> |
 |Идентификатор:  <br/> |0x1004  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |MAPI Message  <br/> |
+|Область:  <br/> |Сообщение MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство соответствует атрибуту отчета X.400 для каждого сообщения.
+Это свойство соответствует атрибуту отчета X.400 за сообщение.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

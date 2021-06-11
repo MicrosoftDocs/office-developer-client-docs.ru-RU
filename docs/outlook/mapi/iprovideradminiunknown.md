@@ -23,32 +23,32 @@ ms.locfileid: "33437534"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Работает с поставщиками служб в службе сообщений. 
+Работает с поставщиками услуг в службе сообщений. 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Выставим:  <br/> |Объекты администрирования поставщика  <br/> |
+|Подвергается:  <br/> |Объекты администрирования поставщика  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения и поставщики услуг  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IProviderAdmin  <br/> |
 |Тип указателя:  <br/> |LPPROVIDERADMIN  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[GetLastError](iprovideradmin-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR, которая](mapierror.md) содержит сведения о предыдущей ошибке, которая произошла в объекте администрирования поставщика.  <br/> |
-|[GetProviderTable](iprovideradmin-getprovidertable.md) <br/> |Предоставляет доступ к таблице поставщиков службы сообщений, списку поставщиков услуг в службе сообщений.  <br/> |
-|[CreateProvider](iprovideradmin-createprovider.md) <br/> |Добавляет поставщика службы в службу сообщений.  <br/> |
+|[GetLastError](iprovideradmin-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR, которая](mapierror.md) содержит сведения о предыдущей ошибке, которая произошла с объектом администрирования поставщика.  <br/> |
+|[GetProviderTable](iprovideradmin-getprovidertable.md) <br/> |Предоставляет доступ к таблице поставщиков сообщений, списку поставщиков услуг в службе сообщений.  <br/> |
+|[CreateProvider](iprovideradmin-createprovider.md) <br/> |Добавляет поставщика услуг в службу сообщений.  <br/> |
 |[DeleteProvider](iprovideradmin-deleteprovider.md) <br/> |Удаляет поставщика услуг из службы сообщений.  <br/> |
-|[OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |Открывает раздел профиля из текущего профиля и возвращает указатель [IProfSect](iprofsectimapiprop.md) для дальнейшего доступа.  <br/> |
+|[OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |Открывает раздел профилей из текущего профиля и возвращает указатель [IProfSect](iprofsectimapiprop.md) для дальнейшего доступа.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Клиенты могут получить указатель на интерфейс **IProviderAdmin,** вызывая метод [IMsgServiceAdmin::AdminProviders;](imsgserviceadmin-adminproviders.md) Поставщикам услуг передается **указатель IProviderAdmin** при поступлении в службу сообщений функции точки входа. 
+Клиенты могут получить указатель на **интерфейс IProviderAdmin,** назвав [метод IMsgServiceAdmin::AdminProviders;](imsgserviceadmin-adminproviders.md) Поставщикам услуг передается указатель **IProviderAdmin,** когда называется функция точки входа службы сообщений. 
   
 ## <a name="see-also"></a>См. также
 

@@ -19,15 +19,15 @@ ms.locfileid: "33437807"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В этом разделе содержится обзорная информация, которую необходимо просмотреть перед созданием собственных поставщиков услуг MAPI.
+В этом разделе содержатся общие сведения, которые необходимо просмотреть перед созданием собственных поставщиков услуг MAPI.
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Разработка поставщика адресной книги MAPI](developing-a-mapi-address-book-provider.md)
+[Разработка поставщика адресных книг MAPI](developing-a-mapi-address-book-provider.md)
   
 [Разработка поставщика транспорта MAPI](developing-a-mapi-transport-provider.md)
   
@@ -35,5 +35,5 @@ ms.locfileid: "33437807"
   
 [Поставщики услуг MAPI](mapi-service-providers.md)
   
-[Общие сведения о поставщике услуг MAPI](mapi-service-provider-overview.md)
+[Обзор поставщика услуг MAPI](mapi-service-provider-overview.md)
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1230
 localization_priority: Normal
 ms.assetid: 02c139db-fe67-f550-1d07-8c8a9a4fb427
-description: Определяет метод, с помощью которого анализировался рисунок перед созданием макета, и определяет тип макета.
+description: Определяет метод, с помощью которого перед созданием макета анализируется рисунок, и определяет тип макета.
 ms.openlocfilehash: 463c7dad39955161538aa89d1482685189bf7fdc
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,14 +18,14 @@ ms.locfileid: "33432039"
 ---
 # <a name="placedepth-cell-page-layout-section"></a>PlaceDepth Cell (Page Layout Section)
 
-Определяет метод, с помощью которого анализировался рисунок перед созданием макета, и определяет тип макета.
+Определяет метод, с помощью которого перед созданием макета анализируется рисунок, и определяет тип макета.
   
 |**Значение**|**Глубина размещения для вертикальных и горизонтальных макетов**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-| 0  <br/> | Страница по умолчанию  <br/> |**visPLOPlaceDepthDefault** <br/> |
-| 1   <br/> | Средняя  <br/> |**visPLOPlaceDepthMedium** <br/> |
-| 2   <br/> | Deep  <br/> |**visPLOPlaceDepthDeep** <br/> |
-| 3   <br/> | Поверхностное  <br/> |**visPLOPlaceDepthShallow** <br/> |
+| 0  <br/> | По умолчанию страницы  <br/> |**visPLOPlaceDepthDefault** <br/> |
+| 1  <br/> | Средний  <br/> |**visPLOPlaceDepthMedium** <br/> |
+| 2  <br/> | Deep  <br/> |**visPLOPlaceDepthDeep** <br/> |
+| 3  <br/> | Shallow  <br/> |**visPLOPlaceDepthShallow** <br/> |
    
 ## <a name="remarks"></a>Примечания
 

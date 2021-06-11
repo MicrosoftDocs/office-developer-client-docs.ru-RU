@@ -23,16 +23,16 @@ ms.locfileid: "33435385"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если сообщение требует предварительной подготовки.
+Содержит TRUE, если сообщение требует предварительной подготовки.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_PREPROCESS  <br/> |
 |Идентификатор:  <br/> |0x0E22  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |MAPI, не передаваемый  <br/> |
+|Область:  <br/> |MAPI, не передаваемая  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -41,7 +41,7 @@ ms.locfileid: "33435385"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -64,5 +64,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -23,35 +23,35 @@ ms.locfileid: "33432319"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Разрешает преобразование между объектами MIME и сообщениями MAPI. Это может быть полезно при транспортировке сообщений через Интернет.
+Позволяет преобразования между объектами MIME и сообщениями MAPI. Это может быть полезно при транспортировке сообщений через Интернет.
   
 |||
 |:-----|:-----|
 |Предоставлено:  <br/> |CLSID_IConverterSession  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IConverterSession  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|**[SetAdrBook](iconvertersession-setadrbook.md)** <br/> |Указывает необязательные адресные книги MAPI, которые преобразователь MAPI в MIME использует для разрешения неоднозначных адресов при преобразовании сообщения MAPI в поток MIME.  <br/> |
-|**[SetEncoding](iconvertersession-setencoding.md)** <br/> |Инициализирует кодику, используемую во время преобразования.  <br/> |
-| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
+|**[SetAdrBook](iconvertersession-setadrbook.md)** <br/> |Указывает необязательная адресная книга MAPI, которую конвертер MAPI для MIME использует для решения неоднозначных адресов при преобразовании сообщения MAPI в поток MIME.  <br/> |
+|**[SetEncoding](iconvertersession-setencoding.md)** <br/> |Инициализирует кодацию, используемую во время преобразования.  <br/> |
+| *Член placeholder*  <br/> | *Не поддерживается или не документируется.*  <br/> |
 |**[MIMEToMAPI](iconvertersession-mimetomapi.md)** <br/> |Преобразует поток MIME в сообщение MAPI.  <br/> |
 |**[MAPIToMIMEStm](iconvertersession-mapitomimestm.md)** <br/> |Преобразует сообщение MAPI в поток MIME.  <br/> |
-| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
-| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
-| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
-|**[SetTextWrapping](iconvertersession-settextwrapping.md)** <br/> |Задает ширину обтекать текстом для потока MIME, который преобразователь возвращает в **MAPIToMIMEStm.**  <br/> |
-|**[SetSaveFormat](iconvertersession-setsaveformat.md)** <br/> |Задает формат, в который преобразователь возвращает поток MIME в **MAPIToMIMEStm.**  <br/> |
-| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
-|**[SetCharSet](iconvertersession-setcharset.md)** <br/> |Указывает необязательный набор символов, который преобразователь MAPI в MIME использует при преобразовании сообщения MAPI в поток MIME.  <br/> |
+| *Член placeholder*  <br/> | *Не поддерживается или не документируется.*  <br/> |
+| *Член placeholder*  <br/> | *Не поддерживается или не документируется.*  <br/> |
+| *Член placeholder*  <br/> | *Не поддерживается или не документируется.*  <br/> |
+|**[SetTextWrapping](iconvertersession-settextwrapping.md)** <br/> |Задает ширину текстовой упаковки для потока MIME, который конвертер возвращает в **MAPIToMIMEStm.**  <br/> |
+|**[SetSaveFormat](iconvertersession-setsaveformat.md)** <br/> |Задает формат, в который конвертер возвращает поток MIME в **MAPIToMIMEStm.**  <br/> |
+| *Член placeholder*  <br/> | *Не поддерживается или не документируется.*  <br/> |
+|**[SetCharSet](iconvertersession-setcharset.md)** <br/> |Указывает необязательный набор символов, который конвертер MAPI для MIME использует при преобразовании сообщения MAPI в поток MIME.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Вызовите **Метод SetEncoding** перед использованием **MAPIToMIMEStm для** преобразования. 
+Вызов **SetEncoding перед** использованием **MAPIToMIMEStm для** выполнения преобразования. 
   
 ## <a name="see-also"></a>См. также
 

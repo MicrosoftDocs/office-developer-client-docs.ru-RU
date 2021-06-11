@@ -1,5 +1,5 @@
 ---
-title: Пример потока FolderUserFields
+title: Пример потока folderUserFields
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433978"
 ---
-# <a name="folderuserfields-stream-sample"></a>Пример потока FolderUserFields
+# <a name="folderuserfields-stream-sample"></a>Пример потока folderUserFields
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В этом разделе описывается пример потока FolderUserFields. Поток содержит определение пользовательского  `TextField1` поля. Типом является **Text,** а поток FolderUserFields содержит части FolderUserFieldsAnsi и FolderUserFieldsUnicode. Дополнительные сведения см. в [подстроках потока полей папок.](folder-fields-stream-structures.md)
+В этом разделе описывается пример потока FolderUserFields. Поток содержит определение поля, определяемого пользователем,  `TextField1` . Тип — **Текст,** а поток FolderUserFields содержит как части FolderUserFieldsAnsi, так и folderUserFieldsUnicode. Дополнительные сведения см. [в рубке Folder Fields Stream Structures.](folder-fields-stream-structures.md)
   
-## <a name="data-dump"></a>Дамп данных
+## <a name="data-dump"></a>Сброс данных
 
-Ниже показан дамп данных потока, который будет отображаться в двоичном редакторе.
+Ниже приводится сброс данных потока, который будет отображаться в двоичном редакторе.
   
-|Смещение потока|Данные вбайт|Данные ASCII|
+|Смещение потока|Bytes data|Данные ASCII|
 |:-----|:-----|:-----|
 | `0000000000` <br/> | `02 00 00 00 01 00 00 00 0A 00 54 65 78 74 46 69` <br/> | `..........TextFi` <br/> |
 | `0000000010` <br/> | `65 6C 64 31 29 03 02 00 00 00 00 00 C0 00 00 00` <br/> | `eld1).......A...` <br/> |
@@ -41,130 +41,130 @@ ms.locfileid: "33433978"
 | `00000000D0` <br/> | `00 00 00 00 00 00` <br/> | `......` <br/> |
    
 
-Ниже приводится анализ примеров данных для потока **FolderUserFields:**
+Ниже приводится анализ примерных данных для потока **FolderUserFields:**
   
 - FolderUserFieldsAnsi: смещение 0x0.
     
-  - FieldDefinitionCount: 0x0 смещения, 4 0x00000002 (2).
+  - FieldDefinitionCount: смещение 0x0, 4 bytes: 0x00000002 (2).
     
-  - FieldDefinitions: 0x4 смещения, массив из 2 потоков FolderFieldDefinitionA.
-    
-    **Первый элемент массива:**
-    
-    - FieldType: смещение 0x4, 4 0x00000001 (ftString).
-      
-    - FieldNameLength: 0x8 смещения, 2 0x000A (10)
-      
-    - FieldName: 0xA offset, массив из 10 chars. Строковое значение ANSI: TextField1.
-      
-    - Common: Offset 0x14.
-    
-      - PropSetGuid: offset 0x14, 16 bytes: {00020329-0000-0000-C000-00000000046} (PS_PUBLIC_STRINGS).
-        
-      - fcapm: смещение 0x24, 4 0x80000007 (FCAPM_CAN_EDIT| FCAPM_CAN_SORT| FCAPM_CAN_GROUP| FCAPM_CAN_EDIT_IN_ITEM).
-        
-      - dwString: смещение 0x28, 4 0x00000000.
-        
-      - dwBitmap: смещение 0x2C, 4 0x00000000.
-        
-      - dwDisplay: смещение 0x30, 4 0x00000000.
-        
-      - iFmt: смещение 0x34, 4 0x00000000.
-        
-      - wszFormulaLength: 0x38 смещения, 2 0x0000 (0).
-        
-      - wszFormula: 0x3A смещения, массив из 0 WCHARs. Пустое строко значение.
-    
-    **Второй элемент массива:**
-    
-    - FieldType: 0x3A смещения, 4 0x00000000 (ftNone).
-      
-    - FieldNameLength: 0x3E смещения, 2 0x0000 (0).
-      
-    - FieldName: offset 0x40, массив 0 CHARs. Пустое строко значение.
-      
-    - Common: Offset 0x40.
-    
-      - PropSetGuid: смещение 0x40, 16 bytes: {00000000-0000-0000-0000-000000000000} (GUID_NULL).
-        
-      - fcapm: смещение 0x50, 4 0x00000000 (0).
-        
-      - dwString: смещение 0x54, 4 0x00000000.
-        
-      - dwBitmap: смещение 0x58, 4 0x00000000.
-        
-      - dwDisplay: смещение 0x5C, 4 0x00000000.
-        
-      - iFmt: смещение 0x60, 4 0x00000000.
-        
-      - wszFormulaLength: 0x64 смещения, 2 0x0000 (0).
-        
-      - wszFormula: 0x66 смещения, массив из 0 WCHARs. Пустое строко значение.
-    
-- FolderUserFieldsUnicode: offset 0x66.
-    
-  - FieldDefinitionCount: offset 0x66, 4 bytes: 0x00000002 (2).
-    
-  - FieldDefinitions: 0x6A offset, массив из 2 потоков FolderFieldDefinitionW.
+  - FieldDefinitions: Смещение 0x4, массив из 2 потоков FolderFieldDefinitionA.
     
     **Первый элемент массива:**
     
-    - FieldType: 0x6A смещения, 4 0x00000001 (ftString).
+    - FieldType: смещение 0x4, 4 bytes: 0x00000001 (ftString).
       
-    - FieldNameLength: 0x6E смещения, 2 0x000A (10).
+    - FieldNameLength: смещение 0x8, 2 bytes: 0x000A (10)
       
-    - FieldName: 0x70, массив из 10 WCHARs. Строковое значение Юникода: TextField1.
+    - Имя поля: смещение 0xA, массив из 10 ОКР. Строковое значение ANSI: "TextField1".
       
-    - Common: Offset 0x84.
+    - Общие: смещение 0x14.
     
-      - PropSetGuid: offset 0x84, 16 bytes: {00020329-0000-0000-C000-00000000046} (PS_PUBLIC_STRINGS).
+      - PropSetGuid: Смещение 0x14, 16 bytes: {00020329-0000-0000-00000000000046} (PS_PUBLIC_STRINGS).
         
-      - fcapm: смещение 0x94, 4 0x80000007 (FCAPM_CAN_EDIT| FCAPM_CAN_SORT| FCAPM_CAN_GROUP| FCAPM_CAN_EDIT_IN_ITEM).
+      - fcapm: Смещение 0x24, 4 bytes: 0x80000007 (FCAPM_CAN_EDIT| FCAPM_CAN_SORT| FCAPM_CAN_GROUP| FCAPM_CAN_EDIT_IN_ITEM).
         
-      - dwString: смещение 0x98, 4 0x00000000.
+      - dwString. Смещение 0x28, 4 bytes: 0x00000000.
         
-      - dwBitmap: смещение 0x9C, 4 0x00000000.
+      - dwBitmap. Смещение 0x2C, 4 bytes: 0x00000000.
         
-      - dwDisplay: смещение 0xA0, 4 0x00000000.
+      - dwDisplay: Смещение 0x30, 4 bytes: 0x00000000.
         
-      - iFmt: смещение 0xA4, 4 0x00000000.
+      - iFmt. Смещение 0x34, 4 bytes: 0x00000000.
         
-      - wszFormulaLength: 0xA8 смещения, 2 0x0000 (0).
+      - wszFormulaLength: смещение 0x38, 2 bytes: 0x0000 (0).
         
-      - wszFormula: 0xAA смещения, массив из 0 WCHARs. Пустое строко значение.
+      - wszFormula: смещение 0x3A, массив 0 WCHARs. Пустое значение строки.
     
     **Второй элемент массива:**
     
-    - FieldType: 0xAA смещения, 4 0x00000000 (ftNone).
+    - FieldType: смещение 0x3A, 4 bytes: 0x00000000 (ftNone).
       
-    - FieldNameLength: 0xAE смещения, 2 0x0000 (0).
+    - FieldNameLength: Смещение 0x3E, 2 bytes: 0x0000 (0).
       
-    - FieldName: offset 0xB0, массив 0 WCHARs. Пустое строко значение.
+    - Имя поля: смещение 0x40, массив из 0 ОКР. Пустое значение строки.
       
-    - Common: Offset 0xB0.
+    - Общие: смещение 0x40.
     
-      - PropSetGuid: offset 0xB0, 16 bytes: {00000000-0000-0000-0000-000000000000} (GUID_NULL).
+      - PropSetGuid: Смещение 0x40, 16 {00000000-0000-0000-0000-000000000000} bytes: (GUID_NULL).
         
-      - fcapm: смещение 0xC0, 4 0x00000000 (0).
+      - fcapm. Смещение 0x50, 4 bytes: 0x00000000 (0).
         
-      - dwString: смещение 0xC4, 4 0x00000000.
+      - dwString: Смещение 0x54, 4 bytes: 0x00000000.
         
-      - dwBitmap: смещение 0xC8, 4 0x00000000.
+      - dwBitmap. Смещение 0x58, 4 bytes: 0x00000000.
         
-      - dwDisplay: смещение 0xCC, 4 0x00000000.
+      - dwDisplay: смещение 0x5C, 4 bytes: 0x00000000.
         
-      - iFmt: смещение 0xD0, 4 0x00000000.
+      - iFmt. Смещение 0x60, 4 bytes: 0x00000000.
         
-      - wszFormulaLength: 0xD4 смещения, 2 0x0000 (0).
+      - wszFormulaLength: смещение 0x64, 2 bytes: 0x0000 (0).
         
-      - wszFormula: 0xD6 смещения, массив из 0 WCHARs. Пустое строко значение.
+      - wszFormula: смещение 0x66, массив 0 WCHARs. Пустое значение строки.
+    
+- FolderUserFieldsUnicode: Смещение 0x66.
+    
+  - FieldDefinitionCount: смещение 0x66, 4 bytes: 0x00000002 (2).
+    
+  - FieldDefinitions: Смещение 0x6A, массив из 2 потоков FolderFieldDefinitionW.
+    
+    **Первый элемент массива:**
+    
+    - FieldType: смещение 0x6A, 4 bytes: 0x00000001 (ftString).
+      
+    - FieldNameLength: Смещение 0x6E, 2 bytes: 0x000A (10).
+      
+    - Имя поля: смещение 0x70, массив из 10 WCHARs. Значение строки Unicode: "TextField1".
+      
+    - Общие: смещение 0x84.
+    
+      - PropSetGuid: смещение 0x84, 16 bytes: {00020329-0000-0000-00000000000046} (PS_PUBLIC_STRINGS).
+        
+      - fcapm. Смещение 0x94, 4 bytes: 0x80000007 (FCAPM_CAN_EDIT| FCAPM_CAN_SORT| FCAPM_CAN_GROUP| FCAPM_CAN_EDIT_IN_ITEM).
+        
+      - dwString: смещение 0x98, 4 bytes: 0x00000000.
+        
+      - dwBitmap. Смещение 0x9C, 4 bytes: 0x00000000.
+        
+      - dwDisplay. Смещение 0xA0, 4 bytes: 0x00000000.
+        
+      - iFmt. Смещение 0xA4, 4 bytes: 0x00000000.
+        
+      - wszFormulaLength: смещение 0xA8, 2 bytes: 0x0000 (0).
+        
+      - wszFormula: смещение 0xAA, массив 0 WCHARs. Пустое значение строки.
+    
+    **Второй элемент массива:**
+    
+    - FieldType: смещение 0xAA, 4 bytes: 0x00000000 (ftNone).
+      
+    - FieldNameLength: смещение 0xAE, 2 bytes: 0x0000 (0).
+      
+    - Имя поля: смещение 0xB0, массив 0 WCHARs. Пустое значение строки.
+      
+    - Общие: смещение 0xB0.
+    
+      - PropSetGuid: Смещение 0xB0, 16 bytes: {00000000-0000-0000-0000-000000000000} (GUID_NULL).
+        
+      - fcapm. Смещение 0xC0, 4 bytes: 0x00000000 (0).
+        
+      - dwString. Смещение 0xC4, 4 bytes: 0x00000000.
+        
+      - dwBitmap. Смещение 0xC8, 4 bytes: 0x00000000.
+        
+      - dwDisplay: смещение 0xCC, 4 bytes: 0x00000000.
+        
+      - iFmt. Смещение 0xD0, 4 bytes: 0x00000000.
+        
+      - wszFormulaLength: смещение 0xD4, 2 bytes: 0x0000 (0).
+        
+      - wszFormula: смещение 0xD6, массив 0 WCHARs. Пустое значение строки.
     
 ## <a name="see-also"></a>См. также
 
-- [Элементы и поля Outlook](outlook-items-and-fields.md)
+- [Outlook Элементы и поля](outlook-items-and-fields.md)
 - [Структура потока PropertyDefinition](propertydefinition-stream-structure.md)
 - [Структура потока FieldDefinition](fielddefinition-stream-structure.md)
-- [Структура потока SkipBlock](skipblock-stream-structure.md)
+- [Структура skipBlock Stream](skipblock-stream-structure.md)
 - [Структура потока FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)
 - [Структура потока PackedAnsiString](packedansistring-stream-structure.md)
 - [Структура потока PackedUnicodeString](packedunicodestring-stream-structure.md)

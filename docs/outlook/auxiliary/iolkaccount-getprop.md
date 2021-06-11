@@ -20,7 +20,7 @@ ms.locfileid: "33433740"
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IOlkAccount](iolkaccount.md).
+См. [iOlkAccount](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::GetProp(  
@@ -29,15 +29,15 @@ ACCT_VARIANT *pVar
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _dwProp_
   
-> [in] Тег свойства свойства учетной записи, который необходимо получить.
+> [in] Тег свойства свойства свойства учетной записи, который необходимо получить.
     
 _pVar_
   
-> [out] Значение указанного свойства.
+> [вышел] Значение указанного свойства.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -45,11 +45,11 @@ _pVar_
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded.  <br/> |
 |E_ACCT_NOT_FOUND  <br/> |Свойство не найдено для данной учетной записи.  <br/> |
-|E_INVALIDARG  <br/> |Указан недопустимый тег свойства.  <br/> |
+|E_INVALIDARG  <br/> |Указан недействительный тег свойства.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если свойство учетной записи имеет двоичный или строковый тип, то после возврата этого метода необходимо освободить *pVar* с помощью [IOlkAccount::FreeMemory.](iolkaccount-freememory.md)
+После возвращения этого метода, если значение свойства учетной записи двоичного или строкового типа, вы должны освободить  *pVar*  с помощью [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
   
 ## <a name="see-also"></a>См. также
 

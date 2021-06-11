@@ -23,9 +23,9 @@ ms.locfileid: "33437730"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Повторное повторное определение идентификатора записи из его кодировки ASCII. 
+Воссоздает идентификатор записи из коди-кодии ASCII. 
   
 |||
 |:-----|:-----|
@@ -41,7 +41,7 @@ HRESULT HrEntryIDFromSz(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _sz_
   
@@ -49,28 +49,28 @@ HRESULT HrEntryIDFromSz(
     
  _pcb_
   
-> [out] Указатель на размер идентификатора записи,на который указывает параметр ppentry (в _bytes)._ 
+> [вышел] Указатель на размер в bytes идентификатора записи, указываемого параметром _ppentry._ 
     
  _ppentry_
   
-> [out] Указатель на указатель на возвращенную структуру [ENTRYID,](entryid.md) которая содержит новый идентификатор записи. 
+> [вышел] Указатель на указатель на возвращаемую [структуру ENTRYID,](entryid.md) содержаную новый идентификатор записи. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK
   
-> Воссоздание было успешным.
+> Отдых был успешным.
     
 MAPI_E_INVALID_ENTRYID
   
-> Недопустимый ИД записи.
+> ID записи был недействительным.
     
 ## <a name="remarks"></a>Примечания
 
-Функции **HrEntryIDFromSz** и [HrSzFromEntryID](hrszfromentryid.md) обеспечивают преобразование между строками и двоичными форматами идентификаторов записей. 
+Функции **HrEntryIDFromSz** и [HrSzFromEntryID](hrszfromentryid.md) обеспечивают преобразование между строками и двоичными форматами идентификаторов записи. 
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-Функция **HrEntryIDFromSz** выделяет память для строки ASCII с помощью функции [MAPIAllocateBuffer.](mapiallocatebuffer.md) 
+Функция **HrEntryIDFromSz** выделяет память для строки ASCII с помощью [функции MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 

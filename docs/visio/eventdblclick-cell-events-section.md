@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251312
 localization_priority: Normal
 ms.assetid: ca949013-f998-1bce-39e5-ac6f68ab2392
-description: Ячейка события, которая оценивается при двойном щелчке по фигуре.
+description: Ячейка событий, которая оценивается при дважды нажатии фигуры.
 ms.openlocfilehash: a50e88ecd8e432629e246f7038dfcc9626725cc5
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33438220"
 ---
 # <a name="eventdblclick-cell-events-section"></a>EventDblClick Cell (Events Section)
 
-Ячейка события, которая оценивается при двойном щелчке по фигуре.
+Ячейка событий, которая оценивается при дважды нажатии фигуры.
   
 ## <a name="remarks"></a>Примечания
 
-Ячейки событий оцениваются только при событии, а не при вводе формулы.
+Ячейки событий оцениваются только при событии, а не при входе формулы.
   
 Чтобы получить ссылку на ячейку EventDblClick по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте: 
   

@@ -23,7 +23,7 @@ ms.locfileid: "33432200"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Удаляет определенную форму из контейнера формы.
   
@@ -33,11 +33,11 @@ HRESULT RemoveForm(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _szMessageClass_
   
-> [in] Строка, которая именует класс сообщения формы, удаляемой из контейнера формы. Имена классов сообщений всегда являются строками ANSI, а не Юникодом.
+> [in] Строка, которая называет класс сообщений формы, удаляемой из контейнера формы. Имена классов сообщений всегда являются строками ANSI, а не Unicode.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -47,7 +47,7 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> Класс сообщения, переданный в  _параметре szMessageClass,_ не соответствует классу сообщений любой формы в контейнере формы. 
+> Класс сообщений, переданный в  _параметре szMessageClass,_ не соответствует классу сообщений любой формы в контейнере формы. 
     
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -55,7 +55,7 @@ MAPI_E_NOT_FOUND
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnDeleteSelectedItem  <br/> |MFCMAPI использует метод **IMAPIFormContainer::RemoveForm** для удаления формы из контейнера формы.  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnDeleteSelectedItem  <br/> |MFCMAPI использует **метод IMAPIFormContainer::RemoveForm** для удаления формы из контейнера формы.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

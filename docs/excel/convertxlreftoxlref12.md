@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - ConvertXLRefToXLRef12
 keywords:
-- функция convertxlreftoxlref12 [excel 2007]
+- функция convertxlreftoxlref12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 94580044-9497-425f-a31e-53bb4d94dc30
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,29 +22,29 @@ ms.locfileid: "33432032"
 
 **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Функция Framework, которая пытается преобразовать **XLREF** в **XLREF12**.
+Функция Framework, которая пытается преобразовать **XLREF** в **XLREF12.**
   
 ```cs
 BOOL ConvertXLRefToXLRef12(LPXLREF pxRef, LPXLREF12 pxRef12);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
- _pxRef_ (**LPXLREF)**
+ _pxRef_ **(LPXLREF)**
   
-Указатель на структуру ссылок на источник.
+Указатель на структуру исходных ссылок.
   
- _pxRef12_ (**LPXLREF12**)
+ _pxRef12_ **(LPXLREF12)**
   
-Указатель на целевую эталонную структуру, в которую необходимо поместить преобразованные значения.
+Указатель на целевую справочную структуру, в которую должно быть помещено преобразовано значение.
   
 ## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
- **TRUE,** если преобразование успешно, в противном случае **FALSE.** 
+ **TRUE,** если преобразование удалось, **FALSE** в противном случае. 
   
 ## <a name="remarks"></a>Примечания
 
-Если переданный **XLREF** является допустимым, эта операция всегда должна быть успешной. С другой стороны, преобразование в **XLREF12** в **XLREF,** выполняемого [ConvertXLRef12ToXLRef](convertxlref12toxlref.md), не выполняется, если предоставленная ссылка ссылается на часть листа Excel 2007, который не поддерживается в предыдущих версиях.
+При условии, что переданный **XLREF** является допустимым, эта операция всегда должна быть успешной. Напротив, преобразование в **XLREF12** в **XLREF,** выполненное [ConvertXLRef12ToXLRef,](convertxlref12toxlref.md)не выполняется, если предоставленная ссылка относится к части таблицы Excel 2007 г., которая не поддерживается в предыдущих версиях.
   
 ## <a name="example"></a>Пример
 

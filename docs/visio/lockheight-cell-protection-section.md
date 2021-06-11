@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm635
 localization_priority: Normal
 ms.assetid: 218b957e-5af6-e53b-1453-a84164ae456e
-description: Блокирует высоту фигуры, чтобы ее высота оставалась неизменной при изменениях размера фигуры.
+description: Блокирует высоту фигуры таким образом, чтобы ее высота оставалась неизменной при повторном размере фигуры.
 ms.openlocfilehash: 099f6597656d4389476818253f34e741ddd404de
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33432088"
 ---
 # <a name="lockheight-cell-protection-section"></a>LockHeight Cell (Protection Section)
 
-Блокирует высоту фигуры, чтобы ее высота оставалась неизменной при изменениях размера фигуры.
+Блокирует высоту фигуры таким образом, чтобы ее высота оставалась неизменной при повторном размере фигуры.
   
 |**Значение**|**Описание**|
 |:-----|:-----|

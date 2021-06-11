@@ -21,23 +21,23 @@ ms.locfileid: "33437828"
   
 ## <a name="members"></a>"Участники"
 
-В следующей таблице показаны члены, доступные в интерфейсе **ISocialSession.** 
+В следующей таблице показаны участники, доступные в **интерфейсе ISocialSession.** 
   
-|**Название**|**Тип члена**|**Описание**|
+|**Имя**|**Тип участника**|**Описание**|
 |:-----|:-----|:-----|
-|[FindPerson](isocialsession-findperson.md) <br/> |Method  <br/> |Получает строку, представляюную одного или несколько пользователей, которые соответствуют _параметру userID._  <br/> |
-|[FollowPerson](isocialsession-followperson.md) <br/> |Method  <br/> |Добавляет пользователя, заданного  _параметром emailAddress,_ в качестве друга во время входа пользователя в социальной сети.  <br/> |
-|[GetActivities](isocialsession-getactivities.md) <br/> |Method  <br/> |Этот метод больше не используется в Outlook Social Connector (OSC) 1.1.  <br/> |
-|[GetLoggedOnUser](isocialsession-getloggedonuser.md) <br/> |Method  <br/> |Получает интерфейс [ISocialProfile,](isocialprofileisocialperson.md) который представляет во входе пользователя.  <br/> |
-|[GetLogonUrl](isocialsession-getlogonurl.md) <br/> |Method  <br/> |Получает строку, представляюную URL-адрес, используемый для представления пользователю браузерной формы во время веб-проверки подлинности.  <br/> |
-|[GetNetworkIdentifier](isocialsession-getnetworkidentifier.md) <br/> |Method  <br/> |Получает строку, представляюную уникальный идентификатор социальной сети для заданного подключения к социальной сети.  <br/> |
-|[GetPerson](isocialsession-getperson.md) <br/> |Method  <br/> |Получает интерфейс [ISocialPerson](isocialpersoniunknown.md) на основе _параметра userID._  <br/> |
-|[LoggedOnUserID](isocialsession-loggedonuserid.md) <br/> |Свойство  <br/> |Возвращает строку, представляюную ИД пользователя в социальной сети, который в данный момент вошел в систему.  <br/> |
+|[FindPerson](isocialsession-findperson.md) <br/> |Метод  <br/> |Получает строку, представляюную одного или несколько лиц, которые соответствуют _параметру userID._  <br/> |
+|[FollowPerson](isocialsession-followperson.md) <br/> |Метод  <br/> |Добавляет пользователя, идентифицированного  _параметром emailAddress_ как друга для зарегистрированного пользователя в социальной сети.  <br/> |
+|[GetActivities](isocialsession-getactivities.md) <br/> |Метод  <br/> |Этот метод был обескулен в Outlook social Connector (OSC) 1.1.  <br/> |
+|[GetLoggedOnUser](isocialsession-getloggedonuser.md) <br/> |Метод  <br/> |Получает интерфейс [ISocialProfile,](isocialprofileisocialperson.md) который представляет зарегистрированного пользователя.  <br/> |
+|[GetLogonUrl](isocialsession-getlogonurl.md) <br/> |Метод  <br/> |Получает строку, представляюную URL-адрес, используемый для представления пользователю формы на основе браузера во время веб-проверки подлинности.  <br/> |
+|[GetNetworkIdentifier](isocialsession-getnetworkidentifier.md) <br/> |Метод  <br/> |Получает строку, представляюную уникальный идентификатор социальной сети для данного подключения к социальной сети.  <br/> |
+|[GetPerson](isocialsession-getperson.md) <br/> |Метод  <br/> |Получает интерфейс [ISocialPerson](isocialpersoniunknown.md) на основе _параметра userID._  <br/> |
+|[LoggedOnUserID](isocialsession-loggedonuserid.md) <br/> |Свойство  <br/> |Возвращает строку, представляюную ID пользователя социальной сети пользователя, который в настоящее время зарегистрирован.  <br/> |
 |[LoggedOnUserName](isocialsession-loggedonusername.md) <br/> |Свойство  <br/> |Возвращает строку, представляюную имя пользователя, используемую при входе в систему.  <br/> |
-|[Logon](isocialsession-logon.md) <br/> |Method  <br/> |Входит на сайт социальной сети с использованием указанного имени пользователя и пароля.  <br/> |
-|[LogonWeb](isocialsession-logonweb.md) <br/> |Method  <br/> |Входит на сайт социальной сети с использованием проверки подлинности на основе форм.  <br/> |
+|[Logon](isocialsession-logon.md) <br/> |Метод  <br/> |Войдите на сайт социальной сети с помощью указанного имени пользователя и пароля.  <br/> |
+|[LogonWeb](isocialsession-logonweb.md) <br/> |Метод  <br/> |Войдите на сайт социальной сети с помощью проверки подлинности на основе форм.  <br/> |
 |[SiteUrl](isocialsession-siteurl.md) <br/> |Свойство  <br/> |Задает URL-адрес сайта социальной сети.  <br/> |
-|[UnFollowPerson](isocialsession-unfollowperson.md) <br/> |Method  <br/> |Удаляет пользователя, которого задан параметр  _userID_ как друга в социальной сети.  <br/> |
+|[UnFollowPerson](isocialsession-unfollowperson.md) <br/> |Метод  <br/> |Удаляет пользователя, идентифицированного  _параметром userID_ в качестве друга в социальной сети.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -45,5 +45,5 @@ ms.locfileid: "33437828"
   
 ## <a name="see-also"></a>См. также
 
-- [Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
+- [Outlook Интерфейсы поставщиков социальных соединители](outlook-social-connector-provider-interfaces.md)
 

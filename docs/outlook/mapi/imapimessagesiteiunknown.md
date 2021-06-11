@@ -23,36 +23,36 @@ ms.locfileid: "33433369"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Управляет сообщениями и реализуется кодом средства просмотра форм (обычно клиентского приложения), который реагирует на такие манипуляции.
+Манипулирует сообщениями и реализуется кодом просмотра форм (как правило, клиентского приложения), который реагирует на такие манипуляции.
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapiform.h  <br/> |
-|Выставим:  <br/> |Объекты сайта сообщений  <br/> |
+|Подвергается:  <br/> |Объекты сайта сообщений  <br/> |
 |Реализовано в:  <br/> |Просмотр форм  <br/> |
 |Вызывающая сторона:  <br/> |Объекты форм  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIMessageSite  <br/> |
 |Тип указателя:  <br/> |LPMAPIMESSAGESITE  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
 |[GetSession](imapimessagesite-getsession.md) <br/> |Возвращает сеанс MAPI, в котором было создано или открыто текущее сообщение.  <br/> |
-|[GetStore](imapimessagesite-getstore.md) <br/> |Возвращает хранилище сообщений, которое содержит текущее сообщение, если такое хранилище существует.  <br/> |
+|[GetStore](imapimessagesite-getstore.md) <br/> |Возвращает хранилище сообщений, содержаное текущее сообщение, если такой магазин существует.  <br/> |
 |[GetFolder](imapimessagesite-getfolder.md) <br/> |Возвращает папку, в которой было создано или открыто текущее сообщение, если такая папка существует.  <br/> |
 |[GetMessage](imapimessagesite-getmessage.md) <br/> |Возвращает текущее сообщение.  <br/> |
-|[GetFormManager](imapimessagesite-getformmanager.md) <br/> |Возвращает интерфейс диспетчера форм, который сервер форм может использовать для открытия другого сервера форм.  <br/> |
+|[GetFormManager](imapimessagesite-getformmanager.md) <br/> |Возвращает интерфейс диспетчера форм, который сервер формы может использовать для открытия другого сервера форм.  <br/> |
 |[NewMessage](imapimessagesite-newmessage.md) <br/> |Создает новое сообщение.  <br/> |
 |[CopyMessage](imapimessagesite-copymessage.md) <br/> |Копирует текущее сообщение в папку.  <br/> |
 |[MoveMessage](imapimessagesite-movemessage.md) <br/> |Перемещает текущее сообщение в папку.  <br/> |
 |[DeleteMessage](imapimessagesite-deletemessage.md) <br/> |Удаляет текущее сообщение.  <br/> |
 |[SaveMessage](imapimessagesite-savemessage.md) <br/> |Запрашивает, чтобы текущее сообщение было сохранено.  <br/> |
 |[SubmitMessage](imapimessagesite-submitmessage.md) <br/> |Запрашивает, чтобы текущее сообщение было в очереди для доставки.  <br/> |
-|[GetSiteStatus](imapimessagesite-getsitestatus.md) <br/> |Возвращает сведения из объекта сайта сообщения о возможностях сайта сообщений для текущего сообщения.  <br/> |
-|[GetLastError](imapimessagesite-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR, которая](mapierror.md) содержит сведения о предыдущей ошибке, которая произошла в объекте сайта сообщения.  <br/> |
+|[GetSiteStatus](imapimessagesite-getsitestatus.md) <br/> |Возвращает сведения с объекта сайта сообщений о возможностях веб-сайта сообщений для текущего сообщения.  <br/> |
+|[GetLastError](imapimessagesite-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR, которая](mapierror.md) содержит сведения о предыдущей ошибке, произошедшей в объекте сайта сообщений.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

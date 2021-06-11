@@ -23,7 +23,7 @@ ms.locfileid: "33435651"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит имя профиля.
   
@@ -38,13 +38,13 @@ ms.locfileid: "33435651"
 
 Эти свойства вычисляются поставщиками услуг. Реализация функции **ServiceEntry** поставщика может использовать эти свойства для обнаружения имени профиля. 
   
-Клиентские приложения могут использовать эти свойства в качестве удобной альтернативы получению имени профиля, **изучив** свойство PR_DISPLAY_NAME ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)в строке таблицы состояния подсистемы MAPI.
+Клиентские приложения могут использовать эти свойства в качестве удобной альтернативы получению имени **профиля,** изучив свойство [PR_DISPLAY_NAME (PidTagDisplayName)](pidtagdisplayname-canonical-property.md)в строке таблицы состояния MAPI.
   
-Эти свойства могут быть не уникальными в течение времени, например при удалении профиля, а затем повторном его повторном воссоздание с тем же именем. MAPI передает абсолютно уникальное свойство **PR_SEARCH_KEY** ([PidTagSearchKey)](pidtagsearchkey-canonical-property.md)в жестко задавленном разделе профиля под названием **MUID_PROFILE_INSTANCE.**
+Эти свойства не могут быть уникальными во времени, например, когда профиль удаляется и затем воссоздается с тем же именем. MAPI обставлено уникальным свойством **PR_SEARCH_KEY** [(PidTagSearchKey)](pidtagsearchkey-canonical-property.md)в жестко закодированном разделе профилей **MUID_PROFILE_INSTANCE.**
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -64,5 +64,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

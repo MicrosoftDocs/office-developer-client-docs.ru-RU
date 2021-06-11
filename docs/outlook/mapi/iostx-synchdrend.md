@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a0beb6eb-7978-c64e-dba1-89f0caf2090e
-description: 'Last modified: July 03, 2012'
+description: 'Последнее изменение: 03 июля 2012 г.'
 ms.openlocfilehash: 864c2d2dfd17c285b0d8a401d59ce5b7d0463864
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -23,9 +23,9 @@ ms.locfileid: "33432774"
 
  
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Завершает синхронизацию для загона сообщения.
+Завершается синхронизация для заглавного сообщения.
   
 ```cpp
 HRESULT SyncHdrEnd( 
@@ -33,17 +33,17 @@ HRESULT SyncHdrEnd(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
- _pp де_
+ _pprog_
   
-> [in] **[Интерфейс IMAPIProgress](imapiprogressiunknown.md)** для синхронизации перемещенных или скопированные сообщения. Определение типа **LPMAPIPROGRESS** см. в mapidefs.h. 
+> [in] **[Интерфейс IMAPIProgress](imapiprogressiunknown.md)** для синхронизации перемещений или копирования сообщений. См. mapidefs.h для определения типа **LPMAPIPROGRESS**. 
     
 ## <a name="remarks"></a>Примечания
 
-После **[IOSTX::SyncBeg](iostx-syncbeg.md)** локальное хранилище введет состояние [скачивания сообщения в состояние загона.](download-message-header-state.md) Клиент скачивает полный элемент сообщения (как *pmsgFull* в **[HDRSYNC).](hdrsync.md)** Если это успешно, клиент также устанавливает *ulFlags* в **HDRSYNC** как **HSF_OK.** После **IOSTX::SyncHdrEnd** Outlook проверяет результат в **HDRSYNC** и использует  *ppлага*  и сведения в **HDRSYNC** для обновления локального заголовка сообщения. 
+После **[IOSTX::SyncBeg](iostx-syncbeg.md)** локальный магазин вводит состояние заглавного сообщения [для скачивания.](download-message-header-state.md) Клиент загружает полный элемент сообщения (как *pmsgFull* в **[HDRSYNC).](hdrsync.md)** Если это успешно, клиент также задает  *ulFlags*  в **HDRSYNC** как **HSF_OK**. После **IOSTX::SyncHdrEnd** Outlook в **HDRSYNC** и использует *pprog* и сведения **в HDRSYNC** для обновления локального заголовка сообщений. 
   
-Локальное хранилище возвращается в состояние до предыдущего **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)**. 
+Локальный магазин возвращается в состояние, в который он был до предыдущего **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)**. 
   
 ## <a name="see-also"></a>См. также
 

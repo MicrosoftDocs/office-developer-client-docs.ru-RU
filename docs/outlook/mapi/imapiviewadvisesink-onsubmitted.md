@@ -23,9 +23,9 @@ ms.locfileid: "33433985"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Сообщает просмотру формы, что текущее сообщение отправлено в пул MAPI.
+Сообщает зрителю формы, что текущее сообщение было отправлено в шпалер MAPI.
   
 ```cpp
 HRESULT OnSubmitted( void );
@@ -43,13 +43,13 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Объект формы вызывает метод **IMAPIViewAdviseSink::OnSubmitted** после успешного возврата вызова [IMAPIMessageSite::SubmitMessage.](imapimessagesite-submitmessage.md) 
+Объект формы вызывает **метод IMAPIViewAdviseSink::OnSubmitted** после успешного вызова [в IMAPIMessageSite::SubmitMessage.](imapimessagesite-submitmessage.md) 
   
 ## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-После того как будет вызвана **onSubmitted,** можно продолжить, предполагая, что сообщение было обновлено. Обновите окна, чтобы отразить все внесенные изменения. 
+После того как будет вызван **OnSubmitted,** можно продолжить с предположением, что сообщение было обновлено. Обновите окна, чтобы отразить все изменения, которые произошли. 
   
-Дополнительные сведения об уведомлениях о формах см. в сведениях об отправке и [получении уведомлений о формах.](sending-and-receiving-form-notifications.md)
+Дополнительные сведения об уведомлениях формы см. в рублях [Отправка и получение уведомлений о форме.](sending-and-receiving-form-notifications.md)
   
 ## <a name="see-also"></a>См. также
 

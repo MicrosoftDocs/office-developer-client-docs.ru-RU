@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm645
 localization_priority: Normal
 ms.assetid: 4ed8cab4-112a-e96a-f4e3-02490a6f87fa
-description: Блокирует вертикальное положение фигуры, поэтому ее невозможно перемещать по вертикали.
+description: Блокирует вертикальное положение фигуры, чтобы она не перемещалась по вертикали.
 ms.openlocfilehash: 6666d47555f8175b4950f95e1fb15abb8b11bfd5
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33434048"
 ---
 # <a name="lockmovey-cell-protection-section"></a>LockMoveY Cell (Protection Section)
 
-Блокирует вертикальное положение фигуры, поэтому ее невозможно перемещать по вертикали.
+Блокирует вертикальное положение фигуры, чтобы она не перемещалась по вертикали.
   
 |**Значение**|**Описание**|
 |:-----|:-----|
