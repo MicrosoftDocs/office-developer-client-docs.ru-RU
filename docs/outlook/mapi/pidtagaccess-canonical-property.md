@@ -23,9 +23,9 @@ ms.locfileid: "32316515"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит битовуюmass флагов, указывающих операции, доступные клиенту для объекта.
+Содержит битмаску флагов с указанием операций, доступных клиенту для объекта.
   
 |||
 |:-----|:-----|
@@ -36,18 +36,18 @@ ms.locfileid: "32316515"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство для клиента только для чтения. Это должно быть битовая **или** ноль или больше значений из следующей таблицы. 
+Это свойство является только для чтения для клиента. Оно должно быть немного **или** равно нулю или более значениям из следующей таблицы. 
   
 |**Name**|**Value**|**Описание**|
 |:-----|:-----|:-----|
 |MAPI_ACCESS_MODIFY  <br/> |0x00000001  <br/> |Запись  <br/> |
 |MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |Чтение  <br/> |
-|MAPI_ACCESS_DELETE  <br/> |0x00000004  <br/> |Удаление  <br/> |
-|MAPI_ACCESS_CREATE_HIERARCHY  <br/> |0x00000008  <br/> |Создание вложенных папок в иерархии папок  <br/> |
-|MAPI_ACCESS_CREATE_CONTENTS  <br/> |0x00000010  <br/> |Создание сообщений содержимого  <br/> |
-|MAPI_ACCESS_CREATE_ASSOCIATED  <br/> |0x00000020  <br/> |Создание связанных сообщений содержимого  <br/> |
+|MAPI_ACCESS_DELETE  <br/> |0x00000004  <br/> |Удалить  <br/> |
+|MAPI_ACCESS_CREATE_HIERARCHY  <br/> |0x00000008  <br/> |Создание подмастерей в иерархии папок  <br/> |
+|MAPI_ACCESS_CREATE_CONTENTS  <br/> |0x00000010  <br/> |Создание сообщений контента  <br/> |
+|MAPI_ACCESS_CREATE_ASSOCIATED  <br/> |0x00000020  <br/> |Создание связанных сообщений контента  <br/> |
    
-Флаги MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY и MAPI_ACCESS_READ находятся в объектах папок и сообщений, а также в столбце **PR_ACCESS** в таблицах содержимого и связанных таблицах содержимого. Флаги MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS и MAPI_ACCESS_CREATE_HIERARCHY находятся только в объектах папок. 
+Флаги MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY и MAPI_ACCESS_READ находятся на объектах папок и сообщений, а также в столбце PR_ACCESS в таблицах содержимого и связанных таблицах контента.  Флаги MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS и MAPI_ACCESS_CREATE_HIERARCHY только на объектах папок. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -61,7 +61,7 @@ ms.locfileid: "32316515"
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -69,7 +69,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -81,5 +81,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

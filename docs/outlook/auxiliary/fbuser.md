@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal649b5400-8dc5-cc5c-3455-f462e2d31689
 ms.assetid: ''
-description: Определяет пользователя, у которого могут быть или недоступны сведения о занятости.
+description: Определяет пользователя, у которого могут быть свободные или загруженные данные.
 ms.openlocfilehash: 2511a94678f9ef8f2cb6be868db4f718d92ecb6d
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "32317663"
 ---
 # <a name="fbuser"></a>FBUser
 
-Определяет пользователя, у которого могут быть или недоступны сведения о занятости.
+Определяет пользователя, у которого могут быть свободные или загруженные данные.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -35,19 +35,19 @@ typedef struct tagFBUser
 
 _m_cbEid_
   
-> Длина ИД записи пользователя почты, представленная интерфейсом [IMailUser.](https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) 
+> Длина ID записи пользователя почты, представленного [интерфейсом IMailUser.](https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) 
     
 _m_lpEid_
   
-> ИД записи пользователя почты, представленный **интерфейсом IMailUser.** 
+> ID записи пользователя почты, представленный **интерфейсом IMailUser.** 
     
 _m_ulReserved_
   
-> Этот параметр зарезервирован для внутреннего использования Outlook и не поддерживается.
+> Этот параметр зарезервирован для Outlook и не поддерживается.
     
 _m_pwszReserved_
   
-> Этот параметр зарезервирован для внутреннего использования Outlook и не поддерживается.
+> Этот параметр зарезервирован для Outlook и не поддерживается.
     
 ## <a name="see-also"></a>См. также
 

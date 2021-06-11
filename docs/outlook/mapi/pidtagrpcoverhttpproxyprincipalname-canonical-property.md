@@ -19,9 +19,9 @@ ms.locfileid: "32331222"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит имя основного прокси-сервера, используемого Microsoft Outlook для подключения к Microsoft Exchange Server с помощью удаленного вызова процедуры (RPC) по протоколу HTTP.
+Содержит основное имя прокси-сервера, который используется корпорацией Майкрософт Outlook для подключения к Microsoft Exchange Server с помощью удаленного вызова процедуры (RPC) над протоколом передачи Hypertext (HTTP).
   
 ## 
 
@@ -48,7 +48,7 @@ ms.locfileid: "32331222"
   
 > Указывает свойства и операции, разрешенные для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -68,5 +68,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

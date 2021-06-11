@@ -23,9 +23,9 @@ ms.locfileid: "32335212"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Возвращает путь к частной Mapi32.dll.
+Возвращает путь к частному Mapi32.dll.
   
 ```cpp
 BOOL FGetComponentPath(
@@ -37,19 +37,19 @@ BOOL FGetComponentPath(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _szComponent_
   
-> [in] Reg-ключ MSIComponentID, описанный вMapi32.dll [реестра Stub.](https://msdn.microsoft.com/library/dd162409.aspx)
+> [in] Ключ reg MSIComponentID, описанный вMapi32.dll [реестра Stub Параметры](https://msdn.microsoft.com/library/dd162409.aspx).
     
  _szQualifier_
   
-> [in] Подкод MSIApplicationLCID или MSIOfficeLCID, описанный в описании выбора определенной версии [MAPI для загрузки.](how-to-choose-a-specific-version-of-mapi-to-load.md) Если квалификатор не существует, вызываемая может передать **null.** 
+> [in] Подкайка MSIApplicationLCID или MSIOfficeLCID, описанная в "Выбор определенной версии [MAPI для загрузки".](how-to-choose-a-specific-version-of-mapi-to-load.md) Если нет квалификатора, звонители могут передать **null.** 
     
  _szDllPath_
   
-> [in] Путь к закрытому Mapi32.dll, который обладает полной функциональностью MAPI (экспортируется так же, как Mapi32.dll).
+> [in] Путь к частному Mapi32.dll, который имеет полный функционал MAPI (тот же экспорт, что и Mapi32.dll).
     
  _cchBufferSize_
   
@@ -57,7 +57,7 @@ BOOL FGetComponentPath(
     
  _fInstall_
   
-> [in] Сообщает MAPI, что необходимо установить закрытый компонент Mapi32.dll, если он отсутствует.
+> [in] Сообщает MAPI установить частный компонент Mapi32.dll, если он отсутствует.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -71,14 +71,14 @@ BOOL FGetComponentPath(
     
 ## <a name="remarks"></a>Примечания
 
-Используйте **функцию FGetComponentPath,** чтобы получить путь к частной Mapi32.dll. 
+Используйте **функцию FGetComponentPath** для получения пути к частному Mapi32.dll. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Выбор определенной версии MAPI для загрузки](how-to-choose-a-specific-version-of-mapi-to-load.md)
+[Выберите определенную версию MAPI для загрузки](how-to-choose-a-specific-version-of-mapi-to-load.md)
 
 
-[Mapi32.dll реестра загной](https://msdn.microsoft.com/library/dd162409.aspx)
+[Mapi32.dll реестра Stub Параметры](https://msdn.microsoft.com/library/dd162409.aspx)
 

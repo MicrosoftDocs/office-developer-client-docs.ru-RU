@@ -16,13 +16,13 @@ ms.locfileid: "32318979"
 ---
 # <a name="calendar"></a>Календарь
 
-В этом разделе приводится пример задач, в которые включается папка "Календарь Outlook".
+В этом разделе приводится пример задач, которые включают Календарь Outlook папку.
 
 ## <a name="in-this-section"></a>В этом разделе
 
 |Статья|Описание|
 |:----|:----------|
-|[Совместное использование расписания доступности в указанном периоде в календаре](how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md)  |Получает расписание занятости в течение указанной недели из календаря и отображает сведения о занятости и теме для пользователя.|
+|[Совместное использование расписания доступности в указанном периоде в календаре](how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md)  |Получает расписание Free/Busy в течение указанной недели из календаря и отображает бесплатные, загруженные и сведения о теме для пользователя.|
 |[Отправка сведений календаря по электронной почте](how-to-share-calendar-information-through-e-mail.md)  |Делится информацией из календаря по электронной почте в формате iCalendar.|
 |[Отображение общего календаря получателя](how-to-display-a-shared-calendar-of-a-recipient.md)  |Отображение общего календаря получателя с помощью методов [CreateRecipient(String)](https://msdn.microsoft.com/library/bb609962\(v=office.15\)) и [GetSharedDefaultFolder(Recipient, OlDefaultFolders)](https://msdn.microsoft.com/library/bb644850\(v=office.15\)) .|
 |[Сохранение календаря на диск](how-to-save-a-calendar-to-disk.md)  |Сохранение всего календаря на диске в формате iCalendar (ICS).|

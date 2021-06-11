@@ -19,18 +19,18 @@ ms.locfileid: "32335747"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Обычное состояние — это состояние, в котором объект формы большую часть времени проводит, ожидая, пока клиентские приложения инициируют действие, например сохранение изменений или закрытие формы. В следующей таблице описаны разрешенные переходы из состояния Normal.
+Обычное состояние — это то, где объект формы большую часть своего времени проводит в ожидании, когда клиентские приложения инициируют действие, например сохранение изменений или закрытие формы. В следующей таблице описываются разрешенные переходы из нормального состояния.
   
 |**Метод IPersistMessage**|**Действие**|**Новое состояние**|
 |:-----|:-----|:-----|
-|[IPersistMessage::Save](ipersistmessage-save.md)(_pMessage ==_ NULL,  _fSameAsLoad ==_ TRUE)  <br/> -или-  <br/> **IPersistMessage::Save**(_pMessage !=_ NULL,  _fSameAsLoad ==_ FALSE)  <br/> |Рекурсивно сохраните все измененные внедренные объекты OLE. Сохраните данные сообщения обратно в объект сообщения. _Сохраняем флаг fSameAsLoad для_ использования в состоянии [NoScribble.](noscribble-state.md)  <br/> |NoScribble  <br/> |
-|**IPersistMessage::Save**(_pMessage !=_ NULL,  _fSameAsLoad ==_ TRUE)  <br/> |Это то же, что и в  предыдущем случае, за исключением того, что этот вызов save используется в ситуациях с низким объемом памяти и не должен вызывать сбой из-за нехватки памяти.  <br/> |NoScribble  <br/> |
-|[IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) <br/> |Рекурсивно вызывает метод **HandsOffMessage** для внедренных сообщений или метод OLE [IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d%28Office.15%29.aspx) для внедренных объектов OLE. Освобождение объекта сообщения и всех внедренных сообщений или объектов.  <br/> |[HandsOffFromNormal](handsofffromnormal-state.md) <br/> |
-|[IPersistMessage::SaveCompleted,](ipersistmessage-savecompleted.md) [IPersistMessage::InitNew](ipersistmessage-initnew.md) или [IPersistMessage::Load](ipersistmessage-load.md) <br/> |Установите последнюю ошибку и E_UNEXPECTED.  <br/> |Normal  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Возвращает последнюю ошибку.  <br/> |Normal  <br/> |
-|Другие [методы IPersistMessage : методы или методы IUnknown](ipersistmessageiunknown.md) из других интерфейсов  <br/> |Реализуются, как описано в документации для [интерфейса IPersistMessage : IUnknown.](ipersistmessageiunknown.md)  <br/> |Normal  <br/> |
+|[IPersistMessage::Save](ipersistmessage-save.md)_(pMessage ==_ NULL, _fSameAsLoad ==_ TRUE)  <br/> -или-  <br/> **IPersistMessage::Save**_(pMessage!=_ NULL, _fSameAsLoad ==_ FALSE)  <br/> |Повторно сохраните вложенные объекты OLE, которые были изменены. Сохранение данных сообщений обратно в объект сообщения. Храните флаг _fSameAsLoad_ для более позднего использования в [состоянии NoScribble.](noscribble-state.md)  <br/> |NoScribble  <br/> |
+|**IPersistMessage::Save**_(pMessage!=_ NULL, _fSameAsLoad ==_ TRUE)  <br/> |Это то же, что и в предыдущем случае, за исключением того, что этот вызов **Сохранить** используется в ситуациях с низкой памятью и не должен сбой из-за отсутствия памяти.  <br/> |NoScribble  <br/> |
+|[IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) <br/> |Повторно вызывает метод **HandsOffMessage** на встроенных сообщениях или метод OLE [IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d%28Office.15%29.aspx) на встроенных объектах OLE. Отпустите объект сообщения и все встроенные сообщения или объекты.  <br/> |[HandsOffFromNormal](handsofffromnormal-state.md) <br/> |
+|[IPersistMessage::SaveCompleted,](ipersistmessage-savecompleted.md) [IPersistMessage::InitNew](ipersistmessage-initnew.md) или [IPersistMessage::Load](ipersistmessage-load.md) <br/> |Установите последнюю ошибку и верни E_UNEXPECTED.  <br/> |Normal  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Возвращаем последнюю ошибку.  <br/> |Normal  <br/> |
+|Другие [методы IPersistMessage: методы или методы IUnknown](ipersistmessageiunknown.md) из других интерфейсов  <br/> |Реализация, как описано в документации для [интерфейса IPersistMessage : IUnknown.](ipersistmessageiunknown.md)  <br/> |Normal  <br/> |
    
 ## <a name="see-also"></a>См. также
 

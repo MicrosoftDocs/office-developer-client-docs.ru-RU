@@ -23,7 +23,7 @@ ms.locfileid: "32334792"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Представляет сведения о страницах настраиваемой формы, связанных с сообщением.
   
@@ -31,9 +31,9 @@ ms.locfileid: "32334792"
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidPageDirStream  <br/> |
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008513  <br/> |
+|Long ID (LID):  <br/> |0x00008513  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Настройка времени запуска  <br/> |
+|Область:  <br/> |Конфигурация времени запуска  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -41,9 +41,9 @@ ms.locfileid: "32334792"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -59,5 +59,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

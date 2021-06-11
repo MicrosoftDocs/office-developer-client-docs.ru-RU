@@ -23,20 +23,20 @@ ms.locfileid: "32329189"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит положительное число, отрицательное значение которого меньше или равно значению свойства **dispidTaskOrdinal** ([PidLidTaskOrdinal)](pidlidtaskordinal-canonical-property.md)всех задач в папке.
+Содержит положительное число, отрицательное значение которого меньше или равно значению свойства **dispidTaskOrdinal** [(PidLidTaskOrdinal)](pidlidtaskordinal-canonical-property.md)всех задач в папке.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_ORDINAL_MOST  <br/> |
 |Идентификатор:  <br/> |0x36E2  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Task  <br/> |
+|Область:  <br/> |Задача  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство должно быть обновлено для поддержания этого условия при любых изменениях свойства **dispidTaskOrdinal** любого объекта задачи в папке таким образом, чтобы это условие было нарушено. 
+Это свойство должно обновляться, чтобы сохранить это условие, если свойство **dispidTaskOrdinal** любого объекта задачи в папке изменяется таким образом, чтобы это условие было нарушено. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,9 +48,9 @@ ms.locfileid: "32329189"
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для контактов и личных списков рассылки.
+> Указывает свойства и операции, допустимые для контактов и личных списков рассылки.
   
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

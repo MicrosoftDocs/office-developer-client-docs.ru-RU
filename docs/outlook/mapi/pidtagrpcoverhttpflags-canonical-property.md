@@ -19,9 +19,9 @@ ms.locfileid: "32327449"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит параметры в профиле, используемом Microsoft Office Outlook для подключения к Microsoft Exchange Server с помощью удаленного вызова процедуры (RPC) по протоколу HTTP.
+Содержит параметры в профиле, используемом Microsoft Office Outlook для подключения к Microsoft Exchange Server с помощью удаленного вызова процедуры (RPC) над протоколом передачи Hypertext (HTTP).
   
 |||
 |:-----|:-----|
@@ -32,17 +32,17 @@ ms.locfileid: "32327449"
    
 ## <a name="remarks"></a>Примечания
 
-Свойство **PR_ROH_FLAGS** хранится в разделе "Глобальный профиль" профиля MAPI. Значение PR_ROH_FLAGS  битоваяmask, которая состоит из одного или более из следующих флагов. 
+Свойство **PR_ROH_FLAGS** хранится в разделе Глобальный профиль интерфейса программирования приложений для обмена сообщениями (MAPI). Значение PR_ROH_FLAGS **—** битмаска, которая состоит из одного или более из следующих флагов. 
   
 |**Name**|**Value**|**Описание**|
 |:-----|:-----|:-----|
-|**ROHFLAGS_USE_ROH** <br/> |0x1  <br/> |Подключись к Exchange Server с помощью протокола RPC over HTTP.  <br/> |
-|**ROHFLAGS_SSL_ONLY** <br/> |0x2  <br/> |Подключите к Exchange Server только с помощью SSL.  <br/> |
-|**ROHFLAGS_MUTUAL_AUTH** <br/> |0x4  <br/> |Взаимная проверка подлинности сеанса при подключении с помощью SSL.  <br/> |
-|**ROHFLAGS_HTTP_FIRST_ON_FAST** <br/> |0x8  <br/> |В быстрых сетях сначала подключайтесь по протоколу HTTP. Затем подключите его по TCP/IP.  <br/> |
-|**ROHFLAGS_HTTP_FIRST_ON_SLOW** <br/> |0x20  <br/> |В медленных сетях сначала подключайтесь по протоколу HTTP. Затем подключите его по TCP/IP.  <br/> |
+|**ROHFLAGS_USE_ROH** <br/> |0x1  <br/> |Подключение на Exchange Server С ПОМОЩЬЮ RPC над HTTP.  <br/> |
+|**ROHFLAGS_SSL_ONLY** <br/> |0x2  <br/> |Подключение для Exchange Server только с помощью безопасного слоя socket (SSL).  <br/> |
+|**ROHFLAGS_MUTUAL_AUTH** <br/> |0x4  <br/> |Взаимно проверка подлинности сеанса при подключении с помощью SSL.  <br/> |
+|**ROHFLAGS_HTTP_FIRST_ON_FAST** <br/> |0x8  <br/> |В быстрых сетях сначала подключайтесь с помощью HTTP. Затем подключите с помощью TCP/IP.  <br/> |
+|**ROHFLAGS_HTTP_FIRST_ON_SLOW** <br/> |0x20  <br/> |В медленных сетях сначала подключайтесь с помощью HTTP. Затем подключите с помощью TCP/IP.  <br/> |
    
-Например, чтобы задать для свойства **PR_ROH_FLAGS** включить протокол RPC over HTTP, требовать SSL и указать, что протокол HTTP должен использоваться первым при медленных подключениях, установите значение свойства **PR_ROH_FLAGS,** равное  `ROHFLAGS_USE_ROH | ROHFLAGS_SSL_ONLY | ROHFLAGS_HTTP_FIRST_ON_SLOW` 0x23. 
+Например, чтобы задать свойство **PR_ROH_FLAGS** включить RPC над HTTP, потребовать SSL и указать, что протокол HTTP следует использовать сначала при медленных подключениях, установите значение свойства **PR_ROH_FLAGS,** равное  `ROHFLAGS_USE_ROH | ROHFLAGS_SSL_ONLY | ROHFLAGS_HTTP_FIRST_ON_SLOW` 0x23. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -60,7 +60,7 @@ ms.locfileid: "32327449"
   
 > Указывает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -80,5 +80,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

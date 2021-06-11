@@ -23,17 +23,17 @@ ms.locfileid: "32315885"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Представляет отображаемое пользователем имя поставщика общего доступа, которое определено свойством **dispidSharingProviderGuid** ([PidLidSharingProviderGuid).](pidlidsharingproviderguid-canonical-property.md)
+Представляет отображаемое пользователем имя поставщика общего доступа, идентифицированное свойством **dispidSharingProviderGuid** [(PidLidSharingProviderGuid).](pidlidsharingproviderguid-canonical-property.md)
   
 |||
 |:-----|:-----|
-|Дружелюбные имена:  <br/> |Нет  <br/> |
+|Дружественные имена:  <br/> |Нет  <br/> |
 |Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|Имя свойства:  <br/> |X-Sharing-Provider-Name  <br/> |
+|Имя свойства:  <br/> |Имя X-Sharing-Provider  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Общий доступ  <br/> |
+|Область:  <br/> |Доступ  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -41,13 +41,13 @@ ms.locfileid: "32315885"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Папки почтовых ящиков разделяются между клиентами.
+> Делит папки почтовых ящиков между клиентами.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

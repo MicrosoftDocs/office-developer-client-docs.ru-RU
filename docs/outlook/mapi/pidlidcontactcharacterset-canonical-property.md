@@ -23,7 +23,7 @@ ms.locfileid: "32319707"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Указывает набор символов, используемый для этого контакта.
   
@@ -31,13 +31,13 @@ ms.locfileid: "32319707"
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidContactCharSet  <br/> |
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008023  <br/> |
+|Long ID (LID):  <br/> |0x00008023  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Приложения могут использовать это свойство для создания зависимого списка наборов символов для свойств **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)), **dispidFileUnderList** ([PidLidFileUnderList)](pidlidfileunderlist-canonical-property.md)и **dispidFileUnderId** ([PidLidFileUnderId).](pidlidfileunderid-canonical-property.md) Если свойство имеет значение "0x00000000" или "0x00000001", приложения должны рассматривать это свойство как не замещаемого.
+Приложения могут использовать это свойство для создания зависимого списка зависимых символов для свойств **dispidFileUnder** [(PidLidFileUnder),](pidlidfileunder-canonical-property.md) **dispidFileUnderList** [(PidLidFileUnderList)](pidlidfileunderlist-canonical-property.md)и **dispidFileUnderId** [(PidLidFileUnderId).](pidlidfileunderid-canonical-property.md) Если значение свойства "0x00000000" или "0x00000001", приложения должны относиться к свойству как к не заочная.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32319707"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для контактов и личных списков рассылки.
+> Указывает свойства и операции, допустимые для контактов и личных списков рассылки.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

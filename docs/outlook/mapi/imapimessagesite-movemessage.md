@@ -23,7 +23,7 @@ ms.locfileid: "32321367"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Перемещает текущее сообщение в папку.
   
@@ -35,11 +35,11 @@ HRESULT MoveMessage(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _pFolderDestination_
   
-> [in] Указатель на папку, в которой перемещается сообщение.
+> [in] Указатель на папку, в которой должно быть перемещено сообщение.
     
  _pViewContext_
   
@@ -57,21 +57,21 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> Эта операция не поддерживается на этом сайте сообщений.
+> Операция не поддерживается на этом сайте сообщений.
     
 ## <a name="remarks"></a>Примечания
 
-Объекты форм вызывать метод **IMAPIMessageSite::MoveMessage** для перемещения текущего сообщения в новую папку. 
+Объекты формы называют **метод IMAPIMessageSite::MoveMessage** для перемещения текущего сообщения в новую папку. 
   
 ## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-Реализация **MoveMessage** в представлении формы должна вызвать метод [IMAPIViewContext::ActivateNext,](imapiviewcontext-activatenext.md) передав флаг VCDIR_MOVE перед фактическим перемещением сообщения в новую папку. Чтобы получить **структуру RECT,** используемую окном формы, вызовите функцию Windows [GetWindowRect.](https://msdn.microsoft.com/library/ms633519) 
+Для реализации **MoveMessage** для просмотра форм необходимо вызвать метод [IMAPIViewContext::ActivateNext,](imapiviewcontext-activatenext.md) перед тем как передать флаг VCDIR_MOVE, прежде чем фактически переместить сообщение в новую папку. Чтобы получить **структуру RECT,** используемую в окне формы, позвоните в Windows [GetWindowRect.](https://msdn.microsoft.com/library/ms633519) 
   
-Список интерфейсов, связанных с серверами форм, см. в списке [интерфейсов форм MAPI.](mapi-form-interfaces.md)
+Список интерфейсов, связанных с серверами форм, см. в [перечне интерфейсов форм MAPI.](mapi-form-interfaces.md)
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-После возврата **MoveMessage** формы должны проверить текущее сообщение и затем отклоняться, если нет. 
+После возвращения **MoveMessage** формы должны проверить текущее сообщение, а затем отклоняться, если их нет. 
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 

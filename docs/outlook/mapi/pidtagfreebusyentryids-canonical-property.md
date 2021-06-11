@@ -23,9 +23,9 @@ ms.locfileid: "32316200"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит коды **entryID** для сообщения о делегате, сведения о занятости во время входа пользователя и папку, чей PR_DISPLAY_NAME **(** [PidTagDisplayName)](pidtagdisplayname-canonical-property.md)равен "FreeBusy Data".
+Содержит **коды EntryID** для информационного сообщения делегата, свободного/занятого сообщения пользователя  и папки, PR_DISPLAY_NAME [(PidTagDisplayName)](pidtagdisplayname-canonical-property.md)равно "Данным FreeBusy".
   
 |||
 |:-----|:-----|
@@ -48,13 +48,13 @@ ms.locfileid: "32316200"
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Указывает методы подключения и настройки почтовых ящиков в качестве делегатов, а также взаимодействия с элементами сообщений и календаря, когда они действуют от имени другого пользователя.
+> Указывает методы подключения и настройки почтовых ящиков в качестве делегатов, а также взаимодействия с элементами сообщения и календаря, когда они действуют от имени другого пользователя.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
 > Указывает свойства и операции для создания и размещения специальных папок в почтовом ящике.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -74,5 +74,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

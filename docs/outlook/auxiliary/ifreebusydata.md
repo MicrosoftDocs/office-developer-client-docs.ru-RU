@@ -15,36 +15,36 @@ ms.locfileid: "32317502"
 ---
 # <a name="ifreebusydata"></a>IFreeBusyData
 
-Для заданного пользователя получает и задает диапазон времени и возвращает интерфейс для нумерации блоков данных о занятости в пределах этого диапазона времени.
+Для данного пользователя получает и задает диапазон времени и возвращает интерфейс для перенамерения свободных и загруженных блоков данных в этом диапазоне времени.
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Наследуется от:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
-|Предоставлено:  <br/> |Поставщик услуг занятости  <br/> |
+|Наследует от:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Предоставлено:  <br/> |Бесплатный/занятый поставщик  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IFreeBusyData  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[Placeholder1](ifreebusydata-placeholder1.md) <br/> | *Этот член является местоимящиком и не поддерживается.*  <br/> |
-|[EnumBlocks](ifreebusydata-enumblocks.md) <br/> |Получает интерфейс, который enumerates free/busy blocks of data for a user within a specified time range.  <br/> |
-|[Placeholder2](ifreebusydata-placeholder2.md) <br/> | *Этот член является местоимящиком и не поддерживается.*  <br/> |
-|[Placeholder3](ifreebusydata-placeholder3.md) <br/> | *Этот член является местоимящиком и не поддерживается.*  <br/> |
-|[Placeholder4](ifreebusydata-placeholder4.md) <br/> | *Этот член является местоимящиком и не поддерживается.*  <br/> |
-|[Placeholder5](ifreebusydata-placeholder5.md) <br/> | *Этот член является местоимящиком и не поддерживается.*  <br/> |
-|[SetFBRange](ifreebusydata-setfbrange.md) <br/> |Задает диапазон времени для enumeration of free/busy blocks of data for a user.  <br/> |
-|[Placeholder6](ifreebusydata-placeholder6.md) <br/> | *Этот член является местоимящиком и не поддерживается.*  <br/> |
-|[GetFBPublishRange](ifreebusydata-getfbpublishrange.md) <br/> |Получает заранее заранее задав диапазон времени для перенамерения блоков данных о занятости для пользователя.  <br/> |
+|[Placeholder1](ifreebusydata-placeholder1.md) <br/> | *Этот член является задатщиком и не поддерживается.*  <br/> |
+|[EnumBlocks](ifreebusydata-enumblocks.md) <br/> |Получает интерфейс, который указывает свободные и загруженные блоки данных для пользователя в указанном диапазоне времени.  <br/> |
+|[Placeholder2](ifreebusydata-placeholder2.md) <br/> | *Этот член является задатщиком и не поддерживается.*  <br/> |
+|[Placeholder3](ifreebusydata-placeholder3.md) <br/> | *Этот член является задатщиком и не поддерживается.*  <br/> |
+|[Placeholder4](ifreebusydata-placeholder4.md) <br/> | *Этот член является задатщиком и не поддерживается.*  <br/> |
+|[Placeholder5](ifreebusydata-placeholder5.md) <br/> | *Этот член является задатщиком и не поддерживается.*  <br/> |
+|[SetFBRange](ifreebusydata-setfbrange.md) <br/> |Задает диапазон времени для переумерия бесплатных и загруженных блоков данных для пользователя.  <br/> |
+|[Placeholder6](ifreebusydata-placeholder6.md) <br/> | *Этот член является задатщиком и не поддерживается.*  <br/> |
+|[GetFBPublishRange](ifreebusydata-getfbpublishrange.md) <br/> |Получает предустановленный диапазон времени для переустановки бесплатных и загруженных блоков данных для пользователя.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Большинство членов этого интерфейса являются замесятелями, зарезервированными для внутреннего использования Outlook, и могут изменяться. Поставщики услуг занятости должны реализовывать их только в указанном режиме, возвращая только указанные возвращаемые значения.
+Большинство участников этого интерфейса являются задатчиками, зарезервированными для внутреннего Outlook и подлежат изменениям. Поставщики бесплатных и занятых услуг должны реализовать их только в указанных значениях, возвращая только указанные значения возврата.
   
 ## <a name="see-also"></a>См. также
 
 - [О доступности API](about-the-free-busy-api.md)
-- [Constants (Free/busy API)](constants-free-busy-api.md)
+- [Константы (API free/busy)](constants-free-busy-api.md)
 

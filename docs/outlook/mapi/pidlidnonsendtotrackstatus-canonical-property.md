@@ -23,21 +23,21 @@ ms.locfileid: "32331369"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение для каждого участника, перечисленного в свойстве **dispidNonSendableTo** ([PidLidNonSendableTo).](pidlidnonsendableto-canonical-property.md)
+Содержит значение для каждого участника, перечисленное в свойстве **dispidNonSendableTo** [(PidLidNonSendableTo).](pidlidnonsendableto-canonical-property.md)
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidNonSendToTrackStatus  <br/> |
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008543  <br/> |
+|Long ID (LID):  <br/> |0x00008543  <br/> |
 |Тип данных:  <br/> |PT_MV_LONG  <br/> |
 |Область:  <br/> |Общие сообщения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство необходимо, только если задано свойство **dispidNonSendableTo.** Число значений в этом свойстве должно быть равно числу значений **в dispidNonSendableTo.** Каждое PT_LONG в этом свойстве соответствует участнику в свойстве **dispidNonSendableTo** с одинаковым индексом. 
+Это свойство требуется только при заданном **свойстве dispidNonSendableTo.** Количество значений в этом свойстве должно равняться числу значений в **dispidNonSendableTo**. Каждое PT_LONG в этом свойстве соответствует участнику в свойстве **dispidNonSendableTo** с тем же индексом. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32331369"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определение набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определение набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

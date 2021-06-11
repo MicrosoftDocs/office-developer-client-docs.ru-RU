@@ -23,7 +23,7 @@ ms.locfileid: "32337018"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Представляет дату и время начала сообщения журнала.
   
@@ -31,13 +31,13 @@ ms.locfileid: "32337018"
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidLogStart  <br/> |
 |Набор свойств:  <br/> |PSETID_Log  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008706  <br/> |
+|Long ID (LID):  <br/> |0x00008706  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Журнал  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Время начала действия в UTC должно быть равно свойству **dispidCommonStart** [(PidLidCommonStart).](pidlidcommonstart-canonical-property.md)
+Время в координируется универсальное время (UTC), когда действие началось, должно быть равно свойству **dispidCommonStart** [(PidLidCommonStart).](pidlidcommonstart-canonical-property.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32337018"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определение набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определение набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для журналов.
+> Указывает свойства и операции, которые допустимы для журналов.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

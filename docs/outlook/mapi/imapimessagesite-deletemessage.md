@@ -23,7 +23,7 @@ ms.locfileid: "32321415"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Удаляет текущее сообщение.
   
@@ -34,7 +34,7 @@ HRESULT DeleteMessage(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _pViewContext_
   
@@ -52,33 +52,33 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> Эта операция не поддерживается на этом сайте сообщений.
+> Операция не поддерживается на этом сайте сообщений.
     
 ## <a name="remarks"></a>Примечания
 
-Объект формы вызывает метод **IMAPIMessageSite::D eleteMessage** для удаления сообщения, которое отображается в настоящее время в форме. 
+Объект формы вызывает **метод IMAPIMessageSite::D eleteMessage,** чтобы удалить сообщение, которое отображается в настоящее время. 
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-После возврата **DeleteMessage** объекты форм должны проверить на предмет нового сообщения, а затем отклоняться, если нет. Чтобы определить, было ли удалено или перемещено сообщение **DeleteMessage** в папку "Удаленные", объект формы может вызвать метод [IMAPIMessageSite::GetSiteStatus,](imapimessagesite-getsitestatus.md) чтобы определить, был ли возвращен флаг DELETE_IS_MOVE.  
+После возвращения **DeleteMessage** объекты формы должны проверить новое сообщение, а затем отклоняться, если их нет. Чтобы определить, было ли удалено или перемещено сообщение **DeleteMessage** в папку "Удаленные элементы", объект формы может вызвать [метод IMAPIMessageSite::GetSiteStatus,](imapimessagesite-getsitestatus.md) чтобы определить, был ли возвращен флаг DELETE_IS_MOVE.  
   
 ## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-Если реализация метода **DeleteMessage** для просмотра формы перемещается к следующему сообщению после удаления сообщения, реализация должна вызвать метод [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) и передать флаг VCDIR_DELETE перед выполнением фактического удаления. Если реализация **DeleteMessage** для просмотра формы перемещает удаленное сообщение (например, в папку "Удаленные"), реализация должна сохранить изменения в сообщении, если сообщение было изменено.  
+Если реализация метода **DeleteMessage** для просмотра формы перемещается к следующему сообщению после удаления сообщения, реализация должна вызвать метод [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) и передать флаг VCDIR_DELETE перед выполнением фактического удаления. Если реализация удаленных сообщений  (например, папки удаленных элементов) для  просмотра формы, реализация должна сохранить изменения в сообщении, если сообщение было изменено. 
   
 Типичная реализация **DeleteMessage** выполняет следующие задачи: 
   
-1. Если реализация перемещает сообщение, он вызывает метод [IPersistMessage::Save,](ipersistmessage-save.md) передавая в _параметре pMessage_ **null** и **true** в _параметре fSameAsLoad._ 
+1. Если реализация перемещает сообщение, он вызывает [метод IPersistMessage::Save,](ipersistmessage-save.md) передавая **null** в _параметре pMessage_ и true **в** _параметре fSameAsLoad._ 
     
-2. Он вызывает метод **IMAPIViewContext::ActivateNext,** передавая флаг VCDIR_DELETE в _параметре ulDir._ 
+2. Он вызывает **метод IMAPIViewContext::ActivateNext,** передав флаг VCDIR_DELETE в _параметре ulDir._ 
     
-3. Если вызов **ActivateNext** не удается, он возвращается. Если **ActivateNext** возвращает S_FALSE, вызывается метод [IPersistMessage::HandsOffMessage.](ipersistmessage-handsoffmessage.md) 
+3. Если вызов **ActivateNext** не удается, он возвращается. Если **activateNext** возвращает S_FALSE, он вызывает [метод IPersistMessage::HandsOffMessage.](ipersistmessage-handsoffmessage.md) 
     
-4. Сообщение удаляется или перемещается.
+4. Он удаляет или перемещает сообщение.
     
-Чтобы получить **структуру RECT,** используемую окном формы, вызовите функцию Windows [GetWindowRect.](https://msdn.microsoft.com/library/ms633519) 
+Чтобы получить **структуру RECT,** используемую в окне формы, позвоните в Windows [GetWindowRect.](https://msdn.microsoft.com/library/ms633519) 
   
-Список интерфейсов, связанных с серверами форм, см. в списке [интерфейсов форм MAPI.](mapi-form-interfaces.md)
+Список интерфейсов, связанных с серверами форм, см. в [перечне интерфейсов форм MAPI.](mapi-form-interfaces.md)
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 

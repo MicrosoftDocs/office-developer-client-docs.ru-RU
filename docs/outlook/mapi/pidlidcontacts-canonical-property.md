@@ -23,7 +23,7 @@ ms.locfileid: "32319462"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит имена контактов, связанных с элементом.
   
@@ -31,13 +31,13 @@ ms.locfileid: "32319462"
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidContacts  <br/> |
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x0000853A  <br/> |
+|Long ID (LID):  <br/> |0x0000853A  <br/> |
 |Тип данных:  <br/> |PT_MV_UNICODE  <br/> |
 |Область:  <br/> |Общие сообщения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство содержит **свойство PR_DISPLAY_NAME** ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)каждого **entryID** адресной книги, на который ссылается значение **свойства dispidContactLinkEntry** ([PidLidContactLinkEntry).](pidlidcontactlinkentry-canonical-property.md) Он может включать имена, на которые не ссылается **dispidContactLinkEntry.**
+Это свойство содержит **свойство PR_DISPLAY_NAME** [(PidTagDisplayName)](pidtagdisplayname-canonical-property.md)каждого  входа в адресную книгу, ссылаясь на значение **dispidContactLinkEntry** [(свойство PidLidContactLinkEntry).](pidlidcontactlinkentry-canonical-property.md) Он может включать имена, не ссылаясь на **dispidContactLinkEntry**.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,21 +45,21 @@ ms.locfileid: "32319462"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.
     
 [[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для журналов.
+> Указывает свойства и операции, которые допустимы для журналов.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -75,5 +75,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

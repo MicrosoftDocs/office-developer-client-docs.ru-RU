@@ -23,7 +23,7 @@ ms.locfileid: "32319763"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит расширение имени файла, которое указывает тип документа вложения. 
   
@@ -36,9 +36,9 @@ ms.locfileid: "32319763"
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства устанавливаются клиентской приложением во время отправки. 
+Эти свойства устанавливаются клиентской заявкой во время отправки. 
   
-Система обмена сообщениями  использует PR_ATTACH_EXTENSION при преобразовании вложений сообщений (преобразование в маршруте) или запуске приложений на основе вложений в полученных сообщениях. Если отправляющий клиент не предоставляет значение для этих свойств, хранилище сообщений, которое занимается вложением, не обязано его создавать. Принимающий клиент должен сначала проверить PR_ATTACH_EXTENSION , и если он не предоставлен, следует синтацировать расширение имени файла из свойства **PR_ATTACH_FILENAME** [(PidTagAttachFilename)](pidtagattachfilename-canonical-property.md)или **PR_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename).](pidtagattachlongfilename-canonical-property.md) 
+Система обмена сообщениями использует **PR_ATTACH_EXTENSION** при преобразовании вложений сообщений (в маршруте преобразования) или запуске приложений на основе вложений в полученных сообщениях. Если клиент-отправляющий не предоставляет значения для этих свойств, хранилище сообщений для обработки вложения не обязано его создавать. Принимающий клиент должен сначала проверить **PR_ATTACH_EXTENSION,** а если оно не предоставлено, следует размыть  расширение имени файла из свойства [PR_ATTACH_FILENAME (PidTagAttachFilename)](pidtagattachfilename-canonical-property.md)или **PR_ATTACH_LONG_FILENAME** [(PidTagAttachLongFilename).](pidtagattachlongfilename-canonical-property.md) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,7 +48,7 @@ ms.locfileid: "32319763"
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -68,5 +68,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

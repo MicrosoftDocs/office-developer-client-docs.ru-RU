@@ -23,7 +23,7 @@ ms.locfileid: "32321324"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит список блоков данных, которые представляют собрания, которые были отклонены.
   
@@ -32,28 +32,28 @@ ms.locfileid: "32321324"
 |Связанные свойства:  <br/> |PR_SCHDINFO_APPT_TOMBSTONE  <br/> |
 |Идентификатор:  <br/> |0x686A  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Free/Busy  <br/> |
+|Область:  <br/> |Бесплатный/занятый  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Блоки данных начинаются с загона 32-битных значений, определенных как:
+Блоки данных начинаются с загона 32-битных значений, определяемого как:
   
 |**Значение**|**Описание**|
 |:-----|:-----|
 |Идентификатор  <br/> |Это поле должно быть значением 0xBEDEAFCD.  <br/> |
 |HeaderSize  <br/> |Это поле должно иметь значение 0x00000014.  <br/> |
 |Версия  <br/> |Это поле должно иметь значение 3.  <br/> |
-|RecordsCount  <br/> |Количество записей, которые следуют за ними.  <br/> |
+|RecordsCount  <br/> |Количество последующих записей.  <br/> |
 |RecordsSize  <br/> |Это поле должно иметь значение 0x00000014.  <br/> |
    
-За ним следуют записи **RecordsCount** 32-битных значений, определенные как: 
+Далее в загоне следуют **записи RecordsCount** из 32-битных значений, определяемого как: 
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-|StartTime  <br/> |Время начала объекта собрания в минутах с полуночи 1 января 1601 г. в UTC.  <br/> |
-|EndTime  <br/> |Время окончания объекта собрания в минутах с полуночи 1 января 1601 г. в UTC.  <br/> |
-|GlobalObjectIdSize  <br/> |Размер поля GlobalObjectId (в bytes).  <br/> |
-|GlobalObjectId  <br/> |Значение свойства **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId)](pidlidglobalobjectid-canonical-property.md)собрания, представляемого этой записью.  <br/> |
+|StartTime  <br/> |Время начала собрания объекта в минутах с полуночи, 1 января 1601 г., UTC.  <br/> |
+|EndTime  <br/> |Время окончания объекта собрания в минутах с полуночи, 1 января 1601 г., UTC.  <br/> |
+|GlobalObjectIdSize  <br/> |Размер поля GlobalObjectId в bytes.  <br/> |
+|GlobalObjectId  <br/> |Значение свойства **LID_GLOBAL_OBJID** [(PidLidGlobalObjectId)](pidlidglobalobjectid-canonical-property.md)для собрания, представленного этой записью.  <br/> |
 |UserName  <br/> |Первые два bytes — это длина строки PT_STRING8, которая следует.  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
@@ -66,9 +66,9 @@ ms.locfileid: "32321324"
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -88,5 +88,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

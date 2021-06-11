@@ -23,25 +23,25 @@ ms.locfileid: "32335051"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает список одновключных entryId, которые соответствуют членам личного списка рассылки.
+Указывает список разных entryIds, которые соответствуют членам личного списка рассылки.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidDLOneOffMembers  <br/> |
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008054  <br/> |
+|Long ID (LID):  <br/> |0x00008054  <br/> |
 |Тип данных:  <br/> |PT_MV_BINARY  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти однофакторные коды EntryId инкапсулируют отображаемую и электронную почту участников списка рассылки.
+Эти разовый EntryIds инкапсулируют имена и адреса электронной почты личных участников списка рассылки.
   
-Если клиент или сервер задают это свойство, оно должно быть синхронизировано со свойством **dispidDLMembers** ([PidLidDistributionListMembers):](pidliddistributionlistmembers-canonical-property.md)для каждой записи в свойстве **dispidDLOneOffMembers** в свойстве **dispidDLMembers** должна быть запись в той же позиции. 
+Если клиент или сервер задают это свойство, оно должно синхронизироваться с свойством **dispidDLMembers** [(PidLidDistributionListMembers).](pidliddistributionlistmembers-canonical-property.md)Для каждой записи в свойстве **dispidDLOneOffMembers** должна быть запись в том же положении в свойстве **dispidDLMembers.** 
   
-При **установке dispidDLOneOffMembers** клиент или сервер должны убедиться, что его общий размер не превышает 15 000 параметров.
+При настройке **dispidDLOneOffMembers** клиент или сервер должны убедиться, что его общий размер не превышает 15 000 bytes в размере.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -49,13 +49,13 @@ ms.locfileid: "32335051"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для контактов и личных списков рассылки.
+> Указывает свойства и операции, допустимые для контактов и личных списков рассылки.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -71,5 +71,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

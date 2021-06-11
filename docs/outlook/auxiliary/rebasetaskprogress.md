@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 8b8368d2-b04b-42a5-fdc3-955fc873c2f5
-description: Сообщает о ходе выполнения для нумерации и повторного выполнения встреч.
+description: Отчеты о ходе переомирия и повторного выполнения встреч.
 ms.openlocfilehash: e5df0cd6df10ab86b1a125b9807637438976726f
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "32326455"
 ---
 # <a name="rebasetaskprogress"></a>RebaseTaskProgress
 
-Сообщает о ходе выполнения для нумерации и повторного выполнения встреч.
+Отчеты о ходе переомирия и повторного выполнения встреч.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -24,7 +24,7 @@ ms.locfileid: "32326455"
 |:-----|:-----|
 |Файл заголовка:  <br/> |tzmovelib.h  <br/> |
 |Реализовано в:  <br/> |Клиентские приложения MAPI  <br/> |
-|Вызывающая сторона:  <br/> |Объект outlook rebasing  <br/> |
+|Вызывающая сторона:  <br/> |Outlook повторного повторного  <br/> |
 |Тип указателя:  <br/> |**PFNREBASETASKPROGRESS,** как определено в tzmovelib.h  <br/> |
    
 ```cpp
@@ -37,31 +37,31 @@ void STDAPICALLTYPE RebaseTaskProgress(
 
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _ulMin_
   
-> [in] Низкий конец обрабатываемого диапазона встреч. Обычно это ноль.
+> [in] Низкий конец диапазона обрабатываемых назначений. Обычно это ноль.
     
 _ulMax_
   
-> [in] Высокий конец диапазона обрабатываемых встреч. Обычно это количество элементов в обрабатываемой папке календаря.
+> [in] Высокий конец диапазона обрабатываемых назначений. Обычно это число элементов в обрабатываемой папке календаря.
     
 _ulCur_
   
 > [in] Текущий обрабатываемый элемент.
     
-_State_
+_Состояние_
   
 > [in] Значение, которое указывает состояние обрабатываемого элемента. Код REBASE_APPT_STATE **определяется** в tzmovelib.h.  _State_  одно из следующих значений: 
     
-   - **REBASE_APPT_STATE_SCANNING_EXAMINING** — сканирование и проверка элемента. 
+   - **REBASE_APPT_STATE_SCANNING_EXAMINING** — сканирование и изучение элемента. 
     
    - **REBASE_APPT_STATE_SCANNING_FOUND** — сканирование и найти элемент. 
     
    - **REBASE_APPT_STATE_BEGIN** — исправление и запуск элемента. 
     
-   - **REBASE_APPT_STATE_REBASING** — исправление и корректировка элемента. 
+   - **REBASE_APPT_STATE_REBASING** — исправление и настройка элемента. 
     
    - **REBASE_APPT_STATE_SENDING** — исправление и отправка обновления собрания. 
     
@@ -69,7 +69,7 @@ _State_
     
 _pRowCur_
   
-> [in] Указатель на структуру **[SRow,](https://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** которая описывает проверяемую или фиксированную элементов. 
+> [in] Указатель на структуру **[SRow,](https://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** которая описывает отсканированный или исправленный элемент. 
     
 ## <a name="return-values"></a>Возвращаемые значения
 

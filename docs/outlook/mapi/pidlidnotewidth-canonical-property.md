@@ -23,17 +23,17 @@ ms.locfileid: "32326189"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает ширину окна видимого сообщения в пикселях. 
+Указывает ширину видимого окна сообщения в пикселях. 
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidNoteWidth  <br/> |
 |Набор свойств:  <br/> |PSETID_Note  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008B02  <br/> |
+|Long ID (LID):  <br/> |0x00008B02  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Заметка на тике  <br/> |
+|Область:  <br/> |Липкий примечание  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -45,13 +45,13 @@ ms.locfileid: "32326189"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения наборов свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
   
-> Указывает свойства и операции, допустимые для заметок.
+> Указывает свойства и операции, допустимые в заметках.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

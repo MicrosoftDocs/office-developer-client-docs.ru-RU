@@ -23,9 +23,9 @@ ms.locfileid: "32316130"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит true, если сообщение содержит хотя бы одно вложение. 
+Содержит TRUE, если сообщение содержит по крайней мере одно вложение. 
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ ms.locfileid: "32316130"
    
 ## <a name="remarks"></a>Примечания
 
-Хранилище сообщений копирует это  свойство из флага MSGFLAG_HASATTACH свойства **PR_MESSAGE_FLAGS** ([PidTagMessageFlags).](pidtagmessageflags-canonical-property.md) Затем клиентские приложения могут **использовать** PR_HASATTACH для сортировки вложений сообщений в просматриваемом сообщении. 
+Хранилище сообщений копирует **это свойство** из флага MSGFLAG_HASATTACH свойства [PR_MESSAGE_FLAGS (PidTagMessageFlags).](pidtagmessageflags-canonical-property.md)  Клиентские приложения могут использовать **PR_HASATTACH** для сортировки вложений сообщений в просмотре сообщений. 
   
-Значение этого свойства обновляется с помощью метода [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
+Значение этого свойства обновляется методом [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -46,9 +46,9 @@ ms.locfileid: "32316130"
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
+> Указывает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -68,5 +68,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

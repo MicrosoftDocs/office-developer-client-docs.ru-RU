@@ -21,22 +21,22 @@ ms.locfileid: "32322157"
 
 |||
 |:-----|:-----|
-|Наследуется от:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Наследует от:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Предоставлено:  <br/> |Клиент  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IOlkAccountHelper  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[Placeholder1](iolkaccounthelper-placeholder1.md) <br/> | *Этот член является местоимящиком и не поддерживается.*  <br/> |
+|[Placeholder1](iolkaccounthelper-placeholder1.md) <br/> | *Этот член является задатщиком и не поддерживается.*  <br/> |
 |[GetIdentity](iolkaccounthelper-getidentity.md) <br/> |Получает имя профиля учетной записи.  <br/> |
-|[GetMapiSession](iolkaccounthelper-getmapisession.md) <br/> |Открывает сеанс MAPI и сохраняет ссылку на сеанс для диспетчера учетных записей.  <br/> |
-|[HandsOffSession](iolkaccounthelper-handsoffsession.md) <br/> |Освобождает объект сеанса MAPI, возвращенный [IOlkAccountHelper::GetMapiSession.](iolkaccounthelper-getmapisession.md)  <br/> |
+|[GetMapiSession](iolkaccounthelper-getmapisession.md) <br/> |Открывает сеанс MAPI и поддерживает ссылку на сеанс для диспетчера учетных записей.  <br/> |
+|[HandsOffSession](iolkaccounthelper-handsoffsession.md) <br/> |Выпускает объект сеанса MAPI, возвращенный [IOlkAccountHelper::GetMapiSession.](iolkaccounthelper-getmapisession.md)  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Этот интерфейс передается в [IOlkAccountManager::Init](iolkaccountmanager-init.md) при инициализации диспетчера учетных записей. 
+Этот интерфейс передается [iOlkAccountManager::Init](iolkaccountmanager-init.md) при инициализации диспетчера учетной записи. 
   
 ## <a name="see-also"></a>См. также
 

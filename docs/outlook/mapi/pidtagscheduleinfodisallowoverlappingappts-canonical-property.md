@@ -23,20 +23,20 @@ ms.locfileid: "32330088"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит true, если перекрывающиеся встречи не могут быть перекрыты.
+Содержит TRUE, если перекрывающиеся встречи будут отсеяно.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS  <br/> |
 |Идентификатор:  <br/> |0x686F  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Free/Busy  <br/> |
+|Область:  <br/> |Бесплатный/занятый  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство имеет смысл, только если значение свойства **PR_SCHDINFO_AUTO_ACCEPT_APPTS** [(PidTagScheduleInfoAutoAcceptAppointments)](pidtagscheduleinfoautoacceptappointments-canonical-property.md)имеет значение TRUE. Значение TRUE указывает, что при автоматическом ответе на запросы на собрания клиент или сервер должны отклонуть экземпляры, перекрывающие ранее запланированные события. Значение FALSE или отсутствие этого свойства указывает на то, что необходимо принять перекрывающиеся экземпляры. Это свойство не является обязательной.
+Это свойство имеет значение только тогда, когда **значение свойства PR_SCHDINFO_AUTO_ACCEPT_APPTS** [(PidTagScheduleInfoAutoAcceptAppointments)](pidtagscheduleinfoautoacceptappointments-canonical-property.md)является TRUE. Значение TRUE указывает, что при автоматическом ответе на запросы собраний клиент или сервер должны отклонуть экземпляры, перекрывающие ранее запланированные события. Значение FALSE или отсутствие этого свойства указывает на то, что дублирующие экземпляры должны быть приняты. Это свойство не обязательно.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,13 +48,13 @@ ms.locfileid: "32330088"
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Публикует доступность пользователя или ресурса.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -74,5 +74,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

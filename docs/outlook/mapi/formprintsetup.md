@@ -23,7 +23,7 @@ ms.locfileid: "32327288"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Описывает сведения о настройке печати для объекта формы. 
   
@@ -47,35 +47,35 @@ typedef struct
 
  **ulFlags**
   
-> Битоваяmas флагов, которая управляет типом строк. Можно использовать следующий флаг:
+> Bitmask флагов, которые контролируют тип строк. Можно использовать следующий флаг:
     
 MAPI_UNICODE 
   
-> Строки имеют формат Юникод. Если флаг MAPI_UNICODE не установлен, строки будут в формате ANSI.
+> Строки находятся в формате Unicode. Если флаг MAPI_UNICODE не установлен, строки находятся в формате ANSI.
     
  **hDevmode**
   
-> Обработка режима принтера.
+> Перенаправляйся в режим принтера.
     
  **hDevnames**
   
-> Обработать путь принтера.
+> Переправляйся к пути принтера.
     
  **ulFirstPageNumber**
   
-> Номер страницы первой страницы для печати.
+> Номер страницы первой страницы, которая будет напечатана.
     
  **ulFPrintAttachments**
   
-> Флаг, который указывает, есть ли вложения для печати. Если для печати есть вложения, для члена **ulFPrintAttachments** устанавливается 1. Если вложений для печати нет, для него устанавливается 0. 
+> Флаг, который указывает, есть ли вложения для печати. Если для печати есть вложения, то для **члена ulFPrintAttachments** установлено 1. Если нет вложений для печати, она установлена до 0. 
     
 ## <a name="remarks"></a>Примечания
 
-Структура **FORMPRINTSETUP** используется для описания сведений о настройке печати для объекта формы. Реализации [IMAPIViewContext::GetPrintSetup](imapiviewcontext-getprintsetup.md) заполняют структуру **FORMPRINTSETUP** и возвращают ее в содержимом выходного параметра  _lppFormPrintSetup_ **getPrintSetup**.
+Структура **FORMPRINTSETUP** используется для описания сведений о настройке печати для объекта формы. Реализация [IMAPIViewContext::GetPrintSetup](imapiviewcontext-getprintsetup.md) заполняет структуру **FORMPRINTSETUP** и возвращает ее в содержимое выпуска  _lppFormPrintSetup_ **параметра GetPrintSetup**.
   
-Если флаг MAPI_UNICODE передается в  _параметре ulFlags_ **getPrintSetup,** строки, на которые ссылается **hDevmode** и **hDevnames,** должны иметь формат Юникод. В противном случае строки должны быть в формате ANSI. 
+Если флаг MAPI_UNICODE в параметре  _ulFlags_ **GetPrintSetup,** строки, на которые ссылается **участники hDevmode** и **hDevnames,** должны быть в формате Unicode. В противном случае строки должны быть в формате ANSI. 
   
-Средства просмотра форм, реализующие **IMAPIViewContext,** должны выделять структуру **FORMPRINTSETUP** с помощью функции mapI allocator [MAPIAllocateBuffer,](mapiallocatebuffer.md)но выделять отдельные **члены, hDevMode** и **hDevNames** с функцией Windows [GlobalAlloc.](https://go.microsoft.com/fwlink/?LinkId=132110) Выпуск памяти обрабатывается аналогично. Члены **hDevMode** и **hDevNames** должны быть освобождены с помощью функции Windows [GlobalFree,](https://go.microsoft.com/fwlink/?LinkId=132108) тогда как структура **FORMPRINTSETUP** должна быть освобождена с помощью функции [MAPIFreeBuffer.](mapifreebuffer.md) 
+Зрители форм, реализующие **IMAPIViewContext,** должны выделить структуру **FORMPRINTSETUP** с помощью функции распределения [MAPI MAPIAllocateBuffer,](mapiallocatebuffer.md)но выделить отдельных **участников, hDevMode** и **hDevNames** с функцией Windows [GlobalAlloc](https://go.microsoft.com/fwlink/?LinkId=132110). Выпуск памяти обрабатывается аналогичным образом. Члены **hDevMode** и **hDevNames** должны быть освобождены с помощью функции Windows [GlobalFree,](https://go.microsoft.com/fwlink/?LinkId=132108) в то время как структура **FORMPRINTSETUP** должна быть освобождена с помощью функции [MAPIFreeBuffer.](mapifreebuffer.md) 
   
 ## <a name="see-also"></a>См. также
 

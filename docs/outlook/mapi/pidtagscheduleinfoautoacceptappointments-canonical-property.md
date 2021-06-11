@@ -23,20 +23,20 @@ ms.locfileid: "32330095"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит true, если клиент или сервер должен автоматически отвечать на все запросы на собрание для участника или ресурса.
+Содержит TRUE, если клиент или сервер должны автоматически отвечать на все запросы собрания для участника или ресурса.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_SCHDINFO_AUTO_ACCEPT_APPTS  <br/> |
 |Идентификатор:  <br/> |0x686D  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Free/Busy  <br/> |
+|Область:  <br/> |Бесплатный/занятый  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Ответ должен приниматься, если не найдено дополнительное ограничение, заданное свойствами **PR_SCHDINFO_DISALLOW_RECURRING_APPTS** ([PidTagScheduleInfoDisallowRecurringAppts)](pidtagscheduleinfodisallowrecurringappts-canonical-property.md)или **PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS** ([PidTagScheduleInfoDisallowOverlappingAppts).](pidtagscheduleinfodisallowoverlappingappts-canonical-property.md) Значение FALSE или отсутствие этого свойства указывает, что клиент или сервер не должны автоматически принимать приглашение на собрание. Это свойство не является обязательной.
+При ответе ответ должен быть принятым, если для дополнительного  ограничения, указанного свойствами [PR_SCHDINFO_DISALLOW_RECURRING_APPTS (PidTagScheduleInfoDisallowRecurringAppts)](pidtagscheduleinfodisallowrecurringappts-canonical-property.md)или **PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS** [(Свойства PidTagScheduleInfoDisallowOverlappingAppts).](pidtagscheduleinfodisallowoverlappingappts-canonical-property.md) Значение FALSE или отсутствие этого свойства указывает на то, что клиент или сервер не должны автоматически принимать запросы на собрание. Это свойство не обязательно.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,13 +48,13 @@ ms.locfileid: "32330095"
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Публикует доступность пользователя или ресурса.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -74,5 +74,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

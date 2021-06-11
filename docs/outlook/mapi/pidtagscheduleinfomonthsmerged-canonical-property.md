@@ -1,5 +1,5 @@
 ---
-title: Каноническое свойство PidTagScheduleInfoMonthsMerged
+title: PidTagScheduleInfoMonthsMerged Canonical Property
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,24 +19,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32336479"
 ---
-# <a name="pidtagscheduleinfomonthsmerged-canonical-property"></a>Каноническое свойство PidTagScheduleInfoMonthsMerged
+# <a name="pidtagscheduleinfomonthsmerged-canonical-property"></a>PidTagScheduleInfoMonthsMerged Canonical Property
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит список месяцев, в течение которых в сообщении о занятости содержатся сведения о занятости типа "занято" или "Нет на офисе" (OOF). 
+Содержит список месяцев, в течение которых в свободном/загруженном сообщении присутствуют бесплатные/загруженные данные типа занятого или неподъемного (OOF) сообщения. 
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_SCHDINFO_MONTHS_MERGED  <br/> |
 |Идентификатор:  <br/> |0x684F  <br/> |
 |Тип данных:  <br/> |PT_MV_LONG  <br/> |
-|Область:  <br/> |Free/Busy  <br/> |
+|Область:  <br/> |Бесплатный/занятый  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-События типа "занято" под вопросом не включаются в это свойство. Синтаксис/формат и ограничения этого свойства такие же, как и для **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative),](pidtagscheduleinfomonthstentative-canonical-property.md)но ссылаются на встречи, помеченные как "OOF" или "Занят" в связанном объекте календаря. 
+События предварительного типа free/busy не включаются в это свойство. Синтаксис/формат и ограничения этого свойства такие же, как и у **PR_SCHDINFO_MONTHS_TENTATIVE** [(PidTagScheduleInfoMonthsTentative),](pidtagscheduleinfomonthstentative-canonical-property.md)но ссылаются на встречи, отмеченные OOF или Busy на связанном объекте календаря. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "32336479"
   
 > Публикует доступность пользователя или ресурса.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

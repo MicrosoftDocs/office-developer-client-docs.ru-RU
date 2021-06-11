@@ -23,13 +23,13 @@ ms.locfileid: "32334974"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает количество мультимедийных клипов в файле, вложенном в документ.
+Указывает количество мультимедийных клипов в файле, присоединенном к документу.
   
 |||
 |:-----|:-----|
-|Дружелюбные имена:  <br/> |Нет  <br/> |
+|Дружественные имена:  <br/> |Нет  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |MMClipCount  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
@@ -41,13 +41,13 @@ ms.locfileid: "32334974"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для документов.
+> Указывает свойства и операции, допустимые в документах.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

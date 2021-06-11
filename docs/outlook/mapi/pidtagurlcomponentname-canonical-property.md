@@ -23,7 +23,7 @@ ms.locfileid: "32320428"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Имя компонента URL-адреса для сообщения. 
   
@@ -36,7 +36,7 @@ ms.locfileid: "32320428"
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства должны быть уникальными в папке. Если не установлено, когда сообщение создано, хранилище сообщений должно устанавливать эти свойства на основе различных свойств сообщения в зависимости от класса сообщения. Например, **IPM. Примечание** и **IPM. Для** сообщений о встречах этот набор свойств должен быть заданной на основе свойства **PR_SUBJECT** [(PidTagSubject)](pidtagsubject-canonical-property.md)и **IPM. Для** контактных сообщений этот набор свойств должен быть заданной на основе свойства **dispidFileUnder** ([PidLidFileUnder).](pidlidfileunder-canonical-property.md) Для большинства других классов сообщений это свойство должно быть основано на свойстве **PR_DISPLAY_NAME** ([PidTagDisplayName).](pidtagdisplayname-canonical-property.md)
+Эти свойства должны быть уникальными в папке. Если не установлено, когда сообщение создано, хранилище сообщений должно устанавливать эти свойства на основе различных свойств сообщений в зависимости от класса сообщения. Например, **IPM. Примечание** и **IPM. Сообщения** о встрече должны иметь этот набор свойств на основе **свойства PR_SUBJECT** [(PidTagSubject)](pidtagsubject-canonical-property.md)и **IPM. В** контактных сообщениях должен быть этот набор свойств, основанный на свойстве **dispidFileUnder** [(PidLidFileUnder).](pidlidfileunder-canonical-property.md) Для большинства других классов сообщений это свойство должно основываться на **свойстве PR_DISPLAY_NAME** [(PidTagDisplayName).](pidtagdisplayname-canonical-property.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -54,7 +54,7 @@ ms.locfileid: "32320428"
   
 > Кодирует и декодирует объекты сообщений и вложений в эффективное представление потока.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -74,5 +74,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

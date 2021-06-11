@@ -20,7 +20,7 @@ ms.locfileid: "32322108"
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IOlkAccountHelper](iolkaccounthelper.md).
+См. [iOlkAccountHelper](iolkaccounthelper.md).
   
 ```cpp
 HRESULT IOlkAccountHelper::GetIdentity (  
@@ -29,27 +29,27 @@ HRESULT IOlkAccountHelper::GetIdentity (
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _pwszIdentity_
   
-> [in] [out] Имя профиля.
+> [in] [вышел] Имя профиля.
     
 _pcch_
   
-> [in] [out] При вызове этого метода содержит размер (в количестве символов) _выделенного объекта pwszIdentity._ По возвращении содержит фактическую длину возвращаемого имени профиля, включая символ, завершающий 0. 
+> [in] [вышел] При вызове этого метода содержится размер (в количестве символов) _выделенного объекта pwszIdentity._ По возвращении содержит фактическую длину, включая символ 0-terminating, возвращенного имени профиля. 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded.  <br/> |
-|E_OUTOFMEMORY  <br/> |Возвращенное имя профиля больше размера _pwszIdentity._  <br/> |
-|E_INVALIDARG  <br/> | _pcch_ — NULL.  <br/> |
+|E_OUTOFMEMORY  <br/> |Имя возвращенного профиля больше размера _pwszIdentity._  <br/> |
+|E_INVALIDARG  <br/> | _pcch_ — это NULL.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если _pwszIdentity_ слишком мал для удержания имени профиля, он не будет установлен при возвращении, и _pcch_ будет указать размер, необходимый _для pwszIdentity._
+Если  _pwszIdentity_ слишком мал для удержания имени профиля, оно не будет задано по возвращении, и  _pcch_ будет указать размер, необходимый  _для pwszIdentity_.
   
 ## <a name="see-also"></a>См. также
 

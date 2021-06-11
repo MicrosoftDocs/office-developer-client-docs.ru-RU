@@ -23,20 +23,20 @@ ms.locfileid: "32316186"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит время окончания диапазона публикации.
+Содержит конечное время диапазона публикации.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_FREEBUSY_PUBLISH_END  <br/> |
 |Идентификатор:  <br/> |0x6848  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Free/Busy  <br/> |
+|Область:  <br/> |Бесплатный/занятый  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Значение этого свойства вычисляется путем добавления значения **PR_FREEBUSY_COUNT_MONTHS** ([PidTagFreeBusyCountMonths)](pidtagfreebusycountmonths-canonical-property.md)в дату начала диапазона публикации. Это значение выражается в количестве минут с полуночи 1 января 1601 г. по времени в универсальном координируется (UTC).
+Значение для этого свойства вычисляется путем добавления **значения PR_FREEBUSY_COUNT_MONTHS** [(PidTagFreeBusyCountMonths)](pidtagfreebusycountmonths-canonical-property.md)к дате начала диапазона публикации. Это значение выражается как количество минут с полуночи, 1 января 1601 г. в Координируется универсальное время (UTC).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "32316186"
   
 > Публикует доступность пользователя или ресурса.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -23,30 +23,30 @@ ms.locfileid: "32321268"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Предоставляет сведения для автономного объекта.
   
 |||
 |:-----|:-----|
-|Предоставлено:  <br/> |Запрос к [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) <br/> |
+|Предоставлено:  <br/> |Запрос [на IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) <br/> |
 |Вызывающая сторона:  <br/> |Клиент  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIOffline  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|**[SetCurrentState](imapioffline-setcurrentstate.md)** <br/> |Задает текущее состояние автономного объекта в сетевом или автономном режиме.  <br/> |
-|**[GetCapabilities](imapioffline-getcapabilities.md)** <br/> |Получает условия, для которых автономный объект поддерживает вызовы.  <br/> |
-|**[GetCurrentState](imapioffline-getcurrentstate.md)** <br/> |Получает текущее сетевое или автономное состояние автономного объекта.  <br/> |
-| *Член-заметель*  <br/> |Этот член является местоимящиком и не поддерживается.  <br/> |
+|**[SetCurrentState](imapioffline-setcurrentstate.md)** <br/> |Задает текущее состояние автономного объекта в режиме online или автономном режиме.  <br/> |
+|**[GetCapabilities](imapioffline-getcapabilities.md)** <br/> |Получает условия, для которых вызовы поддерживаются автономным объектом.  <br/> |
+|**[GetCurrentState](imapioffline-getcurrentstate.md)** <br/> |Получает текущее состояние автономного объекта в Интернете или автономном режиме.  <br/> |
+| *Член placeholder*  <br/> |Этот член является задатщиком и не поддерживается.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Клиент использует **[HrOpenOfflineObj](hropenofflineobj.md)** для открытия и получения автономного объекта, который поддерживает **IMAPIOfflineMgr.** Так как **IMAPIOfflineMgr** наследуется от [IUnknown,](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)клиент может запросить этот интерфейс (с помощью [IUnknown::QueryInterface),](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)чтобы получить указатель на указатель интерфейса **для IMAPIOffline** для автономного объекта. Затем клиент может получить или установить текущее состояние объекта или узнать о возможностях вызова объекта (путем вызова **IMAPIOffline::GetCapabilities)** и настроить функцию перезаписи вызовов с помощью **[IMAPIOfflineMgr.](imapiofflinemgrimapioffline.md)** 
+Клиент использует **[HrOpenOfflineObj](hropenofflineobj.md)** для открытия и получения автономного объекта, поддерживаюшего **IMAPIOfflineMgr.** Поскольку **IMAPIOfflineMgr** наследует [IUnknown,](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)клиент может запрашивать этот интерфейс (с помощью [IUnknown::QueryInterface),](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)чтобы получить указатель на указатель интерфейса **для IMAPIOffline** для автономного объекта. Клиент может получить или установить текущее состояние объекта или узнать о возможностях вызова объекта (позвонив **по IMAPIOffline::GetCapabilities)** и выбрать возможность настроить вызовы с помощью **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. 
   
-Член в этом интерфейсе — это замесерв, зарезервированный для внутреннего использования Microsoft Outlook 2013 и на который могут быть внося изменения. Другие члены этого интерфейса должны использоваться только в документе. 
+Член этого интерфейса — это местообладатель, зарезервированный для внутреннего Microsoft Outlook 2013 и подлежит изменениям. Другие участники этого интерфейса должны использоваться только в качестве документированных документов. 
   
 ## <a name="see-also"></a>См. также
 

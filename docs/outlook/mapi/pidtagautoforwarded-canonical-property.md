@@ -23,9 +23,9 @@ ms.locfileid: "32326616"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит true, если клиент запрашивает поле загона X-MS-Exchange-Organization-AutoForwarded.
+Содержит TRUE, если клиент запрашивает заглавное Exchange X-MS-Exchange-Organization-AutoForwarded.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "32326616"
    
 ## <a name="remarks"></a>Примечания
 
-Если для этого свойства установлено false или не используется, поле x-MS-Exchange-Organization-AutoForwarded не создается.
+Если это свойство настроено на FALSE или не используется, не будет создано Exchange X-MS-Exchange-Organization-AutoForwarded header.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,9 +48,9 @@ ms.locfileid: "32326616"
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразуется из стандартных интернет-соглашений электронной почты в объекты сообщений.
+> Преобразуется из стандартных конвенций электронной почты в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

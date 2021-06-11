@@ -1,11 +1,11 @@
 ---
-title: Создание, извлечение, обновление и удаление проектов с помощью JavaScript для Project Server
+title: Создание, извлечение, обновление и удаление проектов с Project JavaScript сервера
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6b690938-05bc-46a3-a40e-30f081403767
-description: Получить текущий экземпляр ProjectContext; извлечение и итерации по коллекции опубликованных проектов на сервере; создание, извлечение, извлечение и удаление проекта с помощью объектной модели JavaScript для Project Server; и измените свойства проекта.
+description: Получите текущий экземпляр ProjectContext; извлечение и итерации через коллекцию опубликованных проектов на сервере; создание, извлечение, проверка и удаление проекта с помощью объектной Project JavaScript сервера; и изменить свойства проекта.
 ms.openlocfilehash: 10dac7edfa3e84cebfd0585bc8c4bff1ea22ea44
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -13,12 +13,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32322668"
 ---
-# <a name="create-retrieve-update-and-delete-projects-using-project-server-javascript"></a>Создание, извлечение, обновление и удаление проектов с помощью JavaScript для Project Server
+# <a name="create-retrieve-update-and-delete-projects-using-project-server-javascript"></a>Создание, извлечение, обновление и удаление проектов с Project JavaScript сервера
 
-Сценарии в этой статье показывают, как получить текущий экземпляр **ProjectContext;** извлечение и итерации по коллекции опубликованных проектов на сервере; создание, извлечение, извлечение и удаление проекта с помощью объектной модели JavaScript для Project Server; и измените свойства проекта. 
+Сценарии в этой статье показывают, как получить текущий экземпляр **ProjectContext;** извлечение и итерации через коллекцию опубликованных проектов на сервере; создание, извлечение, проверка и удаление проекта с помощью объектной Project JavaScript сервера; и изменить свойства проекта. 
   
 > [!NOTE]
-> Эти сценарии определяют пользовательский код в разметки страницы приложения SharePoint, но не используют файл кода, созданный Visual Studio 2012 для этой страницы. 
+> Эти сценарии определяют настраиваемый код на разметку страницы SharePoint приложения, но не используют файл с кодом, созданный Visual Studio 2012 г. для страницы. 
   
 ## <a name="prerequisites-for-working-with-project-server-2013-projects-in-the-javascript-object-model"></a>Необходимые условия для работы с проектами Project Server 2013 в объектной модели JavaScript
 
@@ -29,41 +29,41 @@ ms.locfileid: "32322668"
 - Visual Studio 2012
 - Инструменты разработчика Office для Visual Studio 2012
     
-Кроме того, необходимо иметь разрешения на развертывание расширения в SharePoint Server 2013 и участие в проектах.
+Кроме того, необходимо иметь разрешения на развертывание расширения SharePoint Server 2013 и участие в проектах.
   
 > [!NOTE]
-> В этих инструкциях предполагается, что разработка происходит на компьютере с Project Server 2013. 
+> Эти инструкции предполагают, что вы разрабатываете на компьютере, который Project Server 2013. 
   
-## <a name="create-the-visual-studio-solution"></a>Создание решения Visual Studio решения
+## <a name="create-the-visual-studio-solution"></a>Создание решения Visual Studio
 <a name="pj15_CRUDProjectsJSOM_Setup"> </a>
 
-Следующие действия создают решение Visual Studio 2012, которое содержит проект SharePoint и страницу приложения. Страница содержит логику работы с проектами.
+В следующих шагах создается Visual Studio 2012 года, которое содержит SharePoint проекта и страницу приложения. На странице содержится логика работы с проектами.
   
 ### <a name="to-create-the-sharepoint-project-in-visual-studio"></a>Создание проекта SharePoint в Visual Studio
 
-1. На компьютере с Project Server 2013 запустите Visual Studio 2012 от учетной записи администратора.
+1. На компьютере, который Project Server 2013, запустите Visual Studio 2012 в качестве администратора.
     
 2. В строке меню выберите пункты **Файл**, **Создать** и **Проект**.
     
 3. В верхней части диалогового окна **Новый проект** выберите **.NET Framework 4.5** в раскрывающемся списке. 
     
-4. В категории **шаблонов Office или SharePoint** выберите "Решения **SharePoint"** и выберите шаблон **Проекта SharePoint 2013.** 
+4. В категории **Office/SharePoint** выберите **SharePoint Решения,** а затем выберите шаблон SharePoint **2013 Project.** 
     
-5. Назовем проект ProjectsJSOM и затем нажимаем кнопку **"ОК".** 
+5. Назови проект ProjectsJSOM и выберите **кнопку ОК.** 
     
 6. В диалоговом окне **Мастер настройки SharePoint** выберите **Развернуть как решение фермы** и затем нажмите кнопку **Готово**. 
     
-7. Изменение значения свойства **URL-адреса** сайта для проекта **ProjectsJSOM** в соответствие с URL-адресом экземпляра Project Web App (например). `https://ServerName/PWA`
+7. Изменение значения свойства **URL-адреса** сайта для проекта **ProjectsJSOM** в соответствие с URL-адресом экземпляра Project Web App (например, `https://ServerName/PWA` ).
     
 ### <a name="to-create-the-application-page-in-visual-studio"></a>Создание страницы приложения в Visual Studio
 
-1. В **обозревателе решений** откройте shortcut menu для проекта **ProjectsJSOM,** а затем добавьте папку, соположенную SharePoint "Layouts". 
+1. В **обозревателе** решений откройте меню ярлыков для проекта **ProjectsJSOM** и добавьте папку SharePoint "Layouts". 
     
-2. В **папке Layouts** откройте меню ярлыка для папки **ProjectsJSOM,** а затем добавьте новую страницу приложения SharePoint с именем ProjectsList.aspx.
+2. В **папке Макеты** откройте меню ярлыков для папки **ProjectsJSOM,** а затем добавьте новую страницу приложения SharePoint ProjectsList.aspx.
     
-3. Откройте меню ярлыка для страницы **ProjectsList.aspx** и выберите **"Установить как элемент запуска".**
+3. Откройте меню ярлыка для страницы **ProjectsList.aspx** и выберите **Set as Startup Item**.
     
-4. В разметке страницы **ProjectsList.aspx** определите элементы управления пользовательского интерфейса в тегах **asp:Content** в тегах Main следующим образом. 
+4. В разметке для страницы **ProjectsList.aspx** определите элементы управления пользовательским интерфейсом внутри тегов **asp:Content** "Main". 
     
    ```HTML
     <table width="100%" id="tblProjects">
@@ -82,7 +82,7 @@ ms.locfileid: "32322668"
    > [!NOTE]
    > [!Примечание] Эти элементы управления не могут быть использованы в каждом сценарии. Например, в сценарии "Создание проектов" не используются **элементы управления textarea** и **button.** 
   
-5. После **закрываго** тега span добавьте тег **SharePoint:ScriptLink,** **тег SharePoint:FormDigest** и теги скрипта следующим образом.  
+5. После **тега** закрытия диапазона **добавьте тег SharePoint:ScriptLink,** **тег SharePoint:FormDigest** и  теги скрипта. 
     
    ```HTML
     <SharePoint:ScriptLink id="ScriptLink" name="PS.js" runat="server" ondemand="false" localizable="false" loadafterui="true" />
@@ -94,32 +94,32 @@ ms.locfileid: "32322668"
 
    Тег **SharePoint:ScriptLink** ссылается на PS.js, который определяет объектную модель JavaScript для Project Server 2013. Тег **SharePoint:FormDigest** создает сообщение дайджеста для проверки подлинности при необходимости в операции, обновлять содержимое сервера. 
     
-6. Замените комментарий-замещатель кодом из одной из следующих процедур:
+6. Замените комментарий держателя кодом из одной из следующих процедур:
     
    - [Создание проектов Project Server 2013 с помощью объектной модели JavaScript](#pj15_CRUDProjectsJSOM_CreateProjects)
     
-   - [Обновление проектов Project Server 2013 с помощью объектной модели JavaScript](#pj15_CRUDProjectsJSOM_UpdateProjects)
+   - [Обновление Project Server 2013 с помощью объектной модели JavaScript](#pj15_CRUDProjectsJSOM_UpdateProjects)
     
-   - [Удаление проектов Project Server 2013 с помощью объектной модели JavaScript](#pj15_CRUDProjectsJSOM_DeleteProjects)
+   - [Удаление Project Server 2013 с помощью объектной модели JavaScript](#pj15_CRUDProjectsJSOM_DeleteProjects)
     
-7. Чтобы протестировать страницу приложения, в панели меню выберите команды **Отладка**, **Начать отладку**. Если вам будет предложено изменить файл web.config, выберите **"ОК".**
+7. Чтобы протестировать страницу приложения, в панели меню выберите команды **Отладка**, **Начать отладку**. Если вам предложено изменить файл web.config, выберите **ОК**.
     
 ## <a name="create-project-server-2013-projects-by-using-the-javascript-object-model"></a>Создание проектов Project Server 2013 с помощью объектной модели JavaScript
 <a name="pj15_CRUDProjectsJSOM_CreateProjects"> </a>
 
-Процедура, используемая в этом разделе, создает проекты с помощью объектной модели JavaScript. Эта процедура включает следующие высокоуровневые действия:
+Процедура в этом разделе создает проекты с помощью объектной модели JavaScript. Процедура включает следующие действия высокого уровня:
   
 1. Получите текущий **экземпляр ProjectContext.** 
     
-2. Создайте **объект ProjectCreationInformation,** чтобы указать начальные свойства проекта. Укажите обязательное **свойство имени** с помощью **функции** ProjectCreationInformation.set_name имени. 
+2. Создайте **объект ProjectCreationInformation,** чтобы указать начальные свойства для проекта. Укажите необходимое **свойство имени** с помощью **функции ProjectCreationInformation.set_name.** 
     
-3. Извлекать опубликованные проекты с сервера с помощью **ProjectContext.get_projects** функции. Функция **get_projects** возвращает объект **ProjectCollection.** 
+3. Извлечение опубликованных проектов с сервера с помощью **ProjectContext.get_projects** функции. Функция **get_projects** возвращает **объект ProjectCollection.** 
     
-4. Добавьте новый проект в коллекцию с помощью функции **ProjectCollection.add** и передав объект **ProjectCreationInformation.** 
+4. Добавьте новый проект в коллекцию с помощью **функции ProjectCollection.add** и передав объект **ProjectCreationInformation.** 
     
-5. Обновите коллекцию с помощью **функций ProjectCollection.update** и **ProjectContext.waitForQueueAsync.** Функция **обновления** возвращает объект **QueueJob,** который передается в **waitForQueueAsync.** Этот вызов также публикует проект.
+5. Обновите коллекцию с помощью **функции ProjectCollection.update** и **функции ProjectContext.waitForQueueAsync.** Функция **обновления** возвращает объект **QueueJob,** который передается для **ожиданияForQueueAsync.** Этот вызов также публикует проект.
     
-В paste the following code between the **script tags** that you added in **the To create the application page in Visual Studio** procedure. 
+Вклейте следующий код между тегами **скрипта,** добавленными в приложении **To create the application page in Visual Studio** процедуре. 
   
 ```js
     // Declare a global variable to store the project collection.
@@ -187,26 +187,26 @@ ms.locfileid: "32322668"
     }
 ```
 
-## <a name="update-project-server-2013-projects-by-using-the-javascript-object-model"></a>Обновление проектов Project Server 2013 с помощью объектной модели JavaScript
+## <a name="update-project-server-2013-projects-by-using-the-javascript-object-model"></a>Обновление Project Server 2013 с помощью объектной модели JavaScript
 <a name="pj15_CRUDProjectsJSOM_UpdateProjects"> </a>
 
-Процедура в этом разделе обновляет свойство **startDate** проекта с помощью объектной модели JavaScript. Эта процедура включает следующие высокоуровневые действия: 
+Процедура в этом разделе обновляет **свойство startDate** проекта с помощью объектной модели JavaScript. Процедура включает следующие действия высокого уровня: 
   
 1. Получите текущий **экземпляр ProjectContext.** 
     
-2. Извлекать опубликованные проекты с сервера с помощью **ProjectContext.get_projects** функции. Функция **get_projects** возвращает объект **ProjectCollection.** 
+2. Извлечение опубликованных проектов с сервера с помощью **ProjectContext.get_projects** функции. Функция **get_projects** возвращает **объект ProjectCollection.** 
     
-3. Запустите запрос на сервере с помощью **функции ProjectContext.load** **и функцииProjectContext.executeQueryAsync.** 
+3. Запустите запрос на сервере с помощью **функции ProjectContext.load** и **функцииProjectContext.exeCuteQueryAsync.** 
     
-4. Получите объект **PublishedProject** с помощью **функции ProjectContext.getById.** 
+4. **Извлечение объекта PublishedProject** с помощью **функции ProjectContext.getById.** 
     
-5. Ознакомьтесь с целевым проектом с помощью **функции Project.checkOut.** Функция **checkOut** возвращает черновик версии опубликованного проекта. 
+5. Ознакомьтесь с целевым проектом с помощью **функции Project.checkOut.** Функция **checkOut** возвращает проектную версию опубликованного проекта. 
     
-6. Измените дату начала проекта с помощью **функции** DraftProject.set_startDate. 
+6. Измените дату начала проекта с помощью **функции DraftProject.set_startDate.** 
     
-7. Опубликуем проект с помощью **функций DraftProject.publish** и **ProjectContext.waitForQueueAsync.** Функция **публикации** возвращает объект **QueueJob,** который передается для **ожиданияForQueueAsync.**
+7. Публикация проекта с помощью **функции DraftProject.publish** и **функции ProjectContext.waitForQueueAsync.** Функция **публикации** возвращает объект **QueueJob,** который передается для **ожиданияForQueueAsync.**
     
-В paste the following code between the **script tags** that you added in **the To create the application page in Visual Studio** procedure. 
+Вклейте следующий код между тегами **скрипта,** добавленными в приложении **To create the application page in Visual Studio** процедуре. 
   
 ```js
     // Declare global variables.
@@ -270,24 +270,24 @@ ms.locfileid: "32322668"
     }
 ```
 
-## <a name="delete-project-server-2013-projects-by-using-the-javascript-object-model"></a>Удаление проектов Project Server 2013 с помощью объектной модели JavaScript
+## <a name="delete-project-server-2013-projects-by-using-the-javascript-object-model"></a>Удаление Project Server 2013 с помощью объектной модели JavaScript
 <a name="pj15_CRUDProjectsJSOM_DeleteProjects"> </a>
 
-Процедура, используемая в этом разделе, удаляет проект с помощью объектной модели JavaScript. Эта процедура включает следующие высокоуровневые действия:
+Процедура в этом разделе удаляет проект с помощью объектной модели JavaScript. Процедура включает следующие действия высокого уровня:
   
 1. Получите текущий **экземпляр ProjectContext.** 
     
-2. Извлекать опубликованные проекты с сервера с помощью **ProjectContext.get_projects** функции. Функция **get_projects** возвращает объект **ProjectCollection.** 
+2. Извлечение опубликованных проектов с сервера с помощью **ProjectContext.get_projects** функции. Функция **get_projects** возвращает **объект ProjectCollection.** 
     
-3. Запустите запрос на сервере с помощью **функции ProjectContext.load** **и функцииProjectContext.executeQueryAsync.** 
+3. Запустите запрос на сервере с помощью **функции ProjectContext.load** и **функцииProjectContext.exeCuteQueryAsync.** 
     
-4. Получите объект **PublishedProject** с помощью **функции ProjectCollection.getById.** 
+4. **Извлечение объекта PublishedProject** с помощью **функции ProjectCollection.getById.** 
     
 5. Удалите проект, передав его функции **ProjectCollection.remove.** 
     
-6. Обновите коллекцию с помощью **функций ProjectCollection.update** и **ProjectContext.waitForQueueAsync.** Функция **обновления** возвращает объект **QueueJob,** который передается в **waitForQueueAsync.**
+6. Обновите коллекцию с помощью **функции ProjectCollection.update** и **функции ProjectContext.waitForQueueAsync.** Функция **обновления** возвращает объект **QueueJob,** который передается для **ожиданияForQueueAsync.**
     
-В paste the following code between the **script tags** that you added in **the To create the application page in Visual Studio** procedure. 
+Вклейте следующий код между тегами **скрипта,** добавленными в приложении **To create the application page in Visual Studio** процедуре. 
   
 ```js
     // Declare global variables.

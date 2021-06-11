@@ -23,9 +23,9 @@ ms.locfileid: "32316410"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Описывает единицу времени, когда свойство **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber)](pidtagexpirynumber-canonical-property.md)умножается.
+Описывает единицу времени, когда **свойство PR_EXPIRY_NUMBER** [(PidTagExpiryNumber)](pidtagexpirynumber-canonical-property.md)умножается.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "32316410"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство, если за установлено, должно иметь одно из следующих значений:
+Это свойство, если установлено, должно быть одним из следующих значений:
   
 |||
 |:-----|:-----|
@@ -52,9 +52,9 @@ ms.locfileid: "32316410"
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
+> Указывает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -74,5 +74,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

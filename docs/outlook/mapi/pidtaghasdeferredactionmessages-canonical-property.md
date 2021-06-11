@@ -23,16 +23,16 @@ ms.locfileid: "32316123"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит true, если сообщение имеет по крайней мере одно отложенное правило действия.
+Содержит TRUE, если сообщение имеет по крайней мере одно отложенное правило действий.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_HAS_DAMS  <br/> |
 |Идентификатор:  <br/> |0x3FEA  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Rules  <br/> |
+|Область:  <br/> |Правила  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -44,9 +44,9 @@ ms.locfileid: "32316123"
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> Управляет входящие сообщения электронной почты на сервере.
+> Манипулирует входящие сообщения электронной почты на сервере.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -66,5 +66,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

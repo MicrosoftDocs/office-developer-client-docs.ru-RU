@@ -21,11 +21,11 @@ ms.locfileid: "32321856"
 
 |||
 |:-----|:-----|
-|Наследуется от:  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
+|Наследует от:  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
 |Предоставлено:  <br/> |Клиент  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IOlkErrorUnknown  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
@@ -33,7 +33,7 @@ ms.locfileid: "32321856"
    
 ## <a name="remarks"></a>Примечания
 
-Этот интерфейс предоставляет дополнительные сведения об ошибке [в IOlkAccountManager,](iolkaccountmanager.md) [IOlkAccountNotify](iolkaccountnotify.md)и [IOlkAccount.](iolkaccount.md) Это также базовый интерфейс **для IOlkAccountManager,** **IOlkAccountNotify** и **IOlkAccount.** 
+Этот интерфейс предоставляет дополнительные сведения об ошибке [в IOlkAccountManager,](iolkaccountmanager.md) [IOlkAccountNotify](iolkaccountnotify.md)и [IOlkAccount](iolkaccount.md). Это также базовый интерфейс **для IOlkAccountManager,** **IOlkAccountNotify** и **IOlkAccount**. 
   
 ## <a name="see-also"></a>См. также
 

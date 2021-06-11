@@ -19,9 +19,9 @@ ms.locfileid: "32334701"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит ключ беседы, используемый в Microsoft Outlook только при поиске **IPM. Сообщения MessageManager,** например сообщения, которые содержат историю загрузки для учетной записи pop3. Это свойство было неподготовлено в Microsoft Exchange Server. 
+Содержит ключ беседы, используемый в Microsoft Outlook только при поиске **IPM. Сообщения MessageManager,** такие как сообщение, содержающее историю скачивания для учетной записи Office протокола (POP3). Это свойство было обесценилось в Microsoft Exchange Server. 
   
 |||
 |:-----|:-----|
@@ -32,7 +32,7 @@ ms.locfileid: "32334701"
    
 ## <a name="remarks"></a>Примечания
 
-При доступе к электронным письмам в виде бесед и преобразовании свойств сообщений в формат [TNEF](transport-neutral-encapsulation-format-tnef.md)не используйте это свойство; вместо этого используйте канонические свойства [PidTagConversationIndex](pidtagconversationindex-canonical-property.md) и [PidTagConversationTopic.](pidtagconversationtopic-canonical-property.md) 
+При доступе к сообщениям электронной почты в виде бесед и преобразования свойств сообщений в формат транспортной инкапсуляции [(TNEF)](transport-neutral-encapsulation-format-tnef.md)не используйте это свойство; вместо этого используйте канонические свойства [PidTagConversationIndex](pidtagconversationindex-canonical-property.md) и [PidTagConversationTopic.](pidtagconversationtopic-canonical-property.md) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -44,13 +44,13 @@ ms.locfileid: "32334701"
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
+> Указывает свойства и операции, допустимые на объектах сообщений электронной почты.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
 > Кодирует и декодирует объекты сообщений и вложений в эффективное представление потока.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -64,7 +64,7 @@ Mapitags.h
 
 
 
-[Подtree IPM](ipm-subtree.md)
+[Подтрий IPM](ipm-subtree.md)
   
 [Специальные папки MAPI](mapi-special-folders.md)
   
@@ -74,5 +74,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

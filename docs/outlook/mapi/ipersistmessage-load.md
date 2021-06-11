@@ -23,7 +23,7 @@ ms.locfileid: "32317131"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Загружает форму для указанного сообщения.
   
@@ -36,51 +36,51 @@ HRESULT Load(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _pMessageSite_
   
-> [in] Указатель на сайт сообщения для загружаемой формы.
+> [in] Указатель на сайт сообщения для загрузки формы.
     
  _pMessage_
   
-> [in] Указатель на сообщение, для которого необходимо загрузить форму.
+> [in] Указатель на сообщение, для которого должна быть загружена форма.
     
  _ulMessageStatus_
   
-> [in] Битоваяmass клиентских или определяемых поставщиком флагов, скопированная из свойства **PR_MSG_STATUS** сообщения [(PidTagMessageStatus),](pidtagmessagestatus-canonical-property.md)которые предоставляют сведения о состоянии сообщения.
+> [in] Битмаска флагов, определенных клиентом или поставщика, скопированная  из свойства PR_MSG_STATUS сообщения[(PidTagMessageStatus),](pidtagmessagestatus-canonical-property.md)которые предоставляют сведения о состоянии сообщения.
     
  _ulMessageFlags_
   
-> [in] Битоваяmas флагов, скопированная из свойства **PR_MESSAGE_FLAGS** сообщения ([PidTagMessageFlags),](pidtagmessageflags-canonical-property.md)которые предоставляют дополнительные сведения о состоянии сообщения.
+> [in] Битмашка флагов, скопированная из свойства[PR_MESSAGE_FLAGS (PidTagMessageFlags),](pidtagmessageflags-canonical-property.md)которые предоставляют дополнительные сведения о состоянии сообщения. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Форма успешно загружена.
+> Форма была успешно загружена.
     
 ## <a name="remarks"></a>Примечания
 
-С помощью метода **IPersistMessage::Load можно вызвать метод IPersistMessage::Load,** чтобы загрузить форму для существующего сообщения. 
+Зрители форм называют **метод IPersistMessage::Load** для загрузки формы для существующего сообщения. 
   
 ## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
- **Загрузка** вызвана только в том случае, если форма находится в одном из следующих состояниях: 
+ **Нагрузка** вызвана только в том случае, если форма находится в одном из следующих штатов: 
   
-- [Неинициализировано](uninitialized-state.md)
+- [Uninitialized](uninitialized-state.md)
     
 - [HandsOffAfterSave](handsoffaftersave-state.md)
     
 - [HandsOffFromNormal](handsofffromnormal-state.md)
     
-Если просмотр форм вызывает **load,** пока форма находится в любом другом состоянии, метод возвращает E_UNEXPECTED. 
+Если зритель формы вызывает **Load,** пока форма находится в любом другом состоянии, метод возвращается E_UNEXPECTED. 
   
-Если форма имеет ссылку на активный сайт сообщений, который не передается в **load,** отпустите исходный сайт, так как он больше не будет использоваться. Храните указатели на сайт сообщения и сообщение из параметров  _pMessageSite_ и  _pMessage,_ а также вызовите методы [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) обоих объектов, чтобы повысьть количество ссылок. 
+Если ваша форма имеет ссылку на активный сайт сообщений, который не передается в **Load,** отпустите исходный сайт, так как он больше не будет использоваться. Храните указатели на сайте сообщений и сообщения из параметров  _pMessageSite_ и  _pMessage_ и вызывайте методы [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) для приумношения их отсчетов ссылок. 
   
-После **завершения addRef** с храните свойства  _параметров ulMessageStatus_ и  _ulMessageFlags_ в форме. Перед отображением [](normal-state.md) формы переходите в обычное состояние и уведомляет зарегистрированных пользователей, вызывая их методы [IMAPIViewAdviseSink::OnNewMessage.](imapiviewadvisesink-onnewmessage.md) 
+После **завершения AddRef** храните свойства  _ulMessageStatus_ и  _ulMessageFlags_ в форму. Перед ее отображением перенаправляем форму в нормальное состояние и уведомляем зарегистрированных зрителей, вызывая их методы [IMAPIViewAdviseSink::OnNewMessage.](imapiviewadvisesink-onnewmessage.md) [](normal-state.md) 
   
-Если ошибки не возникают, S_OK. 
+Если ошибки не происходят, S_OK. 
   
 ## <a name="see-also"></a>См. также
 
@@ -93,7 +93,7 @@ S_OK
 [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 
 
-[Неинициализированное состояние](uninitialized-state.md)
+[Единое состояние](uninitialized-state.md)
   
 [Состояние HandsOffAfterSave](handsoffaftersave-state.md)
   

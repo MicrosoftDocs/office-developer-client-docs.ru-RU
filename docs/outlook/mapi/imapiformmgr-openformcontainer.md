@@ -23,9 +23,9 @@ ms.locfileid: "32321639"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Открывает интерфейс [IMAPIFormContainer](imapiformcontaineriunknown.md) для определенного контейнера формы. 
+Открывает интерфейс [IMAPIFormContainer](imapiformcontaineriunknown.md) для определенного контейнера форм. 
   
 ```cpp
 HRESULT OpenFormContainer(
@@ -35,11 +35,11 @@ HRESULT OpenFormContainer(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _hfrmreg_
   
-> [in] Enumeration HFRMREG that indicates the form library to open (that is, the form container to open). Enumeration HFRMREG — это enumeration, специфичной для поставщика библиотеки форм. Возможные значения HFRMREG:
+> [in] Перемерение HFRMREG, которое указывает на открытие библиотеки форм (то есть открыть контейнер формы). Переименовка HFRMREG — это переумерия, специфичного для поставщика библиотеки форм. Возможные значения HFRMREG включают следующие:
     
 HFRMREG_DEFAULT 
   
@@ -51,7 +51,7 @@ HFRMREG_FOLDER
     
 HFRMREG_PERSONAL 
   
-> Контейнер для хранения сообщений по умолчанию. 
+> Контейнер для магазина сообщений по умолчанию. 
     
 HFRMREG_LOCAL 
   
@@ -59,11 +59,11 @@ HFRMREG_LOCAL
     
  _lpunk_
   
-> [in] Указатель на объект, для которого открыт интерфейс. Параметр  _lpunk_ должен иметь значение **NULL,** если для значения  _параметра hfrmreg_ не требуется указатель объекта. 
+> [in] Указатель на объект, для которого открыт интерфейс. Параметр  _lpunk_ должен быть **null,** если для  _параметра hfrmreg_ не требуется указатель объекта. 
     
  _lppfcnt_
   
-> [out] Указатель на указатель на возвращенный объект контейнера формы.
+> [вышел] Указатель на указатель на объект контейнера возвращаемой формы.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -77,13 +77,13 @@ MAPI_E_NO_INTERFACE
     
 ## <a name="remarks"></a>Примечания
 
-Посетители форм звонят **методу IMAPIFormMgr::OpenFormContainer,** чтобы открыть **интерфейс IMAPIFormContainer** для определенного контейнера формы. Затем этот интерфейс можно использовать для установки форм и удаления форм из контейнера форм. 
+Зрители формы звонят по методу **IMAPIFormMgr::OpenFormContainer,** чтобы открыть **интерфейс IMAPIFormContainer** для определенного контейнера форм. Затем этот интерфейс можно использовать для установки форм в контейнер формы и удаления их из контейнера форм. 
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-Если значение в _hfrmreg_ HFRMREG_FOLDER, идентификатор интерфейса, используемый в _lpunk,_ должен быть ненулев и разрешит вызовы метода [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) к интерфейсу [IMAPIFolder.](imapifolderimapicontainer.md)  
+Если значение _в hfrmreg_ HFRMREG_FOLDER, идентификатор интерфейса, используемый в _lpunk,_ должен быть ненульным и должен позволять [методу IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) звонить в интерфейс [IMAPIFolder.](imapifolderimapicontainer.md)  
   
-Чтобы открыть локальный контейнер формы, необходимо использовать вызов метода **OpenFormContainer** или функции [MAPIOpenLocalFormContainer;](mapiopenlocalformcontainer.md) Вы не можете использовать метод [IMAPIFormMgr::SelectFormContainer,](imapiformmgr-selectformcontainer.md) чтобы позволить пользователю выбрать локальный контейнер формы. 
+Чтобы открыть локальный контейнер формы, необходимо использовать вызов метода **OpenFormContainer** или [функции MAPIOpenLocalFormContainer;](mapiopenlocalformcontainer.md) Вы не можете использовать [метод IMAPIFormMgr::SelectFormContainer,](imapiformmgr-selectformcontainer.md) чтобы позволить пользователю выбрать локальный контейнер формы. 
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -91,7 +91,7 @@ MAPI_E_NO_INTERFACE
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnOpenFormContainer  <br/> |MFCMAPI использует метод **IMAPIFormMgr::OpenFormContainer** для получения контейнера формы, чтобы можно было отрисовывать содержимое контейнера.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnOpenFormContainer  <br/> |MFCMAPI использует **метод IMAPIFormMgr::OpenFormContainer** для получения контейнера формы, чтобы можно было отрисовывать содержимое контейнера.  <br/> |
 |MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnOpenFormContainer  <br/> |MFCMAPI использует метод **IMAPIFormMgr::OpenFormContainer** для получения контейнера формы для папки, чтобы можно было отрисовывать содержимое контейнера.  <br/> |
    
 ## <a name="see-also"></a>См. также

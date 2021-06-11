@@ -17,11 +17,11 @@ ms.locfileid: "32330179"
 ---
 # <a name="implementing-iunknown-in-c"></a>Реализация IUnknown в C++
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Реализация методов [IUnknown::QueryInterface,](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)и [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) интерфейса [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) в C++ довольно проста. После стандартной проверки переданных параметров реализация **QueryInterface** проверяет идентификатор запрашиваемого интерфейса по списку поддерживаемых интерфейсов. Если среди поддерживаемых является запрашиваемого идентификатора, то  будет вызван **AddRef,** и будет возвращен этот указатель. Если запрашиваемая идентификация не указана в поддерживаемом списке, для указателя вывода устанавливается значение NULL, MAPI_E_INTERFACE_NOT_SUPPORTED возвращается значение. 
+Реализация [методов IUnknown::QueryInterface,](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)и [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) интерфейса [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) в C++ довольно проста. После некоторой стандартной проверки параметров, которые передаются, реализация **QueryInterface** проверяет идентификатор запрашиваемого интерфейса со списком поддерживаемых интерфейсов. Если запрашиваемого идентификатора среди поддерживаемых, **addRef** называется и **этот** указатель возвращается. Если запрашиваемая идентификация не указана в поддерживаемом списке, указатель вывода устанавливается на NULL и MAPI_E_INTERFACE_NOT_SUPPORTED возвращается. 
   
-В следующем примере кода показано, как реализовать **QueryInterface** в C++ для объекта состояния, объекта, который является подклассом [интерфейса IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) **IMAPIStatus** наследуется от **IUnknown** через [IMAPIProp : IUnknown](imapipropiunknown.md). Таким образом, если звоняя запросит какой-либо из этих интерфейсов, этот указатель может быть возвращен, так как интерфейсы связаны посредством наследования.  
+В следующем примере кода показано, как реализовать **QueryInterface** в C++ для объекта состояния, объекта, который является подклассом [интерфейса IMAPIStatus: IMAPIProp.](imapistatusimapiprop.md) **IMAPIStatus** наследует **от IUnknown** через [IMAPIProp: IUnknown](imapipropiunknown.md). Поэтому, если вызываемая запроса для любого  из этих интерфейсов, этот указатель может быть возвращен, так как интерфейсы связаны с наследованием. 
   
 ```cpp
 HRESULT CMyMAPIObject::QueryInterface (REFIID   riid,
@@ -44,7 +44,7 @@ HRESULT CMyMAPIObject::QueryInterface (REFIID   riid,
 
 ```
 
-В следующем примере кода показано, как реализовать методы **AddRef** и **Release** для  `CMyMAPIObject` объекта. Так как **реализовать AddRef** и **Release** просто, многие поставщики услуг выбирают их встройку. Вызовы функций Win32 **InterlockedIncrement** и **InterlockedDecrement** обеспечивают потокобезопасную работу. Память для объекта освобождается деструктором, который называется при удалении объекта методом **Release.** 
+В следующем примере кода показано, как реализовать **методы AddRef** и **Release** для  `CMyMAPIObject` объекта. Так как **реализация AddRef и** **Release** проста, многие поставщики услуг предпочитают внедрять их встройку. Вызовы функций Win32 **InterlockedIncrement** и **InterlockedDecrement** обеспечивают безопасность потока. Память объекта освобождается деструктором, который называется при  удалении объекта методом Release. 
   
 ```cpp
 ULONG CMyMAPIObject::AddRef()

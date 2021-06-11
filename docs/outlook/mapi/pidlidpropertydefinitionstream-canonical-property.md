@@ -23,23 +23,23 @@ ms.locfileid: "32315941"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Представляет определения пользовательских полей и параметров привязки данных встроенных полей сообщения.
+Представляет определения определенных пользователем полей и параметры привязки данных встроенных полей сообщения.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidPropDefStream  <br/> |
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008540  <br/> |
+|Long ID (LID):  <br/> |0x00008540  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Настройка времени запуска  <br/> |
+|Область:  <br/> |Конфигурация времени запуска  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Значение свойства **PidLidPropertyDefinitionStream** сохранено как часть пользовательского определения формы для сообщения. 
+Значение свойства **PidLidPropertyDefinitionStream** сохранено в рамках настраиваемого определения формы для сообщения. 
   
-Значение этого свойства — двоичный поток. Сведения о структуре этого потока см. в структуре [потока PropertyDefinition.](propertydefinition-stream-structure.md) 
+Значение этого свойства — двоичный поток. Сведения о структуре этого потока см. в [разделе PropertyDefinition Stream Structure.](propertydefinition-stream-structure.md) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -47,9 +47,9 @@ ms.locfileid: "32315941"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -59,9 +59,9 @@ Mapidefs.h
 
 
 
-[Элементы и поля Outlook](outlook-items-and-fields.md)
+[Outlook Элементы и поля](outlook-items-and-fields.md)
   
-[Добавление определения для нового поля User-Defined](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Добавление определения для нового User-Defined поля](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [Пример потока PropertyDefinition](propertydefinition-stream-sample.md)
   
@@ -71,5 +71,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

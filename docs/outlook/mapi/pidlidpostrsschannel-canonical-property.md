@@ -23,15 +23,15 @@ ms.locfileid: "32315983"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит содержимое поля заголовка из XML канала Atom или \< \> \< \> RSS-канала. \< \>
+Содержит содержимое поля заголовка из XML канала \< \> Atom \< или \> RSS. \< \>
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidPostRssChannel  <br/> |
 |Набор свойств:  <br/> |PSETID_PostRss  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x00008904  <br/> |
+|Long ID (LID):  <br/> |0x00008904  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |RSS  <br/> |
    
@@ -41,13 +41,13 @@ ms.locfileid: "32315983"
 
 [[MS-OXPROPS] ](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
 > Указывает свойства и операции, которые представляют элементы RSS.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -63,5 +63,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -21,9 +21,9 @@ ms.locfileid: "32336640"
 ---
 # <a name="iconvertersessionsetsaveformat"></a>IConverterSession::SetSaveFormat
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Задает формат, в котором преобразователь вернет поток MIME в [IConverterSession::MAPIToMIMEStm.](iconvertersession-mapitomimestm.md)
+Задает формат, в котором конвертер вернет поток MIME в [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   
 ```cpp
 HRESULT IConverterSession::SetSaveFormat ( 
@@ -31,14 +31,14 @@ HRESULT IConverterSession::SetSaveFormat (
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _mstSaveFormat_
   
-> [in] Формат сохранения, используемый для потока MIME. Дополнительные сведения см. в типе [enum MIMESAVETYPE.](https://msdn.microsoft.com/library/ms715128%28VS.85%29.aspx)
+> [in] Формат сохранения, используемый для потока MIME. Дополнительные сведения см. в виде [enum MIMESAVETYPE.](https://msdn.microsoft.com/library/ms715128%28VS.85%29.aspx)
     
-  - **SAVE_RFC1521:** используйте MIME, который используется по умолчанию.      
-  - **SAVE_RFC822:** используйте uuencode.
+  - **SAVE_RFC1521:** Используйте MIME, который является по умолчанию.      
+  - **SAVE_RFC822:** Используйте uuencode.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -52,8 +52,8 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI использует MimeToMAPI для преобразования EML-файла в сообщение MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI использует MAPIToMIMEStm для преобразования сообщения MAPI в EML-файл.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI использует MimeToMAPI для преобразования файла EML в сообщение MAPI.  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI использует MAPIToMIMEStm для преобразования сообщения MAPI в файл EML.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

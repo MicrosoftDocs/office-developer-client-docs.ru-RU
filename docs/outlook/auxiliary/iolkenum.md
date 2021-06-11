@@ -15,30 +15,30 @@ ms.locfileid: "32322101"
 ---
 # <a name="iolkenum"></a>IOlkEnum
 
-Поддерживается enumerating accounts as [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) objects. 
+Поддерживает учетные записи в качестве [объектов IUnknown.](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) 
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Наследуется от:  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
+|Наследует от:  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
 |Реализовано в:  <br/> |Outlook  <br/> |
 |Предоставлено:  <br/> |[IOlkAccountManager::EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |
 |Вызывающая сторона:  <br/> |Клиент  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IOlkEnum  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[GetCount](iolkenum-getcount.md) <br/> |Получает количество учетных записей в этом коде.  <br/> |
-|[Reset](iolkenum-reset.md) <br/> |Сбрасывает enumerator в начало.  <br/> |
-|[GetNext](iolkenum-getnext.md) <br/> |Получает следующую учетную запись в enumerator.  <br/> |
-|[Skip](iolkenum-skip.md) <br/> |Пропускает указанное количество учетных записей в enumerator.  <br/> |
+|[GetCount](iolkenum-getcount.md) <br/> |Получает количество учетных записей в этом переуметоре.  <br/> |
+|[Reset](iolkenum-reset.md) <br/> |Сбрасывает переустановку в начале.  <br/> |
+|[GetNext](iolkenum-getnext.md) <br/> |Получает следующую учетную запись в переуметоре.  <br/> |
+|[Skip](iolkenum-skip.md) <br/> |Пропускает указанное количество учетных записей в этом переуметоре.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Этот интерфейс возвращается **IOlkAccountManager::EnumerateAccounts** при получении нумератора учетных записей. 
+Этот интерфейс возвращается **IOlkAccountManager::EnumerateAccounts** при получении переучета учетных записей. 
   
 ## <a name="see-also"></a>См. также
 

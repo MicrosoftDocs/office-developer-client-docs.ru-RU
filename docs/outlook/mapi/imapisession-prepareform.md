@@ -23,7 +23,7 @@ ms.locfileid: "32335768"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Создает числовые маркеры, которые метод [IMAPISession::ShowForm](imapisession-showform.md) использует для доступа к сообщению. 
   
@@ -35,11 +35,11 @@ HRESULT PrepareForm(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
-> [in] Указатель на идентификатор интерфейса ( IID), который представляет интерфейс, используемый для доступа к сообщению. Передача **null** приводит к выбору стандартного интерфейса [или использования IMessage.](imessageimapiprop.md) Параметр  _lpInterface_ должен **иметь** IID_IMessage. 
+> [in] Указатель на идентификатор интерфейса (IID), который представляет интерфейс, используемый для доступа к сообщению. Передача **null** приводит к стандартному интерфейсу или [используемой IMessage.](imessageimapiprop.md) Параметр _lpInterface должен_ быть null или **IID_IMessage.** 
     
  _lpMessage_
   
@@ -47,7 +47,7 @@ HRESULT PrepareForm(
     
  _lpulMessageToken_
   
-> [out] Указатель на маркер сообщения, который используется методом **IMAPISession::ShowForm** для доступа к сообщению, на которое указывает _lpMessage._
+> [вышел] Указатель на маркер сообщения, который используется методом **IMAPISession::ShowForm** для доступа к сообщению, на которое указывает _lpMessage._
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -57,11 +57,11 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Метод **IMAPISession::P repareForm** создает маркер сообщения, на которое указывает параметр  _lpMessage,_ и вызывает метод [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) сообщения. Этот маркер передается в _параметре ulMessageToken_ в **IMAPISession::ShowForm.** 
+Метод **IMAPISession::P repareForm** создает маркер сообщения для сообщения, на который указывает параметр _lpMessage,_ и вызывает метод [IUnknown::AddRef.](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) Этот маркер передается в _параметре ulMessageToken_ **в IMAPISession::ShowForm.** 
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-Если вызов **PrepareForm** будет успешным, отпустите сообщение, на которое указывает _lpMessage,_ путем вызова метода [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) перед вызовом **ShowForm.** Невыполнение сообщения перед вызовом **ShowForm** может привести к утечке памяти. 
+Если вызов **PrepareForm** удался, отпустите сообщение, на которое указывает _lpMessage,_ позвонив по его методу [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) перед вызовом **ShowForm.** Невыполнение сообщения перед вызовом **ShowForm** может привести к утечке памяти. 
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -69,7 +69,7 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI использует метод **IMAPISession::P repareForm** вместе с **IMAPISession::ShowForm** для отображения сообщения в модальной форме.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI использует метод **IMAPISession::P repareForm,** а также **IMAPISession::ShowForm** для отображения сообщения в модальной форме.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -96,7 +96,7 @@ DEFINE_GUID(IID_IConverterSession, 0x4b401570, 0xb77b, 0x11d0, 0x9d, 0xa5, 0x0, 
 |E_NOINTERFACE  <br/> | *Определено в файле заголовка winerror.h пакета Windows SDK*  <br/> |
 |MAPIOFFLINE_ADVISE_DEFAULT  <br/> |(ULONG) 0  <br/> |
 |MAPIOFFLINE_UNADVISE_DEFAULT  <br/> |(ULONG) 0  <br/> |
-|MAPIOFFLINE_ADVISE_TYPE_STATECHANGE  <br/> |1   <br/> |
+|MAPIOFFLINE_ADVISE_TYPE_STATECHANGE  <br/> |1  <br/> |
 |MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |0x1  <br/> |
 |MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |0x2  <br/> |
 |MAPIOFFLINE_FLAG_BLOCK  <br/> |0x00002000  <br/> |
@@ -267,7 +267,7 @@ const MAPIUID g_muidProvPrvNST =
 |MDB_OST_LOGON_ANSI  <br/> |((ULONG) 0x00001000)  <br/> |
 |SHOW_SOFT_DELETES  <br/> |((ULONG) 0x00000002)  <br/> |
 |SS_ACTIVE  <br/> |0  <br/> |
-|SS_SUSPENDED  <br/> |1   <br/> |
+|SS_SUSPENDED  <br/> |1  <br/> |
 |SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |
 |SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |
 |SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |

@@ -23,9 +23,9 @@ ms.locfileid: "32336626"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит ИД шаблона, используемого для поиска.
+Содержит ID шаблона, используемого для поиска.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ ms.locfileid: "32336626"
    
 ## <a name="remarks"></a>Примечания
 
-Критерии папки поиска заданы шаблоном. Это свойство в сообщении, которое определяет папку поиска, определяет соответствующий шаблон. Помимо определения критериев поиска, шаблон также определяет папки, которые необходимо исключить из поиска, определяет элементы, которые необходимо исключить из поиска, и указывает значение **PR_WB_SF_STORAGE_TYPE** ([PidTagSearchFolderStorageType).](pidtagsearchfolderstoragetype-canonical-property.md)
+Критерии папки поиска заданы шаблоном. Это свойство в сообщении, определяемом папкой поиска, определяет соответствующий шаблон. В дополнение к определению критериев поиска шаблон также определяет папки для исключения из поиска, определяет элементы, исключающие из поиска, и указывает значение **PR_WB_SF_STORAGE_TYPE** [(PidTagSearchFolderStorageType).](pidtagsearchfolderstoragetype-canonical-property.md)
   
-Дополнительные сведения о шаблонах папок поиска см. [в [MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx) . 
+Дополнительные сведения о шаблонах папки поиска [см. в [MS-OXOSRCH].](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,9 +50,9 @@ ms.locfileid: "32336626"
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Указывает свойства и операции для управления конфигурацией списка папок поиска.
+> Указывает свойства и операции для управления конфигурацией списка папки поиска.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -72,5 +72,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

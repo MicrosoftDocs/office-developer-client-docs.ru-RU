@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: eff6d5d6-8855-4e54-a781-9deab8cc0aca
-description: В этом разделе описываются поддерживаемые языки программирования, требования к типу видимости COM и возвращаемого метода, а также сведения о DLL-коде для возможности extensibility поставщика Outlook Social Connector (OSC).
+description: В этом разделе описываются поддерживаемые языки программирования, требования к типам возврата com и возвращаемого метода, а также сведения о Outlook поставщике Outlook поставщике extensibility DLL.
 ms.openlocfilehash: 14dfcf52d714177775c5610b5da91d174f81a132
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,48 +17,48 @@ ms.locfileid: "32329157"
 ---
 # <a name="technical-requirements"></a>Технические требования
 
-В этом разделе описываются поддерживаемые языки программирования, требования к типу видимости COM и возвращаемого метода, а также сведения о DLL extensibility поставщика Outlook Social Connector (OSC). 
+В этом разделе описываются поддерживаемые языки программирования, требования к типам возврата com и возвращаемого метода, а также сведения о Outlook поставщике Outlook поставщике extensibility DLL. 
   
-## <a name="programming-language-and-com-requirements"></a>Язык программирования и требования COM
+## <a name="programming-language-and-com-requirements"></a>Язык программирования и требования com
 
-Вы можете создать поставщика OSC с помощью управляемых языков, таких как Visual C# или Visual Basic, или неугодных языков, таких как Visual C++. Для разработки поставщика OSC можно использовать любое средство, которое может создать компонент DLL, видимый com. При принятии решения об использовании управляемого или неугодного языка для разработки поставщика следует учитывать размер скачивания и зависимости пакета установки поставщика.
+Вы можете создать поставщика OSC с помощью управляемых языков, таких как Visual C# или Visual Basic, или неугодных языков, таких как Visual C++. Для разработки поставщика OSC можно использовать любой инструмент, который может создать компонент DLL, видимый в COM. При решении использовать управляемый или неустановимый язык для разработки поставщика следует учитывать размер загрузки и зависимости пакета установки поставщика.
   
-Поставщик OSC должен быть видимым com, как определено в следующих данных:
+Поставщик OSC должен быть com-видимым в соответствии со следующими следующими словами:
   
 - После установки поставщик OSC должен быть зарегистрирован с помощью самостоятельной регистрации COM или regsvr32.
     
-- Регистрация DLL поставщика OSC com регистрирует поставщика в HKCU или HKLM. 
+- Регистрация поставщика поставщиков OSC DLL регистрирует поставщика в HKCU или HKLM. 
     
-- ProgID поставщика зарегистрирован в  `HKCU\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders` .
+- ProgID поставщика регистрируется под  `HKCU\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders` .
     
-- Поставщик OSC, разработанный на управляемом языке, виден COM.
+- Поставщик OSC, разработанный на управляемом языке, является com-видимым.
     
-- Поставщик OSC должен добавить в реестр Windows значения, которые указывают, что DLL поставщика поддерживает однопоточная модель однопотоковой однопотоковой многопоточной модели многопотоковых многопотоковых окон (MTA). Дополнительные сведения о моделях потоков COM см. в описании и работе моделей [потоков OLE.](https://support.microsoft.com/kb/150777)
+- Поставщик OSC должен добавить значения в реестр Windows, которые указывают на то, что поставщик DLL поддерживает как однопотовые модели потоков квартиры (STA) так и многопотоковые модели потоков квартиры (MTA). Дополнительные сведения о моделях потоков com см. в описании и [работе моделей потоков OLE.](https://support.microsoft.com/kb/150777)
     
-Методы в extensibility поставщика OSC должны возвращать примитивные типы, такие как **строка** или **bool.** Некоторые  возвращаемые строки должны соответствовать определению схемы для возможности extensibility поставщика OSC. В качестве возвращаемой величины поддерживается только XML. 
+Методы в extensibility поставщика OSC должны возвращать примитивные типы, такие как **строка** **или бол.** Некоторые **значения возврата** строки должны соответствовать определению схемы для extensibility поставщика OSC. Только XML поддерживается как возвращаемая величина. 
   
-## <a name="details-of-the-osc-provider-extensibility-dll"></a>Сведения о DLL для extensibility поставщика OSC
+## <a name="details-of-the-osc-provider-extensibility-dll"></a>Сведения о поставщике extensibility DLL поставщика OSC
 
-Компонентом, который поддерживает возможности extensibility поставщика OSC, является DLL для extensibility поставщика OSC. Сторонние разработчики могут создавать DLL поставщика OSC с помощью этих интерфейсов. В следующем списке показаны сведения о DLL для extensibility поставщика OSC:
+Компонент, который поддерживает удлиняемость поставщика OSC, — это DLL поставщика extensibility OSC. Сторонние разработчики могут создавать DLL-интерфейсы поставщика OSC с помощью этих интерфейсов. В следующем списке показаны сведения о DLL поставщика extensibility osC:
   
-- Имя файла DLL для extensibility: socialprovider.dll
+- Имя файла DLL: socialprovider.dll
     
-- Удобное имя DLL для extensibility: Microsoft Outlook Social Provider Extensibility
+- Удобное имя DLL: Microsoft Outlook для социальных поставщиков
     
-- Основная версия DLL для extensibility: 15.0
+- Основная версия DLL: 15.0
     
-- Extensibiilty DLL TypeLib, версия: 1.1
+- Extensibiilty DLL TypeLib версии: 1.1
     
-## <a name="miscellaneous-technical-information"></a>Прочие технические сведения
+## <a name="miscellaneous-technical-information"></a>Различные технические сведения
 
 Нотация объектов JavaScript (JSON) не поддерживается в модели extensibility поставщика OSC.
   
-Нет зависимостей от синтаксической разбиения XML. Поставщик OSC может использовать синтаксическая программа синтаксики XML, включаемая в Office, например MSXML (MSXML), использовать возможности синтаксики XML, встроенные в Microsoft .NET Framework, или сторонний синтаксик XML. 
+Нет зависимостей от XML-parser. Поставщик OSC может использовать XML-parser, включенный в Office, например MSXML (MSXML), использовать возможности XML-разреза, встроенные в microsoft платформа .NET Framework, или использовать сторонний синтаксик XML. 
   
 ## <a name="see-also"></a>См. также
 
-- [Best Practices for Developing a Provider](best-practices-for-developing-a-provider.md)  
-- [Быстрые шаги по обучению разработке поставщика](quick-steps-for-learning-to-develop-a-provider.md)
+- [Лучшие практики для разработки поставщика](best-practices-for-developing-a-provider.md)  
+- [Быстрые шаги для обучения разработке поставщика](quick-steps-for-learning-to-develop-a-provider.md)
 - [Развертывание поставщика](deploying-a-provider.md)  
-- [Начало разработки поставщика Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md)
+- [Начало работы с разработкой Outlook поставщика социальных соединители](getting-started-with-developing-an-outlook-social-connector-provider.md)
 

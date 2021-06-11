@@ -10,7 +10,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8660c701-f7f4-8d92-7984-5dae7f677783
-description: 'Last modified: September 20, 2017'
+description: 'Последнее изменение: 20 сентября 2017 г.'
 ms.openlocfilehash: 55c547c4dae1acc3e9874edc7778f53a5d34f957
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "32326946"
 # <a name="iconvertersessionmapitomimestm"></a>IConverterSession::MAPIToMIMEStm
  
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Преобразует сообщение MAPI в поток MIME.
   
@@ -33,15 +33,15 @@ HRESULT IConverterSession::MAPIToMIMEStm(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _pmsg_
   
-> [in] Указатель на сообщение, которое необходимо преобразовать. Определение типа **LPMESSAGE** см. в mapidefs.h.
+> [in] Указатель на сообщение для преобразования. См. mapidefs.h для определения типа **LPMESSAGE**.
     
  _pstm_
   
-> [out] [Интерфейс IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) для вывода потока. 
+> [вышел] [Интерфейс IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) для вывода потока. 
     
  _ulFlags_
   
@@ -49,53 +49,53 @@ HRESULT IConverterSession::MAPIToMIMEStm(
     
 CCSF_8BITHEADERS
   
-> Преобразователь должен разрешить 8-битные headers.
+> Конвертер должен разрешить 8-битные заготки.
     
 CCSF_EMBEDDED_MESSAGE
   
-> Отправленные или неавентные сведения сохраняются в X-Unsent.
+> В X-Unsent сохраняется отправленная/неослабеваемая информация.
     
 CCSF_GLOBAL_MESSAGE
   
-> Преобразователь должен создать международное сообщение (EAI/RFC6530).
+> Конвертер должен создать международное сообщение (EAI/RFC6530).
     
 CCSF_INCLUDE_BCC
   
-> Получатели сообщения MAPI должны быть включены в поток MIME.
+> Получатели сообщения MAPI BCC должны быть включены в поток MIME.
     
 CCSF_NO_MSGID
   
-> Не включаем Message-Id поле в исходяющие сообщения.
+> Не включай Message-Id поле в исходяние сообщений.
     
 CCSF_NOHEADERS
   
-> Преобразователь должен игнорировать заглавные тексты внешнего сообщения.
+> Преобразователь должен игнорировать заглавные главы внешнего сообщения.
     
 CCSF_PLAIN_TEXT_ONLY
   
-> Преобразователь должен просто отправить обычный текст.
+> Конвертер должен просто отправить простой текст.
     
 CCSF_SMTP
   
-> Преобразователь передается smTP-сообщение. Этот флаг всегда должен быть установлен.
+> Преобразователь передает сообщение SMTP. Этот флаг всегда должен быть заданной.
     
 CCSF_USE_RTF
   
-> Преобразователь в сообщении MIME должен преобразовываться из формата HTML в формат RTF.
+> Конвертер должен преобразовать из ФОРМАТа HTML в формат RTF в сообщении MIME.
     
 CCSF_USE_TNEF
   
-> Преобразователь должен использовать формат TNEF в сообщении MIME.
+> Конвертер должен использовать формат транспортной нейтральной инкапсуляции (TNEF) в сообщении MIME.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 E_INVALIDARG
   
-> Были переданы недопустимые флаги,  *или pmsg*  или  *pstm*  имеет NULL. 
+> Недействительные флаги были переданы,  *или pmsg*  или  *pstm*  является NULL. 
     
 ## <a name="remarks"></a>Примечания
 
-Поддерживается только для стандартных типов сообщений Outlook.
+Поддерживается только для стандартных типов Outlook сообщений.
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -103,8 +103,8 @@ E_INVALIDARG
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI использует MimeToMAPI для преобразования EML-файла в сообщение MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI использует MAPIToMIMEStm для преобразования сообщения MAPI в EML-файл.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI использует MimeToMAPI для преобразования файла EML в сообщение MAPI.  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI использует MAPIToMIMEStm для преобразования сообщения MAPI в файл EML.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

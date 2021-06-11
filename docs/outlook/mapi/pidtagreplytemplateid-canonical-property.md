@@ -23,7 +23,7 @@ ms.locfileid: "32327813"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит глобальный уникальный идентификатор (GUID) для шаблона ответа.
   
@@ -32,7 +32,7 @@ ms.locfileid: "32327813"
 |Связанные свойства:  <br/> |PR_REPLY_TEMPLATE_ID  <br/> |
 |Идентификатор:  <br/> |0x65C2  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Rules  <br/> |
+|Область:  <br/> |Правила  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -44,9 +44,9 @@ ms.locfileid: "32327813"
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> Управляет входящие сообщения электронной почты на сервере.
+> Манипулирует входящие сообщения электронной почты на сервере.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -66,5 +66,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

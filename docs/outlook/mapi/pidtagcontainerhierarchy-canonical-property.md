@@ -23,9 +23,9 @@ ms.locfileid: "32332860"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит встроенный объект таблицы иерархии, который предоставляет сведения о child containers. 
+Содержит встроенный объект таблицы иерархии, который предоставляет сведения о детских контейнерах. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ ms.locfileid: "32332860"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство можно исключить в операциях [IMAPIProp::CopyTo](imapiprop-copyto.md) или включить в операции [IMAPIProp::CopyProps.](imapiprop-copyprops.md) В качестве свойства типа **PT_OBJECT** его не удается получить с помощью метода [IMAPIProp::GetProps;](imapiprop-getprops.md) Доступ к его содержимому должен получить метод [IMAPIProp::OpenProperty,](imapiprop-openproperty.md) запрашивающий идентификатор IID_IMAPITable интерфейса. Поставщики служб должны сообщить об этом методу [IMAPIProp::GetPropList,](imapiprop-getproplist.md) если он установлен, но при желании может сообщить о нем или нет, если он не установлен. 
+Это свойство можно исключить в [операциях IMAPIProp::CopyTo](imapiprop-copyto.md) или включить в [операции IMAPIProp::CopyProps.](imapiprop-copyprops.md) Как свойство типа **PT_OBJECT,** его невозможно успешно получить [методом IMAPIProp::GetProps;](imapiprop-getprops.md) Его содержимое должно быть доступны [методом IMAPIProp::OpenProperty,](imapiprop-openproperty.md) запрашивая идентификатор IID_IMAPITable интерфейса. Поставщики услуг должны сообщить об этом [методу IMAPIProp::GetPropList,](imapiprop-getproplist.md) если он за установлен, но может сообщить об этом или нет, если он не установлен. 
   
-Чтобы получить содержимое таблицы, клиентские приложения должны вызвать [метод IMAPIContainer::GetHierarchyTable.](imapicontainer-gethierarchytable.md) Дополнительные сведения см. [в таблицах иерархии.](hierarchy-tables.md) 
+Чтобы получить содержимое таблицы, клиентская заявка должна вызвать [метод IMAPIContainer::GetHierarchyTable.](imapicontainer-gethierarchytable.md) Дополнительные сведения см. в [таблице Иерархия.](hierarchy-tables.md) 
   
- **PR_CONTAINER_CONTENTS** ([PidTagContainerContents),](pidtagcontainercontents-canonical-property.md) **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents),](pidtagfolderassociatedcontents-canonical-property.md)и это свойство похожи в использовании. Доступ к таблицам предоставляется несколькими свойствами MAPI: 
+ **PR_CONTAINER_CONTENTS** [(PidTagContainerContents),](pidtagcontainercontents-canonical-property.md) **PR_FOLDER_ASSOCIATED_CONTENTS** [(PidTagFolderAssociatedContents),](pidtagfolderassociatedcontents-canonical-property.md)и это свойство аналогично по использованию. Несколько свойств MAPI предоставляют доступ к таблицам: 
   
 |**Property**|**Table**|
 |:-----|:-----|
-|**PR_CONTAINER_CONTENTS** ([PidTagContainerContents)](pidtagcontainercontents-canonical-property.md)  <br/> |Таблица Contents  <br/> |
-|**PR_CONTAINER_HIERARCHY** <br/> |Таблица Hierarchy  <br/> |
-|**PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents)](pidtagfolderassociatedcontents-canonical-property.md)  <br/> |Связанная таблица содержимого  <br/> |
-|**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments)](pidtagmessageattachments-canonical-property.md)  <br/> |Таблица Attachment  <br/> |
-|**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients)](pidtagmessagerecipients-canonical-property.md)  <br/> |Таблица Recipient  <br/> |
+|**PR_CONTAINER_CONTENTS** [(PidTagContainerContents)](pidtagcontainercontents-canonical-property.md)  <br/> |Таблица контента  <br/> |
+|**PR_CONTAINER_HIERARCHY** <br/> |Таблица иерархии  <br/> |
+|**PR_FOLDER_ASSOCIATED_CONTENTS** [(PidTagFolderAssociatedContents)](pidtagfolderassociatedcontents-canonical-property.md)  <br/> |Связанная таблица контента  <br/> |
+|**PR_MESSAGE_ATTACHMENTS** [(PidTagMessageAttachments)](pidtagmessageattachments-canonical-property.md)  <br/> |Таблица вложений  <br/> |
+|**PR_MESSAGE_RECIPIENTS** [(PidTagMessageRecipients)](pidtagmessagerecipients-canonical-property.md)  <br/> |Таблица получателей  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -64,9 +64,9 @@ ms.locfileid: "32332860"
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Преобразуется между IETF RFC2445, RFC2446 и RFC2447, а также объектами встреч и собраний.
+> Преобразования между объектами IETF RFC2445, RFC2446 и RFC2447, а также объектами назначения и собраний.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -86,5 +86,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

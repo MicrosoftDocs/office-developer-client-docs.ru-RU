@@ -23,22 +23,22 @@ ms.locfileid: "32316333"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит сведения о любых именуемых свойствах, содержащихся в расширенных условиях правил.
+Содержит сведения о любых имениных свойствах, содержащихся внутри условий расширенного правила.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_EXTENDED_RULE_MSG_CONDITION  <br/> |
 |Идентификатор:  <br/> |0x0E9A  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Rules  <br/> |
+|Область:  <br/> |Правила  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство должно быть установлено в сообщении FAI. Он служит той же цели, **что и PR_RULE_CONDITION** ([PidTagRuleCondition),](pidtagrulecondition-canonical-property.md)но содержит дополнительные сведения об используемых именуемых свойствах. Все строки, содержащиеся в любой части этого значения свойства условия, должны быть в формате Юникод.
+Это свойство должно быть задавано в сообщении FAI. Он служит той же **цели, что и PR_RULE_CONDITION** [(PidTagRuleCondition),](pidtagrulecondition-canonical-property.md)но содержит дополнительные сведения об используемых свойствах с именем. Все значения строк, содержащиеся в любой части этого свойства условия, должны быть в формате Unicode.
   
-Сведения о формате этого двоичного свойства см. [в [MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
+Сведения о формате этого двоичного свойства см. [в сайте [MS-OXORULE].](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,9 +50,9 @@ ms.locfileid: "32316333"
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> Управляет входящие сообщения электронной почты на сервере.
+> Манипулирует входящие сообщения электронной почты на сервере.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -72,5 +72,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

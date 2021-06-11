@@ -23,22 +23,22 @@ ms.locfileid: "32316347"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит максимальный размер (в bytes), который пользователь может накапливать для одного "расширенного" правила.
+Содержит максимальный размер, в bytes, пользователь может накапливаться для одного "расширенного" правила.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_EXTENDED_RULE_SIZE_LIMIT  <br/> |
 |Идентификатор:  <br/> |0x0E9B  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Rules  <br/> |
+|Область:  <br/> |Правила  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если это свойство задано для объекта для логотипа, клиент должен сохранить размер свойства **PR_EXTENDED_RULE_MSG_CONDITION** ([PidTagExtendedRuleMessageCondition)](pidtagextendedrulemessagecondition-canonical-property.md)под значением, указанным этим свойством. И наоборот, сервер должен возвращать ошибку, если клиент пытается установить слишком большое двоичное свойство.
+Если это свойство задано на объекте logon, клиент должен сохранить размер свойства **PR_EXTENDED_RULE_MSG_CONDITION** [(PidTagExtendedRuleMessageCondition)](pidtagextendedrulemessagecondition-canonical-property.md)под значением, заданным этим свойством. И наоборот, сервер должен возвращать ошибку, если клиент пытается установить слишком большое двоичное свойство.
   
-Сведения о расширенных правилах см. [в [MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
+Сведения о расширенных правилах см. [в [MS-OXORULE].](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -52,7 +52,7 @@ ms.locfileid: "32316347"
   
 > Указывает допустимые операции для основных объектов хранения сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -72,5 +72,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

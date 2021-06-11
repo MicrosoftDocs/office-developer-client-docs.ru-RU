@@ -23,9 +23,9 @@ ms.locfileid: "32336360"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит данные, которые заданы условия поиска.
+Содержит данные, указанные в критериях поиска.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "32336360"
    
 ## <a name="remarks"></a>Примечания
 
-Конкретное содержимое каждого поля двоичного большого объекта (BLOB), содержащихся в этом свойстве, зависит от кода шаблона, указанного в свойстве **PidTagSearchFolderTemplateId** [(PidTagSearchFolderTemplateId).](pidtagsearchfoldertemplateid-canonical-property.md) Сведения о структуре BLOB и шаблонах поиска см. [в [MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). 
+Определенное содержимое каждого поля двоичного большого объекта (BLOB), содержащихся в этом свойстве, зависит от кода шаблона, указанного в **свойстве PidTagSearchFolderTemplateId** [(PidTagSearchFolderTemplateId).](pidtagsearchfoldertemplateid-canonical-property.md) Сведения о структуре BLOB и шаблонах поиска см. [в [MS-OXOSRCH].](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,9 +48,9 @@ ms.locfileid: "32336360"
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Указывает свойства и операции для управления конфигурацией списка папок поиска.
+> Указывает свойства и операции для управления конфигурацией списка папки поиска.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -70,5 +70,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

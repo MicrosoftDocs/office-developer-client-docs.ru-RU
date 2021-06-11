@@ -23,7 +23,7 @@ ms.locfileid: "32319273"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Указывает сведения о часовом поясе повторяющегося собрания.
   
@@ -31,13 +31,13 @@ ms.locfileid: "32319273"
 |:-----|:-----|
 |Связанные свойства:  <br/> |LID_TIME_ZONE  <br/> |
 |Набор свойств:  <br/> |PSETID_Meeting  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x0000000C  <br/> |
+|Long ID (LID):  <br/> |0x0000000C  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Собрания  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство считывается только в том случае, если свойство **dispidApptRecur** ([PidLidAppointmentRecur)](pidlidappointmentrecur-canonical-property.md)не за установлено, но если свойство **LID_IS_RECURRING** ([PidLidIsRecurring)](pidlidisrecurring-canonical-property.md)имеет true, а свойство **LID_IS_EXCEPTION** ([PidLidIsException](pidlidisexception-canonical-property.md)) — FALSE. В нижней части WORD индекс указывается в таблице, которая содержит сведения о часовом поясе. Из верхней части WORD считыется только самый высокий бит. Если этот бит установлен, то часовой пояс, на который ссылается ссылка, не будет соблюдать летнее время (DST), в противном случае будут следовать даты DST, подробные [в [MS-OXOCAL].](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) 
+Это свойство читается только в том случае, если свойство **dispidApptRecur** [(PidLidAppointmentRecur)](pidlidappointmentrecur-canonical-property.md)не задавалось, но если свойство **LID_IS_RECURRING** [(PidLidIsRecurring)](pidlidisrecurring-canonical-property.md)является TRUE, а **свойство LID_IS_EXCEPTION** [(PidLidIsException)](pidlidisexception-canonical-property.md)является FALSE. Нижний WORD указывает индекс в таблицу, содержаную сведения о часовом поясе. Из верхнего WORD читается только самый высокий бит. Если этот бит задат, то ссылаясь на часовой пояс не будет соблюдать летнее время (DST), в противном случае даты DST, подробные [в [MS-OXOCAL],](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) будут следовать. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -45,13 +45,13 @@ ms.locfileid: "32319273"
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрания и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -67,5 +67,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 
