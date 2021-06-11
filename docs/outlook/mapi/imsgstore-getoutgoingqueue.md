@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434153"
 ---
-# <a name="imsgstoregetoutgoingqueue"></a><span data-ttu-id="77d8e-103">IMsgStore::GetOutgoingQueue</span><span class="sxs-lookup"><span data-stu-id="77d8e-103">IMsgStore::GetOutgoingQueue</span></span>
+# <a name="imsgstoregetoutgoingqueue"></a><span data-ttu-id="0c206-103">IMsgStore::GetOutgoingQueue</span><span class="sxs-lookup"><span data-stu-id="0c206-103">IMsgStore::GetOutgoingQueue</span></span>
 
   
   
-<span data-ttu-id="77d8e-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="77d8e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="0c206-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0c206-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="77d8e-105">Предоставляет доступ к таблице исходяющих очередей, которая содержит сведения обо всех сообщениях в исходя такой очереди.</span><span class="sxs-lookup"><span data-stu-id="77d8e-105">Provides access to the outgoing queue table, a table that has information about all of the messages in the message store's outgoing queue.</span></span> <span data-ttu-id="77d8e-106">���� ����� ���������� ������ ����������� ������� MAPI.</span><span class="sxs-lookup"><span data-stu-id="77d8e-106">This method is called only by the MAPI spooler.</span></span>
+<span data-ttu-id="0c206-105">Предоставляет доступ к исходя из таблицы очереди, таблице, которая содержит сведения обо всех сообщениях в исходях очередях магазина сообщений.</span><span class="sxs-lookup"><span data-stu-id="0c206-105">Provides access to the outgoing queue table, a table that has information about all of the messages in the message store's outgoing queue.</span></span> <span data-ttu-id="0c206-106">���� ����� ���������� ������ ����������� ������� MAPI.</span><span class="sxs-lookup"><span data-stu-id="0c206-106">This method is called only by the MAPI spooler.</span></span>
   
 ```cpp
 HRESULT GetOutgoingQueue(
@@ -34,39 +34,39 @@ HRESULT GetOutgoingQueue(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="77d8e-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="77d8e-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0c206-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="0c206-107">Parameters</span></span>
 
- <span data-ttu-id="77d8e-108">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="77d8e-108">_ulFlags_</span></span>
+ <span data-ttu-id="0c206-108">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="0c206-108">_ulFlags_</span></span>
   
-> <span data-ttu-id="77d8e-109">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="77d8e-109">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="0c206-109">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="0c206-109">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="77d8e-110">_lppTable_</span><span class="sxs-lookup"><span data-stu-id="77d8e-110">_lppTable_</span></span>
+ <span data-ttu-id="0c206-110">_lppTable_</span><span class="sxs-lookup"><span data-stu-id="0c206-110">_lppTable_</span></span>
   
-> <span data-ttu-id="77d8e-111">[out] Указатель на указатель на таблицу исходяющих очередей.</span><span class="sxs-lookup"><span data-stu-id="77d8e-111">[out] A pointer to a pointer to the outgoing queue table.</span></span>
+> <span data-ttu-id="0c206-111">[вышел] Указатель на указатель на исходяю таблицу очереди.</span><span class="sxs-lookup"><span data-stu-id="0c206-111">[out] A pointer to a pointer to the outgoing queue table.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="77d8e-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="77d8e-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0c206-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0c206-112">Return value</span></span>
 
-<span data-ttu-id="77d8e-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="77d8e-113">S_OK</span></span> 
+<span data-ttu-id="0c206-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="0c206-113">S_OK</span></span> 
   
-> <span data-ttu-id="77d8e-114">Таблица исходяющих очередей успешно возвращена.</span><span class="sxs-lookup"><span data-stu-id="77d8e-114">The outgoing queue table was successfully returned.</span></span>
+> <span data-ttu-id="0c206-114">Выходящий стол очереди был успешно возвращен.</span><span class="sxs-lookup"><span data-stu-id="0c206-114">The outgoing queue table was successfully returned.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="77d8e-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="77d8e-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0c206-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="0c206-115">Remarks</span></span>
 
-<span data-ttu-id="77d8e-116">Метод **IMsgStore::GetOutgoingQueue** предоставляет пуле MAPI доступ к таблице, в которую указывается очередь исходяющих сообщений в хранилище сообщений.</span><span class="sxs-lookup"><span data-stu-id="77d8e-116">The **IMsgStore::GetOutgoingQueue** method provides the MAPI spooler with access to the table that shows the message store's queue of outgoing messages.</span></span> <span data-ttu-id="77d8e-117">Как правило, сообщения помещаются в исходячную таблицу очереди после того, как вызван метод [IMessage::SubmitMessage.](imessage-submitmessage.md)</span><span class="sxs-lookup"><span data-stu-id="77d8e-117">Typically, messages are placed in the outgoing queue table after their [IMessage::SubmitMessage](imessage-submitmessage.md) method is called.</span></span> <span data-ttu-id="77d8e-118">Однако, так как порядок отправки влияет на порядок предварительной подготовки и отправки поставщику транспорта, некоторые сообщения, помеченные для отправки, могут не отображаться в таблице исходячих очередей немедленно.</span><span class="sxs-lookup"><span data-stu-id="77d8e-118">However, because the order of submission affects the order of preprocessing and submission to the transport provider, some messages that have been marked for sending might not appear in the outgoing queue table immediately.</span></span> 
+<span data-ttu-id="0c206-116">Метод **IMsgStore::GetOutgoingQueue** предоставляет шпалеру MAPI доступ к таблице, которая отображает очередь исходяющих сообщений в хранилище сообщений.</span><span class="sxs-lookup"><span data-stu-id="0c206-116">The **IMsgStore::GetOutgoingQueue** method provides the MAPI spooler with access to the table that shows the message store's queue of outgoing messages.</span></span> <span data-ttu-id="0c206-117">Обычно сообщения помещаются в исходяжую таблицу очереди после того, как называется их [метод IMessage::SubmitMessage.](imessage-submitmessage.md)</span><span class="sxs-lookup"><span data-stu-id="0c206-117">Typically, messages are placed in the outgoing queue table after their [IMessage::SubmitMessage](imessage-submitmessage.md) method is called.</span></span> <span data-ttu-id="0c206-118">Однако, поскольку порядок отправки влияет на порядок подготовки и отправки поставщику транспорта, некоторые сообщения, помеченные для отправки, могут появиться не сразу в исходячей таблице очереди.</span><span class="sxs-lookup"><span data-stu-id="0c206-118">However, because the order of submission affects the order of preprocessing and submission to the transport provider, some messages that have been marked for sending might not appear in the outgoing queue table immediately.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="77d8e-119">Примечания для исполнителей</span><span class="sxs-lookup"><span data-stu-id="77d8e-119">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="0c206-119">Примечания для исполнителей</span><span class="sxs-lookup"><span data-stu-id="0c206-119">Notes to implementers</span></span>
 
-<span data-ttu-id="77d8e-120">Список свойств, которые необходимо включить в качестве столбцов в таблицу исходяющих очередей, см. в таблицах [исходяющих очередей.](outgoing-queue-tables.md)</span><span class="sxs-lookup"><span data-stu-id="77d8e-120">For a list of the properties that must be included as columns in your outgoing queue table, see [Outgoing Queue Tables](outgoing-queue-tables.md).</span></span> 
+<span data-ttu-id="0c206-120">Список свойств, которые необходимо включить в качестве столбцов в исходя из таблицы очереди, см. в статье [Исходяющие таблицы очередей.](outgoing-queue-tables.md)</span><span class="sxs-lookup"><span data-stu-id="0c206-120">For a list of the properties that must be included as columns in your outgoing queue table, see [Outgoing Queue Tables](outgoing-queue-tables.md).</span></span> 
   
-<span data-ttu-id="77d8e-121">Так как пулер MAPI предназначен для получения сообщений из магазина сообщений в порядке возрастания времени отправки, то можно разрешить пулу MAPI сортировать исходяжую таблицу очереди в соответствие этому порядку или установить ее в качестве порядка сортировки по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="77d8e-121">Because the MAPI spooler is designed to accept messages from a message store in ascending order of submission time, either allow the MAPI spooler to sort the outgoing queue table to match this order or establish it as the default sort order.</span></span>
+<span data-ttu-id="0c206-121">Поскольку spooler MAPI предназначен для приемки сообщений из магазина сообщений в порядке возрастания времени отправки, либо разрешить spooler MAPI сортировать исходяние таблицы очереди, чтобы соответствовать этому порядку или установить его в качестве порядка сортировки по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="0c206-121">Because the MAPI spooler is designed to accept messages from a message store in ascending order of submission time, either allow the MAPI spooler to sort the outgoing queue table to match this order or establish it as the default sort order.</span></span>
   
-<span data-ttu-id="77d8e-122">Необходимо поддерживать уведомления для таблицы очереди исходяющих сообщений, чтобы обеспечить уведомление пула MAPI при изменении содержимого очереди.</span><span class="sxs-lookup"><span data-stu-id="77d8e-122">You must support notifications for the outgoing message queue table, ensuring that the MAPI spooler is notified when the contents of the queue change.</span></span> 
+<span data-ttu-id="0c206-122">Необходимо поддерживать уведомления для таблицы очереди исходяющих сообщений, обеспечивая уведомление пулера MAPI при изменении содержимого очереди.</span><span class="sxs-lookup"><span data-stu-id="0c206-122">You must support notifications for the outgoing message queue table, ensuring that the MAPI spooler is notified when the contents of the queue change.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="77d8e-123">См. также</span><span class="sxs-lookup"><span data-stu-id="77d8e-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0c206-123">См. также</span><span class="sxs-lookup"><span data-stu-id="0c206-123">See also</span></span>
 
 
 
-[<span data-ttu-id="77d8e-124">IMessage::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="77d8e-124">IMessage::SubmitMessage</span></span>](imessage-submitmessage.md)
+[<span data-ttu-id="0c206-124">IMessage::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="0c206-124">IMessage::SubmitMessage</span></span>](imessage-submitmessage.md)
   
-[<span data-ttu-id="77d8e-125">IMsgStore: IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="77d8e-125">IMsgStore : IMAPIProp</span></span>](imsgstoreimapiprop.md)
+[<span data-ttu-id="0c206-125">IMsgStore: IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="0c206-125">IMsgStore : IMAPIProp</span></span>](imsgstoreimapiprop.md)
 

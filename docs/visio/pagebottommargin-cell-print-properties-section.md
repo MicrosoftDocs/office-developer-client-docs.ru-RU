@@ -16,26 +16,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438598"
 ---
-# <a name="pagebottommargin-cell-print-properties-section"></a><span data-ttu-id="9a381-103">PageBottomMargin Cell (Print Properties Section)</span><span class="sxs-lookup"><span data-stu-id="9a381-103">PageBottomMargin Cell (Print Properties Section)</span></span>
+# <a name="pagebottommargin-cell-print-properties-section"></a><span data-ttu-id="f7660-103">PageBottomMargin Cell (Print Properties Section)</span><span class="sxs-lookup"><span data-stu-id="f7660-103">PageBottomMargin Cell (Print Properties Section)</span></span>
 
-<span data-ttu-id="9a381-104">Указывает поле в нижней части печатной страницы.</span><span class="sxs-lookup"><span data-stu-id="9a381-104">Specifies the margin at the bottom of the printed page.</span></span>
+<span data-ttu-id="f7660-104">Указывает поле в нижней части печатной страницы.</span><span class="sxs-lookup"><span data-stu-id="f7660-104">Specifies the margin at the bottom of the printed page.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="9a381-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="9a381-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f7660-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="f7660-105">Remarks</span></span>
 
-<span data-ttu-id="9a381-106">Это значение представляет физические единицы и не влияет на масштаб или единицы рисования.</span><span class="sxs-lookup"><span data-stu-id="9a381-106">This value represents physical units and is unaffected by scale or drawing units.</span></span> <span data-ttu-id="9a381-107">Например, если значение этой ячейки составляет 0,5 дюйма, то это поле будет 0,5 дюйма, даже если единицы страниц находятся в метрах.</span><span class="sxs-lookup"><span data-stu-id="9a381-107">For example, if this cell has a value of 0.5 in., this margin is 0.5 inch even if page units are feet.</span></span> <span data-ttu-id="9a381-108">Если единицы не заявимы, это значение по умолчанию является единицами страниц.</span><span class="sxs-lookup"><span data-stu-id="9a381-108">If units are not explicitly stated, this value defaults to page units.</span></span> 
+<span data-ttu-id="f7660-106">Это значение представляет физические единицы и не влияет на единицы масштабирования или рисования.</span><span class="sxs-lookup"><span data-stu-id="f7660-106">This value represents physical units and is unaffected by scale or drawing units.</span></span> <span data-ttu-id="f7660-107">Например, если эта ячейка имеет значение 0,5 дюйма, эта маржа составляет 0,5 дюйма, даже если блоки страниц являются ногами.</span><span class="sxs-lookup"><span data-stu-id="f7660-107">For example, if this cell has a value of 0.5 in., this margin is 0.5 inch even if page units are feet.</span></span> <span data-ttu-id="f7660-108">Если единицы явно не заявлены, это значение по умолчанию передается на страницы.</span><span class="sxs-lookup"><span data-stu-id="f7660-108">If units are not explicitly stated, this value defaults to page units.</span></span> 
   
-<span data-ttu-id="9a381-109">Чтобы получить ссылку на ячейку PageBottomMargin по имени из другой формулы или из программы, использующей свойство **CellsU,** используйте:</span><span class="sxs-lookup"><span data-stu-id="9a381-109">To get a reference to the PageBottomMargin cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="f7660-109">Чтобы получить ссылку на ячейку PageBottomMargin по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте:</span><span class="sxs-lookup"><span data-stu-id="f7660-109">To get a reference to the PageBottomMargin cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="9a381-110">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="9a381-110">Cell name:</span></span>  <br/> | <span data-ttu-id="9a381-111">PageBottomMargin</span><span class="sxs-lookup"><span data-stu-id="9a381-111">PageBottomMargin</span></span>  <br/> |
+| <span data-ttu-id="f7660-110">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="f7660-110">Cell name:</span></span>  <br/> | <span data-ttu-id="f7660-111">PageBottomMargin</span><span class="sxs-lookup"><span data-stu-id="f7660-111">PageBottomMargin</span></span>  <br/> |
    
-<span data-ttu-id="9a381-112">Чтобы получить ссылку на ячейку PageBottomMargin по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="9a381-112">To get a reference to the PageBottomMargin cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="f7660-112">Чтобы получить ссылку на ячейку PageBottomMargin по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="f7660-112">To get a reference to the PageBottomMargin cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="9a381-113">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="9a381-113">Section index:</span></span>  <br/> |<span data-ttu-id="9a381-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="9a381-114">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="9a381-115">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="9a381-115">Row index:</span></span>  <br/> |<span data-ttu-id="9a381-116">**visRowPrintProperties**</span><span class="sxs-lookup"><span data-stu-id="9a381-116">**visRowPrintProperties**</span></span> <br/> |
-| <span data-ttu-id="9a381-117">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="9a381-117">Cell index:</span></span>  <br/> |<span data-ttu-id="9a381-118">**visPrintPropertiesBottomMargin**</span><span class="sxs-lookup"><span data-stu-id="9a381-118">**visPrintPropertiesBottomMargin**</span></span> <br/> |
+| <span data-ttu-id="f7660-113">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="f7660-113">Section index:</span></span>  <br/> |<span data-ttu-id="f7660-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="f7660-114">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="f7660-115">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="f7660-115">Row index:</span></span>  <br/> |<span data-ttu-id="f7660-116">**visRowPrintProperties**</span><span class="sxs-lookup"><span data-stu-id="f7660-116">**visRowPrintProperties**</span></span> <br/> |
+| <span data-ttu-id="f7660-117">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="f7660-117">Cell index:</span></span>  <br/> |<span data-ttu-id="f7660-118">**visPrintPropertiesBottomMargin**</span><span class="sxs-lookup"><span data-stu-id="f7660-118">**visPrintPropertiesBottomMargin**</span></span> <br/> |
    
 

@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433397"
 ---
-# <a name="checkparameters"></a><span data-ttu-id="95971-103">CheckParameters</span><span class="sxs-lookup"><span data-stu-id="95971-103">CheckParameters</span></span>
+# <a name="checkparameters"></a><span data-ttu-id="4a443-103">CheckParameters</span><span class="sxs-lookup"><span data-stu-id="4a443-103">CheckParameters</span></span>
 
   
   
-<span data-ttu-id="95971-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="95971-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="4a443-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4a443-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="95971-105">Вызывает внутреннюю функцию для проверки параметров отладки методов поставщика услуг, которые вызывает MAPI.</span><span class="sxs-lookup"><span data-stu-id="95971-105">Calls an internal function to validate debugging parameters on service provider methods called by MAPI.</span></span> 
+<span data-ttu-id="4a443-105">Вызывает внутреннюю функцию для проверки параметров отладки в методах поставщика услуг, называемых MAPI.</span><span class="sxs-lookup"><span data-stu-id="4a443-105">Calls an internal function to validate debugging parameters on service provider methods called by MAPI.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="95971-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="95971-106">Header file:</span></span>  <br/> |<span data-ttu-id="95971-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="95971-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="95971-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="95971-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="95971-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="95971-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="95971-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="95971-110">Called by:</span></span>  <br/> |<span data-ttu-id="95971-111">Поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="95971-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="4a443-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="4a443-106">Header file:</span></span>  <br/> |<span data-ttu-id="4a443-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="4a443-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="4a443-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="4a443-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="4a443-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="4a443-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="4a443-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="4a443-110">Called by:</span></span>  <br/> |<span data-ttu-id="4a443-111">Поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="4a443-111">Service providers</span></span>  <br/> |
    
 ```cpp
 HRESULT CheckParameters(
@@ -40,24 +40,24 @@ HRESULT CheckParameters(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="95971-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="95971-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="4a443-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="4a443-112">Parameters</span></span>
 
- <span data-ttu-id="95971-113">_eMethod_</span><span class="sxs-lookup"><span data-stu-id="95971-113">_eMethod_</span></span>
+ <span data-ttu-id="4a443-113">_eMethod_</span><span class="sxs-lookup"><span data-stu-id="4a443-113">_eMethod_</span></span>
   
-> <span data-ttu-id="95971-114">[in] Указывает метод для проверки с помощью enumeration.</span><span class="sxs-lookup"><span data-stu-id="95971-114">[in] Specifies, by enumeration, the method to validate.</span></span> 
+> <span data-ttu-id="4a443-114">[in] Указывает путем переумерия метод проверки.</span><span class="sxs-lookup"><span data-stu-id="4a443-114">[in] Specifies, by enumeration, the method to validate.</span></span> 
     
- <span data-ttu-id="95971-115">_First_</span><span class="sxs-lookup"><span data-stu-id="95971-115">_First_</span></span>
+ <span data-ttu-id="4a443-115">_First_</span><span class="sxs-lookup"><span data-stu-id="4a443-115">_First_</span></span>
   
-> <span data-ttu-id="95971-116">[in] Указатель на первый аргумент в стеке.</span><span class="sxs-lookup"><span data-stu-id="95971-116">[in] Pointer to the first argument on the stack.</span></span>
+> <span data-ttu-id="4a443-116">[in] Указатель на первый аргумент в стеке.</span><span class="sxs-lookup"><span data-stu-id="4a443-116">[in] Pointer to the first argument on the stack.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="95971-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="95971-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4a443-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4a443-117">Return value</span></span>
 
-<span data-ttu-id="95971-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="95971-118">S_OK</span></span> 
+<span data-ttu-id="4a443-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="4a443-118">S_OK</span></span> 
   
-> <span data-ttu-id="95971-119">The call succeeded.</span><span class="sxs-lookup"><span data-stu-id="95971-119">The call succeeded.</span></span>
+> <span data-ttu-id="4a443-119">The call succeeded.</span><span class="sxs-lookup"><span data-stu-id="4a443-119">The call succeeded.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="95971-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="95971-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4a443-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="4a443-120">Remarks</span></span>
 
-<span data-ttu-id="95971-121">Макрос **CheckParameters** был замелен макросом [CheckParms.](checkparms.md)</span><span class="sxs-lookup"><span data-stu-id="95971-121">The **CheckParameters** macro has been superseded by the [CheckParms](checkparms.md) macro.</span></span> <span data-ttu-id="95971-122">**CheckParms** рекомендуется использовать на всех платформах.</span><span class="sxs-lookup"><span data-stu-id="95971-122">**CheckParms** is recommended on all platforms.</span></span> 
+<span data-ttu-id="4a443-121">Макрос **CheckParameters** был выменит макрос [CheckParms.](checkparms.md)</span><span class="sxs-lookup"><span data-stu-id="4a443-121">The **CheckParameters** macro has been superseded by the [CheckParms](checkparms.md) macro.</span></span> <span data-ttu-id="4a443-122">**CheckParms** рекомендуется использовать на всех платформах.</span><span class="sxs-lookup"><span data-stu-id="4a443-122">**CheckParms** is recommended on all platforms.</span></span> 
   
 

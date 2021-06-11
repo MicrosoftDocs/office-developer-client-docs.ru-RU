@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434146"
 ---
-# <a name="upreade"></a><span data-ttu-id="2b55e-103">UPREADE</span><span class="sxs-lookup"><span data-stu-id="2b55e-103">UPREADE</span></span>
+# <a name="upreade"></a><span data-ttu-id="79931-103">UPREADE</span><span class="sxs-lookup"><span data-stu-id="79931-103">UPREADE</span></span>
 
-<span data-ttu-id="2b55e-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2b55e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="79931-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="79931-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2b55e-105">Расширенные сведения о загрузке состояния чтения элемента во время [отправки состояния чтения.](upload-read-status-state.md)</span><span class="sxs-lookup"><span data-stu-id="2b55e-105">Extended information for uploading the read state of an item during the [upload read status state](upload-read-status-state.md).</span></span>
+<span data-ttu-id="79931-105">Расширенные сведения для загрузки состояния чтения элемента во время [состояния состояния чтения.](upload-read-status-state.md)</span><span class="sxs-lookup"><span data-stu-id="79931-105">Extended information for uploading the read state of an item during the [upload read status state](upload-read-status-state.md).</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="2b55e-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="2b55e-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="79931-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="79931-106">Quick info</span></span>
 
 ```cpp
 struct UPREADE 
@@ -31,36 +31,36 @@ struct UPREADE
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="2b55e-107">Элементы</span><span class="sxs-lookup"><span data-stu-id="2b55e-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="79931-107">Элементы</span><span class="sxs-lookup"><span data-stu-id="79931-107">Members</span></span>
 
-<span data-ttu-id="2b55e-108">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="2b55e-108">_ulFlags_</span></span>
+<span data-ttu-id="79931-108">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="79931-108">_ulFlags_</span></span>
   
->  <span data-ttu-id="2b55e-109">[out]/[in] Flags to determine the appropriate behavior during the upload.</span><span class="sxs-lookup"><span data-stu-id="2b55e-109">[out]/[in] Flags to determine the appropriate behavior during the upload.</span></span> 
+>  <span data-ttu-id="79931-109">[out]/[in] Флаги для определения соответствующего поведения во время загрузки.</span><span class="sxs-lookup"><span data-stu-id="79931-109">[out]/[in] Flags to determine the appropriate behavior during the upload.</span></span> 
     
-  - <span data-ttu-id="2b55e-110">UPR_ASSOC</span><span class="sxs-lookup"><span data-stu-id="2b55e-110">UPR_ASSOC</span></span>
+  - <span data-ttu-id="79931-110">UPR_ASSOC</span><span class="sxs-lookup"><span data-stu-id="79931-110">UPR_ASSOC</span></span>
     
-    - <span data-ttu-id="2b55e-111">[out] Элемент скрыт.</span><span class="sxs-lookup"><span data-stu-id="2b55e-111">[out] Item is hidden.</span></span>
+    - <span data-ttu-id="79931-111">[вышел] Элемент скрыт.</span><span class="sxs-lookup"><span data-stu-id="79931-111">[out] Item is hidden.</span></span>
     
-  - <span data-ttu-id="2b55e-112">UPR_READ</span><span class="sxs-lookup"><span data-stu-id="2b55e-112">UPR_READ</span></span>
+  - <span data-ttu-id="79931-112">UPR_READ</span><span class="sxs-lookup"><span data-stu-id="79931-112">UPR_READ</span></span>
     
-    - <span data-ttu-id="2b55e-113">[out] Состояние чтения элемента было изменено.</span><span class="sxs-lookup"><span data-stu-id="2b55e-113">[out] The read status of the item has been changed.</span></span>
+    - <span data-ttu-id="79931-113">[вышел] Изменено состояние чтения элемента.</span><span class="sxs-lookup"><span data-stu-id="79931-113">[out] The read status of the item has been changed.</span></span>
     
-  - <span data-ttu-id="2b55e-114">UPR_OK</span><span class="sxs-lookup"><span data-stu-id="2b55e-114">UPR_OK</span></span>
+  - <span data-ttu-id="79931-114">UPR_OK</span><span class="sxs-lookup"><span data-stu-id="79931-114">UPR_OK</span></span>
     
-    - <span data-ttu-id="2b55e-115">[in] Отправка прошла успешно.</span><span class="sxs-lookup"><span data-stu-id="2b55e-115">[in] Upload was successful.</span></span> <span data-ttu-id="2b55e-116">Клиент устанавливает это после отправки сведений на сервер.</span><span class="sxs-lookup"><span data-stu-id="2b55e-116">The client sets this after uploading information to the server.</span></span>
+    - <span data-ttu-id="79931-115">[in] Upload успешно.</span><span class="sxs-lookup"><span data-stu-id="79931-115">[in] Upload was successful.</span></span> <span data-ttu-id="79931-116">Клиент задает это после отправки сведений на сервер.</span><span class="sxs-lookup"><span data-stu-id="79931-116">The client sets this after uploading information to the server.</span></span>
     
-  - <span data-ttu-id="2b55e-117">UPR_COMMIT</span><span class="sxs-lookup"><span data-stu-id="2b55e-117">UPR_COMMIT</span></span>
+  - <span data-ttu-id="79931-117">UPR_COMMIT</span><span class="sxs-lookup"><span data-stu-id="79931-117">UPR_COMMIT</span></span>
     
-    - <span data-ttu-id="2b55e-118">[in] Теперь загрузите состояние чтения элемента вместо того, чтобы [](upload-table-state.md) ждать окончания состояния отправки таблицы для пакетной обработки более одного элемента.</span><span class="sxs-lookup"><span data-stu-id="2b55e-118">[in] Upload the read status of the item now, instead of waiting to the end of the [upload table state](upload-table-state.md) to batch-process more than one item.</span></span> 
+    - <span data-ttu-id="79931-118">[in] Upload состояние чтения элемента, а не ожидание окончания состояния [](upload-table-state.md) таблицы отправки для пакетной обработки более одного элемента.</span><span class="sxs-lookup"><span data-stu-id="79931-118">[in] Upload the read status of the item now, instead of waiting to the end of the [upload table state](upload-table-state.md) to batch-process more than one item.</span></span> 
     
-<span data-ttu-id="2b55e-119">_skey_</span><span class="sxs-lookup"><span data-stu-id="2b55e-119">_skey_</span></span>
+<span data-ttu-id="79931-119">_skey_</span><span class="sxs-lookup"><span data-stu-id="79931-119">_skey_</span></span>
   
-> <span data-ttu-id="2b55e-120">[out] Исходный ключ элемента.</span><span class="sxs-lookup"><span data-stu-id="2b55e-120">[out] Source key of the item.</span></span>
+> <span data-ttu-id="79931-120">[вышел] Исходный ключ элемента.</span><span class="sxs-lookup"><span data-stu-id="79931-120">[out] Source key of the item.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="2b55e-121">См. также</span><span class="sxs-lookup"><span data-stu-id="2b55e-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="79931-121">См. также</span><span class="sxs-lookup"><span data-stu-id="79931-121">See also</span></span>
 
-- [<span data-ttu-id="2b55e-122">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="2b55e-122">About the Replication API</span></span>](about-the-replication-api.md)
-- [<span data-ttu-id="2b55e-123">Сведения о конечном автомате репликации</span><span class="sxs-lookup"><span data-stu-id="2b55e-123">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
-- [<span data-ttu-id="2b55e-124">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="2b55e-124">MAPI Constants</span></span>](mapi-constants.md)
-- [<span data-ttu-id="2b55e-125">UPREAD</span><span class="sxs-lookup"><span data-stu-id="2b55e-125">UPREAD</span></span>](upread.md)
+- [<span data-ttu-id="79931-122">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="79931-122">About the Replication API</span></span>](about-the-replication-api.md)
+- [<span data-ttu-id="79931-123">Сведения о конечном автомате репликации</span><span class="sxs-lookup"><span data-stu-id="79931-123">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+- [<span data-ttu-id="79931-124">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="79931-124">MAPI Constants</span></span>](mapi-constants.md)
+- [<span data-ttu-id="79931-125">UPREAD</span><span class="sxs-lookup"><span data-stu-id="79931-125">UPREAD</span></span>](upread.md)
 

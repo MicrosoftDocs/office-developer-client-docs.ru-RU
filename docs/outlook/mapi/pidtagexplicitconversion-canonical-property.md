@@ -19,42 +19,42 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433901"
 ---
-# <a name="pidtagexplicitconversion-canonical-property"></a><span data-ttu-id="53cba-103">Каноническое свойство PidTagExplicitConversion</span><span class="sxs-lookup"><span data-stu-id="53cba-103">PidTagExplicitConversion Canonical Property</span></span>
+# <a name="pidtagexplicitconversion-canonical-property"></a><span data-ttu-id="bf7c4-103">Каноническое свойство PidTagExplicitConversion</span><span class="sxs-lookup"><span data-stu-id="bf7c4-103">PidTagExplicitConversion Canonical Property</span></span>
 
   
   
-<span data-ttu-id="53cba-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="53cba-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bf7c4-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bf7c4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="53cba-105">Указывает, что отправитель сообщения запросил преобразование содержимого сообщения для определенного получателя.</span><span class="sxs-lookup"><span data-stu-id="53cba-105">Indicates that a message sender has requested a message content conversion for a particular recipient.</span></span>
+<span data-ttu-id="bf7c4-105">Указывает, что отправитель сообщения запросил преобразование контента сообщения для определенного получателя.</span><span class="sxs-lookup"><span data-stu-id="bf7c4-105">Indicates that a message sender has requested a message content conversion for a particular recipient.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="53cba-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="53cba-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="53cba-107">PR_EXPLICIT_CONVERSION</span><span class="sxs-lookup"><span data-stu-id="53cba-107">PR_EXPLICIT_CONVERSION</span></span>  <br/> |
-|<span data-ttu-id="53cba-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="53cba-108">Identifier:</span></span>  <br/> |<span data-ttu-id="53cba-109">0x0C01</span><span class="sxs-lookup"><span data-stu-id="53cba-109">0x0C01</span></span>  <br/> |
-|<span data-ttu-id="53cba-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="53cba-110">Data type:</span></span>  <br/> |<span data-ttu-id="53cba-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="53cba-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="53cba-112">Область:</span><span class="sxs-lookup"><span data-stu-id="53cba-112">Area:</span></span>  <br/> |<span data-ttu-id="53cba-113">Получатель MAPI</span><span class="sxs-lookup"><span data-stu-id="53cba-113">MAPI recipient</span></span>  <br/> |
+|<span data-ttu-id="bf7c4-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="bf7c4-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="bf7c4-107">PR_EXPLICIT_CONVERSION</span><span class="sxs-lookup"><span data-stu-id="bf7c4-107">PR_EXPLICIT_CONVERSION</span></span>  <br/> |
+|<span data-ttu-id="bf7c4-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="bf7c4-108">Identifier:</span></span>  <br/> |<span data-ttu-id="bf7c4-109">0x0C01</span><span class="sxs-lookup"><span data-stu-id="bf7c4-109">0x0C01</span></span>  <br/> |
+|<span data-ttu-id="bf7c4-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="bf7c4-110">Data type:</span></span>  <br/> |<span data-ttu-id="bf7c4-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="bf7c4-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="bf7c4-112">Область:</span><span class="sxs-lookup"><span data-stu-id="bf7c4-112">Area:</span></span>  <br/> |<span data-ttu-id="bf7c4-113">Получатель MAPI</span><span class="sxs-lookup"><span data-stu-id="bf7c4-113">MAPI recipient</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="53cba-114">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="53cba-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="bf7c4-114">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="bf7c4-114">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="53cba-115">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="53cba-115">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="bf7c4-115">Файлы заголовки</span><span class="sxs-lookup"><span data-stu-id="bf7c4-115">Header files</span></span>
 
-<span data-ttu-id="53cba-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="53cba-116">Mapidefs.h</span></span>
+<span data-ttu-id="bf7c4-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="bf7c4-116">Mapidefs.h</span></span>
   
-> <span data-ttu-id="53cba-117">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="53cba-117">Provides data type definitions.</span></span>
+> <span data-ttu-id="bf7c4-117">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="bf7c4-117">Provides data type definitions.</span></span>
     
-<span data-ttu-id="53cba-118">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="53cba-118">Mapitags.h</span></span>
+<span data-ttu-id="bf7c4-118">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="bf7c4-118">Mapitags.h</span></span>
   
-> <span data-ttu-id="53cba-119">Содержит определения свойств, перечисленных как связанные свойства.</span><span class="sxs-lookup"><span data-stu-id="53cba-119">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="bf7c4-119">Содержит определения свойств, перечисленных в качестве связанных свойств.</span><span class="sxs-lookup"><span data-stu-id="bf7c4-119">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="53cba-120">См. также</span><span class="sxs-lookup"><span data-stu-id="53cba-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bf7c4-120">См. также</span><span class="sxs-lookup"><span data-stu-id="bf7c4-120">See also</span></span>
 
 
 
-[<span data-ttu-id="53cba-121">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="53cba-121">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="bf7c4-121">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="bf7c4-121">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="53cba-122">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="53cba-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="bf7c4-122">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="bf7c4-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="53cba-123">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="53cba-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="bf7c4-123">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="bf7c4-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="53cba-124">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="53cba-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="bf7c4-124">Сопоставление имен MAPI с каноническими именами свойств</span><span class="sxs-lookup"><span data-stu-id="bf7c4-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

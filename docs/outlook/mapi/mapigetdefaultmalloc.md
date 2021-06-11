@@ -19,30 +19,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438206"
 ---
-# <a name="mapigetdefaultmalloc"></a><span data-ttu-id="7cb4d-103">MAPIGetDefaultMalloc</span><span class="sxs-lookup"><span data-stu-id="7cb4d-103">MAPIGetDefaultMalloc</span></span>
+# <a name="mapigetdefaultmalloc"></a><span data-ttu-id="ee7e0-103">MAPIGetDefaultMalloc</span><span class="sxs-lookup"><span data-stu-id="ee7e0-103">MAPIGetDefaultMalloc</span></span>
 
   
   
-<span data-ttu-id="7cb4d-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7cb4d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ee7e0-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ee7e0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7cb4d-105">Извлекает адрес функции выделения памяти MAPI по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="7cb4d-105">Retrieves the address of the default MAPI memory allocation function.</span></span>
+<span data-ttu-id="ee7e0-105">Извлекает адрес функции распределения памяти MAPI по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="ee7e0-105">Retrieves the address of the default MAPI memory allocation function.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="7cb4d-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="7cb4d-106">Header file:</span></span>  <br/> |<span data-ttu-id="7cb4d-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="7cb4d-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="7cb4d-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="7cb4d-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="7cb4d-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="7cb4d-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="7cb4d-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="7cb4d-110">Called by:</span></span>  <br/> |<span data-ttu-id="7cb4d-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="7cb4d-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="ee7e0-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="ee7e0-106">Header file:</span></span>  <br/> |<span data-ttu-id="ee7e0-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="ee7e0-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="ee7e0-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="ee7e0-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="ee7e0-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="ee7e0-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="ee7e0-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="ee7e0-110">Called by:</span></span>  <br/> |<span data-ttu-id="ee7e0-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="ee7e0-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 LPMALLOC MAPIGetDefaultMalloc( );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="7cb4d-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="7cb4d-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ee7e0-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="ee7e0-112">Parameters</span></span>
 
-<span data-ttu-id="7cb4d-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="7cb4d-113">None.</span></span> 
+<span data-ttu-id="ee7e0-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="ee7e0-113">None.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="7cb4d-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7cb4d-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ee7e0-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="ee7e0-114">Return value</span></span>
 
-<span data-ttu-id="7cb4d-115">Функция **MAPIGetDefaultMalloc** возвращает указатель на функцию выделения памяти MAPI по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="7cb4d-115">The **MAPIGetDefaultMalloc** function returns a pointer to the default MAPI memory allocation function.</span></span> 
+<span data-ttu-id="ee7e0-115">Функция **MAPIGetDefaultMalloc** возвращает указатель к функции распределения памяти MAPI по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="ee7e0-115">The **MAPIGetDefaultMalloc** function returns a pointer to the default MAPI memory allocation function.</span></span> 
   
 

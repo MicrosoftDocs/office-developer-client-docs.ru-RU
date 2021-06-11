@@ -16,16 +16,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431297"
 ---
-# <a name="pagecount-function"></a><span data-ttu-id="dfbda-103">Функция PAGECOUNT</span><span class="sxs-lookup"><span data-stu-id="dfbda-103">PAGECOUNT Function</span></span>
+# <a name="pagecount-function"></a><span data-ttu-id="8ddc2-103">Функция PAGECOUNT</span><span class="sxs-lookup"><span data-stu-id="8ddc2-103">PAGECOUNT Function</span></span>
 
-<span data-ttu-id="dfbda-104">Возвращает количество страниц переднего плана в документе.</span><span class="sxs-lookup"><span data-stu-id="dfbda-104">Returns the number of foreground pages in a document.</span></span> 
+<span data-ttu-id="8ddc2-104">Возвращает количество страниц переднего плана в документе.</span><span class="sxs-lookup"><span data-stu-id="8ddc2-104">Returns the number of foreground pages in a document.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="dfbda-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="dfbda-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8ddc2-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="8ddc2-105">Syntax</span></span>
 
-<span data-ttu-id="dfbda-106">PAGECOUNT ()</span><span class="sxs-lookup"><span data-stu-id="dfbda-106">PAGECOUNT ()</span></span>
+<span data-ttu-id="8ddc2-106">PAGECOUNT ()</span><span class="sxs-lookup"><span data-stu-id="8ddc2-106">PAGECOUNT ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="dfbda-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="dfbda-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="8ddc2-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8ddc2-107">Return value</span></span>
 
-<span data-ttu-id="dfbda-108">Числовой</span><span class="sxs-lookup"><span data-stu-id="dfbda-108">Number</span></span>
+<span data-ttu-id="8ddc2-108">Номер</span><span class="sxs-lookup"><span data-stu-id="8ddc2-108">Number</span></span>
   
 

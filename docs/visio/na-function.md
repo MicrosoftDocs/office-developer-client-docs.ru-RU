@@ -16,22 +16,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436064"
 ---
-# <a name="na-function"></a><span data-ttu-id="55d39-103">Функция NA</span><span class="sxs-lookup"><span data-stu-id="55d39-103">NA Function</span></span>
+# <a name="na-function"></a><span data-ttu-id="45fc8-103">Функция NA</span><span class="sxs-lookup"><span data-stu-id="45fc8-103">NA Function</span></span>
 
-<span data-ttu-id="55d39-104">Возвращает значение ошибки #NA!.</span><span class="sxs-lookup"><span data-stu-id="55d39-104">Returns the error value #NA!.</span></span> 
+<span data-ttu-id="45fc8-104">Возвращает значение ошибки #NA!.</span><span class="sxs-lookup"><span data-stu-id="45fc8-104">Returns the error value #NA!.</span></span> 
   
-<span data-ttu-id="55d39-105">Используйте функцию NA в ячейке ShapeSheet, где отсутствуют сведения, чтобы значение ячейки по умолчанию не использовалась в вычислениях.</span><span class="sxs-lookup"><span data-stu-id="55d39-105">Use the NA function in a ShapeSheet cell where information is missing, so that the cell's default value is not used in calculations.</span></span>
+<span data-ttu-id="45fc8-105">Используйте функцию NA в ячейке ShapeSheet, где отсутствуют сведения, чтобы значение ячейки по умолчанию не использовало в расчетах.</span><span class="sxs-lookup"><span data-stu-id="45fc8-105">Use the NA function in a ShapeSheet cell where information is missing, so that the cell's default value is not used in calculations.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="55d39-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="55d39-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="45fc8-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="45fc8-106">Syntax</span></span>
 
-<span data-ttu-id="55d39-107">NA( )</span><span class="sxs-lookup"><span data-stu-id="55d39-107">NA( )</span></span>
+<span data-ttu-id="45fc8-107">NA( )</span><span class="sxs-lookup"><span data-stu-id="45fc8-107">NA( )</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="55d39-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="55d39-108">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="45fc8-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="45fc8-108">Return value</span></span>
 
-<span data-ttu-id="55d39-109">String</span><span class="sxs-lookup"><span data-stu-id="55d39-109">String</span></span>
+<span data-ttu-id="45fc8-109">String</span><span class="sxs-lookup"><span data-stu-id="45fc8-109">String</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="55d39-110">Примечания</span><span class="sxs-lookup"><span data-stu-id="55d39-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="45fc8-110">Примечания</span><span class="sxs-lookup"><span data-stu-id="45fc8-110">Remarks</span></span>
 
-<span data-ttu-id="55d39-111">NA — это значение ошибки, которое означает "нет доступных значений".</span><span class="sxs-lookup"><span data-stu-id="55d39-111">NA is the error value that means "no value available."</span></span>
+<span data-ttu-id="45fc8-111">NA — это значение ошибки, которое означает "нет доступного значения".</span><span class="sxs-lookup"><span data-stu-id="45fc8-111">NA is the error value that means "no value available."</span></span>
   
 
