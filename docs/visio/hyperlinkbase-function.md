@@ -16,16 +16,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409351"
 ---
-# <a name="hyperlinkbase-function"></a><span data-ttu-id="bf9a7-103">Функция HYPERLINKBASE</span><span class="sxs-lookup"><span data-stu-id="bf9a7-103">HYPERLINKBASE Function</span></span>
+# <a name="hyperlinkbase-function"></a><span data-ttu-id="21705-103">Функция HYPERLINKBASE</span><span class="sxs-lookup"><span data-stu-id="21705-103">HYPERLINKBASE Function</span></span>
 
-<span data-ttu-id="bf9a7-104">Возвращает текст из  базового поля гиперссылки свойств документа.</span><span class="sxs-lookup"><span data-stu-id="bf9a7-104">Returns the text from the **Hyperlink base** field of a document's properties.</span></span> 
+<span data-ttu-id="21705-104">Возвращает текст из  базового поля гиперссылки свойств документа.</span><span class="sxs-lookup"><span data-stu-id="21705-104">Returns the text from the **Hyperlink base** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="bf9a7-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="bf9a7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="21705-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="21705-105">Syntax</span></span>
 
-<span data-ttu-id="bf9a7-106">HYPERLINKBASE ()</span><span class="sxs-lookup"><span data-stu-id="bf9a7-106">HYPERLINKBASE ()</span></span>
+<span data-ttu-id="21705-106">HYPERLINKBASE ()</span><span class="sxs-lookup"><span data-stu-id="21705-106">HYPERLINKBASE ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="bf9a7-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="bf9a7-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="21705-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="21705-107">Return value</span></span>
 
-<span data-ttu-id="bf9a7-108">String</span><span class="sxs-lookup"><span data-stu-id="bf9a7-108">String</span></span>
+<span data-ttu-id="21705-108">String</span><span class="sxs-lookup"><span data-stu-id="21705-108">String</span></span>
   
 

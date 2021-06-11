@@ -1,5 +1,5 @@
 ---
-title: '[Справочник по VBA для Access]'
+title: '[Ссылка на VBA]'
 ms.date: 01/01/1900
 ms.audience: Developer
 localization_priority: Normal
@@ -12,18 +12,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406355"
 ---
-# <a name="access-vba-reference"></a><span data-ttu-id="23285-103">[Справочник по VBA для Access]</span><span class="sxs-lookup"><span data-stu-id="23285-103">[Access VBA reference]</span></span>
+# <a name="access-vba-reference"></a><span data-ttu-id="e58e7-103">[Ссылка на VBA]</span><span class="sxs-lookup"><span data-stu-id="e58e7-103">[Access VBA reference]</span></span>
 
-<span data-ttu-id="23285-104">{вставьте сводку}</span><span class="sxs-lookup"><span data-stu-id="23285-104">{insert summary}</span></span>
+<span data-ttu-id="e58e7-104">{вставьте сводку}</span><span class="sxs-lookup"><span data-stu-id="e58e7-104">{insert summary}</span></span>
   
-<span data-ttu-id="23285-105">{вставьте введение}</span><span class="sxs-lookup"><span data-stu-id="23285-105">{insert introductory content}</span></span>
+<span data-ttu-id="e58e7-105">{вставьте введение}</span><span class="sxs-lookup"><span data-stu-id="e58e7-105">{insert introductory content}</span></span>
   
-## <a name="insert-section-title-text"></a><span data-ttu-id="23285-106">{insert section title text}</span><span class="sxs-lookup"><span data-stu-id="23285-106">{insert section title text}</span></span>
+## <a name="insert-section-title-text"></a><span data-ttu-id="e58e7-106">{insert section title text}</span><span class="sxs-lookup"><span data-stu-id="e58e7-106">{insert section title text}</span></span>
 
-<span data-ttu-id="23285-107">{insert body text}</span><span class="sxs-lookup"><span data-stu-id="23285-107">{insert body text}</span></span>
+<span data-ttu-id="e58e7-107">{insert body text}</span><span class="sxs-lookup"><span data-stu-id="e58e7-107">{insert body text}</span></span>
   
-### <a name="insert-subsection-title-text"></a><span data-ttu-id="23285-108">{insert subsection title text}</span><span class="sxs-lookup"><span data-stu-id="23285-108">{insert subsection title text}</span></span>
+### <a name="insert-subsection-title-text"></a><span data-ttu-id="e58e7-108">{insert subsection title text}</span><span class="sxs-lookup"><span data-stu-id="e58e7-108">{insert subsection title text}</span></span>
 
-<span data-ttu-id="23285-109">{insert body text}</span><span class="sxs-lookup"><span data-stu-id="23285-109">{insert body text}</span></span>
+<span data-ttu-id="e58e7-109">{insert body text}</span><span class="sxs-lookup"><span data-stu-id="e58e7-109">{insert body text}</span></span>
   
 

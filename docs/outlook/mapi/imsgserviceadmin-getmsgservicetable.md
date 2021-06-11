@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410478"
 ---
-# <a name="imsgserviceadmingetmsgservicetable"></a><span data-ttu-id="9e690-103">IMsgServiceAdmin::GetMsgServiceTable</span><span class="sxs-lookup"><span data-stu-id="9e690-103">IMsgServiceAdmin::GetMsgServiceTable</span></span>
+# <a name="imsgserviceadmingetmsgservicetable"></a><span data-ttu-id="6fcef-103">IMsgServiceAdmin::GetMsgServiceTable</span><span class="sxs-lookup"><span data-stu-id="6fcef-103">IMsgServiceAdmin::GetMsgServiceTable</span></span>
 
   
   
-<span data-ttu-id="9e690-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9e690-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6fcef-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6fcef-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9e690-105">Предоставляет доступ к таблице службы сообщений, списку служб сообщений в профиле.</span><span class="sxs-lookup"><span data-stu-id="9e690-105">Provides access to the message service table, a list of the message services in the profile.</span></span>
+<span data-ttu-id="6fcef-105">Предоставляет доступ к таблице служб сообщений, списку служб сообщений в профиле.</span><span class="sxs-lookup"><span data-stu-id="6fcef-105">Provides access to the message service table, a list of the message services in the profile.</span></span>
   
 ```cpp
 HRESULT GetMsgServiceTable(
@@ -34,46 +34,46 @@ HRESULT GetMsgServiceTable(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="9e690-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="9e690-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6fcef-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="6fcef-106">Parameters</span></span>
 
- <span data-ttu-id="9e690-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="9e690-107">_ulFlags_</span></span>
+ <span data-ttu-id="6fcef-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="6fcef-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="9e690-108">[in] Всегда NULL.</span><span class="sxs-lookup"><span data-stu-id="9e690-108">[in] Always NULL.</span></span>
+> <span data-ttu-id="6fcef-108">[in] Всегда NULL.</span><span class="sxs-lookup"><span data-stu-id="6fcef-108">[in] Always NULL.</span></span>
     
- <span data-ttu-id="9e690-109">_lppTable_</span><span class="sxs-lookup"><span data-stu-id="9e690-109">_lppTable_</span></span>
+ <span data-ttu-id="6fcef-109">_lppTable_</span><span class="sxs-lookup"><span data-stu-id="6fcef-109">_lppTable_</span></span>
   
-> <span data-ttu-id="9e690-110">[out] Указатель на указатель на таблицу службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="9e690-110">[out] A pointer to a pointer to the message service table.</span></span>
+> <span data-ttu-id="6fcef-110">[вышел] Указатель на указатель на таблице службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="6fcef-110">[out] A pointer to a pointer to the message service table.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="9e690-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9e690-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6fcef-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6fcef-111">Return value</span></span>
 
-<span data-ttu-id="9e690-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="9e690-112">S_OK</span></span> 
+<span data-ttu-id="6fcef-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="6fcef-112">S_OK</span></span> 
   
-> <span data-ttu-id="9e690-113">Таблица службы сообщений успешно возвращена.</span><span class="sxs-lookup"><span data-stu-id="9e690-113">The message service table was successfully returned.</span></span>
+> <span data-ttu-id="6fcef-113">Таблица службы сообщений была успешно возвращена.</span><span class="sxs-lookup"><span data-stu-id="6fcef-113">The message service table was successfully returned.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="9e690-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="9e690-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6fcef-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="6fcef-114">Remarks</span></span>
 
-<span data-ttu-id="9e690-115">Метод **IMsgServiceAdmin::GetMsgServiceTable** предоставляет доступ к таблице службы сообщений, которая поддерживается MAPI и содержит список служб сообщений, установленных в данный момент в профиле сеанса.</span><span class="sxs-lookup"><span data-stu-id="9e690-115">The **IMsgServiceAdmin::GetMsgServiceTable** method provides access to the message service table, a table that MAPI maintains that lists the message services currently installed in the session profile.</span></span> <span data-ttu-id="9e690-116">Полный список столбцов в таблице службы сообщений см. в [таблице службы сообщений.](message-service-tables.md)</span><span class="sxs-lookup"><span data-stu-id="9e690-116">For a complete list of columns in the message service table, see [Message Service Table](message-service-tables.md).</span></span>
+<span data-ttu-id="6fcef-115">Метод **IMsgServiceAdmin::GetMsgServiceTable** предоставляет доступ к таблице службы сообщений, которая поддерживает MAPI, которая содержит списки служб сообщений, установленных в профиле сеанса.</span><span class="sxs-lookup"><span data-stu-id="6fcef-115">The **IMsgServiceAdmin::GetMsgServiceTable** method provides access to the message service table, a table that MAPI maintains that lists the message services currently installed in the session profile.</span></span> <span data-ttu-id="6fcef-116">Полный список столбцов в таблице службы сообщений см. в [таблице службы сообщений.](message-service-tables.md)</span><span class="sxs-lookup"><span data-stu-id="6fcef-116">For a complete list of columns in the message service table, see [Message Service Table](message-service-tables.md).</span></span>
   
-<span data-ttu-id="9e690-117">Таблица службы сообщений является статической.</span><span class="sxs-lookup"><span data-stu-id="9e690-117">The message service table is static.</span></span> <span data-ttu-id="9e690-118">После того как клиент получит доступ к нему, последующие добавления или удаления службы сообщений не повлияют на него.</span><span class="sxs-lookup"><span data-stu-id="9e690-118">After a client has been given access to it, subsequent message service additions or deletions will not affect it.</span></span> <span data-ttu-id="9e690-119">Если в текущем профиле нет служб сообщений, **GetMsgServiceTable** возвращает таблицу с нулем строк.</span><span class="sxs-lookup"><span data-stu-id="9e690-119">If there are no message services in the current profile, **GetMsgServiceTable** returns a table with zero rows.</span></span> 
+<span data-ttu-id="6fcef-117">Таблица службы сообщений статична.</span><span class="sxs-lookup"><span data-stu-id="6fcef-117">The message service table is static.</span></span> <span data-ttu-id="6fcef-118">После получения клиентом доступа к нему последующие добавления или удаления службы сообщений не повлияют на него.</span><span class="sxs-lookup"><span data-stu-id="6fcef-118">After a client has been given access to it, subsequent message service additions or deletions will not affect it.</span></span> <span data-ttu-id="6fcef-119">Если в текущем профиле нет служб сообщений, **GetMsgServiceTable** возвращает таблицу с нулевыми строками.</span><span class="sxs-lookup"><span data-stu-id="6fcef-119">If there are no message services in the current profile, **GetMsgServiceTable** returns a table with zero rows.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="9e690-120">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="9e690-120">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="6fcef-120">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="6fcef-120">MFCMAPI reference</span></span>
 
-<span data-ttu-id="9e690-121">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="9e690-121">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="6fcef-121">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="6fcef-121">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="9e690-122">**Файл**</span><span class="sxs-lookup"><span data-stu-id="9e690-122">**File**</span></span>|<span data-ttu-id="9e690-123">**Функция**</span><span class="sxs-lookup"><span data-stu-id="9e690-123">**Function**</span></span>|<span data-ttu-id="9e690-124">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="9e690-124">**Comment**</span></span>|
+|<span data-ttu-id="6fcef-122">**Файл**</span><span class="sxs-lookup"><span data-stu-id="6fcef-122">**File**</span></span>|<span data-ttu-id="6fcef-123">**Функция**</span><span class="sxs-lookup"><span data-stu-id="6fcef-123">**Function**</span></span>|<span data-ttu-id="6fcef-124">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="6fcef-124">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="9e690-125">MsgServiceTableDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="9e690-125">MsgServiceTableDlg.cpp</span></span>  <br/> |<span data-ttu-id="9e690-126">CMsgServiceTableDlg::OnRefreshView</span><span class="sxs-lookup"><span data-stu-id="9e690-126">CMsgServiceTableDlg::OnRefreshView</span></span>  <br/> |<span data-ttu-id="9e690-127">MFCMAPI использует метод **IMsgServiceAdmin::GetMsgServiceTable** для загрузки таблицы служб в профиле для отображения в представлении.</span><span class="sxs-lookup"><span data-stu-id="9e690-127">MFCMAPI uses the **IMsgServiceAdmin::GetMsgServiceTable** method to load the table of services in a profile to render in the view.</span></span>  <br/> |
+|<span data-ttu-id="6fcef-125">MsgServiceTableDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="6fcef-125">MsgServiceTableDlg.cpp</span></span>  <br/> |<span data-ttu-id="6fcef-126">CMsgServiceTableDlg::OnRefreshView</span><span class="sxs-lookup"><span data-stu-id="6fcef-126">CMsgServiceTableDlg::OnRefreshView</span></span>  <br/> |<span data-ttu-id="6fcef-127">MFCMAPI использует **метод IMsgServiceAdmin::GetMsgServiceTable** для загрузки таблицы служб в профиле для отображения в представлении.</span><span class="sxs-lookup"><span data-stu-id="6fcef-127">MFCMAPI uses the **IMsgServiceAdmin::GetMsgServiceTable** method to load the table of services in a profile to render in the view.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="9e690-128">См. также</span><span class="sxs-lookup"><span data-stu-id="9e690-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6fcef-128">См. также</span><span class="sxs-lookup"><span data-stu-id="6fcef-128">See also</span></span>
 
 
 
-[<span data-ttu-id="9e690-129">IMsgServiceAdmin::ConfigureMsgService</span><span class="sxs-lookup"><span data-stu-id="9e690-129">IMsgServiceAdmin::ConfigureMsgService</span></span>](imsgserviceadmin-configuremsgservice.md)
+[<span data-ttu-id="6fcef-129">IMsgServiceAdmin::ConfigureMsgService</span><span class="sxs-lookup"><span data-stu-id="6fcef-129">IMsgServiceAdmin::ConfigureMsgService</span></span>](imsgserviceadmin-configuremsgservice.md)
   
-[<span data-ttu-id="9e690-130">IMsgServiceAdmin::DeleteMsgService</span><span class="sxs-lookup"><span data-stu-id="9e690-130">IMsgServiceAdmin::DeleteMsgService</span></span>](imsgserviceadmin-deletemsgservice.md)
+[<span data-ttu-id="6fcef-130">IMsgServiceAdmin::DeleteMsgService</span><span class="sxs-lookup"><span data-stu-id="6fcef-130">IMsgServiceAdmin::DeleteMsgService</span></span>](imsgserviceadmin-deletemsgservice.md)
   
-[<span data-ttu-id="9e690-131">IMsgServiceAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="9e690-131">IMsgServiceAdmin : IUnknown</span></span>](imsgserviceadminiunknown.md)
+[<span data-ttu-id="6fcef-131">IMsgServiceAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="6fcef-131">IMsgServiceAdmin : IUnknown</span></span>](imsgserviceadminiunknown.md)
 
 
-[<span data-ttu-id="9e690-132">Mfcmapi (en) � �������� ������� ����</span><span class="sxs-lookup"><span data-stu-id="9e690-132">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="6fcef-132">Mfcmapi (en) � �������� ������� ����</span><span class="sxs-lookup"><span data-stu-id="6fcef-132">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

@@ -15,10 +15,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404234"
 ---
-# <a name="attoriginalmessageclass"></a><span data-ttu-id="fd78a-103">attOriginalMessageClass</span><span class="sxs-lookup"><span data-stu-id="fd78a-103">attOriginalMessageClass</span></span>
+# <a name="attoriginalmessageclass"></a><span data-ttu-id="ab4eb-103">attOriginalMessageClass</span><span class="sxs-lookup"><span data-stu-id="ab4eb-103">attOriginalMessageClass</span></span>
 
-<span data-ttu-id="fd78a-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fd78a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ab4eb-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ab4eb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="fd78a-105">Класс сообщения хранится в строке.</span><span class="sxs-lookup"><span data-stu-id="fd78a-105">A message class is stored as a string.</span></span> <span data-ttu-id="fd78a-106">Закодированная строка обычно содержит имя класса сообщения, указанное в MAPI.</span><span class="sxs-lookup"><span data-stu-id="fd78a-106">The encoded string usually holds the MAPI-specified name of the message class.</span></span>
+<span data-ttu-id="ab4eb-105">Класс сообщений хранится в качестве строки.</span><span class="sxs-lookup"><span data-stu-id="ab4eb-105">A message class is stored as a string.</span></span> <span data-ttu-id="ab4eb-106">Закодированная строка обычно содержит указанное MAPI имя класса сообщений.</span><span class="sxs-lookup"><span data-stu-id="ab4eb-106">The encoded string usually holds the MAPI-specified name of the message class.</span></span>
   
 

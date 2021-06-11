@@ -15,10 +15,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405963"
 ---
-# <a name="improving-client-performance"></a><span data-ttu-id="bad5b-103">Повышение производительности клиентов</span><span class="sxs-lookup"><span data-stu-id="bad5b-103">Improving client performance</span></span>
+# <a name="improving-client-performance"></a><span data-ttu-id="c3866-103">Повышение производительности клиентов</span><span class="sxs-lookup"><span data-stu-id="c3866-103">Improving client performance</span></span>
  
-<span data-ttu-id="bad5b-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bad5b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c3866-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c3866-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="bad5b-105">В этом разделе содержатся советы по созданию клиентского приложения с максимальной производительностью.</span><span class="sxs-lookup"><span data-stu-id="bad5b-105">The topics in this section contain tips that help you create a client application with the best possible performance.</span></span>
+<span data-ttu-id="c3866-105">В этом разделе содержатся советы по созданию клиентского приложения с максимальной производительностью.</span><span class="sxs-lookup"><span data-stu-id="c3866-105">The topics in this section contain tips that help you create a client application with the best possible performance.</span></span>
   
 

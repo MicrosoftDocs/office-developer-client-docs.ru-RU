@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409260"
 ---
-# <a name="imscapabilitiesgetcapabilities"></a><span data-ttu-id="af1e9-103">IMSCapabilities::GetCapabilities</span><span class="sxs-lookup"><span data-stu-id="af1e9-103">IMSCapabilities::GetCapabilities</span></span>
+# <a name="imscapabilitiesgetcapabilities"></a><span data-ttu-id="e6996-103">IMSCapabilities::GetCapabilities</span><span class="sxs-lookup"><span data-stu-id="e6996-103">IMSCapabilities::GetCapabilities</span></span>
 
   
   
-<span data-ttu-id="af1e9-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="af1e9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e6996-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e6996-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="af1e9-105">Получает сведения о том, что может поддерживать хранилище на основе указанного селектора.</span><span class="sxs-lookup"><span data-stu-id="af1e9-105">Gets information about what a store can support based on the specified selector.</span></span>
+<span data-ttu-id="e6996-105">Получает сведения о том, какую поддержку может поддерживать магазин на основе указанного селектора.</span><span class="sxs-lookup"><span data-stu-id="e6996-105">Gets information about what a store can support based on the specified selector.</span></span>
   
 ```cpp
 ULONG GetCapabilities( 
@@ -33,24 +33,24 @@ MSCAP_SELECTOR mscapSelector
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="af1e9-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="af1e9-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e6996-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="e6996-106">Parameters</span></span>
 
- <span data-ttu-id="af1e9-107">*mscapSelector*</span><span class="sxs-lookup"><span data-stu-id="af1e9-107">*mscapSelector*</span></span> 
+ <span data-ttu-id="e6996-107">*mscapSelector*</span><span class="sxs-lookup"><span data-stu-id="e6996-107">*mscapSelector*</span></span> 
   
-> <span data-ttu-id="af1e9-108">[in] Селектор, указывающий возвращаемую возможность.</span><span class="sxs-lookup"><span data-stu-id="af1e9-108">[in] Selector indicating which capabilities to return.</span></span>
+> <span data-ttu-id="e6996-108">[in] Селектор, указывающий, какие возможности нужно возвращать.</span><span class="sxs-lookup"><span data-stu-id="e6996-108">[in] Selector indicating which capabilities to return.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="af1e9-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="af1e9-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e6996-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="e6996-109">Return value</span></span>
 
-<span data-ttu-id="af1e9-110">MSCAP_SECURE_FOLDER_HOMEPAGES</span><span class="sxs-lookup"><span data-stu-id="af1e9-110">MSCAP_SECURE_FOLDER_HOMEPAGES</span></span>
+<span data-ttu-id="e6996-110">MSCAP_SECURE_FOLDER_HOMEPAGES</span><span class="sxs-lookup"><span data-stu-id="e6996-110">MSCAP_SECURE_FOLDER_HOMEPAGES</span></span>
   
-> <span data-ttu-id="af1e9-111">Поддержка домашних папок в нестандартном хранилище.</span><span class="sxs-lookup"><span data-stu-id="af1e9-111">Support for folder homepages in a non-default store.</span></span> <span data-ttu-id="af1e9-112">Это может быть возвращено, **если MSCAP_SEL_FOLDER** указан в  *mscapSelector*  .</span><span class="sxs-lookup"><span data-stu-id="af1e9-112">This can be returned if **MSCAP_SEL_FOLDER** is specified in  *mscapSelector*  .</span></span> 
+> <span data-ttu-id="e6996-111">Поддержка домашних страницы папок в магазине по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="e6996-111">Support for folder homepages in a non-default store.</span></span> <span data-ttu-id="e6996-112">Это может быть возвращено, **если MSCAP_SEL_FOLDER** указан в  *mscapSelector*  .</span><span class="sxs-lookup"><span data-stu-id="e6996-112">This can be returned if **MSCAP_SEL_FOLDER** is specified in  *mscapSelector*  .</span></span> 
     
-<span data-ttu-id="af1e9-113">MSCAP_RES_ANNOTATION</span><span class="sxs-lookup"><span data-stu-id="af1e9-113">MSCAP_RES_ANNOTATION</span></span>
+<span data-ttu-id="e6996-113">MSCAP_RES_ANNOTATION</span><span class="sxs-lookup"><span data-stu-id="e6996-113">MSCAP_RES_ANNOTATION</span></span>
   
-> <span data-ttu-id="af1e9-114">Если ограничение содержит недопустимые аргументы, например недопустимые свойства, хранилище игнорирует недопустимые аргументы и обрабатывает только допустимые аргументы.</span><span class="sxs-lookup"><span data-stu-id="af1e9-114">If a restriction contains any invalid arguments such as invalid properties, the store ignores the invalid arguments and processes only the valid arguments.</span></span> <span data-ttu-id="af1e9-115">Это может быть возвращено, **если MSCAP_SEL_RESTRICTION** указан в  *mscapSelector*  .</span><span class="sxs-lookup"><span data-stu-id="af1e9-115">This can be returned if **MSCAP_SEL_RESTRICTION** is specified in  *mscapSelector*  .</span></span> 
+> <span data-ttu-id="e6996-114">Если ограничение содержит какие-либо недопустимые аргументы, такие как недействительные свойства, магазин игнорирует недействительные аргументы и обрабатывает только допустимые аргументы.</span><span class="sxs-lookup"><span data-stu-id="e6996-114">If a restriction contains any invalid arguments such as invalid properties, the store ignores the invalid arguments and processes only the valid arguments.</span></span> <span data-ttu-id="e6996-115">Это может быть возвращено, **если MSCAP_SEL_RESTRICTION** указан в  *mscapSelector*  .</span><span class="sxs-lookup"><span data-stu-id="e6996-115">This can be returned if **MSCAP_SEL_RESTRICTION** is specified in  *mscapSelector*  .</span></span> 
     
-<span data-ttu-id="af1e9-116">NULL</span><span class="sxs-lookup"><span data-stu-id="af1e9-116">NULL</span></span>
+<span data-ttu-id="e6996-116">NULL</span><span class="sxs-lookup"><span data-stu-id="e6996-116">NULL</span></span>
   
-> <span data-ttu-id="af1e9-117">Хранилище не поддерживает какие-либо возможности на основе заданного селектора.</span><span class="sxs-lookup"><span data-stu-id="af1e9-117">The store does not support any capability based on the given selector.</span></span>
+> <span data-ttu-id="e6996-117">Магазин не поддерживает возможности, основанные на заданном селекторе.</span><span class="sxs-lookup"><span data-stu-id="e6996-117">The store does not support any capability based on the given selector.</span></span>
     
 

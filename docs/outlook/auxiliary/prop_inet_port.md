@@ -14,25 +14,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409190"
 ---
-# <a name="prop_inet_port"></a><span data-ttu-id="f9088-103">PROP_INET_PORT</span><span class="sxs-lookup"><span data-stu-id="f9088-103">PROP_INET_PORT</span></span>
+# <a name="prop_inet_port"></a><span data-ttu-id="4a9b9-103">PROP_INET_PORT</span><span class="sxs-lookup"><span data-stu-id="4a9b9-103">PROP_INET_PORT</span></span>
 
-<span data-ttu-id="f9088-104">Представляет номер порта для общего почтового ящика Интернета.</span><span class="sxs-lookup"><span data-stu-id="f9088-104">Represents the port number for a general Internet mailbox.</span></span>
+<span data-ttu-id="4a9b9-104">Представляет номер порта для общего почтового ящика Интернета.</span><span class="sxs-lookup"><span data-stu-id="4a9b9-104">Represents the port number for a general Internet mailbox.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="f9088-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="f9088-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="4a9b9-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="4a9b9-105">Quick info</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="f9088-106">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="f9088-106">Identifier:</span></span>  <br/> |<span data-ttu-id="f9088-107">0x0104</span><span class="sxs-lookup"><span data-stu-id="f9088-107">0x0104</span></span>  <br/> |
-|<span data-ttu-id="f9088-108">Тип свойства:</span><span class="sxs-lookup"><span data-stu-id="f9088-108">Property type:</span></span>  <br/> |<span data-ttu-id="f9088-109">PT_DWORD</span><span class="sxs-lookup"><span data-stu-id="f9088-109">PT_DWORD</span></span>  <br/> |
-|<span data-ttu-id="f9088-110">Тег свойства:</span><span class="sxs-lookup"><span data-stu-id="f9088-110">Property tag:</span></span>  <br/> |<span data-ttu-id="f9088-111">0x01040003</span><span class="sxs-lookup"><span data-stu-id="f9088-111">0x01040003</span></span>  <br/> |
-|<span data-ttu-id="f9088-112">Access:</span><span class="sxs-lookup"><span data-stu-id="f9088-112">Access:</span></span>  <br/> |<span data-ttu-id="f9088-113">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="f9088-113">Read-only</span></span>  <br/> |
+|<span data-ttu-id="4a9b9-106">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="4a9b9-106">Identifier:</span></span>  <br/> |<span data-ttu-id="4a9b9-107">0x0104</span><span class="sxs-lookup"><span data-stu-id="4a9b9-107">0x0104</span></span>  <br/> |
+|<span data-ttu-id="4a9b9-108">Тип свойства:</span><span class="sxs-lookup"><span data-stu-id="4a9b9-108">Property type:</span></span>  <br/> |<span data-ttu-id="4a9b9-109">PT_DWORD</span><span class="sxs-lookup"><span data-stu-id="4a9b9-109">PT_DWORD</span></span>  <br/> |
+|<span data-ttu-id="4a9b9-110">Тег свойства:</span><span class="sxs-lookup"><span data-stu-id="4a9b9-110">Property tag:</span></span>  <br/> |<span data-ttu-id="4a9b9-111">0x01040003</span><span class="sxs-lookup"><span data-stu-id="4a9b9-111">0x01040003</span></span>  <br/> |
+|<span data-ttu-id="4a9b9-112">Доступ:</span><span class="sxs-lookup"><span data-stu-id="4a9b9-112">Access:</span></span>  <br/> |<span data-ttu-id="4a9b9-113">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="4a9b9-113">Read-only</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f9088-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="f9088-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4a9b9-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="4a9b9-114">Remarks</span></span>
 
-<span data-ttu-id="f9088-115">Пример: 110 для учетных записей POP.</span><span class="sxs-lookup"><span data-stu-id="f9088-115">An example is 110 for POP accounts.</span></span>
+<span data-ttu-id="4a9b9-115">Пример : 110 для учетных записей POP.</span><span class="sxs-lookup"><span data-stu-id="4a9b9-115">An example is 110 for POP accounts.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="f9088-116">См. также</span><span class="sxs-lookup"><span data-stu-id="f9088-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4a9b9-116">См. также</span><span class="sxs-lookup"><span data-stu-id="4a9b9-116">See also</span></span>
 
-- [<span data-ttu-id="f9088-117">Управление скачиванием сообщений для учетных записей POP3</span><span class="sxs-lookup"><span data-stu-id="f9088-117">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md) 
-- [<span data-ttu-id="f9088-118">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="f9088-118">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="4a9b9-117">Управление скачиванием сообщений для учетных записей POP3</span><span class="sxs-lookup"><span data-stu-id="4a9b9-117">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md) 
+- [<span data-ttu-id="4a9b9-118">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="4a9b9-118">Constants (Account management API)</span></span>](constants-account-management-api.md)
 

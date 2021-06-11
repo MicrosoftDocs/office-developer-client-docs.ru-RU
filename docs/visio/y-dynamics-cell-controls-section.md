@@ -16,24 +16,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404829"
 ---
-# <a name="y-dynamics-cell-controls-section"></a><span data-ttu-id="79075-104">Ячейка Y Dynamics (раздел "Элементы управления")</span><span class="sxs-lookup"><span data-stu-id="79075-104">Y Dynamics Cell (Controls Section)</span></span>
+# <a name="y-dynamics-cell-controls-section"></a><span data-ttu-id="af381-104">Ячейка Y Dynamics (раздел "Элементы управления")</span><span class="sxs-lookup"><span data-stu-id="af381-104">Y Dynamics Cell (Controls Section)</span></span>
 
-<span data-ttu-id="79075-105">Представляет *y*-координату для точки привязки управляющего маркера в локальных координатах.</span><span class="sxs-lookup"><span data-stu-id="79075-105">Represents the  *y*  -coordinate for a control handle's anchor point in local coordinates.</span></span> <span data-ttu-id="79075-106">Точка привязки используется для эластичного соединения при движении.</span><span class="sxs-lookup"><span data-stu-id="79075-106">The anchor point is used for rubber-banding during dynamics.</span></span> 
+<span data-ttu-id="af381-105">Представляет *y*-координату для точки привязки управляющего маркера в локальных координатах.</span><span class="sxs-lookup"><span data-stu-id="af381-105">Represents the  *y*  -coordinate for a control handle's anchor point in local coordinates.</span></span> <span data-ttu-id="af381-106">Точка привязки используется для эластичного соединения при движении.</span><span class="sxs-lookup"><span data-stu-id="af381-106">The anchor point is used for rubber-banding during dynamics.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="79075-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="79075-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="af381-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="af381-107">Remarks</span></span>
 
-<span data-ttu-id="79075-108">Чтобы получить ссылку на ячейку Y Dynamics по имени из другой формулы или из программы с помощью свойства **CellsU**, укажите следующее:</span><span class="sxs-lookup"><span data-stu-id="79075-108">To get a reference to the Y Dynamics cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="af381-108">Чтобы получить ссылку на ячейку Y Dynamics по имени из другой формулы или из программы с помощью свойства **CellsU**, укажите следующее:</span><span class="sxs-lookup"><span data-stu-id="af381-108">To get a reference to the Y Dynamics cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="79075-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="79075-109">Cell name:</span></span>  <br/> | <span data-ttu-id="79075-110">Controls.</span><span class="sxs-lookup"><span data-stu-id="79075-110">Controls.</span></span>  <span data-ttu-id="79075-111">*имя* .YDyn, где Controls.</span><span class="sxs-lookup"><span data-stu-id="79075-111">*name*  .YDynwhere Controls.</span></span>  <span data-ttu-id="79075-112">*имя* — название строки элементов управления.</span><span class="sxs-lookup"><span data-stu-id="79075-112">*name*  is the name of the controls row.</span></span>  <br/> |
+| <span data-ttu-id="af381-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="af381-109">Cell name:</span></span>  <br/> | <span data-ttu-id="af381-110">Controls.</span><span class="sxs-lookup"><span data-stu-id="af381-110">Controls.</span></span>  <span data-ttu-id="af381-111">*имя* .YDyn, где Controls.</span><span class="sxs-lookup"><span data-stu-id="af381-111">*name*  .YDynwhere Controls.</span></span>  <span data-ttu-id="af381-112">*имя* — название строки элементов управления.</span><span class="sxs-lookup"><span data-stu-id="af381-112">*name*  is the name of the controls row.</span></span>  <br/> |
    
-<span data-ttu-id="79075-113">Чтобы получить ссылку на ячейку Y Dynamics по индексу из программы, укажите свойство **CellsSRC** с такими аргументами:</span><span class="sxs-lookup"><span data-stu-id="79075-113">To get a reference to the Y Dynamics cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="af381-113">Чтобы получить ссылку на ячейку Y Dynamics по индексу из программы, укажите свойство **CellsSRC** с такими аргументами:</span><span class="sxs-lookup"><span data-stu-id="af381-113">To get a reference to the Y Dynamics cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="79075-114">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="79075-114">Section index:</span></span>  <br/> |<span data-ttu-id="79075-115">**visSectionControls**</span><span class="sxs-lookup"><span data-stu-id="79075-115">**visSectionControls**</span></span> <br/> |
-| <span data-ttu-id="79075-116">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="79075-116">Row index:</span></span>  <br/> |<span data-ttu-id="79075-117">**visRowControl** +  *i*, где *i* = 0, 1, 2…</span><span class="sxs-lookup"><span data-stu-id="79075-117">**visRowControl** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="79075-118">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="79075-118">Cell index:</span></span>  <br/> |<span data-ttu-id="79075-119">**visCtlYDyn**</span><span class="sxs-lookup"><span data-stu-id="79075-119">**visCtlYDyn**</span></span> <br/> |
+| <span data-ttu-id="af381-114">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="af381-114">Section index:</span></span>  <br/> |<span data-ttu-id="af381-115">**visSectionControls**</span><span class="sxs-lookup"><span data-stu-id="af381-115">**visSectionControls**</span></span> <br/> |
+| <span data-ttu-id="af381-116">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="af381-116">Row index:</span></span>  <br/> |<span data-ttu-id="af381-117">**visRowControl** +  *i*, где *i* = 0, 1, 2…</span><span class="sxs-lookup"><span data-stu-id="af381-117">**visRowControl** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="af381-118">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="af381-118">Cell index:</span></span>  <br/> |<span data-ttu-id="af381-119">**visCtlYDyn**</span><span class="sxs-lookup"><span data-stu-id="af381-119">**visCtlYDyn**</span></span> <br/> |
    
 

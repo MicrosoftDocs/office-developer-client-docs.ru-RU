@@ -19,35 +19,35 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405529"
 ---
-# <a name="cbnewentryid"></a><span data-ttu-id="ef212-103">CbNewENTRYID</span><span class="sxs-lookup"><span data-stu-id="ef212-103">CbNewENTRYID</span></span>
+# <a name="cbnewentryid"></a><span data-ttu-id="b24a4-103">CbNewENTRYID</span><span class="sxs-lookup"><span data-stu-id="b24a4-103">CbNewENTRYID</span></span>
 
   
   
-<span data-ttu-id="ef212-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ef212-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b24a4-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b24a4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ef212-105">Вычисляет количество ветвей, которые должны быть выделены для новой [структуры ENTRYID](entryid.md) указанного размера.</span><span class="sxs-lookup"><span data-stu-id="ef212-105">Computes the number of bytes that should be allocated for a new [ENTRYID](entryid.md) structure of a specified size.</span></span> 
+<span data-ttu-id="b24a4-105">Вычисляет количество bytes, которые должны быть выделены для новой [структуры ENTRYID](entryid.md) указанного размера.</span><span class="sxs-lookup"><span data-stu-id="b24a4-105">Computes the number of bytes that should be allocated for a new [ENTRYID](entryid.md) structure of a specified size.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ef212-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="ef212-106">Header file:</span></span>  <br/> |<span data-ttu-id="ef212-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ef212-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="ef212-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="ef212-108">Related structure:</span></span>  <br/> |<span data-ttu-id="ef212-109">**ENTRYID**</span><span class="sxs-lookup"><span data-stu-id="ef212-109">**ENTRYID**</span></span> <br/> |
+|<span data-ttu-id="b24a4-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="b24a4-106">Header file:</span></span>  <br/> |<span data-ttu-id="b24a4-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b24a4-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="b24a4-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="b24a4-108">Related structure:</span></span>  <br/> |<span data-ttu-id="b24a4-109">**ENTRYID**</span><span class="sxs-lookup"><span data-stu-id="b24a4-109">**ENTRYID**</span></span> <br/> |
    
 ```cpp
 CbNewENTRYID (_cb)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ef212-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="ef212-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b24a4-110">Parameters</span><span class="sxs-lookup"><span data-stu-id="b24a4-110">Parameters</span></span>
 
- <span data-ttu-id="ef212-111">__cb_</span><span class="sxs-lookup"><span data-stu-id="ef212-111">_ _cb_</span></span>
+ <span data-ttu-id="b24a4-111">_ _cb_</span><span class="sxs-lookup"><span data-stu-id="b24a4-111">_ _cb_</span></span>
   
-> <span data-ttu-id="ef212-112">Количество (в том числе) в идентификаторе записи, который будет храниться в новой **структуре ENTRYID.**</span><span class="sxs-lookup"><span data-stu-id="ef212-112">Count of bytes in the entry identifier to be stored in the new **ENTRYID** structure.</span></span> 
+> <span data-ttu-id="b24a4-112">Количество bytes в идентификаторе записи, который будет храниться в новой **структуре ENTRYID.**</span><span class="sxs-lookup"><span data-stu-id="b24a4-112">Count of bytes in the entry identifier to be stored in the new **ENTRYID** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="ef212-113">См. также</span><span class="sxs-lookup"><span data-stu-id="ef212-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b24a4-113">См. также</span><span class="sxs-lookup"><span data-stu-id="b24a4-113">See also</span></span>
 
 
 
-[<span data-ttu-id="ef212-114">ENTRYID</span><span class="sxs-lookup"><span data-stu-id="ef212-114">ENTRYID</span></span>](entryid.md)
+[<span data-ttu-id="b24a4-114">ENTRYID</span><span class="sxs-lookup"><span data-stu-id="b24a4-114">ENTRYID</span></span>](entryid.md)
 
 
-[<span data-ttu-id="ef212-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="ef212-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="b24a4-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="b24a4-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

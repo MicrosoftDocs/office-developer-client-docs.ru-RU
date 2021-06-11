@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405907"
 ---
-# <a name="imapisessionadminservices"></a><span data-ttu-id="a0c02-103">IMAPISession::AdminServices</span><span class="sxs-lookup"><span data-stu-id="a0c02-103">IMAPISession::AdminServices</span></span>
+# <a name="imapisessionadminservices"></a><span data-ttu-id="bf992-103">IMAPISession::AdminServices</span><span class="sxs-lookup"><span data-stu-id="bf992-103">IMAPISession::AdminServices</span></span>
 
   
   
-<span data-ttu-id="a0c02-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a0c02-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bf992-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bf992-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a0c02-105">Возвращает [указатель IMsgServiceAdmin](imsgserviceadminiunknown.md) для внесения изменений в службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="a0c02-105">Returns an [IMsgServiceAdmin](imsgserviceadminiunknown.md) pointer for making changes to message services.</span></span> 
+<span data-ttu-id="bf992-105">Возвращает [указатель IMsgServiceAdmin](imsgserviceadminiunknown.md) для внесения изменений в службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="bf992-105">Returns an [IMsgServiceAdmin](imsgserviceadminiunknown.md) pointer for making changes to message services.</span></span> 
   
 ```cpp
 HRESULT AdminServices(
@@ -34,44 +34,44 @@ HRESULT AdminServices(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a0c02-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="a0c02-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bf992-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="bf992-106">Parameters</span></span>
 
- <span data-ttu-id="a0c02-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="a0c02-107">_ulFlags_</span></span>
+ <span data-ttu-id="bf992-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="bf992-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="a0c02-108">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="a0c02-108">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="bf992-108">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="bf992-108">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="a0c02-109">_lppServiceAdmin_</span><span class="sxs-lookup"><span data-stu-id="a0c02-109">_lppServiceAdmin_</span></span>
+ <span data-ttu-id="bf992-109">_lppServiceAdmin_</span><span class="sxs-lookup"><span data-stu-id="bf992-109">_lppServiceAdmin_</span></span>
   
-> <span data-ttu-id="a0c02-110">[out] Указатель на указатель на объект администрирования службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="a0c02-110">[out] A pointer to a pointer to a message service administration object.</span></span>
+> <span data-ttu-id="bf992-110">[вышел] Указатель на указатель на объект администрирования службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="bf992-110">[out] A pointer to a pointer to a message service administration object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="a0c02-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="a0c02-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bf992-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="bf992-111">Return value</span></span>
 
-<span data-ttu-id="a0c02-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="a0c02-112">S_OK</span></span> 
+<span data-ttu-id="bf992-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="bf992-112">S_OK</span></span> 
   
-> <span data-ttu-id="a0c02-113">Указатель на объект администрирования службы сообщений был успешно возвращен.</span><span class="sxs-lookup"><span data-stu-id="a0c02-113">A pointer to a message service administration object was successfully returned.</span></span>
+> <span data-ttu-id="bf992-113">Указатель на объект администрирования службы сообщений был успешно возвращен.</span><span class="sxs-lookup"><span data-stu-id="bf992-113">A pointer to a message service administration object was successfully returned.</span></span>
     
-## <a name="notes-to-callers"></a><span data-ttu-id="a0c02-114">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="a0c02-114">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="bf992-114">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="bf992-114">Notes to callers</span></span>
 
-<span data-ttu-id="a0c02-115">Метод **IMAPISession::AdminServices** создает объект администрирования службы сообщений, который поддерживает интерфейс **IMsgServiceAdmin** и возвращает указатель.</span><span class="sxs-lookup"><span data-stu-id="a0c02-115">The **IMAPISession::AdminServices** method creates a message service administration object, an object that supports the **IMsgServiceAdmin** interface and returns a pointer.</span></span> <span data-ttu-id="a0c02-116">С помощью этого указателя можно вызвать методы **IMsgServiceAdmin,** чтобы изменить любую службу сообщений в профиле сеанса.</span><span class="sxs-lookup"><span data-stu-id="a0c02-116">By using this pointer, you can call **IMsgServiceAdmin** methods to change any of the message services in the session profile.</span></span> <span data-ttu-id="a0c02-117">Следует помнить, что эти изменения не в силу до следующего сеанса; текущий сеанс не влияет на текущий сеанс.</span><span class="sxs-lookup"><span data-stu-id="a0c02-117">Be aware that these changes do not take effect until the next session; the current session is unaffected.</span></span> 
+<span data-ttu-id="bf992-115">Метод **IMAPISession::AdminServices** создает объект администрирования службы сообщений, объект, поддерживаючий интерфейс **IMsgServiceAdmin** и возвращая указатель.</span><span class="sxs-lookup"><span data-stu-id="bf992-115">The **IMAPISession::AdminServices** method creates a message service administration object, an object that supports the **IMsgServiceAdmin** interface and returns a pointer.</span></span> <span data-ttu-id="bf992-116">С помощью этого указателя можно вызвать **методы IMsgServiceAdmin,** чтобы изменить любую из служб сообщений в профиле сеанса.</span><span class="sxs-lookup"><span data-stu-id="bf992-116">By using this pointer, you can call **IMsgServiceAdmin** methods to change any of the message services in the session profile.</span></span> <span data-ttu-id="bf992-117">Следует помнить, что эти изменения не вступает в силу до следующего сеанса; текущий сеанс не влияет.</span><span class="sxs-lookup"><span data-stu-id="bf992-117">Be aware that these changes do not take effect until the next session; the current session is unaffected.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="a0c02-118">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="a0c02-118">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="bf992-118">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="bf992-118">MFCMAPI reference</span></span>
 
-<span data-ttu-id="a0c02-119">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="a0c02-119">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="bf992-119">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="bf992-119">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="a0c02-120">**Файл**</span><span class="sxs-lookup"><span data-stu-id="a0c02-120">**File**</span></span>|<span data-ttu-id="a0c02-121">**Функция**</span><span class="sxs-lookup"><span data-stu-id="a0c02-121">**Function**</span></span>|<span data-ttu-id="a0c02-122">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="a0c02-122">**Comment**</span></span>|
+|<span data-ttu-id="bf992-120">**Файл**</span><span class="sxs-lookup"><span data-stu-id="bf992-120">**File**</span></span>|<span data-ttu-id="bf992-121">**Функция**</span><span class="sxs-lookup"><span data-stu-id="bf992-121">**Function**</span></span>|<span data-ttu-id="bf992-122">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="bf992-122">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="a0c02-123">MAPIStoreFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="a0c02-123">MAPIStoreFunctions.cpp</span></span>  <br/> |<span data-ttu-id="a0c02-124">GetServerName</span><span class="sxs-lookup"><span data-stu-id="a0c02-124">GetServerName</span></span>  <br/> |<span data-ttu-id="a0c02-125">MFCMAPI использует метод **IMAPISession::AdminServices** для доступа к профилю для чтения имени сервера.</span><span class="sxs-lookup"><span data-stu-id="a0c02-125">MFCMAPI uses the **IMAPISession::AdminServices** method to access the profile to read the server name.</span></span>  <br/> |
+|<span data-ttu-id="bf992-123">MAPIStoreFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="bf992-123">MAPIStoreFunctions.cpp</span></span>  <br/> |<span data-ttu-id="bf992-124">GetServerName</span><span class="sxs-lookup"><span data-stu-id="bf992-124">GetServerName</span></span>  <br/> |<span data-ttu-id="bf992-125">MFCMAPI использует **метод IMAPISession::AdminServices** для доступа к профиле для чтения имени сервера.</span><span class="sxs-lookup"><span data-stu-id="bf992-125">MFCMAPI uses the **IMAPISession::AdminServices** method to access the profile to read the server name.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="a0c02-126">См. также</span><span class="sxs-lookup"><span data-stu-id="a0c02-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bf992-126">См. также</span><span class="sxs-lookup"><span data-stu-id="bf992-126">See also</span></span>
 
 
 
-[<span data-ttu-id="a0c02-127">IMsgServiceAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="a0c02-127">IMsgServiceAdmin : IUnknown</span></span>](imsgserviceadminiunknown.md)
+[<span data-ttu-id="bf992-127">IMsgServiceAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="bf992-127">IMsgServiceAdmin : IUnknown</span></span>](imsgserviceadminiunknown.md)
   
-[<span data-ttu-id="a0c02-128">IProfAdmin::AdminServices</span><span class="sxs-lookup"><span data-stu-id="a0c02-128">IProfAdmin::AdminServices</span></span>](iprofadmin-adminservices.md)
+[<span data-ttu-id="bf992-128">IProfAdmin::AdminServices</span><span class="sxs-lookup"><span data-stu-id="bf992-128">IProfAdmin::AdminServices</span></span>](iprofadmin-adminservices.md)
   
-[<span data-ttu-id="a0c02-129">IMAPISession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="a0c02-129">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
+[<span data-ttu-id="bf992-129">IMAPISession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="bf992-129">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
 
 
-[<span data-ttu-id="a0c02-130">Mfcmapi (en) � �������� ������� ����</span><span class="sxs-lookup"><span data-stu-id="a0c02-130">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="bf992-130">Mfcmapi (en) � �������� ������� ����</span><span class="sxs-lookup"><span data-stu-id="bf992-130">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 
