@@ -23,7 +23,7 @@ ms.locfileid: "33426529"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит [структуру MAPIUID](mapiuid.md) для службы сообщений. 
   
@@ -36,11 +36,11 @@ ms.locfileid: "33426529"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство вычисляется с помощью MAPI для объектов раздела профиля. MAPI использует его для группировки всех поставщиков, принадлежащих к одной службе сообщений. Это свойство предоставляется в качестве параметра для большинства методов [IMsgServiceAdmin.](imsgserviceadminiunknown.md) Он не должен отображаться в mapisvc.inf. 
+Это свойство вычисляется MAPI на объектах раздела профилей. MAPI использует его для группировки всех поставщиков, принадлежащих к одной и той же службе сообщений. Это свойство предоставляется в качестве параметра для большинства методов [IMsgServiceAdmin.](imsgserviceadminiunknown.md) Он не должен отображаться в Mapisvc.inf. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -63,5 +63,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

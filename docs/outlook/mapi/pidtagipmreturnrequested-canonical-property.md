@@ -1,5 +1,5 @@
 ---
-title: Каноническое свойство PidTagIpmReturnRequested
+title: PidTagIpmReturnRequested Canonical Property
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429336"
 ---
-# <a name="pidtagipmreturnrequested-canonical-property"></a>Каноническое свойство PidTagIpmReturnRequested
+# <a name="pidtagipmreturnrequested-canonical-property"></a>PidTagIpmReturnRequested Canonical Property
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит true, если это сообщение должно быть возвращено с отчетом.
+Содержит TRUE, если это сообщение должно быть возвращено с отчетом.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "33429336"
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -56,5 +56,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

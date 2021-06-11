@@ -1,13 +1,13 @@
 ---
-title: Открытие или преобразование шаблона формы, созданного с помощью infoPath набор средств
+title: Откройте или преобразуем шаблон формы, созданный с помощью infoPath набор средств
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- преобразование шаблонов форм [infopath 2007],InfoPath набор средств, opening form templates from,form templates [InfoPath 2007], opening,InfoPath 2007, converting InfoPath набор средств form templates,opening form templates [InfoPath 2007],form templates [InfoPath 2007], converting,script [InfoPath 2007], converting to managed code
+- преобразование шаблонов форм [infopath 2007], InfoPath набор средств, открытие шаблонов форм из шаблонов форм [InfoPath 2007], opening,InfoPath 2007, преобразование шаблонов форм InfoPath набор средств, открытие шаблонов форм [InfoPath 2007], шаблоны форм [InfoPath 2007], преобразование,скрипт [InfoPath 2007], преобразование в управляемый код
 localization_priority: Normal
 ms.assetid: af8eca2e-ba9a-4c37-94af-662815fff518
-description: Если вы создали шаблон формы InfoPath 2003 с управляемым кодом с помощью одного из наборов инструментов InfoPath 2003 для Visual Studio и хотите обеспечить совместимость с InfoPath 2003, вы можете продолжить работу и дальнейшую разработку проекта шаблона формы, открыв его в Microsoft InfoPath и Visual Studio 2012.
+description: Если вы создали шаблон управляемых форм кода InfoPath 2003 с использованием одного из наборов инструментов InfoPath 2003 для Visual Studio и хотите поддерживать совместимость с InfoPath 2003, вы можете продолжить работу над проектом шаблона формы и далее, открыв его в Microsoft InfoPath и Visual Studio 2012.
 ms.openlocfilehash: 0acbfab4a83a71d94a1c70a667a963056f5b9a38
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -15,23 +15,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428587"
 ---
-# <a name="open-or-convert-a-form-template-created-with-the-infopath-toolkit"></a>Открытие или преобразование шаблона формы, созданного с помощью infoPath набор средств
+# <a name="open-or-convert-a-form-template-created-with-the-infopath-toolkit"></a>Откройте или преобразуем шаблон формы, созданный с помощью infoPath набор средств
 
-Если вы создали шаблон формы InfoPath 2003 с управляемым кодом с помощью одного из наборов инструментов InfoPath 2003 для Visual Studio и хотите обеспечить совместимость с InfoPath 2003, вы можете продолжить работу и дальнейшую разработку проекта шаблона формы, открыв его в Microsoft InfoPath и Visual Studio 2012.
+Если вы создали шаблон управляемых форм кода InfoPath 2003 с использованием одного из наборов инструментов InfoPath 2003 для Visual Studio и хотите поддерживать совместимость с InfoPath 2003, вы можете продолжить работу над проектом шаблона формы и далее, открыв его в Microsoft InfoPath и Visual Studio 2012.
   
-Кроме того, вы можете перенести и обновить код в проекте InfoPath 2003, чтобы использовать новую объектную модель .NET, предоставляемую пространством имен [Microsoft.Office.InfoPath.](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) При этом весь код необходимо перезаписи, чтобы использовать члены пространства имен **Microsoft.Office.InfoPath,** но весь код из предыдущего проекта сохраняется и окружается #if **InfoPathManagedObjectModel** и **#endif** (C#) или **#If Модель InfoPathManagedObject** и **#End If** (Visual Basic) для ссылки. 
+Кроме того, вы можете перенести и обновить код в проекте InfoPath 2003, чтобы использовать новую объектную модель .NET, предоставленную [Microsoft.Office. Пространство имен InfoPath.](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) При этом весь код необходимо переописыть, чтобы использовать членов **Microsoft.Office. Пространство имен InfoPath,** но весь код предыдущего проекта сохраняется и окружен #if **InfoPathManagedObjectModel** и **#endif** (C#) или **#If InfoPathManagedObject Model** и #End **If** (Visual Basic) для вашей ссылки. 
   
-В следующих процедурах описано, как открыть шаблон формы с управляемым кодом, созданный с помощью infoPath набор средств и обеспечить совместимость с InfoPath 2003, или перенести и обновить до новой объектной модели InfoPath. 
+В следующих процедурах описывается, как открыть шаблон управляемой формы кода, созданный с помощью infoPath набор средств и поддерживать совместимость с InfoPath 2003 или перенести и обновить до новой объектной модели InfoPath. 
   
 ### <a name="open-a-managed-code-form-template-created-with-the-infopath-toolkit-and-maintain-compatibility-with-infopath-2003-using-visual-studio-tools-for-applications"></a>Открытие шаблона формы с управляемым кодом, созданного с помощью набора инструментов InfoPath, и сохранение совместимости с приложением InfoPath 2003, использующим набор средств Visual Studio Tools для работы с приложениями
 
-1. Откройте конструктор InfoPath и нажмите кнопку **"Открыть"** на **вкладке "Файл".** 
+1. Откройте конструктор InfoPath и нажмите кнопку **Открыть** на вкладке **Файл.** 
     
-2. В **диалоговом** окне "Открыть в режиме конструктора" перейдите к папке проекта, в которой набор средств шаблон формы InfoPath. 
+2. В **диалоговом окне Open in Design Mode** перейдите в папку проекта, в которой сохранен набор средств шаблон формы InfoPath. 
     
-    По умолчанию это папка в имени пользователя на `C:\Users\`  `\Documents\Visual Studio Projects` компьютере, где был создан проект.   Вы также можете переместить папку в расположение, в котором InfoPath Visual Studio проектов 2012, которые по умолчанию —  `C:\Users\` *имя пользователя.*  `\Documents\InfoPath Projects`
+    По умолчанию это будет папка в имени пользователя на `C:\Users\`  `\Documents\Visual Studio Projects` компьютере, на котором был создан проект.   Или вы можете переместить папку в расположение, в котором InfoPath хранит Visual Studio проектов 2012 г., которые по умолчанию `C:\Users\` *именуются пользователями.*  `\Documents\InfoPath Projects`
     
-3. Щелкните файл с именем manifest.xsf и нажмите кнопку **"Открыть".**
+3. Щелкните файл с именем manifest.xsf и нажмите кнопку **Открыть**.
     
 4. Перейдите на вкладку **Разработчик** и щелкните элемент **Редактор кода**.
     
@@ -41,25 +41,25 @@ ms.locfileid: "33428587"
     
 7. Отобразится сообщение "Этот код был создан с использованием одного из наборов инструментов InfoPath 2003 для Microsoft Visual Studio. Проект набора инструментов необходимо перевести в новый формат.". Нажмите кнопку **ОК**, чтобы продолжить. 
     
-8. Выберите файл Visual Studio solution (SLN) для проекта и нажмите кнопку **"Открыть".**
+8. Выберите файл Visual Studio (.sln) для проекта и нажмите кнопку **Открыть**.
     
 9. По завершении процедуры переноса отобразится сообщение "Проект был перенесен". Нажмите кнопку **ОК**, чтобы продолжить. 
     
-10. Отобразится сообщение "Код в этой форме использует объектную модель InfoPath 2003" с запросом "Обновить код для использования объектной модели Microsoft Office InfoPath?". Нажмите **кнопку** "Нет", чтобы сохранить совместимость с InfoPath 2003 и продолжить работу с объектной моделью, предоставляемой пространством имен [Microsoft.Office.Interop.InfoPath.SemiTrust.](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) 
+10. Отобразится сообщение "Код в этой форме использует объектную модель InfoPath 2003" с запросом "Обновить код для использования объектной модели Microsoft Office InfoPath?". Нажмите **кнопку** Нет, чтобы сохранить совместимость с InfoPath 2003 и продолжить работу с объектной моделью, предоставленной пространством имен [Microsoft.Office.Interop.InfoPath.SemiTrust.](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) 
     
-    Сведения о работе с шаблонами форм с управляемым кодом, совместимыми с InfoPath 2003, см. в подразделе "Разработка шаблонов форм с помощью объектной модели [InfoPath 2003".](developing-form-templates-using-the-infopath-2003-object-model.md)
+    Сведения о работе с управляемыми шаблонами форм кода, совместимыми с InfoPath 2003, см. в примере [Developing Form Templates Using the InfoPath 2003 Object Model.](developing-form-templates-using-the-infopath-2003-object-model.md)
     
 ### <a name="open-a-managed-code-form-template-created-with-the-infopath-toolkit-and-upgrade-it-to-use-the-new-infopath-object-model-using-visual-studio-tools-for-applications"></a>Открытие шаблона формы с управляемым кодом, созданного с помощью набора инструментов InfoPath, и его обновление для использования с объектной моделью InfoPath и пакетом средств Visual Studio Tools для работы с приложениями
 
-1. Откройте конструктор InfoPath и нажмите кнопку **"Открыть"** на **вкладке "Файл".** 
+1. Откройте конструктор InfoPath и нажмите кнопку **Открыть** на вкладке **Файл.** 
     
 2. В разделе **Открытие шаблона формы** щелкните **На моем компьютере**.
     
-3. В **диалоговом** окне "Открыть в режиме конструктора" перейдите к папке проекта, в которой набор средств шаблон формы InfoPath. 
+3. В **диалоговом окне Open in Design Mode** перейдите в папку проекта, в которой сохранен набор средств шаблон формы InfoPath. 
     
-    По умолчанию это папка в имени пользователя на `C:\Users\`  `\Documents\Visual Studio Projects` компьютере, где был создан проект.   Вы также можете переместить папку в расположение, в котором InfoPath Visual Studio проектов 2012, которые по умолчанию —  `C:\Users\` *имя пользователя.*  `\Documents\InfoPath Projects`
+    По умолчанию это будет папка в имени пользователя на `C:\Users\`  `\Documents\Visual Studio Projects` компьютере, на котором был создан проект.   Или вы можете переместить папку в расположение, в котором InfoPath хранит Visual Studio проектов 2012 г., которые по умолчанию `C:\Users\` *именуются пользователями.*  `\Documents\InfoPath Projects`
     
-4. Щелкните файл с именем manifest.xsf и нажмите кнопку **"Открыть".**
+4. Щелкните файл с именем manifest.xsf и нажмите кнопку **Открыть**.
     
 5. Перейдите на вкладку **Разработчик** и щелкните элемент **Редактор кода**.
     
@@ -69,14 +69,14 @@ ms.locfileid: "33428587"
     
 8. Отобразится сообщение "Этот код был создан с использованием одного из наборов инструментов InfoPath 2003 для Microsoft Visual Studio. Проект набора инструментов необходимо перевести в новый формат.". Нажмите кнопку **ОК**, чтобы продолжить. 
     
-9. Выберите файл Visual Studio solution (SLN) для проекта и нажмите кнопку **"Открыть".**
+9. Выберите файл Visual Studio (.sln) для проекта и нажмите кнопку **Открыть**.
     
 10. По завершении процедуры переноса отобразится сообщение "Проект был перенесен". Нажмите кнопку **ОК**, чтобы продолжить. 
     
-11. Отобразится сообщение "Код в этой форме использует объектную модель InfoPath 2003" с запросом "Обновить код для использования объектной модели Microsoft Office InfoPath?". Нажмите **кнопку** "Да", чтобы обновить шаблон формы, чтобы использовать новую объектную модель управляемого кода, предоставляемую пространством имен [Microsoft.Office.InfoPath.](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 
+11. Отобразится сообщение "Код в этой форме использует объектную модель InfoPath 2003" с запросом "Обновить код для использования объектной модели Microsoft Office InfoPath?". Щелкните **Да,** чтобы обновить шаблон формы, чтобы использовать новую объектную модель управляемого кода, предоставленную [Microsoft.Office. Пространство имен InfoPath.](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 
     
-    Код формы открывается в редакторе кода Visual Studio 2012 со всем кодом из предыдущего проекта в окружении **#if** **InfoPathManagedObjectModel** и **#endif** (C#) или **#If InfoPathManagedObjectModel** и #End **If** (Visual Basic) для справки. Весь этот код необходимо переписать для использования элементов объектной модели, предоставляемой пространством имен **Microsoft.Office.InfoPath**. 
+    Код формы открыт в редакторе кода Visual Studio 2012 г. со всеми кодами из предыдущего проекта в окружении #if  **InfoPathManagedObjectModel** и **#endif** (C#) или **#If InfoPathManagedObjectModel** и **#End If** (Visual Basic) для вашей ссылки. Весь этот код необходимо переписать для использования элементов объектной модели, предоставляемой пространством имен **Microsoft.Office.InfoPath**. 
     
-    Сведения о работе с шаблонами форм с управляемым кодом, которые используют новую объектную модель infoPath с управляемым кодом, см. в подразделе "Разработка шаблонов [форм InfoPath с кодом".](developing-infopath-form-templates-with-code.md)
+    Сведения о работе с управляемыми шаблонами форм кода, которые используют новую объектную модель управляемых кодов InfoPath, см. в примере [Developing InfoPath Form Templates with Code.](developing-infopath-form-templates-with-code.md)
     
 

@@ -8,7 +8,7 @@ f1_keywords:
 - TempNum
 - TempNum12
 keywords:
-- Функция tempnum12 [excel 2007],TempNum function [Excel 2007]
+- функция tempnum12 [Excel 2007], функция TempNum [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,26 +23,26 @@ ms.locfileid: "33426634"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Функция библиотеки Framework, которая создает временную  /  **XLOPER XLOPER12,** содержащую номер листа Microsoft Excel (8-разрядный номер IEEE). 
+Функция библиотеки Framework, которая создает временную **XLOPER** /  **XLOPER12,** содержащую номер Microsoft Excel таблицы (двойной номер IEEE 8-byte). 
   
 ```cs
 LPXLOPER TempNum(double d);
 LPXLOPER12 TempNum12(double d);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
- _d_ (**double)**
+ _d_ **(дважды)**
   
-Предполагаемая величина. Обратите внимание, что в настоящее время не поддерживаются подстанстанты IEEE, которые округляются до нуля. Поддерживается отрицательное бесконечность.
+Предназначенное значение. Обратите внимание, что подстанализные номера IEEE в настоящее время не поддерживаются и округляются до нуля. Поддерживается отрицательная бесконечность.
   
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает число **xltypeNum,** содержащее значение, переданное в или ноль, если переданное значение было под нормали. 
+Возвращает числовую **xltypeNum,** содержащую значение, переданное в или ноль, если переданное значение было нестандартным. 
   
 ## <a name="example"></a>Пример
 
-В этом примере функция **TempNum12 используется** для передает аргумент **в xlfGetWorkspace.**
+В этом примере используется **функция TempNum12,** чтобы передать аргумент **в xlfGetWorkspace.**
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

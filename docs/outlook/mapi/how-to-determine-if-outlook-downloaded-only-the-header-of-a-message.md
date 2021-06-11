@@ -15,9 +15,9 @@ ms.locfileid: "33428153"
 ---
 # <a name="determine-if-outlook-downloaded-only-the-header-of-a-message"></a>Определение того, скачан ли в Outlook только заголовок сообщения
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В этом разделе показан пример кода в Visual C++, который использует каноническое свойство [PidLidHeaderItem,](pidlidheaderitem-canonical-property.md) чтобы определить, скачал ли Microsoft Outlook 2013 только заголовок сообщения или заголовок и текст сообщения. 
+В этом разделе показан пример кода в Visual C++ с именем [PidLidHeaderItem Canonical Property,](pidlidheaderitem-canonical-property.md) чтобы определить, скачали ли Microsoft Outlook 2013 только заголовок сообщения или заголовок и тело сообщения. 
   
 ```cpp
 BOOL bIsHeader(LPMESSAGE lpMessage) 

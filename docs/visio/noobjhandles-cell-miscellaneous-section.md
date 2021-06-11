@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm730
 localization_priority: Normal
 ms.assetid: 8e1c8c8f-4ed0-0f53-f93f-3a264edc02bd
-description: Переключает отображение десков выбора для выбранной фигуры.
+description: Переключает отображение обработок выбора для выбранной фигуры.
 ms.openlocfilehash: e46f19d77d1743fb7223b5f7d98f80a05d8f6b07
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,12 +18,12 @@ ms.locfileid: "33428657"
 ---
 # <a name="noobjhandles-cell-miscellaneous-section"></a>NoObjHandles Cell (Miscellaneous Section)
 
-Переключает отображение десков выбора для выбранной фигуры.
+Переключает отображение обработок выбора для выбранной фигуры.
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Handles selection are not displayed when a shape is selected.  <br/> |
-| FALSE  <br/> | Handles selection are displayed when a shape is selected.  <br/> |
+| TRUE  <br/> | Ручки выбора не отображаются при выборе фигуры.  <br/> |
+| FALSE  <br/> | Ручки выбора отображаются при выборе фигуры.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

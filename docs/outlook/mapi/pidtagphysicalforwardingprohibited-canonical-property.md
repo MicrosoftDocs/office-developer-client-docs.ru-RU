@@ -1,5 +1,5 @@
 ---
-title: Каноническое свойство PidTagPhysicalForwardingProhibited
+title: PidTagPhysicalForwardingProhibited Canonical Property
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428867"
 ---
-# <a name="pidtagphysicalforwardingprohibited-canonical-property"></a>Каноническое свойство PidTagPhysicalForwardingProhibited
+# <a name="pidtagphysicalforwardingprohibited-canonical-property"></a>PidTagPhysicalForwardingProhibited Canonical Property
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит true, если отправитель сообщения запрещает физическую переад вперед для определенного получателя.
+Содержит TRUE, если отправитель сообщения запрещает физическую переададку сообщений для определенного получателя.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "33428867"
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -44,7 +44,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,5 +56,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -23,7 +23,7 @@ ms.locfileid: "33424926"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит массив структур [GUID,](guid.md) используемых для описания свойства типа PT_MV_CLSID. 
   
@@ -44,7 +44,7 @@ typedef struct _SGuidArray
 
  **cValues**
   
-> Количество значений в массиве, на который указывает **член lpguid.** 
+> Количество значений в массиве, на который указывает член **lpguid.** 
     
  **lpguid**
   
@@ -52,7 +52,7 @@ typedef struct _SGuidArray
     
 ## <a name="remarks"></a>Примечания
 
-Дополнительные сведения о PT_MV_CLSID [см. в списке типов свойств.](property-types.md)
+Дополнительные сведения о PT_MV_CLSID см. [в списке типов свойств.](property-types.md)
   
 ## <a name="see-also"></a>См. также
 

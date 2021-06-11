@@ -23,7 +23,7 @@ ms.locfileid: "33427831"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Это свойство содержит тип контента для отправленного сообщения.
   
@@ -36,7 +36,7 @@ ms.locfileid: "33427831"
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -44,7 +44,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,5 +56,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

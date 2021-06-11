@@ -23,9 +23,9 @@ ms.locfileid: "33430373"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-ИД компонента поставщика.
+Компонентный ID поставщика.
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ ms.locfileid: "33430373"
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства можно использовать в качестве параметра компонента вызова **MsiProvideQualifiedComponent** для установки поставщика. 
+Эти свойства могут использоваться в качестве компонента параметров **вызова MsiProvideQualifiedComponent** для установки поставщика. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

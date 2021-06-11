@@ -23,7 +23,7 @@ ms.locfileid: "33430905"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Возвращает текущий контекст представления для формы. 
   
@@ -33,29 +33,29 @@ HRESULT GetViewContext(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ppViewContext_
   
-> [out] Указатель на указатель на контекст представления формы.
+> [вышел] Указатель на указатель на контекст представления формы.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Был успешно возвращен текущий контекст представления формы. 
+> Текущий контекст представления формы был успешно возвращен. 
     
 S_FALSE 
   
-> Контекст представления для формы не существует.
+> Контекст представления формы не существует.
     
 ## <a name="remarks"></a>Примечания
 
-Посетители форм **звонят GetViewContext,** чтобы получить указатель на контекст представления, установленный в предыдущем вызове [IMAPIForm::SetViewContext.](imapiform-setviewcontext.md) Если до вызова **SetViewContext** не было выполнено, **GetViewContext** устанавливает  _для ppViewContext_ nULL. 
+Зрители формы звонят **в GetViewContext,** чтобы получить указатель на контекст представления, установленный в предыдущем вызове [в IMAPIForm::SetViewContext](imapiform-setviewcontext.md). Если предварительного вызова в **SetViewContext** не было, **GetViewContext** задает  _ppViewContext_ в NULL. 
   
 ## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-Скопируйте указатель контекста представления формы в указатель, переданный вызываемой просматриваемой формой в параметре _ppViewContext._ Если форма не имеет контекста представления, установите  _для ppViewContext_ nULL. 
+Скопируйте указатель контекста представления формы в указатель, переданный вызываемой формой в _параметре ppViewContext._ Если в форме нет контекста представления, установите  _ppViewContext_ в NULL. 
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -63,7 +63,7 @@ S_FALSE
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI использует метод **IMAPIForm::GetViewContext,** чтобы проверить, имеет ли форма контекст представления.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI использует **метод IMAPIForm::GetViewContext,** чтобы проверить, имеет ли форма контекст представления.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

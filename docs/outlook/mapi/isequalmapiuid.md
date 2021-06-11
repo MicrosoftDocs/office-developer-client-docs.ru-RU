@@ -23,9 +23,9 @@ ms.locfileid: "33426935"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Проверяет две [структуры MAPIUID,](mapiuid.md) чтобы определить, содержат ли они один и тот же идентификатор. 
+Тестирует [две структуры MAPIUID,](mapiuid.md) чтобы определить, содержат ли они один и тот же идентификатор. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "33426935"
 IsEqualMAPIUID(lpuid1, lpuid2)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _lpuid1_
   
@@ -48,9 +48,9 @@ IsEqualMAPIUID(lpuid1, lpuid2)
     
 ## <a name="remarks"></a>Примечания
 
-Макрос **IsEqualMAPIUID** возвращает true, если две структуры **MAPIUID** содержат один и тот же идентификатор и FALSE, если они этого не делают. 
+Макрос **IsEqualMAPIUID** возвращает TRUE, если две структуры **MAPIUID** содержат один и тот же идентификатор и FALSE, если они этого не делают. 
   
-Для **макроса IsEqualMAPIUID** необходимо включить файл header Memory.h. 
+Макрос **IsEqualMAPIUID** требует включить файл header Memory.h. 
   
 ## <a name="see-also"></a>См. также
 

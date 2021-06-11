@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fb84f71e-59c4-43d4-a28b-c3d6f267d2ae
-description: Определяет индекс темы, за который берется цветовая схема фигуры, в виде integer.
+description: Определяет индекс темы, которую цветовая схема фигуры принимает после, в виде integer.
 ms.openlocfilehash: d67363b48454a717914b8ff9e39952609d848118
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,17 +16,17 @@ ms.locfileid: "33430765"
 ---
 # <a name="colorschemeindex-cell-theme-properties-section"></a>ColorSchemeIndex Cell (Theme Properties Section)
 
-Определяет индекс темы, за который берется цветовая схема фигуры, в виде integer.
+Определяет индекс темы, которую цветовая схема фигуры принимает после, в виде integer.
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **ColorSchemeIndex** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
+Чтобы получить ссылку на **ячейку ColorSchemeIndex** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
 | Имя ячейки:  <br/> | ColorSchemeIndex  <br/> |
    
-Чтобы получить ссылку на ячейку **ColorSchemeIndex** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
+Чтобы получить ссылку на **ячейку ColorSchemeIndex** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|

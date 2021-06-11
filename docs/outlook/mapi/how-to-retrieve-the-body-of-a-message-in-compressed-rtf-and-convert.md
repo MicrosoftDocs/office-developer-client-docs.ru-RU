@@ -1,5 +1,5 @@
 ---
-title: Извлечение тела сообщения в сжатом формате RTF и преобразование в собственный формат
+title: Извлечение тела сообщения в сжатом формате RTF и преобразование в его родной формат
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,11 +13,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426116"
 ---
-# <a name="retrieve-body-of-message-in-compressed-rtf-and-convert-to-its-native-format"></a>Извлечение тела сообщения в сжатом формате RTF и преобразование в собственный формат
+# <a name="retrieve-body-of-message-in-compressed-rtf-and-convert-to-its-native-format"></a>Извлечение тела сообщения в сжатом формате RTF и преобразование в его родной формат
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В этом примере кода в Microsoft C++ показано, как использовать экспортированную функцию Microsoft Outlook 2010, русская версия или Microsoft Outlook 2013 [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) для доступа к тексту сообщения, инкапсулированного в сжатом формате RTF, и получения тела в своем формате. 
+В этом примере кода в Microsoft C++ показано, как использовать экспортируемую функцию Microsoft Outlook 2010, русская версия или Microsoft Outlook 2013 [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) для доступа к тексту сообщения, инкапсулированного в сжатом RTF, и получения тела в родном формате. 
   
 ```cpp
 //These are definitions for the WrapCompressedRTFStreamEx function. 

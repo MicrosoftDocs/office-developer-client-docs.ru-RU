@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlGetName
 keywords:
-- Функция xlgetname [excel 2007]
+- функция xlgetname [Excel 2007]
 localization_priority: Normal
 ms.assetid: 72dbebc0-7436-4771-8fbf-2b445341da65
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -28,13 +28,13 @@ ms.locfileid: "33430590"
 Excel12(xlGetName, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 Эта функция не имеет аргументов.
   
 ## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-Возвращает путь и имя файла (**xltypeStr).** 
+Возвращает путь и имя файла **(xltypeStr).** 
   
 ## <a name="example"></a>Пример
 

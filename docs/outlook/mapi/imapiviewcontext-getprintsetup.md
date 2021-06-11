@@ -23,7 +23,7 @@ ms.locfileid: "33425129"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Извлекает текущие сведения о печати.
   
@@ -34,19 +34,19 @@ LPFORMPRINTSETUP FAR * lppFormPrintSetup
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [in] Битоваяmas флагов, которая управляет типом возвращаемой строки. Можно установить следующий флаг:
+> [in] Bitmask флагов, которые контролируют тип возвращаемой строки. Можно установить следующий флаг:
     
 MAPI_UNICODE 
   
-> Возвращенные строки имеют формат Юникод. Если флаг MAPI_UNICODE не установлен, строки будут в формате ANSI.
+> Возвращенные строки находятся в формате Unicode. Если флаг MAPI_UNICODE не установлен, строки находятся в формате ANSI.
     
  _lppFormPrintSetup_
   
-> [out] Указатель на указатель на структуру, которая содержит сведения о печати.
+> [вышел] Указатель на указатель на структуру, которая содержит сведения о печати.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -56,17 +56,17 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Объекты форм вызовите метод **IMAPIViewContext::GetPrintSetup,** чтобы получить сведения о настройке принтера перед попыткой распечатать текущее сообщение. 
+Объекты формы звонят **методу IMAPIViewContext::GetPrintSetup** для получения сведений о настройке принтера перед попыткой распечатать текущее сообщение. 
   
 ## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-**Выделите члены hDevMode** и **hDevName** структуры [FORMPRINTSETUP](formprintsetup.md) с помощью функции Win32 **GlobalAlloc.**
+Распределите **hDevMode** и **hDevName** членов [структуры FORMPRINTSETUP](formprintsetup.md) с помощью функции Win32 **GlobalAlloc.**
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-Если предполагается, что члены **hDevMode** и **hDevName** структуры **FORMPRINTSETUP,** на которые указывает параметр  _lppFormPrintSetup,_ будут строками Юникода, установите  _для ulFlags_ MAPI_UNICODE. В **противном случае GetPrintSetup** вернет эти строки в формате ANSI. 
+Если вы ожидаете, что **участники hDevMode** и **hDevName** структуры **FORMPRINTSETUP,** на которые указывает параметр  _lppFormPrintSetup,_ будут строками Unicode, установите  _ulFlags_ для MAPI_UNICODE. В **противном случае GetPrintSetup** вернет эти строки в формате ANSI. 
   
-Освободите **члены hDevMode** и **hDevName** структуры **FORMPRINTSETUP,** вызывая функцию Win32 **GlobalFree.** Освободите всю **структуру FORMPRINTSETUP,** вызывая [MAPIFreeBuffer.](mapifreebuffer.md) 
+Освободите **hDevMode и** **hDevName** членов **структуры FORMPRINTSETUP,** назвав функцию Win32 **GlobalFree**. Освободите всю **структуру FORMPRINTSETUP,** позвонив [в MAPIFreeBuffer.](mapifreebuffer.md) 
   
 ## <a name="see-also"></a>См. также
 

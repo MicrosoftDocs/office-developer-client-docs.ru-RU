@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 887cea55-8f1c-45ec-3100-d03e1213d7c9
-description: Ограничивает его указанным периодом времени.
+description: Ограничивает указанный период времени.
 ms.openlocfilehash: e7f7a5d846d13422f9ed79ef26f1b9b0008463f6
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33431948"
 ---
 # <a name="ienumfbblockrestrict"></a>IEnumFBBlock::Restrict
 
-Ограничивается указанным периодом времени.
+Ограничивает указанный период времени.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IEnumFBBlock](ienumfbblock.md).
+См. [iEnumFBBlock](ienumfbblock.md).
   
 ```cpp
 HRESULT Restrict(  
@@ -30,15 +30,15 @@ HRESULT Restrict(
 
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _ftmStart_
   
->  [in] Время начала для ограничения этого перечня. 
+>  [in] Время начала для ограничения перечня. 
     
 _ftmEnd_
   
-> [in] Время окончания для ограничения этого перенамерения.
+> [in] Время окончания для ограничения переумерия.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -46,7 +46,7 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## <a name="remarks"></a>Примечания
 
-Этот метод также сбрасывает enumeration.
+Этот метод также сбрасывает переустановку.
   
 ## <a name="see-also"></a>См. также
 

@@ -1,5 +1,5 @@
 ---
-title: Abs Function (Access custom web app)
+title: Функция Abs (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426319"
 ---
-# <a name="abs-function-access-custom-web-app"></a>Abs Function (Access custom web app)
+# <a name="abs-function-access-custom-web-app"></a>Функция Abs (Доступ к настраиваемой веб-приложению)
 
 Возвращает абсолютное (положительное) значение указанного числимого выражения.
   
@@ -28,6 +28,6 @@ ms.locfileid: "33426319"
   
 |**Имя аргумента**|**Описание**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Числовое выражение.  <br/> |
+| *NumericExpression*  <br/> |Численное выражение.  <br/> |
    
 

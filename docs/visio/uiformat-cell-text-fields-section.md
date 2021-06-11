@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1080
 localization_priority: Normal
 ms.assetid: 0dddef20-c58e-2306-ab8e-6cac8e159f61
-description: Определяет формат вставленного поля в версиях Visio более ранних версий, чем Visio 2000.
+description: Определяет формат вставленного поля в версиях Visio более ранних Visio 2000 г.
 ms.openlocfilehash: 16cefc5f45d6b5f0f677e35bd5d0937d48fb2680
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33426368"
 ---
 # <a name="uiformat-cell-text-fields-section"></a>UIFormat Cell (Text Fields Section)
 
-Определяет формат вставленного поля в версиях Visio более ранних версий, чем Visio 2000.
+Определяет формат вставленного поля в версиях Visio более ранних Visio 2000 г.
   
 ## <a name="remarks"></a>Примечания
 
-Эта ячейка не появляется в окне ShapeSheet. Используйте эту ячейку, если необходимо решить проблемы с обратной возможностью, например сохранить рисунок Visio версии 2000 в формате файла Visio версии 5.0.
+Эта ячейка не появляется в окне ShapeSheet. Используйте эту ячейку, если вам необходимо решить проблемы с обратной возможностью, например сохранить рисунок Visio версии 2000 в формате Visio версии 5.0.
   
 Чтобы получить ссылку на ячейку UIFormat по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте: 
   
@@ -35,7 +35,7 @@ ms.locfileid: "33426368"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionTextField** <br/> |
-| Индекс строки:  <br/> |**visRowField**  +   *i,* *где i* = 0, 1, 2...  <br/> |
+| Индекс строки:  <br/> |**visRowField**  +   *i,* *где i* = 0, 1, 2 ...  <br/> |
 | Индекс ячейки:  <br/> |**visFieldUIFormat** <br/> |
    
 

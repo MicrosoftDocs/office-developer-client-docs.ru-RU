@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 70fbdb41-46ea-d016-25a2-37e94962095d
-description: Пропускает указанное количество блоков данных о занятости.
+description: Пропускает указанное количество блоков бесплатных и загруженных данных.
 ms.openlocfilehash: cf8ae18b5ed2c24a48d44d9e8d461da7d95054d2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33425724"
 ---
 # <a name="ienumfbblockskip"></a>IEnumFBBlock::Skip
 
-Пропускает указанное количество блоков данных о занятости.
+Пропускает указанное количество блоков бесплатных и загруженных данных.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IEnumFBBlock](ienumfbblock.md).
+См. [iEnumFBBlock](ienumfbblock.md).
   
 ```cpp
 HRESULT Skip(  
@@ -28,11 +28,11 @@ HRESULT Skip(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
-_celt_
+_кельт_
   
->  [in] Количество блоков занятости, которые необходимо пропустить. 
+>  [in] Количество бесплатных и загруженных блоков, которые необходимо пропустить. 
     
 ## <a name="return-values"></a>Возвращаемые значения
 

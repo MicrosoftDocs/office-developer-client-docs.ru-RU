@@ -28,7 +28,7 @@ HRESULT EndRebaseAppointments(
     HRESULT *phResult);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _pContext_
   

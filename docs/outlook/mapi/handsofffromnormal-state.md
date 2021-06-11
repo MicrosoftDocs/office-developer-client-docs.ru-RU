@@ -19,17 +19,17 @@ ms.locfileid: "33426473"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Состояние HandsOffFromNormal очень похоже на состояние [HandsOffAfterSave.](handsoffaftersave-state.md) Это часть процесса сохранения содержимого формы в постоянное хранилище. В этом состоянии объект формы должен отказаться от внесения изменений в копии значений свойств сообщения в памяти, так как может не быть другой возможности сохранить эти изменения. В следующей таблице описаны разрешенные переходы из состояния HandsOffFromNormal. 
+Состояние HandsOffFromNormal очень похоже на состояние [HandsOffAfterSave.](handsoffaftersave-state.md) Это часть процесса сохранения содержимого формы в постоянное хранилище. Когда в этом состоянии объект формы должен воздерживаться от внесения изменений в копии значений свойств сообщения в памяти, так как не может быть другой возможности сохранить эти изменения. В следующей таблице описываются разрешенные переходы из состояния HandsOffFromNormal. 
   
-|Метод IPersistMessage***|**Действие**|**Новое состояние**|
+|Метод IPersistMessage** **|**Действие**|**Новое состояние**|
 |:-----|:-----|:-----|
-|[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)(_pMessage !=_ NULL)  <br/> |Замените сообщение объекта сообщения на _pMessage,_ которое заменяет сообщение, отозванное предыдущим вызовом [IPersistMessage::HandsOffMessage.](ipersistmessage-handsoffmessage.md) Данные в новом сообщении гарантированно будут такие же, как и в отозванных сообщениях. Сообщение не должно быть помечено как чистое и не должно вызываться после этого вызова [IMAPIViewAdviseSink::OnSaved.](imapiviewadvisesink-onsaved.md) В случае **успешного вызова SaveCompleted** введите состояние [Normal.](normal-state.md) В противном случае оставайтесь в состоянии HandsOffFromNormal.  <br/> |Normal или HandsOffFromNormal  <br/> |
-|**IPersistMessage::SaveCompleted**(_pMessage ==_ NULL)  <br/> |Установите для последней ошибки E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
-|**HandsOffMessage**, [IPersistMessage::Save](ipersistmessage-save.md), [IPersistMessage::InitNew](ipersistmessage-initnew.md), or [IPersistMessage::Load](ipersistmessage-load.md) <br/> |Установите для последней ошибки E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Возвращает последнюю ошибку.  <br/> |HandsOffFromNormal  <br/> |
-|Другие [методы IPersistMessage : методы или методы IUnknown](ipersistmessageiunknown.md) из других интерфейсов  <br/> |Установите для последней ошибки E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
+|[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)_(pMessage!=_ NULL)  <br/> |Замените сообщение объекта сообщения  _на pMessage_, которое является заменой сообщения, отозванного предыдущим вызовом [в IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md). Данные в новом сообщении гарантированно будут такие же, как и в отозванных сообщениях. Сообщение не должно быть помечено как чистое, равно как [и вызов IMAPIViewAdviseSink::OnSaved](imapiviewadvisesink-onsaved.md) после этого вызова. Если вызов **SaveCompleted** удался, введите [нормальное](normal-state.md) состояние. В противном случае оставайтесь в состоянии HandsOffFromNormal.  <br/> |Нормальный или HandsOffFromNormal  <br/> |
+|**IPersistMessage::SaveCompleted**_(pMessage ==_ NULL)  <br/> |Установите последнюю ошибку для E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
+|**HandsOffMessage,** [IPersistMessage::Save,](ipersistmessage-save.md) [IPersistMessage::InitNew](ipersistmessage-initnew.md)или [IPersistMessage::Load](ipersistmessage-load.md) <br/> |Установите последнюю ошибку для E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Возвращаем последнюю ошибку.  <br/> |HandsOffFromNormal  <br/> |
+|Другие [методы IPersistMessage: методы или методы IUnknown](ipersistmessageiunknown.md) из других интерфейсов  <br/> |Установите последнюю ошибку для E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
    
 ## <a name="see-also"></a>См. также
 

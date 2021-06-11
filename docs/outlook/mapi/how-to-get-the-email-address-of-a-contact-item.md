@@ -15,13 +15,13 @@ ms.locfileid: "33429595"
 ---
 # <a name="get-the-email-address-of-a-contact-item"></a>Получение электронного адреса элемента контакта
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В этом разделе показано, как получить значение именоваемого свойства, которое представляет адрес электронной почты элемента Microsoft Outlook 2010, русская версия контакта Microsoft Outlook 2013.
+В этом разделе показано, как получить значение имени свойства, которое представляет адрес электронной почты элемента Microsoft Outlook 2010, русская версия или Microsoft Outlook 2013 contact.
   
-Вы можете связать до трех адресов электронной почты с элементом контакта в Outlook 2010 и Outlook 2013. Каждый адрес электронной почты соответствует свойству объекта Outlook 2010 или Outlook 2013 **ContactItem** в объектных моделях Outlook 2010 и Outlook 2013. Внутренний адрес электронной почты в Outlook 2010 и Outlook 2013 также соответствует именоваемой свойству MAPI. Например, первый адрес электронной почты контакта соответствует свойству **Email1Address** объекта **ContactItem** в объектных моделях Outlook 2010 и Outlook 2013, а также внутреннему свойству Outlook 2010 и Outlook 2013 [PidLidEmail1EmailAddress.](pidlidemail1emailaddress-canonical-property.md)
+В 2010 и Outlook 2013 года можно связать до трех адресов электронной почты с элементом Outlook Contact. Каждый адрес электронной почты соответствует свойству объекта **contactItem** 2010 Outlook или Outlook 2013 г. в объектных моделях Outlook и Outlook 2013 г. Внутренний Outlook 2010 и Outlook 2013, адрес электронной почты также соответствует свойству MAPI с именем. Например, первый адрес электронной почты контакта соответствует свойству **Email1Address** **contactItem** в объектных моделях Outlook и Outlook 2013 г., а также внутренним свойствам Outlook и Outlook 2013 г. с именем [PidLidEmail1EmailAddress Canonical Property](pidlidemail1emailaddress-canonical-property.md).
   
-Чтобы получить значение адреса электронной почты элемента контакта, можно использовать объект **PropertyAccessor** объектной модели Outlook 2010 или Outlook 2013 или сначала использовать [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) для получения тега свойства именуемого свойства, а затем указать этот тег свойства в [IMAPIProp::GetProps,](imapiprop-getprops.md) чтобы получить значение. При вызове **IMAPIProp::GetIDsFromNames** укажите соответствующие значения для структуры [MAPINAMEID,](mapinameid.md) на которые указывает входной параметр _lppPropNames._ В следующем примере кода показано, как получить первый адрес электронной почты указанного контакта с помощью `lpContact` **GetIDsFromNames** и **GetProps.** 
+Чтобы получить значение адреса электронной почты контактного элемента, можно использовать объект **PropertyAccessor** объект объектной модели Outlook 2010 или Outlook 2013 г., или сначала использовать [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) для получения тега свойства имени, а затем указать этот тег свойства в [IMAPIProp:GetProps](imapiprop-getprops.md) для получения значения. При вызове **IMAPIProp::GetIDsFromNames** укажите соответствующие значения для структуры [MAPINAMEID,](mapinameid.md) на которые указывает параметр _ввода lppPropNames._ В следующем примере кода показано, как получить первый адрес электронной почты указанного контакта с помощью `lpContact` **GetIDsFromNames** и **GetProps.** 
   
 ```cpp
 HRESULT HrGetEmail1(LPMESSAGE lpContact) 

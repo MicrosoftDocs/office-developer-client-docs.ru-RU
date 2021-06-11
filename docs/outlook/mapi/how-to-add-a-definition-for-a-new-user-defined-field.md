@@ -15,23 +15,23 @@ ms.locfileid: "33428167"
 ---
 # <a name="add-a-definition-for-a-new-user-defined-field"></a>Добавление определения для нового пользовательского поля
  
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-При добавлении пользовательского поля в элемент Microsoft Outlook определение поля добавляется в соответствующую структуру [потока PropertyDefinition.](propertydefinition-stream-structure.md) Используйте следующую процедуру для добавления нового определения поля в структуру потока PropertyDefinition. 
+При добавлении пользовательского поля в элемент Microsoft Outlook в соответствующую структуру [потока PropertyDefinition](propertydefinition-stream-structure.md) добавляется определение поля. Используйте следующую процедуру, чтобы добавить новое определение поля в структуру потока PropertyDefinition. 
   
 ### <a name="to-add-a-definition-for-a-new-user-defined-field"></a>Добавление определения для нового пользовательского поля
 
-1. Скопируйте существующие определения полей структуры потока PropertyDefinition в новый массив определений полей. 
+1. Скопируйте существующие определения поля структуры потока PropertyDefinition в новый массив определений полей. 
     
-2. Если существующие определения полей имеют формат PropDefV1, преобразуйте их в формат PropDefV2. Дополнительные сведения о форматах определений полей см. в разделах [PropertyDefinition Stream Structure](propertydefinition-stream-structure.md) и [FieldDefinition Stream Structure.](fielddefinition-stream-structure.md)
+2. Если существующие определения полей находятся в формате PropDefV1, преобразуйте их в формат PropDefV2. Дополнительные сведения о форматах определения полей см. в [разделах PropertyDefinition Stream Structure](propertydefinition-stream-structure.md) и [FieldDefinition Stream Structure.](fielddefinition-stream-structure.md)
     
 3. Создайте определение нового пользовательского поля в формате PropDefV2 и добавьте его в массив.
     
-4. Установите элемент Version структуры потока PropertyDefinition как 0x0103, если элемент Version не имеет этого значения.
+4. Задай элемент Версии структуры потока PropertyDefinition как 0x0103, если элемент Version не был задат к этому значению.
     
-5. Приращение элемента FieldDefinitionCount на 1.
+5. Приумножите элемент FieldDefinitionCount на 1.
     
-6. Храните массив в качестве значения элемента FieldDefinitions.
+6. Храните массив как значение элемента FieldDefinitions.
     
 ## <a name="see-also"></a>См. также
 

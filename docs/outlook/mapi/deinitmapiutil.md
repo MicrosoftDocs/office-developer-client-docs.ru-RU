@@ -23,9 +23,9 @@ ms.locfileid: "33427348"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Освобождает функции, явным образом называемые [функцией ScInitMapiUtil](scinitmapiutil.md) или неявно [функцией MAPIInitialize.](mapiinitialize.md) 
+Освобождает функции утилиты, прямо называемые функцией [ScInitMapiUtil](scinitmapiutil.md) или неявно функцией [MAPIInitialize.](mapiinitialize.md) 
   
 |||
 |:-----|:-----|
@@ -47,8 +47,8 @@ VOID DeinitMapiUtil( void );
   
 ## <a name="remarks"></a>Примечания
 
-Функции **выпуска функции DeinitMapiUtil,** инициализированные с [помощью ScInitMapiUtil](scinitmapiutil.md) или [MAPIInitialize.](mapiinitialize.md) 
+Функции **выпуска функций DeinitMapiUtil,** инициализированные [с помощью ScInitMapiUtil](scinitmapiutil.md) или [MAPIInitialize.](mapiinitialize.md) 
   
-После завершения использования функций, называемых **ScInitMapiUtil,** необходимо явным образом с помощью **deinitMapiUtil** освободить их. С другой [стороны, MAPIUninitialize](mapiuninitialize.md) неявно вызывает **DeinitMapiUtil.** 
+Когда использование функций, называемых **ScInitMapiUtil,** завершено, **deinitMapiUtil** должен быть явно вызван, чтобы освободить их. Напротив, [MAPIUninitialize](mapiuninitialize.md) неявно вызывает **DeinitMapiUtil**. 
   
 

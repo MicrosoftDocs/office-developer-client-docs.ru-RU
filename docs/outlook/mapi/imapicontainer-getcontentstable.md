@@ -23,9 +23,9 @@ ms.locfileid: "33431108"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Возвращает указатель на таблицу содержимого контейнера.
+Возвращает указатель в таблицу содержимого контейнера.
   
 ```cpp
 HRESULT GetContentsTable(
@@ -34,45 +34,45 @@ HRESULT GetContentsTable(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [in] Битоваяmas флагов, которая управляет возвратом таблицы содержимого. Можно установить следующие флаги:
+> [in] Битмаска флагов, которая управляет тем, как возвращается таблица контента. Можно установить следующие флаги:
     
 MAPI_ASSOCIATED 
   
-> Связанную с контейнером таблицу содержимого следует возвращать вместо стандартной таблицы содержимого. Этот флаг используется только с папками. Сообщения, включенные в связанную таблицу содержимого, были созданы с флагом MAPI_ASSOCIATED, установленным в вызове метода [IMAPIFolder::CreateMessage.](imapifolder-createmessage.md) Клиенты обычно используют связанную таблицу содержимого для получения форм, представлений и других скрытых сообщений. 
+> Связанная таблица содержимого контейнера должна быть возвращена вместо стандартной таблицы содержимого. Этот флаг используется только в папках. Сообщения, включенные в связанную таблицу содержимого, были созданы с флагом MAPI_ASSOCIATED в вызове метода [IMAPIFolder::CreateMessage.](imapifolder-createmessage.md) Обычно клиенты используют связанную таблицу контента для получения форм, представлений и других скрытых сообщений. 
     
 ACLTABLE_FREEBUSY
   
-> Включает доступ к правам frightsFreeBusySimple и frightsFreeBusyDetailed в **PR_MEMBER_RIGHTS.**
+> Включает доступ к правам frightsFreeBusySimple и frightsFreeBusyDetailed **в PR_MEMBER_RIGHTS.**
     
 MAPI_DEFERRED_ERRORS 
   
-> **GetContentsTable** может успешно вернуться, возможно, до того, как таблица будет доступна вызываемой. Если таблица недоступна, последующий вызов таблицы может вызвать ошибку. 
+> **GetContentsTable** может успешно вернуться, возможно, до того, как таблица будет доступна вызываемой. Если таблица недоступна, при последующем вызове таблицы может быть допущена ошибка. 
     
 MAPI_UNICODE 
   
-> Запрашивает, чтобы столбцы, содержащие строку данных, возвращались в формате Юникод. Если флаг MAPI_UNICODE не установлен, строки должны возвращаться в формате ANSI. 
+> Запрашивает, чтобы столбцы, содержащие данные строки, возвращались в формате Unicode. Если флаг MAPI_UNICODE не установлен, строки должны быть возвращены в формате ANSI. 
     
 SHOW_SOFT_DELETES
   
-> Отображает элементы, которые в настоящее время помечены как "мягкие", то есть находятся на этапе хранения удаленных элементов.
+> Показывает элементы, которые в настоящее время помечены как мягкие удаленные, то есть они находятся на этапе времени хранения удаленных элементов.
     
  _lppTable_
   
-> [out] Указатель на указатель на таблицу содержимого.
+> [вышел] Указатель на указатель на таблицу содержимого.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Таблица содержимого успешно извлечена.
+> Таблица содержимого была успешно извлечена.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Либо флаг MAPI_UNICODE установлен, а реализация не поддерживает Юникод, либо MAPI_UNICODE не установлен, а реализация поддерживает только Юникод.
+> Либо был MAPI_UNICODE флаг, а реализация не поддерживает Юникод, либо MAPI_UNICODE не установлена, а реализация поддерживает только Юникод.
     
 MAPI_E_NO_SUPPORT 
   
@@ -80,65 +80,65 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Примечания
 
-Метод **IMAPIContainer::GetContentsTable** возвращает указатель на таблицу содержимого контейнера. В таблице содержимого содержится сводная информация об объектах в контейнере. 
+Метод **IMAPIContainer::GetContentsTable** возвращает указатель в таблицу содержимого контейнера. В таблице содержимого содержатся сводные сведения о объектах в контейнере. 
   
-Таблицы содержимого имеют длинные наборы столбцов. Полный список необходимых и необязательных столбцов в таблицах содержимого см. в [таблицах содержимого.](contents-tables.md) 
+Таблицы контента имеют длительные наборы столбцов. Полный список необходимых и необязательных столбцов в таблицах контента см. в [статье Contents Tables.](contents-tables.md) 
   
-Некоторые контейнеры могут не иметь содержимого. Эти контейнеры MAPI_E_NO_SUPPORT из своих реализаций **GetContentsTable.**
+Некоторые контейнеры могут не иметь содержимого. Эти контейнеры возвращают MAPI_E_NO_SUPPORT из реализации **GetContentsTable.**
   
 ## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-Если вы поддерживаете таблицу содержимого для контейнера, необходимо также сделать следующее:
+Если вы поддерживаете таблицу контента для контейнера, необходимо также сделать следующее:
   
-- Поддержка вызовов метода [IMAPIProp::OpenProperty](imapiprop-openproperty.md) контейнера для открытия **свойства PR_CONTAINER_CONTENTS** ([PidTagContainerContents).](pidtagcontainercontents-canonical-property.md)
+- Поддержка вызовов для метода [IMAPIProp::OpenProperty](imapiprop-openproperty.md) для открытия **свойства** [PR_CONTAINER_CONTENTS (PidTagContainerContents).](pidtagcontainercontents-canonical-property.md)
     
-- Возврат **PR_CONTAINER_CONTENTS** в ответ на вызов контейнера 
+- Возвращение **PR_CONTAINER_CONTENTS** в ответ на вызов контейнера 
     
     [Методы IMAPIProp::GetProps](imapiprop-getprops.md) и [IMAPIProp::GetPropList.](imapiprop-getproplist.md) 
     
-Реализация этого метода удаленным поставщиком транспорта должна возвращать указатель на [интерфейс IMAPITable : IUnknown](imapitableiunknown.md) в параметре _ppTable,_ переданном в метод **GetContentsTable.** Если ваш поставщик транспорта имеет существующую таблицу содержимого, достаточно вернуть на нее указатель. В этом случае этот метод должен создать новый объект [IMAPITable : IUnknown,](imapitableiunknown.md) заполнить таблицу заголовщиками сообщений (если таковые имеются) и вернуть указатель на новую таблицу. Метод [ITableData::HrGetView](itabledata-hrgetview.md) полезен для создания возвращаемого значения и хранения указателя таблицы в параметре _ppTable._ Таблица содержимого должна поддерживать по крайней мере следующие столбцы свойств: 
+Реализация этого метода удаленным поставщиком транспорта должна вернуть указатель в [интерфейс IMAPITable : IUnknown](imapitableiunknown.md) в параметре _ppTable,_ переданном в **метод GetContentsTable.** Если у поставщика транспорта есть существующая таблица содержимого, достаточно вернуть указатель к ней. Если нет, этот метод должен создать новый [объект IMAPITable : IUnknown,](imapitableiunknown.md) заполнить таблицу заголовщиками сообщений (если таковые имеются) и вернуть указатель в новую таблицу. Метод [ITableData::HrGetView](itabledata-hrgetview.md) полезен для создания возвращаемого значения и хранения указателя таблицы в параметре _ppTable._ Таблица контента должна поддерживать по крайней мере следующие столбцы свойств: 
   
-- **PR_ENTRYID** ([PidTagEntryID)](pidtagentryid-canonical-property.md)
+- **PR_ENTRYID** [(PidTagEntryID)](pidtagentryid-canonical-property.md)
     
-- **PR_SENDER_NAME** ([PidTagSenderName)](pidtagsendername-canonical-property.md)
+- **PR_SENDER_NAME** [(PidTagSenderName)](pidtagsendername-canonical-property.md)
     
-- **PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))
+- **PR_SENT_REPRESENTING_NAME** [(PidTagSentRepresentingName)](pidtagsentrepresentingname-canonical-property.md)
     
-- **PR_DISPLAY_TO** ([PidTagDisplayTo)](pidtagdisplayto-canonical-property.md)
+- **PR_DISPLAY_TO** [(PidTagDisplayTo)](pidtagdisplayto-canonical-property.md)
     
-- **PR_SUBJECT** ([PidTagSubject)](pidtagsubject-canonical-property.md)
+- **PR_SUBJECT** [(PidTagSubject)](pidtagsubject-canonical-property.md)
     
-- **PR_MESSAGE_CLASS** ([PidTagMessageClass)](pidtagmessageclass-canonical-property.md)
+- **PR_MESSAGE_CLASS** [(PidTagMessageClass)](pidtagmessageclass-canonical-property.md)
     
-- **PR_MESSAGE_FLAGS** ([PidTagMessageFlags)](pidtagmessageflags-canonical-property.md)
+- **PR_MESSAGE_FLAGS** [(PidTagMessageFlags)](pidtagmessageflags-canonical-property.md)
     
-- **PR_MESSAGE_SIZE** ([PidTagMessageSize)](pidtagmessagesize-canonical-property.md)
+- **PR_MESSAGE_SIZE** [(PidTagMessageSize)](pidtagmessagesize-canonical-property.md)
     
-- **PR_PRIORITY** ([PidTagPriority)](pidtagpriority-canonical-property.md)
+- **PR_PRIORITY** [(PidTagPriority)](pidtagpriority-canonical-property.md)
     
-- **PR_IMPORTANCE** ([PidTagImportance)](pidtagimportance-canonical-property.md)
+- **PR_IMPORTANCE** [(PidTagImportance)](pidtagimportance-canonical-property.md)
     
-- **PR_SENSITIVITY** ([PidTagSensitivity)](pidtagsensitivity-canonical-property.md)
+- **PR_SENSITIVITY** [(PidTagSensitivity)](pidtagsensitivity-canonical-property.md)
     
-- **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime)](pidtagmessagedeliverytime-canonical-property.md)
+- **PR_MESSAGE_DELIVERY_TIME** [(PidTagMessageDeliveryTime)](pidtagmessagedeliverytime-canonical-property.md)
     
-- **PR_MSG_STATUS** ([PidTagMessageStatus)](pidtagmessagestatus-canonical-property.md)
+- **PR_MSG_STATUS** [(PidTagMessageStatus)](pidtagmessagestatus-canonical-property.md)
     
-- **PR_MESSAGE_DOWNLOAD_TIME** ([PidTagMessageDownloadTime)](pidtagmessagedownloadtime-canonical-property.md)
+- **PR_MESSAGE_DOWNLOAD_TIME** [(PidTagMessageDownloadTime)](pidtagmessagedownloadtime-canonical-property.md)
     
-- **PR_HASATTACH** ([PidTagHasAttachments)](pidtaghasattachments-canonical-property.md)
+- **PR_HASATTACH** [(PidTagHasAttachments)](pidtaghasattachments-canonical-property.md)
     
-- **PR_OBJECT_TYPE** ([PidTagObjectType)](pidtagobjecttype-canonical-property.md)
+- **PR_OBJECT_TYPE** [(PidTagObjectType)](pidtagobjecttype-canonical-property.md)
     
-- **PR_INSTANCE_KEY** ([PidTagInstanceKey)](pidtaginstancekey-canonical-property.md)
+- **PR_INSTANCE_KEY** [(PidTagInstanceKey)](pidtaginstancekey-canonical-property.md)
     
-- **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject)](pidtagnormalizedsubject-canonical-property.md)
+- **PR_NORMALIZED_SUBJECT** [(PidTagNormalizedSubject)](pidtagnormalizedsubject-canonical-property.md)
     
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-Строки и столбцы таблицы двоичного содержимого можно усечены. Обычно поставщики возвращают 255 символов. Так как вы не можете заранее узнать, содержит ли таблица усеченные столбцы, предположим, что столбец усечен, если длина столбца составляет 255 или 510 bytes. При необходимости вы всегда можете получить полное значение усеченного столбца непосредственно из объекта, используя идентификатор записи, чтобы открыть его, а затем вызывать метод **IMAPIProp::GetProps.** 
+Столбцы таблицы строк и двоичного содержимого можно усечено. Обычно поставщики возвращают 255 символов. Поскольку вы не можете заранее узнать, включает ли таблица усеченные столбцы, предположим, что столбец усечен, если длина столбца составляет 255 или 510 bytes. При необходимости вы всегда можете получить полное значение усеченного столбца непосредственно с объекта с помощью его идентификатора входа, чтобы открыть его, а затем позвонить по методу **IMAPIProp::GetProps.** 
   
-В зависимости от реализации поставщика ограничения и операции сортировки могут применяться во всех строках или к усеченной версии этой строки.
+В зависимости от реализации поставщика ограничения и операции сортировки могут применяться к всем строкам или к усеченной версии этой строки.
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -146,7 +146,7 @@ MAPI_E_NO_SUPPORT
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|ContentsTableDialog.cpp  <br/> |CContentsTableDlg::CContentsTableDlg  <br/> |Класс **CContentsTableDlg** использует **GetContentsTable** для получения записей в таблице содержимого.  <br/> |
+|ContentsTableDialog.cpp  <br/> |CContentsTableDlg::CContentsTableDlg  <br/> |Класс **CContentsTableDlg** использует **GetContentsTable** для получения записей в таблице контента.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

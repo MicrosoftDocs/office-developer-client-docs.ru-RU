@@ -20,7 +20,7 @@ ms.locfileid: "33431990"
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IOlkAccount](iolkaccount.md).
+См. [iOlkAccount](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::SetProp(  
@@ -29,11 +29,11 @@ HRESULT IOlkAccount::SetProp(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _dwProp_
   
-> [in] Тег свойства свойства учетной записи, который необходимо установить.
+> [in] Тег свойства для зачета свойства учетной записи.
     
 _pVar_
   
@@ -44,11 +44,11 @@ _pVar_
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |Вызов метода был успешным.  <br/> |
-|E_INVALIDARG  <br/> |Указан недопустимый тег свойства.  <br/> |
+|E_INVALIDARG  <br/> |Был указан недействительный тег свойства.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Используйте [IOlkAccount::SaveChanges,](iolkaccount-savechanges.md) чтобы сохранить изменения в значении свойств учетной записи. 
+Используйте [IOlkAccount::SaveChanges для](iolkaccount-savechanges.md) сохранения изменений в значении свойств учетных записей. 
   
 ## <a name="see-also"></a>См. также
 

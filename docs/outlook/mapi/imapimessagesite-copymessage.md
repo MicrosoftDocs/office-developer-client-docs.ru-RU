@@ -23,7 +23,7 @@ ms.locfileid: "33430002"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Копирует текущее сообщение в папку.
   
@@ -33,7 +33,7 @@ HRESULT CopyMessage(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _pFolderDestination_
   
@@ -47,25 +47,25 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> Эта операция не поддерживается на этом сайте сообщений.
+> Операция не поддерживается на этом сайте сообщений.
     
 ## <a name="remarks"></a>Примечания
 
-Объекты форм вызовите метод **IMAPIMessageSite::CopyMessage,** чтобы скопировать текущее сообщение в новую папку. **CopyMessage** не меняет отображаемого в данный момент сообщения для пользователя, и интерфейс созданного сообщения не возвращается в форму. 
+Объекты формы называют **метод IMAPIMessageSite::CopyMessage,** чтобы скопировать текущее сообщение в новую папку. **CopyMessage** не меняет отображаемого в настоящее время сообщения пользователю, и интерфейс для вновь созданного сообщения не возвращается в форму. 
   
 ## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
 Типичная реализация метода **CopyMessage** выполняет следующие задачи: 
   
-1. Создает новое сообщение для текущего сообщения, в которое необходимо скопировать.
+1. Создает новое сообщение для копирования текущего сообщения.
     
-2. Вызывает метод [IPersistMessage::Save](ipersistmessage-save.md) с указателем на новое сообщение в параметре _pMessage_ и FALSE в параметре _fSameAsLoad._ 
+2. Вызывает [метод IPersistMessage:::Save](ipersistmessage-save.md) с указателем на новое сообщение в _параметре pMessage_ и FALSE в _параметре fSameAsLoad._ 
     
-3. Вызывает метод [IPersistMessage::SaveCompleted,](ipersistmessage-savecompleted.md) передавая NULL в параметр _pMessage._ 
+3. Вызывает [метод IPersistMessage::SaveCompleted,](ipersistmessage-savecompleted.md) передавая NULL в _параметре pMessage._ 
     
-4. Вызывает метод [IMAPIProp::SaveChanges](imapiprop-savechanges.md) для нового сообщения. 
+4. Вызывает [метод IMAPIProp::SaveChanges в](imapiprop-savechanges.md) новом сообщении. 
     
-Список интерфейсов, связанных с серверами форм, см. в списке [интерфейсов форм MAPI.](mapi-form-interfaces.md)
+Список интерфейсов, связанных с серверами форм, см. в перечне [интерфейсов форм MAPI.](mapi-form-interfaces.md)
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 

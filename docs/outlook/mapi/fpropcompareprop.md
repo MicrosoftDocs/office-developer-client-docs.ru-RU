@@ -21,7 +21,7 @@ ms.locfileid: "33427159"
 ---
 # <a name="fpropcompareprop"></a>FPropCompareProp
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Сравнивает два значения свойств с помощью указанного реляционного оператора. 
   
@@ -39,7 +39,7 @@ BOOL FPropCompareProp(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _lpSPropValue1_
   
@@ -47,7 +47,7 @@ _lpSPropValue1_
     
 _ulRelOp_
   
-> [in] Реляционный оператор, который будет использовать в сравнении. Допустимые значения см. в структуре [SComparePropsRestriction.](scomparepropsrestriction.md) 
+> [in] Реляционный оператор для сравнения. Допустимые значения см. в структуре [SComparePropsRestriction.](scomparepropsrestriction.md) 
     
 _lpSPropValue2_
   
@@ -65,8 +65,8 @@ FALSE
     
 ## <a name="remarks"></a>Примечания
 
-Метод сравнения зависит от типов свойств, указанных в определениях свойств [SPropValue.](spropvalue.md) Функции **FPropCompareProp** и [FPropContainsProp](fpropcontainsprop.md) можно использовать для подготовки ограничений для создания таблицы. 
+Метод сравнения зависит от типов свойств, указанных в [определениях свойств SPropValue.](spropvalue.md) Функции **FPropCompareProp** и [FPropContainsProp](fpropcontainsprop.md) можно использовать для подготовки ограничений для создания таблицы. 
   
-Порядок сравнения:  _lpSPropValue1_, _ ulRelOp _, _ lpSPropValue2 _. Если типы свойств сравниваемого значения свойств не совпадают, функция **FPropCompareProp** возвращает значение FALSE. 
+Порядок сравнения  _lpSPropValue1_, _ ulRelOp _, _ lpSPropValue2 _. Если сравниваемые типы свойств не совпадают, функция **FPropCompareProp** возвращает FALSE. 
   
 

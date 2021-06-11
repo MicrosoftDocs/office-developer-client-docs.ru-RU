@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm620
 localization_priority: Normal
 ms.assetid: e9742142-4d34-1ba9-480e-d1ecff4fc7cd
-description: Блокирует конечную точку (EndX, EndY) размерной фигуры в определенном расположении.
+description: Блокирует конечную точку (EndX, EndY) 1-D-формы в определенное расположение.
 ms.openlocfilehash: d9fe0372c44fe3b029a4d06056c8d3871c3f91e8
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33425584"
 ---
 # <a name="lockend-cell-protection-section"></a>LockEnd Cell (Protection Section)
 
-Блокирует конечную точку (EndX, EndY) размерной фигуры в определенном расположении.
+Блокирует конечную точку (EndX, EndY) 1-D-формы в определенное расположение.
   
 |**Значение**|**Описание**|
 |:-----|:-----|

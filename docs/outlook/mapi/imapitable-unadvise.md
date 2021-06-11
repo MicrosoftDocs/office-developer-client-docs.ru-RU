@@ -23,9 +23,9 @@ ms.locfileid: "33430233"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Отменяет отправку уведомлений, которые ранее были настроены с помощью вызова метода [IMAPITable::Advise.](imapitable-advise.md) 
+Отменяет отправку уведомлений, ранее настроенных с помощью вызова метода [IMAPITable::Advise.](imapitable-advise.md) 
   
 ```cpp
 HRESULT Unadvise(
@@ -33,11 +33,11 @@ ULONG_PTR ulConnection
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulConnection_
   
-> [in] Номер подключения регистрации, возвращенный вызовом [IMAPITable::Advise.](imapitable-advise.md)
+> [in] Номер регистрационного подключения, возвращаемого вызовом [в IMAPITable::Advise.](imapitable-advise.md)
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -47,9 +47,9 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Используйте метод **IMAPITable::Unadvise,** чтобы освободить указатель на объект приемника рекомендации, переданный в  _параметре lpAdviseSink_ в предыдущем вызове **IMAPITable::Advise,** тем самым отменив регистрацию уведомления. При удалении указателя на объект приемника рекомендации будет вызван метод **IUnknown::Release** объекта. Как **правило,** выпуск вызывается во время вызова **Unadvise,** но если другой поток вызывает метод [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) для приемника рекомендации, вызов release откладывается до тех пор, пока не будет возвращен метод **OnNotify.**  
+Используйте метод **IMAPITable::Unadvise,** чтобы освободить указатель для объекта раковины рекомендации, переданного в  _параметре lpAdviseSink_ в предыдущем вызове **на IMAPITable:::Advise,** тем самым отменив регистрацию уведомлений. В рамках отбрасывания указателя к объекту раковины рекомендации используется метод **IUnknown::Release.** Как **правило,** выпуск вызывается во время вызова **Unadvise,** но если другой поток находится в процессе вызова [метода IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) для раковины рекомендации, вызов выпуска откладывается до возвращения метода **OnNotify.**  
   
-Дополнительные сведения о процессе уведомления см. в [уведомлении о событии в MAPI.](event-notification-in-mapi.md) Конкретные сведения об уведомлении таблицы [см. в таблице уведомлений.](about-table-notifications.md) Сведения об использовании методов **IMAPISupport** для поддержки уведомлений см. в подразделе ["Поддержка уведомления о событии".](supporting-event-notification.md)
+Дополнительные сведения о процессе уведомления см. в сообщении [события в MAPI.](event-notification-in-mapi.md) Сведения о уведомлении таблицы см. в [таблице Уведомлений.](about-table-notifications.md) Сведения об использовании методов **IMAPISupport** для поддержки уведомлений см. в сообщении [о поддержке событий.](supporting-event-notification.md)
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -57,7 +57,7 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::NotificationOff  <br/> |MFCMAPI использует метод **IMAPITable::Unadvise** для отмены уведомлений для таблицы.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::NotificationOff  <br/> |MFCMAPI использует **метод IMAPITable::Unadvise** для отмены уведомлений для таблицы.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

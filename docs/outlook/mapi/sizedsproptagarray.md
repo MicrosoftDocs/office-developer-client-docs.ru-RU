@@ -21,9 +21,9 @@ ms.locfileid: "33429350"
 ---
 # <a name="sizedsproptagarray"></a>SizedSPropTagArray
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Создает именоваемую [структуру SPropTagArray,](sproptagarray.md) которая включает указанное число тегов свойств. 
+Создает структуру [SPropTagArray](sproptagarray.md) с указанным числом тегов свойств. 
   
 |||
 |:-----|:-----|
@@ -34,13 +34,13 @@ ms.locfileid: "33429350"
 SizedSPropTagArray (_ctag, _name)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _ _ctag_
   
-> Количество тегов свойств, которые необходимо включить в новую структуру.
+> Количество тегов свойств, которые будут включены в новую структуру.
     
-_ _name_
+_ _имя_
   
 > Имя новой структуры.
     
@@ -48,7 +48,7 @@ _ _name_
 
 Используйте **макрос SizedSPropTagArray** для создания массива тегов свойств с явными границами. 
   
-Чтобы использовать новую структуру, которая является результатом макроса **SizedSPropTagArray** в качестве указателя на структуру **SPropTagArray,** выполните следующую пристановку: 
+Чтобы использовать новую структуру, которая является результатом макроса **SizedSPropTagArray** в качестве указателя на **структуру SPropTagArray,** выполните следующие броски: 
   
 ```cpp
 lpPropTagArray = (LPPropTagArray) &SizedSPropTagArray;

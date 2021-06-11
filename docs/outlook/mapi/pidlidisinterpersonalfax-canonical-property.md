@@ -23,15 +23,15 @@ ms.locfileid: "33428335"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает, является ли элемент факсом Интернета.
+Указывает, является ли элемент элементом факса в Интернете.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidIsIPFax  <br/> |
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный ИД (КРЫШКА):  <br/> |0x0000859B  <br/> |
+|Long ID (LID):  <br/> |0x0000859B  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Общие сообщения  <br/> |
    
@@ -41,9 +41,9 @@ ms.locfileid: "33428335"
 
 [[MS-OXPROPS]] 
   
-> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server протоколы.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -59,5 +59,5 @@ Mapidefs.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -30,28 +30,28 @@ HRESULT IOlkAccountManager::FindAccount (
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _dwProp_
   
-> [in] Свойство для поиска. Должен быть [PROP_ACCT_ID](prop_acct_id.md) или [PROP_ACCT_IS_EXCH.](prop_acct_is_exch.md)
+> [in] Свойство для поиска. Должно быть [PROP_ACCT_ID](prop_acct_id.md) [или PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).
     
 _pVar_
   
-> [in] Значение для совпадения.
+> [in] Значение, необходимое для совпадения.
     
 _ppAccount_
   
-> [out] Найденная учетная запись. Этот объект поддерживает интерфейс [IOlkAccount.](iolkaccount.md) 
+> [вышел] Найдена учетная запись. Этот объект поддерживает интерфейс [IOlkAccount.](iolkaccount.md) 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |Не удается найти указанную учетную запись.  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |Указанную учетную запись невозможно найти.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
-|E_OLK_PARAM_NOT_SUPPORTED  <br/> |Один или несколько параметров недопустимы.  <br/> |
+|E_OLK_PARAM_NOT_SUPPORTED  <br/> |Один или несколько параметров являются недействительными.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

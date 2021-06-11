@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
-description: 'Last modified: July 03, 2012'
+description: 'Последнее изменение: 03 июля 2012 г.'
 ms.openlocfilehash: a9aea0db700de9c82aa2a41a443ebf03da8ce9b3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.locfileid: "33430310"
 
  
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Идентификатор элемента Outlook. Он содержит идентификатор записи и другую релевантную информацию.
+Идентификатор для элемента Outlook. Он содержит идентификатор записи и другие релевантные сведения.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -40,11 +40,11 @@ struct MEID
 
  _abFlags_
   
-> 4-byte entry identifier for the Outlook item. Дополнительные сведения об идентификаторах записей MAPI см. в **[entryID.](entryid.md)** 
+> Идентификатор записи 4-byte для элемента Outlook. Дополнительные сведения о идентификаторах записей MAPI см. в **[записи ENTRYID.](entryid.md)** 
     
  _muid_
   
-> GUID, идентифицирует поставщика магазина. Определение типа **MAPIUID** см. в mapidefs.h. 
+> GUID, идентифицирует поставщика магазина. См. mapidefs.h для определения типа **MAPIUID**. 
     
  _placeholder_
   
@@ -52,11 +52,11 @@ struct MEID
     
  _ltidFld_
   
-> Долгосрочный ИД папки.
+> Долгосрочный ID папки.
     
  _ltidMsg_
   
-> Долгосрочный ИД элемента Outlook.
+> Долгосрочный ID элемента Outlook.
     
 ## <a name="see-also"></a>См. также
 

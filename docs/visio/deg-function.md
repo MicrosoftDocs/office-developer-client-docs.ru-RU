@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251419
 localization_priority: Normal
 ms.assetid: ed3c7e1a-620d-a1f7-2eef-bd3e674b0c1b
-description: Преобразует значение угла из радиан в градусы.
+description: Преобразует значение угла с радианцев в градусы.
 ms.openlocfilehash: a01ef57a8c003b61aa1af086bca9683dc401a1e8
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,21 +18,21 @@ ms.locfileid: "33431920"
 ---
 # <a name="deg-function"></a>Функция DEG
 
-Преобразует значение угла из радиан в градусы.
+Преобразует значение угла с радианцев в градусы.
   
 ## <a name="syntax"></a>Синтаксис
 
-DEG(** *angle* ** ) 
+DEG(** *угол* ** ) 
   
 ### <a name="parameters"></a>Параметры
 
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Обязательно  <br/> |**Строка** <br/> |Значение угла в радианах.  <br/> |
+| _угол_ <br/> |Обязательный  <br/> |**String** <br/> |Значение угла в радианах.  <br/> |
    
 ## <a name="example"></a>Пример
 
-DEG(PI( )/4) 
+DEG (PI) )/4) 
   
 Возвращает 45 
   

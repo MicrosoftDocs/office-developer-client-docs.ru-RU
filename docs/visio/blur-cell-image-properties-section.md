@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm115
 localization_priority: Normal
 ms.assetid: 8b077cdb-6036-4f77-dc20-a476bb75b0f7
-description: Размытие или размягка толчайного изображения. Значение по умолчанию — 0%.
+description: Размытие или смягчение изображения bitmap. Значение по умолчанию — 0%.
 ms.openlocfilehash: 599810d126c853e37552045d0ef83cb580606ae2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33427908"
 ---
 # <a name="blur-cell-image-properties-section"></a>Blur Cell (Image Properties Section)
 
-Размытие или размягка толчайного изображения. Значение по умолчанию — 0%.
+Размытие или смягчение изображения bitmap. Значение по умолчанию — 0%.
   
 ## <a name="remarks"></a>Примечания
 

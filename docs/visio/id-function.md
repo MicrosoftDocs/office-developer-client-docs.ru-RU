@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251588
 localization_priority: Normal
 ms.assetid: c625ef52-02bc-a217-4324-8871544773c1
-description: Возвращает внутренний ИД фигуры в виде числа.
+description: Возвращает внутренний ID фигуры в виде номера.
 ms.openlocfilehash: 86a0d89394b8421753a85ab34873e8b479e5cd1b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33430674"
 ---
 # <a name="id-function"></a>Функция ID
 
-Возвращает внутренний ИД фигуры в виде числа.
+Возвращает внутренний ID фигуры в виде номера.
   
 ## <a name="syntax"></a>Синтаксис
 
@@ -26,6 +26,6 @@ ID ()
   
 ### <a name="return-value"></a>Возвращаемое значение
 
-Числовой
+Номер
   
 

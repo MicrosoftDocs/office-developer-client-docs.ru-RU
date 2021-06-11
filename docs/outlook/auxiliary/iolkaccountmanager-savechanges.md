@@ -29,27 +29,27 @@ HRESULT IOlkAccountManager::SaveChanges (
 ); 
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _dwAcctID_
   
-> [in] ИД учетной записи для сохранения. 
+> [in] ID учетной записи для сохранения. 
     
 _dwFlags_
   
-> [in] Flags to modify behavior. OLK_ACCOUNT_NO_FLAGS это единственное поддерживаемые значения.
+> [in] Flags to modify behavior. OLK_ACCOUNT_NO_FLAGS является единственным поддерживаемым значением.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |Вызов был успешным  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |Не удается найти указанную учетную запись.  <br/> |
+|S_OK  <br/> |Вызов удался  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |Указанную учетную запись невозможно найти.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-После изменения значения свойств учетной записи с помощью [IOlkAccount::SetProp](iolkaccount-setprop.md)используйте **IOlkAccountManager::SaveChanges** или [IOlkAccount::SaveChanges,](iolkaccount-savechanges.md) чтобы сохранить такие изменения. 
+После изменения значения свойств учетных записей с помощью [IOlkAccount::SetProp](iolkaccount-setprop.md)используйте **IOlkAccountManager::SaveChanges** или [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) для сохранения таких изменений. 
   
 ## <a name="see-also"></a>См. также
 

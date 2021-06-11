@@ -23,24 +23,24 @@ ms.locfileid: "33428790"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит подкатегорию формы, определяемую клиентным приложением. 
+Содержит подкатегорию формы, определяемую клиентской заявкой. 
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_FORM_CATEGORY_SUB, PR_FORM_CATEGORY_SUB_A, PR_FORM_CATEGORY_SUB_W  <br/> |
 |Идентификатор:  <br/> |0x3305  <br/> |
 |Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Область:  <br/> |Общие mapI  <br/> |
+|Область:  <br/> |MAPI общие  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства являются подчиненными основной категории формы, которая предоставляется в свойстве **PR_FORM_CATEGORY** ([PidTagFormCategory).](pidtagformcategory-canonical-property.md) 
+Эти свойства подчинены основной категории форм, которая представлена в **свойстве PR_FORM_CATEGORY** [(PidTagFormCategory).](pidtagformcategory-canonical-property.md) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

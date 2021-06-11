@@ -1,5 +1,5 @@
 ---
-title: NewRecord Macro Action (пользовательское веб-приложение Access)
+title: NewRecord Macro Action (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424597"
 ---
-# <a name="newrecord-macro-action-access-custom-web-app"></a>NewRecord Macro Action (пользовательское веб-приложение Access)
+# <a name="newrecord-macro-action-access-custom-web-app"></a>NewRecord Macro Action (Access custom web app)
 
 Создает новую пустую запись в текущем представлении.
   
@@ -23,8 +23,8 @@ ms.locfileid: "33424597"
   
 ## <a name="remarks"></a>Примечания
 
-С помощью действия **NewRecord** можно добавить пустую запись в конце представления, чтобы ввести новые данные. 
+Вы можете использовать **действие NewRecord** для добавления пустой записи в конце представления, чтобы можно было ввести новые данные. 
   
-Действие **NewRecord** эквивалентно использованию кнопки "Добавить" в панели действий для добавления записи.  
+Действие **NewRecord** эквивалентно использованию кнопки **Добавить** в панели действий для добавления записи. 
   
 

@@ -23,28 +23,28 @@ ms.locfileid: "33429420"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Получает уведомления из форм. 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapiform.h  <br/> |
-|Выставим:  <br/> |Просмотр рекомендуемых объектов-тонух  <br/> |
+|Подвергается:  <br/> |Просмотр рекомендуемых объектов раковины  <br/> |
 |Реализовано в:  <br/> |Просмотр форм  <br/> |
 |Вызывающая сторона:  <br/> |Объекты форм  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIViewAdviseSink  <br/> |
 |Тип указателя:  <br/> |LPMAPIVIEWADVISESINK  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Извеирует просматриваемую форму о закрытии формы.  <br/> |
-|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Сообщает просмотру формы о том, что новое или существующее сообщение загружено в форме.  <br/> |
-|[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Извеирует просмотр формы о состоянии печати формы.  <br/> |
-|[OnSubmitted](imapiviewadvisesink-onsubmitted.md) <br/> |Сообщает просмотру формы, что текущее сообщение отправлено в пул MAPI.  <br/> |
-|[OnSaved](imapiviewadvisesink-onsaved.md) <br/> |Сообщает просмотру формы о том, что текущее сообщение в форме сохранено.  <br/> |
+|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Заветив зрителю формы, что форма закрывается.  <br/> |
+|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Сообщает зрителю формы, что новое или существующее сообщение загружено в форме.  <br/> |
+|[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Заветив зрителю формы состояние печати формы.  <br/> |
+|[OnSubmitted](imapiviewadvisesink-onsubmitted.md) <br/> |Сообщает зрителю формы, что текущее сообщение было отправлено в пулер MAPI.  <br/> |
+|[OnSaved](imapiviewadvisesink-onsaved.md) <br/> |Сообщает зрителю формы, что текущее сообщение в форме сохранено.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

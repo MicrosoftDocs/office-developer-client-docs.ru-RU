@@ -17,9 +17,9 @@ ms.locfileid: "33426172"
 ---
 # <a name="rtf_wcsretinfo"></a>RTF_WCSRETINFO
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Эта структура предоставляет сведения о потоке в своем формате, возвращаемом при сжатии текста сообщения, инкапсулированного в сжатом формате RTF.
+Эта структура предоставляет сведения о потоке в родном формате, возвращаемом из декомпрессии тела сообщения, инкапсулированного в сжатом формате богатого текста (RTF).
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -34,17 +34,17 @@ typedef struct {
 
 _size_
   
-> Размер структуры **RTF_WCSRETINFO** в количестве вбайтах. 
+> Размер структуры **RTF_WCSRETINFO** в количестве bytes. 
     
 _ulStreamFlags_
   
-> Это значение, которое указывает формат родного тела. Это значение допустимо, только если **флаг MAPI_NATIVE_BODY** передается в _параметре ulFlags_ структуры [RTF_WCSINFO,](rtf_wcsinfo.md) которая передается функции [WrapCompressedRTFStreamEx.](wrapcompressedrtfstreamex.md) Это может быть одно из следующих значений: 
+> Это значение указывает формат родного тела. Это значение допустимо, **MAPI_NATIVE_BODY** флаг передается в _параметре ulFlags_ структуры RTF_WCSINFO, которая передается функции [WrapCompressedRTFStreamEx.](wrapcompressedrtfstreamex.md) [](rtf_wcsinfo.md) Это может быть одно из следующих значений: 
     
 |||
 |:-----|:-----|
-|MAPI_NATIVE_BODY_TYPE_RTF  <br/> |Это значение используется, только если  _ulFlags_ **включает** флаг MAPI_NATIVE_BODY, а тело — RTF.  <br/> |
-|MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT  <br/> |Это значение используется, только если  _ulFlags_ **включает** флаг MAPI_NATIVE_BODY, а текст имеет обычный текстовый формат.  <br/> |
-|MAPI_NATIVE_BODY_TYPE_HTML  <br/> |Это значение используется, только если  _ulFlags_ **включает** флаг MAPI_NATIVE_BODY, а текст имеет формат HTML.  <br/> |
+|MAPI_NATIVE_BODY_TYPE_RTF  <br/> |Это значение используется только в том случае,  если _ulFlags_ включает флаг MAPI_NATIVE_BODY, а тело — RTF.  <br/> |
+|MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT  <br/> |Это значение используется только в том случае, если _ulFlags_ включает флаг MAPI_NATIVE_BODY, а тело — обычный текстовый формат.   <br/> |
+|MAPI_NATIVE_BODY_TYPE_HTML  <br/> |Это значение используется только в том случае,  если _ulFlags_ включает флаг MAPI_NATIVE_BODY, а тело — формат Hypertext Markup Language (HTML).  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -20,14 +20,14 @@ ms.locfileid: "33429434"
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IOlkAccount](iolkaccount.md).
+См. [iOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0002  <br/> |
 |Тип свойства:  <br/> |PT_UNICODE  <br/> |
 |Тег свойства:  <br/> |0x0002001F  <br/> |
-|Access:  <br/> |Чтение и запись  <br/> |
+|Доступ:  <br/> |Чтение и запись  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

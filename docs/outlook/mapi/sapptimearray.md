@@ -23,7 +23,7 @@ ms.locfileid: "33430387"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит массив значений времени.
   
@@ -44,7 +44,7 @@ typedef struct _SAppTimeArray
 
  **cValues**
   
-> Количество значений в массиве, на который указывает **lpat-член.** 
+> Количество значений в массиве, на который указывает **член lpat.** 
     
  **lpat**
   
@@ -52,7 +52,7 @@ typedef struct _SAppTimeArray
     
 ## <a name="remarks"></a>Примечания
 
-Структура **SAppTimeArray** используется для определения свойств типа PT_MV_APPTIME. Дополнительные сведения о PT_MV_APPTIME [см. в списке типов свойств.](property-types.md)
+Структура **SAppTimeArray** используется для определения свойств типа PT_MV_APPTIME. Дополнительные сведения о PT_MV_APPTIME см. [в списке типов свойств.](property-types.md)
   
 ## <a name="see-also"></a>См. также
 

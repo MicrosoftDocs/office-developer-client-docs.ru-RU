@@ -1,5 +1,5 @@
 ---
-title: IMAPISync SynchronizeInBackground
+title: Синхронизация IMAPISyncInBackground
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -23,9 +23,9 @@ ms.locfileid: "33426858"
 
  
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
- Инициирует синхронизацию. Этот метод вызван Microsoft Outlook 2010, русская версия Microsoft Outlook 2013 и реализован поставщиками store сообщений. 
+ Инициирует синхронизацию. Этот метод называется Microsoft Outlook 2010, русская версия и Microsoft Outlook 2013 и реализован поставщиками хранения сообщений. 
   
 ```cpp
 HRESULT SynchronizeInBackground (
@@ -33,11 +33,11 @@ HRESULT SynchronizeInBackground (
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _psibpb_
   
-> Сообщает поставщику о том, что будет синхронизировано, и предоставляет доступ к интерфейсам, которые можно использовать во время синхронизации. Это структура [MAPISIB.](mapisib.md) 
+> Информирует поставщика о том, что будет синхронизировано, и предоставляет доступ к интерфейсам, которые можно использовать во время синхронизации. Это структура [MAPISIB.](mapisib.md) 
     
 ## <a name="return-value"></a>Возвращаемое значение
 

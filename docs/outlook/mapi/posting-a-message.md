@@ -17,42 +17,42 @@ ms.locfileid: "33429770"
 ---
 # <a name="posting-a-message"></a>Публикация сообщения
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Публикация сообщения аналогична отправке сообщения. Основное различие заключается в назначении. Вместо того чтобы отправляться одному или более получателям в одной или более системах обмена сообщениями, опубликованное сообщение остается в папке в текущем хранилище сообщений.
+Публикация сообщения похожа на отправку сообщения. Основное отличие — назначение. Вместо того, чтобы отправляться одному или более получателям через одну или несколько систем обмена сообщениями, размещенное сообщение остается в папке в текущем хранилище сообщений.
   
 ### <a name="to-post-a-message"></a>Публикация сообщения
   
-1. Откройте папку назначения, вызывая [IMsgStore::OpenEntry.](imsgstore-openentry.md) Если папкой назначения является папка "Входящие", найдите идентификатор записи для передачи **в OpenEntry,** вызывая [IMsgStore::GetReceiveFolder.](imsgstore-getreceivefolder.md) 
+1. Откройте папку назначения, позвонив [в IMsgStore::OpenEntry.](imsgstore-openentry.md) Если папка назначения — папка "Входящие", найдите идентификатор записи для передачи **в OpenEntry,** позвонив [в IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md). 
     
-2. Вызовите [IMAPIFolder::CreateMessage,](imapifolder-createmessage.md) чтобы создать сообщение. 
+2. Вызов [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) для создания сообщения. 
     
-3. Вызовите метод [IMAPIProp::SetProps](imapiprop-setprops.md) сообщения, чтобы установить: 
+3. Вызовите метод [IMAPIProp::SetProps,](imapiprop-setprops.md) чтобы установить: 
     
-   - Флаг MSGFLAG_READ в свойстве **PidTagMessageFlags** ( [PR_MESSAGE_FLAGS](pidtagmessageflags-canonical-property.md)).
+   - Флаг MSGFLAG_READ в **свойстве PidTagMessageFlags** [(PR_MESSAGE_FLAGS).](pidtagmessageflags-canonical-property.md)
     
    - Свойства **PR_SENDER.** 
     
    - Свойства **PR_SENT_REPRESENTING.** 
     
-   - Свойство **PR_RECEIPT_TIME** ([PidTagReceiptTime).](pidtagreceipttime-canonical-property.md)
+   - Свойство **PR_RECEIPT_TIME** [(PidTagReceiptTime).](pidtagreceipttime-canonical-property.md)
     
-   - Свойство **PR_RTF_COMPRESSED** ([PidTagRtfCompressed)](pidtagrtfcompressed-canonical-property.md) **или PR_BODY** ([PidTagBody).](pidtagbody-canonical-property.md)
+   - Свойство **PR_RTF_COMPRESSED** [(PidTagRtfCompressed)](pidtagrtfcompressed-canonical-property.md)или **PR_BODY** [(PidTagBody).](pidtagbody-canonical-property.md)
     
-   - Свойство **PR_SUBJECT** ([PidTagSubject).](pidtagsubject-canonical-property.md)
+   - Свойство **PR_SUBJECT** [(PidTagSubject).](pidtagsubject-canonical-property.md)
     
-   - Свойство **PR_MESSAGE_CLASS** ([PidTagMessageClass).](pidtagmessageclass-canonical-property.md)
+   - Свойство **PR_MESSAGE_CLASS** [(PidTagMessageClass).](pidtagmessageclass-canonical-property.md)
     
-   - Все свойства, необходимые классу сообщения.
+   - Любые свойства, необходимые классу сообщений.
     
-4. Вызовите метод [IMAPIProp::SaveChanges](imapiprop-savechanges.md) сообщения, чтобы сохранить сообщение. 
+4. Чтобы сохранить сообщение, позвоните по методу [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
     
-5. При необходимости создайте вложение, установите его свойства и сохраните его. Дополнительные сведения о добавлении вложений в сообщения см. в подм. [](creating-a-message-attachment.md)
+5. При необходимости создайте вложение, установите его свойства и сохраните. Дополнительные сведения о добавлении вложений в сообщения см. в [приложении Creating a Message Attachment.](creating-a-message-attachment.md)
     
-6. Вызовите **IMessage::SaveChanges,** чтобы сохранить сообщение. На этом этапе он появится в таблице содержимого конечной папки. 
+6. Вызов **IMessage::SaveChanges,** чтобы сохранить сообщение. На этом этапе он появится в таблице содержимого папки назначения. 
     
-Обратите внимание, что список получателей не создается. Вместо этого вы можете настроить несколько свойств, которые обычно устанавливаются поставщиком транспорта для отправленного сообщения. 
+Обратите внимание, что список получателей не создается. Вместо этого вы установите несколько свойств, которые обычно устанавливаются поставщиком транспорта для отправленного сообщения. 
   
-Если вы хотите периодически сохранять сообщение, прежде чем оно появится в таблице содержимого видимой папки, создайте его в скрытой папке, например в корневой папке поддерева IPM, а затем переместите его в целевую папку. 
+Если вы хотите сохранить сообщение с перерывами, прежде чем оно появится в таблице содержимого видимой папки, создайте его в скрытой папке, например корневой папке подтриба IPM, а затем переместите его в целевую папку. 
   
 

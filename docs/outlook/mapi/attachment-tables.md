@@ -17,58 +17,58 @@ ms.locfileid: "33427445"
 ---
 # <a name="attachment-tables"></a>Таблицы вложений
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Таблица вложений содержит сведения обо всех объектах вложений, связанных с отправленным сообщением или сообщением в композиции. 
+В таблице вложений содержатся сведения обо всех объектах вложений, связанных с отправленным сообщением или сообщением под композицией. 
   
-В таблицу включаются только вложения, сохраненные при вызове метода [IMAPIProp::SaveChanges](imapiprop-savechanges.md) сообщения. Таблицы вложений реализуются поставщиками store сообщений и используются клиентских приложений и поставщиков транспорта. 
+В таблицу включены только вложения, сохраненные при вызове метода [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Таблицы вложений реализуются поставщиками магазинов сообщений и используются клиентские приложения и поставщики транспорта. 
   
-Для доступа к таблице вложений можно использовать один из следующих вызовов:
+К таблице вложений можно получить доступ, позвонив по следующему:
   
 - [IMessage::GetAttachmentTable](imessage-getattachmenttable.md)
     
-- [IMAPIProp::OpenProperty](imapiprop-openproperty.md), запрашивающий свойство **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments).](pidtagmessageattachments-canonical-property.md)
+- [IMAPIProp::OpenProperty](imapiprop-openproperty.md), запрашивая свойство[PR_MESSAGE_ATTACHMENTS (PidTagMessageAttachments).](pidtagmessageattachments-canonical-property.md) 
     
-Таблицы вложений являются динамическими.
+Таблицы вложений динамически.
   
-Поставщики store сообщений не обязаны поддерживать сортировку в таблицах вложений. Если сортировка не поддерживается, таблица должна быть представлена по порядку с помощью положения отрисовки — свойства **PR_RENDERING_POSITION** ([PidTagRenderingPosition).](pidtagrenderingposition-canonical-property.md)
+Поставщики магазинов сообщений не обязаны поддерживать сортировку на таблицах вложений. Если сортировка не поддерживается, таблица должна быть представлена в порядке путем отрисовки позиции — **свойства PR_RENDERING_POSITION** [(PidTagRenderingPosition).](pidtagrenderingposition-canonical-property.md)
   
-Поставщики store сообщений также не требуются для поддержки ограничений в таблицах вложений. Поставщики, которые не поддерживают ограничения, MAPI_E_NO_SUPPORT из своих реализаций [IMAPITable::Restrict](imapitable-restrict.md) и [IMAPITable::FindRow.](imapitable-findrow.md)
+Поставщики магазинов сообщений также не обязаны поддерживать ограничения на таблицах вложений. Поставщики, которые не поддерживают ограничения, возвращают MAPI_E_NO_SUPPORT из реализации [IMAPITable:::Restrict](imapitable-restrict.md) и [IMAPITable::FindRow](imapitable-findrow.md).
   
-Таблицы вложений могут быть небольшими; В требуемом наборе столбцов имеется только четыре столбца:
+Таблицы вложений могут быть небольшими; В требуемом наборе столбцов всего четыре столбца:
   
-- **PR_ATTACH_NUM** ([PidTagAttachNumber)](pidtagattachnumber-canonical-property.md) 
+- **PR_ATTACH_NUM** [(PidTagAttachNumber)](pidtagattachnumber-canonical-property.md) 
     
-- **PR_INSTANCE_KEY** ([PidTagInstanceKey)](pidtaginstancekey-canonical-property.md) 
+- **PR_INSTANCE_KEY** [(PidTagInstanceKey)](pidtaginstancekey-canonical-property.md) 
     
-- **PR_RECORD_KEY** ([PidTagRecordKey)](pidtagrecordkey-canonical-property.md) 
+- **PR_RECORD_KEY** [(PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 
     
 - **PR_RENDERING_POSITION**
     
- **PR_ATTACH_NUM** нечитаемая и содержит значение для уникальной идентификации вложения в сообщении. Это свойство часто используется в качестве индекса в строках таблицы. **PR_ATTACH_NUM** имеет короткий срок службы; он действителен, только если открыто сообщение, содержащее вложение. Его значение гарантированно останется постоянным, пока открыта таблица вложений. 
+ **PR_ATTACH_NUM** является нетрансмитируемым и содержит значение для уникального определения вложения в сообщении. Это свойство часто используется в качестве индекса в строках таблицы. **PR_ATTACH_NUM** имеет короткий срок службы; он действителен только во время открытия сообщения, содержащего вложение. Его значение гарантированно останется неизменным до тех пор, пока открыта таблица вложений. 
   
  **PR_INSTANCE_KEY** требуется почти в каждой таблице. Он используется для уникальной идентификации определенной строки. 
   
- **PR_RECORD_KEY** обычно используется для уникальной идентификации объекта в целях сравнения. В **PR_ATTACH_NUM** **PR_RECORD_KEY** область действия такой же, как и у долгосрочного идентификатора записи; Он остается доступным и действительным даже после закрытия и повторного открытия сообщения. Дополнительные сведения об использовании клавиш записей в MAPI см. в записях [MAPI и ключах поиска.](mapi-record-and-search-keys.md)
+ **PR_RECORD_KEY** обычно используется для уникальной идентификации объекта для целей сравнения. В **PR_ATTACH_NUM** **PR_RECORD_KEY** имеет ту же область, что и долгосрочный идентификатор входа; он остается доступным и действительным даже после закрытия и повторного открытия сообщения. Дополнительные сведения об использовании ключей записи в MAPI см. в записи [MAPI и клавишах поиска.](mapi-record-and-search-keys.md)
   
- **PR_RENDERING_POSITION** указывает, как вложение должно отображаться в текстовом сообщении. Можно установить смещение символов, при этом первый символ содержимого сообщения, хранящийся в свойстве **PR_BODY** ([PidTagBody),](pidtagbody-canonical-property.md)имеет смещение 0 или -1 (0xFFFFFFFF), что означает, что вложение не должно быть отрисовировано в тексте сообщения вообще. Не **настраивать PR_RENDERING_POSITION** также можно. 
+ **PR_RENDERING_POSITION** указывает, как вложение должно отображаться в текстовом сообщении. Можно установить смещение символов, при этом первый символ контента **сообщения,** хранимый в свойстве PR_BODY [(PidTagBody),](pidtagbody-canonical-property.md)смещен 0 или до -1 (0xFFFFFFFF), что указывает на то, что вложение вообще не должно быть отрисовывано в тексте сообщения. Не настройка **PR_RENDERING_POSITION** также является параметром. 
   
-При сортировке таблицы вложений по позиции отрисовки поставщик хранилище сообщений обрабатывает ее как подписанное значение (PT_LONG). Поэтому вложения с положениями отрисовки -1 сортированы перед вложениями с положениями отображения, отражающие допустимые смещения. 
+Если таблица вложений сортироваться путем отрисовки позиции, поставщик магазина сообщений рассматривает ее как подписанное значение (PT_LONG). Поэтому вложения с отрисовкой позиций -1 сортированы перед вложениями с отрисовкой позиций, отражающих допустимые смещения. 
   
-Дополнительные сведения о визуализации вложения в обычном текстовом сообщении см. в документе ["Отрисовка вложения в обычном тексте".](rendering-an-attachment-in-plain-text.md) 
+Дополнительные сведения о визуализации вложения в обычном текстовом сообщении см. в документе [Rendering an Attachment in Plain Text.](rendering-an-attachment-in-plain-text.md) 
   
-Сведения о отрисовки вложения в формате текста, например RTF, см. в документе "Отрисовка вложения в [формате RTF".](rendering-an-attachment-in-rtf-text.md)
+Сведения о том, как отрисовка вложения в форматном тексте, например в формате Rich Text Format (RTF), см. в документе [Rendering an Attachment in RTF Text.](rendering-an-attachment-in-rtf-text.md)
   
-Некоторые из свойств, которые поставщики store сообщений обычно включают в таблицу вложений, так как их легко вычислять и извлекать:
+Некоторые из поставщиков сообщений свойств обычно включаются в таблицу вложений, так как их легко вычислять или извлекать:
   
 |||
 |:-----|:-----|
-|**PR_ATTACH_ENCODING** ([PidTagAttachEncoding)](pidtagattachencoding-canonical-property.md)  <br/> |**PR_ATTACH_EXTENSION** ([PidTagAttachExtension)](pidtagattachextension-canonical-property.md)  <br/> |
-|**PR_ATTACH_FILENAME** ([PidTagAttachFilename)](pidtagattachfilename-canonical-property.md)  <br/> |**PR_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename)](pidtagattachlongfilename-canonical-property.md)  <br/> |
-|**PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md))  <br/> |**PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md))  <br/> |
-|**PR_ATTACH_METHOD** ([PidTagAttachMethod)](pidtagattachmethod-canonical-property.md)  <br/> |**PR_ATTACH_TAG** ([PidTagAttachTag)](pidtagattachtag-canonical-property.md)  <br/> |
-|**PR_CREATION_TIME** ([PidTagCreationTime)](pidtagcreationtime-canonical-property.md)  <br/> |**PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md))  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_LAST_MODIFICATION_TIME** ([PidTagLastModificationTime)](pidtaglastmodificationtime-canonical-property.md)  <br/> |
+|**PR_ATTACH_ENCODING** [(PidTagAttachEncoding](pidtagattachencoding-canonical-property.md))  <br/> |**PR_ATTACH_EXTENSION** [(PidTagAttachExtension](pidtagattachextension-canonical-property.md))  <br/> |
+|**PR_ATTACH_FILENAME** [(PidTagAttachFilename](pidtagattachfilename-canonical-property.md))  <br/> |**PR_ATTACH_LONG_FILENAME** [(PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md))  <br/> |
+|**PR_ATTACH_PATHNAME** [(PidTagAttachPathname)](pidtagattachpathname-canonical-property.md)  <br/> |**PR_ATTACH_LONG_PATHNAME** [(PidTagAttachLongPathname)](pidtagattachlongpathname-canonical-property.md)  <br/> |
+|**PR_ATTACH_METHOD** [(PidTagAttachMethod)](pidtagattachmethod-canonical-property.md)  <br/> |**PR_ATTACH_TAG** [(PidTagAttachTag)](pidtagattachtag-canonical-property.md)  <br/> |
+|**PR_CREATION_TIME** [(PidTagCreationTime)](pidtagcreationtime-canonical-property.md)  <br/> |**PR_ATTACH_TRANSPORT_NAME** [(PidTagAttachTransportName)](pidtagattachtransportname-canonical-property.md)  <br/> |
+|**PR_DISPLAY_NAME** [(PidTagDisplayName)](pidtagdisplayname-canonical-property.md)  <br/> |**PR_LAST_MODIFICATION_TIME** [(PidTagLastModificationTime)](pidtaglastmodificationtime-canonical-property.md)  <br/> |
    
 ## <a name="see-also"></a>См. также
 

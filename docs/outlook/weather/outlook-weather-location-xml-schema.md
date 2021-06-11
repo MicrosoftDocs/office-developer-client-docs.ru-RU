@@ -1,5 +1,5 @@
 ---
-title: Схема XML расположения прогноза погоды в Outlook
+title: Outlook Схема расположения погоды XML
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8bb17e80-3be5-228e-ddb4-fcda03b60ba6
-description: В этом разделе содержится справочник по схеме Outlook 2013 для схемы XML расположения прогноза погоды в Outlook. Эта схема позволяет поставщикам услуг прогноза погоды отвечать на запрос веб-службы Outlook на код расположения. Код расположения должен соответствовать расположению, для которого пользователь запрашивает сведения о погоде в панели прогноза погоды.
+description: В этом разделе содержится ссылка Outlook схемы 2013 г. для схемы Outlook расположение погоды XML. Эта схема позволяет поставщикам метеорологических служб отвечать на запрос Outlook веб-службы для кода расположения. Код расположения должен соответствовать расположению, для которого пользователь запрашивает сведения о погоде в Панели погоды.
 ms.openlocfilehash: 153244bc1ddcf84299d1e72821a5ebe65ad4ca4d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -15,17 +15,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429231"
 ---
-# <a name="outlook-weather-location-xml-schema"></a>Схема XML расположения прогноза погоды в Outlook
+# <a name="outlook-weather-location-xml-schema"></a>Outlook Схема расположения погоды XML
 
-В этом разделе содержится справочник по схеме Outlook 2013 для схемы XML расположения прогноза погоды в Outlook. Эта схема позволяет поставщикам услуг прогноза погоды отвечать на запрос веб-службы Outlook на код расположения. Код расположения должен соответствовать расположению, для которого пользователь запрашивает сведения о погоде в панели прогноза погоды.
+В этом разделе содержится ссылка Outlook схемы 2013 г. для схемы Outlook расположение погоды XML. Эта схема позволяет поставщикам метеорологических служб отвечать на запрос Outlook веб-службы для кода расположения. Код расположения должен соответствовать расположению, для которого пользователь запрашивает сведения о погоде в Панели погоды.
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
-- [Карта схемы (схема расположения прогноза погоды в Outlook)](schema-map-outlook-weather-location-schema.md)
+- [Схема карты (Outlook схема расположения погоды)](schema-map-outlook-weather-location-schema.md)
     
-- [Elements (Outlook Weather Location Schema)](elements-outlook-weather-location-schema.md)
+- [Элементы (Outlook схема расположения погоды)](elements-outlook-weather-location-schema.md)
     
-- [Types (Outlook Weather Location Schema)](types-outlook-weather-location-schema.md)
+- [Типы (Outlook схема расположения погоды)](types-outlook-weather-location-schema.md)
     
 ## <a name="related-sections"></a>Связанные разделы
 

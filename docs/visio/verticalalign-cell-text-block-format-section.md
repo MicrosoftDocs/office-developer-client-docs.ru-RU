@@ -23,8 +23,8 @@ ms.locfileid: "33425794"
 |**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 | 0  <br/> | Top  <br/> |**visVertTop** <br/> |
-| 1   <br/> | Средняя  <br/> |**visVertMiddle** <br/> |
-| 2   <br/> | Bottom  <br/> |**visVertBottom** <br/> |
+| 1  <br/> | Средний  <br/> |**visVertMiddle** <br/> |
+| 2  <br/> | Нижний  <br/> |**visVertBottom** <br/> |
    
 ## <a name="remarks"></a>Примечания
 

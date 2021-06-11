@@ -23,9 +23,9 @@ ms.locfileid: "33427593"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Отображает ид записи **NON_IPM_SUBTREE** в хранилище общедоступных папок Exchange. 
+Показывает ID записи папки **NON_IPM_SUBTREE** в Exchange хранилище общедоступных папок. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "33427593"
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -56,5 +56,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

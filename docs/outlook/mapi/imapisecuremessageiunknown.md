@@ -23,31 +23,31 @@ ms.locfileid: "33429749"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Определяет методы, используемые для управления защищенными сообщениями.
+Определяет методы, используемые для управления безопасными сообщениями.
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Exchsec.h  <br/> |
-|Выставим:  <br/> |[IMessage: IMAPIProp](imessageimapiprop.md) <br/> |
-|Реализовано в:  <br/> |Microsoft Outlook 2010, русская версия Microsoft Outlook 2013  <br/> |
+|Подвергается:  <br/> |[IMessage: IMAPIProp](imessageimapiprop.md) <br/> |
+|Реализовано в:  <br/> |Microsoft Outlook 2010, русская версия и Microsoft Outlook 2013  <br/> |
 |Вызывающая сторона:  <br/> |Клиент  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPISECUREMESSAGE  <br/> |
 |Тип указателя:  <br/> |LPMAPISECUREMESSAGE  <br/> |
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|Член-заметель.  <br/> |Не поддерживается и не документируется.  <br/> |
-|Член-заметель.  <br/> |Не поддерживается и не документируется.  <br/> |
-|Член-заметель.  <br/> |Не поддерживается и не документируется.  <br/> |
-|Член-заметель.  <br/> |Не поддерживается и не документируется.  <br/> |
-|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Извлекает [iMessage : IMAPIProp,](imessageimapiprop.md) который инкапсулирует [этот IMAPISecureMessage : IUnknown.](imapisecuremessageiunknown.md)  <br/> |
-|Член-заметель.  <br/> |Не поддерживается и не документируется.  <br/> |
-|Член-заметель.  <br/> |Не поддерживается и не документируется.  <br/> |
-|Член-заметель.  <br/> |Не поддерживается и не документируется.  <br/> |
+|Член placeholder.  <br/> |Не поддерживается или не документируется.  <br/> |
+|Член placeholder.  <br/> |Не поддерживается или не документируется.  <br/> |
+|Член placeholder.  <br/> |Не поддерживается или не документируется.  <br/> |
+|Член placeholder.  <br/> |Не поддерживается или не документируется.  <br/> |
+|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Извлекает в основном [IMessage : IMAPIProp,](imessageimapiprop.md) что это [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) является инкапсуляция.  <br/> |
+|Член placeholder.  <br/> |Не поддерживается или не документируется.  <br/> |
+|Член placeholder.  <br/> |Не поддерживается или не документируется.  <br/> |
+|Член placeholder.  <br/> |Не поддерживается или не документируется.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1a8bbe0c-17d1-9349-4c63-f257faf4edda
-description: Получает заранее заранее задав диапазон времени для перенамерения блоков данных о занятости для пользователя.
+description: Получает предустановленный диапазон времени для переустановки бесплатных и загруженных блоков данных для пользователя.
 ms.openlocfilehash: 26951ea6a885f8d0e5e6a2fb5bcf9a63069c7f44
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33430079"
 ---
 # <a name="ifreebusydatagetfbpublishrange"></a>IFreeBusyData::GetFBPublishRange
 
-Получает заранее заранее задав диапазон времени для перенамерения блоков данных о занятости для пользователя.
+Получает предустановленный диапазон времени для переустановки бесплатных и загруженных блоков данных для пользователя.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IFreeBusyData.](ifreebusydata.md)
+См. [iFreeBusyData](ifreebusydata.md).
   
 ```cpp
 HRESULT GetFBPublishRange( 
@@ -30,15 +30,15 @@ HRESULT GetFBPublishRange(
 
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _prtmStart_
   
-> [out] Относительное значение времени начала сведений о занятости. Это значение является числом минут с 1 января 1601 г.
+> [вышел] Относительное значение времени для начала получения бесплатных и загруженных сведений. Это число минут с 1 января 1601 г.
     
 _prtmEnd_
   
-> [out] Относительное значение времени для окончания сведений о занятости. Это значение — количество минут с 1 января 1601 г.
+> [вышел] Относительное значение времени для окончания бесплатных и загруженных сведений. Это число минут с 1 января 1601 г.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -46,9 +46,9 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## <a name="remarks"></a>Примечания
 
-Поставщик услуг занятости вызывает [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) или [IFreeBusyData::SetFBRange,](ifreebusydata-setfbrange.md) чтобы установить диапазон времени для нумерации. Если не был вызван [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) или [IFreeBusyData::SetFBRange,](ifreebusydata-setfbrange.md) значения по умолчанию для **prtmStart** и **prtmEnd** должны быть заданы между 1 апреля 1601 г. 00:00:00Z и 31 августа 4500 11:59:59Z соответственно. Кроме того, не следует устанавливать время начала больше времени окончания. 
+Бесплатный или занятый поставщик вызывает [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) или [IFreeBusyData::SetFBRange,](ifreebusydata-setfbrange.md) чтобы установить диапазон времени для переустановки. Если значения [IFreeBusyData:::EnumBlocks](ifreebusydata-enumblocks.md) или [IFreeBusyData:::SetFBRange](ifreebusydata-setfbrange.md) не были вызваны, значения по умолчанию для **prtmStart** и **prtmEnd** должны быть заданы между 1 апреля 1601 г. 00:00:00Z и 31 августа 4500 11:59:59Z соответственно. Кроме того, не следует устанавливать время начала больше конечного времени. 
   
-**IFreeBusyData::GetFBPublishRange** должен возвращать кэшданные значения для диапазона времени, заданного последним вызовом **IFreeBusyData::EnumBlocks** или **IFreeBusyData::SetFBRange**. 
+**IFreeBusyData::GetFBPublishRange** должен вернуть кэшные значения для диапазона времени, заданного последним вызовом **для IFreeBusyData::EnumBlocks** или **IFreeBusyData::SetFBRange**. 
   
 ## <a name="see-also"></a>См. также
 

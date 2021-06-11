@@ -1,5 +1,5 @@
 ---
-title: BETWEEN (пользовательское веб-приложение Access)
+title: BETWEEN (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429301"
 ---
-# <a name="between-access-custom-web-app"></a>BETWEEN (пользовательское веб-приложение Access)
+# <a name="between-access-custom-web-app"></a>BETWEEN (Доступ к настраиваемой веб-приложению)
 
 Указывает диапазон для тестирования.
   
@@ -22,28 +22,28 @@ ms.locfileid: "33429301"
   
 ## <a name="syntax"></a>Синтаксис
 
- *test_expression*  [ NOT ] **BETWEEN** *BEGIN_EXPRESSION* **AND** *end_expression* 
+ *test_expression* [НЕ **]**  МЕЖДУ BEGIN_EXPRESSION **И** *END_EXPRESSION* 
   
 Оператор **Between** содержит следующие аргументы. 
   
 |**Аргумент**|**Обязательный**|**Описание**|
 |:-----|:-----|:-----|
-| *test_expression*  <br/> |Да  <br/> |Выражение, для проверки в диапазоне, определенном  *begin_expression*  и  *end_expression*  . Должен иметь тот же тип данных, что и begin_expression *и* *end_expression.*  <br/> |
-| Возвращает только термины, которые не включают операнд.  <br/> |Нет  <br/> |Указывает, что результат предиката должен быть отрицаен.  <br/> |
-| *begin_expression*  <br/> |Да  <br/> |Допустимые выражения. Должен иметь тот же тип данных, что и test_expression *и* *end_expression.*  <br/> |
-| *end_expression*  <br/> |Да  <br/> |Допустимые выражения. Должен иметь тот же тип данных, что и test_expression *и* *begin_expression.*  <br/> |
-| Возвращает только элементы, которые соответствуют всем операндам *AND*.  <br/> |Да  <br/> |Указывает, *test_expression* должны быть в диапазоне, задамом  begin_expression и *end_expression.*  <br/> |
+| *test_expression*  <br/> |Да  <br/> |Выражение, для проверки в диапазоне,  *определенном*  begin_expression и  *end_expression*  . Должен быть тот же тип данных, что *и begin_expression* *и end_expression.*  <br/> |
+| Возвращает только термины, которые не включают операнд.  <br/> |Нет  <br/> |Указывает, что результат предиката будет отрицаться.  <br/> |
+| *begin_expression*  <br/> |Да  <br/> |Допустимые выражения. Должен быть тот же тип данных, что *и test_expression* *и end_expression.*  <br/> |
+| *end_expression*  <br/> |Да  <br/> |Допустимые выражения. Должен быть тот же тип данных, что *и test_expression* *и begin_expression.*  <br/> |
+| *И*  <br/> |Да  <br/> |Указывает,  *test_expression*  должны быть в пределах диапазона,  *указанных*  begin_expression и  *end_expression*  .  <br/> |
    
-## <a name="result-type"></a>Тип результата
+## <a name="result-type"></a>Тип результатов
 
  **Boolean**
   
 ## <a name="remarks"></a>Примечания
 
- **BETWEEN** возвращает **значение TRUE,** если значение test_expression больше или равно значению  *begin_expression* и меньше или равно значению *end_expression* . 
+ **МЕЖДУ** возвращает **ЗНАЧЕНИЕ TRUE,** если значение *test_expression* больше или равно значению begin_expression и меньше или равно  *значению end_expression* . 
   
- **ЗНАЧЕНИЕ NOT BETWEEN** возвращает **значение TRUE,** *если* значение test_expression  меньше значения begin_expression или больше значения *end_expression.* 
+ **НЕ МЕЖДУ** возвращает ЗНАЧЕНИЕ **TRUE,** если значение *test_expression* меньше  значения begin_expression или больше, чем *значение end_expression* . 
   
-Чтобы указать монопольный диапазон, используйте операторы больше , чем ( ) и \> меньше, чем операторы ( \< ).
+Чтобы указать эксклюзивный диапазон, используйте большее , чем () и меньше \> операторов ( \< ).
   
 

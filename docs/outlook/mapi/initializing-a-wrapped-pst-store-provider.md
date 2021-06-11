@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 07633717-ba4c-b146-ad65-60b37ab98ab6
-description: 'Last modified: October 05, 2012'
+description: 'Последнее изменение: 05 октября 2012 г.'
 ms.openlocfilehash: 31114e4082fbc5e4c57da95eb6b32339822b1645
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -15,17 +15,17 @@ ms.locfileid: "33427824"
 ---
 # <a name="initializing-a-wrapped-pst-store-provider"></a>Инициализация поставщика упакованного PST-хранилища
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Чтобы реализовать поставщика упакованного файла личных папок (PST-файла), необходимо инициализировать поставщика упакованного PST-магазина с помощью функции **[MSProviderInit](msproviderinit.md)** в качестве точки входа. После инициализации DLL поставщика функция **[MSGSERVICEENTRY](msgserviceentry.md)** настраивает поставщика упакованного PST-магазина. 
+Чтобы реализовать завернутый поставщик файлов личных папок (PST), необходимо инициализировать поставщика магазина PST с помощью **[функции MSProviderInit](msproviderinit.md)** в качестве точки входа. После инициализации DLL поставщика функция **[MSGSERVICEENTRY](msgserviceentry.md)** настраивает поставщика магазина PST. 
   
-В этом разделе функции **MSProviderInit** и **MSGSERVICEENTRY** демонстрируются с помощью примеров кода из примера поставщика упакованного PST-магазина. В примере реализован упакованный поставщик PST,который предназначен для использования в сочетании с API репликации. Дополнительные сведения о загрузке и установке примера поставщика упакованного PST-магазина см. в примере установки поставщика упакованного [PST-магазина.](installing-the-sample-wrapped-pst-store-provider.md) Дополнительные сведения об API репликации см. в сведениях об [API репликации.](about-the-replication-api.md)
+В этом разделе функция **MSProviderInit** и **функция MSGSERVICEENTRY** демонстрируются с помощью примеров кода из поставщика магазинов ПСД sample Wrapped. В примере реализован завернутый поставщик PST, который предназначен для использования в сочетании с API репликации. Дополнительные сведения о загрузке и установке поставщика магазинов PST sample wrapped см. в примере Установки поставщика упаковки [PST Store.](installing-the-sample-wrapped-pst-store-provider.md) Дополнительные сведения об API репликации см. в [иллюстрации API репликации.](about-the-replication-api.md)
   
-После инициализации поставщика упакованного PST-магазина необходимо реализовать функции, чтобы MAPI и пулер MAPI могли войти в систему поставщика хранения сообщений. Дополнительные сведения [см. в logging On to a Wrapped PST Store Provider](logging-on-to-a-wrapped-pst-store-provider.md).
+После инициализации поставщика магазинов PST необходимо реализовать функции, чтобы MAPI и spooler MAPI могли войти в поставщик магазина сообщений. Дополнительные сведения см. в [журнале On to a Wrapped PST Store Provider.](logging-on-to-a-wrapped-pst-store-provider.md)
   
 ## <a name="initialization-routine"></a>Процедура инициализации
 
-Все поставщики упакованного PST-магазина должны реализовать функцию **[MSProviderInit](msproviderinit.md)** в качестве точки входа для инициализации DLL поставщика. **MSProviderInit** проверяет, совместим ли номер версии интерфейса поставщика службы с текущим  `ulMAPIVer` номером  `CURRENT_SPI_VERSION` версии. Функция сохраняет процедуры управления памятью MAPI в  `g_lpAllocateBuffer` параметры  `g_lpAllocateMore` и  `g_lpFreeBuffer` параметры. Эти процедуры управления памятью следует использовать во всей реализации упакованного PST-хранения для выделения и распределения памяти. 
+Все поставщики магазинов PST должны реализовать функцию **[MSProviderInit](msproviderinit.md)** в качестве точки входа для инициализации DLL поставщика. **MSProviderInit** проверяет, совместим ли номер версии интерфейса поставщика услуг  `ulMAPIVer` с текущим номером  `CURRENT_SPI_VERSION` версии. Функция сохраняет режимы управления памятью MAPI в  `g_lpAllocateBuffer` параметры и  `g_lpAllocateMore`  `g_lpFreeBuffer` параметры. Эти процедуры управления памятью следует использовать во всей реализации магазина PST для распределения памяти и решения. 
   
 ### <a name="msproviderinit-example"></a>Пример MSProviderInit()
 
@@ -106,9 +106,9 @@ STDINITMETHODIMP MSProviderInit (
 }
 ```
 
-### <a name="wrapped-pst-and-unicode-paths"></a>Пути, упакованные в PST и Юникод
+### <a name="wrapped-pst-and-unicode-paths"></a>Завернутые пути PST и Unicode
 
-Чтобы модифицировать исходный пример, подготовленный в Microsoft Visual Studio 2008, чтобы использовать пути Юникод к NST для использования в Юникоде Microsoft Outlook 2010, русская версия и Outlook 2013, процедура **CreateStoreEntryID,** которая создает идентификатор записи, должна использовать один формат для путей ASCII, а другой для путей Юникод. Они представлены как структуры в следующем примере. 
+Чтобы модифицировать исходный пример, подготовленный в Microsoft Visual Studio 2008 г. для использования путей Юникод в NST для использования в Microsoft Outlook 2010, русская версия и Outlook 2013 г., в **режиме CreateStoreEntryID,** который производит идентификатор входа, следует использовать один формат для путей ASCII, а другой для путей Unicode. Они представлены в качестве структур в следующем примере. 
   
 ```cpp
 typedef struct                              // short format
@@ -131,11 +131,11 @@ typedef struct                              // Long format to support Unicode pa
 ```
 
 > [!IMPORTANT]
-> Различия в этих структурах — два NULL-значения до пути Юникод. Если вам нужно интерпретировать идентификатор записи в процедуре записи службы, которая приводится далее, один из способов определить, является ли это так, или нет, будет ли сначала привести как EIDMS, а затем проверьте, является ли szPath[0] NULL. Если это так, привяжите его как EIDMSW. 
+> Различия в этих структурах имеют два NULL-bytes до пути Юникод. Если вам нужно интерпретировать идентификатор записи в "Режиме входа в службу", который следует, одним из способов определить, является ли это случаем или нет, было бы бросить в качестве EIDMS сначала, а затем проверить, является ли szPath[0] NULL. Если это так, вместо этого отдай его в качестве EIDMSW. 
   
-## <a name="service-entry-routine"></a>Процедура ввода службы
+## <a name="service-entry-routine"></a>Процедура входа в службу
 
-Функция **[MSGSERVICEENTRY](msgserviceentry.md)** — это точка входа службы сообщений, в которой настроен поставщик упакованного PST-магазина. Функция вызывает для получения процедур управления  `GetMemAllocRoutines()` памятью MAPI. Функция использует параметр для поиска раздела профиля поставщика и задает  `lpProviderAdmin` свойства в профиле. 
+Функция **[MSGSERVICEENTRY](msgserviceentry.md)** — это точка входа в службу сообщений, в которой настроен поставщик магазина PST. Функция вызывает  `GetMemAllocRoutines()` для получения процедур управления памятью MAPI. Функция использует параметр, чтобы найти раздел профилей для поставщика и задает  `lpProviderAdmin` свойства в профиле. 
   
 ### <a name="serviceentry-example"></a>Пример ServiceEntry()
 
@@ -243,9 +243,9 @@ HRESULT STDAPICALLTYPE ServiceEntry (
 
 ## <a name="see-also"></a>См. также
 
-- [Пример поставщика упакованного PST-магазина](about-the-sample-wrapped-pst-store-provider.md)
-- [Установка примера поставщика упакованного PST-магазина](installing-the-sample-wrapped-pst-store-provider.md)
-- [Вход в систему поставщика упакованного PST-магазина](logging-on-to-a-wrapped-pst-store-provider.md)
-- [Использование поставщика упакованного PST-магазина](using-a-wrapped-pst-store-provider.md)
-- [Завершение работы поставщика упакованного PST-магазина](shutting-down-a-wrapped-pst-store-provider.md)
+- [О поставщике пакетных пакетов PST Store](about-the-sample-wrapped-pst-store-provider.md)
+- [Установка поставщика пакетных пакетов PST](installing-the-sample-wrapped-pst-store-provider.md)
+- [Ведение журнала в поставщике упакованных магазинов PST](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Использование поставщика упакованных магазинов PST](using-a-wrapped-pst-store-provider.md)
+- [Отключение поставщика упакованных магазинов PST](shutting-down-a-wrapped-pst-store-provider.md)
 

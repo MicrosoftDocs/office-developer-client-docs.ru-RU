@@ -23,7 +23,7 @@ ms.locfileid: "33431780"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 ����������� ��������� ���������, ����� ���������. ���� ����� ���������� ������ ����������� ������� MAPI.
   
@@ -33,7 +33,7 @@ HRESULT NotifyNewMail(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _lpNotification_
   

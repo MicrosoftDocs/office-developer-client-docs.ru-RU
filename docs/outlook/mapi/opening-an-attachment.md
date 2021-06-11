@@ -17,39 +17,39 @@ ms.locfileid: "33430625"
 ---
 # <a name="opening-an-attachment"></a>Открытие вложения
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Открытие вложения включает отображение его данных. Например, при открытом вложении файла отображается его содержимое. В то время как сообщения и папки открываются с использованием идентификаторов записей, вложения открываются с помощью номеров PR_ATTACH_NUM **свойств.** Дополнительные сведения **см. в PR_ATTACH_NUM** ([PidTagAttachNumber).](pidtagattachnumber-canonical-property.md) Номера вложений доступны в таблице вложений сообщения.
+Открытие вложения включает отображение данных. Например, при вложении файла отображается содержимое файла. Если сообщения и папки открываются с помощью идентификаторов записей, то вложения открываются с помощью номеров **вложений** — PR_ATTACH_NUM свойств. Дополнительные сведения см. **в PR_ATTACH_NUM** [(PidTagAttachNumber).](pidtagattachnumber-canonical-property.md) Номера вложений доступны в таблице вложений сообщения.
   
 ### <a name="to-open-all-attachments-in-a-message"></a>Открытие всех вложений в сообщении
   
-1. Вызовите метод [IMessage::GetAttachmentTable](imessage-getattachmenttable.md) сообщения, чтобы получить доступ к таблице вложений. 
+1. Чтобы получить доступ к таблице вложений, позвоните в [метод IMessage::GetAttachmentTable.](imessage-getattachmenttable.md) 
     
-2. Вызовите [HrQueryAllRows,](hrqueryallrows.md) чтобы получить все строки в таблице. 
+2. Позвоните [в HrQueryAllRows,](hrqueryallrows.md) чтобы получить все строки в таблице. 
     
 3. Для каждой строки: 
     
-    1. Откройте вложение, передав номер вложения, **представленный** в столбце PR_ATTACH_NUM в вызове метода **IMessage::OpenAttach** сообщения. Дополнительные сведения см. в [IMessage::OpenAttach.](imessage-openattach.md) **OpenAttach** возвращает указатель на реализацию **IAttach,** которая предоставляет доступ к свойствам вложения. 
+    1. Откройте вложение, передав номер **вложения, представленный** в столбце PR_ATTACH_NUM в вызове к методу **IMessage::OpenAttach** сообщения. Дополнительные сведения см. [в странице IMessage::OpenAttach](imessage-openattach.md). **OpenAttach** возвращает указатель для реализации **IAttach,** которая предоставляет доступ к свойствам вложения. 
         
-    2. Вызовите метод **IMAPIProp::GetProps** вложения, чтобы получить **его PR_ATTACH_METHOD.** Дополнительные сведения см. в подразделе [IMAPIProp::GetProps](imapiprop-getprops.md) and **PR_ATTACH_METHOD** ([PidTagAttachMethod).](pidtagattachmethod-canonical-property.md)
+    2. Чтобы получить свойство **IMAPIProp::GetProps,** позвоните **по вызову PR_ATTACH_METHOD вложения.** Дополнительные сведения см. в [странице IMAPIProp::GetProps](imapiprop-getprops.md) and **PR_ATTACH_METHOD** [(PidTagAttachMethod).](pidtagattachmethod-canonical-property.md)
         
-    3. Если **PR_ATTACH_METHOD** установлено ATTACH_BY_REF_ONLY, вызовите **IMAPIProp::GetProps,** чтобы **получить PR_ATTACH_PATHNAME** свойства. Дополнительные сведения **см. в PR_ATTACH_PATHNAME** ([PidTagAttachPathname).](pidtagattachpathname-canonical-property.md)
+    3. Если **PR_ATTACH_METHOD** установлено ATTACH_BY_REF_ONLY, позвоните **в IMAPIProp::GetProps** для получения **PR_ATTACH_PATHNAME** свойства. Дополнительные сведения см. **в PR_ATTACH_PATHNAME** [(PidTagAttachPathname).](pidtagattachpathname-canonical-property.md)
         
-    4. Если **\_ для ATTACH_METHOD** pr установлено значение ATTACH BY_VALUE, вызовите \_ **IMAPIProp::OpenProperty,** чтобы открыть свойство **PR \_** ATTACH_DATA_BIN с помощью **интерфейса IStream.** См. пример кода, следующего за этой процедурой. Дополнительные сведения см. в подразделе [IMAPIProp::OpenProperty](imapiprop-openproperty.md) and **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary).](pidtagattachdatabinary-canonical-property.md)
+    4. Если **\_ ATTACH_METHOD** pr установлено значение ATTACH BY_VALUE, позвоните \_ в **IMAPIProp::OpenProperty,** чтобы открыть свойство PR ATTACH_DATA_BIN с интерфейсом **IStream.** **\_** См. пример кода, следующего за этой процедурой. Дополнительные сведения см. [в странице IMAPIProp::OpenProperty](imapiprop-openproperty.md) **и PR_ATTACH_DATA_BIN** [(PidTagAttachDataBinary).](pidtagattachdatabinary-canonical-property.md)
         
-    5. Если **PR_ATTACH_METHOD** установлено ATTACH_OLE и вложением является объект OLE 2: 
+    5. Если **PR_ATTACH_METHOD** установлено ATTACH_OLE и вложение является объектом OLE 2: 
         
-        1. Вызовите **IMAPIProp::OpenProperty,** чтобы открыть **ATTACH_DATA_OBJ PR \_** с помощью интерфейса **IStreamDocfile.** Старайтесь использовать этот интерфейс, так как это реализация **IStream,** гарантируемая для работы со структурированным хранилищем с наименьшим объемом дополнительных расходов. Дополнительные сведения **см. в PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject).](pidtagattachdataobject-canonical-property.md)
+        1. Вызов **IMAPIProp::OpenProperty,** **чтобы \_** открыть ATTACH_DATA_OBJ pr с интерфейсом **IStreamDocfile.** Попытка использовать этот интерфейс, так как это реализация **IStream,** гарантированно работа с структурированным хранилищем с наименьшим количеством накладных расходов. Дополнительные сведения см. **в PR_ATTACH_DATA_OBJ** [(PidTagAttachDataObject).](pidtagattachdataobject-canonical-property.md)
             
-        2. Если вызов **OpenProperty** не удается, вызовите  его еще раз, чтобы получить PR_ATTACH_DATA_BIN с интерфейсом **IStreamDocfile.** 
+        2. Если вызов **OpenProperty** сбой, вызов его снова, **чтобы** получить PR_ATTACH_DATA_BIN с **интерфейсом IStreamDocfile.** 
             
-        3. Если второй вызов **OpenProperty** не удается, попробуйте еще раз вызвать **OpenProperty,** чтобы **PR_ATTACH_DATA_OBJ**. Однако вместо указания **IStreamDocfile** укажите **интерфейс IStorage.** 
+        3. Если второй вызов **OpenProperty** сбой, попробуйте еще раз вызвать **OpenProperty,** чтобы **PR_ATTACH_DATA_OBJ**. Однако вместо указания **IStreamDocfile** укажите **интерфейс IStorage.** 
     
-4. Если **PR_ATTACH_METHOD** установлено значение ATTACH_EMBEDDED_MSG, значение PR_ATTACH_DATA_OBJ содержать ошибку.  Это происходит потому, что вы и реализутель таблицы не можете согласовать тип возвращаемого объекта. Чтобы получить указатель на вложенное сообщение, откройте вложение с помощью **IMessage::OpenAttach.** Затем для доступа к данным вложения вызывается метод **IMAPIProp::OpenProperty.** Дополнительные сведения см. в подразделах [IMessage::OpenAttach](imessage-openattach.md) и [IMAPIProp::OpenProperty.](imapiprop-openproperty.md)
+4. Если **PR_ATTACH_METHOD** установлено значение ATTACH_EMBEDDED_MSG, значение PR_ATTACH_DATA_OBJ содержит ошибку.  Это происходит из-за того, что у вас и у реализации таблицы нет способа договориться о типе возвращаемого объекта. Чтобы получить указатель на прикрепленное сообщение, откройте вложение с **помощью IMessage::OpenAttach**. Затем получить доступ к данным вложения, позвонив по **методу IMAPIProp::OpenProperty.** Дополнительные сведения см. [в странице IMessage::OpenAttach](imessage-openattach.md) и [IMAPIProp::OpenProperty](imapiprop-openproperty.md).
     
-Вы можете запросить открытие вложения в режиме чтения,записи или только для чтения. Режим "только чтение" является режимом по умолчанию, и многие поставщики хранимых сообщений открывают все вложения в этом режиме независимо от того, какие клиенты запрашивают. Передай флаг MAPI_BEST_ACCESS, чтобы попросить поставщика магазина сообщений предоставить ему самый высокий уровень доступа, а затем получить свойство PR_ACCESS_LEVEL открытого вложения, чтобы определить фактически предоставленный уровень доступа.  Дополнительные сведения **см. в PR_ACCESS_LEVEL** ([PidTagAccessLevel).](pidtagaccesslevel-canonical-property.md)
+Вы можете запросить открытие вложения в режиме чтения или записи или только для чтения. Только для чтения — это режим по умолчанию, и многие поставщики магазинов сообщений открывают все вложения в этом режиме независимо от того, какие клиенты запрашивают. Передай флаг MAPI_BEST_ACCESS, чтобы предоставить поставщику магазина сообщений наивысший уровень доступа, который он может получить, а затем получить свойство PR_ACCESS_LEVEL открытого **вложения,** чтобы определить уровень доступа, который был фактически предоставлен. Дополнительные сведения см. **в PR_ACCESS_LEVEL** [(PidTagAccessLevel).](pidtagaccesslevel-canonical-property.md)
   
-В следующем примере показано, как открыть данные в свойстве **PR \_ ATTACH_DATA_BIN вложения.** Он выделяет указатели двум потокам: одному для файла и одному для вложения. Функция **OpenStreamOnFile** открывает поток файлов в режиме только для чтения. Вызов метода **IMAPIProp::OpenProperty** вложения открывает поток вложений в режиме чтения и записи. Дополнительные сведения **см. в PR_ATTACH_DATA_BIN,** [OpenStreamOnFile](openstreamonfile.md)и [IMAPIProp::OpenProperty.](imapiprop-openproperty.md) Затем код копирует из потока файлов в поток вложений и освобождает оба потока.
+В следующем примере показано, как открыть данные в свойстве **\_ PR ATTACH_DATA_BIN приложения.** Он выделяет указатели на два потока: один для файла и один для вложения. Функция **OpenStreamOnFile** открывает поток файлов в режиме только для чтения. Вызов метода **IMAPIProp::OpenProperty** открывает поток вложений в режиме чтения и записи. Дополнительные сведения см. **в PR_ATTACH_DATA_BIN,** [OpenStreamOnFile](openstreamonfile.md)и [IMAPIProp::OpenProperty](imapiprop-openproperty.md). Затем код копирует из потока файлов в поток вложений и выпускает оба потока.
   
 ```cpp
 LPSTREAM pStreamFile, pStreamAtt;

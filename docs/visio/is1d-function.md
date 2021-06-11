@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 72c7c99e-4d29-4b53-dc7b-a3220317d20a
-description: Возвращает true, если фигура одномерная (одномерная); возвращает false, если фигура является двумерной.
+description: Возвращает TRUE, если фигура 1-D (одномерная); возвращает FALSE, если фигура 2-D (двухмерная).
 ms.openlocfilehash: 6a62b481672b0e1040a34fd0a635ee7382b24f78
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33427600"
 ---
 # <a name="is1d-function"></a>Функция IS1D
 
-Возвращает true, если фигура одномерная (одномерная); возвращает false, если фигура является двумерной.
+Возвращает TRUE, если фигура 1-D (одномерная); возвращает FALSE, если фигура 2-D (двухмерная).
   
 ## <a name="version-information"></a>Сведения о версии
 
@@ -33,6 +33,6 @@ IS1D()
   
 ## <a name="remarks"></a>Примечания
 
-Если лист (фигура) является страницей или документом, функция IS1D возвращает #REF!.
+Если лист (форма) — это страница или документ, функция IS1D возвращается #REF!.
   
 

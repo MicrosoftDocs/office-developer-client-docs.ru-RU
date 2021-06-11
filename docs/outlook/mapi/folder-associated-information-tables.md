@@ -1,5 +1,5 @@
 ---
-title: Folder-Associated сведений
+title: Folder-Associated информационные таблицы
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,31 +15,31 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426417"
 ---
-# <a name="folder-associated-information-tables"></a>Folder-Associated сведений
+# <a name="folder-associated-information-tables"></a>Folder-Associated информационные таблицы
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-MAPI определяет флаг MAPI_ASSOCIATED для различных компонентов MAPI, которые будут применяться при работе со связанными информационными таблицами. Каждая папка в хранилище сообщений должна иметь связанную таблицу содержимого вместе со стандартной таблицей содержимого. Клиентские приложения хранят специальные сообщения в связанной с папкой таблице содержимого для хранения форм и представлений. Для поддержки форм и представлений поставщику содержимого необходимо реализовать связанные таблицы содержимого.
+MAPI определяет флаг MAPI_ASSOCIATED для различных компонентов MAPI, которые необходимо использовать при работе с связанными таблицами информации. Каждая папка в хранилище сообщений должна иметь связанную таблицу содержимого вместе со стандартной таблицей содержимого. Клиентские приложения хранят специальные сообщения в связанной таблице содержимого папки для хранения форм и представлений. Фактически для поддержки форм и представлений поставщик магазина сообщений должен реализовать связанные таблицы контента.
   
-Для реализации связанных таблиц содержимого поставщик вашего магазина должен выполнить следующие меры.
+Чтобы реализовать связанные таблицы контента, поставщик магазина должен выполнить следующие меры:
   
-- Поддержка флага MAPI_ASSOCIATED в методе [IMAPIContainer::GetContentsTable,](imapicontainer-getcontentstable.md) чтобы клиентские приложения могли получить связанную с папкой таблицу содержимого вместо стандартной таблицы содержимого. 
+- Поддержка флага MAPI_ASSOCIATED в методе [IMAPIContainer::GetContentsTable,](imapicontainer-getcontentstable.md) чтобы клиентские приложения могли получать связанную таблицу содержимого папки вместо стандартной таблицы содержимого. 
     
-- Поддержка флага MAPI_ASSOCIATED в методе [IMAPIFolder::CreateMessage,](imapifolder-createmessage.md) чтобы клиентские приложения могли добавлять сообщения в связанную с папкой таблицу содержимого. 
+- Поддержка флага MAPI_ASSOCIATED в методе [IMAPIFolder::CreateMessage,](imapifolder-createmessage.md) чтобы клиентские приложения могли добавлять сообщения в связанную таблицу содержимого папки. 
     
-- Установите бит MAPI_ACCESS_CREATE_ASSOCIATED в свойстве **PR_ACCESS** ([PidTagAccess)](pidtagaccess-canonical-property.md)для объектов папок.
+- Установите MAPI_ACCESS_CREATE_ASSOCIATED в **свойстве PR_ACCESS** [(PidTagAccess)](pidtagaccess-canonical-property.md)на объектах папок.
     
 - Поддержка флага DEL_ASSOCIATED в [методе IMAPIFolder::EmptyFolder.](imapifolder-emptyfolder.md) 
     
-- Задайте MSGFLAG_ASSOCIATED в свойстве **PR_MESSAGE_FLAGS** ([PidTagMessageFlags)](pidtagmessageflags-canonical-property.md)для сообщений в связанной таблице содержимого.
+- Установите MSGFLAG_ASSOCIATED в **свойстве PR_MESSAGE_FLAGS** [(PidTagMessageFlags)](pidtagmessageflags-canonical-property.md)для сообщений в связанной таблице содержимого.
     
-- Предоставляете и реагируйте **на PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents)](pidtagfolderassociatedcontents-canonical-property.md)в папках.
+- Подвергайте и реагируйте на **свойство PR_FOLDER_ASSOCIATED_CONTENTS** [(PidTagFolderAssociatedContents)](pidtagfolderassociatedcontents-canonical-property.md)в папках.
     
-- **Поддержив PR_ASSOC_CONTENT_COUNT** ([PidTagAssociatedContentCount)](pidtagassociatedcontentcount-canonical-property.md)в папках.
+- Сохранение **свойства PR_ASSOC_CONTENT_COUNT** [(PidTagAssociatedContentCount)](pidtagassociatedcontentcount-canonical-property.md)в папках.
     
-В свойстве PR_STORE_SUPPORT_MASK  [(PidTagStoreSupportMask)](pidtagstoresupportmask-canonical-property.md)нет бита, чтобы указать, поддерживает ли поставщик связанного содержимого таблицы содержимого. Если поставщик вашего магазина сообщений не поддерживает их, он должен возвращать MAPI_E_NO_SUPPORT, когда клиентские приложения вызовят любой из вышеперечисленных методов с MAPI_ASSOCIATED флагом.
+В свойстве **PR_STORE_SUPPORT_MASK** [(PidTagStoreSupportMask)](pidtagstoresupportmask-canonical-property.md)нет бита, чтобы указать, поддерживает ли поставщик магазина сообщений связанные таблицы контента. Если поставщик магазина сообщений не поддерживает их, он должен возвращать MAPI_E_NO_SUPPORT, когда клиентские приложения звонят любым из вышеуказанных методов с MAPI_ASSOCIATED флагом.
   
 ## <a name="see-also"></a>См. также
 

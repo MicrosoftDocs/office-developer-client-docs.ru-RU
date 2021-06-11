@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8f1ab61e-7d1c-50d5-ae21-8cb4b08d729c
-description: Фиксация изменений в объекте учетной записи путем записи в хранилище реестра.
+description: Внося изменения в объект учетной записи, написав в хранилище реестра.
 ms.openlocfilehash: c23cefbbda62de9b7e159e500d95b8db5ff34ef4
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33425836"
 ---
 # <a name="iolkaccountsavechanges"></a>IOlkAccount::SaveChanges
 
-Фиксация изменений в объекте учетной записи путем записи в хранилище реестра.
+Внося изменения в объект учетной записи, написав в хранилище реестра.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IOlkAccount](iolkaccount.md).
+См. [iOlkAccount](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::SaveChanges (  
@@ -28,11 +28,11 @@ HRESULT IOlkAccount::SaveChanges (
 ); 
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _dwFlags_
   
-> [in] Flags to modify behavior. OLK_ACCOUNT_NO_FLAGS это единственное поддерживаемые значения.
+> [in] Flags to modify behavior. OLK_ACCOUNT_NO_FLAGS является единственным поддерживаемым значением.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -44,7 +44,7 @@ _dwFlags_
    
 ## <a name="remarks"></a>Примечания
 
-После изменения значения свойств учетной записи с помощью [IOlkAccount::SetProp](iolkaccount-setprop.md)используйте **IOlkAccount::SaveChanges** для сохранения таких изменений. 
+После изменения значения свойств учетных записей с помощью [IOlkAccount::SetProp](iolkaccount-setprop.md)используйте **IOlkAccount::SaveChanges** для сохранения таких изменений. 
   
 ## <a name="see-also"></a>См. также
 

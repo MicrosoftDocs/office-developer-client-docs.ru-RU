@@ -21,9 +21,9 @@ ms.locfileid: "33428972"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает расположение квитанции для сообщений, которые запрашивают квитанции. 
+Указывает расположение квитанции для сообщений, запрашивает квитанции. 
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ ms.locfileid: "33428972"
    
 ## <a name="remarks"></a>Примечания
 
-Возможные значения этого свойства: manual-action/MDN-sent-automatically и "manual-action/MDN-sent-manually".
+Возможные значения для этого свойства : "вручную-действие/MDN-sent-automatically" и "ручное действие/MDN-sent-manually".
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -44,7 +44,7 @@ ms.locfileid: "33428972"
   
 > Содержит ссылки на связанные Exchange Server протоколы.
     
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -52,7 +52,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -64,5 +64,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

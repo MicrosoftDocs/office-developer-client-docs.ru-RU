@@ -23,9 +23,9 @@ ms.locfileid: "33426207"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Задает новый путь поиска в профиле, используемый для процесса разрешения имен. 
+Задает новый путь поиска в профиле, который используется для процесса разрешения имен. 
   
 ```cpp
 HRESULT SetSearchPath(
@@ -34,7 +34,7 @@ HRESULT SetSearchPath(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -42,23 +42,23 @@ HRESULT SetSearchPath(
     
  _lpSearchPath_
   
-> [in] Указатель на структуру [SRowSet,](srowset.md) используемую для удержания пути поиска. Первое свойство для каждого **члена aRow** в **SRowSet** должно быть PR_ENTRYID **(** [PidTagEntryId).](pidtagentryid-canonical-property.md)
+> [in] Указатель на структуру [SRowSet,](srowset.md) используемую для удержания пути поиска. Первое свойство для каждого **участника aRow**  в **SRowSet** должно быть PR_ENTRYID [(PidTagEntryId).](pidtagentryid-canonical-property.md)
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Путь поиска успешно установлен.
+> Путь поиска был успешно за установлен.
     
 MAPI_E_MISSING_REQUIRED_COLUMN 
   
-> Один из контейнеров, описанных в структуре **SRowSet,** не включал PR_ENTRYID **свойства.** 
+> В одном из контейнеров, описанных в **структуре SRowSet,** не было PR_ENTRYID **свойства.** 
     
 ## <a name="remarks"></a>Примечания
 
-Клиенты и поставщики услуг вызывают метод **SetSearchPath,** чтобы сохранить изменения, внесенные в порядок поиска контейнера, который используется для разрешения имен с помощью метода [IAddrBook::ResolveName.](iaddrbook-resolvename.md) Путь поиска будет сохранен между экземплярами сеанса. 
+Клиенты и поставщики услуг звонят по методу **SetSearchPath,** чтобы сохранить изменения, внесенные в порядок поиска контейнера, который используется для решения имен с помощью [метода IAddrBook::ResolveName.](iaddrbook-resolvename.md) Путь поиска сохранен между экземплярами сеанса. 
   
-Клиентам и поставщикам не нужно вызывать метод [IMAPIProp::SaveChanges,](imapiprop-savechanges.md) чтобы изменить путь поиска без изменений. 
+Чтобы изменить путь поиска, клиентам и поставщикам не нужно вызывать метод [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
   
 ## <a name="see-also"></a>См. также
 

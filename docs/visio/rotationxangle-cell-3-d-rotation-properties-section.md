@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d1a45d32-117a-48e8-ad65-b2723826c3b9
-description: Определяет угол поворота вдоль оси X в градусах (от 0,0 до 359,9).
+description: Определяет угол вращения вдоль оси X в градусах (0,0 — 359,9).
 ms.openlocfilehash: 1c3605c5989a0cdffc0ffd9e327f3d2544633df1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33429924"
 ---
 # <a name="rotationxangle-cell-3-d-rotation-properties-section"></a>RotationXAngle Cell (3-D Rotation Properties Section)
 
-Определяет угол поворота вдоль оси X в градусах (от 0,0 до 359,9). 
+Определяет угол вращения вдоль оси X в градусах (0,0 — 359,9). 
   
 ## <a name="remarks"></a>Примечания
 

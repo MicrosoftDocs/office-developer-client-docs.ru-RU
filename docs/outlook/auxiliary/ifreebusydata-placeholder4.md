@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 58119969-1d56-5b38-57ac-d8adf5097ef0
-description: Этот член является местоимящиком и не поддерживается.
+description: Этот член является задатщиком и не поддерживается.
 ms.openlocfilehash: a7e77846538a03691c134298396cb23c42c47f15
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33425654"
 ---
 # <a name="ifreebusydataplaceholder4"></a>IFreeBusyData::Placeholder4
 
-Этот член является местоимящиком и не поддерживается.
+Этот член является задатщиком и не поддерживается.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IFreeBusyData.](ifreebusydata.md)
+См. [iFreeBusyData](ifreebusydata.md).
   
 ```cpp
 HRESULT Placeholder4( 
@@ -38,15 +38,15 @@ HRESULT Placeholder4(
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Всегда S_OK, так как это заме ввиду того, что он не поддерживается.
+Всегда S_OK, так как это местообладатель и не поддерживается.
   
 ## <a name="remarks"></a>Примечания
 
-Этот член должен возвращать S_OK.
+Этот член должен вернуть S_OK.
   
 ## <a name="see-also"></a>См. также
 
-- [Constants (Free/busy API)](constants-free-busy-api.md)
+- [Константы (API free/busy)](constants-free-busy-api.md)
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
 - [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)
 - [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md)

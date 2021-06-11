@@ -1,5 +1,5 @@
 ---
-title: UserEmailAddress Function (Пользовательское веб-приложение Access)
+title: Функция UserEmailAddress (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431164"
 ---
-# <a name="useremailaddress-function-access-custom-web-app"></a>UserEmailAddress Function (Пользовательское веб-приложение Access)
+# <a name="useremailaddress-function-access-custom-web-app"></a>Функция UserEmailAddress (Доступ к настраиваемой веб-приложению)
 
 Возвращает адрес электронной почты текущего пользователя.
   
@@ -27,6 +27,6 @@ ms.locfileid: "33431164"
   
 ## <a name="remarks"></a>Примечания
 
-Функция **UserEmailAddress** доступна только в макросах пользовательского интерфейса. 
+Функция **UserEmailAddress** доступна только в макросах пользовательского интерфейса (пользовательского интерфейса). 
   
 

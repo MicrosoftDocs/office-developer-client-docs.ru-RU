@@ -23,7 +23,7 @@ ms.locfileid: "33425675"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит метку безопасности для сообщения.
   
@@ -36,11 +36,11 @@ ms.locfileid: "33425675"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство обеспечивает основу, на **которой свойство PR_MESSAGE_TOKEN** ([PidTagMessageToken)](pidtagmessagetoken-canonical-property.md)защищает сообщение. Его связь с содержимым сообщения гарантируется маркером.
+Это свойство обеспечивает основу, **на которой свойство PR_MESSAGE_TOKEN** [(PidTagMessageToken)](pidtagmessagetoken-canonical-property.md)защищает сообщение. Его связь с контентом сообщения гарантируется маркером.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -48,7 +48,7 @@ Mapidefs.h
     
 Mapitags.h
   
-> Содержит определения свойств, перечисленных как связанные свойства.
+> Содержит определения свойств, перечисленных в качестве связанных свойств.
     
 ## <a name="see-also"></a>См. также
 
@@ -60,5 +60,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

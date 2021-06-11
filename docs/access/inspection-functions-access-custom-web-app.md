@@ -1,5 +1,5 @@
 ---
-title: Функции проверки (пользовательское веб-приложение Access)
+title: Функции проверки (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426536"
 ---
-# <a name="inspection-functions-access-custom-web-app"></a>Функции проверки (пользовательское веб-приложение Access)
+# <a name="inspection-functions-access-custom-web-app"></a>Функции проверки (Доступ к настраиваемой веб-приложению)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
-- [Try_Convert Function (Access custom web app)](try_convert-function-access-custom-web-app.md)
+- [Try_Convert Function (Доступ к настраиваемой веб-приложению)](try_convert-function-access-custom-web-app.md)
     
 

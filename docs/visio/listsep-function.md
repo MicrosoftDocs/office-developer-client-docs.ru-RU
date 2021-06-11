@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251882
 localization_priority: Normal
 ms.assetid: 73dc5981-2c8c-e76e-e4bd-e65a7c8db242
-description: Возвращает строку "list-separator" для текущего пользовательского региональных точки.
+description: Возвращает строку списка-сепаратора для текущего локального пользователя.
 ms.openlocfilehash: 901442a3c2af8509855b8b038057e7f813634ea1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33431409"
 ---
 # <a name="listsep-function"></a>Функция LISTSEP
 
-Возвращает строку "list-separator" для текущего пользовательского региональных точки.
+Возвращает строку списка-сепаратора для текущего локального пользователя.
   
 ## <a name="syntax"></a>Синтаксис
 
@@ -30,6 +30,6 @@ String
   
 ## <a name="example"></a>Пример
 
-SETF(GETREF(user.extent), "MAX(Width" &amp; ListSep() &amp; "Height)") 
+SETF(GETREF(user.extent), "MAX (Width" &amp; ListSep() &amp; "Height)") 
   
 

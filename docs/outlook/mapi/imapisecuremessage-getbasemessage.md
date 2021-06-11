@@ -23,9 +23,9 @@ ms.locfileid: "33428580"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Извлекает [iMessage : IMAPIProp,](imessageimapiprop.md) который инкапсулирует [этот IMAPISecureMessage : IUnknown.](imapisecuremessageiunknown.md) 
+Извлекает в основном [IMessage : IMAPIProp,](imessageimapiprop.md) что это [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) является инкапсуляция. 
   
 ```cpp
 HRESULT GetBaseMessage(
@@ -33,11 +33,11 @@ HRESULT GetBaseMessage(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ppmsg_
   
-> [out] Защищенный объект сообщения.
+> [вышел] Объект безопасного сообщения.
     
 ## <a name="return-value"></a>Возвращаемое значение
 

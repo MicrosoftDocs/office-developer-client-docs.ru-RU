@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251572
 localization_priority: Normal
 ms.assetid: 08bc529e-e04e-206a-6322-77a8941e19f4
-description: Возвращает строку, описываемую внутренний тип объекта.
+description: Возвращает строку, описываемую внутренним типом объекта.
 ms.openlocfilehash: d6674e95bb41c9791893426bd58d67e10f165dc8
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33428664"
 ---
 # <a name="typedesc-function"></a>Функция TYPEDESC
 
-Возвращает строку, описываемую внутренний тип объекта. 
+Возвращает строку, описываемую внутренним типом объекта. 
   
 ## <a name="syntax"></a>Синтаксис
 

@@ -1,5 +1,5 @@
 ---
-title: Best Practices for Fast Shutdown
+title: Лучшие практики для быстрого отключения
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,25 +15,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426970"
 ---
-# <a name="best-practices-for-fast-shutdown"></a>Best Practices for Fast Shutdown
+# <a name="best-practices-for-fast-shutdown"></a>Лучшие практики для быстрого отключения
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В этом разделе советуем администраторам, клиентам MAPI и поставщикам MAPI использовать параметры реестра Windows и интерфейсы быстрого завершения работы, чтобы свести к минимуму потерю данных во время завершения работы клиента.
+В этом разделе рекомендуется передовая практика для администраторов, клиентов MAPI и поставщиков MAPI для использования параметров реестра Windows и интерфейсов быстрого отключения, чтобы свести к минимуму потерю данных во время остановки клиента.
   
-- Чтобы клиент MAPI мог успешно выполнить быстрое завершение работы, чтобы процессы поставщика не повлечали потери данных, клиент MAPI должен сначала вызвать метод [IMAPIClientShutdown::QueryFastShutdown.](imapiclientshutdown-queryfastshutdown.md) Клиент должен перейти к методам [IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) и [IMAPIClientShutdown::D oFastShutdown](imapiclientshutdown-dofastshutdown.md) на основе поддержки подсистемы MAPI быстрого завершения работы, как указано в возвращаемом значении **IMAPIClientShutdown::QueryFastShutdown**. Как клиент MAPI Microsoft Outlook не вызывает **IMAPIClientShutdown::NotifyProcessShutdown** или **IMAPIClientShutdown::D oFastShutdown,** если **IMAPIClientShutdown::QueryFastShutdown** возвращает ошибку. Если администратор отключил быстрое завершение работы в реестре Windows, подсистема MAPI вернет MAPI_E_NO_SUPPORT **IMAPIClientShutdown::QueryFastShutdown**. В этом случае подсистема MAPI не сообщит поставщикам MAPI о немедленном выходе клиентского процесса. Поэтому, если клиент MAPI игнорирует этот код возврата ошибки, переходит к быстрому отключению и отключает все внешние ссылки, все загруженные поставщики MAPI будут иметь потерю данных. 
+- Чтобы клиент MAPI успешно выполнил быстрое отключение, чтобы процессы поставщика не повеяли потери данных, клиент MAPI должен сначала вызвать [метод IMAPIClientShutdown::QueryFastShutdown.](imapiclientshutdown-queryfastshutdown.md) Клиент должен продолжить работу с методами [IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) и [IMAPIClientShutdown::D FastShutdown,](imapiclientshutdown-dofastshutdown.md) основанными на поддержке подсистемы MAPI для быстрого отключения, о чем свидетельствует возвратное значение **IMAPIClientShutdown::QueryFastShutdown**. В качестве клиента MAPI корпорация Майкрософт Outlook не называет **IMAPIClientShutdown::NotifyProcessShutdown** или **IMAPIClientShutdown::D FastShutdown,** если **IMAPIClientShutdown::QueryFastShutdown** возвращает ошибку. Если администратор отключил быстрое отключение в реестре Windows, подсистема MAPI возвращает MAPI_E_NO_SUPPORT **в IMAPIClientShutdown::QueryFastShutdown**. В этом случае подсистема MAPI не будет информировать поставщиков MAPI о немедленном выходе клиентского процесса. Поэтому, если клиент MAPI игнорирует этот код возврата ошибок, приступить к быстрому отключению и отключит все внешние ссылки, все загруженные поставщики MAPI будут иметь потерю данных. 
     
-- Поставщики MAPI должны реализовать интерфейс [IMAPIProviderShutdown : IUnknown,](imapiprovidershutdowniunknown.md) чтобы выполнить необходимые действия, чтобы избежать потери данных из-за отключения клиентом внешних ссылок до выхода клиента. Поставщик должен отложить все остальные нематериальные функции, чтобы сохранить данные в своем основном хранилище данных. Например, поставщик транспорта должен отложить ненужные фоновые операции, которые проверяют новую почту, поставщик адресной книги должен отложить скачивание последних изменений с сервера, а поставщик магазина должен отложить задачи обслуживания, такие как сжатие или индексация. 
+- Поставщики MAPI должны реализовать [интерфейс IMAPIProviderShutdown : IUnknown,](imapiprovidershutdowniunknown.md) чтобы выполнить необходимые действия, чтобы избежать потери данных из-за отключения клиентом внешних ссылок перед выходом клиента. Поставщику следует отложить все остальное, не важное для сохранения данных в основном хранилище данных. Например, поставщик транспорта должен отложить ненужные фоновые операции, которые проверяют новую почту, поставщик адресных книг должен отложить скачивание недавних изменений с сервера, а поставщик магазина должен отложить выполнение задач обслуживания, таких как уплотнительная работа или индексация. 
     
-- Пользователи, которым нужно закрыть клиенты MAPI, должны использовать параметр реестра по умолчанию, позволяющий быстрое завершение работы, если поставщик не отключит их.
+- Пользователи, которые хотят, чтобы клиенты MAPI выходили сразу после их закрытия, должны использовать параметр реестра по умолчанию, который позволяет быстро закрыть работу, если поставщик не откажется.
     
-- Когда клиент MAPI вызывает **IMAPIClientShutdown::D oFastShutdown,** он не должен делать дополнительные вызовы MAPI, включая функцию [MAPIUninitialize.](mapiuninitialize.md) Клиент не должен использовать MAPI в течение всего времени существования клиентского процесса. 
+- Если клиент MAPI вызывает **IMAPIClientShutdown::D oFastShutdown,** он не должен делать дополнительных вызовов в MAPI, включая функцию [MAPIUninitialize.](mapiuninitialize.md) Клиент не должен использовать MAPI до конца срока службы клиента. 
     
-- Клиент MAPI никогда не должен напрямую вызывать интерфейс **IMAPIProviderShutdown** поставщика. Клиенты MAPI всегда должны использовать [интерфейс IMAPIClientShutdown : IUnknown.](imapiclientshutdowniunknown.md) 
+- Клиент MAPI никогда не должен напрямую вызывать интерфейс **IMAPIProviderShutdown** поставщика. Клиенты MAPI всегда должны использовать [интерфейс IMAPIClientShutdown: IUnknown.](imapiclientshutdowniunknown.md) 
     
-- Если поставщик MAPI должен убедиться, что быстрое завершение работы не используется во время загрузки, он должен реализовать интерфейс **IMAPIProviderShutdown** и вернуть MAPI_E_NO_SUPPORT для метода **IMAPIProviderShutdown::QueryFastShutdown.** Однако для клиентов MAPI, таких как Outlook, это приведет к тому, что клиент отключится от быстрого завершения работы и займет больше времени. 
+- Если поставщику MAPI необходимо убедиться, что быстрое отключение не используется во время загрузки, он должен реализовать интерфейс **IMAPIProviderShutdown** и вернуть MAPI_E_NO_SUPPORT для метода **IMAPIProviderShutdown::QueryFastShutdown.** Однако для клиентов MAPI, таких как Outlook, это приведет к тому, что клиент откажется от быстрого отключения и закроется дольше. 
     
 ## <a name="see-also"></a>См. также
 
@@ -43,5 +43,5 @@ ms.locfileid: "33426970"
   
 [Обзор быстрого завершения работы](fast-shutdown-overview.md)
   
-[Параметры пользователей быстрого завершения работы](fast-shutdown-user-options.md)
+[Параметры быстрого отключения пользователей](fast-shutdown-user-options.md)
 

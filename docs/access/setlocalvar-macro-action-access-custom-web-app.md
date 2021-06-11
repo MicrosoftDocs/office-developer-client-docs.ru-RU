@@ -1,5 +1,5 @@
 ---
-title: SetLocalVar Macro Action (пользовательское веб-приложение Access)
+title: SetLocalVar Macro Action (Доступ к настраиваемой веб-приложению)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428118"
 ---
-# <a name="setlocalvar-macro-action-access-custom-web-app"></a>SetLocalVar Macro Action (пользовательское веб-приложение Access)
+# <a name="setlocalvar-macro-action-access-custom-web-app"></a>SetLocalVar Macro Action (Доступ к настраиваемой веб-приложению)
 
 Действие **SetLocalVar** создает временную переменную и присваивает ей определенное значение. 
   
