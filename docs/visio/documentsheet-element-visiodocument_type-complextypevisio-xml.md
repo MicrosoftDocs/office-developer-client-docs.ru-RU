@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9b8673e1-b913-52db-2d1d-b3e8f4b8f952
-description: Указывает структуру таблицы документов.
+description: Указывает структуру Таблицы документов.
 ms.openlocfilehash: 279fca457163d5bcbdda885c11c589bfcde0baa9
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34540044"
 ---
 # <a name="documentsheet-element-visiodocument_type-complextype-visio-xml"></a>Элемент DocumentSheet (VisioDocument_Type complexType) (Visio XML)
 
-Указывает структуру таблицы документов.
+Указывает структуру Таблицы документов.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34540044"
 |**Тип элемента** <br/> |[DocumentSheet_Type](documentsheet_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |document.xml  <br/> |
+|**Части документов** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -48,7 +48,7 @@ ms.locfileid: "34540044"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Указывает ячейку в документе.  <br/> |
+|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Указывает ячейку в таблице DocumentSheet.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
@@ -56,8 +56,8 @@ ms.locfileid: "34540044"
 |:-----|:-----|:-----|:-----|:-----|
 |IsCustomName  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Описывает, было ли имя настроено пользователем.  <br/> |Значения типа xsd:Boolean.  <br/> |
 |IsCustomNameU  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Описывает, было ли универсальное имя настроено пользователем.  <br/> |Значения типа xsd:Boolean.  <br/> |
-|Имя  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает зависят от языка имя таблицы документов.  <br/> |Значения типа xsd:string.  <br/> |
-|NameU  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает независимое от языка имя таблицы документов.  <br/> |Значения типа xsd:string.  <br/> |
-|UniqueID  <br/> |xsd:string  <br/> |необязательный  <br/> |Необязательный атрибут типа string. GUID (глобальный уникальный идентификатор), определяющий фигуру.  <br/> |Значения типа xsd:string.  <br/> |
+|Имя  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает имя таблицы DocumentSheet, зависящие от языка.  <br/> |Значения типа xsd:string.  <br/> |
+|NameU  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает независимое от языка имя таблицы DocumentSheet.  <br/> |Значения типа xsd:string.  <br/> |
+|UniqueID  <br/> |xsd:string  <br/> |необязательный  <br/> |Необязательный атрибут типа string. GuID (глобальный уникальный идентификатор), определяющий фигуру.  <br/> |Значения типа xsd:string.  <br/> |
    
 

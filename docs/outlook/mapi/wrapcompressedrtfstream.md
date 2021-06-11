@@ -23,9 +23,9 @@ ms.locfileid: "33439802"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Создает текстовый поток в несжатом формате RTF из сжатого формата, используемого в свойстве **PR_RTF_COMPRESSED** [(PidTagRtfCompressed).](pidtagrtfcompressed-canonical-property.md) 
+Создает текстовый поток в некомпрессованном формате с богатым текстом (RTF) из сжатого формата, используемого в **свойстве PR_RTF_COMPRESSED** [(PidTagRtfCompressed).](pidtagrtfcompressed-canonical-property.md) 
   
 |||
 |:-----|:-----|
@@ -41,27 +41,27 @@ HRESULT WrapCompressedRTFStream(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _lpCompressedRTFStream_
   
-> [in] Указатель на поток, открытый PR_RTF_COMPRESSED свойства сообщения. 
+> [in] Указатель на поток, открытый на PR_RTF_COMPRESSED свойства сообщения. 
     
  _ulFlags_
   
-> [in] Битоваяmas флажков параметра для функции. Можно установить следующие флаги:
+> [in] Bitmask флажков параметра для функции. Можно установить следующие флаги:
     
 MAPI_MODIFY 
   
-> Будет ли клиент читать или записывать возвращаемого интерфейса потока с оболочкой. 
+> Намерен ли клиент прочитать или написать возвращенный интерфейс потоковой передачи. 
     
 STORE_UNCOMPRESSED_RTF 
   
-> Несмеченный RTF должен быть записан в поток, на который указывает  _lpCompressedRTFStream_
+> Uncompressed RTF следует написать в поток, на который указывает  _lpCompressedRTFStream_
     
  _lpUncompressedRTFStream_
   
-> [out] Указатель на расположение, где **WrapCompressedRTFStream** возвращает поток для несхваченного RTF. 
+> [вышел] Указатель на расположение, в котором **WrapCompressedRTFStream** возвращает поток для некомпрессивного RTF. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -71,13 +71,13 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Если флаг MAPI_MODIFY передается в  _параметре ulFlags,_ параметр  _lpCompressedRTFStream_ должен быть уже открыт для чтения и записи. Новый несмеченный текст RTF должен быть записан в интерфейс потока, возвращенный _в lpUncompressedRTFStream._ Так как невозможно примедить существующий поток, необходимо написать весь текст сообщения. 
+Если флаг MAPI_MODIFY в параметре  _ulFlags,_ параметр  _lpCompressedRTFStream_ уже должен быть открыт для чтения и записи. В интерфейс потока, возвращаемом в  _lpUncompressedRTFStream,_ должен быть записан новый ненапечатаный текст RTF. Так как невозможно примять существующий поток, необходимо написать весь текст сообщения. 
   
-Если в параметре  _ulFlags_ передается ноль,  _то lpCompressedRTFStream_ может быть открыт только для чтения. Из интерфейса потока, возвращаемого  _в lpUncompressedRTFStream,_ можно прочитать только весь текст сообщения. Поиск в середине потока невозможен. 
+Если в параметре  _ulFlags_ пройден ноль,  _lpCompressedRTFStream_ может быть открыт только для чтения. Только весь текст сообщения можно считыть из интерфейса потока, возвращенного _в lpUncompressedRTFStream._ Невозможно искать, начиная с середины потока. 
   
- **WrapCompressedRTFStream** предполагает, что указатель сжатого потока установлен в начале потока. Некоторые методы OLE **IStream** не поддерживаются возвращенным несмеченным потоком. К ним относятся **IStream::Clone,** **IStream::LockRegion,** **IStream::Revert,** **IStream::Seek,** **IStream::SetSize,** **IStream::Stat** и **IStream::UnlockRegion.** Для копирования во весь поток необходим цикл чтения и записи. 
+ **WrapCompressedRTFStream** предполагает, что указатель сжатого потока установлен в начале потока. Некоторые методы OLE **IStream** не поддерживаются возвращенным некомпрессивным потоком. К ним относятся **IStream::Clone,** **IStream::LockRegion,** **IStream::Revert,** **IStream::Seek,** **IStream::SetSize,** **IStream::Stat** и **IStream:UnlockRegion**. Для копирования всего потока необходим цикл чтения и записи. 
   
-Так как клиент записывает новый RTF в несмеченном формате, он должен использовать **WrapCompressedRTFStream** вместо прямой записи в поток. Клиенты с RTF должны искать флаг STORE_UNCOMPRESSED_RTF в свойстве **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask)](pidtagstoresupportmask-canonical-property.md)и передавать его в **wrapCompressed RTFStream,** если он установлен. 
+Так как клиент пишет новый RTF в некомпрессивном формате, он должен использовать **WrapCompressedRTFStream** вместо непосредственного записи в поток. Клиенты, осведомленные о RTF, должны искать флаг STORE_UNCOMPRESSED_RTF в свойстве **PR_STORE_SUPPORT_MASK** [(PidTagStoreSupportMask)](pidtagstoresupportmask-canonical-property.md)и передать его **в WrapCompressed RTFStream,** если он установлен. 
   
 ## <a name="see-also"></a>См. также
 

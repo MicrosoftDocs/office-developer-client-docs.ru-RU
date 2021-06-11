@@ -4,10 +4,10 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- автоматизация infopath 2007,forms [InfoPath 2007], добавление данных программным путем,автоматизация [InfoPath 2007], внешние сценарии
+- автоматизация infopath 2007,forms [InfoPath 2007], добавление данных программным образом,автоматизация [InfoPath 2007], внешние сценарии
 localization_priority: Normal
 ms.assetid: dfa880e6-de23-41c4-b80b-6935e0c8563d
-description: Члены, предоставляемые основной сборкой Microsoft Office InfoPath (Microsoft.Office.Interop.InfoPath.dll) и сборкой XML-кода (Microsoft.Office.Interop.InfoPath.Xml.dll) InfoPath, поддерживают написание управляемого кода для автоматизации InfoPath.
+description: Участники основной сборки Microsoft Office InfoPath (Microsoft.Office.Interop.InfoPath.dll) и сборки интеропов InfoPath XML (Microsoft.Office.Interop.InfoPath.Xml.dll) поддерживают написание управляемого кода для автоматизации InfoPath.
 ms.openlocfilehash: 79fbc56033ffce639b5007874dabf56e8e286edb
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -17,66 +17,66 @@ ms.locfileid: "34537817"
 ---
 # <a name="external-automation-scenarios-and-examples"></a>Сценарии и примеры автоматизации с использованием внешних решений
 
-Члены, предоставляемые основной сборкой Microsoft Office InfoPath (Microsoft.Office.Interop.InfoPath.dll) и сборкой XML-кода (Microsoft.Office.Interop.InfoPath.Xml.dll) InfoPath, поддерживают написание управляемого кода для автоматизации InfoPath. 
+Участники основной сборки Microsoft Office InfoPath (Microsoft.Office.Interop.InfoPath.dll) и сборки интеропов InfoPath XML (Microsoft.Office.Interop.InfoPath.Xml.dll) поддерживают написание управляемого кода для автоматизации InfoPath. 
   
-## <a name="establishing-references-to-the-microsoft-office-infopath-primary-interop-and-infopath-xml-interop-assemblies"></a>Создание ссылок на сборки основного Microsoft Office InfoPath и XML-межпоиска InfoPath
+## <a name="establishing-references-to-the-microsoft-office-infopath-primary-interop-and-infopath-xml-interop-assemblies"></a>Создание ссылок на сборки Microsoft Office InfoPath и XML-сборки InfoPath
 
-Чтобы написать управляемый код для автоматизации InfoPath, необходимо установить ссылки на основное межкодовое и XML-сборки interop InfoPath. Основная сборка microsoft InfoPath обеспечивает поддержку обеспечения связи с объектной моделью COM, которая предоставляется IPEDITOR.DLL с помощью членов пространства имен [Microsoft.Office.Interop.InfoPath.](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) Сборка XML-связи InfoPath обеспечивает поддержку обеспечения связи с объектной моделью COM, которая предоставляется MSXML [](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) (MSXML) с помощью членовMicrosoft.Office.Interop.InfoPath.Xmlпространства имен. 
+Чтобы написать управляемый код для автоматизации InfoPath, необходимо установить ссылки на первичное интеропоп microsoft InfoPath и сборки XML InfoPath. Основная сборка интероп-сборки Microsoft InfoPath обеспечивает поддержку обеспечения связи с объектной моделью COM, IPEDITOR.DLL с помощью членов пространства имен [Microsoft.Office.Interop.InfoPath.](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) Сборка межконтинента InfoPath XML обеспечивает поддержку обеспечения связи с объектной моделью COM, MSXML (MSXML) с помощью [членов пространства](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) именMicrosoft.Office.Interop.InfoPath.Xml. 
   
 > [!IMPORTANT]
-> На компьютерах пользователей приложений с управляемым кодом, которые автоматизуют InfoPath, должны быть установлены InfoPath, основная сборка межсервейного Microsoft Office InfoPath и сборка XML-кода. Параметр **поддержки программируемости .NET** в программе установки  InfoPath настроен на запуск с моего компьютера для обычной установки InfoPath.
+> Пользователи приложений с управляемым кодом, которые автоматизуют InfoPath, должны иметь infoPath, первичную сборку Microsoft Office InfoPath и сборку межсетей InfoPath XML, установленную на их компьютерах. Параметр **.NET Programmability Support** в программе установки  InfoPath должен запускаться с моего компьютера для типичной установки InfoPath.
 >  
-> В результате, если установлен распространяемый пакет .NET Framework 1.1 или пакет SDK .NET Framework 1.1 или более поздней, эти сборки также будут установлены по умолчанию. Если эти сборки межпрограммного обеспечения недоступны на компьютере пользователя, необходимо подтвердить, что .NET Framework 1.1 или  более поздней установлена, а затем запустить программы и функции из панели управления, чтобы изменить настройку и настроить параметр поддержки программируемости **.NET** для InfoPath на запуск с моего **компьютера.**  
+> В результате, до тех пор, пока платформа .NET Framework 1.1 Перераспределяемый или платформа .NET Framework 1.1 Комплект разработки программного обеспечения (SDK) или более поздний, эти сборки интеропов также будут установлены по умолчанию. Если эти сборки не доступны на компьютере пользователя, необходимо подтвердить, что установлен платформа .NET Framework 1.1 или  более поздней сборки, а затем запустить программы и функции из панели управления, чтобы изменить установку и установить параметр поддержки программных возможностей **InfoPath** для запуска с моего компьютера **.**  
   
-В следующих процедурах описывается, как установить ссылки на основное Microsoft Office infoPath и сборки XML-межсервации InfoPath в Visual Studio проекта.
+В следующих процедурах описывается, как установить ссылки на основное Microsoft Office InfoPath и сборки интеропов InfoPath XML в Visual Studio проекте.
   
-Чтобы установить ссылку на основную сборку interop.InfoPath, установите ссылку на библиотеку типов **Microsoft InfoPath 3.0** на вкладке **COM** диалогового окна "Добавление ссылки".  Несмотря на то, что вы настроили ссылку на вкладку **COM,** эта ссылка устанавливается на основную сборку Microsoft.Office.Interop.InfoPath.dll, установленную в глобальном кэше сборок (GAC) программой установки InfoPath. 
+Чтобы установить ссылку на Microsoft. Office.Interop.InfoPath основная сборка межобучаемой связи, установите ссылку на библиотеку типа **Microsoft InfoPath 3.0** на вкладке **COM** диалогового окна **Add Reference.** Несмотря на то, что вы установите ссылку со вкладки **COM,** установлена ссылка на первичную сборку Microsoft.Office.Interop.InfoPath.dll, установленную в кэше глобальной сборки (GAC) программой установки InfoPath. 
   
-### <a name="set-a-reference-to-the-microsoftofficeinteropinfopath-primary-interop-assembly"></a>Настройка ссылки на основную сборку межкоферной связи Microsoft.Office.Interop.InfoPath
+### <a name="set-a-reference-to-the-microsoftofficeinteropinfopath-primary-interop-assembly"></a>Установите ссылку на Microsoft. Office.Interop.InfoPath первичная сборка интеропов
 
 1. Откройте проект Visual Studio управляемого кода.
     
 2. В окне **Обозреватель решений** щелкните правой кнопкой мыши **Ссылки**, а затем выберите команду **Добавить ссылку**.
     
-3. На **вкладке COM** дважды **щелкните библиотеку типов Microsoft InfoPath 3.0** и нажмите кнопку **"ОК".**
+3. На **вкладке COM** дважды щелкните **библиотеку типа Microsoft InfoPath 3.0** и нажмите **кнопку ОК.**
     
-Чтобы установить ссылку на сборку Microsoft.Office.Interop.InfoPath.Xml, перейдите к файлу Microsoft.Office.Interop.InfoPath.Xml.dll, установленного по умолчанию в папке < _drive_>:\Program Files\Microsoft Office\OFFICE14. Хотя вы указываете копию сборки в локальной файловой системе, эта процедура устанавливает ссылку на сборку Microsoft.Office.Interop.InfoPath.Xml.dll, установленную в глобальном кэше сборок (GAC) программой установки InfoPath.
+Чтобы установить ссылку на сборку Microsoft.Office.Interop.InfoPath.Xml, просмотрите файл Microsoft.Office.Interop.InfoPath.Xml.dll, установленный по умолчанию в  папке < диска>:\Program Files\Microsoft Office\OFFICE14. Даже если вы указываете копию сборки в локальной файловой системе, эта процедура устанавливает ссылку на сборку Microsoft.Office.Interop.InfoPath.Xml.dll, установленную в кэше глобальной сборки (GAC) программой установки InfoPath.
   
-### <a name="set-a-reference-to-the-microsoftofficeinteropinfopathxml-interop-assembly"></a>Настройка ссылки на сборку Microsoft.Office.Interop.InfoPath.Xml междомения
+### <a name="set-a-reference-to-the-microsoftofficeinteropinfopathxml-interop-assembly"></a>Установите ссылку на сборку Microsoft.Office.Interop.InfoPath.Xml связи
 
-1. Откройте или создайте проект Visual Studio управляемого кода, например консольное приложение **или** **приложение для Windows.**
+1. Откройте или создайте проект управляемого кода Visual Studio, например консольное приложение **или Windows application.** 
     
 2. В окне **Обозреватель решений** щелкните правой кнопкой мыши **Ссылки**, а затем выберите команду **Добавить ссылку**.
     
-3. На вкладке **.NET** нажмите кнопку **"Обзор",** перейдите на диск <>:\Program Files\Microsoft Office\OFFICE14 и нажмите кнопку Microsoft.Office.Interop.InfoPath.Xml.dll. 
+3. На вкладке **.NET** щелкните **Обзор,** _перейдите_ к < диска>:\Program Files\Microsoft Office\OFFICE14 папке, а затем нажмите Microsoft.Office.Interop.InfoPath.Xml.dll.
     
-4. Нажмите **ОК**.
+4. Нажмите кнопку **ОК**.
     
 ## <a name="automate-changing-the-value-of-a-field"></a>Автоматизация изменения значения поля
 
-Предположим, что один из пользователей шаблона формы отчета о продажах InfoPath недавно изменил свое имя с "Company A" на "Company B". Разработчику будет предложено написать код, который будет автоматически обновлять формы отчетов о продажах, сохраненные из этого шаблона формы, в связи с изменением имени. В следующем сценарии предполагается, что форма содержит текстовое поле, привязанное к полю customerName.
+Предположим, что один из клиентов шаблона формы формы отчетов о продажах InfoPath недавно изменил свое имя с "Компания A" на "Компания B". Разработчику будет предложено написать код, который автоматически обновляет формы отчетов о продажах, сохраненные из этого шаблона форм, чтобы отразить изменение имени. Следующий сценарий предполагает форму, которая содержит текстовое поле, связанное с полем с именем клиента.
   
-### <a name="create-the-sample-form-template-and-form"></a>Создание образца шаблона формы и формы
+### <a name="create-the-sample-form-template-and-form"></a>Создание шаблона и формы образца формы
 
 1. Откройте InfoPath и создайте пустой шаблон формы.
     
-2. Добавьте в **форму текстовое** поле и привяжйте поле, привязанное к имени клиента.
+2. Добавьте в **форму** управление текстовым полем и назови поле, привязанное к имени клиента управления.
     
-3. В области **задач** "Поля" щелкните правой кнопкой мыши папку **myFields** и выберите **"Свойства".**
+3. В области **задач Fields** щелкните правой кнопкой мыши **папку myFields** и нажмите кнопку **Свойства**.
     
-4. На **вкладке "Сведения"** выберите и скопируйте значение из следующего пространства **имен:** и в paste this into Notepad or some other location where you can retrieve it. Это значение потребуется позже для установки значения свойства **SelectionNamespaces** в коде. 
+4. На **вкладке Подробные** сведения выберите и скопируйте значение, следующее пространство **имен:** и вклеите его в Блокнот другое расположение, где его можно получить. Это значение потребуется позднее для настройки значения свойства **SelectionNamespaces** в коде. 
     
-5. Опубликуем шаблон формы в папке C:\Test и примите имя по умолчанию Template1. 
+5. Опубликуй шаблон формы в папку C:\Test и прими имя по умолчанию Template1. 
     
-6. Откройте шаблон формы, добавьте название "Company A" в текстовое поле, привязанное к полю customerName, а затем сохраните форму как "Form1". 
+6. Откройте шаблон формы, добавьте имя "Company A" в текстовое поле, связанное с полем customerName, а затем сохраните форму как "Form1". 
     
-### <a name="create-a-managed-code-console-application-to-change-the-name-from-company-a-to-company-b"></a>Создайте консольное приложение с управляемым кодом, чтобы изменить имя с "Company A" на "Company B"
+### <a name="create-a-managed-code-console-application-to-change-the-name-from-company-a-to-company-b"></a>Создайте управляемое приложение консоли кода, чтобы изменить имя с "Company A" на "Company B"
 
-1. Откройте Visual Studio и создайте новое консольное приложение Visual C# или Visual Basic UpdateCustomer.
+1. Откройте Visual Studio и создайте новое приложение visual C# или Visual Basic с именем UpdateCustomer.
     
-2. Создание ссылок на основные Microsoft Office infoPath и XML-сборки, как описано выше.
+2. Создание ссылок на основные Microsoft Office infoPath и сборки XML InfoPath, как описано выше.
     
-3. Добавьте следующий код в файл Program.cs или Module1.vb, обязательно обновив значение пространства имен в параметре для свойства **SelectionNamespaces** со значением, которое вы скопировали при создании примера формы. 
+3. Добавьте следующий код в файл Program.cs или Module1.vb, чтобы обновить значение пространства имен в параметре свойства **SelectionNamespaces** со значением, которое вы скопировали при создании примера формы. 
     
    ```cs
     using System;
@@ -188,35 +188,35 @@ ms.locfileid: "34537817"
     
    ```
 
-4. Нажмите **кнопку "Начать отладку"** в меню **"Отладка",** чтобы скомпилировать и запустить консольное приложение. 
+4. Нажмите **кнопку Пуск отладки** в меню **отладки** для компиляции и запуска приложения консоли. 
     
-   Приложение открывает форму, сохраненную как Form1.xml и циклы по всем элементам customerName, которые содержат значение Company A и изменяет это значение на Company B. После завершения операции новая копия формы будет сохранена Form2.xml папке C:\Test. 
+   Приложение открывает форму, сохраненную как Form1.xml и циклы через все элементы customerName, содержащие значение Company A и изменения этого значения в компании B. После завершения операции новая копия формы будет сохранена Form2.xml папке C:\Test. 
     
-## <a name="automate-opening-a-form-and-populating-field-values"></a>Автоматизация открытия формы и заполнения значений полей
+## <a name="automate-opening-a-form-and-populating-field-values"></a>Автоматизация открытия формы и заполнения значений поля
 
-Следующий пример автоматизирует открытие пустой формы и заполнение полей имени, фамилии и адреса в форме. В этом сценарии предполагается форма, которая содержит три текстовых поля, привязанных к полям FirstName, LastName и Address.
+В следующем примере автоматизируется открытие пустой формы и заполнение полей имени, фамилии и адресов в форме. Этот сценарий предполагает форму, которая содержит три текстовых поля, привязанных к полям с именами FirstName, LastName и Address.
   
-### <a name="create-the-sample-form-template-and-form"></a>Создание образца шаблона формы и формы
+### <a name="create-the-sample-form-template-and-form"></a>Создание шаблона и формы образца формы
 
 1. Откройте InfoPath и создайте пустую форму.
     
-2. Добавьте три текстовых поля в форму и назовйте поля, привязанные к элементу управления: FirstName, LastName и Address. Добавьте любые другие нужные поля.
+2. Добавьте в форму три элемента управления текстовым полем и назови поля, связанные с элементами управления: FirstName, LastName и Address. Добавьте любые другие нужные поля.
     
-3. В области **задач** "Поля" щелкните правой кнопкой мыши папку **myFields** и выберите **"Свойства".**
+3. В области **задач Fields** щелкните правой кнопкой мыши **папку myFields** и нажмите кнопку **Свойства**.
     
-4. На **вкладке "Сведения"** выберите и скопируйте значение из следующего пространства **имен:** и в paste this into Notepad or some other location where you can retrieve it. Это значение потребуется позже для установки значения свойства **SelectionNamespaces** в коде. 
+4. На **вкладке Подробные** сведения выберите и скопируйте значение, следующее пространство **имен:** и вклеите его в Блокнот другое расположение, где его можно получить. Это значение потребуется позднее для настройки значения свойства **SelectionNamespaces** в коде. 
     
-5. Опубликуем шаблон формы в папке C:\Temp и примите имя по умолчанию Template1.
+5. Опубликуй шаблон формы в папку C:\Temp и прими имя по умолчанию Template1.
     
-6. Откройте шаблон формы и сохраните пустую форму в формате "Form1" в C:\Temp.
+6. Откройте шаблон формы и сохраните пустую форму как "Form1" для C:\Temp.
     
-### <a name="create-a-managed-code-console-application-to-open-the-form-and-populate-the-fields"></a>Создание консольного приложения с управляемым кодом для открытия формы и заполнения полей
+### <a name="create-a-managed-code-console-application-to-open-the-form-and-populate-the-fields"></a>Создайте управляемое приложение консоли кода, чтобы открыть форму и заполнить поля
 
-1. Откройте Visual Studio и создайте новое консольное приложение Visual C# Visual Basic с именем OpenForm.
+1. Откройте Visual Studio и создайте новое приложение visual C# или Visual Basic с именем OpenForm.
     
-2. Создание ссылок на основные Microsoft Office infoPath и XML-сборки, как описано выше.
+2. Создание ссылок на основные Microsoft Office infoPath и сборки XML InfoPath, как описано выше.
     
-3. Добавьте следующий код в файл Program.cs или Module1.vb, обязательно обновив значение пространства имен в параметре для свойства **SelectionNamespaces** со значением, которое вы скопировали при создании примера формы. 
+3. Добавьте следующий код в файл Program.cs или Module1.vb, чтобы обновить значение пространства имен в параметре свойства **SelectionNamespaces** со значением, которое вы скопировали при создании примера формы. 
     
    ```cs
     using System;
@@ -292,9 +292,9 @@ ms.locfileid: "34537817"
     
    ```
 
-4. В меню **"Отладка"** щелкните **"Начать** отладку", чтобы скомпилировать и запустить консольное приложение. 
+4. В меню **отладки** нажмите **кнопку Пуск отладки** для компиляции и запуска приложения консоли. 
     
-   Приложение откроет форму, сохраненную как Form1.xml и заполнит поля FirstName, LastName и Address значениями, указанными в коде, а затем сохранит форму, оставив InfoPath открытым. 
+   Приложение откроет форму, сохраненную как Form1.xml, и заполнит поля FirstName, LastName и Address значениями, указанными в коде, а затем сохранит форму, оставив InfoPath открытой. 
     
 ## <a name="see-also"></a>См. также
 

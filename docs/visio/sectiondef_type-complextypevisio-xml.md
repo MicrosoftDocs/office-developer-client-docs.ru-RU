@@ -1,5 +1,5 @@
 ---
-title: SectionDef_Type complexType (Visio XML)
+title: SectionDef_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542081"
 ---
-# <a name="sectiondef_type-complextype-visio-xml"></a>SectionDef_Type complexType (Visio XML)
+# <a name="sectiondef_type-complextype-visio-xml"></a>SectionDef_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -71,7 +71,7 @@ ms.locfileid: "34542081"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|N  <br/> |xsd:string  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|Нет  <br/> |xsd:string  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
 |S  <br/> |xsd:unsignedByte  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedByte.  <br/> |
 |T  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
    

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cffc4005-e260-38ab-7142-47f949cc7494
-description: В этом разделе перечислены элементы XML-схемы формата файлов Visio 2013.
+description: В этом разделе перечислены элементы схемы Visio формата XML 2013.
 ms.openlocfilehash: 8efa50eeac8f236e6879915d920fdb0f38e1f4f2
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34539921"
 ---
 # <a name="elements-visio-xml"></a>Элементы (Visio XML)
 
-В этом разделе перечислены элементы XML-схемы формата файлов Visio 2013.
+В этом разделе перечислены элементы схемы Visio формата XML 2013.
   
 - [Элемент AttachedToolbars](attachedtoolbars-element-documentsettings_type-complextypevisio-xml.md)
     
@@ -28,13 +28,13 @@ ms.locfileid: "34539921"
     
 - [Элемент Cell](cell-elementvisio-xml.md)
     
-- [Элемент Cell (Action Tag Section)](cell-element-action-tag-sectionvisio-xml.md)
+- [Элемент Cell (Раздел Тег действия)](cell-element-action-tag-sectionvisio-xml.md)
     
 - [Элемент Cell (строка Actions)](cell-element-actions-rowvisio-xml.md)
     
 - [Элемент Cell (строка ArcTo)](cell-element-arcto-rowvisio-xml.md)
     
-- [Элемент Cell (Character Section)](cell-element-character-sectionvisio-xml.md)
+- [Элемент Cell (Раздел символов)](cell-element-character-sectionvisio-xml.md)
     
 - [Элемент Cell (строка Connection)](cell-element-connection-rowvisio-xml.md)
     
@@ -44,19 +44,19 @@ ms.locfileid: "34539921"
     
 - [Элемент Cell (строка EllipticalArcTo)](cell-element-ellipticalarcto-rowvisio-xml.md)
     
-- [Элемент Cell (Field Section)](cell-element-field-sectionvisio-xml.md)
+- [Элемент Cell (Полевой раздел)](cell-element-field-sectionvisio-xml.md)
     
-- [Элемент Cell (Fill Gradient Section)](cell-element-fill-gradient-sectionvisio-xml.md)
+- [Элемент Cell (Раздел Заполнения Градиента)](cell-element-fill-gradient-sectionvisio-xml.md)
     
-- [Элемент Cell (Geometry Section)](cell-element-geometry-sectionvisio-xml.md)
+- [Элемент Cell (Раздел Геометрия)](cell-element-geometry-sectionvisio-xml.md)
     
 - [Элемент Cell (строка Hyperlink)](cell-element-hyperlink-rowvisio-xml.md)
     
 - [Элемент Cell (строка InfiniteLine)](cell-element-infiniteline-rowvisio-xml.md)
     
-- [Элемент Cell (Layer Section)](cell-element-layer-sectionvisio-xml.md)
+- [Элемент Cell (Раздел Layer)](cell-element-layer-sectionvisio-xml.md)
     
-- [Элемент Cell (Line Gradient Section)](cell-element-line-gradient-sectionvisio-xml.md)
+- [Элемент Cell (раздел Line Gradient)](cell-element-line-gradient-sectionvisio-xml.md)
     
 - [Элемент Cell (строка LineTo)](cell-element-lineto-rowvisio-xml.md)
     
@@ -64,7 +64,7 @@ ms.locfileid: "34539921"
     
 - [Элемент Cell (строка NURBSTo)](cell-element-nurbsto-rowvisio-xml.md)
     
-- [Элемент Cell (Paragraph Section)](cell-element-paragraph-sectionvisio-xml.md)
+- [Элемент Cell (Раздел Абзац)](cell-element-paragraph-sectionvisio-xml.md)
     
 - [Элемент Cell (строка PolyLineTo)](cell-element-polylineto-rowvisio-xml.md)
     
@@ -80,15 +80,15 @@ ms.locfileid: "34539921"
     
 - [Элемент Cell (Scratch Section)](cell-element-scratch-sectionvisio-xml.md)
     
-- [Элемент Cell (Shape Data Section)](cell-element-shape-data-sectionvisio-xml.md)
+- [Элемент Cell (Раздел Фигура данных)](cell-element-shape-data-sectionvisio-xml.md)
     
 - [Элемент Cell (строка SplineKnot)](cell-element-splineknot-rowvisio-xml.md)
     
 - [Элемент Cell (строка SplineStart)](cell-element-splinestart-rowvisio-xml.md)
     
-- [Элемент Cell (Раздел "Вкладки")](cell-element-tabs-sectionvisio-xml.md)
+- [Элемент Cell (Раздел Вкладок)](cell-element-tabs-sectionvisio-xml.md)
     
-- [Элемент Cell (User-defined Cells Section)](cell-element-user-defined-cells-sectionvisio-xml.md)
+- [Элемент Cell (Раздел ячейки, определяемой пользователем)](cell-element-user-defined-cells-sectionvisio-xml.md)
     
 - [Элемент ColorEntry](colorentry-element-colors_type-complextypevisio-xml.md)
     
@@ -234,37 +234,37 @@ ms.locfileid: "34539921"
     
 - [Элемент Rel (Solution_Type complexType)](rel-element-solution_type-complextypevisio-xml.md)
     
-- [Элемент Row (Actions Section)](row-element-actions-sectionvisio-xml.md)
+- [Элемент Row (Раздел Действия)](row-element-actions-sectionvisio-xml.md)
     
-- [Элемент Row (Action Tag Section)](row-element-action-tag-sectionvisio-xml.md)
+- [Элемент Row (Раздел Тег действия)](row-element-action-tag-sectionvisio-xml.md)
     
-- [Элемент Row (Character Section)](row-element-character-sectionvisio-xml.md)
+- [Элемент Row (Раздел символов)](row-element-character-sectionvisio-xml.md)
     
-- [Элемент Row (Connection Section)](row-element-connection-sectionvisio-xml.md)
+- [Элемент Row (Раздел Подключения)](row-element-connection-sectionvisio-xml.md)
     
-- [Элемент Row (Controls Section)](row-element-controls-sectionvisio-xml.md)
+- [Элемент Row (Раздел элементов управления)](row-element-controls-sectionvisio-xml.md)
     
-- [Элемент Row (Field Section)](row-element-field-sectionvisio-xml.md)
+- [Элемент Row (Полевой раздел)](row-element-field-sectionvisio-xml.md)
     
-- [Элемент Row (Fill Gradient Section)](row-element-fill-gradient-sectionvisio-xml.md)
+- [Элемент Row (Раздел Заполнения Градиента)](row-element-fill-gradient-sectionvisio-xml.md)
     
-- [Элемент Row (Geometry Section)](row-element-geometry-sectionvisio-xml.md)
+- [Элемент Row (раздел Геометрия)](row-element-geometry-sectionvisio-xml.md)
     
-- [Элемент Row (Hyperlink Section)](row-element-hyperlink-sectionvisio-xml.md)
+- [Элемент Row (Раздел гиперссылки)](row-element-hyperlink-sectionvisio-xml.md)
     
-- [Элемент Row (Layer Section)](row-element-layer-sectionvisio-xml.md)
+- [Элемент Row (раздел Layer)](row-element-layer-sectionvisio-xml.md)
     
-- [Элемент Row (Line Gradient Section)](row-element-line-gradient-sectionvisio-xml.md)
+- [Элемент Row (Раздел Градиента строки)](row-element-line-gradient-sectionvisio-xml.md)
     
-- [Элемент Row (Paragraph Section)](row-element-paragraph-sectionvisio-xml.md)
+- [Элемент Row (Раздел Абзац)](row-element-paragraph-sectionvisio-xml.md)
     
-- [Элемент Row (Scratch Section)](row-element-scratch-sectionvisio-xml.md)
+- [Элемент Row (Раздел Царапины)](row-element-scratch-sectionvisio-xml.md)
     
-- [Элемент Row (Shape Data Section)](row-element-shape-data-sectionvisio-xml.md)
+- [Элемент Row (Раздел Фигура данных)](row-element-shape-data-sectionvisio-xml.md)
     
-- [Элемент Row (Раздел "Вкладки")](row-element-tabs-sectionvisio-xml.md)
+- [Элемент Row (Раздел Вкладки)](row-element-tabs-sectionvisio-xml.md)
     
-- [Элемент Row (User-defined Cells Section)](row-element-user-defined-cells-sectionvisio-xml.md)
+- [Элемент Row (Раздел ячейки, определяемой пользователем)](row-element-user-defined-cells-sectionvisio-xml.md)
     
 - [Элемент RowKeyValue](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md)
     

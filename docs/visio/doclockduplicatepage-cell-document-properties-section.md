@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b08a6558-519f-44e0-aeff-9919544d515e
-description: Определяет, можно ли дублировать страницы в документе в качестве boolean.
+description: Определяет, можно ли дублировать страницы в документе, как boolean.
 ms.openlocfilehash: 3f3274c6cfadb81ef514a179279bdaed3543b654
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,22 +16,22 @@ ms.locfileid: "33439662"
 ---
 # <a name="doclockduplicatepage-cell-document-properties-section"></a>DocLockDuplicatePage Cell (Document Properties Section)
 
-Определяет, можно ли дублировать страницы в документе в качестве boolean.
+Определяет, можно ли дублировать страницы в документе, как boolean.
   
 |||
 |:-----|:-----|
-|TRUE  <br/> |**Дубликаты** в меню ярлыка страницы и метод **автоматизации Page.Duplicate** отключены.  <br/> |
+|TRUE  <br/> |**Дубликат** в меню ярлыка страницы и **метод автоматизации Page.Duplicate** отключены.  <br/> |
 |FALSE  <br/> |Страницу можно дублировать.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **DocLockDuplicatePage** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
+Чтобы получить ссылку на **ячейку DocLockDuplicatePage** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы с использованием свойства **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
 | Имя ячейки:  <br/> | DocLockDuplicatePage  <br/> |
    
-Чтобы получить ссылку на ячейку **DocLockDuplicatePage** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
+Чтобы получить ссылку на **ячейку DocLockDuplicatePage** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|

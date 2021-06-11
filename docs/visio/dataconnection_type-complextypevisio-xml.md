@@ -1,5 +1,5 @@
 ---
-title: DataConnection_Type complexType (Visio XML)
+title: DataConnection_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539651"
 ---
-# <a name="dataconnection_type-complextype-visio-xml"></a>DataConnection_Type complexType (Visio XML)
+# <a name="dataconnection_type-complextype-visio-xml"></a>DataConnection_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 

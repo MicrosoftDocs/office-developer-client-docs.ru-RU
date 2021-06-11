@@ -1,5 +1,5 @@
 ---
-title: weatherType complexType (Схема расположения прогноза погоды в Outlook)
+title: weatherType complexType (Outlook схема расположения погоды)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f8054fd9-85ba-fcf6-c96d-a54095d5238c
-description: Определяет параметры прогноза погоды в расположении.
+description: Определяет параметры погодных условий расположения.
 ms.openlocfilehash: f7d33cb018daf4ece2ba468b9ebe92b0fc7b1545
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542921"
 ---
-# <a name="weathertype-complextype-outlook-weather-location-schema"></a>weatherType complexType (Схема расположения прогноза погоды в Outlook)
+# <a name="weathertype-complextype-outlook-weather-location-schema"></a>weatherType complexType (Outlook схема расположения погоды)
 
-Определяет параметры прогноза погоды в расположении.
+Определяет параметры погодных условий расположения.
   
 ## <a name="type-information"></a>Сведения о типе
 

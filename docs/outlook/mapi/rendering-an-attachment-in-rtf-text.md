@@ -19,26 +19,26 @@ ms.locfileid: "33439795"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Клиенты с RTF могут получать сведения о положении отображения из текста сообщения RTF, насмотрев следующую escape-последовательность в свойстве **PR_RTF_COMPRESSED** сообщения [(PidTagRtfCompressed):](pidtagrtfcompressed-canonical-property.md)
+Клиенты с богатым текстовым форматом (RTF) могут получать сведения о позиции отрисовки из  текста сообщения RTF, ищем следующую последовательность побега в свойстве PR_RTF_COMPRESSED сообщения[(PidTagRtfCompressed).](pidtagrtfcompressed-canonical-property.md)
   
  `\objattph`
   
- **Поиск сведений об отрисовки в форматном тексте**
+ **Поиск сведений о отрисовки в форматированный текст**
   
-1. Вызовите **IMessage::GetAttachmentTable,** чтобы получить доступ к таблице вложений сообщения. For more information, see [IMessage::GetAttachmentTable](imessage-getattachmenttable.md).
+1. Позвоните **в IMessage::GetAttachmentTable,** чтобы получить доступ к таблице вложений сообщения. For more information, see [IMessage::GetAttachmentTable](imessage-getattachmenttable.md).
     
-2. Создайте ограничение свойств, ограничивающее таблицу строками, **PR_RENDERING_POSITION** не равными -1. Дополнительные сведения **см. в PR_RENDERING_POSITION** ([PidTagRenderingPosition).](pidtagrenderingposition-canonical-property.md)
+2. Создайте ограничение свойства, ограничивающее таблицу строками, **PR_RENDERING_POSITION** не равными -1. Дополнительные сведения см. **в PR_RENDERING_POSITION** [(PidTagRenderingPosition).](pidtagrenderingposition-canonical-property.md)
     
-3. Вызов **IMAPITable::Restrict** для применения ограничения. Дополнительные сведения см. в [подразделе IMAPITable::Restrict.](imapitable-restrict.md)
+3. Call **IMAPITable:::Restrict** to enforce the restriction. Дополнительные сведения см. [в iMAPITable::Restrict](imapitable-restrict.md).
     
-4. Вызовите **IMAPITable::SortTable** для сортировки вложений. Дополнительные сведения см. в [подразделе IMAPITable::SortTable.](imapitable-sorttable.md)
+4. Вызов **IMAPITable::SortTable для** сортировки вложений. Дополнительные сведения см. [в iMAPITable::SortTable](imapitable-sorttable.md).
     
-5. Вызовите **IMAPITable::QueryRows,** чтобы получить соответствующие строки. Дополнительные сведения см. в [подразделе IMAPITable::QueryRows.](imapitable-queryrows.md)
+5. Вызов **IMAPITable::QueryRows,** чтобы получить соответствующие строки. Дополнительные сведения см. [в iMAPITable::QueryRows](imapitable-queryrows.md).
     
-6. Вызовите метод **IMAPIProp::OpenProperty** сообщения, чтобы **PR_RTF_COMPRESSED** с **интерфейсом IStream.** Дополнительные сведения см. в подразделе [IMAPIProp::OpenProperty](imapiprop-openproperty.md) и **PR_RTF_COMPRESSED.**
+6. Вызовите метод **IMAPIProp::OpenProperty** для  получения PR_RTF_COMPRESSED **интерфейса IStream.** Дополнительные сведения см. [в iMAPIProp::OpenProperty](imapiprop-openproperty.md) **и PR_RTF_COMPRESSED.**
     
-7. Сканируйте поток, ищите замещатель отрисовки. `\objattph` Символ, следующий за этим местом, — это место для следующего вложения в отсортданной таблице.
+7. Сканируйте поток, ищите местообладатель отрисовки. `\objattph` Символ, следующий за этим местом, — это место для следующего вложения в сортировке таблицы.
     
 

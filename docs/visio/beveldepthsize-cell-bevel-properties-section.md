@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c6a57e52-c7ed-4a52-940f-1cef9baa70a5
-description: Определяет размер глубины ленты в точках.
+description: Определяет размер глубины bevel в точках.
 ms.openlocfilehash: 13c00536d6fc4f19ff2c62cab2afd04f9cdf8985
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,17 +16,17 @@ ms.locfileid: "33438500"
 ---
 # <a name="beveldepthsize-cell-bevel-properties-section"></a>BevelDepthSize Cell (Bevel Properties Section)
 
-Определяет размер глубины ленты в точках. 
+Определяет размер глубины bevel в точках. 
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **BevelDepthSize** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
+Чтобы получить ссылку на **ячейку BevelDepthSize** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
 | Имя ячейки:  <br/> | BevelDepthSize  <br/> |
    
-Чтобы получить ссылку на ячейку **BevelDepthSize** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
+Чтобы получить ссылку на **ячейку BevelDepthSize** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|

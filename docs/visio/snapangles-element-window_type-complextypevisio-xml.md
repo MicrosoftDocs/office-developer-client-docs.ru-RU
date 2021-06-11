@@ -16,7 +16,7 @@ ms.locfileid: "34540366"
 ---
 # <a name="snapangles-element-window_type-complextype-visio-xml"></a>Элемент SnapAngles (Window_Type complexType) (Visio XML)
 
-Содержит коллекцию элементов **SnapAngle.** 
+Содержит коллекцию **элементов SnapAngle.** 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34540366"
 |**Тип элемента** <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |windows.xml  <br/> |
+|**Части документов** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -48,7 +48,7 @@ ms.locfileid: "34540366"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[SnapAngle](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |Содержит число с плавающей за точкой, указывающей угол прикрепления в градусах.  <br/> |
+|[SnapAngle](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |Содержит номер плавающей точки, который указывает угол оснастки в градусах.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

@@ -19,20 +19,20 @@ ms.locfileid: "33439718"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Следующие свойства обычно присутствуют для всех получателей сообщений. **PR_EMAIL_ADDRESS** и **PR_SEARCH_KEY** являются необязательными; все остальные свойства являются обязательной. 
+Следующие свойства обычно присутствуют для всех получателей сообщений. **PR_EMAIL_ADDRESS** **и PR_SEARCH_KEY** являются необязательными; все остальные свойства необходимы. 
   
 **Название таблицы**
 
 |**Свойство**|**Описание**|
 |:-----|:-----|
-|**PR_ADDRTYPE** ([PidTagAddressType)](pidtagaddresstype-canonical-property.md)  <br/> |Содержит тип адреса электронной почты пользователя, например SMTP.  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)  <br/> |Содержит отображаемую имя для заданного объекта MAPI.  <br/> |
-|**PR_DISPLAY_TYPE** ([PidTagDisplayType)](pidtagdisplaytype-canonical-property.md)  <br/> |Содержит значение, используемого для связи значка с определенной строкой таблицы.  <br/> |
-|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress)](pidtagemailaddress-canonical-property.md)  <br/> |Содержит адрес электронной почты пользователя для обмена сообщениями.  <br/> |
-|**PR_ENTRYID** ([PidTagEntryId)](pidtagentryid-canonical-property.md)  <br/> |Содержит идентификатор записи MAPI, используемый для открытия и изменения свойств определенного объекта MAPI.  <br/> |
-|**PR_OBJECT_TYPE** ([PidTagObjectType)](pidtagobjecttype-canonical-property.md)  <br/> |Содержит тип объекта.  <br/> |
-|**PR_SEARCH_KEY** ([PidTagSearchKey)](pidtagsearchkey-canonical-property.md)  <br/> |Содержит схожий двоичный ключ, который идентифицирует связанные объекты для поиска.  <br/> |
+|**PR_ADDRTYPE** [(PidTagAddressType)](pidtagaddresstype-canonical-property.md)  <br/> |Содержит тип адреса электронной почты пользователя обмена сообщениями, например SMTP.  <br/> |
+|**PR_DISPLAY_NAME** [(PidTagDisplayName)](pidtagdisplayname-canonical-property.md)  <br/> |Содержит имя отображения для данного объекта MAPI.  <br/> |
+|**PR_DISPLAY_TYPE** [(PidTagDisplayType)](pidtagdisplaytype-canonical-property.md)  <br/> |Содержит значение, используемого для связи значка с определенной строкой таблицы.  <br/> |
+|**PR_EMAIL_ADDRESS** [(PidTagEmailAddress)](pidtagemailaddress-canonical-property.md)  <br/> |Содержит адрес электронной почты пользователя обмена сообщениями.  <br/> |
+|**PR_ENTRYID** [(PidTagEntryId)](pidtagentryid-canonical-property.md)  <br/> |Содержит идентификатор записи MAPI, используемый для открытия и редактирования свойств определенного объекта MAPI.  <br/> |
+|**PR_OBJECT_TYPE** [(PidTagObjectType)](pidtagobjecttype-canonical-property.md)  <br/> |Содержит тип объекта.  <br/> |
+|**PR_SEARCH_KEY** [(PidTagSearchKey)](pidtagsearchkey-canonical-property.md)  <br/> |Содержит двухсопоставимый ключ, который определяет связанные объекты для поиска.  <br/> |
    
 

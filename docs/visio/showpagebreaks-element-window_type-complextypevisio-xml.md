@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1a8c29d9-31d9-dd77-09c5-6e9eaf870552
-description: Указывает, следует ли показывать разрывы страниц в окне.
+description: Указывает, показываются ли разрывы страниц в окне.
 ms.openlocfilehash: 85450dedcfdf07929aafb92e59c29e474a5fb626
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34541444"
 ---
 # <a name="showpagebreaks-element-window_type-complextype-visio-xml"></a>Элемент ShowPageBreaks (Window_Type complexType) (Visio XML)
 
-Указывает, следует ли показывать разрывы страниц в окне.
+Указывает, показываются ли разрывы страниц в окне.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34541444"
 |**Тип элемента** <br/> |[ShowPageBreaks_Type](showpagebreaks_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |windows.xml  <br/> |
+|**Части документов** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 

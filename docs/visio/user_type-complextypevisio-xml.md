@@ -1,5 +1,5 @@
 ---
-title: User_Type complexType (Visio XML)
+title: User_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538573"
 ---
-# <a name="user_type-complextype-visio-xml"></a>User_Type complexType (Visio XML)
+# <a name="user_type-complextype-visio-xml"></a>User_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 

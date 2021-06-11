@@ -16,7 +16,7 @@ ms.locfileid: "34539184"
 ---
 # <a name="dataconnections-element-visio-xml"></a>Элемент DataConnections (Visio XML)
 
-Содержит элементы **DataConnection** для документа. 
+Содержит **элементы DataConnection** для документа. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34539184"
 |**Тип элемента** <br/> |[DataConnections_Type](dataconnections_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |connections.xml  <br/> |
+|**Части документов** <br/> |connections.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -46,12 +46,12 @@ ms.locfileid: "34539184"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DataConnection](dataconnection-element-dataconnections_type-complextypevisio-xml.md) <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |Абстрагировать связь между одним или более **элементами DataRecordset** и источником данных, не относяющимися к XML.  <br/> |
+|[DataConnection](dataconnection-element-dataconnections_type-complextypevisio-xml.md) <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |Аннотация связи между одним или более **элементами DataRecordset** и источником данных, не относя к XML.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|NextID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Следующий доступный ИД для новых подключений.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|NextID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Следующий доступный ID для новых подключений.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
    
 

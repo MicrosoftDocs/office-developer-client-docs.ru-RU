@@ -1,12 +1,12 @@
 ---
-title: Элемент EventList (VisioDocument_Type complexType) (Visio XML)
+title: Элемент EventList (VisioDocument_Type ComplexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 40bb8c7c-89ef-22e1-5edf-e2423fc89660
-description: Содержит элемент EventItem для каждого события, на которое должен реагировать объект.
+description: Содержит элемент EventItem для каждого события, на которое должен отвечать объект.
 ms.openlocfilehash: 7b1406f56dddd8507e330aa93d5cfe9f390caf21
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541801"
 ---
-# <a name="eventlist-element-visiodocument_type-complextype-visio-xml"></a>Элемент EventList (VisioDocument_Type complexType) (Visio XML)
+# <a name="eventlist-element-visiodocument_type-complextype-visio-xml"></a>Элемент EventList (VisioDocument_Type ComplexType) (Visio XML)
 
-Содержит элемент **EventItem** для каждого события, на которое должен реагировать объект. 
+Содержит элемент **EventItem** для каждого события, на которое должен отвечать объект. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34541801"
 |**Тип элемента** <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |document.xml  <br/> |
+|**Части документов** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 

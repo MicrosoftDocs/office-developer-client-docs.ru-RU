@@ -1,5 +1,5 @@
 ---
-title: HeaderRight_Type complexType (Visio XML)
+title: HeaderRight_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539302"
 ---
-# <a name="headerright_type-complextype-visio-xml"></a>HeaderRight_Type complexType (Visio XML)
+# <a name="headerright_type-complextype-visio-xml"></a>HeaderRight_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 

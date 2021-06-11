@@ -1,5 +1,5 @@
 ---
-title: Карта схемы (схема расположения прогноза погоды в Outlook)
+title: Схема карты (Outlook схема расположения погоды)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1a5195ae-7905-477a-7818-9eb3bff64af0
-description: В этом разделе показано определение схемы для XML-схемы расположения прогноза погоды в Outlook.
+description: В этом разделе показано определение схемы для Outlook XML-схемы расположения погоды.
 ms.openlocfilehash: e35a993c44c9f54168a7ad5c38e13e850d530a2d
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541283"
 ---
-# <a name="schema-map-outlook-weather-location-schema"></a>Карта схемы (схема расположения прогноза погоды в Outlook)
+# <a name="schema-map-outlook-weather-location-schema"></a>Схема карты (Outlook схема расположения погоды)
 
-В этом разделе показано определение схемы для XML-схемы расположения прогноза погоды в Outlook.
+В этом разделе показано определение схемы для Outlook XML-схемы расположения погоды.
   
 ```XML
 <?xml version="1.0" ?>

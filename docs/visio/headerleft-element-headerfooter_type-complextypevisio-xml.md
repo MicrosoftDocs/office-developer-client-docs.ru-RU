@@ -25,7 +25,7 @@ ms.locfileid: "34541045"
 |**Тип элемента** <br/> |[HeaderLeft_Type](headerleft_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |document.xml  <br/> |
+|**Части документов** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "34541045"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для опорного и footer-элементов документа.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для загона и подножки документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

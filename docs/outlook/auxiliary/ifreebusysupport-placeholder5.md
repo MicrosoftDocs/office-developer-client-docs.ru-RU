@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4dced536-4931-943f-f400-21cfc03dd5a1
-description: Этот член является местоимящиком и не поддерживается.
+description: Этот член является задатщиком и не поддерживается.
 ms.openlocfilehash: ebe7ee11d3b7ee4eb4cda12bde14f996a33876f6
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33438703"
 ---
 # <a name="ifreebusysupportplaceholder5"></a>IFreeBusySupport::Placeholder5
 
-Этот член является местоимящиком и не поддерживается.
+Этот член является задатщиком и не поддерживается.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IFreeBusySupport.](ifreebusysupport.md)
+См. [в программе IFreeBusySupport](ifreebusysupport.md).
   
 ```cpp
 HRESULT Placeholder5( 
@@ -30,14 +30,14 @@ HRESULT Placeholder5(
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Всегда E_NOTIMPL, так как этот член является местоимящиком и не поддерживается.
+Всегда E_NOTIMPL, так как этот член является местообладателями и не поддерживается.
   
 ## <a name="remarks"></a>Примечания
 
-Этот член должен возвращать E_NOTIMPL.
+Этот член должен E_NOTIMPL.
   
 ## <a name="see-also"></a>См. также
 
-- [Constants (Free/busy API)](constants-free-busy-api.md)
+- [Константы (API free/busy)](constants-free-busy-api.md)
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
 

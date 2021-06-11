@@ -23,23 +23,23 @@ ms.locfileid: "33439333"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Удаляет папки контактов из Microsoft Outlook 2010, русская версия и адресной книги Microsoft Outlook 2013.
+Удаляет папки контактов из Microsoft Outlook 2010, русская версия и Microsoft Outlook 2013 адресной книги.
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |cabadmin.h  <br/> |
-|Выставим:  <br/> ||
+|Подвергается:  <br/> ||
 |Реализовано в:  <br/> |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
 |Вызывающая сторона:  <br/> |CRM  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IContabAdmin  <br/> |
 |Тип указателя:  <br/> ||
    
-## <a name="vtable-order"></a>Порядок ветвей
+## <a name="vtable-order"></a>Заказ Vtable
 
 |||
 |:-----|:-----|
-|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Удаляет из иерархии адресной книги адресную книгу контактов, указанную с помощью указанного ИД записи.  <br/> |
+|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Удаляет контактную адресную книгу (CAB), заданную указанным ИД записи из иерархии адресной книги.  <br/> |
    
 

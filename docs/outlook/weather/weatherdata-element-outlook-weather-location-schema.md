@@ -1,5 +1,5 @@
 ---
-title: Элемент weatherdata (схема расположения прогноза погоды в Outlook)
+title: элемент weatherdata (Outlook схема расположения погоды)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 14e0c469-31dc-fbe2-0d45-da602df04f13
-description: Определяет элемент прогноза погоды.
+description: Определяет элемент погоды.
 ms.openlocfilehash: 65dd0ee5686fb773479c8b63a43f51bff67fd2f7
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540933"
 ---
-# <a name="weatherdata-element-outlook-weather-location-schema"></a>Элемент weatherdata (схема расположения прогноза погоды в Outlook)
+# <a name="weatherdata-element-outlook-weather-location-schema"></a>элемент weatherdata (Outlook схема расположения погоды)
 
-Определяет элемент прогноза погоды.
+Определяет элемент погоды.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -57,7 +57,7 @@ ms.locfileid: "34540933"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[погода](weather-element-weatherdata-elementoutlook-weather-location-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-location-schema.md) <br/> |Указывает расположение, в который будет сообщаться о погоде.  <br/> |
+|[погода](weather-element-weatherdata-elementoutlook-weather-location-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-location-schema.md) <br/> |Указывает расположение для отчета о погоде.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

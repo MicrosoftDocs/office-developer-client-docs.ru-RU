@@ -23,9 +23,9 @@ ms.locfileid: "33438997"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет количество ветвей в существующей структуре [MTSID.](mtsid.md) 
+Вычисляет количество bytes в существующей [структуре MTSID.](mtsid.md) 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "33438997"
 CbMTSID (_lpentry)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ _lpentry_
   

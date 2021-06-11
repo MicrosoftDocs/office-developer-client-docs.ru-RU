@@ -23,15 +23,15 @@ ms.locfileid: "33439998"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Извлекает атрибуты свойств объекта [IMessage,](imessageimapiprop.md) предоставленные функцией [OpenIMsgOnIStg.](openimsgonistg.md) 
+Извлекает атрибуты свойств объекта [IMessage,](imessageimapiprop.md) предоставленного функцией [OpenIMsgOnIStg.](openimsgonistg.md) 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Imessage.h  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
-|Вызывающая сторона:  <br/> |Клиентские приложения и поставщики store сообщений  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения и поставщики магазинов сообщений  <br/> |
    
 ```cpp
 HRESULT GetAttribIMsgOnIStg(
@@ -41,19 +41,19 @@ HRESULT GetAttribIMsgOnIStg(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _lpObject_
   
-> [in] Указатель на объект **IMessage,** полученный из [функции OpenIMsgOnIStg.](openimsgonistg.md) 
+> [in] Указатель на **объект IMessage,** полученный из [функции OpenIMsgOnIStg.](openimsgonistg.md) 
     
  _lpPropTagArray_
   
-> [in] Указатель на структуру [SPropTagArray,](sproptagarray.md) которая содержит массив тегов свойств, указывающих свойства, для которых требуется получить атрибуты. 
+> [in] Указатель на [структуру SPropTagArray,](sproptagarray.md) содержащий массив тегов свойств, указывающих свойства, для которых необходимо получить атрибуты. 
     
  _lppPropAttrArray_
   
-> [out] Указатель на указатель на возвращенную [структуру SPropAttrArray,](spropattrarray.md) которая содержит извлеченные атрибуты свойства. 
+> [вышел] Указатель на указатель на возвращенную [структуру SPropAttrArray,](spropattrarray.md) которая содержит извлеченные атрибуты свойства. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -63,15 +63,15 @@ S_OK
     
 MAPI_W_ERRORS_RETURNED 
   
-> Вызов в целом был успешным, но не удалось получить доступ к одному или более свойствам, и он был возвращен с типом свойства PT_ERROR.
+> Вызов удался в целом, но один или несколько свойств не удалось получить доступ и были возвращены с типом свойства PT_ERROR.
     
 ## <a name="remarks"></a>Примечания
 
-Доступ к атрибутам свойств можно получить только для объектов свойств, то есть объектов, реализующих [интерфейс IMAPIProp : IUnknown.](imapipropiunknown.md) Чтобы сделать свойства MAPI доступными для объекта OLE структурированного хранилища, [OpenIMsgOnIStg](openimsgonistg.md) создает объект [IMessage : IMAPIProp](imessageimapiprop.md) поверх объекта OLE **IStorage.** Атрибуты свойств для таких объектов можно установить или изменить с помощью [SetAttribIMsgOnIStg](setattribimsgonistg.md) и получить с помощью **GetAttribIMsgOnIStg.** 
+Атрибуты свойств можно получить только для объектов свойств, то есть объектов, реализующих [интерфейс IMAPIProp : IUnknown.](imapipropiunknown.md) Чтобы сделать свойства MAPI доступными для структурированного объекта хранения OLE, [OpenIMsgOnIStg](openimsgonistg.md) создает [объект IMessage : IMAPIProp](imessageimapiprop.md) поверх объекта **IStorage** OLE. Атрибуты свойств таких объектов можно установить или изменить с [помощью SetAttribIMsgOnIStg](setattribimsgonistg.md) и получить с **помощью GetAttribIMsgOnIStg**. 
   
 > [!NOTE]
-> **GetAttribIMsgOnIStg** и **SetAttribIMsgOnIStg** работают не на всех **объектах IMessage.** Они действительны только для **объектов IMessage**-on-IStorage, возвращенных **OpenIMsgOnIStg.**  
+> **GetAttribIMsgOnIStg** и **SetAttribIMsgOnIStg** не работают на всех **объектах IMessage.** Они действительны только для объектов IMessage-on-IStorage, возвращенных **OpenIMsgOnIStg.**   
   
-Число и позиции атрибутов в параметре _lppPropAttrArray_ соответствуют числу и положениям тегов свойств в параметре _lpPropTagArray._ 
+Количество и позиции атрибутов в параметре _lppPropAttrArray_ соответствуют числу и расположению тегов свойств в параметре _lpPropTagArray._ 
   
 

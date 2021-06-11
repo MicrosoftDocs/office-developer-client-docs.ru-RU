@@ -1,5 +1,5 @@
 ---
-title: Элемент Shapes (ShapeSheet_Type complexType) (Visio XML)
+title: Элемент Shapes (ShapeSheet_Type ComplexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542102"
 ---
-# <a name="shapes-element-shapesheet_type-complextype-visio-xml"></a>Элемент Shapes (ShapeSheet_Type complexType) (Visio XML)
+# <a name="shapes-element-shapesheet_type-complextype-visio-xml"></a>Элемент Shapes (ShapeSheet_Type ComplexType) (Visio XML)
 
 Содержит коллекцию элементов Shape.
   
@@ -25,7 +25,7 @@ ms.locfileid: "34542102"
 |**Тип элемента** <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |page#.xml, master#.xml  <br/> |
+|**Части документов** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -48,7 +48,7 @@ ms.locfileid: "34542102"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие фигуру в элементе **"Master",** **"Page"** или "group shape".  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие фигуру в **элементе Master,** **Page** или group shape.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

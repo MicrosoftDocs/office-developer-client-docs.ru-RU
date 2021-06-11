@@ -23,7 +23,7 @@ ms.locfileid: "33439158"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит список типов адресов для контакта.
   
@@ -32,11 +32,11 @@ ms.locfileid: "33439158"
 |Связанные свойства:  <br/> |PR_CONTACT_ADDRTYPES, PR_CONTACT_ADDRTYPES_A, PR_CONTACT_ADDRTYPES_W  <br/> |
 |Идентификатор:  <br/> |0x3A54  <br/> |
 |Тип данных:  <br/> |PT_MV_UNICODE, PT_MV_STRING8  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -56,5 +56,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

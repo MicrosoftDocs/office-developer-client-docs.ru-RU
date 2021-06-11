@@ -22,10 +22,10 @@ ms.locfileid: "34541892"
   
 |Строка|Описание|
 |:-----|:-----|
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Угол основной оси дуги относительно  *оси x*  родительской оси.  <br/> |
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Первая часть неуникционного рационального B-spline (NURBS).  <br/> |
-|[SplineStart](splinestart-row-geometry-section.md) <br/> | Последняя часть сплайна.  <br/> |
-|[Ellipse](ellipse-row-geometry-section.md) <br/> | X-координата точки на эллипсе;  сопряжено с *координатой Y,* представленной ячейкой [D.](d-cell-geometry-section.md)  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Угол основной оси дуги относительно  *оси x-axis*  родительской.  <br/> |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Первый узел неинформированной рациональной B-spline (NURBS).  <br/> |
+|[SplineStart](splinestart-row-geometry-section.md) <br/> | Последний узел spline.  <br/> |
+|[Ellipse](ellipse-row-geometry-section.md) <br/> | *X-координата* точки на эллипсе; в паре с *y-координатой,* представленной ячейкой [D.](d-cell-geometry-section.md)  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -33,7 +33,7 @@ ms.locfileid: "34541892"
   
 |||
 |:-----|:-----|
-| Имя ячейки:  <br/> | Геометрия  *i*  . C  *j*            where  *i*  and  *j*  = <1>, 2, 3...  <br/> |
+| Имя ячейки:  <br/> | Геометрия  *i*  . C  *j,*            *где i*  и  *j*  = <1>, 2, 3...  <br/> |
 || Геометрия  *i*  . C1 (строка Ellipse)  <br/> |
    
 Чтобы получить ссылку на ячейку C по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
@@ -43,8 +43,8 @@ ms.locfileid: "34541892"
 | Индекс раздела:  <br/> |**visSectionFirstComponent** +  *i*, где *i* = 0, 1, 2...  <br/> |
 | Индекс строки:  <br/> |**visRowVertex** +  *j*, где *j* = 0, 1, 2...  <br/> |
 ||**visRowVertex** (строка Ellipse)  <br/> |
-| Индекс ячейки:  <br/> |**visEccentricityAngle** (строка EllipticalArcTo)  <br/> |
-||**visNURBSKnotPrev** (строка NURBSTo)  <br/> |
+| Индекс ячейки:  <br/> |**visEccentricityAngle** (ряд EllipticalArcTo)  <br/> |
+||**visNURBSKnotPrev** (ряд NURBSTo)  <br/> |
 ||**visSplineKnot3** (строка SplineStart)  <br/> |
 ||**visEllipseMinorX** (строка Ellipse)  <br/> |
    

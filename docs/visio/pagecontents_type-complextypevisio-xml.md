@@ -1,5 +1,5 @@
 ---
-title: PageContents_Type complexType (Visio XML)
+title: PageContents_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537964"
 ---
-# <a name="pagecontents_type-complextype-visio-xml"></a>PageContents_Type complexType (Visio XML)
+# <a name="pagecontents_type-complextype-visio-xml"></a>PageContents_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -55,7 +55,7 @@ ms.locfileid: "34537964"
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> ||
-|[Shapes](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> ||
+|[Фигуры](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

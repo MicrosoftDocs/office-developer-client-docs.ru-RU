@@ -1,12 +1,12 @@
 ---
-title: Элемент cp (Text_Type complexType) (Visio XML)
+title: элемент cp (Text_Type ComplexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4edd0a3f-e433-bf54-34cd-3b05fd10a5a5
-description: Пометит начало запуска свойств символов, отформатированные в соответствии с соответствующим элементом Char. Запуск определяется до конца текста или до следующего тега.
+description: Отмечает начало запуска свойств символов, форматированные в соответствии с соответствующим элементом Char. Запуск определяется до конца текста или до следующего тега.
 ms.openlocfilehash: 70f7d3f8333ff0f2c109862455fbd8cc3b340bf4
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540562"
 ---
-# <a name="cp-element-text_type-complextype-visio-xml"></a>Элемент cp (Text_Type complexType) (Visio XML)
+# <a name="cp-element-text_type-complextype-visio-xml"></a>элемент cp (Text_Type ComplexType) (Visio XML)
 
-Пометит начало запуска свойств символов, отформатированные в соответствии с соответствующим элементом Char. Запуск определяется в конце текста или до следующего тега.
+Отмечает начало запуска свойств символов, форматированные в соответствии с соответствующим элементом Char. Запуск определяется до конца текста или до следующего тега.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34540562"
 |**Тип элемента** <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |page#.xml, master#.xml  <br/> |
+|**Части документов** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -52,6 +52,6 @@ ms.locfileid: "34540562"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Индекс элемента Char, который представляет данное свойство.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Индекс элемента Char, который представляет это свойство.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
    
 

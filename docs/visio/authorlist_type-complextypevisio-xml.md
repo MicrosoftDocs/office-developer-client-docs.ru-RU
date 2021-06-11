@@ -1,5 +1,5 @@
 ---
-title: AuthorList_Type complexType (Visio XML)
+title: AuthorList_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537901"
 ---
-# <a name="authorlist_type-complextype-visio-xml"></a>AuthorList_Type complexType (Visio XML)
+# <a name="authorlist_type-complextype-visio-xml"></a>AuthorList_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 

@@ -1,5 +1,5 @@
 ---
-title: Элемент RuleTest (Rule_Type complexType) (Visio XML)
+title: Элемент RuleTest (Rule_Type ComplexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541521"
 ---
-# <a name="ruletest-element-rule_type-complextype-visio-xml"></a>Элемент RuleTest (Rule_Type complexType) (Visio XML)
+# <a name="ruletest-element-rule_type-complextype-visio-xml"></a>Элемент RuleTest (Rule_Type ComplexType) (Visio XML)
 
 Указывает логическое выражение, которое определяет, удовлетворяет ли целевой объект правилу проверки.
   
@@ -25,7 +25,7 @@ ms.locfileid: "34541521"
 |**Тип элемента** <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |validation.xml  <br/> |
+|**Части документов** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 

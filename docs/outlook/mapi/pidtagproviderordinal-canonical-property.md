@@ -23,26 +23,26 @@ ms.locfileid: "33438353"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит индекс позиции поставщика услуг на основе нуля в таблице поставщиков.
+Содержит нулевой индекс позиции поставщика услуг в таблице поставщика.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_PROVIDER_ORDINAL  <br/> |
 |Идентификатор:  <br/> |0x300D  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Общие MAPI  <br/> |
+|Область:  <br/> |MAPI общие  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство вычисляется с помощью MAPI.
+Это свойство вычисляется MAPI.
   
-Получите таблицу поставщика, вызывая метод [IMsgServiceAdmin::GetProviderTable.](imsgserviceadmin-getprovidertable.md) Отсортировать таблицу поставщика по этому свойству, чтобы отобразить порядок транспорта. 
+Получение таблицы поставщика с помощью метода [IMsgServiceAdmin::GetProviderTable.](imsgserviceadmin-getprovidertable.md) Сортировка таблицы поставщика в этом свойстве для отображения порядка транспортировки. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовок
+### <a name="header-files"></a>Файлы заголовки
 
 Mapidefs.h
   
@@ -62,5 +62,5 @@ Mapitags.h
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с каноническими именами свойств](mapping-mapi-names-to-canonical-property-names.md)
 

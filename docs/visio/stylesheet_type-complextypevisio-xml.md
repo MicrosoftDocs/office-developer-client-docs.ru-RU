@@ -1,5 +1,5 @@
 ---
-title: StyleSheet_Type complexType (Visio XML)
+title: StyleSheet_Type Type (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541983"
 ---
-# <a name="stylesheet_type-complextype-visio-xml"></a>StyleSheet_Type complexType (Visio XML)
+# <a name="stylesheet_type-complextype-visio-xml"></a>StyleSheet_Type Type (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 

@@ -1,5 +1,5 @@
 ---
-title: Элемент RuleFilter (Rule_Type complexType) (Visio XML)
+title: Элемент RuleFilter (Rule_Type ComplexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541682"
 ---
-# <a name="rulefilter-element-rule_type-complextype-visio-xml"></a>Элемент RuleFilter (Rule_Type complexType) (Visio XML)
+# <a name="rulefilter-element-rule_type-complextype-visio-xml"></a>Элемент RuleFilter (Rule_Type ComplexType) (Visio XML)
 
 Указывает логическое выражение, которое определяет, следует ли применять правило проверки к целевому объекту.
   
@@ -25,7 +25,7 @@ ms.locfileid: "34541682"
 |**Тип элемента** <br/> |[RuleFilter_Type](rulefilter_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |validation.xml  <br/> |
+|**Части документов** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 

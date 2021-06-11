@@ -23,7 +23,7 @@ ms.locfileid: "33438822"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Уничтожает [структуру SRowSet](srowset.md) и освободит связанную память, включая память, выделенную для всех массивов и структур членов. 
   
@@ -39,11 +39,11 @@ void FreeProws(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _prows_
   
-> [in] Указатель на **структуру SRowSet,** которая должна быть уничтожена. 
+> [in] Указатель на **структуру SRowSet,** которая будет уничтожена. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -51,9 +51,9 @@ void FreeProws(
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-В рамках реализации **FreeProws** MAPI вызывает функцию [MAPIFreeBuffer,](mapifreebuffer.md) чтобы освободить все записи в структуре **SRowSet** перед тем, как освободить полную структуру. Поэтому все такие записи должны следовать правилам выделения для структуры [SRowSet,](srowset.md) используя отдельный вызов [MAPIAllocateBuffer](mapiallocatebuffer.md) для каждого массива и структуры членов. 
+В рамках своей реализации **FreeProws** MAPI вызывает функцию [MAPIFreeBuffer,](mapifreebuffer.md) чтобы освободить каждую запись в **структуре SRowSet,** прежде чем освободить полную структуру. Поэтому все такие записи должны следовать правилам распределения для структуры [SRowSet,](srowset.md) используя отдельный вызов [MAPIAllocateBuffer](mapiallocatebuffer.md) для каждого массива и структуры участников. 
   
-Дополнительные сведения о том, как напоить память для структур **ADRLIST** и **SRowSet,** см. в под управлением памятью [для структур ADRLIST и SRowSet.](managing-memory-for-adrlist-and-srowset-structures.md) 
+Дополнительные сведения о деление памяти для структур **ADRLIST** и **SRowSet** см. в рубрике Управление памятью для [структур ADRLIST и SRowSet.](managing-memory-for-adrlist-and-srowset-structures.md) 
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -61,7 +61,7 @@ void FreeProws(
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI использует метод **FreeProws,** чтобы освободить структуру SRowSet, содержащую строки обрабатываемой таблицы.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI использует **метод FreeProws,** чтобы освободить структуру SRowSet, содержащую строки обрабатываемой таблицы.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

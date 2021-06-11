@@ -30,7 +30,7 @@ ms.locfileid: "52062013"
 HRESULT IMAPIInitMonitor::Wait(DWORD timeout)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 _timeout_
 > [in] Количество миллисекунд, которые нужно ждать инициализации MAPI, можно передать INFINITE (0xFFFFFFFF), чтобы ждать вечно.
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9a3b9d5a-fcba-eb18-3199-bd5a7f889af8
-description: Указывает, можно ли обновлять набор записей с помощью служб Visio в Microsoft SharePoint Server 2013.
+description: Указывает, является ли набор записей обновляемым с Visio services в Microsoft SharePoint Server 2013 г.
 ms.openlocfilehash: 21a0a5c198998c4b230be88c6bd9f96b25265990
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34542879"
 ---
 # <a name="refreshabledata-element-publishsettings_type-complextype-visio-xml"></a>Элемент RefreshableData (PublishSettings_Type complexType) (Visio XML)
 
-Указывает, можно ли обновлять набор записей с помощью служб Visio в Microsoft SharePoint Server 2013.
+Указывает, является ли набор записей обновляемым с Visio services в Microsoft SharePoint Server 2013 г.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34542879"
 |**Тип элемента** <br/> |[RefreshableData_Type](refreshabledata_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |document.xml  <br/> |
+|**Части документов** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -43,7 +43,7 @@ ms.locfileid: "34542879"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Указывает параметры, используемые при открытие схемы с помощью служб Visio.  <br/> |
+|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Указывает параметры, используемые при открываемой схеме с помощью Visio Services.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

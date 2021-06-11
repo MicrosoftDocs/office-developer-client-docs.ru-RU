@@ -1,5 +1,5 @@
 ---
-title: Элемент ColorEntry (Colors_Type complexType) (Visio XML)
+title: Элемент ColorEntry (Colors_Type ComplexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540184"
 ---
-# <a name="colorentry-element-colors_type-complextype-visio-xml"></a>Элемент ColorEntry (Colors_Type complexType) (Visio XML)
+# <a name="colorentry-element-colors_type-complextype-visio-xml"></a>Элемент ColorEntry (Colors_Type ComplexType) (Visio XML)
 
 Содержит запись цветовой таблицы.
   
@@ -25,7 +25,7 @@ ms.locfileid: "34540184"
 |**Тип элемента** <br/> |[ColorEntry_Type](colorentry_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |document.xml  <br/> |
+|**Части документов** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "34540184"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Colors](colors-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Colors_Type](colors_type-complextypevisio-xml.md) <br/> |Содержит таблицу цветов документа.  <br/> |
+|[Colors](colors-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Colors_Type](colors_type-complextypevisio-xml.md) <br/> |Содержит цветовую таблицу документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "34540184"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Индекс элемента в родительском элементе с нулем.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Нулевой индекс элемента в родительском элементе.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
 |RGB  <br/> |xsd:string  <br/> |Обязательный  <br/> |Hexadecimal value of the color table entry.  <br/> |Значения типа xsd:string.  <br/> |
    
 

@@ -23,9 +23,9 @@ ms.locfileid: "33438430"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет количество ветвей в существующей [структуре SPropTagArray.](sproptagarray.md) 
+Вычисляет количество bytes в существующей [структуре SPropTagArray.](sproptagarray.md) 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "33438430"
 CbSPropTagArray (_lparray)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _ _lparray_
   

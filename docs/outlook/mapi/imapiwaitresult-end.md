@@ -30,7 +30,7 @@ ms.locfileid: "52062034"
 HRESULT IMAPIWaitResult::End(DWORD timeout)
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _timeout_
 > [in] Количество миллисекунд для ожидания инициализации MAPI можно передать INFINITE (0xFFFFFFFF), чтобы ждать вечно.

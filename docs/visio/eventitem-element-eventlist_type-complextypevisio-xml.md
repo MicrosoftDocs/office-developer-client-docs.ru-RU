@@ -1,5 +1,5 @@
 ---
-title: Элемент EventItem (EventList_Type complexType) (Visio XML)
+title: Элемент EventItem (EventList_Type ComplexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541843"
 ---
-# <a name="eventitem-element-eventlist_type-complextype-visio-xml"></a>Элемент EventItem (EventList_Type complexType) (Visio XML)
+# <a name="eventitem-element-eventlist_type-complextype-visio-xml"></a>Элемент EventItem (EventList_Type ComplexType) (Visio XML)
 
 Инкапсулирует код события.
   
@@ -25,7 +25,7 @@ ms.locfileid: "34541843"
 |**Тип элемента** <br/> |[EventItem_Type](eventitem_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |document.xml  <br/> |
+|**Части документов** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "34541843"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[EventList](eventlist-element-visiodocument_type-complextypevisio-xml.md) <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |Содержит элемент **EventItem** для каждого события, на которое должен реагировать объект.  <br/> |
+|[EventList](eventlist-element-visiodocument_type-complextypevisio-xml.md) <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |Содержит элемент **EventItem** для каждого события, на которое должен отвечать объект.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -55,8 +55,8 @@ ms.locfileid: "34541843"
 |Action  <br/> |xsd:unsignedShort  <br/> |Обязательный  <br/> |Указывает код действия родительского **элемента EventItem.**  <br/> |Значения для типа xsd:unsignedShort.  <br/> |
 |Включено  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Представляет флаг, указывающий, включено или отключено событие.  <br/> |Значения типа xsd:boolean.  <br/> |
 |EventCode  <br/> |xsd:unsignedShort  <br/> |Обязательный  <br/> |Код, указывающий событие, запускающее надстройки.  <br/> |Значения для типа xsd:unsignedShort.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |ИД события.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|Target  <br/> |xsd:string  <br/> |Обязательный  <br/> |Указывает целевой объект события.  <br/> |Значения типа xsd:string.  <br/> |
-|TargetArgs  <br/> |xsd:string  <br/> |Обязательный  <br/> |Указывает строку, содержащую аргументы, которые необходимо отправить в целевой объект события.  <br/> |Значения типа xsd:string.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |ID события.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|Target  <br/> |xsd:string  <br/> |Обязательный  <br/> |Указывает цель события.  <br/> |Значения типа xsd:string.  <br/> |
+|TargetArgs  <br/> |xsd:string  <br/> |Обязательный  <br/> |Указывает строку, содержащую аргументы, которые будут отправлены в целевой объект события.  <br/> |Значения типа xsd:string.  <br/> |
    
 

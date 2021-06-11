@@ -1,5 +1,5 @@
 ---
-title: Cell_Type complexType (Visio XML)
+title: Cell_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542305"
 ---
-# <a name="cell_type-complextype-visio-xml"></a>Cell_Type complexType (Visio XML)
+# <a name="cell_type-complextype-visio-xml"></a>Cell_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -72,7 +72,7 @@ ms.locfileid: "34542305"
 |:-----|:-----|:-----|:-----|:-----|
 |E  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
 |F  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
-|N  <br/> |xsd:string  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|Нет  <br/> |xsd:string  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
 |U  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
 |V  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
    

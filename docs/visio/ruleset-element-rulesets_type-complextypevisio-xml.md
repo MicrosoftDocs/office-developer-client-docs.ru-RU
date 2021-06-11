@@ -1,12 +1,12 @@
 ---
-title: Элемент RuleSet (RuleSets_Type complexType) (Visio XML)
+title: Элемент RuleSet (RuleSets_Type ComplexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5ca63b8a-782e-211f-be7a-8e177b61d8fc
-description: Представляет один набор правил проверки схемы.
+description: Представляет один набор правил проверки диаграммы.
 ms.openlocfilehash: c6fc8df6d9c84f44496d69207dfb9cfb878659e3
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541640"
 ---
-# <a name="ruleset-element-rulesets_type-complextype-visio-xml"></a>Элемент RuleSet (RuleSets_Type complexType) (Visio XML)
+# <a name="ruleset-element-rulesets_type-complextype-visio-xml"></a>Элемент RuleSet (RuleSets_Type ComplexType) (Visio XML)
 
-Представляет один набор правил проверки схемы.
+Представляет один набор правил проверки диаграммы.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34541640"
 |**Тип элемента** <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |validation.xml  <br/> |
+|**Части документов** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "34541640"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |Включает элемент **RuleSet для** каждого набора правил проверки в документе.  <br/> |
+|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |Включает элемент **RuleSet** для каждого правила проверки, за набором в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

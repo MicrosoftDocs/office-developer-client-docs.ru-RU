@@ -25,7 +25,7 @@ ms.locfileid: "34541941"
 |**Тип элемента** <br/> |[StyleSheet_Type](stylesheet_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |document.xml  <br/> |
+|**Части документов** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -54,13 +54,13 @@ ms.locfileid: "34541941"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|FillStyle  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |ИД элемента StyleSheet, от которого этот стиль наследует форматирование заливки.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Уникальный ИД элемента в родительском элементе.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|FillStyle  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |ID элемента StyleSheet, от которого этот стиль наследует форматирование заполнения.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Уникальный ID элемента в родительском элементе.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
 |IsCustomName  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает, было ли имя настроено пользователем.  <br/> |Значения типа xsd:boolean.  <br/> |
-|IsCustomNameU  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает, настроено ли пользователем универсальное имя.  <br/> |Значения типа xsd:boolean.  <br/> |
-|LineStyle  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |ИД элемента StyleSheet, от которого этот стиль наследует форматирование строк.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|IsCustomNameU  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает, было ли универсальное имя настроено пользователем.  <br/> |Значения типа xsd:boolean.  <br/> |
+|LineStyle  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |ID элемента StyleSheet, от которого этот стиль наследует форматирование строк.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
 |Имя  <br/> |xsd:string  <br/> |необязательный  <br/> |Имя элемента.  <br/> |Значения типа xsd:string.  <br/> |
 |NameU  <br/> |xsd:string  <br/> |необязательный  <br/> |Универсальное имя элемента.  <br/> |Значения типа xsd:string.  <br/> |
-|TextStyle  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |ИД элемента StyleSheet, от которого этот стиль наследует форматирование текста.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|TextStyle  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |ID элемента StyleSheet, от которого этот стиль наследует форматирование текста.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
    
 

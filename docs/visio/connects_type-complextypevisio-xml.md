@@ -1,5 +1,5 @@
 ---
-title: Connects_Type complexType (Visio XML)
+title: Connects_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538699"
 ---
-# <a name="connects_type-complextype-visio-xml"></a>Connects_Type complexType (Visio XML)
+# <a name="connects_type-complextype-visio-xml"></a>Connects_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 

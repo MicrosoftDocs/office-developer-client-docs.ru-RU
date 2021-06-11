@@ -23,7 +23,7 @@ ms.locfileid: "33439403"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит массив значений валюты, используемых для описания свойства типа PT_MV_CURRENCY. 
   
@@ -44,7 +44,7 @@ typedef struct _SCurrencyArray
 
  **cValues**
   
-> Количество значений в массиве, на который указывает **член lpcur.** 
+> Количество значений в массиве, на который указывает член **lpcur.** 
     
  **lpcur**
   
@@ -52,7 +52,7 @@ typedef struct _SCurrencyArray
     
 ## <a name="remarks"></a>Примечания
 
-Сведения о PT_MV_CURRENCY [см. в списке типов свойств.](property-types.md) 
+Сведения о PT_MV_CURRENCY см. [в списке типов свойств.](property-types.md) 
   
 ## <a name="see-also"></a>См. также
 

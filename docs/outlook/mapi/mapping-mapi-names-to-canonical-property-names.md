@@ -1,5 +1,5 @@
 ---
-title: Сопоставление имен MAPI с именами канонических свойств
+title: Сопоставление имен MAPI с каноническими именами свойств
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542704"
 ---
-# <a name="mapping-mapi-names-to-canonical-property-names"></a>Сопоставление имен MAPI с именами канонических свойств
+# <a name="mapping-mapi-names-to-canonical-property-names"></a>Сопоставление имен MAPI с каноническими именами свойств
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В этом разделе каждое свойство MAPI сопозовуется с соответствующим именем канонического свойства. Раздел содержит три таблицы: таблицу для именуемого свойства с числовые идентификаторы, вторую таблицу именуемого свойства с идентификаторами строк и третью таблицу для помеченных свойств.
+В этом разделе каждое свойство MAPI соответствует соответствующему каноническому имени свойства. Тема содержит три таблицы: таблицу для именных свойств с числными идентификаторами, вторую таблицу для именных свойств с идентификаторами строки и третью таблицу для помеченных свойств.
   
-Дополнительные сведения о том, как канонические свойства связаны со свойствами MAPI, см. в этой [теме.](mapi-canonical-properties.md)
+Дополнительные сведения о том, как канонические свойства относятся к свойствам MAPI, см. в дополнительных сведениях [о канонических свойствах MAPI.](mapi-canonical-properties.md)
   
 ## <a name="named-properties-with-numerical-identifiers"></a>Named Properties with Numerical Identifiers
 
-|**Фактическое именованое свойство**|**Имя канонического свойства**|
+|**Фактическое имя свойства**|**Canonical Property Name**|
 |:-----|:-----|
 |dispidABPArrayType  <br/> |[PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md) <br/> |
 |dispidABPEmailList  <br/> |[PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md) <br/> |
@@ -91,7 +91,7 @@ ms.locfileid: "34542704"
 |dispidContactUserField3  <br/> |[PidLidContactUserField3](pidlidcontactuserfield3-canonical-property.md) <br/> |
 |dispidContactUserField4  <br/> |[PidLidContactUserField4](pidlidcontactuserfield4-canonical-property.md) <br/> |
 |dispidCurrentVersion  <br/> |[PidLidCurrentVersion](pidlidcurrentversion-canonical-property.md) <br/> |
-|dispidCurrentVersionName  <br/> |[PidLidCurrentVersionName](pidlidcurrentversionname-canonical-property.md) <br/> |
+|dispidCurrentVersionName  <br/> |[Имя PidLidCurrentVersionName](pidlidcurrentversionname-canonical-property.md) <br/> |
 |dispidCustomFlag  <br/> |[PidLidCustomFlag](pidlidcustomflag-canonical-property.md) <br/> |
 |dispidDLChecksum  <br/> |[PidLidDistributionListChecksum](pidliddistributionlistchecksum-canonical-property.md) <br/> |
 |dispidDLMembers  <br/> |[PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md) <br/> |
@@ -100,30 +100,30 @@ ms.locfileid: "34542704"
 |dispidEmail1AddrType  <br/> |[PidLidEmail1AddressType](pidlidemail1addresstype-canonical-property.md) <br/> |
 |dispidEmail1DisplayName  <br/> |[PidLidEmail1DisplayName](pidlidemail1displayname-canonical-property.md) <br/> |
 |dispidEmail1EmailAddress  <br/> |[PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md) <br/> |
-|dispidEmail1OriginalDisplayName  <br/> |[PidLidEmail1OriginalDisplayName](pidlidemail1originaldisplayname-canonical-property.md) <br/> |
+|dispidEmail1OriginalDisplayName  <br/> |[Имя PidLidEmail1OriginalDisplayName](pidlidemail1originaldisplayname-canonical-property.md) <br/> |
 |dispidEmail1OriginalEntryID  <br/> |[PidLidEmail1OriginalEntryId](pidlidemail1originalentryid-canonical-property.md) <br/> |
 |dispidEmail2AddrType  <br/> |[PidLidEmail2AddressType](pidlidemail2addresstype-canonical-property.md) <br/> |
-|dispidEmail2DisplayName  <br/> |[PidLidEmail2DisplayName](pidlidemail2displayname-canonical-property.md) <br/> |
+|dispidEmail2DisplayName  <br/> |[Имя PidLidEmail2DisplayName](pidlidemail2displayname-canonical-property.md) <br/> |
 |dispidEmail2EmailAddress  <br/> |[PidLidEmail2EmailAddress](pidlidemail2emailaddress-canonical-property.md) <br/> |
 |dispidEmail2OriginalDisplayName  <br/> |[PidLidEmail2OriginalDisplayName](pidlidemail2originaldisplayname-canonical-property.md) <br/> |
 |dispidEmail2OriginalEntryID  <br/> |[PidLidEmail2OriginalEntryId](pidlidemail2originalentryid-canonical-property.md) <br/> |
 |dispidEmail3AddrType  <br/> |[PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md) <br/> |
-|dispidEmail3DisplayName  <br/> |[PidLidEmail3DisplayName](pidlidemail3displayname-canonical-property.md) <br/> |
+|dispidEmail3DisplayName  <br/> |[Имя PidLidEmail3DisplayName](pidlidemail3displayname-canonical-property.md) <br/> |
 |dispidEmail3EmailAddress  <br/> |[PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md) <br/> |
-|dispidEmail3OriginalDisplayName  <br/> |[PidLidEmail3OriginalDisplayName](pidlidemail3originaldisplayname-canonical-property.md) <br/> |
+|dispidEmail3OriginalDisplayName  <br/> |[Имя PidLidEmail3OriginalDisplayName](pidlidemail3originaldisplayname-canonical-property.md) <br/> |
 |dispidEmail3OriginalEntryID  <br/> |[PidLidEmail3OriginalEntryId](pidlidemail3originalentryid-canonical-property.md) <br/> |
 |dispidEMSAbX509Cert  <br/> |[PidLidUserX509Certificate](pidliduserx509certificate-canonical-property.md) <br/> |
 |dispidExceptionReplaceTime  <br/> |[PidLidExceptionReplaceTime](pidlidexceptionreplacetime-canonical-property.md) <br/> |
 |dispidFax1AddrType  <br/> |[PidLidFax1AddressType](pidlidfax1addresstype-canonical-property.md) <br/> |
-|dispidFax1DisplayName  <br/> |[PidLidFax1DisplayName](pidlidfax1displayname-canonical-property.md) <br/> |
+|dispidFax1DisplayName  <br/> |[Имя PidLidFax1DisplayName](pidlidfax1displayname-canonical-property.md) <br/> |
 |dispidFax1EmailAddress  <br/> |[PidLidFax1EmailAddress](pidlidfax1emailaddress-canonical-property.md) <br/> |
 |dispidFax1EmailType  <br/> |[PidLidFax1EmailType](pidlidfax1emailtype-canonical-property.md) <br/> |
 |dispidFax1EntryID  <br/> |[PidLidFax1EntryId](pidlidfax1entryid-canonical-property.md) <br/> |
-|dispidFax1OriginalDisplayName  <br/> |[PidLidFax1OriginalDisplayName](pidlidfax1originaldisplayname-canonical-property.md) <br/> |
+|dispidFax1OriginalDisplayName  <br/> |[Имя PidLidFax1OriginalDisplayName](pidlidfax1originaldisplayname-canonical-property.md) <br/> |
 |dispidFax1OriginalEntryID  <br/> |[PidLidFax1OriginalEntryId](pidlidfax1originalentryid-canonical-property.md) <br/> |
 |dispidFax1RTF  <br/> |[PidLidFax1RichTextFormat](pidlidfax1richtextformat-canonical-property.md) <br/> |
 |dispidFax2AddrType  <br/> |[PidLidFax2AddressType](pidlidfax2addresstype-canonical-property.md) <br/> |
-|dispidFax2DisplayName  <br/> |[PidLidFax2DisplayName](pidlidfax2displayname-canonical-property.md) <br/> |
+|dispidFax2DisplayName  <br/> |[Имя PidLidFax2DisplayName](pidlidfax2displayname-canonical-property.md) <br/> |
 |dispidFax2EmailAddress  <br/> |[PidLidFax2EmailAddress](pidlidfax2emailaddress-canonical-property.md) <br/> |
 |dispidFax2EmailType  <br/> |[PidLidFax2EmailType](pidlidfax2emailtype-canonical-property.md) <br/> |
 |dispidFax2EntryID  <br/> |[PidLidFax2EntryId](pidlidfax2entryid-canonical-property.md) <br/> |
@@ -131,7 +131,7 @@ ms.locfileid: "34542704"
 |dispidFax2OriginalEntryID  <br/> |[PidLidFax2OriginalEntryId](pidlidfax2originalentryid-canonical-property.md) <br/> |
 |dispidFax2RTF  <br/> |[PidLidFax2RichTextFormat](pidlidfax2richtextformat-canonical-property.md) <br/> |
 |dispidFax3AddrType  <br/> |[PidLidFax3AddressType](pidlidfax3addresstype-canonical-property.md) <br/> |
-|dispidFax3DisplayName  <br/> |[PidLidFax3DisplayName](pidlidfax3displayname-canonical-property.md) <br/> |
+|dispidFax3DisplayName  <br/> |[Имя PidLidFax3DisplayName](pidlidfax3displayname-canonical-property.md) <br/> |
 |dispidFax3EmailAddress  <br/> |[PidLidFax3EmailAddress](pidlidfax3emailaddress-canonical-property.md) <br/> |
 |dispidFax3EmailType  <br/> |[PidLidFax3EmailType](pidlidfax3emailtype-canonical-property.md) <br/> |
 |dispidFax3EntryID  <br/> |[PidLidFax3EntryId](pidlidfax3entryid-canonical-property.md) <br/> |
@@ -226,7 +226,7 @@ ms.locfileid: "34542704"
 |dispidSharingConfigUrl  <br/> |[PidLidSharingConfigurationUrl](pidlidsharingconfigurationurl-canonical-property.md) <br/> |
 |dispidSharingFlavor  <br/> |[PidLidSharingFlavor](pidlidsharingflavor-canonical-property.md) <br/> |
 |dispidSharingInitiatorEid  <br/> |[PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md) <br/> |
-|dispidSharingInitiatorName  <br/> |[PidLidSharingInitiatorName](pidlidsharinginitiatorname-canonical-property.md) <br/> |
+|dispidSharingInitiatorName  <br/> |[Имя PidLidSharingInitiatorName](pidlidsharinginitiatorname-canonical-property.md) <br/> |
 |dispidSharingInitiatorSmtp  <br/> |[PidLidSharingInitiatorSmtp](pidlidsharinginitiatorsmtp-canonical-property.md) <br/> |
 |dispidSharingLocalType  <br/> |[PidLidSharingLocalType](pidlidsharinglocaltype-canonical-property.md) <br/> |
 |dispidSharingProviderGuid  <br/> |[PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md) <br/> |
@@ -286,7 +286,7 @@ ms.locfileid: "34542704"
 |dispidWorkAddress  <br/> |[PidLidWorkAddress](pidlidworkaddress-canonical-property.md) <br/> |
 |dispidWorkAddressCity  <br/> |[PidLidWorkAddressCity](pidlidworkaddresscity-canonical-property.md) <br/> |
 |dispidWorkAddressCountry  <br/> |[PidLidWorkAddressCountry](pidlidworkaddresscountry-canonical-property.md) <br/> |
-|dispidWorkAddressCountryCode  <br/> |[PidLidWorkAddressCountryCode](pidlidworkaddresscountrycode-canonical-property.md) <br/> |
+|dispidWorkAddressCountryCode  <br/> |[Код PidLidWorkAddressCountryCode](pidlidworkaddresscountrycode-canonical-property.md) <br/> |
 |dispidWorkAddressPostalCode  <br/> |[PidLidWorkAddressPostalCode](pidlidworkaddresspostalcode-canonical-property.md) <br/> |
 |dispidWorkAddressPostOfficeBox  <br/> |[PidLidWorkAddressPostOfficeBox](pidlidworkaddresspostofficebox-canonical-property.md) <br/> |
 |dispidWorkAddressState  <br/> |[PidLidWorkAddressState](pidlidworkaddressstate-canonical-property.md) <br/> |
@@ -304,20 +304,20 @@ ms.locfileid: "34542704"
 |LID_TIME_ZONE  <br/> |[PidLidTimeZone](pidlidtimezone-canonical-property.md) <br/> |
 |LID_WHERE  <br/> |[PidLidWhere](pidlidwhere-canonical-property.md) <br/> |
    
-## <a name="named-properties-with-string-identifiers"></a>Named Properties with String Identifiers
+## <a name="named-properties-with-string-identifiers"></a>Названные свойства с идентификаторами строки
 
-|**Фактическое именованое свойство**|**Имя канонического свойства**|
+|**Фактическое имя свойства**|**Canonical Property Name**|
 |:-----|:-----|
-|Accept-Language  <br/> |[PidNameAcceptLanguage](pidnameacceptlanguage-canonical-property.md) <br/> |
-|AppName  <br/> |[PidNameApplicationName](pidnameapplicationname-canonical-property.md) <br/> |
+|Принять-Язык  <br/> |[PidNameAcceptLanguage](pidnameacceptlanguage-canonical-property.md) <br/> |
+|AppName  <br/> |[Имя PidNameApplication](pidnameapplicationname-canonical-property.md) <br/> |
 |AttachmentMacContentType  <br/> |[PidNameAttachmentMacContentType](pidnameattachmentmaccontenttype-canonical-property.md) <br/> |
 |AttachmentMacInfo  <br/> |[PidNameAttachmentMacInfo](pidnameattachmentmacinfo-canonical-property.md) <br/> |
 |Автор  <br/> |[PidNameAuthor](pidnameauthor-canonical-property.md) <br/> |
 |ByteCount  <br/> |[PidNameByteCount](pidnamebytecount-canonical-property.md) <br/> |
 |Category  <br/> |[PidNameCategory](pidnamecategory-canonical-property.md) <br/> |
 |CharCount  <br/> |[PidNameCharacterCount](pidnamecharactercount-canonical-property.md) <br/> |
-|Примечания  <br/> |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |
-|Company  <br/> |[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |
+|Комментарии  <br/> |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |
+|Организация  <br/> |[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |
 |Content-Base  <br/> |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |
 |Content-Class  <br/> |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |
 |Content-Transfer-Encoding  <br/> |[PidNameContentTransferEncoding](pidnamecontenttransferencoding-canonical-property.md) <br/> |
@@ -342,18 +342,18 @@ ms.locfileid: "34542704"
 |RevNumber  <br/> |[PidNameRevisionNumber](pidnamerevisionnumber-canonical-property.md) <br/> |
 |Безопасность  <br/> |[PidNameSecurity](pidnamesecurity-canonical-property.md) <br/> |
 |SlideCount  <br/> |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |
-|Subject  <br/> |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |
+|Тема  <br/> |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |
 |Шаблон  <br/> |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |
 |Название  <br/> |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |
 |UMAudioNotes  <br/> |[PidNameAudioNotes](pidnameaudionotes-canonical-property.md) <br/> |
 |WordCount  <br/> |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |
-|X-Sharing-Capabilities  <br/> |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |
-|X-Sharing-Config-Url  <br/> |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |
+|Возможности X-Sharing  <br/> |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |
+|X-Sharing-Config-URL  <br/> |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |
 |X-Sharing-Flavor  <br/> |[PidNameXSharingFlavor](pidnamexsharingflavor-canonical-property.md) <br/> |
 |X-Sharing-Local-Type  <br/> |[PidNameXSharingLocalType](pidnamexsharinglocaltype-canonical-property.md) <br/> |
 |X-Sharing-Provider-Guid  <br/> |[PidNameXSharingProviderGuid](pidnamexsharingproviderguid-canonical-property.md) <br/> |
-|X-Sharing-Provider-Name  <br/> |[PidNameXSharingProviderName](pidnamexsharingprovidername-canonical-property.md) <br/> |
-|X-Sharing-Provider-Url  <br/> |[PidNameXSharingProviderUrl](pidnamexsharingproviderurl-canonical-property.md) <br/> |
+|Имя X-Sharing-Provider  <br/> |[PidNameXSharingProviderName](pidnamexsharingprovidername-canonical-property.md) <br/> |
+|X-Sharing-Provider-URL  <br/> |[PidNameXSharingProviderUrl](pidnamexsharingproviderurl-canonical-property.md) <br/> |
 |X-Sharing-Remote-Name  <br/> |[PidNameXSharingRemoteName](pidnamexsharingremotename-canonical-property.md) <br/> |
 |X-Sharing-Remote-Store-Uid  <br/> |[PidNameXSharingRemoteStoreUid](pidnamexsharingremotestoreuid-canonical-property.md) <br/> |
 |X-Sharing-Remote-Type  <br/> |[PidNameXSharingRemoteType](pidnamexsharingremotetype-canonical-property.md) <br/> |
@@ -362,11 +362,11 @@ ms.locfileid: "34542704"
    
 ## <a name="tagged-properties"></a>Помеченные свойства
 
-|**Фактическое свойство Tagged**|**Имя канонического свойства**|
+|**Фактическое свойство Tagged**|**Canonical Property Name**|
 |:-----|:-----|
-|PR_7BIT_DISPLAY_NAME_A  <br/> |[PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md) <br/> |
-|PR_7BIT_DISPLAY_NAME_W  <br/> |[PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md) <br/> |
-|PR_7BIT_DISPLAY_NAME  <br/> |[PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md) <br/> |
+|PR_7BIT_DISPLAY_NAME_A  <br/> |[Имя PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md) <br/> |
+|PR_7BIT_DISPLAY_NAME_W  <br/> |[Имя PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md) <br/> |
+|PR_7BIT_DISPLAY_NAME  <br/> |[Имя PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md) <br/> |
 |PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY  <br/> |[PidTagAddressBookChooseDirectoryAutomatically](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) <br/> |
 |PR_AB_DEFAULT_DIR  <br/> |[PidTagAbDefaultDir](pidtagabdefaultdir-canonical-property.md) <br/> |
 |PR_AB_PROVIDER_ID  <br/> |[PidTagAbProviderId](pidtagabproviderid-canonical-property.md) <br/> |
@@ -444,9 +444,9 @@ ms.locfileid: "34542704"
 |PR_ATTACH_RENDERING  <br/> |[PidTagAttachRendering](pidtagattachrendering-canonical-property.md) <br/> |
 |PR_ATTACH_SIZE  <br/> |[PidTagAttachSize](pidtagattachsize-canonical-property.md) <br/> |
 |PR_ATTACH_TAG  <br/> |[PidTagAttachTag](pidtagattachtag-canonical-property.md) <br/> |
-|PR_ATTACH_TRANSPORT_NAME_A  <br/> |[PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md) <br/> |
-|PR_ATTACH_TRANSPORT_NAME_W  <br/> |[PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md) <br/> |
-|PR_ATTACH_TRANSPORT_NAME  <br/> |[PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md) <br/> |
+|PR_ATTACH_TRANSPORT_NAME_A  <br/> |[Имя PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md) <br/> |
+|PR_ATTACH_TRANSPORT_NAME_W  <br/> |[Имя PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md) <br/> |
+|PR_ATTACH_TRANSPORT_NAME  <br/> |[Имя PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md) <br/> |
 |PR_ATTACHMENT_CONTACTPHOTO  <br/> |[PidTagAttachmentContactPhoto](pidtagattachmentcontactphoto-canonical-property.md) <br/> |
 |PR_ATTACHMENT_FLAGS  <br/> |[PidTagAttachmentFlags](pidtagattachmentflags-canonical-property.md) <br/> |
 |PR_ATTACHMENT_HIDDEN  <br/> |[PidTagAttachmentHidden](pidtagattachmenthidden-canonical-property.md) <br/> |
@@ -521,9 +521,9 @@ ms.locfileid: "34542704"
 |PR_COMPANY_NAME_A  <br/> |[PidTagCompanyName](pidtagcompanyname-canonical-property.md) <br/> |
 |PR_COMPANY_NAME_W  <br/> |[PidTagCompanyName](pidtagcompanyname-canonical-property.md) <br/> |
 |PR_COMPANY_NAME  <br/> |[PidTagCompanyName](pidtagcompanyname-canonical-property.md) <br/> |
-|PR_COMPUTER_NETWORK_NAME_A  <br/> |[PidTagComputerNetworkName](pidtagcomputernetworkname-canonical-property.md) <br/> |
-|PR_COMPUTER_NETWORK_NAME_W  <br/> |[PidTagComputerNetworkName](pidtagcomputernetworkname-canonical-property.md) <br/> |
-|PR_COMPUTER_NETWORK_NAME  <br/> |[PidTagComputerNetworkName](pidtagcomputernetworkname-canonical-property.md) <br/> |
+|PR_COMPUTER_NETWORK_NAME_A  <br/> |[Имя PidTagComputerNetworkName](pidtagcomputernetworkname-canonical-property.md) <br/> |
+|PR_COMPUTER_NETWORK_NAME_W  <br/> |[Имя PidTagComputerNetworkName](pidtagcomputernetworkname-canonical-property.md) <br/> |
+|PR_COMPUTER_NETWORK_NAME  <br/> |[Имя PidTagComputerNetworkName](pidtagcomputernetworkname-canonical-property.md) <br/> |
 |PR_CONFLICT_ENTRYID  <br/> |[PidTagConflictEntryId](pidtagconflictentryid-canonical-property.md) <br/> |
 |PR_CONFLICT_ITEMS  <br/> |[PidTagConflictItems](pidtagconflictitems-canonical-property.md) <br/> |
 |PR_CONTAB_DISPLAY_NAMES  <br/> |[PidTagContactAddressBookDisplayNames](pidtagcontactaddressbookdisplaynames-canonical-property.md) <br/> |
@@ -602,9 +602,9 @@ ms.locfileid: "34542704"
 |PR_DELIVERY_POINT  <br/> |[PidTagDeliveryPoint](pidtagdeliverypoint-canonical-property.md) <br/> |
 |PR_DELTAX  <br/> |[PidTagDeltaX](pidtagdeltax-canonical-property.md) <br/> |
 |PR_DELTAY  <br/> |[PidTagDeltaY](pidtagdeltay-canonical-property.md) <br/> |
-|PR_DEPARTMENT_NAME_A  <br/> |[PidTagDepartmentName](pidtagdepartmentname-canonical-property.md) <br/> |
-|PR_DEPARTMENT_NAME_W  <br/> |[PidTagDepartmentName](pidtagdepartmentname-canonical-property.md) <br/> |
-|PR_DEPARTMENT_NAME  <br/> |[PidTagDepartmentName](pidtagdepartmentname-canonical-property.md) <br/> |
+|PR_DEPARTMENT_NAME_A  <br/> |[Имя PidTagDepartmentName](pidtagdepartmentname-canonical-property.md) <br/> |
+|PR_DEPARTMENT_NAME_W  <br/> |[Имя PidTagDepartmentName](pidtagdepartmentname-canonical-property.md) <br/> |
+|PR_DEPARTMENT_NAME  <br/> |[Имя PidTagDepartmentName](pidtagdepartmentname-canonical-property.md) <br/> |
 |PR_DEPTH  <br/> |[PidTagDepth](pidtagdepth-canonical-property.md) <br/> |
 |PR_DETAILS_TABLE  <br/> |[PidTagDetailsTable](pidtagdetailstable-canonical-property.md) <br/> |
 |PR_DISCARD_REASON  <br/> |[PidTagDiscardReason](pidtagdiscardreason-canonical-property.md) <br/> |
@@ -665,9 +665,9 @@ ms.locfileid: "34542704"
 |PR_FORM_CONTACT_NAME_W  <br/> |[PidTagFormContactName](pidtagformcontactname-canonical-property.md) <br/> |
 |PR_FORM_CONTACT_NAME  <br/> |[PidTagFormContactName](pidtagformcontactname-canonical-property.md) <br/> |
 |PR_FORM_DESIGNER_GUID  <br/> |[PidTagFormDesignerGuid](pidtagformdesignerguid-canonical-property.md) <br/> |
-|PR_FORM_DESIGNER_NAME_A  <br/> |[PidTagFormDesignerName](pidtagformdesignername-canonical-property.md) <br/> |
-|PR_FORM_DESIGNER_NAME_W  <br/> |[PidTagFormDesignerName](pidtagformdesignername-canonical-property.md) <br/> |
-|PR_FORM_DESIGNER_NAME  <br/> |[PidTagFormDesignerName](pidtagformdesignername-canonical-property.md) <br/> |
+|PR_FORM_DESIGNER_NAME_A  <br/> |[Имя PidTagFormDesignerName](pidtagformdesignername-canonical-property.md) <br/> |
+|PR_FORM_DESIGNER_NAME_W  <br/> |[Имя PidTagFormDesignerName](pidtagformdesignername-canonical-property.md) <br/> |
+|PR_FORM_DESIGNER_NAME  <br/> |[Имя PidTagFormDesignerName](pidtagformdesignername-canonical-property.md) <br/> |
 |PR_FORM_HIDDEN  <br/> |[PidTagFormHidden](pidtagformhidden-canonical-property.md) <br/> |
 |PR_FORM_HOST_MAP  <br/> |[PidTagFormHostMap](pidtagformhostmap-canonical-property.md) <br/> |
 |PR_FORM_MESSAGE_BEHAVIOR  <br/> |[PidTagFormMessageBehavior](pidtagformmessagebehavior-canonical-property.md) <br/> |
@@ -916,9 +916,9 @@ ms.locfileid: "34542704"
 |PR_ORIGINAL_DISPLAY_CC_A  <br/> |[PidTagOriginalDisplayCc](pidtagoriginaldisplaycc-canonical-property.md) <br/> |
 |PR_ORIGINAL_DISPLAY_CC_W  <br/> |[PidTagOriginalDisplayCc](pidtagoriginaldisplaycc-canonical-property.md) <br/> |
 |PR_ORIGINAL_DISPLAY_CC  <br/> |[PidTagOriginalDisplayCc](pidtagoriginaldisplaycc-canonical-property.md) <br/> |
-|PR_ORIGINAL_DISPLAY_NAME_A  <br/> |[PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md) <br/> |
-|PR_ORIGINAL_DISPLAY_NAME_W  <br/> |[PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md) <br/> |
-|PR_ORIGINAL_DISPLAY_NAME  <br/> |[PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md) <br/> |
+|PR_ORIGINAL_DISPLAY_NAME_A  <br/> |[Имя PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md) <br/> |
+|PR_ORIGINAL_DISPLAY_NAME_W  <br/> |[Имя PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md) <br/> |
+|PR_ORIGINAL_DISPLAY_NAME  <br/> |[Имя PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md) <br/> |
 |PR_ORIGINAL_DISPLAY_TO_A  <br/> |[PidTagOriginalDisplayTo](pidtagoriginaldisplayto-canonical-property.md) <br/> |
 |PR_ORIGINAL_DISPLAY_TO_W  <br/> |[PidTagOriginalDisplayTo](pidtagoriginaldisplayto-canonical-property.md) <br/> |
 |PR_ORIGINAL_DISPLAY_TO  <br/> |[PidTagOriginalDisplayTo](pidtagoriginaldisplayto-canonical-property.md) <br/> |
@@ -965,8 +965,8 @@ ms.locfileid: "34542704"
 |PR_ORIGINATING_MTA_CERTIFICATE  <br/> |[PidTagOriginatingMtaCertificate](pidtagoriginatingmtacertificate-canonical-property.md) <br/> |
 |PR_ORIGINATOR_AND_DL_EXPANSION_HISTORY  <br/> |[PidTagOriginatorAndDistributionListExpansionHistory](pidtagoriginatoranddistributionlistexpansionhistory-canonical-property.md) <br/> |
 |PR_ORIGINATOR_CERTIFICATE  <br/> |[PidTagOriginatorCertificate](pidtagoriginatorcertificate-canonical-property.md) <br/> |
-|PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED  <br/> |[PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md) <br/> |
-|PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED  <br/> |[PidTagOriginatorNonDeliveryReportRequested](pidtagoriginatornondeliveryreportrequested-canonical-property.md) <br/> |
+|PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED  <br/> |[PidTagOriginatorDeliveryReportReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md) <br/> |
+|PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED  <br/> |[PidTagOriginatorNonDeliveryReportReportRequested](pidtagoriginatornondeliveryreportrequested-canonical-property.md) <br/> |
 |PR_ORIGINATOR_REQUESTED_ALTERNATE_RECIPIENT  <br/> |[PidTagOriginatorRequestedAlternateRecipient](pidtagoriginatorrequestedalternaterecipient-canonical-property.md) <br/> |
 |PR_ORIGINATOR_RETURN_ADDRESS  <br/> |[PidTagOriginatorReturnAddress](pidtagoriginatorreturnaddress-canonical-property.md) <br/> |
 |PR_OTHER_ADDRESS_CITY_A  <br/> |[PidTagOtherAddressCity](pidtagotheraddresscity-canonical-property.md) <br/> |
@@ -1046,8 +1046,8 @@ ms.locfileid: "34542704"
 |PR_PROOF_OF_SUBMISSION_REQUESTED  <br/> |[PidTagProofOfSubmissionRequested](pidtagproofofsubmissionrequested-canonical-property.md) <br/> |
 |PR_PROOF_OF_SUBMISSION  <br/> |[PidTagProofOfSubmission](pidtagproofofsubmission-canonical-property.md) <br/> |
 |PR_PROVIDER_DISPLAY_A  <br/> |[PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md) <br/> |
-|PR_PROVIDER_DISPLAY_NAME_W  <br/> |[PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md) <br/> |
-|PR_PROVIDER_DISPLAY_NAME  <br/> |[PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md) <br/> |
+|PR_PROVIDER_DISPLAY_NAME_W  <br/> |[Имя PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md) <br/> |
+|PR_PROVIDER_DISPLAY_NAME  <br/> |[Имя PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md) <br/> |
 |PR_PROVIDER_DISPLAY_W  <br/> |[PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md) <br/> |
 |PR_PROVIDER_DISPLAY  <br/> |[PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md) <br/> |
 |PR_PROVIDER_DLL_NAME_A  <br/> |[PidTagProviderDllName](pidtagproviderdllname-canonical-property.md) <br/> |
@@ -1084,9 +1084,9 @@ ms.locfileid: "34542704"
 |PR_RCVD_REPRESENTING_EMAIL_ADDRESS_W  <br/> |[PidTagReceivedRepresentingEmailAddress](pidtagreceivedrepresentingemailaddress-canonical-property.md) <br/> |
 |PR_RCVD_REPRESENTING_EMAIL_ADDRESS  <br/> |[PidTagReceivedRepresentingEmailAddress](pidtagreceivedrepresentingemailaddress-canonical-property.md) <br/> |
 |PR_RCVD_REPRESENTING_ENTRYID  <br/> |[PidTagReceivedRepresentingEntryId](pidtagreceivedrepresentingentryid-canonical-property.md) <br/> |
-|PR_RCVD_REPRESENTING_NAME_A  <br/> |[PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md) <br/> |
-|PR_RCVD_REPRESENTING_NAME_W  <br/> |[PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md) <br/> |
-|PR_RCVD_REPRESENTING_NAME  <br/> |[PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md) <br/> |
+|PR_RCVD_REPRESENTING_NAME_A  <br/> |[Имя PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md) <br/> |
+|PR_RCVD_REPRESENTING_NAME_W  <br/> |[Имя PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md) <br/> |
+|PR_RCVD_REPRESENTING_NAME  <br/> |[Имя PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md) <br/> |
 |PR_RCVD_REPRESENTING_SEARCH_KEY  <br/> |[PidTagReceivedRepresentingSearchKey](pidtagreceivedrepresentingsearchkey-canonical-property.md) <br/> |
 |PR_READ_RECEIPT_ENTRYID  <br/> |[PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md) <br/> |
 |PR_READ_RECEIPT_REQUESTED  <br/> |[PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md) <br/> |
@@ -1222,7 +1222,7 @@ ms.locfileid: "34542704"
 |PR_SCHDINFO_BOSS_WANTS_COPY  <br/> |[PidTagScheduleInfoDelegatorWantsCopy](pidtagscheduleinfodelegatorwantscopy-canonical-property.md) <br/> |
 |PR_SCHDINFO_BOSS_WANTS_INFO  <br/> |[PidTagScheduleInfoDelegatorWantsInfo](pidtagscheduleinfodelegatorwantsinfo-canonical-property.md) <br/> |
 |PR_SCHDINFO_DELEGATE_ENTRYIDS  <br/> |[PidTagScheduleInfoDelegateEntryIds](pidtagscheduleinfodelegateentryids-canonical-property.md) <br/> |
-|PR_SCHDINFO_DELEGATE_NAMES  <br/> |[PidTagScheduleInfoDelegateNames](pidtagscheduleinfodelegatenames-canonical-property.md) <br/> |
+|PR_SCHDINFO_DELEGATE_NAMES  <br/> |[Имена PidTagScheduleInfoDelegate](pidtagscheduleinfodelegatenames-canonical-property.md) <br/> |
 |PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS  <br/> |[PidTagScheduleInfoDisallowOverlappingAppts](pidtagscheduleinfodisallowoverlappingappts-canonical-property.md) <br/> |
 |PR_SCHDINFO_DISALLOW_RECURRING_APPTS  <br/> |[PidTagScheduleInfoDisallowRecurringAppts](pidtagscheduleinfodisallowrecurringappts-canonical-property.md) <br/> |
 |PR_SCHDINFO_DONT_MAIL_DELEGATES  <br/> |[PidTagScheduleInfoDontMailDelegates](pidtagscheduleinfodontmaildelegates-canonical-property.md) <br/> |
@@ -1267,9 +1267,9 @@ ms.locfileid: "34542704"
 |PR_SENT_REPRESENTING_EMAIL_ADDRESS_W  <br/> |[PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md) <br/> |
 |PR_SENT_REPRESENTING_EMAIL_ADDRESS  <br/> |[PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md) <br/> |
 |PR_SENT_REPRESENTING_ENTRYID  <br/> |[PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md) <br/> |
-|PR_SENT_REPRESENTING_NAME_A  <br/> |[PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md) <br/> |
-|PR_SENT_REPRESENTING_NAME_W  <br/> |[PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md) <br/> |
-|PR_SENT_REPRESENTING_NAME  <br/> |[PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md) <br/> |
+|PR_SENT_REPRESENTING_NAME_A  <br/> |[Имя PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md) <br/> |
+|PR_SENT_REPRESENTING_NAME_W  <br/> |[Имя PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md) <br/> |
+|PR_SENT_REPRESENTING_NAME  <br/> |[Имя PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md) <br/> |
 |PR_SENT_REPRESENTING_SEARCH_KEY  <br/> |[PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md) <br/> |
 |PR_SENT_REPRESENTING_SMTP_ADDRESS_A  <br/> |[PidTagSentRepresentingSmtpAddress](pidtagsentrepresentingsmtpaddress-canonical-property.md) <br/> |
 |PR_SENT_REPRESENTING_SMTP_ADDRESS_W  <br/> |[PidTagSentRepresentingSmtpAddress](pidtagsentrepresentingsmtpaddress-canonical-property.md) <br/> |
@@ -1347,9 +1347,9 @@ ms.locfileid: "34542704"
 |PR_TNEF_CORRELATION_KEY  <br/> |[PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md) <br/> |
 |PR_TNEF_UNPROCESSED_PROPS  <br/> |[PidTagTnefUnprocessedProps](pidtagtnefunprocessedprops-canonical-property.md) <br/> |
 |PR_TODO_ITEM_FLAGS  <br/> |[PidTagToDoItemFlags](pidtagtodoitemflags-canonical-property.md) <br/> |
-|PR_TRANSMITABLE_DISPLAY_NAME_A  <br/> |[PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md) <br/> |
-|PR_TRANSMITABLE_DISPLAY_NAME_W  <br/> |[PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md) <br/> |
-|PR_TRANSMITABLE_DISPLAY_NAME  <br/> |[PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md) <br/> |
+|PR_TRANSMITABLE_DISPLAY_NAME_A  <br/> |[Имя PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md) <br/> |
+|PR_TRANSMITABLE_DISPLAY_NAME_W  <br/> |[Имя PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md) <br/> |
+|PR_TRANSMITABLE_DISPLAY_NAME  <br/> |[Имя PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md) <br/> |
 |PR_TRANSPORT_KEY  <br/> |[PidTagTransportKey](pidtagtransportkey-canonical-property.md) <br/> |
 |PR_TRANSPORT_MESSAGE_HEADERS_A  <br/> |[PidTagTransportMessageHeaders](pidtagtransportmessageheaders-canonical-property.md) <br/> |
 |PR_TRANSPORT_MESSAGE_HEADERS_W  <br/> |[PidTagTransportMessageHeaders](pidtagtransportmessageheaders-canonical-property.md) <br/> |
@@ -1366,8 +1366,8 @@ ms.locfileid: "34542704"
 |PR_USER_CERTIFICATE  <br/> |[PidTagUserCertificate](pidtagusercertificate-canonical-property.md) <br/> |
 |PR_USER_X509_CERTIFICATE  <br/> |[PidTagUserX509Certificate](pidtaguserx509certificate-canonical-property.md) <br/> |
 |PR_VALID_FOLDER_MASK  <br/> |[PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md) <br/> |
-|PR_VD_NAME_W  <br/> |[PidTagViewDescriptorName](pidtagviewdescriptorname-canonical-property.md) <br/> |
-|PR_VD_NAME  <br/> |[PidTagViewDescriptorName](pidtagviewdescriptorname-canonical-property.md) <br/> |
+|PR_VD_NAME_W  <br/> |[Имя PidTagViewDescriptorName](pidtagviewdescriptorname-canonical-property.md) <br/> |
+|PR_VD_NAME  <br/> |[Имя PidTagViewDescriptorName](pidtagviewdescriptorname-canonical-property.md) <br/> |
 |PR_VD_VERSION  <br/> |[PidTagViewDescriptorVersion](pidtagviewdescriptorversion-canonical-property.md) <br/> |
 |PR_VIEWS_ENTRYID  <br/> |[PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md) <br/> |
 |PR_WB_SF_DEFINITION  <br/> |[PidTagSearchFolderDefinition](pidtagsearchfolderdefinition-canonical-property.md) <br/> |

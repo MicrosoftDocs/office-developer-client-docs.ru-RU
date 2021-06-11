@@ -23,19 +23,19 @@ ms.locfileid: "33439823"
 HRESULT _stdcall GetPerson([in] BSTR userId, [out, retval] ISocialPerson** result);
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 _userId_
   
-> [in] Строка, которая содержит ИД пользователя или SMTP-адрес пользователя.
+> [in] Строка, которая содержит пользовательский ID или SMTP-адрес пользователя.
     
 _result_
   
-> [out] Интерфейс **ISocialPerson.** 
+> [вышел] Интерфейс **ISocialPerson.** 
     
 ## <a name="remarks"></a>Примечания
 
-Параметр  _userID_ должен быть ид пользователя или SMTP-адрес. 
+Параметр  _userID_ должен быть пользовательским ИД или SMTP-адресом. 
   
 ## <a name="see-also"></a>См. также
 

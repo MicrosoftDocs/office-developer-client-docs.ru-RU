@@ -1,5 +1,5 @@
 ---
-title: SplineKnot_Type complexType (Visio XML)
+title: SplineKnot_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538909"
 ---
-# <a name="splineknot_type-complextype-visio-xml"></a>SplineKnot_Type complexType (Visio XML)
+# <a name="splineknot_type-complextype-visio-xml"></a>SplineKnot_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 

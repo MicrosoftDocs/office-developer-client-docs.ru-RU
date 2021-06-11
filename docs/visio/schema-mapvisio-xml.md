@@ -1,12 +1,12 @@
 ---
-title: Карта схемы (Visio XML)
+title: Схема карты (Visio XML)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3ff1f2e1-bdfe-2766-3c0f-0f299cc256e9
-description: В этом разделе показано определение схемы XML для формата файлов Visio 2013.
+description: В этом разделе показано определение схемы XML для формата Visio 2013 года.
 ms.openlocfilehash: 1822134546b730ceecb2f30183b4a8c325f37906
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539084"
 ---
-# <a name="schema-map-visio-xml"></a>Карта схемы (Visio XML)
+# <a name="schema-map-visio-xml"></a>Схема карты (Visio XML)
 
-В этом разделе показано определение схемы XML для формата файлов Visio 2013.
+В этом разделе показано определение схемы XML для формата Visio 2013 года.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

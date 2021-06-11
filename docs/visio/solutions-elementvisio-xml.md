@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 75e53ad0-3ca3-11a1-9107-63ec15601c13
-description: Указывает свойства решений, хранимые в документе.
+description: Указывает свойства решений, хранимых в документе.
 ms.openlocfilehash: f41e448681928c515ac7cb0d820d951b21549f76
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34540226"
 ---
 # <a name="solutions-element-visio-xml"></a>Элемент Solutions (Visio XML)
 
-Указывает свойства решений, хранимые в документе.
+Указывает свойства решений, хранимых в документе.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34540226"
 |**Тип элемента** <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |solutions.xml  <br/> |
+|**Части документов** <br/> |solutions.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -45,7 +45,7 @@ ms.locfileid: "34540226"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Решение](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Указывает один экземпляр XML решения, хранимый в документе.  <br/> |
+|[Решение](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Указывает один экземпляр XML-решения, хранимого в рисунке.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

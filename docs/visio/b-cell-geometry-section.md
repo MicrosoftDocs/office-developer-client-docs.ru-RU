@@ -22,11 +22,11 @@ ms.locfileid: "34537796"
   
 |Строка|Описание|
 |:-----|:-----|
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Y-координата контрольной точки дуги.   <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Y-координата точки управления дуги.   <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Последний вес несвязаного рационального B-spline (NURBS).  <br/> |
-|[SplineStart](splinestart-row-geometry-section.md) <br/> | Первая ветвь сплайна.  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Y-координата точки на бесконечной линии;  сопряжено  с x-координатой, представленной ячейкой [A.](a-cell-geometry-section.md)  <br/> |
-|[Ellipse](ellipse-row-geometry-section.md) <br/> | Y-координата точки на эллипсе;  сопряжено  с x-координатой, представленной ячейкой [A.](a-cell-geometry-section.md)  <br/> |
+|[SplineStart](splinestart-row-geometry-section.md) <br/> | Первый узел spline.  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | y-координата точки на бесконечной строке;  в паре с x-координатами, представленными [ячейкой A.](a-cell-geometry-section.md)   <br/> |
+|[Ellipse](ellipse-row-geometry-section.md) <br/> | y-координата точки на эллипсе;  в паре с x-координатами, представленными [ячейкой A.](a-cell-geometry-section.md)   <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -44,9 +44,9 @@ ms.locfileid: "34537796"
 | Индекс раздела:  <br/> |**visSectionFirstComponent** +  *i*, где *i* = 0, 1, 2...  <br/> |
 | Индекс строки:  <br/> |**visRowVertex** +  *j*, где *j* = 0, 1, 2...  <br/> |
 ||**visRowVertex** (строки InfiniteLine и Ellipse)  <br/> |
-| Индекс ячейки:  <br/> |**visControlX** (строка EllipticalArcTo)  <br/> |
-||**visControlY** (строка EllipticalArcTo)  <br/> |
-||**visNURBSWeight** (строка NURBSTo)  <br/> |
+| Индекс ячейки:  <br/> |**visControlX** (ряд EllipticalArcTo)  <br/> |
+||**visControlY** (ряд EllipticalArcTo)  <br/> |
+||**visNURBSWeight** (ряд NURBSTo)  <br/> |
 ||**visSplineKnot2** (строка SplineStart)  <br/> |
 ||**visInfiniteLineY2** (строка InfiniteLine)  <br/> |
 ||**visEllipseMajorY** (строка Ellipse)  <br/> |

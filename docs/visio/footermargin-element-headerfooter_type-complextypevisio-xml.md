@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 047f42cf-4202-50bd-40b4-a71052e2dfb3
-description: Указывает поле для footer документа.
+description: Указывает поле для подножки документа.
 ms.openlocfilehash: 5a147dbb8b94d9077836cb2269dd2ff72dae3b3a
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34538664"
 ---
 # <a name="footermargin-element-headerfooter_type-complextype-visio-xml"></a>Элемент FooterMargin (HeaderFooter_Type complexType) (Visio XML)
 
-Указывает поле для footer документа.
+Указывает поле для подножки документа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34538664"
 |**Тип элемента** <br/> |[FooterMargin_Type](footermargin_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |document.xml  <br/> |
+|**Части документов** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "34538664"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для опорного и footer-элементов документа.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для загона и подножки документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,6 +52,6 @@ ms.locfileid: "34538664"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Unit  <br/> |xsd:string  <br/> |необязательный  <br/> |Представляет единицу измерения. Значение по умолчанию — IN.  <br/> |Значения типа xsd:string.  <br/> |
+|Unit  <br/> |xsd:string  <br/> |необязательный  <br/> |Представляет единицу измерения. По умолчанию — IN.  <br/> |Значения типа xsd:string.  <br/> |
    
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 365e302f-3822-dccd-df8c-6e528d10b22b
-description: Содержит элементы Page для документа.
+description: Содержит элементы Страницы для документа.
 ms.openlocfilehash: 09feb09e6a01187892ba2756fb1c99dd1ef2f845
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34538979"
 ---
 # <a name="pages-element-visio-xml"></a>Элемент Pages (Visio XML)
 
-Содержит элементы Page для документа.
+Содержит элементы Страницы для документа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34538979"
 |**Тип элемента** <br/> |[Pages_Type](pages_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |pages.xml  <br/> |
+|**Части документов** <br/> |pages.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 

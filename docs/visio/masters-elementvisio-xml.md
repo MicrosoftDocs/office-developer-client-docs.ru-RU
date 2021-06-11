@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: eb90df82-58b6-5d0b-6b7d-826c5c27c755
-description: Содержит элементы Master для документа.
+description: Содержит основные элементы документа.
 ms.openlocfilehash: b2506466a5208223e3e7b9668ad6442030ec95c9
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34538055"
 ---
 # <a name="masters-element-visio-xml"></a>Элемент Masters (Visio XML)
 
-Содержит элементы Master для документа.
+Содержит основные элементы документа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34538055"
 |**Тип элемента** <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |masters.xml  <br/> |
+|**Части документов** <br/> |masters.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -46,8 +46,8 @@ ms.locfileid: "34538055"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие основные элементы для документа.  <br/> |
-|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Указывает ярлык, определенный в документе.  <br/> |
+|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие мастер документа.  <br/> |
+|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Указывает мастер-ярлык, определенный в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

@@ -1,5 +1,5 @@
 ---
-title: XML-схема поставщика Outlook Social Connector
+title: Outlook Схема XML-схемы поставщика социальных соединителем
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a88adf0-9265-4d49-976d-de0d93269aa9
-description: Весь XML-разбор, возвращаемой поставщиками OSC в методах extensibility поставщика OSC, должен соответствовать следующей XML-схеме поставщика OSC. Схема OSC полностью воспроизводится здесь.
+description: Все XML, возвращаемые поставщиками OSC в методах extensibility поставщика OSC, должны соответствовать следующей схеме XML поставщика OSC. Схема OSC воспроизводится здесь в полном объеме.
 ms.openlocfilehash: ad9b2833991997556f50a927d4552b68d2bfdb50
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541346"
 ---
-# <a name="outlook-social-connector-provider-xml-schema"></a>XML-схема поставщика Outlook Social Connector
+# <a name="outlook-social-connector-provider-xml-schema"></a>Outlook Схема XML-схемы поставщика социальных соединителем
 
-Весь XML-разбор, возвращаемой поставщиками OSC в методах extensibility поставщика OSC, должен соответствовать следующей XML-схеме поставщика OSC. Схема OSC полностью воспроизводится здесь. Текущий файл определения схемы, OutlookSocialProvider1_1.xsd, также предоставляется в загрузке шаблонов поставщиков, которые сопровождают эту статью. Дополнительные сведения см. в [outlook Social Connector 2013: шаблоны поставщиков.](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c) 
+Все XML, возвращаемые поставщиками OSC в методах extensibility поставщика OSC, должны соответствовать следующей схеме XML поставщика OSC. Схема OSC воспроизводится здесь в полном объеме. Текущий файл определения схемы OutlookSocialProvider1_1.xsd также представлен в загрузке шаблонов поставщика, которые сопровождают эту статью. Дополнительные сведения см. [в Outlook Social Connector 2013: Provider templates.](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c) 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -460,11 +460,11 @@ ms.locfileid: "34541346"
 
 ## <a name="see-also"></a>См. также
 
-- [XML-пример возможностей](capabilities-xml-example.md)  
-- [Пример XML-разных друзей](friends-xml-example.md) 
-- [Пример XML-канала активности](activity-feed-xml-example.md)  
+- [Пример XML возможностей](capabilities-xml-example.md)  
+- [Пример XML Friends](friends-xml-example.md) 
+- [Пример ленты действий XML](activity-feed-xml-example.md)  
 - [XML для возможностей](xml-for-capabilities.md)  
 - [XML для друзей](xml-for-friends.md)  
 - [XML для действий](xml-for-activities.md)  
-- [Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
+- [Outlook Интерфейсы поставщиков социальных соединители](outlook-social-connector-provider-interfaces.md)
 

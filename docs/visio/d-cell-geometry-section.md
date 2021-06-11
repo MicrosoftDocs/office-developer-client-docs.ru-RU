@@ -22,10 +22,10 @@ ms.locfileid: "34542501"
   
 |Строка|Описание|
 |:-----|:-----|
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Отношение основной оси дуги к ее второстепенной оси. Несмотря на обычное значение этих слов, "основная" ось не должна быть больше оси "minor", поэтому это соотношение не должно быть больше 1. Установка для этой ячейки значения, меньшего или равного 0 или больше 1000, может привести к непредсказуемым результатам.  <br/> |
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Первый вес несвязаемого рационального B-spline (NURBS).  <br/> |
-|[SplineStart](splinestart-row-geometry-section.md) <br/> | Степень сплайна (от 1 до 25).  <br/> |
-|[Ellipse](ellipse-row-geometry-section.md) <br/> | Y-координата точки на эллипсе;  в паре  с X-координатой, представленной ячейкой [C.](c-cell-geometry-section.md)  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Отношение основной оси дуги к ее малой оси. Несмотря на обычное значение этих слов, "основная" ось не должна быть больше оси "minor", поэтому это соотношение не должно быть больше 1. Установка этой ячейки на значение меньше 0 или более 1000 может привести к непредсказуемым результатам.  <br/> |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Первый вес несвязаного рационального B-spline (NURBS).  <br/> |
+|[SplineStart](splinestart-row-geometry-section.md) <br/> | Степень spline (integer от 1 до 25).  <br/> |
+|[Ellipse](ellipse-row-geometry-section.md) <br/> | y-координата точки на эллипсе;  в паре  с x-координатами, представленными [ячейкой C.](c-cell-geometry-section.md)  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -33,8 +33,8 @@ ms.locfileid: "34542501"
   
 |||
 |:-----|:-----|
-| Имя ячейки:  <br/> | Геометрия  *i*  . D  *j*            where  *i*  and  *j*  = <1>, 2, 3...  <br/> |
-|| Геометрия  *i*  . D1 (строка Ellipse),  *где i*  = <1>, 2, 3...  <br/> |
+| Имя ячейки:  <br/> | Геометрия  *i*  . D  *j,*            *где i*  и  *j*  = <1>, 2, 3 ...  <br/> |
+|| Геометрия  *i*  . D1 (строка Ellipse), где  *i*  = <1>, 2, 3...  <br/> |
    
 Чтобы получить ссылку на ячейку D по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
@@ -43,8 +43,8 @@ ms.locfileid: "34542501"
 | Индекс раздела:  <br/> |**visSectionFirstComponent** +  *i*, где *i* = 0, 1, 2...  <br/> |
 | Индекс строки:  <br/> |**visRowVertex** +  *j*, где *j* = 0, 1, 2...  <br/> |
 ||**visRowVertex** (строка Ellipse)  <br/> |
-| Индекс ячейки  <br/> |**visAspectRatio** (строка EllipticalArcTo)  <br/> |
-||**visNURBSWeightPrev** (строка NURBSTo)  <br/> |
+| Индекс ячейки  <br/> |**visAspectRatio** (ряд EllipticalArcTo)  <br/> |
+||**visNURBSWeightPrev** (ряд NURBSTo)  <br/> |
 ||**visSplineDegree** (строка SplineStart)  <br/> |
 ||**visEllipseMinorY** (строка Ellipse)  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Элемент DynamicGridEnabled (DocumentSettings_Type complexType) (Visio XML)
+title: Элемент DynamicGridEnabled (DocumentSettings_Type ComplexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540002"
 ---
-# <a name="dynamicgridenabled-element-documentsettings_type-complextype-visio-xml"></a>Элемент DynamicGridEnabled (DocumentSettings_Type complexType) (Visio XML)
+# <a name="dynamicgridenabled-element-documentsettings_type-complextype-visio-xml"></a>Элемент DynamicGridEnabled (DocumentSettings_Type ComplexType) (Visio XML)
 
 Указывает, включена ли функция динамической сетки для документа.
   
@@ -25,7 +25,7 @@ ms.locfileid: "34540002"
 |**Тип элемента** <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |windows.xml, document.xml  <br/> |
+|**Части документов** <br/> |windows.xml, document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "34540002"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие параметры документа.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, указывающие параметры документов.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

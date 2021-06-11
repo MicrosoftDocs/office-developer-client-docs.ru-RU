@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 71e75e9a-1392-b40b-1d51-167cd28b2c53
-description: Указывает сведения о фигурах в хозяине в документе.
+description: Указывает сведения о фигурах мастера в рисунке.
 ms.openlocfilehash: 26bc86aedeb96544f61f53052ab723b13b29500d
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34538041"
 ---
 # <a name="mastercontents-element-visio-xml"></a>Элемент MasterContents (Visio XML)
 
-Указывает сведения о фигурах в хозяине в документе. 
+Указывает сведения о фигурах мастера в рисунке. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34538041"
 |**Тип элемента** <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |master#.xml  <br/> |
+|**Части документов** <br/> |master#.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -46,8 +46,8 @@ ms.locfileid: "34538041"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Содержит элемент **Connect** для каждого подключения между двумя фигурами в документе.  <br/> |
-|[Shapes](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |Содержит коллекцию **элементов Shape.**  <br/> |
+|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Содержит элемент **Подключение** для каждого подключения между двумя фигурами в рисунке.  <br/> |
+|[Фигуры](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |Содержит коллекцию **элементов Shape.**  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

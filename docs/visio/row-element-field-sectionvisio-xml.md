@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7883cb55-a7db-10c0-be20-5d3c561e490f
-description: Отображает функции и формулы, вставленные в текст фигуры, с помощью диалогового окна "Поле".
+description: Отображает функции и формулы, вставленные в текст фигуры с помощью диалогового окна Field.
 ms.openlocfilehash: c05f704610d7061b9e2c8b742adc39f2b72ba4ae
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34541759"
 ---
 # <a name="row-element-field-section-visio-xml"></a>Элемент Row (Field Section) (Visio XML)
 
-Отображает функции и формулы, вставленные в текст фигуры, с помощью диалогового окна "Поле".
+Отображает функции и формулы, вставленные в текст фигуры с помощью диалогового окна Field.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34541759"
 |**Тип элемента** <br/> |[FieldRow_Type](fieldrow_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |master#.xml, page#.xml  <br/> |
+|**Части документов** <br/> |master#.xml, page#.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,22 +42,22 @@ ms.locfileid: "34541759"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Отображает функции и формулы, вставленные в текст фигуры, с помощью диалогового окна "Поле".  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Отображает функции и формулы, вставленные в текст фигуры с помощью диалогового окна Field.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-element-field-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Отображает функции и формулы, вставленные в текст фигуры, с помощью диалогового окна "Поле"  <br/> |
+|[Cell](cell-element-field-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Отображает функции и формулы, вставленные в текст фигуры с помощью диалогового окна Field  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Del  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает, была ли удалена строка, которая в противном случае наследуется от этаго фигуры.  <br/> |Значения типа xsd:boolean.  <br/> |
-|IX  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |Указывает идентификатор строки, основанный на одном. Оно должно быть неподдерживаемо и больше других идентификаторов в том же разделе. Атрибут IX используется только для разделов Character, Connection, Field, FillGradient, Geometry, Layer, LineGradient, Paragraph, Reviewer, Scratch и Tabs. Строка может иметь только один из атрибутов IX или N.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|LocalName  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает уникальное имя строки, зависимое от языка.  <br/> |Значения типа xsd:string.  <br/> |
-|N  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает уникальное независимое от языка имя строки. Атрибут N используется только для разделов "Пользователь", "Свойство", "Действия", "Управление", "Подключение", "Гиперссылка" и "ActionTag". Строка может иметь только один из атрибутов IX или N.  <br/> |Значения типа xsd:string.  <br/> |
-|T  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает тип геометрического пути, представленного строкой и используемого при визуализации геометрии. Атрибут T используется только для раздела "Геометрия".  <br/> |Значения типа xsd:string.  <br/> |
+|Del  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает, была ли удалена строка, которая в противном случае была бы унаследована от мастер-фигуры.  <br/> |Значения типа xsd:boolean.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |Указывает идентификатор для строки на основе одного. Он должен быть unqiue и больше, чем другие идентификаторы в том же разделе. Атрибут IX используется только для разделов Character, Connection, Field, FillGradient, Geometry, Layer, LineGradient, Paragraph, Reviewer, Scratch и Tabs. Строка может иметь только один из атрибутов IX или N.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|LocalName  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает уникальное имя строки, зависящие от языка.  <br/> |Значения типа xsd:string.  <br/> |
+|Нет  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает уникальное имя строки, независимое от языка. Атрибут N используется только для разделов User, Property, Actions, Control, Connection, Hyperlink и ActionTag. Строка может иметь только один из атрибутов IX или N.  <br/> |Значения типа xsd:string.  <br/> |
+|T  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает тип геометрического пути, представленного строкой и используемого в визуализации геометрии. Атрибут T используется только для раздела Геометрия.  <br/> |Значения типа xsd:string.  <br/> |
    
 

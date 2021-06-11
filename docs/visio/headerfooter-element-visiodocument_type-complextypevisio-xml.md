@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 026926cf-3d0b-984c-897e-9d28346b7ba7
-description: Содержит элементы для опорного и footer-элементов документа.
+description: Содержит элементы для загона и подножки документа.
 ms.openlocfilehash: c3c2f0adab4448ca88e5f2cca5605f397c48bd98
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34541108"
 ---
 # <a name="headerfooter-element-visiodocument_type-complextype-visio-xml"></a>Элемент HeaderFooter (VisioDocument_Type complexType) (Visio XML)
 
-Содержит элементы для опорного и footer-элементов документа.
+Содержит элементы для загона и подножки документа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34541108"
 |**Тип элемента** <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |document.xml  <br/> |
+|**Части документов** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -48,20 +48,20 @@ ms.locfileid: "34541108"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[FooterCenter](footercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterCenter_Type](footercenter_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в центральной части footer документа.  <br/> |
-|[FooterLeft](footerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterLeft_Type](footerleft_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в левой части footer документа.  <br/> |
-|[FooterMargin](footermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterMargin_Type](footermargin_type-complextypevisio-xml.md) <br/> |Указывает поле для footer документа.  <br/> |
-|[FooterRight](footerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterRight_Type](footerright_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в правой части footer документа.  <br/> |
+|[FooterCenter](footercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterCenter_Type](footercenter_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в центральной части подножки документа.  <br/> |
+|[FooterLeft](footerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterLeft_Type](footerleft_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в левой части подножки документа.  <br/> |
+|[FooterMargin](footermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterMargin_Type](footermargin_type-complextypevisio-xml.md) <br/> |Указывает поле для подножки документа.  <br/> |
+|[FooterRight](footerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterRight_Type](footerright_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в правой части подножки документа.  <br/> |
 |[HeaderCenter](headercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderCenter_Type](headercenter_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в центральной части загона документа.  <br/> |
-|[HeaderFooterFont](headerfooterfont-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderFooterFont_Type](headerfooterfont_type-complextypevisio-xml.md) <br/> |Указывает шрифт, используемый для текста в окне и в конце.  <br/> |
+|[HeaderFooterFont](headerfooterfont-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderFooterFont_Type](headerfooterfont_type-complextypevisio-xml.md) <br/> |Указывает шрифт, используемый для текста загона и подножки.  <br/> |
 |[HeaderLeft](headerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderLeft_Type](headerleft_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в левой части загона документа.  <br/> |
-|[HeaderMargin](headermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderMargin_Type](headermargin_type-complextypevisio-xml.md) <br/> |Указывает поле для загона документа.  <br/> |
+|[HeaderMargin](headermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderMargin_Type](headermargin_type-complextypevisio-xml.md) <br/> |Указывает маржу загона документа.  <br/> |
 |[HeaderRight](headerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderRight_Type](headerright_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в правой части загона документа.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|HeaderFooterColor  <br/> |xsd:string  <br/> |необязательный  <br/> |RGB-значение цвета текста для опорного и footer в виде гистистических нотации; например, #rrggbb.  <br/> |Значения типа xsd:string.  <br/> |
+|HeaderFooterColor  <br/> |xsd:string  <br/> |необязательный  <br/> |Значение RGB текстового цвета для загона и подножки в гексадецимальной нотации; например, #rrggbb.  <br/> |Значения типа xsd:string.  <br/> |
    
 

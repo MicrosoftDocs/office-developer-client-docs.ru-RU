@@ -1,5 +1,5 @@
 ---
-title: CommentEntry_Type complexType (Visio XML)
+title: CommentEntry_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540128"
 ---
-# <a name="commententry_type-complextype-visio-xml"></a>CommentEntry_Type complexType (Visio XML)
+# <a name="commententry_type-complextype-visio-xml"></a>CommentEntry_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -79,7 +79,7 @@ ms.locfileid: "34540128"
 |AuthorID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
 |AutoCommentType  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
 |CommentID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|Дата  <br/> |xsd:dateTime  <br/> |Обязательный  <br/> ||Значения типа xsd:dateTime.  <br/> |
+|Date  <br/> |xsd:dateTime  <br/> |Обязательный  <br/> ||Значения типа xsd:dateTime.  <br/> |
 |Готово  <br/> |xsd:boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
 |EditDate  <br/> |xsd:dateTime  <br/> |необязательный  <br/> ||Значения типа xsd:dateTime.  <br/> |
 |PageID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: CellDef_Type complexType (Visio XML)
+title: CellDef_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542298"
 ---
-# <a name="celldef_type-complextype-visio-xml"></a>CellDef_Type complexType (Visio XML)
+# <a name="celldef_type-complextype-visio-xml"></a>CellDef_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -62,7 +62,7 @@ ms.locfileid: "34542298"
 |:-----|:-----|:-----|:-----|:-----|
 |F  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
 |IX  <br/> |xsd:unsignedByte  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedByte.  <br/> |
-|N  <br/> |xsd:string  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|Нет  <br/> |xsd:string  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
 |S  <br/> |xsd:unsignedByte  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedByte.  <br/> |
 |T  <br/> |xsd:token  <br/> |Обязательный  <br/> ||Значения типа xsd:token.  <br/> |
    

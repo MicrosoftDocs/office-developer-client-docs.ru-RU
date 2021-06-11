@@ -23,7 +23,7 @@ ms.locfileid: "33439613"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Возвращает указатель на сеанс MAPI, связанный с объектом поддержки MAPI.
   
@@ -33,11 +33,11 @@ HRESULT GetMAPISession(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _lppSession_
   
-> [out] Указатель на текущий сеанс MAPI.
+> [вышел] Указатель на текущий сеанс MAPI.
     
 ## <a name="see-also"></a>См. также
 

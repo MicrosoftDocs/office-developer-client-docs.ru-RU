@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm680
 localization_priority: Normal
 ms.assetid: b82feade-5793-8a6e-3ff4-69a4cbdd2cf9
-description: 'Представляет x-координату закрепления фигуры (центра поворота) относительно начала фигуры. Формула по умолчанию для определения LocPinX:'
+description: 'Представляет x-координату пина фигуры (центр вращения) по отношению к происхождению фигуры. Формула определения LocPinX по умолчанию:'
 ms.openlocfilehash: 2eb5c328eed3c97652173670c426b83b8c358833
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33439242"
 ---
 # <a name="locpinx-cell-shape-transform-section"></a>LocPinX Cell (Shape Transform Section)
 
-Представляет  *x-координату*  закрепления фигуры (центра поворота) относительно начала фигуры. Формула по умолчанию для определения LocPinX: 
+Представляет  x-координату пина фигуры (центр вращения) по отношению к происхождению фигуры. Формула определения LocPinX по умолчанию: 
   
 = \* Ширина 0,5
   

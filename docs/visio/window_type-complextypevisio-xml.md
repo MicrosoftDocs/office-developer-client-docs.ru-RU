@@ -1,5 +1,5 @@
 ---
-title: Window_Type complexType (Visio XML)
+title: Window_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538454"
 ---
-# <a name="window_type-complextype-visio-xml"></a>Window_Type complexType (Visio XML)
+# <a name="window_type-complextype-visio-xml"></a>Window_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -207,9 +207,9 @@ ms.locfileid: "34538454"
 |ViewCenterY  <br/> |xsd:double  <br/> |необязательный  <br/> ||Значения типа xsd:double.  <br/> |
 |ViewScale  <br/> |xsd:double  <br/> |необязательный  <br/> ||Значения типа xsd:double.  <br/> |
 |WindowHeight  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|WindowLeft  <br/> |xsd:short  <br/> |необязательный  <br/> ||Значения типа xsd:short.  <br/> |
+|WindowLeft  <br/> |xsd:short  <br/> |необязательный  <br/> ||Значения xsd:short типа.  <br/> |
 |WindowState  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|WindowTop  <br/> |xsd:short  <br/> |необязательный  <br/> ||Значения типа xsd:short.  <br/> |
+|WindowTop  <br/> |xsd:short  <br/> |необязательный  <br/> ||Значения xsd:short типа.  <br/> |
 |WindowType  <br/> |xsd:token  <br/> |Обязательный  <br/> ||Значения типа xsd:token.  <br/> |
 |WindowWidth  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
    

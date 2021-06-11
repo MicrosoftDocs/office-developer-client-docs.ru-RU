@@ -1,12 +1,12 @@
 ---
-title: Элемент Connects (PageContents_Type complexType) (Visio XML)
+title: Подключает элемент (PageContents_Type ComplexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 398c141c-8a40-7605-254a-2ee7cc0a7af5
-description: Содержит элемент Connect для каждого подключения между двумя фигурами в документе.
+description: Содержит элемент Подключение для каждого подключения между двумя фигурами в рисунке.
 ms.openlocfilehash: d421068926a40a8f7c24a783388d06091700211f
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538713"
 ---
-# <a name="connects-element-pagecontents_type-complextype-visio-xml"></a>Элемент Connects (PageContents_Type complexType) (Visio XML)
+# <a name="connects-element-pagecontents_type-complextype-visio-xml"></a>Подключает элемент (PageContents_Type ComplexType) (Visio XML)
 
-Содержит элемент **Connect** для каждого подключения между двумя фигурами в документе. 
+Содержит элемент **Подключение** для каждого подключения между двумя фигурами в рисунке. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34538713"
 |**Тип элемента** <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |page#.xml, master#.xml  <br/> |
+|**Части документов** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,14 +42,14 @@ ms.locfileid: "34538713"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[MasterContents](mastercontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Указывает сведения о фигурах в эталме или на странице рисования рисунка.  <br/> |
-|[PageContents](pagecontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Указывает сведения о фигурах в эталме или на странице рисования рисунка.  <br/> |
+|[MasterContents](mastercontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Указывает сведения о фигурах в мастере или на странице рисования рисунка.  <br/> |
+|[PageContents](pagecontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Указывает сведения о фигурах в мастере или на странице рисования рисунка.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Connect](connect-element-connects_type-complextypevisio-xml.md) <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |Представляет соединение между двумя фигурами в рисунке, например строкой и полем в диаграмме организации.  <br/> |
+|[Connect](connect-element-connects_type-complextypevisio-xml.md) <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |Представляет связь между двумя фигурами в рисунке, например строкой и полем в диаграмме организации.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

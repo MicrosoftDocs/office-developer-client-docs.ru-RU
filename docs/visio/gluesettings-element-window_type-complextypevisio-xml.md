@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b5292f82-f299-ea96-6101-ebb799bbec9a
-description: Указывает объекты, к которые фигуры примеся, когда в документе включено приклейка.
+description: Указывает объекты, которые формирует клей, когда клей включен в документе.
 ms.openlocfilehash: c2966cfb8805120aca164fc2f6f28b0210923f6f
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34542207"
 ---
 # <a name="gluesettings-element-window_type-complextype-visio-xml"></a>Элемент GlueSettings (Window_Type complexType) (Visio XML)
 
-Указывает объекты, к которые фигуры примеся, когда в документе включено приклейка.
+Указывает объекты, которые формирует клей, когда клей включен в документе.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34542207"
 |**Тип элемента** <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |windows.xml, document.xml  <br/> |
+|**Части документов** <br/> |windows.xml, document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 

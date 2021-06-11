@@ -1,5 +1,5 @@
 ---
-title: Элемент Issue (Issues_Type complexType) (Visio XML)
+title: Элемент issue (Issues_Type ComplexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541129"
 ---
-# <a name="issue-element-issues_type-complextype-visio-xml"></a>Элемент Issue (Issues_Type complexType) (Visio XML)
+# <a name="issue-element-issues_type-complextype-visio-xml"></a>Элемент issue (Issues_Type ComplexType) (Visio XML)
 
 Представляет одну проблему проверки в документе.
   
@@ -25,7 +25,7 @@ ms.locfileid: "34541129"
 |**Тип элемента** <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |validation.xml  <br/> |
+|**Части документов** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -48,14 +48,14 @@ ms.locfileid: "34541129"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[IssueTarget](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |В зависимости от целевого адреса родительской проблемы проверки указывает страницу или страницу и фигуру, связанную с проблемой родительской проверки.  <br/> |
-|[RuleInfo](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |Указывает сведения о правиле проверки, к которое относится родительская проблема проверки.  <br/> |
+|[IssueTarget](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |В зависимости от цели родительской проблемы проверки указывается страница или страница и форма, связанные с родительской проблемой проверки.  <br/> |
+|[RuleInfo](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |Указывает сведения о правиле проверки, к который относится родительская проблема проверки.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |ID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Указывает уникальный идентификатор проблемы проверки.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|Игнорирован  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает сведения о правиле проверки, к которое относится родительская проблема проверки.  <br/> |Значения типа xsd:boolean.  <br/> |
+|Игнорирован  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает сведения о правиле проверки, к который относится родительская проблема проверки.  <br/> |Значения типа xsd:boolean.  <br/> |
    
 

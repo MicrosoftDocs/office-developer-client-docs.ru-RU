@@ -147,9 +147,9 @@ XML-атрибуты и их значения выполняют роль ука
 
 6. Последним подготовительным действием для обеспечения поддержки пользовательского объединения форм является обновление элемента **importParameters** в XSF-файле, связанном с формой. 
 
-    Найдите тег  `<xsf:importParameters>` в файле XSF. Для каждой пары преобразования схемы или XSL, созданной для формы, добавьте элемент **xsf:importSource** в элемент **xsf:importParameters:**  `<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>` . 
+    Найдите тег  `<xsf:importParameters>` в файле XSF. Для каждой пары преобразований схемы/XSL, созданной для формы, добавьте элемент **xsf:importSource** в **элемент xsf:importParameters:**  `<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>` . 
     
-    Атрибут **имени** элемента **xsf:importSource** содержит имя шаблона формы, которое можно найти в XML-документе источника. Это значение обычно можно оставить пустым. Атрибут **schema** содержит имя файла схемы, добавленного к шаблону формы на предыдущем шаге. Атрибут **transform** содержит имя преобразования XSL, которое используется для преобразования форм, соответствующих схеме. 
+    Атрибут **имени** элемента **xsf:importSource** содержит имя шаблона формы, которое можно найти в источнике XML-документа. Это значение обычно можно оставить пустым. Атрибут **schema** содержит имя файла схемы, добавленного к шаблону формы на предыдущем шаге. Атрибут **transform** содержит имя преобразования XSL, которое используется для преобразования форм, соответствующих схеме. 
     
     Настраиваемое преобразование можно использовать как с событием [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) , так и без него. 
     

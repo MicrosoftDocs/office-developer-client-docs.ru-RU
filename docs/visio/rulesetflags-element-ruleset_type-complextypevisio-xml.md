@@ -25,7 +25,7 @@ ms.locfileid: "34541598"
 |**Тип элемента** <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |validation.xml  <br/> |
+|**Части документов** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "34541598"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Представляет один набор правил проверки схемы.  <br/> |
+|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Представляет один набор правил проверки диаграммы.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,6 +52,6 @@ ms.locfileid: "34541598"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Hidden  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает, отображается ли набор правил в списке правил для проверки.  <br/> |Значения типа xsd:boolean.  <br/> |
+|Hidden  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает, отображается ли набор правил в списке Правила для проверки.  <br/> |Значения типа xsd:boolean.  <br/> |
    
 

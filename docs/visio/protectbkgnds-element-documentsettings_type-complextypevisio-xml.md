@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 99b7d89e-b482-ef19-1683-667095f8114a
-description: Указывает, может ли пользователь удалять или редактировать фоновые страницы.
+description: Указывает, не мешает ли пользователю удалять или изменять фоновые страницы.
 ms.openlocfilehash: b053eca7b669b60bedd34bc4a6798f9b9182b529
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34540751"
 ---
 # <a name="protectbkgnds-element-documentsettings_type-complextype-visio-xml"></a>Элемент ProtectBkgnds (DocumentSettings_Type complexType) (Visio XML)
 
-Указывает, может ли пользователь удалять или редактировать фоновые страницы.
+Указывает, не мешает ли пользователю удалять или изменять фоновые страницы.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "34540751"
 |**Тип элемента** <br/> |[ProtectBkgnds_Type](protectbkgnds_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |document.xml  <br/> |
+|**Части документов** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "34540751"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие параметры документа.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, указывающие параметры документов.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

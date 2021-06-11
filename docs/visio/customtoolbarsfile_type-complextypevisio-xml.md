@@ -1,5 +1,5 @@
 ---
-title: CustomToolbarsFile_Type complexType (Visio XML)
+title: CustomToolbarsFile_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539205"
 ---
-# <a name="customtoolbarsfile_type-complextype-visio-xml"></a>CustomToolbarsFile_Type complexType (Visio XML)
+# <a name="customtoolbarsfile_type-complextype-visio-xml"></a>CustomToolbarsFile_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cd822240-a895-65da-6a0e-76657c15a69e
-description: Сбрасывает enumerator в начало.
+description: Сбрасывает переустановку в начале.
 ms.openlocfilehash: 80be2ac522954ece0aa17dd9a6842c091522b98b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33439648"
 ---
 # <a name="iolkenumreset"></a>IOlkEnum::Reset
 
-Сбрасывает enumerator в начало.
+Сбрасывает переустановку в начале.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-См. [IOlkEnum](iolkenum.md).
+См. [iOlkEnum](iolkenum.md).
   
 ```cpp
 HRESULT IOlkEnum::Reset ();

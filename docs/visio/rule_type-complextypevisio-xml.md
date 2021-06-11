@@ -1,5 +1,5 @@
 ---
-title: Rule_Type complexType (Visio XML)
+title: Rule_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541717"
 ---
-# <a name="rule_type-complextype-visio-xml"></a>Rule_Type complexType (Visio XML)
+# <a name="rule_type-complextype-visio-xml"></a>Rule_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -75,7 +75,7 @@ ms.locfileid: "34541717"
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |[RuleFilter](rulefilter-element-rule_type-complextypevisio-xml.md) <br/> |[RuleFilter_Type](rulefilter_type-complextypevisio-xml.md) <br/> ||
-|[RuleTest (тест правил)](ruletest-element-rule_type-complextypevisio-xml.md) <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> ||
+|[RuleTest](ruletest-element-rule_type-complextypevisio-xml.md) <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

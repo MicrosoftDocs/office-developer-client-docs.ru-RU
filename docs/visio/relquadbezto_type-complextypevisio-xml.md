@@ -1,5 +1,5 @@
 ---
-title: RelQuadBezTo_Type complexType (Visio XML)
+title: RelQuadBezTo_Type ComplexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542739"
 ---
-# <a name="relquadbezto_type-complextype-visio-xml"></a>RelQuadBezTo_Type complexType (Visio XML)
+# <a name="relquadbezto_type-complextype-visio-xml"></a>RelQuadBezTo_Type ComplexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 

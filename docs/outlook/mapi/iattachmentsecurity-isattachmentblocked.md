@@ -23,9 +23,9 @@ ms.locfileid: "33439781"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Проверяет, заблокировано ли указанное вложение Microsoft Outlook 2010, русская версия Или Microsoft Outlook 2013 для просмотра и индексации.
+Проверяет, блокируется ли указанное вложение Microsoft Outlook 2010, русская версия или Microsoft Outlook 2013 для просмотра и индексации.
   
 ```cpp
 HRESULT IAttachmentSecurity::IsAttachmentBlocked( 
@@ -34,7 +34,7 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _pwszFileName_
   
@@ -42,7 +42,7 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
     
  _pfBlocked_
   
-> [out] Указатель на значение, указывающее **значение true,** если указанное вложение заблокировано; в **противном** случае false .
+> [вышел] Указатель на значение, указывающее **значение true,** если указанное вложение заблокировано; в противном **случае, false**.
     
 ## <a name="see-also"></a>См. также
 

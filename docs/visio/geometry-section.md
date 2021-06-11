@@ -20,30 +20,30 @@ ms.locfileid: "34542284"
 
 Содержит строки, которые перечисляют координаты вершин для линий и дуг, которые составляют фигуру. 
   
-Геометрия фигуры может быть выражена в нескольких **разделах геометрии.** Несколько путей могут быть полезны, если у нескольких путей [](clippingpath-cell-foreign-image-info-section.md) разные свойства (например, пути обрезки изображений). 
+Геометрия фигуры может быть выражена в нескольких **разделах Геометрия.** Несколько путей могут быть полезны, если несколько путей имеют различные свойства (например, пути [вырезки изображений).](clippingpath-cell-foreign-image-info-section.md) 
   
 ## <a name="remarks"></a>Примечания
 
-Раздел **"Геометрия"** содержит следующие типы строк. Подробные сведения см. в темах по строкам. 
+Раздел **Geometry** содержит следующие типы строк. Подробные сведения см. в разделе строки. 
   
 |Строка|Описание|
 |:-----|:-----|
-|[MoveTo](moveto-row-geometry-section.md) <br/> |Перейти к координате.  <br/> |
-|[LineTo](lineto-row-geometry-section.md) <br/> |Нарисуйте линию в координату.  <br/> |
-|[ArcTo](arcto-row-geometry-section.md) <br/> |Нарисуйте циклическая дуга к координате.  <br/> |
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> |Нарисуйте эллиптическую дугу в координате.  <br/> |
-|[PolylineTo](polylineto-row-geometry-section.md) <br/> |Нарисуйте многолинейную или последовательные линии в координате.  <br/> |
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> |Нарисуйте не однородный логический B-spline (NURBS) в координате.  <br/> |
+|[MoveTo](moveto-row-geometry-section.md) <br/> |Перемещение в координаты.  <br/> |
+|[LineTo](lineto-row-geometry-section.md) <br/> |Нарисуйте строку в координату.  <br/> |
+|[ArcTo](arcto-row-geometry-section.md) <br/> |Нарисуйте круговую дугу в координаты.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> |Нарисуйте эллиптическую дугу в координаты.  <br/> |
+|[PolylineTo](polylineto-row-geometry-section.md) <br/> |Нарисуйте в координате полилин или последовательные строки.  <br/> |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> |Нарисуйте не однородный рациональный B-spline (NURBS) в координату.  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> |Запустите spline.  <br/> |
-|[SplineKnot](splineknot-row-geometry-section.md) <br/> |Отрисовка сегмента сплайна в координате координаты координаты.  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> |Нарисуйте бесконечное число строк из одной координаты в другую.  <br/> |
-|[Ellipse](ellipse-row-geometry-section.md) <br/> |Нарисуйте эллипс из центральной координаты и основной или второстепенной оси.  <br/> |
-|[RelCubBezTo](relcubbezto-row-geometry-section.md) <br/> |Нарисуйте кривая Безье по ширине и высоте фигуры.  <br/> |
-|[RelEllipticalArcTo](relellipticalarcto-row-geometry-section.md) <br/> |Нарисуйте эллиптическую дугу к координате относительно высоты и ширины фигуры.  <br/> |
-|[RelLineTo](rellineto-row-geometry-section.md) <br/> |Нарисуйте линию к координате относительно высоты и ширины фигуры.  <br/> |
-|[RelMoveTo](relmoveto-row-geometry-section.md) <br/> |Перемещение к координате относительно ширины и высоты фигуры.  <br/> |
-|[RelQuadBezTo](relquadbezto-row-geometry-section.md) <br/> |Рисует кривую Безье четверного безье относительно ширины и высоты фигуры.  <br/> |
+|[SplineKnot](splineknot-row-geometry-section.md) <br/> |Нарисуйте сегмент spline в координату узла.  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> |Нарисуйте бесконечную линию из одной координаты в другую.  <br/> |
+|[Ellipse](ellipse-row-geometry-section.md) <br/> |Нарисуйте эллипс из центральной координаты и оси мажор/минор.  <br/> |
+|[RelCubBezTo](relcubbezto-row-geometry-section.md) <br/> |Нарисуйте кубический кривой Безье относительно ширины и высоты фигуры.  <br/> |
+|[RelEllipticalArcTo](relellipticalarcto-row-geometry-section.md) <br/> |Нарисуйте эллиптическую дугу в координату относительно высоты и ширины фигуры.  <br/> |
+|[RelLineTo](rellineto-row-geometry-section.md) <br/> |Нарисуйте строку в координате относительно высоты и ширины фигуры.  <br/> |
+|[RelMoveTo](relmoveto-row-geometry-section.md) <br/> |Перемещение в координаты относительно ширины и высоты фигуры.  <br/> |
+|[RelQuadBezTo](relquadbezto-row-geometry-section.md) <br/> |Рисует квадратную кривую Безье относительно ширины и высоты фигуры.  <br/> |
    
-Чтобы изменить тип строки в этом разделе, щелкните  ее правой кнопкой мыши и выберите пункт "Изменить тип строки" в ярлыковом меню. 
+Чтобы изменить тип строки в этом разделе, щелкните правой кнопкой мыши строку и нажмите **кнопку Изменить** строку в меню ярлыка. 
   
 

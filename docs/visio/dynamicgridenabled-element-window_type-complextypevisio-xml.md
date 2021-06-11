@@ -25,7 +25,7 @@ ms.locfileid: "34539965"
 |**Тип элемента** <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |windows.xml, document.xml  <br/> |
+|**Части документов** <br/> |windows.xml, document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
