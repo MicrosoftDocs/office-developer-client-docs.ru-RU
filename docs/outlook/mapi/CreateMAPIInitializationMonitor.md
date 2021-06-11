@@ -45,7 +45,7 @@ HRESULT CreateMAPIInitializationMonitor(IMAPIInitMonitor** ppInitMonitor);
 |Вызывающая сторона:  <br/> |Клиент  <br/> |
 |Реализовано в:  <br/> |Outlook  <br/> |
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
   
  _ppInitMonitor_
 > [вышел] Указатель для получения вновь созданного экземпляра монитора инициализации MAPI.

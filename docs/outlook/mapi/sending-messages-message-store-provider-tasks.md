@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/14/2019
 ms.locfileid: "37495308"
 ---
-# <a name="sending-messages-message-store-provider-tasks"></a>Отправка сообщений: задачи поставщика store сообщений
+# <a name="sending-messages-message-store-provider-tasks"></a>Отправка сообщений: задачи поставщика магазина сообщений
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 A message store provider gets involved with the message sending process when a client calls the message's [IMessage::SubmitMessage](imessage-submitmessage.md) method. If multiple messages are to be sent, the message store must send them in the same order that the client used for its **SubmitMessage** calls. 
   
@@ -25,52 +25,52 @@ A message store provider gets involved with the message sending process when a c
   
 ��������� ��������� ��������� ������, ������� ���������� ���������� ��������� ��������� ��� �������� ���������. 
   
-**В IMessage::SubmitMessage поставщик службы хранения сообщений:**
+**В IMessage::SubmitMessage поставщик магазина сообщений:**
   
-1. Вызывает [IMAPISupport::P repareSubmit,](imapisupport-preparesubmit.md) если в свойстве **PR_MESSAGE_FLAGS** [(PidTagMessageFlags) сообщения установлен флаг MSGFLAG_RESEND ( PidTagMessageFlags)](pidtagmessageflags-canonical-property.md)и клиент возвращает ошибки. **PrepareSubmit** проверяет **PR_RECIPIENT_TYPE** ([PidTagRecipientType)](pidtagrecipienttype-canonical-property.md)каждого получателя в списке получателей сообщения.
+1. Вызывает [IMAPISupport::P repareSubmit,](imapisupport-preparesubmit.md) если в сообщении установлен флаг MSGFLAG_RESEND в свойстве **PR_MESSAGE_FLAGS** [(PidTagMessageFlags)](pidtagmessageflags-canonical-property.md)и возвращается клиенту все ошибки. **PrepareSubmit** **проверяет свойство PR_RECIPIENT_TYPE** [(PidTagRecipientType)](pidtagrecipienttype-canonical-property.md)каждого получателя в списке получателей сообщения.
     
-   - Если установлен MAPI_SUBMITTED, указывающий, что получатель не получил исходное сообщение, **PrepareSubmit** очищает флаг и устанавливает для свойства **PR_RESPONSIBILITY** ([PidTagResponsibility)](pidtagresponsibility-canonical-property.md)true. 
+   - Если флаг MAPI_SUBMITTED, указывающий, что получатель не получил исходное сообщение, **PrepareSubmit** очищает флаг и задает свойство [PR_RESPONSIBILITY (PidTagResponsibility)](pidtagresponsibility-canonical-property.md)true.  
     
-   - Если флаг MAPI_SUBMITTED не установлен, указывая, что получатель получил исходное сообщение, **PrepareSubmit** изменяет свойство **PR_RECIPIENT_TYPE** на MAPI_P1 и устанавливает для свойства **PR_RESPONSIBILITY** true и возвращает клиенту все ошибки, созданные **prepareSubmit.** 
+   - Если флаг MAPI_SUBMITTED не установлен, указав, что получатель действительно получил исходное сообщение, **PrepareSubmit** изменяет  свойство **PR_RECIPIENT_TYPE** на MAPI_P1 и задает свойство PR_RESPONSIBILITY true и возвращает клиенту любую ошибку, созданную **prepareSubmit.** 
     
 2. ������ ���� MSGFLAG_SUBMIT � �������� **PR_MESSAGE_FLAGS** ���������. 
     
 3. ������ �� ���, ��� ������� ��� **PR_RESPONSIBILITY** � ������� ����������� � ������ �������� FALSE, ����� �������, ��� ��� ���������� ��� �������������� ��������������� ��� �������� ���������. 
     
-4. Задает дату и время начала в свойстве **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime).](pidtagclientsubmittime-canonical-property.md)
+4. Задает дату и время возникновения в **свойстве** [PR_CLIENT_SUBMIT_TIME (PidTagClientSubmitTime).](pidtagclientsubmittime-canonical-property.md)
     
 5. Calls [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md) to: 
     
    - ���������� ��� ������ �������� � ����������� � �������� ��� ���������� ������������ ����� � ��������� �������.
    - �������� ������������� ����.
-   - Проверьте требуемую предварительную подготовку и, если требуется предварительная проверка, установите флаг NEEDS_PREPROCESSING и **свойство PR_PREPROCESS** ([PidTagPreprocess),](pidtagpreprocess-canonical-property.md)свойство, зарезервированное для MAPI. 
+   - Проверьте, требуется ли предварительная процессировка, и если требуется предварительная проверка, установите флаг NEEDS_PREPROCESSING и **свойство PR_PREPROCESS** [(PidTagPreprocess),](pidtagpreprocess-canonical-property.md)свойство, зарезервированное для MAPI. 
    - ���������� ����� NEEDS_SPOOLER ��������� ��������� ����� ������� � ���������� � �� ����� ���������� ���� �����������. 
     
 6. ���� ���������� ���� ��������� NEEDS_PREPROCESSING ��������� ��������� ������:
     
-   - Помещает сообщение в исходяную очередь с установленным SUBMITFLAG_PREPROCESS в свойстве **PR_SUBMIT_FLAGS** ([PidTagSubmitFlags).](pidtagsubmitflags-canonical-property.md)
+   - Помещает сообщение в исходячую очередь с SUBMITFLAG_PREPROCESS в свойстве[PR_SUBMIT_FLAGS (PidTagSubmitFlags).](pidtagsubmitflags-canonical-property.md) 
    - ���������� ��������� ������� MAPI, ������� ��� ������� �������.
    - ��������� ���������� ������� � ����� ��������� ��-�������� ������������ � ��������� ������� MAPI. 
    - ��������� ������� MAPI ��������� ��������� ������:
-     - Блокирует сообщение, вызывая IMsgStore::SetLockState. 
-     - Выполняет необходимую предварительную подготовку, вызывая все функции предварительной подготовки в порядке регистрации. Поставщики транспорта звонят IMAPISupport::RegisterPreprocessor для регистрации функций предварительной очистки. 
-     - Вызывает IMessage::SubmitMessage в открытом сообщении, чтобы указать в хранилище сообщений, что предварительная процессинг завершена.
+     - Блокирует сообщение, позвонив в IMsgStore::SetLockState. 
+     - Выполняет необходимую предварительную подготовку, вызывая все функции предварительной подготовки в порядке регистрации. Поставщики транспорта звонят по вызову IMAPISupport::RegisterPreprocessor для регистрации функций препроцессации. 
+     - Вызывает IMessage::SubmitMessage в открытом сообщении, чтобы указать в хранилище сообщений, что препроцессия завершена.
 
 <br/>
 
-Следующие два шага происходят в клиентском процессе, если предварительной обработки не было, и когда пулер MAPI вызывает **SubmitMessage,** если была предварительная обработка. 
+Следующие два шага происходят в клиентском процессе, если не было предварительной обработки, и когда пульпер MAPI вызывает **SubmitMessage,** если была предварительная обработка. 
 
-**Поставщик службы хранения сообщений:**
+**Поставщик хранения сообщений:**
 
 1. Performs the following tasks if the message store is tightly coupled to a transport and the NEEDS_SPOOLER flag was returned from [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md):
     
    - ������������ �����������, ������� ����� ������������.
    - ������������� ��� �������� **PR_RESPONSIBILITY** �������� TRUE ��� �����������, ������� �� ������������. 
    - ���� ��� ���������� ��������, ��� ���� ����� ��������� ��������� � ����������, ��������� ��������� ������:
-     - Вызывает IMAPISupport::CompleteMsg, если сообщение было предварительно обработчино или поставщику хранилище сообщений требуется, чтобы пулер MAPI завершил обработку сообщений, что рекомендуется для вызова обработок сообщений. Поток сообщений продолжается с помощью пула MAPI, как описано в следующей процедуре.  
-     - Выполняет следующие задачи, если сообщение не было предварительно обрабатывается или поставщик хранилище сообщений не хочет, чтобы пулер MAPI выполнял обработку сообщений:
-       - Копирует сообщение в папку, идентифицируемую идентификатором записи в свойстве PR_SENTMAIL_ENTRYID (PidTagSentMailEntryId), если задан.
-       - Удаляет сообщение, если PR_DELETE_AFTER_SUBMIT (PidTagDeleteAfterSubmit) имеет свойство TRUE.
+     - Вызывает IMAPISupport::CompleteMsg, если сообщение было предварительно оформлено или поставщик магазина сообщений хочет, чтобы пуллер MAPI завершил обработку сообщений, которая рекомендуется для вызова крючков обмена сообщениями. Поток сообщений продолжается с пульпером MAPI, как описано в следующей процедуре.  
+     - Выполняет следующие задачи, если сообщение не было предпроцессом или поставщик магазина сообщений не хочет, чтобы пулер MAPI завершил обработку сообщений:
+       - Копирует сообщение в папку, указанную идентификатором записи в свойстве PR_SENTMAIL_ENTRYID (PidTagSentMailEntryId), если установлено.
+       - Удаляет сообщение, если PR_DELETE_AFTER_SUBMIT (PidTagDeleteAfterSubmit) установлено true.
        - Разблокирует сообщение, если оно заблокировано.
        - Возвращается клиенту. Поток сообщений завершен. 
    
