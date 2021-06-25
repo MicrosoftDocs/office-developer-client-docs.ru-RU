@@ -7,19 +7,19 @@ ms:contentKeyID: 48548222
 ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 3f3da0d9e68024d7da9a0bcfca0fef30c7f646ed
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d1870f80c15d958fc1b28cf9ef165df0a834971c
+ms.sourcegitcommit: 35b723efe168ae4bad461bd16b26f9a2412656f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292050"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53139088"
 ---
 # <a name="handling-errors-in-vbscript"></a>Обработка ошибок на языке VBScript
 
 
 **Область применения**: Access 2013, Office 2013
 
-Существует небольшая разница между методами, используемыми в Visual Basic и теми, которые используются с VBScript. Основное отличие состоит в том, что VBScript не поддерживает концепцию обработки ошибок, продолжая выполнение на метку. Другими словами, нельзя использовать On Error GoTo в VBScript. Вместо этого используйте в VBScript. Вместо этого используйте On Error Resume Next, а затем проверьте как **Err.Number,** так и свойство **Count** из коллекции **Ошибок,** как показано в следующем примере:
+Существует небольшая разница между методами, используемыми в Visual Basic и теми, которые используются с VBScript. Основное отличие состоит в том, что VBScript не поддерживает концепцию обработки ошибок, продолжая выполнение на метку. Другими словами, нельзя использовать On Error GoTo в VBScript. Вместо этого в VBScript используйте On Error Resume Next, а затем проверьте свойство **Err.Number** и свойство **Count** из коллекции **Ошибок,** как показано в следующем примере:
 
 ```vb 
  
